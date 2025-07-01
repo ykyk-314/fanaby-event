@@ -6,6 +6,7 @@ from selenium.webdriver.chrome.options import Options
 import pandas as pd
 import os
 import json
+from webdriver_manager.chrome import ChromeDriverManager
 
 # 環境変数で設定
 chromedriver_path = os.getenv('CHROMEDRIVER_PATH', '/usr/local/bin/chromedriver')

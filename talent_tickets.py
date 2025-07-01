@@ -9,13 +9,11 @@ import json
 from webdriver_manager.chrome import ChromeDriverManager
 
 # 環境変数で設定
-chromedriver_path = os.getenv('CHROMEDRIVER_PATH', '/usr/local/bin/chromedriver')
 talent_url = os.getenv('TALENT_BASE_URL')
 talents = json.loads(os.getenv('TALENTS', '[]'))
 
 def get_ticket_info(talent_id, talent_name):
     url = f"{talent_url}{talent_id}"
-    # driver = webdriver.Chrome(service=Service(chromedriver_path), options=setup_driver_options())
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=setup_driver_options())
     driver.get(url)
 

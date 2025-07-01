@@ -22,10 +22,15 @@ jobs:
 
       - name: Run scraper
         env:
-          CHROMEDRIVER_PATH: /usr/local/bin/chromedriver
           TALENT_BASE_URL: https://profile.yoshimoto.co.jp/talent/detail?id=
           TALENTS: '[{"id": "10708", "name": "シンクロニシティ"}]'   # ←試験用にシンクロニシティのみ
         run: python talent_tickets.py
 
       - name: Show CSV result
         run: cat talent_tickets.csv
+
+      - name: Upload CSV artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: talent_tickets_csv
+          path: talent_tickets.csv

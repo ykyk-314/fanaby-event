@@ -1,0 +1,31 @@
+name: Scrape Talent Tickets
+
+on:
+  workflow_dispatch:  # 手動実行可
+  schedule:
+    - cron:  '0 9,17,23 * * *'  # 9時,17時,23時(JST+9)に実行（例）
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install requirements
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        env:
+          CHROMEDRIVER_PATH: /usr/local/bin/chromedriver
+          TALENT_BASE_URL: https://profile.yoshimoto.co.jp/talent/detail?id=
+          TALENTS: '[{"id": "10708", "name": "シンクロニシティ"}]'   # ←試験用にシンクロニシティのみ
+        run: python talent_tickets.py
+
+      - name: Show CSV result
+        run: cat talent_tickets.csv

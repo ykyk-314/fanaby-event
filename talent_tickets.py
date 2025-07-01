@@ -14,7 +14,8 @@ talents = json.loads(os.getenv('TALENTS', '[]'))
 
 def get_ticket_info(talent_id, talent_name):
     url = f"{talent_url}{talent_id}"
-    driver = webdriver.Chrome(service=Service(chromedriver_path), options=setup_driver_options())
+    # driver = webdriver.Chrome(service=Service(chromedriver_path), options=setup_driver_options())
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=setup_driver_options())
     driver.get(url)
 
     # 非表示要素の全表示

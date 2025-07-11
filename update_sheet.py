@@ -3,14 +3,15 @@ import gspread
 from google.oauth2.service_account import Credentials
 import os
 
-# スプレッドシートのURLまたはID
-SHEET_URL = os.getenv('GSHEET_URL')  # シークレット管理を推奨
+SHEET_URL = os.getenv('GSHEET_URL')
+CREDS_PATH = 'credentials.json'
 
-# サービスアカウントjsonのパス
-CREDS_PATH = 'credentials.json'  # ActionsではSecretsから生成/復元して使う
-
-# 1. データのロード
+# 1. CSV読み込み＆重複除外
 df = pd.read_csv('talent_tickets.csv', encoding='utf-8-sig')
+df.drop_duplicates(
+    subset=["TalentID", "EventTitle", "EventDate", "EventStartTime"],
+    keep="first", inplace=True
+)
 
 # 2. Google認証
 scope = [
@@ -22,10 +23,15 @@ gc = gspread.authorize(creds)
 
 # 3. スプレッドシート取得
 sh = gc.open_by_url(SHEET_URL)
-worksheet = sh.get_worksheet(0)  # 一番左のシートを利用。名前で取得するなら worksheet = sh.worksheet('シート1')
 
-# 4. シート全体クリアして最新データを上書き
-worksheet.clear()
-worksheet.update([df.columns.values.tolist()] + df.values.tolist())
+# 4. 芸人名ごとにシート分割＆書き込み
+for talent_name, group in df.groupby("TalentName"):
+    sheet_name = talent_name[:99]  # シート名は最大99文字
+    try:
+        worksheet = sh.worksheet(sheet_name)
+        worksheet.clear()
+    except gspread.exceptions.WorksheetNotFound:
+        worksheet = sh.add_worksheet(title=sheet_name, rows="100", cols=str(len(group.columns)))
+    worksheet.update([group.columns.values.tolist()] + group.values.tolist())
 
-print("シートにアップロード完了")
+print("Googleスプレッドシートに芸人ごとで分割記録しました。")

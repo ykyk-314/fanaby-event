@@ -1,3 +1,5 @@
 selenium
 pandas
 webdriver-manager
+gspread
+google-auth

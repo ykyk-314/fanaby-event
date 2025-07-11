@@ -34,3 +34,11 @@ jobs:
         with:
           name: talent_tickets_csv
           path: talent_tickets.csv
+
+      - name: Setup credentials.json
+        run: echo "${{ secrets.GSHEET_CREDENTIALS_JSON }}" | base64 -d > credentials.json
+
+      - name: Upload to Google Sheets
+        env:
+          GSHEET_URL: ${{ secrets.GSHEET_URL }}
+        run: python update_sheet.py

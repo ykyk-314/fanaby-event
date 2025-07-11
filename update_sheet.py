@@ -6,32 +6,38 @@ import os
 SHEET_URL = os.getenv('GSHEET_URL')
 CREDS_PATH = 'credentials.json'
 
-# 1. CSV読み込み＆重複除外
-df = pd.read_csv('talent_tickets.csv', encoding='utf-8-sig')
-df.drop_duplicates(
-    subset=["TalentID", "EventTitle", "EventDate", "EventStartTime"],
-    keep="first", inplace=True
-)
+# 今回取得データ
+df_new = pd.read_csv('talent_tickets.csv', encoding='utf-8-sig')
 
-# 2. Google認証
 scope = [
     "https://spreadsheets.google.com/feeds",
     "https://www.googleapis.com/auth/drive"
 ]
 creds = Credentials.from_service_account_file(CREDS_PATH, scopes=scope)
 gc = gspread.authorize(creds)
-
-# 3. スプレッドシート取得
 sh = gc.open_by_url(SHEET_URL)
 
-# 4. 芸人名ごとにシート分割＆書き込み
-for talent_name, group in df.groupby("TalentName"):
-    sheet_name = talent_name[:99]  # シート名は最大99文字
+# 公演ユニークキー
+key_cols = ["TalentID", "EventTitle", "EventDate", "EventStartTime"]
+
+for talent_name, group in df_new.groupby("TalentName"):
+    sheet_name = talent_name[:99]
     try:
         worksheet = sh.worksheet(sheet_name)
-        worksheet.clear()
+        # 既存データを取得
+        existing = worksheet.get_all_values()
+        if existing:
+            df_exist = pd.DataFrame(existing[1:], columns=existing[0])
+        else:
+            df_exist = pd.DataFrame(columns=group.columns)
     except gspread.exceptions.WorksheetNotFound:
         worksheet = sh.add_worksheet(title=sheet_name, rows="100", cols=str(len(group.columns)))
-    worksheet.update([group.columns.values.tolist()] + group.values.tolist())
+        df_exist = pd.DataFrame(columns=group.columns)
+    # 既存＋新規を結合し、ユニークに
+    df_all = pd.concat([df_exist, group], ignore_index=True)
+    df_all.drop_duplicates(subset=key_cols, keep="first", inplace=True)
+    # シート全体を新規で上書き（シート容量気になる場合はここで古いデータを除外も可能）
+    worksheet.clear()
+    worksheet.update([df_all.columns.values.tolist()] + df_all.values.tolist())
 
-print("Googleスプレッドシートに芸人ごとで分割記録しました。")
+print("全記録用としてスプレッドシートに追記・重複排除しました。")

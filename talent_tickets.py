@@ -10,7 +10,11 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # 環境変数で設定
 talent_url = os.getenv('TALENT_BASE_URL')
-talents = json.loads(os.getenv('TALENTS', '[]'))
+
+# 名前取得
+talents = []
+with open('talents.json', encoding='utf-8') as f:
+    talents = json.load(f)
 
 def get_ticket_info(talent_id, talent_name):
     url = f"{talent_url}{talent_id}"

@@ -37,6 +37,14 @@ jobs:
       - name: Setup credentials.json
         run: echo "${{ secrets.GSHEET_CREDENTIALS_JSON }}" | base64 -d > credentials.json
 
+      - name: Notify new events by email
+        env:
+          GSHEET_URL: ${{ secrets.GSHEET_URL }}
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python notify_new_events.py
+
       - name: Upload to Google Sheets
         env:
           GSHEET_URL: ${{ secrets.GSHEET_URL }}

@@ -83,7 +83,7 @@ def download_event_image(image_url, talent_id, title, date):
     safe_title = "".join([c for c in title if c.isalnum() or c in " _-"]).rstrip()
     safe_date = date.replace('/', '-').replace(' ', '').replace(':','')
     file_name = f"{safe_date}_{safe_title}.jpg"
-    img_dir = f"img/flier/{talent_id}"
+    img_dir = f"docs/img/flier/{talent_id}"
     os.makedirs(img_dir, exist_ok=True)
     save_path = os.path.join(img_dir, file_name)
     try:

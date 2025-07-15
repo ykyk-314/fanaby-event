@@ -12,6 +12,8 @@ MAIL_USER = os.getenv('MAIL_USER')
 MAIL_PASS = os.getenv('MAIL_PASS')
 MAIL_TO = os.getenv('MAIL_TO')
 
+PAGES_BASE_URL = "https://ykyk-314.github.io/fanaby-event"
+
 key_cols = ["TalentID", "EventTitle", "EventDate", "EventStartTime"]
 
 # 1. 今回取得データ
@@ -46,19 +48,31 @@ for talent_name, group in df_new.groupby("TalentName"):
     if not added_or_updated.empty:
         new_records.append((talent_name, added_or_updated[group.columns]))
         
-# 3. メール送信
+# 3. メール送信（HTMLメール・画像埋め込み）
 if new_records:
     for talent_name, records in new_records:
         msg_body = ""
         for _, row in records.iterrows():
-            msg_body += f"【{row['EventTitle']}】\n日付: {row['EventDate']} {row['EventStartTime']}\n会場: {row['TheaterVenue']}\n出演者: {row['EventMembers']}\nリンク: {row['TicketLink']}\n\n"
-        # メール構成
+            msg_body += (
+                f"【{row['EventTitle']}】<br>"
+                f"日付: {row['EventDate']} {row['EventStartTime']}<br>"
+                f"会場: {row['TheaterVenue']}<br>"
+                f"出演者: {row['EventMembers']}<br>"
+                f"リンク: <a href='{row['TicketLink']}'>{row['TicketLink']}</a><br>"
+            )
+            # ★ 画像カラムがあればimgタグで表示
+            if row.get("Image") and row["Image"] not in ("-", ""):
+                img_url = f"{PAGES_BASE_URL}{row['Image']}"
+                msg_body += f"<img src='{img_url}' width='320'><br>"
+            msg_body += "<br>"
+
         subject = f"[Fanaby] {talent_name}で新しいスケジュール追加/更新"
-        msg = MIMEText(msg_body)
+        # HTMLメールとして送信
+        msg = MIMEMultipart()
         msg['Subject'] = subject
         msg['From'] = MAIL_USER
         msg['To'] = MAIL_TO
-        # 送信
+        msg.attach(MIMEText(msg_body, "html"))
         with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
             smtp.login(MAIL_USER, MAIL_PASS)
             smtp.sendmail(MAIL_USER, MAIL_TO, msg.as_string())

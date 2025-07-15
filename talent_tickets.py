@@ -79,5 +79,10 @@ if __name__ == "__main__":
         all_events.extend(get_ticket_info(talent['id'], talent['name']))
 
     df = pd.DataFrame(all_events)
+
+    for col in key_cols:
+        if col in df.columns:
+            df[col] = df[col].astype(str)
+
     df.to_csv('talent_tickets.csv', index=False, encoding='utf-8-sig')
     print("done.")

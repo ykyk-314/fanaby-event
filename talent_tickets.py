@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import pandas as pd
+import requests
 import os
 import json
 from webdriver_manager.chrome import ChromeDriverManager
@@ -36,6 +37,7 @@ def get_ticket_info(talent_id, talent_name):
         members = get_element_text(event, '.opt-feed-ft-element-member').replace('\n', '|')
         venue = get_element_text(event, '.opt-feed-ft-element-venue')
         image = get_element_attribute(event, '.feed-item-img', 'src')
+        image_local_url = download_event_image(image, talent_id, title, date)
         link = get_element_attribute(event, '.feed-item-link', 'href')
 
         events.append({
@@ -72,6 +74,30 @@ def get_element_attribute(element, selector, attribute):
         return element.find_element(By.CSS_SELECTOR, selector).get_attribute(attribute) or '-'
     except:
         return '-'
+
+
+def download_event_image(image_url, talent_id, title, date):
+    if not image_url or image_url == '-':
+        return ''
+    # ファイル名生成（英数のみ・日付入り）
+    safe_title = "".join([c for c in title if c.isalnum() or c in " _-"]).rstrip()
+    safe_date = date.replace('/', '-').replace(' ', '').replace(':','')
+    file_name = f"{safe_date}_{safe_title}.jpg"
+    img_dir = f"img/flier/{talent_id}"
+    os.makedirs(img_dir, exist_ok=True)
+    save_path = os.path.join(img_dir, file_name)
+    try:
+        r = requests.get(image_url, timeout=10)
+        if r.status_code == 200:
+            with open(save_path, "wb") as f:
+                f.write(r.content)
+            return f"/img/flier/{talent_id}/{file_name}"  # 公開用の相対パス
+        else:
+            print(f"Image download failed: {image_url}")
+            return image_url  # fallback
+    except Exception as e:
+        print(f"Image download error: {e}")
+        return image_url  # fallback
 
 if __name__ == "__main__":
     all_events = []

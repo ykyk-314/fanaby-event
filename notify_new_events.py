@@ -4,6 +4,7 @@ import gspread
 from google.oauth2.service_account import Credentials
 import smtplib
 from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 SHEET_URL = os.getenv('GSHEET_URL')
 CREDS_PATH = 'credentials.json'

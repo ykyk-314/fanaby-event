@@ -14,7 +14,8 @@ MAIL_TO = os.getenv('MAIL_TO')
 key_cols = ["TalentID", "EventTitle", "EventDate", "EventStartTime"]
 
 # 1. 今回取得データ
-df_new = pd.read_csv('talent_tickets.csv', encoding='utf-8-sig')
+dtype_dict = {col: str for col in key_cols}
+df_new = pd.read_csv('talent_tickets.csv', encoding='utf-8-sig', dtype=dtype_dict)
 
 # 2. Google Sheets（全記録）から既存データ取得
 scope = [

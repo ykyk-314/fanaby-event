@@ -33,6 +33,12 @@ for talent_name, group in df_new.groupby("TalentName"):
     except gspread.exceptions.WorksheetNotFound:
         worksheet = sh.add_worksheet(title=sheet_name, rows="100", cols=str(len(group.columns)))
         df_exist = pd.DataFrame(columns=group.columns)
+    # ここで「既存・新規」両方のkey_colsをstr型に統一
+    for col in key_cols:
+        if col in group.columns:
+            group[col] = group[col].astype(str)
+        if col in df_exist.columns:
+            df_exist[col] = df_exist[col].astype(str)
     # 既存＋新規を結合し、ユニークに
     df_all = pd.concat([df_exist, group], ignore_index=True)
     df_all.drop_duplicates(subset=key_cols, keep="first", inplace=True)

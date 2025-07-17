@@ -7,15 +7,41 @@ import pandas as pd
 import requests
 import os
 import json
+import hashlib
 from webdriver_manager.chrome import ChromeDriverManager
 
 # 環境変数で設定
 talent_url = os.getenv('TALENT_BASE_URL')
 
 # 名前取得
-talents = []
 with open('talents.json', encoding='utf-8') as f:
     talents = json.load(f)
+
+def download_event_image(origin_url, img_dir, file_name):
+    """
+    origin_url: オリジナル画像URL
+    img_dir:    保存先ディレクトリ（例: docs/img/flier/7295）
+    file_name:  ファイル名のみ（例: 2024-07-21_MyEvent_abcdef12.jpg）
+    """
+    if not origin_url or origin_url == '-':
+        return False
+    os.makedirs(img_dir, exist_ok=True)
+    save_path = os.path.join(img_dir, file_name)
+    # 既に画像ファイルが存在すればスキップ
+    if os.path.exists(save_path):
+        return True
+    try:
+        r = requests.get(origin_url, timeout=10)
+        if r.status_code == 200:
+            with open(save_path, "wb") as f:
+                f.write(r.content)
+            return True
+        else:
+            print(f"Image download failed: {origin_url}")
+            return False
+    except Exception as e:
+        print(f"Image download error: {e}")
+        return False
 
 def get_ticket_info(talent_id, talent_name):
     url = f"{talent_url}{talent_id}"
@@ -36,19 +62,30 @@ def get_ticket_info(talent_id, talent_name):
         time_ = get_element_text(event, '.opt-feed-ft-dateside p:last-child')
         members = get_element_text(event, '.opt-feed-ft-element-member').replace('\n', '|')
         venue = get_element_text(event, '.opt-feed-ft-element-venue')
-        image = get_element_attribute(event, '.feed-item-img', 'src')
-        image_local_url = download_event_image(image, talent_id, title, date)
+        origin_image = get_element_attribute(event, '.feed-item-img', 'src')
         link = get_element_attribute(event, '.feed-item-link', 'href')
+
+        # ファイル名生成（画像URLのハッシュ＋タイトル＋日付などで一意性を担保）
+        safe_title = "".join([c for c in title if c.isalnum() or c in " _-"]).rstrip()
+        safe_date = date.replace('/', '-').replace(' ', '').replace(':','')
+        file_hash = hashlib.md5(origin_image.encode()).hexdigest()[:8] if origin_image else "noimg"
+        file_name = f"{safe_date}_{safe_title}_{file_hash}.jpg"
+        img_dir = f"docs/img/flier/{talent_id}"
+        app_image = f"/img/flier/{talent_id}/{file_name}"
+
+        # 画像ダウンロード（存在しなければダウンロード、すでにあればスキップ）
+        download_event_image(origin_image, img_dir, file_name)
 
         events.append({
             'TalentName': talent_name,
-            'TalentID': str(talent_id),   # ← ここで明示的にstr型にしておく
+            'TalentID': str(talent_id),
             'EventTitle': title,
             'EventDate': date,
             'EventStartTime': time_,
             'EventMembers': members,
             'TheaterVenue': venue,
-            'Image': image,
+            'OriginImage': origin_image,
+            'AppImage': app_image,
             'TicketLink': link
         })
 
@@ -75,36 +112,11 @@ def get_element_attribute(element, selector, attribute):
     except:
         return '-'
 
-
-def download_event_image(image_url, talent_id, title, date):
-    if not image_url or image_url == '-':
-        return ''
-    # ファイル名生成（英数のみ・日付入り）
-    safe_title = "".join([c for c in title if c.isalnum() or c in " _-"]).rstrip()
-    safe_date = date.replace('/', '-').replace(' ', '').replace(':','')
-    file_name = f"{safe_date}_{safe_title}.jpg"
-    img_dir = f"docs/img/flier/{talent_id}"
-    os.makedirs(img_dir, exist_ok=True)
-    save_path = os.path.join(img_dir, file_name)
-    try:
-        r = requests.get(image_url, timeout=10)
-        if r.status_code == 200:
-            with open(save_path, "wb") as f:
-                f.write(r.content)
-            return f"/img/flier/{talent_id}/{file_name}"  # 公開用の相対パス
-        else:
-            print(f"Image download failed: {image_url}")
-            return image_url  # fallback
-    except Exception as e:
-        print(f"Image download error: {e}")
-        return image_url  # fallback
-
 if __name__ == "__main__":
     all_events = []
     for talent in talents:
         all_events.extend(get_ticket_info(talent['id'], talent['name']))
 
     df = pd.DataFrame(all_events)
-
     df.to_csv('talent_tickets.csv', index=False, encoding='utf-8-sig')
     print("done.")

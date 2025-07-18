@@ -3,7 +3,7 @@ name: Scrape Talent Tickets
 on:
   workflow_dispatch:  # 手動実行可
   schedule:
-    - cron:  '0 9,17,23 * * *'  # 9時,17時,23時(JST+9)に実行（例）
+    - cron:  '3 9,17,23 * * *'  # 9時,17時,23時(JST+9)に実行（例）
 
 jobs:
   scrape:
@@ -49,3 +49,10 @@ jobs:
         env:
           GSHEET_URL: ${{ secrets.GSHEET_URL }}
         run: python update_sheet.py
+
+      # 画像アップロードCommit
+      - name: Git add/push images for Pages
+        run: |
+          git add docs/img/flier
+          git commit -m "Update event images"
+          git push

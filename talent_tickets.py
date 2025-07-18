@@ -35,6 +35,7 @@ def download_event_image(origin_url, img_dir, file_name):
         if r.status_code == 200:
             with open(save_path, "wb") as f:
                 f.write(r.content)
+                print(f"Image save_path: {origin_url}: {save_path}")
             return True
         else:
             print(f"Image download failed: {origin_url}")

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>タレントスケジュール</title>
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+  <h1>タレントスケジュール一覧</h1>
+  <ul id="talent-list">
+    <!-- ここにJSでタレントリストを生成 -->
+  </ul>
+  <script>
+    // 仮：talents.jsonを直で使う場合
+    fetch('data/talents.json').then(res => res.json()).then(talents => {
+      const ul = document.getElementById('talent-list');
+      talents.forEach(t => {
+        const li = document.createElement('li');
+        li.innerHTML = `<a href="schedule/${t.id}/">${t.name}</a>`;
+        ul.appendChild(li);
+      });
+    });
+  </script>
+</body>
+</html>

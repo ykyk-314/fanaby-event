@@ -50,18 +50,18 @@ jobs:
           GSHEET_URL: ${{ secrets.GSHEET_URL }}
         run: python update_sheet.py
 
-      # git config
-      - name: Set git user
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-
       # 画像アップロードCommit
       - name: Git add/push images for Pages
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git add docs/img/flier
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git status
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update event images"
+            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${GITHUB_REPOSITORY}.git
             git push
           else
             echo "No changes to commit"

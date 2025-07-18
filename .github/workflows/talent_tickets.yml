@@ -47,14 +47,14 @@ jobs:
           GSHEET_URL: ${{ secrets.GSHEET_URL }}
         run: python update_sheet.py
 
-      - name: Configure Git
-        run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
-
       - name: Convert CSV to JSON
         run: python csv_to_json.py
+
+      - name: Configure Git and PAT
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
 
       # 画像アップロードCommit
       - name: Git add/push images for Pages

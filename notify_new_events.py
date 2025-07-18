@@ -14,7 +14,7 @@ MAIL_TO = os.getenv('MAIL_TO')
 
 PAGES_BASE_URL = "https://ykyk-314.github.io/fanaby-event"
 
-key_cols = ["TalentID", "EventTitle", "EventDate", "EventStartTime"]
+key_cols = ["TalentID", "EventTitle", "EventDate", "EventStartTime", "OriginImage"]
 
 # 1. 今回取得データ
 dtype_dict = {col: str for col in key_cols}

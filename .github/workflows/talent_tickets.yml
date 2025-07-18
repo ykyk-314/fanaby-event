@@ -25,9 +25,6 @@ jobs:
           TALENT_BASE_URL: https://profile.yoshimoto.co.jp/talent/detail?id=
         run: python talent_tickets.py
 
-      - name: Show CSV result
-        run: cat talent_tickets.csv
-
       - name: Upload CSV artifact
         uses: actions/upload-artifact@v4
         with:

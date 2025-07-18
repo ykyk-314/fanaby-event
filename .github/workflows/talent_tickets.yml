@@ -25,9 +25,6 @@ jobs:
           TALENT_BASE_URL: https://profile.yoshimoto.co.jp/talent/detail?id=
         run: python talent_tickets.py
 
-      - name: Show CSV result
-        run: cat talent_tickets.csv
-
       - name: Upload CSV artifact
         uses: actions/upload-artifact@v4
         with:
@@ -50,19 +47,24 @@ jobs:
           GSHEET_URL: ${{ secrets.GSHEET_URL }}
         run: python update_sheet.py
 
-      # git config
-      - name: Set git user
+      - name: Convert CSV to JSON
+        run: python csv_to_json.py
+
+      - name: Configure Git and PAT
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
 
       # 画像アップロードCommit
       - name: Git add/push images for Pages
         run: |
-          git add docs/img/flier
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Update event images"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          git add docs/img/flier 
+          git commit -m "Update event images" || echo "No changes to commit"
+          git push || echo "No changes to push"
+
+      - name: Git add/push JSON data
+        run: |
+          git add docs/data/talent_schedules.json
+          git commit -m "Update talent_schedules.json" || echo "No changes to commit"
+          git push || echo "No changes to push"

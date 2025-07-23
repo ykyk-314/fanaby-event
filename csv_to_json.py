@@ -2,20 +2,21 @@ import pandas as pd
 import json
 import os
 
-# 入力CSVファイル
 CSV_FILE = "talent_tickets.csv"
-# 出力JSONファイル（docs配下がGitHub Pagesのdataディレクトリとして推奨）
-JSON_FILE = "docs/data/talent_schedules.json"
+BASE_DIR = "docs/talents"
 
 # CSV読み込み
 df = pd.read_csv(CSV_FILE, dtype=str).fillna("")
 
-# 必要なら、カラム順序や不要カラムの調整（オプション）
-# df = df[["TalentName", "TalentID", "EventTitle", ...]]  # 必要なカラムだけ指定
+# タレントごとに分割
+for talent_id, group in df.groupby("TalentID"):
+    # ディレクトリ作成
+    target_dir = os.path.join(BASE_DIR, str(talent_id))
+    os.makedirs(target_dir, exist_ok=True)
+    # JSONファイル出力
+    json_path = os.path.join(target_dir, "schedules.json")
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(group.to_dict(orient="records"), f, ensure_ascii=False, indent=2)
+    print(f"書き出し: {json_path}")
 
-# JSON出力（utf-8, pretty print, 日本語対応）
-os.makedirs(os.path.dirname(JSON_FILE), exist_ok=True)
-with open(JSON_FILE, "w", encoding="utf-8") as f:
-    json.dump(df.to_dict(orient="records"), f, ensure_ascii=False, indent=2)
-
-print(f"変換完了: {JSON_FILE}")
+print("全タレント分のschedules.jsonの生成が完了しました。")

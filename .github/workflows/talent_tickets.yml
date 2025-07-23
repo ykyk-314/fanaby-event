@@ -63,8 +63,8 @@ jobs:
           git commit -m "Update event images" || echo "No changes to commit"
           git push || echo "No changes to push"
 
-      - name: Git add/push JSON data
+      - name: Add/push talent schedules.json
         run: |
-          git add docs/data/talent_schedules.json
-          git commit -m "Update talent_schedules.json" || echo "No changes to commit"
+          git add docs/talents/*/schedules.json
+          git commit -m "Update talent schedules.json" || echo "No changes to commit"
           git push || echo "No changes to push"

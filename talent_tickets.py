@@ -14,7 +14,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 talent_url = os.getenv('TALENT_BASE_URL')
 
 # 名前取得
-with open('talents.json', encoding='utf-8') as f:
+with open('docs/talents.json', encoding='utf-8') as f:
     talents = json.load(f)
 
 def download_event_image(origin_url, img_dir, file_name):

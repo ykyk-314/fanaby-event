@@ -16,7 +16,7 @@
       const ul = document.getElementById('talent-list');
       talents.forEach(t => {
         const li = document.createElement('li');
-        li.innerHTML = `<a href="schedules/${t.id}/">${t.name}</a>`;
+        li.innerHTML = `<a href="talents/${t.id}/">${t.name}</a>`;
         ul.appendChild(li);
       });
     });

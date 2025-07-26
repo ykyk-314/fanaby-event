@@ -14,6 +14,18 @@
   {
     "TalentName": "シンクロニシティ",
     "TalentID": "10708",
+    "EventTitle": "渋谷Kiwami極LIVE",
+    "EventDate": "7/29",
+    "EventStartTime": "16:30",
+    "EventMembers": "[ネタ出演者]シシガシラ／カゲヤマ／今井らいぱち／まちるだ／田津原理音／素敵じゃないか／シンクロニシティ／ナイチンゲールダンス|[ コーナー出演者]MC：シシガシラ／今井らいぱち／田津原理音／素敵じゃないか／ナイチンゲールダンス",
+    "TheaterVenue": "渋谷よしもと漫才劇場",
+    "OriginImage": "-",
+    "AppImage": "/img/flier/10708/7-29_渋谷Kiwami極LIVE_336d5ebc.jpg",
+    "TicketLink": "https://ticket.fany.lol/reception/11147/12337?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7Kiwami%E6%A5%B5LIVE&utm_content=10708"
+  },
+  {
+    "TalentName": "シンクロニシティ",
+    "TalentID": "10708",
     "EventTitle": "素敵じゃないかの漫才沙汰",
     "EventDate": "7/29",
     "EventStartTime": "21:00",
@@ -489,7 +501,7 @@
     "TheaterVenue": "神保町よしもと漫才劇場",
     "OriginImage": "-",
     "AppImage": "/img/flier/10708/9-3_神保町Kakeru翔SP_336d5ebc.jpg",
-    "TicketLink": "https://ticket.fany.lol/reception/17466/18210?utm_source=profile&utm_medium=feed&utm_campaign=%E7%A5%9E%E4%BF%9D%E7%94%BAKakeru%E7%BF%94SP&utm_content=10708"
+    "TicketLink": "https://ticket.fany.lol/reception/17474/18210?utm_source=profile&utm_medium=feed&utm_campaign=%E7%A5%9E%E4%BF%9D%E7%94%BAKakeru%E7%BF%94SP&utm_content=10708"
   },
   {
     "TalentName": "シンクロニシティ",
@@ -513,19 +525,7 @@
     "TheaterVenue": "神保町よしもと漫才劇場",
     "OriginImage": "-",
     "AppImage": "/img/flier/10708/9-3_神保町Kakeru翔SP_336d5ebc.jpg",
-    "TicketLink": "https://ticket.fany.lol/reception/17474/18210?utm_source=profile&utm_medium=feed&utm_campaign=%E7%A5%9E%E4%BF%9D%E7%94%BAKakeru%E7%BF%94SP&utm_content=10708"
-  },
-  {
-    "TalentName": "シンクロニシティ",
-    "TalentID": "10708",
-    "EventTitle": "三分漫才結社",
-    "EventDate": "9/3",
-    "EventStartTime": "19:00",
-    "EventMembers": "[企画ライブ]シシガシラ／とらふぐ／セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／オズワルド",
-    "TheaterVenue": "神保町よしもと漫才劇場",
-    "OriginImage": "-",
-    "AppImage": "/img/flier/10708/9-3_三分漫才結社_336d5ebc.jpg",
-    "TicketLink": "https://ticket.fany.lol/reception/17684/18254?utm_source=profile&utm_medium=feed&utm_campaign=%E4%B8%89%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE&utm_content=10708"
+    "TicketLink": "https://ticket.fany.lol/reception/17466/18210?utm_source=profile&utm_medium=feed&utm_campaign=%E7%A5%9E%E4%BF%9D%E7%94%BAKakeru%E7%BF%94SP&utm_content=10708"
   },
   {
     "TalentName": "シンクロニシティ",
@@ -538,6 +538,18 @@
     "OriginImage": "-",
     "AppImage": "/img/flier/10708/9-3_三分漫才結社_336d5ebc.jpg",
     "TicketLink": "https://ticket.fany.lol/reception/17627/18254?utm_source=profile&utm_medium=feed&utm_campaign=%E4%B8%89%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE&utm_content=10708"
+  },
+  {
+    "TalentName": "シンクロニシティ",
+    "TalentID": "10708",
+    "EventTitle": "三分漫才結社",
+    "EventDate": "9/3",
+    "EventStartTime": "19:00",
+    "EventMembers": "[企画ライブ]シシガシラ／とらふぐ／セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／オズワルド",
+    "TheaterVenue": "神保町よしもと漫才劇場",
+    "OriginImage": "-",
+    "AppImage": "/img/flier/10708/9-3_三分漫才結社_336d5ebc.jpg",
+    "TicketLink": "https://ticket.fany.lol/reception/17684/18254?utm_source=profile&utm_medium=feed&utm_campaign=%E4%B8%89%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE&utm_content=10708"
   },
   {
     "TalentName": "シンクロニシティ",
@@ -597,6 +609,18 @@
     "TheaterVenue": "渋谷よしもと漫才劇場",
     "OriginImage": "-",
     "AppImage": "/img/flier/10708/9-6_渋谷よしもとお笑いライブ_336d5ebc.jpg",
+    "TicketLink": "https://ticket.fany.lol/reception/18109/18789?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%A9%E3%82%A4%E3%83%96&utm_content=10708"
+  },
+  {
+    "TalentName": "シンクロニシティ",
+    "TalentID": "10708",
+    "EventTitle": "渋谷よしもとお笑いライブ",
+    "EventDate": "9/6",
+    "EventStartTime": "13:45",
+    "EventMembers": "[ネタ出演者]ダイタク／イチキップリン／とらふぐ／シカゴ実業／スクールゾーン／ケビンス／11月のリサ／シンクロニシティ／太鵬／家族チャーハン／他|[ コーナー出演者]未定",
+    "TheaterVenue": "渋谷よしもと漫才劇場",
+    "OriginImage": "-",
+    "AppImage": "/img/flier/10708/9-6_渋谷よしもとお笑いライブ_336d5ebc.jpg",
     "TicketLink": "https://ticket.fany.lol/reception/18111/18789?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%A9%E3%82%A4%E3%83%96&utm_content=10708"
   },
   {
@@ -610,30 +634,6 @@
     "OriginImage": "-",
     "AppImage": "/img/flier/10708/9-6_渋谷よしもとお笑いライブ_336d5ebc.jpg",
     "TicketLink": "https://ticket.fany.lol/reception/18113/18789?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%A9%E3%82%A4%E3%83%96&utm_content=10708"
-  },
-  {
-    "TalentName": "シンクロニシティ",
-    "TalentID": "10708",
-    "EventTitle": "渋谷よしもとお笑いライブ",
-    "EventDate": "9/6",
-    "EventStartTime": "13:45",
-    "EventMembers": "[ネタ出演者]ダイタク／イチキップリン／とらふぐ／シカゴ実業／スクールゾーン／ケビンス／11月のリサ／シンクロニシティ／太鵬／家族チャーハン／他|[ コーナー出演者]未定",
-    "TheaterVenue": "渋谷よしもと漫才劇場",
-    "OriginImage": "-",
-    "AppImage": "/img/flier/10708/9-6_渋谷よしもとお笑いライブ_336d5ebc.jpg",
-    "TicketLink": "https://ticket.fany.lol/reception/18109/18789?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%A9%E3%82%A4%E3%83%96&utm_content=10708"
-  },
-  {
-    "TalentName": "シンクロニシティ",
-    "TalentID": "10708",
-    "EventTitle": "渋谷よしもとお笑いライブ",
-    "EventDate": "9/6",
-    "EventStartTime": "16:00",
-    "EventMembers": "[ネタ出演者]ダイタク／とらふぐ／シカゴ実業／スクールゾーン／ケビンス／スクラップス／11月のリサ／シンクロニシティ／太鵬／家族チャーハン／他|[ コーナー出演者]未定",
-    "TheaterVenue": "渋谷よしもと漫才劇場",
-    "OriginImage": "-",
-    "AppImage": "/img/flier/10708/9-6_渋谷よしもとお笑いライブ_336d5ebc.jpg",
-    "TicketLink": "https://ticket.fany.lol/reception/18109/18790?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%A9%E3%82%A4%E3%83%96&utm_content=10708"
   },
   {
     "TalentName": "シンクロニシティ",
@@ -658,6 +658,18 @@
     "OriginImage": "-",
     "AppImage": "/img/flier/10708/9-6_渋谷よしもとお笑いライブ_336d5ebc.jpg",
     "TicketLink": "https://ticket.fany.lol/reception/18111/18790?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%A9%E3%82%A4%E3%83%96&utm_content=10708"
+  },
+  {
+    "TalentName": "シンクロニシティ",
+    "TalentID": "10708",
+    "EventTitle": "渋谷よしもとお笑いライブ",
+    "EventDate": "9/6",
+    "EventStartTime": "16:00",
+    "EventMembers": "[ネタ出演者]ダイタク／とらふぐ／シカゴ実業／スクールゾーン／ケビンス／スクラップス／11月のリサ／シンクロニシティ／太鵬／家族チャーハン／他|[ コーナー出演者]未定",
+    "TheaterVenue": "渋谷よしもと漫才劇場",
+    "OriginImage": "-",
+    "AppImage": "/img/flier/10708/9-6_渋谷よしもとお笑いライブ_336d5ebc.jpg",
+    "TicketLink": "https://ticket.fany.lol/reception/18109/18790?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%83%A9%E3%82%A4%E3%83%96&utm_content=10708"
   },
   {
     "TalentName": "シンクロニシティ",

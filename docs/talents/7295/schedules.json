@@ -2,18 +2,6 @@
   {
     "TalentName": "ケビンス",
     "TalentID": "7295",
-    "EventTitle": "渋谷Kiwami極LIVE",
-    "EventDate": "7/28",
-    "EventStartTime": "16:30",
-    "EventMembers": "[ネタ出演者]西村ヒロチョ／kento fukaya／ケビンス／おミュータンツ／インテイク／世界クジラ／ヨネダ2000／吉田たち|[ コーナー出演者]MC：ケビンス／kento fukaya／世界クジラ／ヨネダ2000／吉田たち",
-    "TheaterVenue": "渋谷よしもと漫才劇場",
-    "OriginImage": "-",
-    "AppImage": "/img/flier/7295/7-28_渋谷Kiwami極LIVE_336d5ebc.jpg",
-    "TicketLink": "https://ticket.fany.lol/reception/11147/12336?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7Kiwami%E6%A5%B5LIVE&utm_content=7295"
-  },
-  {
-    "TalentName": "ケビンス",
-    "TalentID": "7295",
     "EventTitle": "幕張平日ネタ７月公演",
     "EventDate": "7/29",
     "EventStartTime": "14:00",
@@ -214,6 +202,18 @@
     "OriginImage": "-",
     "AppImage": "/img/flier/7295/8-7_エースvsコンボイ東と西の太陽対決_336d5ebc.jpg",
     "TicketLink": "https://ticket.fany.lol/reception/17885/18511?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%A8%E3%83%BC%E3%82%B9vs%E3%82%B3%E3%83%B3%E3%83%9C%E3%82%A4%EF%BD%9E%E6%9D%B1%E3%81%A8%E8%A5%BF%E3%81%AE%E5%A4%AA%E9%99%BD%E5%AF%BE%E6%B1%BA%EF%BD%9E&utm_content=7295"
+  },
+  {
+    "TalentName": "ケビンス",
+    "TalentID": "7295",
+    "EventTitle": "渋谷ガチイントロクイズNo.1決定戦",
+    "EventDate": "8/7",
+    "EventStartTime": "21:00",
+    "EventMembers": "[企画ライブ]ダンビラムーチョ 大原／マルセイユ 津田／MC:大自然 ロジャー／ナイチンゲールダンス 中野なかるてぃん／滝音 さすけ／ケビンス 仁木恭平／野澤輸出／他",
+    "TheaterVenue": "渋谷よしもと漫才劇場",
+    "OriginImage": "-",
+    "AppImage": "/img/flier/7295/8-7_渋谷ガチイントロクイズNo1決定戦_336d5ebc.jpg",
+    "TicketLink": "https://ticket.fany.lol/reception/17022/17708?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%AC%E3%83%81%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%82%AF%E3%82%A4%E3%82%BANo.1%E6%B1%BA%E5%AE%9A%E6%88%A6&utm_content=7295"
   },
   {
     "TalentName": "ケビンス",
@@ -717,7 +717,7 @@
     "TheaterVenue": "沼津ラクーンよしもと劇場",
     "OriginImage": "-",
     "AppImage": "/img/flier/7295/8-29_ヘンダーソンカレーLIVE_336d5ebc.jpg",
-    "TicketLink": "https://ticket.fany.lol/reception/18027/18726?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%98%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%AC%E3%83%BCLIVE&utm_content=7295"
+    "TicketLink": "https://ticket.fany.lol/reception/18026/18726?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%98%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%AC%E3%83%BCLIVE&utm_content=7295"
   },
   {
     "TalentName": "ケビンス",
@@ -729,7 +729,7 @@
     "TheaterVenue": "沼津ラクーンよしもと劇場",
     "OriginImage": "-",
     "AppImage": "/img/flier/7295/8-29_ヘンダーソンカレーLIVE_336d5ebc.jpg",
-    "TicketLink": "https://ticket.fany.lol/reception/18026/18726?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%98%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%AC%E3%83%BCLIVE&utm_content=7295"
+    "TicketLink": "https://ticket.fany.lol/reception/18027/18726?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%98%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%AC%E3%83%BCLIVE&utm_content=7295"
   },
   {
     "TalentName": "ケビンス",
@@ -765,18 +765,6 @@
     "TheaterVenue": "渋谷よしもと漫才劇場",
     "OriginImage": "-",
     "AppImage": "/img/flier/7295/9-1_第二回即興ソング王決定戦_336d5ebc.jpg",
-    "TicketLink": "https://ticket.fany.lol/reception/17294/18146?utm_source=profile&utm_medium=feed&utm_campaign=%E7%AC%AC%E4%BA%8C%E5%9B%9E%E5%8D%B3%E8%88%88%E3%82%BD%E3%83%B3%E3%82%B0%E7%8E%8B%E6%B1%BA%E5%AE%9A%E6%88%A6&utm_content=7295"
-  },
-  {
-    "TalentName": "ケビンス",
-    "TalentID": "7295",
-    "EventTitle": "第二回即興ソング王決定戦",
-    "EventDate": "9/1",
-    "EventStartTime": "21:00",
-    "EventMembers": "[企画ライブ]シマッシュレコード／マルセイユ 別府／銀河ゆめゆめ 坂田／ダンビラムーチョ 大原／ゆにばーす 川瀬／ケビンス 山口／9番街レトロ なかむら／太鵬 太朗／めぞん 吉野／スパイク 松浦",
-    "TheaterVenue": "渋谷よしもと漫才劇場",
-    "OriginImage": "-",
-    "AppImage": "/img/flier/7295/9-1_第二回即興ソング王決定戦_336d5ebc.jpg",
     "TicketLink": "https://ticket.fany.lol/reception/17282/18146?utm_source=profile&utm_medium=feed&utm_campaign=%E7%AC%AC%E4%BA%8C%E5%9B%9E%E5%8D%B3%E8%88%88%E3%82%BD%E3%83%B3%E3%82%B0%E7%8E%8B%E6%B1%BA%E5%AE%9A%E6%88%A6&utm_content=7295"
   },
   {
@@ -790,6 +778,18 @@
     "OriginImage": "-",
     "AppImage": "/img/flier/7295/9-1_第二回即興ソング王決定戦_336d5ebc.jpg",
     "TicketLink": "https://ticket.fany.lol/reception/17270/18146?utm_source=profile&utm_medium=feed&utm_campaign=%E7%AC%AC%E4%BA%8C%E5%9B%9E%E5%8D%B3%E8%88%88%E3%82%BD%E3%83%B3%E3%82%B0%E7%8E%8B%E6%B1%BA%E5%AE%9A%E6%88%A6&utm_content=7295"
+  },
+  {
+    "TalentName": "ケビンス",
+    "TalentID": "7295",
+    "EventTitle": "第二回即興ソング王決定戦",
+    "EventDate": "9/1",
+    "EventStartTime": "21:00",
+    "EventMembers": "[企画ライブ]シマッシュレコード／マルセイユ 別府／銀河ゆめゆめ 坂田／ダンビラムーチョ 大原／ゆにばーす 川瀬／ケビンス 山口／9番街レトロ なかむら／太鵬 太朗／めぞん 吉野／スパイク 松浦",
+    "TheaterVenue": "渋谷よしもと漫才劇場",
+    "OriginImage": "-",
+    "AppImage": "/img/flier/7295/9-1_第二回即興ソング王決定戦_336d5ebc.jpg",
+    "TicketLink": "https://ticket.fany.lol/reception/17294/18146?utm_source=profile&utm_medium=feed&utm_campaign=%E7%AC%AC%E4%BA%8C%E5%9B%9E%E5%8D%B3%E8%88%88%E3%82%BD%E3%83%B3%E3%82%B0%E7%8E%8B%E6%B1%BA%E5%AE%9A%E6%88%A6&utm_content=7295"
   },
   {
     "TalentName": "ケビンス",
@@ -909,18 +909,6 @@
     "TheaterVenue": "よしもと幕張イオンモール劇場",
     "OriginImage": "-",
     "AppImage": "/img/flier/7295/9-4_幕張平日ネタＳＰ９月公演_336d5ebc.jpg",
-    "TicketLink": "https://ticket.fany.lol/reception/17998/18710?utm_source=profile&utm_medium=feed&utm_campaign=%E5%B9%95%E5%BC%B5%E5%B9%B3%E6%97%A5%E3%83%8D%E3%82%BF%EF%BC%B3%EF%BC%B0%EF%BC%99%E6%9C%88%E5%85%AC%E6%BC%94&utm_content=7295"
-  },
-  {
-    "TalentName": "ケビンス",
-    "TalentID": "7295",
-    "EventTitle": "幕張平日ネタＳＰ９月公演",
-    "EventDate": "9/4",
-    "EventStartTime": "16:00",
-    "EventMembers": "[ネタ]ジャルジャル／ヘンダーソン／ケビンス／他",
-    "TheaterVenue": "よしもと幕張イオンモール劇場",
-    "OriginImage": "-",
-    "AppImage": "/img/flier/7295/9-4_幕張平日ネタＳＰ９月公演_336d5ebc.jpg",
     "TicketLink": "https://ticket.fany.lol/reception/17999/18710?utm_source=profile&utm_medium=feed&utm_campaign=%E5%B9%95%E5%BC%B5%E5%B9%B3%E6%97%A5%E3%83%8D%E3%82%BF%EF%BC%B3%EF%BC%B0%EF%BC%99%E6%9C%88%E5%85%AC%E6%BC%94&utm_content=7295"
   },
   {
@@ -934,6 +922,18 @@
     "OriginImage": "-",
     "AppImage": "/img/flier/7295/9-4_幕張平日ネタＳＰ９月公演_336d5ebc.jpg",
     "TicketLink": "https://ticket.fany.lol/reception/17997/18710?utm_source=profile&utm_medium=feed&utm_campaign=%E5%B9%95%E5%BC%B5%E5%B9%B3%E6%97%A5%E3%83%8D%E3%82%BF%EF%BC%B3%EF%BC%B0%EF%BC%99%E6%9C%88%E5%85%AC%E6%BC%94&utm_content=7295"
+  },
+  {
+    "TalentName": "ケビンス",
+    "TalentID": "7295",
+    "EventTitle": "幕張平日ネタＳＰ９月公演",
+    "EventDate": "9/4",
+    "EventStartTime": "16:00",
+    "EventMembers": "[ネタ]ジャルジャル／ヘンダーソン／ケビンス／他",
+    "TheaterVenue": "よしもと幕張イオンモール劇場",
+    "OriginImage": "-",
+    "AppImage": "/img/flier/7295/9-4_幕張平日ネタＳＰ９月公演_336d5ebc.jpg",
+    "TicketLink": "https://ticket.fany.lol/reception/17998/18710?utm_source=profile&utm_medium=feed&utm_campaign=%E5%B9%95%E5%BC%B5%E5%B9%B3%E6%97%A5%E3%83%8D%E3%82%BF%EF%BC%B3%EF%BC%B0%EF%BC%99%E6%9C%88%E5%85%AC%E6%BC%94&utm_content=7295"
   },
   {
     "TalentName": "ケビンス",

@@ -1,0 +1,57 @@
+name: Scrape and Build
+
+on:
+  workflow_dispatch:      # 手動実行可能
+  # schedule:
+  #   - cron: '3 5,13,21 * * *'   # 例: JST 5時・13時・21時（お好みで調整）
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape Talent Schedules
+        env:
+          TALENT_BASE_URL: https://profile.yoshimoto.co.jp/talent/detail?id=
+        run: python scrape_talent_schedules.py
+
+      - name: Upload CSV artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: temp_talent_events_csv
+          path: temp_talent_events.csv
+
+      - name: Setup credentials.json
+        run: echo "${{ secrets.GSHEET_CREDENTIALS_JSON }}" | base64 -d > credentials.json
+
+      # 劇場スケジュール追加時はここで python scrape_theater_schedules.py 等を追記
+
+      - name: Merge & Clean Data / Upload to Google Sheets
+        run: python merge_and_clean_data.py
+
+      - name: Export schedules.json for each talent
+        run: python csv_to_json_split.py
+
+      # 必要に応じて画像ダウンロードや画像commitもここで
+
+      - name: Configure Git for commit
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
+
+      - name: Add & commit new data
+        run: |
+          git add docs/schedule/*/schedules.json
+          git commit -m "Update talent schedules" || echo "Nothing to commit"
+          git push || echo "No changes to push"

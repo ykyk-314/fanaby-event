@@ -56,6 +56,6 @@ jobs:
 
       - name: Add & commit new data
         run: |
-          git add docs/schedule/*/schedules.json
+          git add docs/talents/*/schedules.json
           git commit -m "Update talent schedules" || echo "Nothing to commit"
           git push || echo "No changes to push"

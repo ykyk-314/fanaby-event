@@ -2,8 +2,8 @@ name: Scrape and Build
 
 on:
   workflow_dispatch:      # 手動実行可能
-  # schedule:
-  #   - cron: '3 5,13,21 * * *'   # 例: JST 5時・13時・21時（お好みで調整）
+  schedule:
+    - cron:  '3 9,17,23 * * *'  # 9時,17時,23時(JST+9)に実行（例）
 
 jobs:
   build:

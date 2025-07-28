@@ -37,9 +37,13 @@ jobs:
       # 劇場スケジュール追加時はここで python scrape_theater_schedules.py 等を追記
 
       - name: Merge & Clean Data / Upload to Google Sheets
+        env:
+          GSHEET_URL: ${{ secrets.GSHEET_URL }}
         run: python merge_and_clean_data.py
 
       - name: Export schedules.json for each talent
+        env:
+          GSHEET_URL: ${{ secrets.GSHEET_URL }}
         run: python csv_to_json_split.py
 
       # 必要に応じて画像ダウンロードや画像commitもここで

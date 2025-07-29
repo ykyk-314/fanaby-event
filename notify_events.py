@@ -32,10 +32,12 @@ for worksheet in sh.worksheets():
     if not records:
         continue
     df = pd.DataFrame(records)
+    print(f"### Processing sheet: {sheet_name} with {len(df)} records")
     if "IsUpdate" not in df.columns or df["IsUpdate"].isnull().all():
         continue
 
     df_notify = df[df["IsUpdate"].isin(["1", "2"])].copy()
+    print(f"### Found {len(df_notify)} records to notify in {sheet_name}")
     if not df_notify.empty:
         # タレント名取得
         talent_name = df_notify["TalentName"].iloc[0] if "TalentName" in df_notify.columns else sheet_name
@@ -45,6 +47,7 @@ for worksheet in sh.worksheets():
 if new_records:
     for talent_name, records in new_records:
         msg_body = ""
+        print(f"### Sending notification for {talent_name} with {len(records)} records")
         for _, row in records.iterrows():
             tag = "追加" if str(row["IsUpdate"]) == "1" else "更新"
             msg_body += (

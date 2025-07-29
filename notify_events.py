@@ -36,7 +36,7 @@ for worksheet in sh.worksheets():
     if "IsUpdate" not in df.columns or df["IsUpdate"].isnull().all():
         continue
 
-    df_notify = df[df["IsUpdate"].isin(["1", "2"])].copy()
+    df_notify = df[df["IsUpdate"].astype(str).isin(["1", "2"])].copy()
     print(f"### Found {len(df_notify)} records to notify in {sheet_name}")
     if not df_notify.empty:
         # タレント名取得

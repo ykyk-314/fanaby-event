@@ -84,8 +84,8 @@ if new_records:
         msg_body = ""
         print(f"### Sending notification for {talent_name} with {len(records)} records")
 
-    for _, row in records.iterrows():
-        msg_body += build_event_html(row, PAGES_BASE_URL)
+        for _, row in records.iterrows():
+            msg_body += build_event_html(row, PAGES_BASE_URL)
 
         subject = f"[Fanaby] {talent_name}：スケジュール追加・更新のお知らせ"
         # HTMLメールとして送信

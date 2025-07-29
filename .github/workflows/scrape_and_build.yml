@@ -20,6 +20,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # プロフィールページ
       - name: Scrape Talent Schedules
         env:
           TALENT_BASE_URL: https://profile.yoshimoto.co.jp/talent/detail?id=
@@ -48,6 +49,16 @@ jobs:
 
       # 必要に応じて画像ダウンロードや画像commitもここで
 
+      # 更新通知
+      - name: Notify new events by email
+        env:
+          GSHEET_URL: ${{ secrets.GSHEET_URL }}
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python notify_events.py
+
+      # Gitコミット
       - name: Configure Git for commit
         run: |
           git config --global user.name 'GitHub Actions'

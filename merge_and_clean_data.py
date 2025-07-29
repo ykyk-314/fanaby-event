@@ -62,10 +62,10 @@ for talent_name, group in df_new.groupby("TalentName"):
         if existing:
             df_exist = pd.DataFrame(existing[1:], columns=existing[0])
         else:
-            df_exist = pd.DataFrame(columns=group.columns.tolist() + ["AppImage", "IsUpdate"])
+            df_exist = pd.DataFrame(columns=group.columns.tolist() + ["IsUpdate"])
     except gspread.exceptions.WorksheetNotFound:
-        worksheet = sh.add_worksheet(title=sheet_name, rows="100", cols=str(len(group.columns)+2))
-        df_exist = pd.DataFrame(columns=group.columns.tolist() + ["AppImage", "IsUpdate"])
+        worksheet = sh.add_worksheet(title=sheet_name, rows="100", cols=str(len(group.columns)+1))
+        df_exist = pd.DataFrame(columns=group.columns.tolist() + ["IsUpdate"])
 
     # 型統一
     for col in key_cols:

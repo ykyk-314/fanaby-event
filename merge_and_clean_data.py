@@ -126,7 +126,7 @@ for talent_name, group in df_new.groupby("TalentName"):
     for row in combined_rows:
         if "__key" in row:
             del row["__key"]
-    out_columns = list(group.columns.drop("__key")) + ["AppImage", "IsUpdate"]
+    out_columns = list(group.columns.drop("__key")) + ["IsUpdate"]
     for row in combined_rows:
         for col in out_columns:
             if col not in row:

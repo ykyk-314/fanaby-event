@@ -62,6 +62,24 @@ def build_event_html(row, base_url):
         f"<span style='color:#222;'><b>会場：</b>{row['TheaterVenue']}</span><br>"
         f"<span style='color:#222;'><b>出演者：</b>{row['EventMembers']}</span><br>"
     )
+    # 差分表示（更新のみ）
+    if str(row["IsUpdate"]) == "2":
+        diff_cols = ["EventMembers", "OriginImage", "TicketLink"]
+        diff_msgs = []
+        for col in diff_cols:
+            before = str(row.get(col + "_old", ""))
+            after = str(row.get(col, ""))
+            if before != after:
+                before_disp = before if before and before != "-" else "（空）"
+                after_disp = after if after and after != "-" else "（空）"
+                # 日本語カラム名に変換する場合はここで
+                col_label = {"EventMembers": "出演者", "OriginImage": "フライヤー", "TicketLink": "チケットURL"}.get(col, col)
+                diff_msgs.append(f"<b>{col_label}：</b>{before_disp} → {after_disp}")
+        if diff_msgs:
+            html += "<span style='color:#0a72b6;'>■ 変更点：</span><ul style='margin:6px 0 6px 12px;'>"
+            for m in diff_msgs:
+                html += f"<li>{m}</li>"
+            html += "</ul>"
     # ボタン
     if row.get("TicketLink"):
         html += (

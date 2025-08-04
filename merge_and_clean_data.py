@@ -89,6 +89,9 @@ for talent_name, group in df_new.groupby("TalentName"):
         match = df_exist[df_exist["__key"] == key]
         row_out = row.to_dict()
         row_out["AppImage"] = ""
+        # 旧データの値もセット（なければ""）
+        for col in diff_cols:
+            row_out[col + "_old"] = match.iloc[0].get(col, "") if not match.empty else ""
         # 新規
         if match.empty:
             row_out["IsUpdate"] = "1"

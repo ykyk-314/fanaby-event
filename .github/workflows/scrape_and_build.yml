@@ -3,7 +3,7 @@ name: Scrape and Build
 on:
   workflow_dispatch:      # 手動実行可能
   schedule:
-    - cron:  '3 9,17,23 * * *'  # 9時,17時,23時(JST+9)に実行（例）
+    - cron: '3 0,8,13 * * *'  # JST+9に実行
 
 jobs:
   build:
@@ -65,14 +65,11 @@ jobs:
         run: python notify_events.py
 
       # Gitコミット
-      - name: Configure Git for commit
+      - name: Git commit
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
-
-      - name: Add & commit new data
-        run: |
           git add docs/img/flier 
           git add docs/talents/*/schedules.json
           git commit -m "Update talent schedules" || echo "Nothing to commit"

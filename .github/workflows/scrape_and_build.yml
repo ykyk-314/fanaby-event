@@ -30,7 +30,7 @@ jobs:
       - name: Scrape Talent Schedules
         env:
           TALENT_BASE_URL: https://profile.yoshimoto.co.jp/talent/detail?id=
-        run: python scrape_talent_schedules.py
+        run: python scripts/scrape/scrape_talent_schedules.py
 
       - name: Upload CSV artifact
         uses: actions/upload-artifact@v4
@@ -46,12 +46,12 @@ jobs:
       - name: Merge & Clean Data / Upload to Google Sheets
         env:
           GSHEET_URL: ${{ secrets.GSHEET_URL }}
-        run: python merge_and_clean_data.py
+        run: python scripts/transform/merge_and_clean_data.py
 
       - name: Export schedules.json for each talent
         env:
           GSHEET_URL: ${{ secrets.GSHEET_URL }}
-        run: python csv_to_json_split.py
+        run: python scripts/transform/csv_to_json_split.py
 
       # 必要に応じて画像ダウンロードや画像commitもここで
 
@@ -62,7 +62,7 @@ jobs:
           MAIL_USER: ${{ secrets.MAIL_USER }}
           MAIL_PASS: ${{ secrets.MAIL_PASS }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
-        run: python notify_events.py
+        run: python scripts/publish/notify_events.py
 
       # Gitコミット
       - name: Git commit

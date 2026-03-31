@@ -12,11 +12,9 @@ from pathlib import Path
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from webdriver_manager.chrome import ChromeDriverManager
 
 BASE_DIR = Path(__file__).parent.parent
 CONFIG_PATH = BASE_DIR / "data" / "config.json"
@@ -39,8 +37,8 @@ def build_driver() -> webdriver.Chrome:
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/130.0.0.0 Safari/537.36"
     )
-    service = Service(ChromeDriverManager().install())
-    return webdriver.Chrome(service=service, options=options)
+    # Selenium 4.6+ の selenium-manager が ChromeDriver を自動管理する
+    return webdriver.Chrome(options=options)
 
 
 def get_target_months(today: date) -> list[tuple[int, int]]:
@@ -163,10 +161,12 @@ def _parse_event(
     if not detail_div:
         return None
 
-    # 出演者詳細（schedule-detail-member 内のリンクから芸人IDを取得）
+    # 出演者詳細（schedule-detail-member）
+    # 芸人IDはリンクから取得（登録芸人の絞り込みに使用）
+    # members は <a> タグを除去したテキストをそのまま使用
     member_el = detail_div.find_elements(By.CSS_SELECTOR, "dd.schedule-detail-member")
     member_talent_ids: set[str] = set()
-    members: list[str] = []
+    members: str = ""
     if member_el:
         links = member_el[0].find_elements(By.CSS_SELECTOR, "a[href*='/talent/detail']")
         for link in links:
@@ -174,9 +174,12 @@ def _parse_event(
             id_m = re.search(r"id=(\d+)", href)
             if id_m:
                 member_talent_ids.add(id_m.group(1))
-            name = link.text.strip()
-            if name:
-                members.append(name)
+        # innerHTML から <a> タグのみ除去（テキストは保持）してテキスト化
+        html = member_el[0].get_attribute("innerHTML") or ""
+        text = re.sub(r"<a\b[^>]*>(.*?)</a>", r"\1", html, flags=re.IGNORECASE | re.DOTALL)
+        text = re.sub(r"<[^>]+>", "", text)
+        lines = [line.strip() for line in text.splitlines()]
+        members = "\n".join(line for line in lines if line)
 
     # 登録芸人が含まれているか確認
     matched_talents = talent_ids & member_talent_ids
@@ -210,7 +213,7 @@ def _parse_event(
         "venue": theater["name"],
         "place": None,
         "image_url": None,
-        "ticket_url": ticket_url,
+        "ticket_urls": [ticket_url] if ticket_url else [],
         "online_url": online_url,
         "price": price,
         "source": f"theater:{theater['id']}",

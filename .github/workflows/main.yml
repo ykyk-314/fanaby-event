@@ -4,7 +4,7 @@ on:
   schedule:
     # JST 9:03 / 17:03 / 22:03 に実行（UTC 0:00 / 8:00 / 13:00）
     # - cron: "3 0,8,13 * * *"
-    - cron: "3 8 * * *"
+    - cron: "3 8,13 * * *"
   workflow_dispatch:
 
 permissions:
@@ -58,7 +58,10 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update events [skip ci]"
           git push
 
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-        with:
-          folder: docs

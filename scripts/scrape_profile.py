@@ -14,11 +14,9 @@ from pathlib import Path
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from webdriver_manager.chrome import ChromeDriverManager
 
 BASE_DIR = Path(__file__).parent.parent
 CONFIG_PATH = BASE_DIR / "data" / "config.json"
@@ -38,8 +36,8 @@ def build_driver() -> webdriver.Chrome:
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/130.0.0.0 Safari/537.36"
     )
-    service = Service(ChromeDriverManager().install())
-    return webdriver.Chrome(service=service, options=options)
+    # Selenium 4.6+ の selenium-manager が ChromeDriver を自動管理する
+    return webdriver.Chrome(options=options)
 
 
 def resolve_year(month: int, day: int, today: date) -> int:
@@ -103,14 +101,30 @@ def scrape_talent(driver: webdriver.Chrome, talent: dict, today: date) -> list[d
     items = driver.find_elements(By.CSS_SELECTOR, "#feed_ticket_info2 .feed-item-container")
     print(f"  {len(items)} 件取得")
 
-    events = []
+    # 同一公演が複数エントリになる場合（ticket_urlのみ異なる）を統合する
+    # キー: (date, title, start_time) で集約し ticket_urls をまとめる
+    merged: dict[tuple, dict] = {}
     for item in items:
         try:
             event = _parse_item(item, talent, today)
-            if event:
-                events.append(event)
+            if not event:
+                continue
+            key = (event["date"], event["title"], event.get("start_time"))
+            if key not in merged:
+                merged[key] = event
+            else:
+                # ticket_urls を追記（重複除外）
+                existing_urls = merged[key].get("ticket_urls", [])
+                for url in event.get("ticket_urls", []):
+                    if url not in existing_urls:
+                        existing_urls.append(url)
+                merged[key]["ticket_urls"] = existing_urls
         except Exception as e:
             print(f"  警告: アイテムのパース失敗: {e}")
+
+    events = list(merged.values())
+    if len(items) != len(events):
+        print(f"  重複統合: {len(items)} → {len(events)} 件")
     return events
 
 
@@ -133,10 +147,9 @@ def _parse_item(item, talent: dict, today: date) -> dict | None:
     if not title:
         return None
 
-    # 出演者
+    # 出演者（div のテキストをそのまま取得し、余分な空白のみ整理）
     member_el = item.find_elements(By.CSS_SELECTOR, ".opt-feed-ft-element-member")
-    members_raw = member_el[0].get_attribute("innerHTML").strip() if member_el else ""
-    members = _parse_members(members_raw)
+    members = _parse_members(member_el[0]) if member_el else ""
 
     # 所在地（吉本所有劇場のみ）
     place_el = item.find_elements(By.CSS_SELECTOR, ".opt-feed-ft-element-place")
@@ -166,20 +179,25 @@ def _parse_item(item, talent: dict, today: date) -> dict | None:
         "place": place,
         "venue": venue,
         "image_url": image_url,
-        "ticket_url": ticket_url,
+        "ticket_urls": [ticket_url] if ticket_url else [],
         "source": "profile",
     }
 
 
-def _parse_members(html: str) -> list[str]:
+def _parse_members(el) -> str:
     """
-    出演者HTMLから名前リストを抽出する。
-    <br> / 「、」/ 「／」/ 「・」で分割し、ゲスト等のプレフィックスも除去する。
+    .opt-feed-ft-element-member 要素のテキストを整形して返す。
+
+    ラベル（[ネタライブ] 等）・MC表記はそのまま残す。
+    要素内の改行や連続空白を単一スペースに正規化するのみ。
     """
-    text = re.sub(r"<[^>]+>", "", html)
-    text = re.sub(r"ゲスト[:：]", "", text)
-    parts = re.split(r"[、／\n・,，]", text)
-    return [p.strip() for p in parts if p.strip()]
+    # innerHTML を取得して <br> を改行に変換、それ以外のタグを除去
+    html = el.get_attribute("innerHTML") or ""
+    text = re.sub(r"<br\s*/?>", "\n", html, flags=re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", "", text)
+    # 行ごとに前後空白をトリムし、空行を除去して改行で再結合
+    lines = [line.strip() for line in text.splitlines()]
+    return "\n".join(line for line in lines if line)
 
 
 def main():

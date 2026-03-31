@@ -24,7 +24,7 @@ THEATER_PATH = BASE_DIR / "data" / "theater_events.json"
 JST = timezone(timedelta(hours=9))
 
 # 変更を検知するフィールド（これらが変わったら updated とみなす）
-WATCH_FIELDS = ["members", "image_url", "ticket_url", "online_url", "price",
+WATCH_FIELDS = ["members", "image_url", "ticket_urls", "online_url", "price",
                 "open_time", "start_time", "end_time", "venue"]
 
 
@@ -61,7 +61,13 @@ def load_existing_events() -> list[dict]:
     if not EVENTS_PATH.exists():
         return []
     data = json.loads(EVENTS_PATH.read_text(encoding="utf-8"))
-    return data.get("events", [])
+    events = data.get("events", [])
+    # ticket_url（旧スキーマ）→ ticket_urls（新スキーマ）へのマイグレーション
+    for ev in events:
+        if "ticket_url" in ev and "ticket_urls" not in ev:
+            old = ev.pop("ticket_url")
+            ev["ticket_urls"] = [old] if old else []
+    return events
 
 
 def build_event_from_profile(p: dict) -> dict:
@@ -75,11 +81,11 @@ def build_event_from_profile(p: dict) -> dict:
         "open_time": None,
         "start_time": p.get("start_time"),
         "end_time": None,
-        "members": p.get("members", []),
+        "members": p.get("members", ""),
         "venue": p.get("venue"),
         "place": p.get("place"),
         "image_url": p.get("image_url"),
-        "ticket_url": p.get("ticket_url"),
+        "ticket_urls": p.get("ticket_urls", []),
         "online_url": None,
         "price": None,
         "sources": [p["source"]],
@@ -132,11 +138,16 @@ def _patch_from_theater(ev: dict, te: dict) -> None:
         ev["start_time"] = te["start_time"]
     if not ev.get("end_time") and te.get("end_time"):
         ev["end_time"] = te["end_time"]
+    # 劇場のチケットURLをマージ（重複除外）
+    for url in te.get("ticket_urls", []):
+        if url and url not in ev.get("ticket_urls", []):
+            ev.setdefault("ticket_urls", []).append(url)
     if not ev.get("online_url") and te.get("online_url"):
         ev["online_url"] = te["online_url"]
     if not ev.get("price") and te.get("price"):
         ev["price"] = te["price"]
-    if te.get("members") and len(te["members"]) > len(ev.get("members", [])):
+    # 劇場データの出演者情報は構造化されているため、存在すれば優先して上書き
+    if te.get("members"):
         ev["members"] = te["members"]
     src = te.get("source")
     if src and src not in ev.get("sources", []):
@@ -156,11 +167,11 @@ def _build_event_from_theater(te: dict, talent_id: str, talent_map: dict) -> dic
         "open_time": te.get("open_time"),
         "start_time": te.get("start_time"),
         "end_time": te.get("end_time"),
-        "members": te.get("members", []),
+        "members": te.get("members", ""),
         "venue": te.get("venue"),
         "place": te.get("place"),
         "image_url": None,
-        "ticket_url": te.get("ticket_url"),
+        "ticket_urls": te.get("ticket_urls", []),
         "online_url": te.get("online_url"),
         "price": te.get("price"),
         "sources": [te["source"]],
@@ -212,6 +223,13 @@ def diff_and_update(
                 ev["diff"] = old.get("diff")
         result.append(ev)
 
+    # スクレイプに現れなかった既存イベント（サイトから消えた過去公演等）を保持する
+    scraped_ids = {ev["id"] for ev in result}
+    carried_over = [ev for ev in existing if ev["id"] not in scraped_ids]
+    if carried_over:
+        print(f"既存イベント引き継ぎ: {len(carried_over)} 件（サイトから消えたが保持）")
+    result.extend(carried_over)
+
     new_count = sum(1 for e in result if e["status"] == "new")
     updated_count = sum(1 for e in result if e["status"] == "updated")
     print(f"差分検出: 新規 {new_count} 件、更新 {updated_count} 件")
@@ -240,6 +258,16 @@ def main():
     print("劇場データをマージ中...")
     merge_theater_into_events(scraped, theater_events, config)
     print(f"  マージ後: {len(scraped)} 件")
+
+    # 除外タイトルフィルタ（部分一致）
+    exclude_titles: list[str] = config.get("exclude_titles", [])
+    if exclude_titles:
+        before = len(scraped)
+        scraped = [
+            ev for ev in scraped
+            if not any(kw in ev["title"] for kw in exclude_titles)
+        ]
+        print(f"除外フィルタ適用: {before - len(scraped)} 件除外 → {len(scraped)} 件")
 
     # 差分検出
     print("差分を検出中...")

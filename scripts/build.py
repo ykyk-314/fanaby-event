@@ -69,13 +69,13 @@ def render_event_card(ev: dict) -> str:
     time_str = " | ".join(times)
 
     venue = escape_html(ev.get("venue") or ev.get("place") or "")
-    members = escape_html("、".join(ev.get("members", [])))
+    members = escape_html(ev.get("members") or "")
     price_str = escape_html(format_price(ev.get("price")))
 
     ticket_btns = ""
-    if ev.get("ticket_url"):
-        url = escape_html(ev["ticket_url"])
-        ticket_btns += f'<a href="{url}" target="_blank" class="btn btn-ticket">チケット購入</a>'
+    for i, url in enumerate(ev.get("ticket_urls") or []):
+        label = "チケット購入" if i == 0 else f"チケット購入 ({i + 1})"
+        ticket_btns += f'<a href="{escape_html(url)}" target="_blank" class="btn btn-ticket">{label}</a>'
     if ev.get("online_url"):
         url = escape_html(ev["online_url"])
         ticket_btns += f'<a href="{url}" target="_blank" class="btn btn-online">配信チケット</a>'

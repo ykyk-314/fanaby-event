@@ -90,7 +90,7 @@ def _fmt_value(v) -> str:
     if v is None:
         return "—"
     if isinstance(v, list):
-        return "、".join(str(x) for x in v)
+        return "、".join(str(x) for x in v)  # 念のため残すが members は文字列になった
     if isinstance(v, dict):
         return format_price(v)
     return str(v)
@@ -113,7 +113,7 @@ def build_event_card(ev: dict) -> str:
         times.append(f"終演 {ev['end_time']}")
     time_str = " | ".join(times) if times else "—"
 
-    members_str = "、".join(ev.get("members", [])) or "—"
+    members_str = ev.get("members") or "—"
     venue_str = ev.get("venue") or ev.get("place") or "—"
     price_str = format_price(ev.get("price"))
 

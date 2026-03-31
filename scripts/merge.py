@@ -75,7 +75,7 @@ def build_event_from_profile(p: dict) -> dict:
         "open_time": None,
         "start_time": p.get("start_time"),
         "end_time": None,
-        "members": p.get("members", []),
+        "members": p.get("members", ""),
         "venue": p.get("venue"),
         "place": p.get("place"),
         "image_url": p.get("image_url"),
@@ -136,7 +136,8 @@ def _patch_from_theater(ev: dict, te: dict) -> None:
         ev["online_url"] = te["online_url"]
     if not ev.get("price") and te.get("price"):
         ev["price"] = te["price"]
-    if te.get("members") and len(te["members"]) > len(ev.get("members", [])):
+    # 劇場データの出演者情報は構造化されているため、存在すれば優先して上書き
+    if te.get("members"):
         ev["members"] = te["members"]
     src = te.get("source")
     if src and src not in ev.get("sources", []):
@@ -156,7 +157,7 @@ def _build_event_from_theater(te: dict, talent_id: str, talent_map: dict) -> dic
         "open_time": te.get("open_time"),
         "start_time": te.get("start_time"),
         "end_time": te.get("end_time"),
-        "members": te.get("members", []),
+        "members": te.get("members", ""),
         "venue": te.get("venue"),
         "place": te.get("place"),
         "image_url": None,

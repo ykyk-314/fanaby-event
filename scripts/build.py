@@ -69,7 +69,7 @@ def render_event_card(ev: dict) -> str:
     time_str = " | ".join(times)
 
     venue = escape_html(ev.get("venue") or ev.get("place") or "")
-    members = escape_html("、".join(ev.get("members", [])))
+    members = escape_html(ev.get("members") or "")
     price_str = escape_html(format_price(ev.get("price")))
 
     ticket_btns = ""

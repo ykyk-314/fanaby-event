@@ -161,10 +161,12 @@ def _parse_event(
     if not detail_div:
         return None
 
-    # 出演者詳細（schedule-detail-member 内のリンクから芸人IDを取得）
+    # 出演者詳細（schedule-detail-member）
+    # 芸人IDはリンクから取得（登録芸人の絞り込みに使用）
+    # members は <a> タグを除去したテキストをそのまま使用
     member_el = detail_div.find_elements(By.CSS_SELECTOR, "dd.schedule-detail-member")
     member_talent_ids: set[str] = set()
-    members: list[str] = []
+    members: str = ""
     if member_el:
         links = member_el[0].find_elements(By.CSS_SELECTOR, "a[href*='/talent/detail']")
         for link in links:
@@ -172,9 +174,12 @@ def _parse_event(
             id_m = re.search(r"id=(\d+)", href)
             if id_m:
                 member_talent_ids.add(id_m.group(1))
-            name = link.text.strip()
-            if name:
-                members.append(name)
+        # innerHTML から <a> タグのみ除去（テキストは保持）してテキスト化
+        html = member_el[0].get_attribute("innerHTML") or ""
+        text = re.sub(r"<a\b[^>]*>(.*?)</a>", r"\1", html, flags=re.IGNORECASE | re.DOTALL)
+        text = re.sub(r"<[^>]+>", "", text)
+        lines = [line.strip() for line in text.splitlines()]
+        members = "\n".join(line for line in lines if line)
 
     # 登録芸人が含まれているか確認
     matched_talents = talent_ids & member_talent_ids

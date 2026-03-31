@@ -1,2 +1,6 @@
 .env
-temp_talent_events.csv
+data/profile_events.json
+data/theater_events.json
+__pycache__/
+*.pyc
+.DS_Store

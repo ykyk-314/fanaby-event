@@ -1,0 +1,24 @@
+{
+  "talents": [
+    { "id": "10708", "name": "シンクロニシティ" },
+    { "id": "5114",  "name": "マユリカ" },
+    { "id": "7295",  "name": "ケビンス" }
+  ],
+  "theaters": [
+    {
+      "id": "shibuya",
+      "name": "渋谷よしもと漫才劇場",
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/"
+    },
+    {
+      "id": "jimbocho",
+      "name": "神保町よしもと漫才劇場",
+      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/"
+    },
+    {
+      "id": "roppongi",
+      "name": "YOSHIMOTO ROPPONGI THEATER",
+      "url": "https://roppongi.yoshimoto.co.jp/schedule/"
+    }
+  ]
+}

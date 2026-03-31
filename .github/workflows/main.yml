@@ -1,0 +1,64 @@
+name: scrape-and-deploy
+
+on:
+  schedule:
+    # JST 9:03 / 17:03 / 22:03 に実行（UTC 0:00 / 8:00 / 13:00）
+    # - cron: "3 0,8,13 * * *"
+    - cron: "3 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Chrome
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y google-chrome-stable
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape profile pages
+        run: python scripts/scrape_profile.py
+
+      - name: Scrape theater pages
+        run: python scripts/scrape_theater.py
+
+      - name: Merge and detect diffs
+        run: python scripts/merge.py
+
+      - name: Send notifications
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+          MAIL_TO:   ${{ secrets.MAIL_TO }}
+        run: python scripts/notify.py
+
+      - name: Build static site
+        run: python scripts/build.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/events.json docs/index.html
+          git diff --cached --quiet || git commit -m "chore: update events [skip ci]"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        with:
+          folder: docs

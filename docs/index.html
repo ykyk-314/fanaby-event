@@ -2,24 +2,13 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>スケジュール</title>
-  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>公演スケジュール</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 80px 20px; color: #999; }
+  </style>
 </head>
 <body>
-  <h1>スケジュール</h1>
-  <ul id="talent-list">
-    <!-- ここにJSでタレントリストを生成 -->
-  </ul>
-  <script>
-    // 仮：talents.jsonを直で使う場合
-    fetch('talents.json').then(res => res.json()).then(talents => {
-      const ul = document.getElementById('talent-list');
-      talents.forEach(t => {
-        const li = document.createElement('li');
-        li.innerHTML = `<a href="talents/${t.id}/">${t.name}</a>`;
-        ul.appendChild(li);
-      });
-    });
-  </script>
+  <p>データを取得中です。しばらくお待ちください。</p>
 </body>
 </html>

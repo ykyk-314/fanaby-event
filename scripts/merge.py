@@ -24,7 +24,7 @@ THEATER_PATH = BASE_DIR / "data" / "theater_events.json"
 JST = timezone(timedelta(hours=9))
 
 # 変更を検知するフィールド（これらが変わったら updated とみなす）
-WATCH_FIELDS = ["members", "image_url", "ticket_url", "online_url", "price",
+WATCH_FIELDS = ["members", "image_url", "ticket_urls", "online_url", "price",
                 "open_time", "start_time", "end_time", "venue"]
 
 
@@ -61,7 +61,13 @@ def load_existing_events() -> list[dict]:
     if not EVENTS_PATH.exists():
         return []
     data = json.loads(EVENTS_PATH.read_text(encoding="utf-8"))
-    return data.get("events", [])
+    events = data.get("events", [])
+    # ticket_url（旧スキーマ）→ ticket_urls（新スキーマ）へのマイグレーション
+    for ev in events:
+        if "ticket_url" in ev and "ticket_urls" not in ev:
+            old = ev.pop("ticket_url")
+            ev["ticket_urls"] = [old] if old else []
+    return events
 
 
 def build_event_from_profile(p: dict) -> dict:
@@ -79,7 +85,7 @@ def build_event_from_profile(p: dict) -> dict:
         "venue": p.get("venue"),
         "place": p.get("place"),
         "image_url": p.get("image_url"),
-        "ticket_url": p.get("ticket_url"),
+        "ticket_urls": p.get("ticket_urls", []),
         "online_url": None,
         "price": None,
         "sources": [p["source"]],
@@ -132,6 +138,10 @@ def _patch_from_theater(ev: dict, te: dict) -> None:
         ev["start_time"] = te["start_time"]
     if not ev.get("end_time") and te.get("end_time"):
         ev["end_time"] = te["end_time"]
+    # 劇場のチケットURLをマージ（重複除外）
+    for url in te.get("ticket_urls", []):
+        if url and url not in ev.get("ticket_urls", []):
+            ev.setdefault("ticket_urls", []).append(url)
     if not ev.get("online_url") and te.get("online_url"):
         ev["online_url"] = te["online_url"]
     if not ev.get("price") and te.get("price"):
@@ -161,7 +171,7 @@ def _build_event_from_theater(te: dict, talent_id: str, talent_map: dict) -> dic
         "venue": te.get("venue"),
         "place": te.get("place"),
         "image_url": None,
-        "ticket_url": te.get("ticket_url"),
+        "ticket_urls": te.get("ticket_urls", []),
         "online_url": te.get("online_url"),
         "price": te.get("price"),
         "sources": [te["source"]],
@@ -212,6 +222,13 @@ def diff_and_update(
                 ev["notified_at"] = old.get("notified_at")
                 ev["diff"] = old.get("diff")
         result.append(ev)
+
+    # スクレイプに現れなかった既存イベント（サイトから消えた過去公演等）を保持する
+    scraped_ids = {ev["id"] for ev in result}
+    carried_over = [ev for ev in existing if ev["id"] not in scraped_ids]
+    if carried_over:
+        print(f"既存イベント引き継ぎ: {len(carried_over)} 件（サイトから消えたが保持）")
+    result.extend(carried_over)
 
     new_count = sum(1 for e in result if e["status"] == "new")
     updated_count = sum(1 for e in result if e["status"] == "updated")

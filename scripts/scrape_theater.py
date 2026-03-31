@@ -213,7 +213,7 @@ def _parse_event(
         "venue": theater["name"],
         "place": None,
         "image_url": None,
-        "ticket_url": ticket_url,
+        "ticket_urls": [ticket_url] if ticket_url else [],
         "online_url": online_url,
         "price": price,
         "source": f"theater:{theater['id']}",

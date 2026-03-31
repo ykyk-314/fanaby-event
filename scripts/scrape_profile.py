@@ -101,14 +101,30 @@ def scrape_talent(driver: webdriver.Chrome, talent: dict, today: date) -> list[d
     items = driver.find_elements(By.CSS_SELECTOR, "#feed_ticket_info2 .feed-item-container")
     print(f"  {len(items)} 件取得")
 
-    events = []
+    # 同一公演が複数エントリになる場合（ticket_urlのみ異なる）を統合する
+    # キー: (date, title, start_time) で集約し ticket_urls をまとめる
+    merged: dict[tuple, dict] = {}
     for item in items:
         try:
             event = _parse_item(item, talent, today)
-            if event:
-                events.append(event)
+            if not event:
+                continue
+            key = (event["date"], event["title"], event.get("start_time"))
+            if key not in merged:
+                merged[key] = event
+            else:
+                # ticket_urls を追記（重複除外）
+                existing_urls = merged[key].get("ticket_urls", [])
+                for url in event.get("ticket_urls", []):
+                    if url not in existing_urls:
+                        existing_urls.append(url)
+                merged[key]["ticket_urls"] = existing_urls
         except Exception as e:
             print(f"  警告: アイテムのパース失敗: {e}")
+
+    events = list(merged.values())
+    if len(items) != len(events):
+        print(f"  重複統合: {len(items)} → {len(events)} 件")
     return events
 
 
@@ -163,7 +179,7 @@ def _parse_item(item, talent: dict, today: date) -> dict | None:
         "place": place,
         "venue": venue,
         "image_url": image_url,
-        "ticket_url": ticket_url,
+        "ticket_urls": [ticket_url] if ticket_url else [],
         "source": "profile",
     }
 

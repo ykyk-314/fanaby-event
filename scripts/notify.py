@@ -60,7 +60,7 @@ def render_diff_rows(diff: dict | None) -> str:
     label_map = {
         "members": "出演者",
         "image_url": "フライヤー",
-        "ticket_url": "チケットURL",
+        "ticket_urls": "チケットURL",
         "online_url": "配信URL",
         "price": "料金",
         "open_time": "開場時刻",
@@ -118,11 +118,12 @@ def build_event_card(ev: dict) -> str:
     price_str = format_price(ev.get("price"))
 
     ticket_btn = ""
-    if ev.get("ticket_url"):
+    for i, url in enumerate(ev.get("ticket_urls") or []):
+        label = "チケット購入" if i == 0 else f"チケット購入 ({i + 1})"
         ticket_btn += (
-            f'<a href="{ev["ticket_url"]}" style="display:inline-block;margin-top:8px;'
+            f'<a href="{url}" style="display:inline-block;margin-top:8px;'
             f'margin-right:8px;padding:6px 14px;background:#e74c3c;color:#fff;'
-            f'text-decoration:none;border-radius:4px;font-size:13px">チケット購入</a>'
+            f'text-decoration:none;border-radius:4px;font-size:13px">{label}</a>'
         )
     if ev.get("online_url"):
         ticket_btn += (

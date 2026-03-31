@@ -58,7 +58,10 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update events [skip ci]"
           git push
 
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-        with:
-          folder: docs

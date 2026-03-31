@@ -12,11 +12,9 @@ from pathlib import Path
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from webdriver_manager.chrome import ChromeDriverManager
 
 BASE_DIR = Path(__file__).parent.parent
 CONFIG_PATH = BASE_DIR / "data" / "config.json"
@@ -39,8 +37,8 @@ def build_driver() -> webdriver.Chrome:
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/130.0.0.0 Safari/537.36"
     )
-    service = Service(ChromeDriverManager().install())
-    return webdriver.Chrome(service=service, options=options)
+    # Selenium 4.6+ の selenium-manager が ChromeDriver を自動管理する
+    return webdriver.Chrome(options=options)
 
 
 def get_target_months(today: date) -> list[tuple[int, int]]:

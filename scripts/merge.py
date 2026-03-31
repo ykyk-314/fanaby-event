@@ -241,6 +241,16 @@ def main():
     merge_theater_into_events(scraped, theater_events, config)
     print(f"  マージ後: {len(scraped)} 件")
 
+    # 除外タイトルフィルタ（部分一致）
+    exclude_titles: list[str] = config.get("exclude_titles", [])
+    if exclude_titles:
+        before = len(scraped)
+        scraped = [
+            ev for ev in scraped
+            if not any(kw in ev["title"] for kw in exclude_titles)
+        ]
+        print(f"除外フィルタ適用: {before - len(scraped)} 件除外 → {len(scraped)} 件")
+
     # 差分検出
     print("差分を検出中...")
     final_events = diff_and_update(scraped, existing_events)

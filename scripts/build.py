@@ -324,23 +324,53 @@ def main():
       return Array.from(panel.querySelectorAll('.event-card'));
     }}
 
+    const YOSHIMOTO_VENUES = [
+      'ルミネtheよしもと',
+      '渋谷よしもと漫才劇場',
+      '神保町よしもと漫才劇場',
+      'YOSHIMOTO ROPPONGI THEATER',
+      'よしもと幕張イオンモール劇場',
+      '大宮ラクーンよしもと劇場',
+      'よしもと漫才劇場',
+      '森ノ宮よしもと漫才劇場',
+      'よしもと道頓堀シアター',
+      'よしもと福岡 大和証券劇場',
+    ];
+
     function buildVenueOptions() {{
       const panel = activePanel();
-      const venues = new Set();
-      allCardsInPanel(panel).forEach(c => {{
-        const v = c.dataset.venue;
-        if (v) venues.add(v);
-      }});
+      const present = new Set();
+      allCardsInPanel(panel).forEach(c => {{ if (c.dataset.venue) present.add(c.dataset.venue); }});
+
       const sel = document.getElementById('filterVenue');
       const current = sel.value;
       sel.innerHTML = '<option value="">すべて</option>';
-      [...venues].sort().forEach(v => {{
+
+      function makeOpt(v) {{
         const opt = document.createElement('option');
         opt.value = v;
         opt.textContent = v;
         if (v === current) opt.selected = true;
-        sel.appendChild(opt);
-      }});
+        return opt;
+      }}
+
+      // よしもとグループ（定義順、現パネルに存在するもののみ）
+      const yoshimotoPresent = YOSHIMOTO_VENUES.filter(v => present.has(v));
+      if (yoshimotoPresent.length) {{
+        const grp = document.createElement('optgroup');
+        grp.label = 'よしもと';
+        yoshimotoPresent.forEach(v => grp.appendChild(makeOpt(v)));
+        sel.appendChild(grp);
+      }}
+
+      // その他グループ（よしもと以外、アイウエオ順）
+      const others = [...present].filter(v => !YOSHIMOTO_VENUES.includes(v)).sort();
+      if (others.length) {{
+        const grp = document.createElement('optgroup');
+        grp.label = 'その他劇場';
+        others.forEach(v => grp.appendChild(makeOpt(v)));
+        sel.appendChild(grp);
+      }}
     }}
 
     function applyFilters() {{

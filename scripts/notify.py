@@ -56,11 +56,10 @@ def format_price(price: dict | None) -> str:
 def render_diff_rows(diff: dict | None) -> str:
     if not diff:
         return ""
-    rows = []
     label_map = {
         "members": "出演者",
         "image_url": "フライヤー",
-        "ticket_urls": "チケットURL",
+        "ticket_url": "チケットURL",
         "online_url": "配信URL",
         "price": "料金",
         "open_time": "開場時刻",
@@ -68,32 +67,18 @@ def render_diff_rows(diff: dict | None) -> str:
         "end_time": "終演時刻",
         "venue": "会場",
     }
-    for field, values in diff.items():
-        label = label_map.get(field, field)
-        before = _fmt_value(values.get("before"))
-        after = _fmt_value(values.get("after"))
-        rows.append(
-            f'<tr><td style="padding:4px 8px;color:#666;white-space:nowrap">{label}</td>'
-            f'<td style="padding:4px 8px;text-decoration:line-through;color:#999">{before}</td>'
-            f'<td style="padding:4px 8px;color:#333">→ {after}</td></tr>'
-        )
-    if not rows:
+    labels = [label_map.get(f, f) for f in diff if f in label_map]
+    if not labels:
         return ""
+    items = "".join(
+        f'<span style="display:inline-block;margin:2px 4px 2px 0;padding:2px 8px;'
+        f'background:#eaf3fb;border-radius:3px;font-size:12px;color:#2980b9">{label}</span>'
+        for label in labels
+    )
     return (
-        '<table style="border-collapse:collapse;margin-top:8px;font-size:13px">'
-        + "".join(rows)
-        + "</table>"
+        f'<div style="margin-top:8px;font-size:12px;color:#666">変更項目: {items}</div>'
     )
 
-
-def _fmt_value(v) -> str:
-    if v is None:
-        return "—"
-    if isinstance(v, list):
-        return "、".join(str(x) for x in v)  # 念のため残すが members は文字列になった
-    if isinstance(v, dict):
-        return format_price(v)
-    return str(v)
 
 
 def build_event_card(ev: dict) -> str:
@@ -118,12 +103,11 @@ def build_event_card(ev: dict) -> str:
     price_str = format_price(ev.get("price"))
 
     ticket_btn = ""
-    for i, url in enumerate(ev.get("ticket_urls") or []):
-        label = "チケット購入" if i == 0 else f"チケット購入 ({i + 1})"
+    if ev.get("ticket_url"):
         ticket_btn += (
-            f'<a href="{url}" style="display:inline-block;margin-top:8px;'
+            f'<a href="{ev["ticket_url"]}" style="display:inline-block;margin-top:8px;'
             f'margin-right:8px;padding:6px 14px;background:#e74c3c;color:#fff;'
-            f'text-decoration:none;border-radius:4px;font-size:13px">{label}</a>'
+            f'text-decoration:none;border-radius:4px;font-size:13px">チケット購入</a>'
         )
     if ev.get("online_url"):
         ticket_btn += (

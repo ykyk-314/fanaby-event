@@ -24,7 +24,7 @@ THEATER_PATH = BASE_DIR / "data" / "theater_events.json"
 JST = timezone(timedelta(hours=9))
 
 # 変更を検知するフィールド（これらが変わったら updated とみなす）
-WATCH_FIELDS = ["members", "image_url", "ticket_urls", "online_url", "price",
+WATCH_FIELDS = ["members", "image_url", "ticket_url", "online_url", "price",
                 "open_time", "start_time", "end_time", "venue"]
 
 
@@ -62,11 +62,11 @@ def load_existing_events() -> list[dict]:
         return []
     data = json.loads(EVENTS_PATH.read_text(encoding="utf-8"))
     events = data.get("events", [])
-    # ticket_url（旧スキーマ）→ ticket_urls（新スキーマ）へのマイグレーション
+    # ticket_urls（旧スキーマ）→ ticket_url（新スキーマ）へのマイグレーション
     for ev in events:
-        if "ticket_url" in ev and "ticket_urls" not in ev:
-            old = ev.pop("ticket_url")
-            ev["ticket_urls"] = [old] if old else []
+        if "ticket_urls" in ev and "ticket_url" not in ev:
+            urls = ev.pop("ticket_urls")
+            ev["ticket_url"] = urls[0] if urls else None
     return events
 
 
@@ -85,7 +85,8 @@ def build_event_from_profile(p: dict) -> dict:
         "venue": p.get("venue"),
         "place": p.get("place"),
         "image_url": p.get("image_url"),
-        "ticket_urls": p.get("ticket_urls", []),
+        "ticket_urls": p.get("ticket_urls", []),  # 優先ルール解決まで保持
+        "ticket_url": None,                        # 解決後に設定される
         "online_url": None,
         "price": None,
         "sources": [p["source"]],
@@ -138,10 +139,10 @@ def _patch_from_theater(ev: dict, te: dict) -> None:
         ev["start_time"] = te["start_time"]
     if not ev.get("end_time") and te.get("end_time"):
         ev["end_time"] = te["end_time"]
-    # 劇場のチケットURLをマージ（重複除外）
-    for url in te.get("ticket_urls", []):
-        if url and url not in ev.get("ticket_urls", []):
-            ev.setdefault("ticket_urls", []).append(url)
+    # 劇場チケットURLを記録（優先ルール解決時に使用）
+    theater_urls = te.get("ticket_urls", [])
+    if theater_urls:
+        ev["theater_ticket_url"] = theater_urls[0]
     if not ev.get("online_url") and te.get("online_url"):
         ev["online_url"] = te["online_url"]
     if not ev.get("price") and te.get("price"):
@@ -171,7 +172,7 @@ def _build_event_from_theater(te: dict, talent_id: str, talent_map: dict) -> dic
         "venue": te.get("venue"),
         "place": te.get("place"),
         "image_url": None,
-        "ticket_urls": te.get("ticket_urls", []),
+        "ticket_url": te.get("ticket_urls", [None])[0],  # 劇場のみの公演は即解決
         "online_url": te.get("online_url"),
         "price": te.get("price"),
         "sources": [te["source"]],
@@ -268,6 +269,19 @@ def main():
             if not any(kw in ev["title"] for kw in exclude_titles)
         ]
         print(f"除外フィルタ適用: {before - len(scraped)} 件除外 → {len(scraped)} 件")
+
+    # チケットURL優先ルール解決
+    # 1. 劇場スケジュールにURLがあればそれを使用
+    # 2. プロフィールにURLが複数ある場合は先頭1件を使用
+    # 3. 1件なければそれを使用
+    for ev in scraped:
+        if ev.get("theater_ticket_url"):
+            ev["ticket_url"] = ev.pop("theater_ticket_url")
+        else:
+            profile_urls = ev.get("ticket_urls") or []
+            ev["ticket_url"] = profile_urls[0] if profile_urls else None
+        ev.pop("ticket_urls", None)
+        ev.pop("theater_ticket_url", None)
 
     # 差分検出
     print("差分を検出中...")

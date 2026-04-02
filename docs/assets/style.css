@@ -90,18 +90,18 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
   display: inline-flex;
   align-items: center;
   border-radius: 4px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   overflow: hidden;
   background: #f7f7f7;
-  transition: background .15s, border-color .15s;
+  transition: border-color .15s, background .15s;
 }
-.status-wrap[data-status="want"]            { background: var(--status-want);            border-color: var(--status-want);            }
-.status-wrap[data-status="lottery_applied"] { background: var(--status-lottery-applied); border-color: var(--status-lottery-applied); }
-.status-wrap[data-status="lottery_lost"]    { background: var(--status-lottery-lost);    border-color: var(--status-lottery-lost);    }
-.status-wrap[data-status="purchased"]       { background: var(--status-purchased);       border-color: var(--status-purchased);       }
-.status-wrap[data-status="attended"]        { background: var(--status-attended);        border-color: var(--status-attended);        }
+.status-wrap[data-status="want"]            { border-color: var(--status-want);            background: #eaf4fd; }
+.status-wrap[data-status="lottery_applied"] { border-color: var(--status-lottery-applied); background: #fdf3e3; }
+.status-wrap[data-status="lottery_lost"]    { border-color: var(--status-lottery-lost);    background: #f4f6f6; }
+.status-wrap[data-status="purchased"]       { border-color: var(--status-purchased);       background: #e9f7ef; }
+.status-wrap[data-status="attended"]        { border-color: var(--status-attended);        background: #eaecee; }
 
-/* セレクト本体 */
+/* セレクト本体 — 文字色は常に暗色（ドロップダウン内も読める） */
 .status-select {
   border: none;
   background: transparent;
@@ -109,21 +109,12 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
-  color: #555;
+  color: #333;
   outline: none;
   appearance: none;
   -webkit-appearance: none;
   padding-right: 24px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23555'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 7px center;
-}
-.status-wrap[data-status] .status-select:not([value=""]) { color: #fff; }
-.status-wrap[data-status="want"] .status-select,
-.status-wrap[data-status="lottery_applied"] .status-select,
-.status-wrap[data-status="lottery_lost"] .status-select,
-.status-wrap[data-status="purchased"] .status-select,
-.status-wrap[data-status="attended"] .status-select {
-  color: #fff;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23fff'/%3E%3C/svg%3E");
 }

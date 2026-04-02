@@ -6,6 +6,11 @@ on:
     # - cron: "3 0,8,13 * * *"
     - cron: "3 8,13 * * *"
   workflow_dispatch:
+    inputs:
+      skip_scrape:
+        description: 'スクレイピングをスキップしてHTMLのみ再生成・デプロイ'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -26,23 +31,29 @@ jobs:
           python-version: "3.11"
 
       - name: Install Chrome
+        if: ${{ !inputs.skip_scrape }}
         run: |
           sudo apt-get update -q
           sudo apt-get install -y google-chrome-stable
 
       - name: Install Python dependencies
+        if: ${{ !inputs.skip_scrape }}
         run: pip install -r requirements.txt
 
       - name: Scrape profile pages
+        if: ${{ !inputs.skip_scrape }}
         run: python scripts/scrape_profile.py
 
       - name: Scrape theater pages
+        if: ${{ !inputs.skip_scrape }}
         run: python scripts/scrape_theater.py
 
       - name: Merge and detect diffs
+        if: ${{ !inputs.skip_scrape }}
         run: python scripts/merge.py
 
       - name: Send notifications
+        if: ${{ !inputs.skip_scrape }}
         env:
           MAIL_USER: ${{ secrets.MAIL_USER }}
           MAIL_PASS: ${{ secrets.MAIL_PASS }}

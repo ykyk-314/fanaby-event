@@ -11,13 +11,14 @@ const YOSHIMOTO_VENUES = [
   'よしもと福岡 大和証券劇場',
 ];
 
-// ---- タブ切り替え ----
+// ---- タブ切り替え（単一DOM + talentフィルタ） ----
+let currentTalent = '';
+
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
     btn.classList.add('active');
-    document.querySelector('[data-panel="' + btn.dataset.tab + '"]').classList.add('active');
+    currentTalent = btn.dataset.tab === 'all' ? '' : btn.dataset.tab;
     resetFilters();
     buildVenueOptions();
     applyFilters();
@@ -35,18 +36,16 @@ function closeLightbox() {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 
 // ---- フィルター ----
-function activePanel() {
-  return document.querySelector('.tab-panel.active');
-}
-
-function allCardsInPanel(panel) {
-  return Array.from(panel.querySelectorAll('.event-card'));
+function allCards() {
+  return Array.from(document.querySelectorAll('.event-card'));
 }
 
 function buildVenueOptions() {
-  const panel = activePanel();
   const present = new Set();
-  allCardsInPanel(panel).forEach(c => { if (c.dataset.venue) present.add(c.dataset.venue); });
+  allCards().forEach(c => {
+    if (currentTalent && c.dataset.talent !== currentTalent) return;
+    if (c.dataset.venue) present.add(c.dataset.venue);
+  });
 
   const sel = document.getElementById('filterVenue');
   const current = sel.value;
@@ -82,32 +81,31 @@ function applyFilters() {
   const from   = document.getElementById('filterDateFrom').value;
   const to     = document.getElementById('filterDateTo').value;
   const status = document.getElementById('filterStatus').value;
-  const panel  = activePanel();
-  const cards  = allCardsInPanel(panel);
-  let visible = 0;
+  const cards  = allCards();
+  let visible  = 0;
+
   cards.forEach(c => {
     const cardStatus = c.dataset.status || '';
     const statusOk = !status
       || (status === 'none' ? cardStatus === '' : cardStatus === status);
-    const ok = (!venue || c.dataset.venue === venue)
-            && (!from  || c.dataset.date >= from)
-            && (!to    || c.dataset.date <= to)
+    const ok = (!currentTalent || c.dataset.talent === currentTalent)
+            && (!venue  || c.dataset.venue === venue)
+            && (!from   || c.dataset.date  >= from)
+            && (!to     || c.dataset.date  <= to)
             && statusOk;
     c.classList.toggle('hidden', !ok);
     if (ok) visible++;
   });
-  const isFiltered = venue || from || to || status;
+
+  const isFiltered = currentTalent || venue || from || to || status;
   document.getElementById('filterCount').textContent =
     isFiltered ? `${visible} 件表示中` : '';
-  panel.querySelectorAll('.section-title, .section-past summary').forEach(el => {
-    const section = el.closest('.section, .section-past');
-    if (!section) return;
-    const countEl = el.querySelector('.section-count');
+
+  // セクション見出しの件数を更新
+  document.querySelectorAll('.section, .section-past').forEach(section => {
+    const countEl = section.querySelector('.section-count');
     if (!countEl) return;
-    const shown = section.querySelectorAll('.event-card:not(.hidden)').length;
-    countEl.textContent = isFiltered
-      ? `${shown}/${countEl.dataset.total}`
-      : countEl.dataset.total;
+    countEl.textContent = section.querySelectorAll('.event-card:not(.hidden)').length;
   });
 }
 
@@ -226,8 +224,10 @@ document.addEventListener('change', e => {
   } else {
     StatusStorage.remove(eventId);
   }
-  const card = sel.closest('.event-card');
-  if (card) applyStatusToCard(card, newStatus);
+  // 同一イベントIDを持つ全タブのカードを一括更新
+  document.querySelectorAll(`.event-card[data-event-id="${eventId}"]`).forEach(card => {
+    applyStatusToCard(card, newStatus);
+  });
   applyFilters();
 });
 

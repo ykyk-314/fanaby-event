@@ -169,60 +169,35 @@ def main():
     all_future = [e for e in events if e.get("date", "") >= today]
     all_past   = [e for e in events if e.get("date", "") < today]
 
-    talent_sections = []
-    for t in talents:
-        tid = t["id"]
-        talent_sections.append({
-            "id":     tid,
-            "name":   t["name"],
-            "future": [e for e in all_future if e.get("talent_id") == tid],
-            "past":   [e for e in all_past   if e.get("talent_id") == tid],
-        })
-
     # タブボタン
     tab_buttons = '<button class="tab-btn active" data-tab="all">全員</button>'
-    for t in talent_sections:
+    for t in talents:
         tab_buttons += (
             f'<button class="tab-btn" data-tab="{t["id"]}">'
             f'{escape_html(t["name"])}</button>'
         )
 
-    def section_html(label: str, evs: list[dict], collapsible: bool = False) -> str:
-        if not evs:
-            return ""
-        cards      = "".join(render_event_card(e) for e in evs)
-        count_span = (
-            f'<span class="section-count" data-total="{len(evs)}">'
-            f'{len(evs)}</span>'
-        )
-        if collapsible:
-            return (
-                f'<details class="section-past">'
-                f'<summary>{label}（{count_span}件）</summary>'
-                f'{cards}</details>'
-            )
-        return (
-            f'<div class="section">'
-            f'<h3 class="section-title">{label}（{count_span}件）</h3>'
-            f'{cards}</div>'
-        )
+    # 全カードを単一DOMに配置（タブ切り替えはJSのフィルタで行う）
+    future_cards = "".join(render_event_card(e) for e in all_future)
+    past_cards   = "".join(render_event_card(e) for e in all_past)
 
-    panels_html = ""
-
-    panels_html += '<div class="tab-panel active" data-panel="all">'
-    panels_html += section_html("今後の公演", all_future)
-    panels_html += section_html("過去の公演", all_past, collapsible=True)
+    content_html = ""
+    if all_future:
+        content_html += (
+            f'<div class="section" id="section-future">'
+            f'<h3 class="section-title">今後の公演'
+            f'（<span class="section-count">{len(all_future)}</span>件）</h3>'
+            f'{future_cards}</div>'
+        )
+    if all_past:
+        content_html += (
+            f'<details class="section-past" id="section-past">'
+            f'<summary>過去の公演'
+            f'（<span class="section-count">{len(all_past)}</span>件）</summary>'
+            f'{past_cards}</details>'
+        )
     if not all_future and not all_past:
-        panels_html += '<p class="empty">公演情報がありません</p>'
-    panels_html += "</div>"
-
-    for t in talent_sections:
-        panels_html += f'<div class="tab-panel" data-panel="{t["id"]}">'
-        panels_html += section_html("今後の公演", t["future"])
-        panels_html += section_html("過去の公演", t["past"], collapsible=True)
-        if not t["future"] and not t["past"]:
-            panels_html += '<p class="empty">公演情報がありません</p>'
-        panels_html += "</div>"
+        content_html = '<p class="empty">公演情報がありません</p>'
 
     updated_str = (
         updated_at.replace("T", " ").replace("+09:00", " JST") if updated_at else "—"
@@ -246,28 +221,32 @@ def main():
       {tab_buttons}
     </div>
     <div class="filter-bar" id="filterBar">
-      <label>会場</label>
-      <select id="filterVenue">
-        <option value="">すべて</option>
-      </select>
-      <label>日付（から）</label>
-      <input type="date" id="filterDateFrom">
-      <label>（まで）</label>
-      <input type="date" id="filterDateTo">
-      <label>ステータス</label>
-      <select id="filterStatus">
-        <option value="">すべて</option>
-        <option value="want">行きたい</option>
-        <option value="lottery_applied">先行申込済み</option>
-        <option value="lottery_lost">落選</option>
-        <option value="purchased">購入済み</option>
-        <option value="attended">行った</option>
-        <option value="none">未設定</option>
-      </select>
-      <button class="filter-reset" id="filterReset">リセット</button>
-      <span class="filter-count" id="filterCount"></span>
+      <div>
+        <label>会場</label>
+        <select id="filterVenue">
+          <option value="">すべて</option>
+        </select>
+        <label>ステータス</label>
+        <select id="filterStatus">
+          <option value="">すべて</option>
+          <option value="want">行きたい</option>
+          <option value="lottery_applied">先行申込済み</option>
+          <option value="lottery_lost">落選</option>
+          <option value="purchased">購入済み</option>
+          <option value="attended">行った</option>
+          <option value="none">未設定</option>
+        </select>
+      </div>
+      <div>
+        <label>日付（から）</label>
+        <input type="date" id="filterDateFrom">
+        <label>（まで）</label>
+        <input type="date" id="filterDateTo">
+        <button class="filter-reset" id="filterReset">リセット</button>
+        <span class="filter-count" id="filterCount"></span>
+      </div>
     </div>
-    {panels_html}
+    {content_html}
   </div>
   <div id="lightbox" onclick="closeLightbox()">
     <img id="lightboxImg" src="" alt="フライヤー拡大">

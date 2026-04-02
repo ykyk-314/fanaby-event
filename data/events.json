@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-02T18:00:46+09:00",
+  "updated_at": "2026-04-02T22:40:57+09:00",
   "events": [
     {
       "id": "11da334f",
@@ -86,7 +86,7 @@
       "open_time": null,
       "start_time": "16:10",
       "end_time": null,
-      "members": "[ネタライブ]おしみんまる／アイロンヘッド／官兵衛／蛙亭／からし蓮根／ケビンス／田津原理音／ぱろぱろ／黄昏の森／赤嶺総理／11月のリサ／ド桜／オフローズ／ナイチンゲールダンス／金魚番長／喫茶ムーン／小虎／はるかぜとともに／今夜はブルース／テキセツの街／寿司東京\n[ コーナー出演者]前半 MC：アイロンヘッド／おしみんまる／蛙亭／からし蓮根／田津原理音／11月のリサ／ド桜／ナイチンゲールダンス／喫茶ムーン／はるかぜとともに／寿司東京\n[ コーナー出演者]後半 MC：ケビンス／官兵衛／ぱろぱろ／黄昏の森／赤嶺総理／オフローズ／金魚番長／小虎／今夜はブルース／テキセツの街",
+      "members": "[ネタライブ]おしみんまる／アイロンヘッド／官兵衛／蛙亭／からし蓮根／ケビンス／田津原理音／ぱろぱろ／黄昏の森／赤嶺総理／11月のリサ／おふろ／オフローズ／ド桜／ナイチンゲールダンス／金魚番長／喫茶ムーン／小虎／はるかぜとともに／今夜はブルース／テキセツの街／寿司東京\n[ コーナー出演者]前半 MC：アイロンヘッド／おしみんまる／蛙亭／からし蓮根／田津原理音／11月のリサ／ド桜／ナイチンゲールダンス／喫茶ムーン／はるかぜとともに／寿司東京\n[ コーナー出演者]後半 MC：ケビンス／官兵衛／ぱろぱろ／黄昏の森／赤嶺総理／おふろ／オフローズ／金魚番長／小虎／今夜はブルース／テキセツの街",
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
@@ -98,10 +98,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-02T22:40:57+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-02T22:40:57+09:00"
     },
     {
       "id": "f14126e4",
@@ -112,7 +111,7 @@
       "open_time": "15:55",
       "start_time": "16:10",
       "end_time": "18:00",
-      "members": "[ネタライブ]おしみんまる／アイロンヘッド／官兵衛／蛙亭／からし蓮根／ケビンス／田津原理音／ぱろぱろ／黄昏の森／赤嶺総理／11月のリサ／ド桜／オフローズ／ナイチンゲールダンス／金魚番長／喫茶ムーン／小虎／はるかぜとともに／今夜はブルース／テキセツの街／寿司東京[ コーナー出演者]前半 MC：アイロンヘッド／おしみんまる／蛙亭／からし蓮根／田津原理音／11月のリサ／ド桜／ナイチンゲールダンス／喫茶ムーン／はるかぜとともに／寿司東京[ コーナー出演者]後半 MC：ケビンス／官兵衛／ぱろぱろ／黄昏の森／赤嶺総理／オフローズ／金魚番長／小虎／今夜はブルース／テキセツの街",
+      "members": "[ネタライブ]おしみんまる／アイロンヘッド／官兵衛／蛙亭／からし蓮根／ケビンス／田津原理音／ぱろぱろ／黄昏の森／赤嶺総理／11月のリサ／おふろ／オフローズ／ド桜／ナイチンゲールダンス／金魚番長／喫茶ムーン／小虎／はるかぜとともに／今夜はブルース／テキセツの街／寿司東京[ コーナー出演者]前半 MC：アイロンヘッド／おしみんまる／蛙亭／からし蓮根／田津原理音／11月のリサ／ド桜／ナイチンゲールダンス／喫茶ムーン／はるかぜとともに／寿司東京[ コーナー出演者]後半 MC：ケビンス／官兵衛／ぱろぱろ／黄昏の森／赤嶺総理／おふろ／オフローズ／金魚番長／小虎／今夜はブルース／テキセツの街",
       "venue": "渋谷よしもと漫才劇場",
       "place": null,
       "image_url": null,
@@ -124,10 +123,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-02T22:40:57+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-01T17:41:05+09:00",
-      "notified_at": "2026-04-01T17:41:05+09:00",
-      "diff": null
+      "notified_at": "2026-04-02T22:40:57+09:00"
     },
     {
       "id": "d90772c1",
@@ -214,26 +212,24 @@
       "talent_name": "ケビンス",
       "title": "漫才師によるコントライブB面",
       "date": "2026-04-06",
-      "open_time": "21:15",
+      "open_time": null,
       "start_time": "21:30",
-      "end_time": "22:30",
+      "end_time": null,
       "members": "マリーマリー／キンボシ／ケビンス／ド桜／兄弟／ボブのコーラ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "place": "東京都｜六本木",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013390_1_20260329182929538.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13092/37268?utm_medium=schedule&utm_source=roppongi&utm_campaign=%E6%BC%AB%E6%89%8D%E5%B8%AB%E3%81%AB%E3%82%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96B%E9%9D%A2",
+      "ticket_url": "https://ticket.fany.lol/reception/41746/37268?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BC%AB%E6%89%8D%E5%B8%AB%E3%81%AB%E3%82%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96B%E9%9D%A2&utm_content=7295",
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:roppongi"
+        "profile"
       ],
       "local_image": "fliers/c299fcf0.jpg",
       "status": "notified",
+      "last_updated": "2026-04-02T22:40:57+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-02T17:34:04+09:00",
-      "notified_at": "2026-04-02T17:34:04+09:00",
-      "diff": null
+      "notified_at": "2026-04-02T22:40:57+09:00"
     },
     {
       "id": "1eec3d26",
@@ -659,26 +655,24 @@
       "talent_name": "シンクロニシティ",
       "title": "シンクロニシティ60分コントライブ「＝」",
       "date": "2026-04-19",
-      "open_time": "20:15",
+      "open_time": null,
       "start_time": "20:30",
-      "end_time": "21:30",
+      "end_time": null,
       "members": "シンクロニシティ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "place": "東京都｜六本木",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013418_1_20260325160750270.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/12978/37070?utm_medium=schedule&utm_source=roppongi&utm_campaign=%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A360%E5%88%86%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%EF%BC%9D%E3%80%8D",
-      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A360%E5%88%86%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96-4-19-20-30?utm_medium=schedule&utm_source=roppongi&utm_campaign=%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A360%E5%88%86%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%EF%BC%9D%E3%80%8D",
+      "ticket_url": "https://ticket.fany.lol/reception/41277/37070?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A360%E5%88%86%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%EF%BC%9D%E3%80%8D&utm_content=10708",
+      "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:roppongi"
+        "profile"
       ],
       "local_image": "fliers/ec63b13f.jpg",
       "status": "notified",
+      "last_updated": "2026-04-02T22:40:57+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-02T17:34:04+09:00",
-      "notified_at": "2026-04-02T17:34:04+09:00",
-      "diff": null
+      "notified_at": "2026-04-02T22:40:57+09:00"
     },
     {
       "id": "9f1fde30",
@@ -1000,26 +994,24 @@
       "talent_name": "シンクロニシティ",
       "title": "男女コンビによるコントパーティー！",
       "date": "2026-05-02",
-      "open_time": "17:00",
+      "open_time": null,
       "start_time": "17:15",
-      "end_time": "18:15",
+      "end_time": null,
       "members": "蛙亭／シンクロニシティ／エレガント人生／世間知らズ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "place": "東京都｜六本木",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14397/39942?utm_medium=schedule&utm_source=roppongi&utm_campaign=%E7%94%B7%E5%A5%B3%E3%82%B3%E3%83%B3%E3%83%93%E3%81%AB%E3%82%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%88%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%EF%BC%81",
+      "ticket_url": "https://ticket.fany.lol/reception/45686/39942?utm_source=profile&utm_medium=feed&utm_campaign=%E7%94%B7%E5%A5%B3%E3%82%B3%E3%83%B3%E3%83%93%E3%81%AB%E3%82%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%88%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%EF%BC%81&utm_content=10708",
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:roppongi"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-02T22:40:57+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-02T17:34:04+09:00",
-      "notified_at": "2026-04-02T17:34:04+09:00",
-      "diff": null
+      "notified_at": "2026-04-02T22:40:57+09:00"
     },
     {
       "id": "c2e88175",
@@ -1068,9 +1060,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-02T18:00:46+09:00",
+      "last_updated": "2026-04-02T22:40:57+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-02T18:00:46+09:00"
+      "notified_at": "2026-04-02T22:40:57+09:00"
     },
     {
       "id": "81ec0599",
@@ -1096,7 +1088,7 @@
       "status": "notified",
       "first_seen": "2026-03-31T17:27:57+09:00",
       "last_updated": "2026-04-02T17:34:04+09:00",
-      "notified_at": "2026-04-02T18:00:46+09:00"
+      "notified_at": "2026-04-02T22:40:57+09:00"
     },
     {
       "id": "51b794a6",
@@ -1353,9 +1345,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-02T18:00:46+09:00",
+      "last_updated": "2026-04-02T22:40:57+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-02T18:00:46+09:00"
+      "notified_at": "2026-04-02T22:40:57+09:00"
     },
     {
       "id": "919f2b19",
@@ -1380,7 +1372,7 @@
       "status": "notified",
       "first_seen": "2026-03-31T17:27:57+09:00",
       "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-04-02T18:00:46+09:00"
+      "notified_at": "2026-04-02T22:40:57+09:00"
     },
     {
       "id": "65c5c490",
@@ -1461,6 +1453,31 @@
       "last_updated": "2026-04-02T17:34:04+09:00",
       "notified_at": "2026-04-02T17:34:04+09:00",
       "diff": null
+    },
+    {
+      "id": "39d32856",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "野澤輸出のカラオケ大宮便",
+      "date": "2026-05-17",
+      "open_time": null,
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "野澤輸出／9番街レトロ／ナユタ／ケビンス",
+      "venue": "大宮ラクーンよしもと劇場",
+      "place": "埼玉県｜大宮",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/reception/47024/40394?utm_source=profile&utm_medium=feed&utm_campaign=%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E3%81%AE%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1%E5%A4%A7%E5%AE%AE%E4%BE%BF&utm_content=7295",
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-02T22:40:57+09:00",
+      "last_updated": "2026-04-02T22:40:57+09:00",
+      "notified_at": "2026-04-02T22:40:57+09:00"
     },
     {
       "id": "d4fa8657",

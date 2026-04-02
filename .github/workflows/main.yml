@@ -25,29 +25,29 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Chrome
-        run: |
-          sudo apt-get update -q
-          sudo apt-get install -y google-chrome-stable
+      # - name: Install Chrome
+      #   run: |
+      #     sudo apt-get update -q
+      #     sudo apt-get install -y google-chrome-stable
 
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
+      # - name: Install Python dependencies
+      #   run: pip install -r requirements.txt
 
-      - name: Scrape profile pages
-        run: python scripts/scrape_profile.py
+      # - name: Scrape profile pages
+      #   run: python scripts/scrape_profile.py
 
-      - name: Scrape theater pages
-        run: python scripts/scrape_theater.py
+      # - name: Scrape theater pages
+      #   run: python scripts/scrape_theater.py
 
-      - name: Merge and detect diffs
-        run: python scripts/merge.py
+      # - name: Merge and detect diffs
+      #   run: python scripts/merge.py
 
-      - name: Send notifications
-        env:
-          MAIL_USER: ${{ secrets.MAIL_USER }}
-          MAIL_PASS: ${{ secrets.MAIL_PASS }}
-          MAIL_TO:   ${{ secrets.MAIL_TO }}
-        run: python scripts/notify.py
+      # - name: Send notifications
+      #   env:
+      #     MAIL_USER: ${{ secrets.MAIL_USER }}
+      #     MAIL_PASS: ${{ secrets.MAIL_PASS }}
+      #     MAIL_TO:   ${{ secrets.MAIL_TO }}
+      #   run: python scripts/notify.py
 
       - name: Build static site
         run: python scripts/build.py

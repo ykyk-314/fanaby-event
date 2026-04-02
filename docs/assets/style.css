@@ -1,0 +1,70 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif; background: #f0f0f0; color: #333; }
+header { background: #1a1a2e; color: #fff; padding: 16px 20px; }
+header h1 { font-size: 18px; font-weight: bold; }
+header p { font-size: 12px; color: #aaa; margin-top: 4px; }
+.container { max-width: 900px; margin: 0 auto; padding: 16px; }
+
+/* タブ */
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+.tab-btn { padding: 6px 16px; border: 1px solid #ccc; background: #fff; border-radius: 20px; cursor: pointer; font-size: 14px; transition: all .15s; }
+.tab-btn.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* フィルターバー */
+.filter-bar { background: #fff; border-radius: 8px; padding: 10px 14px; margin-bottom: 14px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.filter-bar label { font-size: 12px; color: #888; white-space: nowrap; }
+.filter-bar select,
+.filter-bar input[type="date"] { border: 1px solid #ddd; border-radius: 4px; padding: 4px 8px; font-size: 13px; background: #fafafa; color: #333; }
+.filter-bar select { min-width: 160px; max-width: 260px; }
+.filter-reset { margin-left: auto; padding: 4px 12px; font-size: 12px; border: 1px solid #ccc; border-radius: 4px; background: #fff; cursor: pointer; color: #666; }
+.filter-reset:hover { background: #f0f0f0; }
+.filter-count { font-size: 12px; color: #999; white-space: nowrap; }
+
+/* セクション */
+.section { margin-bottom: 20px; }
+.section-title { font-size: 14px; font-weight: bold; color: #555; margin-bottom: 10px; padding-left: 10px; border-left: 3px solid #1a1a2e; }
+.section-past { margin-bottom: 20px; }
+.section-past summary { font-size: 14px; color: #888; cursor: pointer; padding: 8px 0; margin-bottom: 6px; }
+
+/* イベントカード */
+.event-card { background: #fff; border-radius: 8px; padding: 16px; margin-bottom: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.08); transition: opacity .15s; }
+.event-card.past { opacity: .55; }
+.event-card.hidden { display: none; }
+.card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.card-title { font-size: 15px; font-weight: bold; line-height: 1.4; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; flex-shrink: 0; }
+.badge-new { background: #27ae60; color: #fff; }
+.badge-updated { background: #2980b9; color: #fff; }
+
+/* カード本体 */
+.card-body { display: flex; gap: 16px; align-items: flex-start; }
+.card-left { flex: 1; min-width: 0; }
+.card-info { font-size: 13px; }
+.info-row { display: flex; gap: 8px; margin-bottom: 5px; line-height: 1.5; }
+.info-label { color: #888; min-width: 48px; white-space: nowrap; flex-shrink: 0; }
+.members-text { white-space: pre-line; }
+.card-btns { margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
+.btn { display: inline-block; padding: 7px 16px; border-radius: 4px; font-size: 13px; text-decoration: none; font-weight: bold; }
+.btn-ticket { background: #e74c3c; color: #fff; }
+.btn-online { background: #8e44ad; color: #fff; }
+
+/* フライヤー */
+.flyer { flex-shrink: 0; }
+.flyer-img { width: 140px; border-radius: 6px; object-fit: cover; cursor: zoom-in; display: block; transition: opacity .15s; }
+.flyer-img:hover { opacity: .85; }
+
+.empty { color: #aaa; font-size: 14px; text-align: center; padding: 32px; }
+
+/* ライトボックス */
+#lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.82); z-index: 1000; align-items: center; justify-content: center; cursor: zoom-out; }
+#lightbox.open { display: flex; }
+#lightbox img { max-width: 90vw; max-height: 90vh; border-radius: 6px; object-fit: contain; box-shadow: 0 4px 32px rgba(0,0,0,.5); }
+
+@media (max-width: 560px) {
+  .card-body { flex-direction: column-reverse; }
+  .flyer-img { width: 100%; max-width: 200px; }
+  .filter-bar { gap: 8px; }
+  .filter-bar select { min-width: 0; width: 100%; }
+}

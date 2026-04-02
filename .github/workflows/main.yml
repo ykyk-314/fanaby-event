@@ -52,7 +52,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/events.json docs/index.html
+          git add data/events.json docs/index.html docs/fliers/
           git diff --cached --quiet || git commit -m "chore: update events [skip ci]"
           git push
 

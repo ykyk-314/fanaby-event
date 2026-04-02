@@ -12,12 +12,14 @@ import hashlib
 import json
 import re
 import unicodedata
+import urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
 CONFIG_PATH = BASE_DIR / "data" / "config.json"
 EVENTS_PATH = BASE_DIR / "data" / "events.json"
+FLIERS_DIR = BASE_DIR / "docs" / "fliers"
 PROFILE_PATH = BASE_DIR / "data" / "profile_events.json"
 THEATER_PATH = BASE_DIR / "data" / "theater_events.json"
 
@@ -179,6 +181,60 @@ def _build_event_from_theater(te: dict, talent_id: str, talent_map: dict) -> dic
     }
 
 
+def download_flyers(events: list[dict], existing_map: dict[str, dict]) -> None:
+    """
+    フライヤー画像をローカルに保存する。
+    - 新規イベント: image_url があればダウンロード
+    - 既存イベント: image_url が変わっていたら再ダウンロードして上書き
+    - local_image フィールドに docs/ からの相対パスを設定する
+    """
+    FLIERS_DIR.mkdir(parents=True, exist_ok=True)
+    downloaded = updated = skipped = 0
+
+    for ev in events:
+        url = ev.get("image_url")
+        if not url:
+            ev["local_image"] = existing_map.get(ev["id"], {}).get("local_image")
+            continue
+
+        old = existing_map.get(ev["id"], {})
+        old_url = old.get("image_url")
+        old_local = old.get("local_image")
+
+        # URL が変わっていなくてローカルファイルが存在するならスキップ
+        if url == old_url and old_local:
+            local_path = BASE_DIR / "docs" / old_local
+            if local_path.exists():
+                ev["local_image"] = old_local
+                skipped += 1
+                continue
+
+        # 拡張子を URL から推定（なければ .jpg）
+        suffix = Path(url.split("?")[0]).suffix or ".jpg"
+        filename = f"{ev['id']}{suffix}"
+        save_path = FLIERS_DIR / filename
+
+        try:
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "Mozilla/5.0"},
+            )
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                save_path.write_bytes(resp.read())
+            rel = f"fliers/{filename}"
+            ev["local_image"] = rel
+            if url == old_url:
+                skipped += 1  # ファイルが消えていたので再取得
+            else:
+                updated += 1 if old_url else 0
+                downloaded += 1 if not old_url else 0
+        except Exception as e:
+            print(f"  警告: フライヤー取得失敗 ({ev['title'][:20]}): {e}")
+            ev["local_image"] = old_local  # 失敗時は旧パスを維持
+
+    print(f"フライヤー: 新規 {downloaded} 件、更新 {updated} 件、スキップ {skipped} 件")
+
+
 def diff_and_update(
     scraped: list[dict],
     existing: list[dict],
@@ -282,6 +338,11 @@ def main():
             ev["ticket_url"] = profile_urls[0] if profile_urls else None
         ev.pop("ticket_urls", None)
         ev.pop("theater_ticket_url", None)
+
+    # フライヤー画像ダウンロード（URL変更時は再取得）
+    print("フライヤー画像を処理中...")
+    existing_map = {ev["id"]: ev for ev in existing_events}
+    download_flyers(scraped, existing_map)
 
     # 差分検出
     print("差分を検出中...")

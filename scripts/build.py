@@ -127,13 +127,27 @@ def render_event_card(ev: dict) -> str:
             f'</div>'
         )
 
-    btns_html = f'<div class="card-btns">{ticket_btns}</div>' if ticket_btns else ""
+    status_select = (
+        f'<div class="status-wrap" data-status="">'
+        f'<select class="status-select" data-event-id="{ev.get("id", "")}">'
+        f'<option value="">＋ 記録する</option>'
+        f'<option value="want">行きたい</option>'
+        f'<option value="lottery_applied">先行申込済み</option>'
+        f'<option value="lottery_lost">落選</option>'
+        f'<option value="purchased">購入済み</option>'
+        f'<option value="attended">行った</option>'
+        f'</select>'
+        f'</div>'
+    )
+    btns_html = f'<div class="card-btns">{ticket_btns}{status_select}</div>'
 
     return (
         f'<div class="{past_class}" '
         f'data-talent="{ev.get("talent_id", "")}" '
         f'data-venue="{escape_html(venue_raw)}" '
-        f'data-date="{ev_date}">'
+        f'data-date="{ev_date}" '
+        f'data-event-id="{ev.get("id", "")}" '
+        f'data-status="">'
         f'<div class="card-header">{badge}<span class="card-title">{title}</span></div>'
         f'<div class="card-body">'
         f'<div class="card-left"><div class="card-info">{info_rows}</div>{btns_html}</div>'
@@ -240,6 +254,16 @@ def main():
       <input type="date" id="filterDateFrom">
       <label>（まで）</label>
       <input type="date" id="filterDateTo">
+      <label>ステータス</label>
+      <select id="filterStatus">
+        <option value="">すべて</option>
+        <option value="want">行きたい</option>
+        <option value="lottery_applied">先行申込済み</option>
+        <option value="lottery_lost">落選</option>
+        <option value="purchased">購入済み</option>
+        <option value="attended">行った</option>
+        <option value="none">未設定</option>
+      </select>
       <button class="filter-reset" id="filterReset">リセット</button>
       <span class="filter-count" id="filterCount"></span>
     </div>

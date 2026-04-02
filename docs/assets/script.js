@@ -78,28 +78,33 @@ function buildVenueOptions() {
 }
 
 function applyFilters() {
-  const venue = document.getElementById('filterVenue').value;
-  const from  = document.getElementById('filterDateFrom').value;
-  const to    = document.getElementById('filterDateTo').value;
-  const panel = activePanel();
-  const cards = allCardsInPanel(panel);
+  const venue  = document.getElementById('filterVenue').value;
+  const from   = document.getElementById('filterDateFrom').value;
+  const to     = document.getElementById('filterDateTo').value;
+  const status = document.getElementById('filterStatus').value;
+  const panel  = activePanel();
+  const cards  = allCardsInPanel(panel);
   let visible = 0;
   cards.forEach(c => {
+    const cardStatus = c.dataset.status || '';
+    const statusOk = !status
+      || (status === 'none' ? cardStatus === '' : cardStatus === status);
     const ok = (!venue || c.dataset.venue === venue)
             && (!from  || c.dataset.date >= from)
-            && (!to    || c.dataset.date <= to);
+            && (!to    || c.dataset.date <= to)
+            && statusOk;
     c.classList.toggle('hidden', !ok);
     if (ok) visible++;
   });
+  const isFiltered = venue || from || to || status;
   document.getElementById('filterCount').textContent =
-    (venue || from || to) ? `${visible} 件表示中` : '';
+    isFiltered ? `${visible} 件表示中` : '';
   panel.querySelectorAll('.section-title, .section-past summary').forEach(el => {
     const section = el.closest('.section, .section-past');
     if (!section) return;
     const countEl = el.querySelector('.section-count');
     if (!countEl) return;
     const shown = section.querySelectorAll('.event-card:not(.hidden)').length;
-    const isFiltered = venue || from || to;
     countEl.textContent = isFiltered
       ? `${shown}/${countEl.dataset.total}`
       : countEl.dataset.total;
@@ -110,14 +115,120 @@ function resetFilters() {
   document.getElementById('filterVenue').value = '';
   document.getElementById('filterDateFrom').value = '';
   document.getElementById('filterDateTo').value = '';
+  document.getElementById('filterStatus').value = '';
 }
 
 document.getElementById('filterVenue').addEventListener('change', applyFilters);
 document.getElementById('filterDateFrom').addEventListener('change', applyFilters);
 document.getElementById('filterDateTo').addEventListener('change', applyFilters);
+document.getElementById('filterStatus').addEventListener('change', applyFilters);
 document.getElementById('filterReset').addEventListener('click', () => {
   resetFilters();
   applyFilters();
 });
 
 buildVenueOptions();
+
+// ---- ステータス管理 ----
+const STATUSES = {
+  want:            { label: '行きたい',     color: '#3498db' },
+  lottery_applied: { label: '先行申込済み', color: '#e67e22' },
+  lottery_lost:    { label: '落選',         color: '#95a5a6' },
+  purchased:       { label: '購入済み',     color: '#27ae60' },
+  attended:        { label: '行った',       color: '#2c3e50' },
+};
+
+const StatusStorage = {
+  _KEY: 'fanaby_statuses',
+
+  _load() {
+    try {
+      const raw = localStorage.getItem(this._KEY);
+      if (!raw) return { schema_version: 1, statuses: {} };
+      return JSON.parse(raw);
+    } catch {
+      return { schema_version: 1, statuses: {} };
+    }
+  },
+
+  _save(data) {
+    data.updated_at = new Date().toISOString();
+    localStorage.setItem(this._KEY, JSON.stringify(data));
+  },
+
+  getAll() {
+    return this._load().statuses;
+  },
+
+  get(eventId) {
+    return this._load().statuses[eventId] || null;
+  },
+
+  set(eventId, status) {
+    const data = this._load();
+    const now = new Date().toISOString();
+    const existing = data.statuses[eventId] || { history: [], memo: '' };
+    existing.status = status;
+    existing.updated_at = now;
+    existing.history.push({ status, at: now });
+    data.statuses[eventId] = existing;
+    this._save(data);
+  },
+
+  remove(eventId) {
+    const data = this._load();
+    delete data.statuses[eventId];
+    this._save(data);
+  },
+
+  export() {
+    return localStorage.getItem(this._KEY) || '{}';
+  },
+
+  import(json) {
+    try {
+      const parsed = JSON.parse(json);
+      if (!parsed.statuses) throw new Error('invalid');
+      localStorage.setItem(this._KEY, json);
+      return true;
+    } catch {
+      return false;
+    }
+  },
+};
+
+function applyStatusToCard(card, status) {
+  card.dataset.status = status || '';
+  const wrap = card.querySelector('.status-wrap');
+  const sel  = card.querySelector('.status-select');
+  if (wrap) wrap.dataset.status = status || '';
+  if (sel)  sel.value = status || '';
+}
+
+function initStatusUI() {
+  const all = StatusStorage.getAll();
+  document.querySelectorAll('.event-card').forEach(card => {
+    const id = card.dataset.eventId;
+    if (!id) return;
+    const rec = all[id];
+    applyStatusToCard(card, rec ? rec.status : '');
+  });
+}
+
+document.addEventListener('change', e => {
+  const sel = e.target.closest('.status-select');
+  if (!sel) return;
+  const eventId   = sel.dataset.eventId;
+  const newStatus = sel.value;
+  if (!eventId) return;
+  if (newStatus) {
+    StatusStorage.set(eventId, newStatus);
+  } else {
+    StatusStorage.remove(eventId);
+  }
+  const card = sel.closest('.event-card');
+  if (card) applyStatusToCard(card, newStatus);
+  applyFilters();
+});
+
+initStatusUI();

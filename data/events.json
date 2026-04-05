@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T22:31:18+09:00",
+  "updated_at": "2026-04-05T17:22:27+09:00",
   "events": [
     {
       "id": "11da334f",
@@ -129,32 +129,6 @@
       "diff": null
     },
     {
-      "id": "d90772c1",
-      "talent_id": "10708",
-      "talent_name": "シンクロニシティ",
-      "title": "渋谷よしもと漫才劇場 1周年記念プレミアムネタフェスティバル",
-      "date": "2026-04-05",
-      "open_time": null,
-      "start_time": "16:10",
-      "end_time": null,
-      "members": "[ネタライブ]大谷健太／デンゼル／光永／いぬ／シカゴ実業／スロッピ／鶴亀／ゆにばーす／さや香／ワラバランス／九条ジョー／カベポスター／ミカボ／シンクロニシティ／バリカタ友情飯／ゼロカラン／青いデルタ／私東京／き展／ド天国／照山おうちごはん\n[ コーナー出演者]考案 MC：ゆにばーす／光永／いぬ／ワラバランス／九条ジョー／ミカボ／シンクロニシティ／ゼロカラン／私東京／ド天国／照山おうちごはん\n[ コーナー出演者]後半 MC：シカゴ実業／大谷健太／デンゼル／スロッピ／鶴亀／さや香／カベポスター／バリカタ友情飯／青いデルタ／き展",
-      "venue": "渋谷よしもと漫才劇場",
-      "place": "東京都｜渋谷",
-      "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/41709/37315?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4+1%E5%91%A8%E5%B9%B4%E8%A8%98%E5%BF%B5%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%8D%E3%82%BF%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB&utm_content=10708",
-      "online_url": null,
-      "price": null,
-      "sources": [
-        "profile"
-      ],
-      "local_image": null,
-      "status": "notified",
-      "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
-    },
-    {
       "id": "56f05ba0",
       "talent_id": "10708",
       "talent_name": "シンクロニシティ",
@@ -181,29 +155,55 @@
       "diff": null
     },
     {
-      "id": "e4f919f4",
-      "talent_id": "7295",
-      "talent_name": "ケビンス",
-      "title": "ブラゴーリ主催ライブ「本気」",
-      "date": "2026-04-06",
+      "id": "d90772c1",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "渋谷よしもと漫才劇場 1周年記念プレミアムネタフェスティバル",
+      "date": "2026-04-05",
       "open_time": null,
-      "start_time": "19:15",
+      "start_time": "16:10",
       "end_time": null,
-      "members": "[企画ライブ]ブラゴーリ／軟水／ケビンス／ぱろぱろ",
+      "members": "[ネタライブ]大谷健太／デンゼル／光永／いぬ／シカゴ実業／スロッピ／鶴亀／ゆにばーす／さや香／ワラバランス／九条ジョー／カベポスター／ミカボ／シンクロニシティ／バリカタ友情飯／ゼロカラン／青いデルタ／私東京／き展／ド天国／照山おうちごはん\n[ コーナー出演者]考案 MC：ゆにばーす／光永／いぬ／ワラバランス／九条ジョー／ミカボ／シンクロニシティ／ゼロカラン／私東京／ド天国／照山おうちごはん\n[ コーナー出演者]後半 MC：シカゴ実業／大谷健太／デンゼル／スロッピ／鶴亀／さや香／カベポスター／バリカタ友情飯／青いデルタ／き展",
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013773_1_20260402135619306.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/41599/37138?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%96%E3%83%A9%E3%82%B4%E3%83%BC%E3%83%AA%E4%B8%BB%E5%82%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E6%9C%AC%E6%B0%97%E3%80%8D&utm_content=7295",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/reception/41709/37315?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4+1%E5%91%A8%E5%B9%B4%E8%A8%98%E5%BF%B5%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%8D%E3%82%BF%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB&utm_content=10708",
       "online_url": null,
       "price": null,
       "sources": [
         "profile"
       ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-03-31T17:27:57+09:00",
+      "last_updated": "2026-03-31T19:21:06+09:00",
+      "notified_at": "2026-03-31T19:21:06+09:00",
+      "diff": null
+    },
+    {
+      "id": "e4f919f4",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "ブラゴーリ主催ライブ「本気」",
+      "date": "2026-04-06",
+      "open_time": "19:00",
+      "start_time": "19:15",
+      "end_time": "20:15",
+      "members": "[企画ライブ]ブラゴーリ／軟水／ケビンス／ぱろぱろ",
+      "venue": "渋谷よしもと漫才劇場",
+      "place": null,
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%96%E3%83%A9%E3%82%B4%E3%83%BC%E3%83%AA%E4%B8%BB%E5%82%AC%E3%83%A9%E3%82%A4%E3%83%96-%E6%9C%AC%E6%B0%97-4-6-19-15?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%83%96%E3%83%A9%E3%82%B4%E3%83%BC%E3%83%AA%E4%B8%BB%E5%82%AC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E6%9C%AC%E6%B0%97%E3%80%8D",
+      "price": null,
+      "sources": [
+        "theater:shibuya"
+      ],
       "local_image": "fliers/e4f919f4.jpg",
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "c299fcf0",
@@ -216,21 +216,19 @@
       "end_time": "22:30",
       "members": "マリーマリー／キンボシ／ケビンス／ド桜／兄弟／ボブのコーラ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
-      "place": "東京都｜六本木",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013390_1_20260329182929538.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13092/37268?utm_medium=schedule&utm_source=roppongi&utm_campaign=%E6%BC%AB%E6%89%8D%E5%B8%AB%E3%81%AB%E3%82%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96B%E9%9D%A2",
+      "place": null,
+      "image_url": null,
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
         "theater:roppongi"
       ],
       "local_image": "fliers/c299fcf0.jpg",
       "status": "notified",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-04T17:23:12+09:00",
-      "notified_at": "2026-04-04T17:23:12+09:00",
-      "diff": null
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "1eec3d26",
@@ -264,25 +262,24 @@
       "talent_name": "シンクロニシティ",
       "title": "漫才漫ション9兆1千5号室",
       "date": "2026-04-10",
-      "open_time": "19:00",
+      "open_time": null,
       "start_time": "19:15",
-      "end_time": "20:15",
+      "end_time": null,
       "members": "[企画ライブ]ミカボ／シンクロニシティ／ゲスト：ゼロカラン",
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013515_1_20260325183517833.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13002/37099?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4",
-      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4-4-10-19-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4",
+      "ticket_url": "https://ticket.fany.lol/reception/41428/37099?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4&utm_content=10708",
+      "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": "fliers/42a7490f.jpg",
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "81d946bd",
@@ -316,25 +313,24 @@
       "talent_name": "シンクロニシティ",
       "title": "ねたログ",
       "date": "2026-04-11",
-      "open_time": "17:00",
+      "open_time": null,
       "start_time": "17:15",
-      "end_time": "18:45",
+      "end_time": null,
       "members": "[企画ライブ]たつろう／スロッピ／ランパンプス／まちるだ／ドンデコルテ／ド桜／生ファラオ／阿部直也／井下大活躍／きっと君はくるさ／ゲスト：カゲヤマ／シンクロニシティ",
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013496_1_20260329100725195.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13004/37098?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E3%81%AD%E3%81%9F%E3%83%AD%E3%82%B0",
-      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%81%AD%E3%81%9F%E3%83%AD%E3%82%B0-4-11-17-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E3%81%AD%E3%81%9F%E3%83%AD%E3%82%B0",
+      "ticket_url": "https://ticket.fany.lol/reception/41430/37098?utm_source=profile&utm_medium=feed&utm_campaign=%E3%81%AD%E3%81%9F%E3%83%AD%E3%82%B0&utm_content=10708",
+      "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": "fliers/e7e59270.jpg",
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "a5beccb4",
@@ -420,24 +416,25 @@
       "talent_name": "シンクロニシティ",
       "title": "ごきげん会？ポポポポーン？",
       "date": "2026-04-14",
-      "open_time": null,
+      "open_time": "19:00",
       "start_time": "19:15",
-      "end_time": null,
+      "end_time": "20:15",
       "members": "[企画ライブ]シンクロニシティ／軟水／うただ／ぎょうぶ／コーナーMC：コウミ",
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013791_1_20260331161556056.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/41546/37153?utm_source=profile&utm_medium=feed&utm_campaign=%E3%81%94%E3%81%8D%E3%81%92%E3%82%93%E4%BC%9A%EF%BC%9F%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%BC%E3%83%B3%EF%BC%9F&utm_content=10708",
-      "online_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/13064/37153?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%81%94%E3%81%8D%E3%81%92%E3%82%93%E4%BC%9A%EF%BC%9F%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%BC%E3%83%B3%EF%BC%9F",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%81%94%E3%81%8D%E3%81%92%E3%82%93%E4%BC%9A-%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%BC%E3%83%B3-4-14-19-15?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%81%94%E3%81%8D%E3%81%92%E3%82%93%E4%BC%9A%EF%BC%9F%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%BC%E3%83%B3%EF%BC%9F",
       "price": null,
       "sources": [
-        "profile"
+        "profile",
+        "theater:shibuya"
       ],
       "local_image": "fliers/cc17b48c.jpg",
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "f863db42",
@@ -445,25 +442,24 @@
       "talent_name": "シンクロニシティ",
       "title": "四分漫才結社",
       "date": "2026-04-15",
-      "open_time": "19:00",
+      "open_time": null,
       "start_time": "19:15",
-      "end_time": "20:15",
+      "end_time": null,
       "members": "[企画ライブ]セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／シシガシラ／オズワルド／ゲスト：ダブルヒガシ／MC：阿部直也",
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/13012/37116?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE",
-      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE-4-15-19-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE",
+      "ticket_url": "https://ticket.fany.lol/reception/41438/37116?utm_source=profile&utm_medium=feed&utm_campaign=%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE&utm_content=10708",
+      "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "1c8dbc74",
@@ -471,24 +467,24 @@
       "talent_name": "ケビンス",
       "title": "謎笑王～ひらめきとお笑いのダブルスタンバイ～",
       "date": "2026-04-15",
-      "open_time": null,
+      "open_time": "19:00",
       "start_time": "19:15",
-      "end_time": null,
+      "end_time": "20:15",
       "members": "[企画ライブ]ランパンプス／カゲヤマ／ダンビラムーチョ 大原優一／ケビンス／ミカボ／大王",
       "venue": "渋谷よしもと漫才劇場",
-      "place": "東京都｜渋谷",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014850_1_20260319135042291.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/44915/39182?utm_source=profile&utm_medium=feed&utm_campaign=%E8%AC%8E%E7%AC%91%E7%8E%8B%EF%BD%9E%E3%81%B2%E3%82%89%E3%82%81%E3%81%8D%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%81%AE%E3%83%80%E3%83%96%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%90%E3%82%A4%EF%BD%9E&utm_content=7295",
-      "online_url": null,
+      "place": null,
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E8%AC%8E%E7%AC%91%E7%8E%8B-%E3%81%B2%E3%82%89%E3%82%81%E3%81%8D%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%81%AE%E3%83%80%E3%83%96%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%90%E3%82%A4-4-15-19-15?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E8%AC%8E%E7%AC%91%E7%8E%8B%EF%BD%9E%E3%81%B2%E3%82%89%E3%82%81%E3%81%8D%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%81%AE%E3%83%80%E3%83%96%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%90%E3%82%A4%EF%BD%9E",
       "price": null,
       "sources": [
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/1c8dbc74.jpg",
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "d71f9146",
@@ -621,32 +617,6 @@
       "diff": null
     },
     {
-      "id": "96103f25",
-      "talent_id": "7295",
-      "talent_name": "ケビンス",
-      "title": "グランドバトルEAST",
-      "date": "2026-04-19",
-      "open_time": null,
-      "start_time": "15:15",
-      "end_time": null,
-      "members": "[ランキングバトルライブ]イチキップリン／アイロンヘッド／カーネーション／クロフネ／鶴亀／やさしいズ／滝音／まちるだ／九条ジョー／ケビンス／ぱろぱろ／赤嶺総理／11月のリサ／アメリカンBBチキン／生ファラオ／バリカタ友情飯／ZAZY／MC：キクチウソツカナイ。",
-      "venue": "渋谷よしもと漫才劇場",
-      "place": "東京都｜渋谷",
-      "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/41708/37290?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%83%90%E3%83%88%E3%83%ABEAST&utm_content=7295",
-      "online_url": null,
-      "price": null,
-      "sources": [
-        "profile"
-      ],
-      "local_image": null,
-      "status": "notified",
-      "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-03T22:36:59+09:00",
-      "notified_at": "2026-04-03T22:36:59+09:00",
-      "diff": null
-    },
-    {
       "id": "ca0a7088",
       "talent_id": "7295",
       "talent_name": "ケビンス",
@@ -670,6 +640,32 @@
       "first_seen": "2026-03-31T17:27:57+09:00",
       "last_updated": "2026-04-03T17:29:49+09:00",
       "notified_at": "2026-04-03T17:29:49+09:00",
+      "diff": null
+    },
+    {
+      "id": "96103f25",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "グランドバトルEAST",
+      "date": "2026-04-19",
+      "open_time": null,
+      "start_time": "15:15",
+      "end_time": null,
+      "members": "[ランキングバトルライブ]イチキップリン／アイロンヘッド／カーネーション／クロフネ／鶴亀／やさしいズ／滝音／まちるだ／九条ジョー／ケビンス／ぱろぱろ／赤嶺総理／11月のリサ／アメリカンBBチキン／生ファラオ／バリカタ友情飯／ZAZY／MC：キクチウソツカナイ。",
+      "venue": "渋谷よしもと漫才劇場",
+      "place": "東京都｜渋谷",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/reception/41708/37290?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%83%90%E3%83%88%E3%83%ABEAST&utm_content=7295",
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-03-31T17:27:57+09:00",
+      "last_updated": "2026-04-03T22:36:59+09:00",
+      "notified_at": "2026-04-03T22:36:59+09:00",
       "diff": null
     },
     {
@@ -835,24 +831,24 @@
       "talent_name": "ケビンス",
       "title": "中野なかるてぃんのイントロクイズネオ",
       "date": "2026-04-25",
-      "open_time": null,
+      "open_time": "18:45",
       "start_time": "19:00",
-      "end_time": null,
+      "end_time": "20:00",
       "members": "[企画ライブ]ナイチンゲールダンス／ケビンス／9番街レトロ／サンタモニカ／しんや",
       "venue": "渋谷よしもと漫才劇場",
-      "place": "東京都｜渋谷",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013847_1_20260321171317239.png",
-      "ticket_url": "https://ticket.fany.lol/reception/41699/37276?utm_source=profile&utm_medium=feed&utm_campaign=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%82%AF%E3%82%A4%E3%82%BA%E3%83%8D%E3%82%AA&utm_content=7295",
+      "place": null,
+      "image_url": null,
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/58df4f85.png",
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "ef0a9322",
@@ -860,24 +856,25 @@
       "talent_name": "シンクロニシティ",
       "title": "スマイルキング",
       "date": "2026-04-26",
-      "open_time": null,
+      "open_time": "18:45",
       "start_time": "19:00",
-      "end_time": null,
+      "end_time": "20:00",
       "members": "[企画ライブ]エバース／シンクロニシティ／軟水／インテイク／イチゴ／ゼロカラン",
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013851_1_20260319131927017.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/41654/37169?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0&utm_content=10708",
-      "online_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/13074/37169?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-4-26-19-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
       "price": null,
       "sources": [
-        "profile"
+        "profile",
+        "theater:shibuya"
       ],
       "local_image": "fliers/ef0a9322.jpg",
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "19084713",
@@ -888,7 +885,7 @@
       "open_time": null,
       "start_time": "20:45",
       "end_time": null,
-      "members": "ゆにばーす 川瀬名人／ドンデコルテ 小橋／バッテリィズ 寺家／令和ロマン 松井ケムリ／シンクロニシティ 西野／MC：ヒューマン中村／他",
+      "members": "男性ブランコ 浦井／ゆにばーす 川瀬名人／ドンデコルテ 小橋／バッテリィズ 寺家／令和ロマン 松井ケムリ／シンクロニシティ 西野／MC：ヒューマン中村",
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": null,
@@ -900,10 +897,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "e1e65b59",
@@ -1036,6 +1032,31 @@
       "diff": null
     },
     {
+      "id": "49b2c353",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "シシガシラ新ネタライブ ニョキニョキ",
+      "date": "2026-04-29",
+      "open_time": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "シシガシラ\nゲスト：シンクロニシティ",
+      "venue": "GINZA ART BOX 7（東京都）",
+      "place": null,
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/reception/47540/40697?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B7%E3%82%B7%E3%82%AC%E3%82%B7%E3%83%A9%E6%96%B0%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96+%E3%83%8B%E3%83%A7%E3%82%AD%E3%83%8B%E3%83%A7%E3%82%AD&utm_content=10708",
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-05T17:22:27+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
+      "notified_at": "2026-04-05T17:22:27+09:00"
+    },
+    {
       "id": "f3f60f5f",
       "talent_id": "5114",
       "talent_name": "マユリカ",
@@ -1048,7 +1069,7 @@
       "venue": "LINE CUBE SHIBUYA（東京都）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/44752/39079?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%9E%E3%83%A6%E3%83%AA%E3%82%AB%E3%81%AE%E3%81%86%E3%81%AA%E3%81%92%E3%82%8D%E3%82%8A%E3%82%93%EF%BC%81%EF%BC%81presents%E6%97%A5%E6%9C%AC%E3%81%AE%E5%A4%A7%E5%AD%A6%E3%81%84%E3%81%8D%E3%81%BE%E3%81%97%E3%82%87%E3%81%8B&utm_content=5114",
+      "ticket_url": "https://ticket.fany.lol/reception/44755/39079?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%9E%E3%83%A6%E3%83%AA%E3%82%AB%E3%81%AE%E3%81%86%E3%81%AA%E3%81%92%E3%82%8D%E3%82%8A%E3%82%93%EF%BC%81%EF%BC%81presents%E6%97%A5%E6%9C%AC%E3%81%AE%E5%A4%A7%E5%AD%A6%E3%81%84%E3%81%8D%E3%81%BE%E3%81%97%E3%82%87%E3%81%8B&utm_content=5114",
       "online_url": null,
       "price": null,
       "sources": [
@@ -1056,10 +1077,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-03T22:36:59+09:00",
-      "notified_at": "2026-04-03T22:36:59+09:00",
-      "diff": null
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "7d5e4720",
@@ -1094,25 +1114,24 @@
       "talent_name": "シンクロニシティ",
       "title": "シンクロニシティ×兄弟ツーマンライブ「チョコレート・エアポート」",
       "date": "2026-05-03",
-      "open_time": "18:45",
+      "open_time": null,
       "start_time": "19:00",
-      "end_time": "20:00",
+      "end_time": null,
       "members": "[企画ライブ]シンクロニシティ／兄弟",
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14083/39289?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A3%C3%97%E5%85%84%E5%BC%9F%E3%83%84%E3%83%BC%E3%83%9E%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%E3%80%8D",
+      "ticket_url": "https://ticket.fany.lol/reception/45053/39289?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A3%C3%97%E5%85%84%E5%BC%9F%E3%83%84%E3%83%BC%E3%83%9E%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%E3%80%8D&utm_content=10708",
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "81ec0599",
@@ -1135,9 +1154,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "81ec0599",
@@ -1145,24 +1164,25 @@
       "talent_name": "シンクロニシティ",
       "title": "渋谷よしもと漫才劇場 ゴールデンウィーク特別寄席",
       "date": "2026-05-05",
-      "open_time": null,
+      "open_time": "10:45",
       "start_time": "12:45",
-      "end_time": null,
+      "end_time": "12:00",
       "members": "[ネタライブ]ダンビラムーチョ／ドンデコルテ／マルセイユ／今井らいぱち／やさしいズ／ぱろぱろ／シンクロニシティ／照山おうちごはん／ゲスト：ニューヨーク／他",
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/44946/39273?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4+%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%82%A6%E3%82%A3%E3%83%BC%E3%82%AF%E7%89%B9%E5%88%A5%E5%AF%84%E5%B8%AD&utm_content=10708",
+      "ticket_url": "https://ticket.fany.lol/event/detail/14078/39273?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4%20%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%82%A6%E3%82%A3%E3%83%BC%E3%82%AF%E7%89%B9%E5%88%A5%E5%AF%84%E5%B8%AD",
       "online_url": null,
       "price": null,
       "sources": [
-        "profile"
+        "profile",
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "51b794a6",
@@ -1222,25 +1242,24 @@
       "talent_name": "シンクロニシティ",
       "title": "ド桜のネタ咲き",
       "date": "2026-05-05",
-      "open_time": "20:00",
+      "open_time": null,
       "start_time": "20:15",
-      "end_time": "21:15",
+      "end_time": null,
       "members": "[企画ライブ]ド桜／ダブルヒガシ／シンクロニシティ／兄弟",
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14088/39285?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E3%83%89%E6%A1%9C%E3%81%AE%E3%83%8D%E3%82%BF%E5%92%B2%E3%81%8D",
+      "ticket_url": "https://ticket.fany.lol/reception/45059/39285?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%89%E6%A1%9C%E3%81%AE%E3%83%8D%E3%82%BF%E5%92%B2%E3%81%8D&utm_content=10708",
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "7a9f4257",
@@ -1419,9 +1438,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "919f2b19",
@@ -1446,7 +1465,7 @@
       "status": "notified",
       "first_seen": "2026-03-31T17:27:57+09:00",
       "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "65c5c490",
@@ -1480,24 +1499,25 @@
       "talent_name": "シンクロニシティ",
       "title": "くらげ新ネタライブ「浮遊」",
       "date": "2026-05-13",
-      "open_time": null,
+      "open_time": "19:00",
       "start_time": "19:15",
-      "end_time": null,
-      "members": "[企画ライブ]くらげ／マルセイユ／kento fukaya／滝音／シンクロニシティ／ナイチンゲールダンス／インテイク／他",
+      "end_time": "20:15",
+      "members": "[企画ライブ]くらげ／マルセイユ／kento fukaya／滝音／シンクロニシティ／ナイチンゲールダンス／インテイク",
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45488/39633?utm_source=profile&utm_medium=feed&utm_campaign=%E3%81%8F%E3%82%89%E3%81%92%E6%96%B0%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E6%B5%AE%E9%81%8A%E3%80%8D&utm_content=10708",
+      "ticket_url": "https://ticket.fany.lol/event/detail/14215/39633?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%81%8F%E3%82%89%E3%81%92%E6%96%B0%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E6%B5%AE%E9%81%8A%E3%80%8D",
       "online_url": null,
       "price": null,
       "sources": [
-        "profile"
+        "profile",
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "71d861da",
@@ -1505,24 +1525,24 @@
       "talent_name": "ケビンス",
       "title": "やさしいズタイpresents「強いカタチ」",
       "date": "2026-05-14",
-      "open_time": null,
+      "open_time": "20:45",
       "start_time": "21:00",
-      "end_time": null,
+      "end_time": "22:15",
       "members": "[企画ライブ]やさしいズ タイ／今井らいぱち／キンボシ／ダンビラムーチョ／ケビンス／バリカタ友情飯／金魚番長／他",
       "venue": "渋谷よしもと漫才劇場",
-      "place": "東京都｜渋谷",
+      "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45308/39428?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%E3%80%8C%E5%BC%B7%E3%81%84%E3%82%AB%E3%82%BF%E3%83%81%E3%80%8D&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "1214a7c2",
@@ -1545,9 +1565,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
       "first_seen": "2026-04-03T17:29:49+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "last_updated": "2026-04-04T22:31:17+09:00",
+      "notified_at": "2026-04-04T22:31:18+09:00",
+      "diff": null
     },
     {
       "id": "39d32856",
@@ -1581,25 +1602,24 @@
       "talent_name": "シンクロニシティ",
       "title": "四分漫才結社",
       "date": "2026-05-20",
-      "open_time": "19:00",
+      "open_time": null,
       "start_time": "19:15",
-      "end_time": "20:15",
+      "end_time": null,
       "members": "[企画ライブ]セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／シシガシラ／オズワルド／MC:阿部直也",
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14096/39309?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE",
+      "ticket_url": "https://ticket.fany.lol/reception/45072/39309?utm_source=profile&utm_medium=feed&utm_campaign=%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE&utm_content=10708",
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "6b7b052d",
@@ -1737,40 +1757,14 @@
       "talent_name": "シンクロニシティ",
       "title": "漫才漫ション9兆1千5号室",
       "date": "2026-05-26",
-      "open_time": "20:45",
+      "open_time": null,
       "start_time": "21:00",
-      "end_time": "22:00",
+      "end_time": null,
       "members": "[企画ライブ]ミカボ／シンクロニシティ／ゲスト:ミキ",
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14120/39326?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4",
-      "online_url": null,
-      "price": null,
-      "sources": [
-        "profile",
-        "theater:jimbocho"
-      ],
-      "local_image": null,
-      "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
-      "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
-    },
-    {
-      "id": "574a7c91",
-      "talent_id": "10708",
-      "talent_name": "シンクロニシティ",
-      "title": "スマイルキング",
-      "date": "2026-05-27",
-      "open_time": null,
-      "start_time": "15:15",
-      "end_time": null,
-      "members": "[ネタライブ]エバース／シンクロニシティ／軟水／インテイク／イチゴ／ゼロカラン",
-      "venue": "渋谷よしもと漫才劇場",
-      "place": "東京都｜渋谷",
-      "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/46698/40266?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0&utm_content=10708",
+      "ticket_url": "https://ticket.fany.lol/reception/45094/39326?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4&utm_content=10708",
       "online_url": null,
       "price": null,
       "sources": [
@@ -1778,9 +1772,35 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
+    },
+    {
+      "id": "574a7c91",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "スマイルキング",
+      "date": "2026-05-27",
+      "open_time": "15:00",
+      "start_time": "15:15",
+      "end_time": "16:15",
+      "members": "[ネタライブ]エバース／シンクロニシティ／軟水／インテイク／イチゴ／ゼロカラン",
+      "venue": "渋谷よしもと漫才劇場",
+      "place": "東京都｜渋谷",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14543/40266?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile",
+        "theater:shibuya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "last_updated": "2026-04-05T17:22:27+09:00",
+      "first_seen": "2026-03-31T17:27:57+09:00",
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "973b59ef",
@@ -1814,25 +1834,24 @@
       "talent_name": "シンクロニシティ",
       "title": "海賊バレエ",
       "date": "2026-05-28",
-      "open_time": "21:00",
+      "open_time": null,
       "start_time": "21:15",
-      "end_time": "22:15",
+      "end_time": null,
       "members": "[企画ライブ]CITY／シンクロニシティ／ド桜",
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14123/39328?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8",
+      "ticket_url": "https://ticket.fany.lol/reception/45099/39328?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8&utm_content=10708",
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-04T22:31:17+09:00",
+      "last_updated": "2026-04-05T17:22:27+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-05T17:22:27+09:00"
     },
     {
       "id": "a21dea3e",
@@ -1883,7 +1902,8 @@
       "status": "notified",
       "first_seen": "2026-04-04T22:31:17+09:00",
       "last_updated": "2026-04-04T22:31:17+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-04T22:31:18+09:00",
+      "diff": null
     },
     {
       "id": "fbb0e241",
@@ -1908,7 +1928,8 @@
       "status": "notified",
       "first_seen": "2026-04-04T22:31:17+09:00",
       "last_updated": "2026-04-04T22:31:17+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-04T22:31:18+09:00",
+      "diff": null
     },
     {
       "id": "bc23a860",
@@ -1933,7 +1954,8 @@
       "status": "notified",
       "first_seen": "2026-04-04T22:31:17+09:00",
       "last_updated": "2026-04-04T22:31:17+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-04T22:31:18+09:00",
+      "diff": null
     },
     {
       "id": "cfc6b8bc",
@@ -1958,7 +1980,8 @@
       "status": "notified",
       "first_seen": "2026-04-04T22:31:17+09:00",
       "last_updated": "2026-04-04T22:31:17+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00"
+      "notified_at": "2026-04-04T22:31:18+09:00",
+      "diff": null
     },
     {
       "id": "50745cbb",

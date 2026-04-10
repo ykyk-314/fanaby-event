@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T22:44:01+09:00",
+  "updated_at": "2026-04-10T17:44:31+09:00",
   "events": [
     {
       "id": "11da334f",
@@ -269,20 +269,19 @@
       "end_time": "20:15",
       "members": "[企画ライブ]ミカボ／シンクロニシティ／ゲスト：ゼロカラン",
       "venue": "神保町よしもと漫才劇場",
-      "place": "東京都｜神保町",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013515_1_20260325183517833.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13002/37099?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4",
+      "place": null,
+      "image_url": null,
+      "ticket_url": null,
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4-4-10-19-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4",
       "price": null,
       "sources": [
-        "profile",
         "theater:jimbocho"
       ],
       "local_image": "fliers/42a7490f.jpg",
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
+      "last_updated": "2026-04-10T17:44:30+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "notified_at": "2026-04-10T17:44:31+09:00"
     },
     {
       "id": "81d946bd",
@@ -332,9 +331,10 @@
       ],
       "local_image": "fliers/e7e59270.jpg",
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "a5beccb4",
@@ -463,9 +463,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "1c8dbc74",
@@ -724,9 +725,10 @@
       ],
       "local_image": "fliers/d547844c.jpg",
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-04-04T17:23:12+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "9f1fde30",
@@ -960,9 +962,10 @@
       ],
       "local_image": "fliers/9028e1c7.jpg",
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "36a10410",
@@ -1011,9 +1014,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-04-04T17:23:12+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "8b6c6e38",
@@ -1185,7 +1189,7 @@
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/47470/40651?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BC%AB%EF%BC%91%EF%BC%90%EF%BC%88%E3%81%BE%E3%82%93%E3%81%A6%E3%82%93%EF%BC%89&utm_content=10708",
+      "ticket_url": "https://ticket.fany.lol/reception/47471/40651?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BC%AB%EF%BC%91%EF%BC%90%EF%BC%88%E3%81%BE%E3%82%93%E3%81%A6%E3%82%93%EF%BC%89&utm_content=10708",
       "online_url": null,
       "price": null,
       "sources": [
@@ -1193,10 +1197,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-10T17:44:30+09:00",
       "first_seen": "2026-04-07T17:39:37+09:00",
-      "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-08T22:42:35+09:00",
-      "diff": null
+      "notified_at": "2026-04-10T17:44:31+09:00"
     },
     {
       "id": "c2e88175",
@@ -1220,9 +1223,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "81ec0599",
@@ -1245,9 +1249,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
+      "last_updated": "2026-04-10T17:44:30+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "notified_at": "2026-04-10T17:44:31+09:00"
     },
     {
       "id": "81ec0599",
@@ -1273,7 +1277,7 @@
       "status": "notified",
       "first_seen": "2026-03-31T17:27:57+09:00",
       "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "notified_at": "2026-04-10T17:44:31+09:00"
     },
     {
       "id": "b09a139e",
@@ -1349,9 +1353,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "7a9f4257",
@@ -1401,9 +1406,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "3aaf651d",
@@ -1505,9 +1511,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "e4364fe3",
@@ -1557,9 +1564,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-04-06T22:39:51+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "919f2b19",
@@ -1582,9 +1590,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
+      "last_updated": "2026-04-10T17:44:30+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "notified_at": "2026-04-10T17:44:31+09:00"
     },
     {
       "id": "919f2b19",
@@ -1609,7 +1617,7 @@
       "status": "notified",
       "first_seen": "2026-03-31T17:27:57+09:00",
       "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "notified_at": "2026-04-10T17:44:31+09:00"
     },
     {
       "id": "65c5c490",
@@ -1792,9 +1800,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "6b7b052d",
@@ -1948,9 +1957,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "574a7c91",
@@ -2001,9 +2011,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "3c4c6dee",
@@ -2027,9 +2038,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-09T22:44:01+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00"
+      "last_updated": "2026-04-09T22:44:01+09:00",
+      "notified_at": "2026-04-09T22:44:01+09:00",
+      "diff": null
     },
     {
       "id": "a21dea3e",
@@ -2188,6 +2200,31 @@
       "diff": null
     },
     {
+      "id": "df978e46",
+      "talent_id": "5114",
+      "talent_name": "マユリカ",
+      "title": "滝音×マユリカの「夢夢夢らいぶ」",
+      "date": "2026-06-15",
+      "open_time": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "滝音／マユリカ／他ゲスト",
+      "venue": "ルミネtheよしもと",
+      "place": "東京都｜新宿",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/reception/48038/40980?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BB%9D%E9%9F%B3%C3%97%E3%83%9E%E3%83%A6%E3%83%AA%E3%82%AB%E3%81%AE%E3%80%8C%E5%A4%A2%E5%A4%A2%E5%A4%A2%E3%82%89%E3%81%84%E3%81%B6%E3%80%8D&utm_content=5114",
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-10T17:44:30+09:00",
+      "last_updated": "2026-04-10T17:44:30+09:00",
+      "notified_at": "2026-04-10T17:44:31+09:00"
+    },
+    {
       "id": "5fc727fd",
       "talent_id": "5114",
       "talent_name": "マユリカ",
@@ -2238,6 +2275,31 @@
       "last_updated": "2026-04-07T17:39:37+09:00",
       "notified_at": "2026-04-07T17:39:37+09:00",
       "diff": null
+    },
+    {
+      "id": "5a7df36f",
+      "talent_id": "5114",
+      "talent_name": "マユリカ",
+      "title": "今田耕司のLet's！コメディーショー！！in福岡",
+      "date": "2026-06-27",
+      "open_time": null,
+      "start_time": "13:00",
+      "end_time": null,
+      "members": "脚本・構成：久馬歩\nコメディーショー組：今田耕司、藤井隆、椿鬼奴、ハロー植田、スクールゾーン、ガンバレルーヤ\nネタ組：見取り図、マユリカ、エバース",
+      "venue": "福岡県立ももち文化センター　大ホール（福岡県）",
+      "place": null,
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/reception/48005/40975?utm_source=profile&utm_medium=feed&utm_campaign=%E4%BB%8A%E7%94%B0%E8%80%95%E5%8F%B8%E3%81%AELet%27s%EF%BC%81%E3%82%B3%E3%83%A1%E3%83%87%E3%82%A3%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%BC%EF%BC%81%EF%BC%81in%E7%A6%8F%E5%B2%A1&utm_content=5114",
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-10T17:44:30+09:00",
+      "last_updated": "2026-04-10T17:44:30+09:00",
+      "notified_at": "2026-04-10T17:44:31+09:00"
     }
   ]
 }

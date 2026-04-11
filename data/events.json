@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T17:23:30+09:00",
+  "updated_at": "2026-04-11T22:32:12+09:00",
   "events": [
     {
       "id": "11da334f",
@@ -705,24 +705,25 @@
       "talent_name": "シンクロニシティ",
       "title": "シンクロニシティ60分コントライブ「＝」",
       "date": "2026-04-19",
-      "open_time": null,
+      "open_time": "20:15",
       "start_time": "20:30",
-      "end_time": null,
+      "end_time": "21:30",
       "members": "シンクロニシティ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "place": "東京都｜六本木",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013418_1_20260325160750270.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/41277/37070?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A360%E5%88%86%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%EF%BC%9D%E3%80%8D&utm_content=10708",
-      "online_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/12978/37070?utm_medium=schedule&utm_source=roppongi&utm_campaign=%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A360%E5%88%86%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%EF%BC%9D%E3%80%8D",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A360%E5%88%86%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96-4-19-20-30?utm_medium=schedule&utm_source=roppongi&utm_campaign=%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A360%E5%88%86%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%EF%BC%9D%E3%80%8D",
       "price": null,
       "sources": [
-        "profile"
+        "profile",
+        "theater:roppongi"
       ],
       "local_image": "fliers/ec63b13f.jpg",
       "status": "notified",
-      "last_updated": "2026-04-11T17:23:30+09:00",
+      "last_updated": "2026-04-11T22:32:12+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-11T17:23:30+09:00"
+      "notified_at": "2026-04-11T22:32:12+09:00"
     },
     {
       "id": "d547844c",
@@ -1009,7 +1010,8 @@
       "status": "notified",
       "first_seen": "2026-04-11T17:23:30+09:00",
       "last_updated": "2026-04-11T17:23:30+09:00",
-      "notified_at": "2026-04-11T17:23:30+09:00"
+      "notified_at": "2026-04-11T17:23:30+09:00",
+      "diff": null
     },
     {
       "id": "36a10410",
@@ -1188,9 +1190,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-11T17:23:30+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-11T17:23:30+09:00"
+      "last_updated": "2026-04-11T17:23:30+09:00",
+      "notified_at": "2026-04-11T17:23:30+09:00",
+      "diff": null
     },
     {
       "id": "7d5e4720",
@@ -1198,24 +1201,25 @@
       "talent_name": "シンクロニシティ",
       "title": "男女コンビによるコントパーティー！",
       "date": "2026-05-02",
-      "open_time": null,
+      "open_time": "17:00",
       "start_time": "17:15",
-      "end_time": null,
+      "end_time": "18:15",
       "members": "蛙亭／シンクロニシティ／エレガント人生／世間知らズ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "place": "東京都｜六本木",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45686/39942?utm_source=profile&utm_medium=feed&utm_campaign=%E7%94%B7%E5%A5%B3%E3%82%B3%E3%83%B3%E3%83%93%E3%81%AB%E3%82%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%88%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%EF%BC%81&utm_content=10708",
+      "ticket_url": "https://ticket.fany.lol/event/detail/14397/39942?utm_medium=schedule&utm_source=roppongi&utm_campaign=%E7%94%B7%E5%A5%B3%E3%82%B3%E3%83%B3%E3%83%93%E3%81%AB%E3%82%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%88%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%EF%BC%81",
       "online_url": null,
       "price": null,
       "sources": [
-        "profile"
+        "profile",
+        "theater:roppongi"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-11T17:23:30+09:00",
+      "last_updated": "2026-04-11T22:32:12+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-11T17:23:30+09:00"
+      "notified_at": "2026-04-11T22:32:12+09:00"
     },
     {
       "id": "580a25fe",
@@ -1290,9 +1294,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-11T17:23:30+09:00",
+      "last_updated": "2026-04-11T22:32:12+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-11T17:23:30+09:00"
+      "notified_at": "2026-04-11T22:32:12+09:00"
     },
     {
       "id": "81ec0599",
@@ -1318,7 +1322,7 @@
       "status": "notified",
       "first_seen": "2026-03-31T17:27:57+09:00",
       "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-11T17:23:30+09:00"
+      "notified_at": "2026-04-11T22:32:12+09:00"
     },
     {
       "id": "b09a139e",
@@ -1549,9 +1553,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-11T17:23:30+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-11T17:23:30+09:00"
+      "last_updated": "2026-04-11T17:23:30+09:00",
+      "notified_at": "2026-04-11T17:23:30+09:00",
+      "diff": null
     },
     {
       "id": "e4364fe3",
@@ -1626,9 +1631,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-11T17:23:30+09:00",
+      "last_updated": "2026-04-11T22:32:12+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-11T17:23:30+09:00"
+      "notified_at": "2026-04-11T22:32:12+09:00"
     },
     {
       "id": "919f2b19",
@@ -1653,7 +1658,7 @@
       "status": "notified",
       "first_seen": "2026-03-31T17:27:57+09:00",
       "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-04-11T17:23:30+09:00"
+      "notified_at": "2026-04-11T22:32:12+09:00"
     },
     {
       "id": "65c5c490",
@@ -2244,7 +2249,7 @@
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/48038/40980?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BB%9D%E9%9F%B3%C3%97%E3%83%9E%E3%83%A6%E3%83%AA%E3%82%AB%E3%81%AE%E3%80%8C%E5%A4%A2%E5%A4%A2%E5%A4%A2%E3%82%89%E3%81%84%E3%81%B6%E3%80%8D&utm_content=5114",
+      "ticket_url": "https://ticket.fany.lol/reception/48034/40980?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BB%9D%E9%9F%B3%C3%97%E3%83%9E%E3%83%A6%E3%83%AA%E3%82%AB%E3%81%AE%E3%80%8C%E5%A4%A2%E5%A4%A2%E5%A4%A2%E3%82%89%E3%81%84%E3%81%B6%E3%80%8D&utm_content=5114",
       "online_url": null,
       "price": null,
       "sources": [
@@ -2252,10 +2257,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-11T22:32:12+09:00",
       "first_seen": "2026-04-10T17:44:30+09:00",
-      "last_updated": "2026-04-10T17:44:30+09:00",
-      "notified_at": "2026-04-10T17:44:31+09:00",
-      "diff": null
+      "notified_at": "2026-04-11T22:32:12+09:00"
     },
     {
       "id": "5fc727fd",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T22:32:12+09:00",
+  "updated_at": "2026-04-12T17:27:47+09:00",
   "events": [
     {
       "id": "11da334f",
@@ -721,9 +721,10 @@
       ],
       "local_image": "fliers/ec63b13f.jpg",
       "status": "notified",
-      "last_updated": "2026-04-11T22:32:12+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-11T22:32:12+09:00"
+      "last_updated": "2026-04-11T22:32:12+09:00",
+      "notified_at": "2026-04-11T22:32:12+09:00",
+      "diff": null
     },
     {
       "id": "d547844c",
@@ -1217,9 +1218,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-11T22:32:12+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-11T22:32:12+09:00"
+      "last_updated": "2026-04-11T22:32:12+09:00",
+      "notified_at": "2026-04-11T22:32:12+09:00",
+      "diff": null
     },
     {
       "id": "580a25fe",
@@ -1294,9 +1296,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-11T22:32:12+09:00",
+      "last_updated": "2026-04-12T17:27:47+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-11T22:32:12+09:00"
+      "notified_at": "2026-04-12T17:27:47+09:00"
     },
     {
       "id": "81ec0599",
@@ -1322,7 +1324,7 @@
       "status": "notified",
       "first_seen": "2026-03-31T17:27:57+09:00",
       "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-11T22:32:12+09:00"
+      "notified_at": "2026-04-12T17:27:47+09:00"
     },
     {
       "id": "b09a139e",
@@ -1631,9 +1633,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-11T22:32:12+09:00",
+      "last_updated": "2026-04-12T17:27:47+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-11T22:32:12+09:00"
+      "notified_at": "2026-04-12T17:27:47+09:00"
     },
     {
       "id": "919f2b19",
@@ -1658,7 +1660,7 @@
       "status": "notified",
       "first_seen": "2026-03-31T17:27:57+09:00",
       "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-04-11T22:32:12+09:00"
+      "notified_at": "2026-04-12T17:27:47+09:00"
     },
     {
       "id": "65c5c490",
@@ -2257,9 +2259,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-11T22:32:12+09:00",
       "first_seen": "2026-04-10T17:44:30+09:00",
-      "notified_at": "2026-04-11T22:32:12+09:00"
+      "last_updated": "2026-04-11T22:32:12+09:00",
+      "notified_at": "2026-04-11T22:32:12+09:00",
+      "diff": null
     },
     {
       "id": "5fc727fd",

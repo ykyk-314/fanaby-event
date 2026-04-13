@@ -29,6 +29,10 @@ JST = timezone(timedelta(hours=9))
 WATCH_FIELDS = ["members", "image_url", "ticket_url", "online_url", "price",
                 "open_time", "start_time", "end_time", "venue"]
 
+# 公演日当日のみチェックするフィールド
+# 当日券はサイトから購入不可になるため ticket_url 等が変動するが通知対象外とする
+WATCH_FIELDS_TODAY = ["members"]
+
 
 def now_jst() -> str:
     return datetime.now(JST).isoformat(timespec="seconds")
@@ -244,6 +248,7 @@ def diff_and_update(
     返り値: 更新済みの全イベントリスト
     """
     ts = now_jst()
+    today = datetime.now(JST).date().isoformat()
 
     # 既存データを id → record のマップに
     existing_map: dict[str, dict] = {ev["id"]: ev for ev in existing}
@@ -259,12 +264,17 @@ def diff_and_update(
             ev["notified_at"] = None
         else:
             old = existing_map[eid]
+            # 公演日当日は ticket_url 等が販売終了で変動するため members のみチェック
+            watch = WATCH_FIELDS_TODAY if ev.get("date") == today else WATCH_FIELDS
             changed_fields = [
-                f for f in WATCH_FIELDS
+                f for f in watch
                 if ev.get(f) != old.get(f)
             ]
             if changed_fields:
-                # 変更あり
+                # 変更あり — DEBUG: 何が変わったかコンソールに出力
+                print(f"  [UPDATED] {ev['title']} ({ev['date']})")
+                for f in changed_fields:
+                    print(f"    {f}: {old.get(f)!r} → {ev.get(f)!r}")
                 ev["status"] = "updated"
                 ev["last_updated"] = ts
                 ev["diff"] = {f: {"before": old.get(f), "after": ev.get(f)} for f in changed_fields}
@@ -272,12 +282,16 @@ def diff_and_update(
                 ev["first_seen"] = old.get("first_seen", ts)
                 ev["notified_at"] = old.get("notified_at")
             else:
-                # 変更なし: 既存のステータスをそのまま維持
-                ev["status"] = old.get("status", "notified")
+                # 変更なし
+                # - new: まだ通知されていない新規公演なので維持
+                # - updated: 今回変更なし = 変更は解消済みなので notified にリセット
+                # - notified: そのまま維持
+                old_status = old.get("status", "notified")
+                ev["status"] = old_status if old_status == "new" else "notified"
                 ev["first_seen"] = old.get("first_seen", ts)
                 ev["last_updated"] = old.get("last_updated", ts)
                 ev["notified_at"] = old.get("notified_at")
-                ev["diff"] = old.get("diff")
+                ev["diff"] = None  # 変更なしなので diff もクリア
         result.append(ev)
 
     # スクレイプに現れなかった既存イベント（サイトから消えた過去公演等）を保持する

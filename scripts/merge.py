@@ -89,7 +89,11 @@ def load_existing_events() -> list[dict]:
 
 
 def build_event_from_profile(p: dict) -> dict:
-    """プロフィール取得データをイベントレコードに変換する。"""
+    """プロフィール取得データをイベントレコードに変換する。
+    劇場スケジュールが取得できない会場の公演に備え、プロフィールから取れる値はここで設定する。
+    劇場スケジュールが取得できた場合は _patch_from_theater で上書きされる。
+    image_url はプロフィールページからのみ取得する。
+    """
     return {
         "id": make_event_id(p["talent_id"], p["date"], p["title"]),
         "talent_id": p["talent_id"],
@@ -97,12 +101,12 @@ def build_event_from_profile(p: dict) -> dict:
         "title": p["title"],
         "date": p["date"],
         "open_time": None,
-        "start_time": p.get("start_time"),
+        "start_time": p.get("start_time"),   # 劇場スケジュール取得時は上書きされる
         "end_time": None,
-        "members": p.get("members", ""),
+        "members": p.get("members", ""),     # 劇場スケジュール取得時は上書きされる
         "venue": p.get("venue"),
         "place": p.get("place"),
-        "image_url": p.get("image_url"),
+        "image_url": p.get("image_url"),     # プロフィールページからのみ取得
         "ticket_urls": p.get("ticket_urls", []),  # 優先ルール解決まで保持
         "ticket_url": None,                        # 解決後に設定される
         "online_url": None,
@@ -150,24 +154,26 @@ def _theater_key(talent_id: str, event_date: str, title: str) -> str:
 
 
 def _patch_from_theater(ev: dict, te: dict) -> None:
-    """劇場データでイベントの不足フィールドを補完する。"""
-    if not ev.get("open_time") and te.get("open_time"):
+    """劇場データでイベントフィールドを上書きする。
+    時刻・出演者・料金・チケットURLは劇場スケジュールが正とするため、
+    劇場データが存在する場合は既存値に関わらず上書きする。
+    """
+    if te.get("open_time") is not None:
         ev["open_time"] = te["open_time"]
-    if not ev.get("start_time") and te.get("start_time"):
+    if te.get("start_time") is not None:
         ev["start_time"] = te["start_time"]
-    if not ev.get("end_time") and te.get("end_time"):
+    if te.get("end_time") is not None:
         ev["end_time"] = te["end_time"]
+    if te.get("members"):
+        ev["members"] = te["members"]
     # 劇場チケットURLを記録（優先ルール解決時に使用）
     theater_urls = te.get("ticket_urls", [])
     if theater_urls:
         ev["theater_ticket_url"] = theater_urls[0]
-    if not ev.get("online_url") and te.get("online_url"):
+    if te.get("online_url") is not None:
         ev["online_url"] = te["online_url"]
-    if not ev.get("price") and te.get("price"):
+    if te.get("price") is not None:
         ev["price"] = te["price"]
-    # 劇場データの出演者情報は構造化されているため、存在すれば優先して上書き
-    if te.get("members"):
-        ev["members"] = te["members"]
     src = te.get("source")
     if src and src not in ev.get("sources", []):
         ev.setdefault("sources", []).append(src)

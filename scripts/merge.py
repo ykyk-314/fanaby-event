@@ -15,6 +15,7 @@ import unicodedata
 import urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from urllib.parse import urlparse, urlunparse
 
 BASE_DIR = Path(__file__).parent.parent
 CONFIG_PATH = BASE_DIR / "data" / "config.json"
@@ -26,7 +27,8 @@ THEATER_PATH = BASE_DIR / "data" / "theater_events.json"
 JST = timezone(timedelta(hours=9))
 
 # 変更を検知するフィールド（これらが変わったら updated とみなす）
-WATCH_FIELDS = ["members", "image_url", "ticket_url", "online_url", "price",
+# online_url は一度取得したら更新しない仕様のため除外
+WATCH_FIELDS = ["members", "image_url", "ticket_url", "price",
                 "open_time", "start_time", "end_time", "venue"]
 
 # 公演日当日のみチェックするフィールド
@@ -36,6 +38,16 @@ WATCH_FIELDS_TODAY = ["members"]
 
 def now_jst() -> str:
     return datetime.now(JST).isoformat(timespec="seconds")
+
+
+def _normalize_ticket_url(url: str | None) -> str | None:
+    """/event/detail/ パスのチケットURLのみ採用し、クエリパラメータを除去する。"""
+    if not url:
+        return None
+    parsed = urlparse(url)
+    if "/event/detail/" not in parsed.path:
+        return None
+    return urlunparse((parsed.scheme, parsed.netloc, parsed.path, "", "", ""))
 
 
 def normalize_title(title: str) -> str:
@@ -341,22 +353,39 @@ def main():
         print(f"除外フィルタ適用: {before - len(scraped)} 件除外 → {len(scraped)} 件")
 
     # チケットURL優先ルール解決
-    # 1. 劇場スケジュールにURLがあればそれを使用
-    # 2. プロフィールにURLが複数ある場合は先頭1件を使用
-    # 3. 1件なければそれを使用
+    # 1. 劇場スケジュールのURL（/event/detail/ パスのみ）があればそれを使用
+    # 2. プロフィールのURLのうち /event/detail/ パスのものを先頭から採用
+    # 3. いずれもなければ None
+    # クエリパラメータはすべて除去する
     for ev in scraped:
-        if ev.get("theater_ticket_url"):
-            ev["ticket_url"] = ev.pop("theater_ticket_url")
+        theater_url = _normalize_ticket_url(ev.pop("theater_ticket_url", None))
+        if theater_url:
+            ev["ticket_url"] = theater_url
         else:
-            profile_urls = ev.get("ticket_urls") or []
-            ev["ticket_url"] = profile_urls[0] if profile_urls else None
+            profile_urls = ev.pop("ticket_urls", None) or []
+            ev["ticket_url"] = next(
+                (u for u in (_normalize_ticket_url(u) for u in profile_urls) if u),
+                None,
+            )
         ev.pop("ticket_urls", None)
-        ev.pop("theater_ticket_url", None)
 
     # フライヤー画像ダウンロード（URL変更時は再取得）
     print("フライヤー画像を処理中...")
     existing_map = {ev["id"]: ev for ev in existing_events}
     download_flyers(scraped, existing_map)
+
+    # フィールド保護: 既存値への後退を防ぐ
+    # - open_time / start_time / end_time: None への後退はスクレイピング欠落によるバグ
+    # - online_url: 一度取得したら更新しない（後から付与されるケースに対応）
+    for ev in scraped:
+        old = existing_map.get(ev["id"])
+        if not old:
+            continue
+        for f in ("open_time", "start_time", "end_time"):
+            if ev.get(f) is None and old.get(f) is not None:
+                ev[f] = old[f]
+        if old.get("online_url") is not None:
+            ev["online_url"] = old["online_url"]
 
     # 差分検出
     print("差分を検出中...")

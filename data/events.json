@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T18:17:09+09:00",
+  "updated_at": "2026-04-13T18:46:04+09:00",
   "events": [
     {
       "id": "11da334f",
@@ -450,7 +450,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013791_1_20260331161556056.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13064/37153?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%81%94%E3%81%8D%E3%81%92%E3%82%93%E4%BC%9A%EF%BC%9F%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%BC%E3%83%B3%EF%BC%9F",
+      "ticket_url": "https://ticket.fany.lol/event/detail/13064/37153",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%81%94%E3%81%8D%E3%81%92%E3%82%93%E4%BC%9A-%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%BC%E3%83%B3-4-14-19-15?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%81%94%E3%81%8D%E3%81%92%E3%82%93%E4%BC%9A%EF%BC%9F%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%BC%E3%83%B3%EF%BC%9F",
       "price": null,
       "sources": [
@@ -459,10 +459,9 @@
       ],
       "local_image": "fliers/cc17b48c.jpg",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-08T22:42:35+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "f863db42",
@@ -477,7 +476,7 @@
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/41438/37116?utm_source=profile&utm_medium=feed&utm_campaign=%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -485,9 +484,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "1c8dbc74",
@@ -502,7 +501,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014850_1_20260319135042291.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/14069/39182?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E8%AC%8E%E7%AC%91%E7%8E%8B%EF%BD%9E%E3%81%B2%E3%82%89%E3%82%81%E3%81%8D%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%81%AE%E3%83%80%E3%83%96%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%90%E3%82%A4%EF%BD%9E",
+      "ticket_url": "https://ticket.fany.lol/event/detail/14069/39182",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E8%AC%8E%E7%AC%91%E7%8E%8B-%E3%81%B2%E3%82%89%E3%82%81%E3%81%8D%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%81%AE%E3%83%80%E3%83%96%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%90%E3%82%A4-4-15-19-15?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E8%AC%8E%E7%AC%91%E7%8E%8B%EF%BD%9E%E3%81%B2%E3%82%89%E3%82%81%E3%81%8D%E3%81%A8%E3%81%8A%E7%AC%91%E3%81%84%E3%81%AE%E3%83%80%E3%83%96%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%90%E3%82%A4%EF%BD%9E",
       "price": null,
       "sources": [
@@ -511,10 +510,9 @@
       ],
       "local_image": "fliers/1c8dbc74.jpg",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-08T22:42:35+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "d71f9146",
@@ -529,7 +527,7 @@
       "venue": "阿佐ヶ谷ロフトA（東京都）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/42128/37669?utm_source=profile&utm_medium=feed&utm_campaign=%E5%8F%8C%E9%BE%8D%E7%A0%B2&utm_content=5114",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -537,10 +535,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "cbb6e547",
@@ -555,7 +552,7 @@
       "venue": "表現ライブハウス 池袋西口GEKIBA（東京都）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/43401/38108?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%AB%E3%83%A9%E3%82%BF%E3%83%81%E5%89%8D%E7%94%B0%E3%81%8C%E3%81%9B%E3%81%A3%E3%81%8B%E3%81%8F%E3%83%94%E3%83%B3%E3%83%8D%E3%82%BF%E4%BD%9C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7%E3%83%94%E3%83%B3%E8%8A%B8%E4%BA%BA%E3%81%AE%E5%85%88%E8%BC%A9%E3%81%AE%E3%83%8D%E3%82%BF%E3%82%92%E8%A6%8B%E3%81%9B%E3%81%A6%E3%82%82%E3%82%89%E3%81%A3%E3%81%A6%E3%80%81&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -563,10 +560,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-03T22:36:59+09:00",
-      "last_updated": "2026-04-03T22:36:59+09:00",
-      "notified_at": "2026-04-03T22:36:59+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "b8995f47",
@@ -581,7 +577,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/41708/37288?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%83%90%E3%83%88%E3%83%ABEAST&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -589,10 +585,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-03T22:36:59+09:00",
-      "notified_at": "2026-04-03T22:36:59+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "de37ec09",
@@ -633,7 +628,7 @@
       "venue": "LEFKADA新宿（東京都）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/44489/38940?utm_source=profile&utm_medium=feed&utm_campaign=Pi%E2%97%8F%E3%82%AF%E5%A4%A7%E5%96%9C%E5%88%A9%E5%A4%9C%E4%BC%9A%E3%80%80%E9%85%8D%E4%BF%A1%E3%82%A4%E3%83%83%E3%81%9F%E3%82%89%E5%8D%B3%E7%B5%82%E4%BA%86LIVE&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -641,10 +636,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "96103f25",
@@ -659,7 +653,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/41708/37290?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%83%90%E3%83%88%E3%83%ABEAST&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -667,10 +661,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-03T22:36:59+09:00",
-      "notified_at": "2026-04-03T22:36:59+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "ca0a7088",
@@ -711,7 +704,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "place": "東京都｜六本木",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013418_1_20260325160750270.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/41277/37070?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A360%E5%88%86%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%EF%BC%9D%E3%80%8D&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -719,10 +712,9 @@
       ],
       "local_image": "fliers/ec63b13f.jpg",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-13T17:56:27+09:00",
-      "notified_at": "2026-04-13T17:56:27+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "d547844c",
@@ -737,7 +729,7 @@
       "venue": "よしもと幕張イオンモール劇場",
       "place": "千葉県｜幕張",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015311_1_20260409172708748.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/47304/40518?utm_source=profile&utm_medium=feed&utm_campaign=%E5%B9%95%E5%BC%B5%E6%98%A5%E3%81%AE%E6%96%B0%E7%94%9F%E6%B4%BB%E5%BF%9C%E6%8F%B4%E3%83%A9%E3%82%A4%E3%83%96%EF%BD%9E%E3%83%89%E3%82%AD%E3%83%89%E3%82%AD%E3%83%AF%E3%82%AF%E3%83%AF%E3%82%AF%E3%81%AA%E3%83%8D%E3%82%BF%EF%BC%86%E3%82%B3%E3%83%BC%E3%83%8A%E3%83%BC%EF%BD%9E&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -745,10 +737,9 @@
       ],
       "local_image": "fliers/d547844c.jpg",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-04T17:23:12+09:00",
-      "last_updated": "2026-04-09T22:44:01+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "9f1fde30",
@@ -763,7 +754,7 @@
       "venue": "よしもと幕張イオンモール劇場",
       "place": "千葉県｜幕張",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014225_1_20260313100007960.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/44565/38976?utm_source=profile&utm_medium=feed&utm_campaign=%E3%81%BE%E3%81%8F%E3%81%AF%E3%82%8A%E6%98%A5%E3%81%AE%E3%83%9C%E3%82%B1%E7%A5%AD%E3%82%8A&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -771,10 +762,9 @@
       ],
       "local_image": "fliers/9f1fde30.jpg",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "7d86a8d3",
@@ -789,7 +779,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013835_1_20260331161748749.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/41652/37164?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%89%E6%A1%9C%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%8A%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E6%A1%9C%E4%BC%9A%E3%80%8D&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -797,10 +787,9 @@
       ],
       "local_image": "fliers/7d86a8d3.jpg",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "ccdd4a39",
@@ -815,7 +804,7 @@
       "venue": "ワラケンスタジオ（東京都）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/46821/40340?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%AF%E3%83%A9%E3%82%B1%E3%83%B3%E4%BD%93%E9%A8%93%E3%82%AF%E3%83%A9%E3%83%96%E3%80%8C%E3%82%BD%E3%83%9E%E3%82%AA%E3%83%BB%E3%83%9F%E3%83%BC%E3%83%88%E3%83%9C%E3%83%BC%E3%83%AB%E3%81%AE%E3%82%AE%E3%83%A3%E3%82%B0%E4%BD%9C%E3%82%8A%E4%BD%93%E9%A8%93%E6%95%99%E5%AE%A4%E3%80%8D&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -823,10 +812,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "acb2e356",
@@ -841,7 +829,7 @@
       "venue": "新宿シアターモリエール（東京都）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/44148/38483?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BC%AB%E9%96%8B&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -849,10 +837,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "58df4f85",
@@ -867,7 +854,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013847_1_20260321171317239.png",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13108/37276?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E4%B8%AD%E9%87%8E%E3%81%AA%E3%81%8B%E3%82%8B%E3%81%A6%E3%81%83%E3%82%93%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%82%AF%E3%82%A4%E3%82%BA%E3%83%8D%E3%82%AA",
+      "ticket_url": "https://ticket.fany.lol/event/detail/13108/37276",
       "online_url": null,
       "price": null,
       "sources": [
@@ -876,10 +863,9 @@
       ],
       "local_image": "fliers/58df4f85.png",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-08T22:42:35+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "ef0a9322",
@@ -894,7 +880,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013851_1_20260319131927017.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13074/37169?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
+      "ticket_url": "https://ticket.fany.lol/event/detail/13074/37169",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-4-26-19-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
       "price": null,
       "sources": [
@@ -903,10 +889,9 @@
       ],
       "local_image": "fliers/ef0a9322.jpg",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-08T22:42:35+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "19084713",
@@ -921,7 +906,7 @@
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/44619/38997?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B0%97%E3%81%AB%E3%81%AA%E3%82%8B%E5%A4%A7%E5%96%9C%E5%88%A9%EF%BD%9E%E3%81%93%E3%81%AE%E4%BA%BA%E3%81%9F%E3%81%A1%E3%81%AE%E5%A4%A7%E5%96%9C%E5%88%A9%E3%81%A9%E3%82%93%E3%81%AA%E6%84%9F%E3%81%98%EF%BC%9F%EF%BD%9E&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -929,10 +914,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-05T17:22:27+09:00",
-      "notified_at": "2026-04-05T17:22:27+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "e1e65b59",
@@ -947,7 +931,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/41655/37165?utm_source=profile&utm_medium=feed&utm_campaign=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -955,10 +939,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-13T17:56:27+09:00",
-      "notified_at": "2026-04-13T17:56:27+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "9028e1c7",
@@ -973,7 +956,7 @@
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013544_1_20260331115619988.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/41459/37113?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4%E3%81%AE%E3%80%8C%E5%BA%AD%E3%80%8D&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -981,9 +964,9 @@
       ],
       "local_image": "fliers/9028e1c7.jpg",
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "167c228e",
@@ -998,7 +981,7 @@
       "venue": "よしもと幕張イオンモール劇場",
       "place": "千葉県｜幕張",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015456_1_20260408144132891.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/48068/40991?utm_source=profile&utm_medium=feed&utm_campaign=%E5%B9%95%E5%BC%B5%E6%98%A5%E3%81%AE%E3%83%8D%E3%82%BF%EF%BC%86%E3%82%B3%E3%83%BC%E3%83%8A%E3%83%BC&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1006,10 +989,9 @@
       ],
       "local_image": "fliers/167c228e.jpg",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-11T17:23:30+09:00",
-      "last_updated": "2026-04-11T17:23:30+09:00",
-      "notified_at": "2026-04-11T17:23:30+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "36a10410",
@@ -1024,7 +1006,7 @@
       "venue": "よしもと漫才劇場",
       "place": "大阪府｜なんば",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/42850/37499?utm_source=profile&utm_medium=feed&utm_campaign=Kiwami%E6%A5%B5LIVE&utm_content=5114",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1032,10 +1014,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-02T17:34:04+09:00",
-      "notified_at": "2026-04-02T17:34:04+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "f9d4a5ab",
@@ -1050,7 +1031,7 @@
       "venue": "赤坂RED/THEATER（東京都）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/47422/40643?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%8D%E3%83%AB%E3%82%BD%E3%83%B3%E3%82%BA%E3%81%A8%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9%E3%81%8C%E8%8B%A5%E6%89%8B%E8%8A%B8%E4%BA%BA%E3%81%A8%E4%BB%B2%E8%89%AF%E3%81%8F%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1058,10 +1039,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-04T17:23:12+09:00",
-      "last_updated": "2026-04-09T22:44:01+09:00",
-      "notified_at": "2026-04-09T22:44:01+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "8b6c6e38",
@@ -1076,7 +1056,7 @@
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000010909_1_20260317130526138.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/42089/37637?utm_source=profile&utm_medium=feed&utm_campaign=%E5%9B%B2%E7%A2%81%E5%B0%86%E6%A3%8B%E3%81%AE%E3%82%AA%E3%83%9E%E3%82%A8%E3%82%89%E3%81%AB%E3%81%AF%E8%B2%A0%E3%81%91%E3%81%AD%E3%81%88%E3%81%8B%E3%82%89%EF%BC%81%EF%BD%9E%E5%BE%8C%E8%BC%A9%E6%BC%AB%E6%89%8D%E5%B8%AB%E3%81%9F%E3%81%A1%E3%81%A8%E3%82%AC%E3%83%81%E3%83%8D%E3%82%BF%E3%83%90%E3%83%88%E3%83%AB%EF%BD%9E&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1084,10 +1064,9 @@
       ],
       "local_image": "fliers/8b6c6e38.jpg",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "49b2c353",
@@ -1102,7 +1081,7 @@
       "venue": "GINZA ART BOX 7（東京都）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/47540/40697?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B7%E3%82%B7%E3%82%AC%E3%82%B7%E3%83%A9%E6%96%B0%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96+%E3%83%8B%E3%83%A7%E3%82%AD%E3%83%8B%E3%83%A7%E3%82%AD&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1110,10 +1089,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-05T17:22:27+09:00",
-      "last_updated": "2026-04-05T17:22:27+09:00",
-      "notified_at": "2026-04-05T17:22:27+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "970cb0a5",
@@ -1128,7 +1106,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015460_1_20260412224252307.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/47518/40673?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8E%E3%83%90%E3%82%AB%E3%81%A8%E7%85%99%E3%80%8F&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1136,10 +1114,9 @@
       ],
       "local_image": "fliers/970cb0a5.jpg",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-08T17:37:33+09:00",
-      "last_updated": "2026-04-13T17:56:27+09:00",
-      "notified_at": "2026-04-13T17:56:27+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "f2ee595a",
@@ -1199,25 +1176,25 @@
       "talent_name": "シンクロニシティ",
       "title": "男女コンビによるコントパーティー！",
       "date": "2026-05-02",
-      "open_time": null,
+      "open_time": "17:00",
       "start_time": "17:15",
-      "end_time": null,
+      "end_time": "18:15",
       "members": "蛙亭／シンクロニシティ／エレガント人生／世間知らズ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "place": "東京都｜六本木",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45686/39942?utm_source=profile&utm_medium=feed&utm_campaign=%E7%94%B7%E5%A5%B3%E3%82%B3%E3%83%B3%E3%83%93%E3%81%AB%E3%82%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%88%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%EF%BC%81&utm_content=10708",
+      "ticket_url": "https://ticket.fany.lol/event/detail/14397/39942",
       "online_url": null,
       "price": null,
       "sources": [
-        "profile"
+        "profile",
+        "theater:roppongi"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-13T17:56:27+09:00",
-      "notified_at": "2026-04-13T17:56:27+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "580a25fe",
@@ -1232,7 +1209,7 @@
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/47471/40651?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BC%AB%EF%BC%91%EF%BC%90%EF%BC%88%E3%81%BE%E3%82%93%E3%81%A6%E3%82%93%EF%BC%89&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1240,10 +1217,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-07T17:39:37+09:00",
-      "last_updated": "2026-04-10T17:44:30+09:00",
-      "notified_at": "2026-04-10T17:44:31+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "c2e88175",
@@ -1258,7 +1234,7 @@
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45053/39289?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A3%C3%97%E5%85%84%E5%BC%9F%E3%83%84%E3%83%BC%E3%83%9E%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%E3%80%8D&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1266,9 +1242,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "6b613bef",
@@ -1283,7 +1259,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/15048/41332?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%83%9E%E3%83%B3%E3%82%B2%E3%82%AD%E3%82%88%E3%82%8B%E3%81%AE%E5%AF%84%E5%B8%AD%E3%83%A9%E3%82%A4%E3%83%96",
+      "ticket_url": "https://ticket.fany.lol/event/detail/15048/41332",
       "online_url": null,
       "price": null,
       "sources": [
@@ -1292,10 +1268,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-13T17:56:27+09:00",
-      "last_updated": "2026-04-13T17:56:27+09:00",
-      "notified_at": "2026-04-13T17:56:27+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "81ec0599",
@@ -1303,14 +1278,14 @@
       "talent_name": "シンクロニシティ",
       "title": "渋谷よしもと漫才劇場 ゴールデンウィーク特別寄席",
       "date": "2026-05-05",
-      "open_time": null,
+      "open_time": "10:45",
       "start_time": "11:00",
-      "end_time": null,
+      "end_time": "12:00",
       "members": "[ネタライブ]ダンビラムーチョ／ドンデコルテ／マルセイユ／今井らいぱち／やさしいズ／ぱろぱろ／シンクロニシティ／照山おうちごはん／ゲスト：ガベジ／ニューヨーク／他",
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/44946/39272?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4+%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%82%A6%E3%82%A3%E3%83%BC%E3%82%AF%E7%89%B9%E5%88%A5%E5%AF%84%E5%B8%AD&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1318,9 +1293,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "81ec0599",
@@ -1335,7 +1310,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14078/39273?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4%20%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%82%A6%E3%82%A3%E3%83%BC%E3%82%AF%E7%89%B9%E5%88%A5%E5%AF%84%E5%B8%AD",
+      "ticket_url": "https://ticket.fany.lol/event/detail/14078/39273",
       "online_url": null,
       "price": null,
       "sources": [
@@ -1344,9 +1319,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "b09a139e",
@@ -1361,7 +1336,7 @@
       "venue": "せたがやイーグレットホール(世田谷区民会館)（東京都）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/40983/36816?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9%C3%97%E3%83%9E%E3%83%9E%E3%82%BF%E3%83%AB%E3%83%88%C3%97%E3%83%91%E3%83%B3%E3%83%97%E3%82%AD%E3%83%B3%E3%83%9D%E3%83%86%E3%83%88%E3%83%95%E3%83%A9%E3%82%A4%E3%80%8C%E3%83%8F%E3%82%A4%E3%82%AB%E3%83%AD%E3%83%AA%E3%83%BC%EF%BC%92%E3%80%8D&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1369,10 +1344,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "51b794a6",
@@ -1413,7 +1387,7 @@
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45059/39285?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%89%E6%A1%9C%E3%81%AE%E3%83%8D%E3%82%BF%E5%92%B2%E3%81%8D&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1421,9 +1395,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "7a9f4257",
@@ -1438,7 +1412,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "place": "埼玉県｜大宮",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/47061/40407?utm_source=profile&utm_medium=feed&utm_campaign=%E7%B4%A0%E6%95%B5%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E3%81%8B%E3%81%AE%E6%BC%AB%E6%89%8D%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1446,10 +1420,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T22:42:41+09:00",
-      "notified_at": "2026-03-31T22:42:41+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "707f830a",
@@ -1464,7 +1437,7 @@
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45063/39277?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%99%E3%83%93%E3%83%B3%E3%82%B9&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1472,9 +1445,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "3aaf651d",
@@ -1489,7 +1462,7 @@
       "venue": "よしもと漫才劇場",
       "place": "大阪府｜なんば",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/46495/39742?utm_source=profile&utm_medium=feed&utm_campaign=%E3%81%AF%E3%82%8B%E3%81%8B%E3%81%9C%E3%81%AB%E5%91%8A%E3%81%90%E3%81%AE%E3%83%A1%E3%82%AC%E9%80%B2%E5%8C%96&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1497,10 +1470,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "95749cd1",
@@ -1515,7 +1487,7 @@
       "venue": "よしもと漫才劇場",
       "place": "大阪府｜なんば",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/46497/39740?utm_source=profile&utm_medium=feed&utm_campaign=%E3%81%94%E3%81%8D%E3%81%92%E3%82%93%E4%BC%9A%EF%BC%9F%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%9D%E3%83%BC%E3%83%B3%EF%BC%9F&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1523,10 +1495,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "47387dc5",
@@ -1541,7 +1512,7 @@
       "venue": "銀座ブロッサム（中央会館）ホール（東京都）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/44520/38950?utm_source=profile&utm_medium=feed&utm_campaign=TOKYO+SHUCHAN+COLLECTION+2026&utm_content=5114",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1549,10 +1520,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "a63c29e1",
@@ -1567,7 +1537,7 @@
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45075/39298?utm_source=profile&utm_medium=feed&utm_campaign=%E3%83%8D%E3%82%BF%E4%B8%AD%E3%81%AE%E3%81%A9%E3%81%93%E3%81%8B%E3%81%A7%E3%81%8A%E4%BA%92%E3%81%84%E3%81%AB%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%81%A3%E3%81%A6%E8%A8%80%E3%82%8F%E3%81%AA%E3%81%84%E3%81%A8%E3%81%84%E3%81%91%E3%81%AA%E3%81%84%E3%83%A9%E3%82%A4%E3%83%96&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1575,9 +1545,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "e4364fe3",
@@ -1592,7 +1562,7 @@
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/47525/40682?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E8%8B%A5%E6%89%8B%E3%83%8D%E3%82%BF%E3%81%AE%E7%A5%AD%E5%85%B8%EF%BC%81&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1600,10 +1570,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-07T17:39:37+09:00",
-      "last_updated": "2026-04-07T17:39:37+09:00",
-      "notified_at": "2026-04-07T17:39:37+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "3568f1ca",
@@ -1618,7 +1587,7 @@
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/47492/40666?utm_source=profile&utm_medium=feed&utm_campaign=%E4%BB%8A%E4%BA%95%E3%82%89%E3%81%84%E3%81%B1%E3%81%A1%E3%83%BB%E3%81%95%E3%82%84%E9%A6%99%E6%96%B0%E5%B1%B1+%E3%83%94%E3%83%B3%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%BC%E3%83%AD%E3%83%92%E3%83%A3%E3%82%AF%E3%80%8D&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1626,9 +1595,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-06T22:39:51+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "919f2b19",
@@ -1643,7 +1612,7 @@
       "venue": "IMM THEATER",
       "place": "東京都｜文京",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/43831/38347?utm_source=profile&utm_medium=feed&utm_campaign=%E6%9D%B1%E4%BA%AC%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E8%8A%B1%E6%9C%88&utm_content=5114",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1651,9 +1620,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "919f2b19",
@@ -1668,7 +1637,7 @@
       "venue": "IMM THEATER",
       "place": "東京都｜文京",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/43831/38348?utm_source=profile&utm_medium=feed&utm_campaign=%E6%9D%B1%E4%BA%AC%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E8%8A%B1%E6%9C%88&utm_content=5114",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1676,9 +1645,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "65c5c490",
@@ -1693,7 +1662,7 @@
       "venue": "よしもと幕張イオンモール劇場",
       "place": "千葉県｜幕張",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/46758/40300?utm_source=profile&utm_medium=feed&utm_campaign=%E4%BA%94%E5%8F%8D%E7%94%B0%E4%BC%9A%EF%BD%9E%E5%B1%B1%E5%8F%A3%E3%82%B3%E3%83%B3%E3%83%9C%E3%82%A4%E5%85%A5%E4%BC%9A%E3%83%95%E3%83%AC%E3%83%B3%E3%83%89%E3%83%91%E3%83%BC%E3%82%AF%EF%BD%9E&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1701,10 +1670,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T22:42:41+09:00",
-      "notified_at": "2026-03-31T22:42:41+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "00e4f9ed",
@@ -1719,7 +1687,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14214/39629?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E6%B8%8B%E8%B0%B7%E3%82%88%E3%81%97%E3%82%82%E3%81%A8%E6%BC%AB%E6%89%8D%E5%8A%87%E5%A0%B4%E3%80%80%E5%AF%84%E5%B8%ADSP",
+      "ticket_url": "https://ticket.fany.lol/event/detail/14214/39629",
       "online_url": null,
       "price": null,
       "sources": [
@@ -1728,10 +1696,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-08T22:42:35+09:00",
-      "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-08T22:42:35+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "cfd66e12",
@@ -1746,7 +1713,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14215/39633?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%81%8F%E3%82%89%E3%81%92%E6%96%B0%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E6%B5%AE%E9%81%8A%E3%80%8D",
+      "ticket_url": "https://ticket.fany.lol/event/detail/14215/39633",
       "online_url": null,
       "price": null,
       "sources": [
@@ -1755,10 +1722,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-08T22:42:35+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "71d861da",
@@ -1773,7 +1739,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14150/39428?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%E3%80%8C%E5%BC%B7%E3%81%84%E3%82%AB%E3%82%BF%E3%83%81%E3%80%8D",
+      "ticket_url": "https://ticket.fany.lol/event/detail/14150/39428",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents-%E5%BC%B7%E3%81%84%E3%82%AB%E3%82%BF%E3%83%81-5-14-21-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%E3%80%8C%E5%BC%B7%E3%81%84%E3%82%AB%E3%82%BF%E3%83%81%E3%80%8D",
       "price": null,
       "sources": [
@@ -1782,10 +1748,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-08T22:42:35+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "1214a7c2",
@@ -1800,7 +1765,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "place": "埼玉県｜大宮",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/47174/40444?utm_source=profile&utm_medium=feed&utm_campaign=%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E5%BE%8C%E8%BC%A9%E4%BB%A3%E8%A1%A8%E3%81%AF%E5%83%95%E3%81%A7%E3%81%99%EF%BC%81%EF%BD%9E%E5%BE%8C%E8%BC%A9%E8%8A%B8%E4%BA%BA%E5%8A%9B%E7%8E%8B%E6%B1%BA%E5%AE%9A%E6%88%A6%EF%BD%9E&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1808,10 +1773,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-03T17:29:49+09:00",
-      "last_updated": "2026-04-06T22:39:51+09:00",
-      "notified_at": "2026-04-06T22:39:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "39d32856",
@@ -1826,7 +1790,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "place": "埼玉県｜大宮",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/47024/40394?utm_source=profile&utm_medium=feed&utm_campaign=%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E3%81%AE%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1%E5%A4%A7%E5%AE%AE%E4%BE%BF&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1834,10 +1798,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-02T22:40:57+09:00",
-      "last_updated": "2026-04-02T22:40:57+09:00",
-      "notified_at": "2026-04-02T22:40:57+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "d4fa8657",
@@ -1852,7 +1815,7 @@
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45072/39309?utm_source=profile&utm_medium=feed&utm_campaign=%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1860,9 +1823,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "6b7b052d",
@@ -1877,7 +1840,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "place": "東京都｜六本木",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014931_1_20260406000015250.png",
-      "ticket_url": "https://ticket.fany.lol/reception/45586/39853?utm_source=profile&utm_medium=feed&utm_campaign=%E9%87%8E%E6%BE%A4%E8%BC%B8%E5%87%BA%E8%84%9A%E6%9C%AC%E6%BC%94%E5%8A%87%E3%80%8C%E5%9B%9E%E8%B7%AF%E3%80%8D%E5%AE%8C%E5%85%A8%E7%89%88&utm_content=5114",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1885,10 +1848,9 @@
       ],
       "local_image": "fliers/6b7b052d.png",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-06T17:44:35+09:00",
-      "notified_at": "2026-04-06T17:44:35+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "fbba356b",
@@ -1903,7 +1865,7 @@
       "venue": "東別院テラスホール（愛知県）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/43670/38203?utm_source=profile&utm_medium=feed&utm_campaign=kento+fukaya%E3%81%AE%E3%82%86%E3%82%8B%E3%81%84%E3%81%9C%EF%BC%81%E6%97%85%E3%83%9E%E3%82%A6%E3%82%B9%EF%BC%81&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1911,10 +1873,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "cd6a28e0",
@@ -1929,7 +1890,7 @@
       "venue": "有楽町よみうりホール（東京都）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/40996/36822?utm_source=profile&utm_medium=feed&utm_campaign=%E5%B1%B1%E6%B7%BB%E5%B1%95&utm_content=5114",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1937,10 +1898,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "ddbb6796",
@@ -1955,7 +1915,7 @@
       "venue": "よしもと福岡 大和証券劇場",
       "place": "福岡県｜福岡",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/46098/39714?utm_source=profile&utm_medium=feed&utm_campaign=%E3%82%A8%E3%83%94%E3%82%BD%E3%83%BC%E3%83%89%E3%83%80%E3%82%A6%E3%83%88&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1963,10 +1923,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "6bd3ba19",
@@ -1981,7 +1940,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45323/39414?utm_source=profile&utm_medium=feed&utm_campaign=1993%E5%B9%B45%E6%9C%8825%E6%97%A5&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -1989,10 +1948,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "a946fe01",
@@ -2007,7 +1965,7 @@
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45094/39326?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2015,9 +1973,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "574a7c91",
@@ -2032,7 +1990,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14543/40266?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
+      "ticket_url": "https://ticket.fany.lol/event/detail/14543/40266",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-5-27-15-15?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
       "price": null,
       "sources": [
@@ -2041,10 +1999,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-08T22:42:35+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "973b59ef",
@@ -2059,7 +2016,7 @@
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45098/39321?utm_source=profile&utm_medium=feed&utm_campaign=%E4%B8%96%E9%96%93%E7%9F%A5%E3%82%89%E3%82%BA%E3%81%AE%E6%96%B0%E5%B8%9D%E5%9B%BD&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2067,9 +2024,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "3c4c6dee",
@@ -2084,7 +2041,7 @@
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45099/39328?utm_source=profile&utm_medium=feed&utm_campaign=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2092,9 +2049,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-13T18:17:09+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-13T18:17:09+09:00"
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "a21dea3e",
@@ -2109,7 +2066,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45330/39411?utm_source=profile&utm_medium=feed&utm_campaign=%E4%BF%BA%E3%81%9F%E3%81%A1%EF%BC%81%E5%A4%A7%E5%96%9C%E5%88%A9%E9%83%A8&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2117,10 +2074,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "2df5f6da",
@@ -2135,7 +2091,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "place": "埼玉県｜大宮",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/46852/40349?utm_source=profile&utm_medium=feed&utm_campaign=GAG%E6%96%B0%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8CMENS+JACKET+COAT+NEED+HOMES%EF%BC%8CTOO%E3%80%8D&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2143,10 +2099,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-04T22:31:17+09:00",
-      "last_updated": "2026-04-04T22:31:17+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "fbb0e241",
@@ -2161,7 +2116,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "place": "埼玉県｜大宮",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/46853/40350?utm_source=profile&utm_medium=feed&utm_campaign=%EF%BC%88S%EF%BC%89%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%EF%BC%88J%EF%BC%89%E3%82%B8%E3%83%A7%E3%82%A4%E3%83%95%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%8A%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%96&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2169,10 +2124,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-04T22:31:17+09:00",
-      "last_updated": "2026-04-04T22:31:17+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "bc23a860",
@@ -2187,7 +2141,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "place": "埼玉県｜大宮",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/46850/40347?utm_source=profile&utm_medium=feed&utm_campaign=%E8%A5%BF%E9%87%8E%E5%90%9B%E3%80%81%E4%BB%8A%E3%81%AE%E5%83%95%E3%82%92%E8%A6%8B%E3%81%A6%E3%81%8F%E3%82%8C%E3%81%AA%E3%81%84%E3%81%8B%EF%BC%9F%EF%BD%9E%E3%80%90%E5%A4%A7%E5%AE%AE%E3%81%8A%E7%AC%91%E3%81%84%E3%82%BF%E3%83%83%E3%82%B0%E3%83%9E%E3%83%83%E3%83%81%E3%80%91&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2195,10 +2149,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-04T22:31:17+09:00",
-      "last_updated": "2026-04-04T22:31:17+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "cfc6b8bc",
@@ -2213,7 +2166,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "place": "埼玉県｜大宮",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/46856/40348?utm_source=profile&utm_medium=feed&utm_campaign=%E3%81%8C%E3%81%A3%E3%81%B7%E3%82%8A%E5%9B%9B%E3%81%A4%EF%BC%81%E3%81%8B%E3%81%BF%E3%81%A1%E3%81%83%EF%BC%86%E3%82%88%E3%81%97%E3%81%8A%E3%81%8B%E3%81%95%E3%82%93MC%E3%81%AE%E3%83%80%E3%82%B5%E5%8F%8D%E7%9C%81%E4%BC%9A&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2221,10 +2174,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-04T22:31:17+09:00",
-      "last_updated": "2026-04-04T22:31:17+09:00",
-      "notified_at": "2026-04-04T22:31:18+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "50745cbb",
@@ -2239,7 +2191,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/45334/39421?utm_source=profile&utm_medium=feed&utm_campaign=%E7%A5%9E%E5%9B%9E%E3%82%B5%E3%83%9F%E3%83%83%E3%83%88&utm_content=7295",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2247,10 +2199,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "df978e46",
@@ -2265,7 +2216,7 @@
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/48038/40980?utm_source=profile&utm_medium=feed&utm_campaign=%E6%BB%9D%E9%9F%B3%C3%97%E3%83%9E%E3%83%A6%E3%83%AA%E3%82%AB%E3%81%AE%E3%80%8C%E5%A4%A2%E5%A4%A2%E5%A4%A2%E3%82%89%E3%81%84%E3%81%B6%E3%80%8D&utm_content=5114",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2273,10 +2224,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-10T17:44:30+09:00",
-      "last_updated": "2026-04-13T17:56:27+09:00",
-      "notified_at": "2026-04-13T17:56:27+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "5fc727fd",
@@ -2291,7 +2241,7 @@
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014167_1_20260321163431016.jpg",
-      "ticket_url": "https://ticket.fany.lol/reception/43407/38110?utm_source=profile&utm_medium=feed&utm_campaign=kento+fukaya%E3%81%AE%E3%82%86%E3%82%8B%E3%81%84%E3%81%9C%EF%BC%81%E6%97%85%E3%83%9E%E3%82%A6%E3%82%B9%EF%BC%81&utm_content=5114",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2299,10 +2249,9 @@
       ],
       "local_image": "fliers/5fc727fd.jpg",
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-03-31T19:21:06+09:00",
-      "notified_at": "2026-03-31T19:21:06+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "0e98d1c4",
@@ -2317,7 +2266,7 @@
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/47457/40652?utm_source=profile&utm_medium=feed&utm_campaign=%E9%81%93%E6%A5%BD%E9%82%82%E9%80%85%EF%BD%9EJune%EF%BD%9E&utm_content=10708",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2325,10 +2274,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-07T17:39:37+09:00",
-      "last_updated": "2026-04-07T17:39:37+09:00",
-      "notified_at": "2026-04-07T17:39:37+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     },
     {
       "id": "5a7df36f",
@@ -2343,7 +2291,7 @@
       "venue": "福岡県立ももち文化センター　大ホール（福岡県）",
       "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/reception/48007/40975?utm_source=profile&utm_medium=feed&utm_campaign=%E4%BB%8A%E7%94%B0%E8%80%95%E5%8F%B8%E3%81%AELet%27s%EF%BC%81%E3%82%B3%E3%83%A1%E3%83%87%E3%82%A3%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%BC%EF%BC%81%EF%BC%81in%E7%A6%8F%E5%B2%A1&utm_content=5114",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
@@ -2351,10 +2299,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-13T18:46:03+09:00",
       "first_seen": "2026-04-10T17:44:30+09:00",
-      "last_updated": "2026-04-13T17:56:27+09:00",
-      "notified_at": "2026-04-13T17:56:27+09:00",
-      "diff": null
+      "notified_at": "2026-04-13T18:46:04+09:00"
     }
   ]
 }

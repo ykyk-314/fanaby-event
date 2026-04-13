@@ -152,6 +152,9 @@ def build_html(talent_name: str, events: list[dict]) -> str:
 <head><meta charset="UTF-8"></head>
 <body style="font-family:'Hiragino Sans',sans-serif;color:#333;max-width:600px;margin:0 auto;padding:16px">
   <h2 style="border-bottom:2px solid #e74c3c;padding-bottom:8px">{talent_name} の公演情報</h2>
+  <p style="margin-top:4px;margin-bottom:12px;font-size:13px">
+    <a href="https://fanaby-event.pages.dev/" style="color:#e74c3c;text-decoration:none">▶ fanaby-event を開く</a>
+  </p>
   <p style="color:#666;font-size:13px">{summary}</p>
   {cards}
   <p style="color:#aaa;font-size:11px;margin-top:32px">fanaby-event 自動通知</p>

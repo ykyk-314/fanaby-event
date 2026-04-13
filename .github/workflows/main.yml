@@ -4,7 +4,7 @@ on:
   schedule:
     # JST 9:03 / 17:03 / 22:03 に実行（UTC 0:00 / 8:00 / 13:00）
     # - cron: "3 0,8,13 * * *"
-    - cron: "3 8,13 * * *"
+    - cron: "3,13 8,9,13 * * *"
   workflow_dispatch:
     inputs:
       skip_scrape:

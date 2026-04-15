@@ -12,12 +12,12 @@ paths: docs/**/*
 
 ## フロントエンド設計
 - タブ切り替え: 全カードを単一DOMに置き、JSフィルタで切り替え（DOMを再生成しない）
-- ステータス管理: `script.js` 内の `StatusStorage` オブジェクト経由で LocalStorage に保存
-  - キー: `fanaby_statuses`
+- 観覧ステータス管理: `script.js` 内の `ViewingStorage` オブジェクト経由で LocalStorage に保存
+  - キー: `fanaby_viewing_statuses`
 - 過去公演: `<details>` で折りたたみ表示
 - フライヤー: クリックでライトボックス拡大
 
-## ユーザーステータス値とUI表示
+## 観覧ステータス値とUI表示
 
 | key | 表示名 | カード左ボーダー色 |
 |---|---|---|
@@ -27,7 +27,7 @@ paths: docs/**/*
 | `purchased` | 購入済み | 緑 #27ae60 |
 | `attended` | 行った | 紺 #2c3e50 |
 
-## LocalStorage スキーマ（`fanaby_statuses`）
+## LocalStorage スキーマ（`fanaby_viewing_statuses`）
 
 ```json
 {
@@ -48,5 +48,10 @@ paths: docs/**/*
 ```
 
 ## 将来のAPI移行方針（Phase 2 A）
-`StatusStorage` の内部実装（fetch ベースへの差し替え）のみで端末間同期に対応できる設計を維持する。
-`StatusStorage.export()` でLocalStorageからデータをエクスポートしてAPIに移行する。
+`ViewingStorage` の内部実装（fetch ベースへの差し替え）のみで端末間同期に対応できる設計を維持する。
+`ViewingStorage.export()` でLocalStorageからデータをエクスポートしてAPIに移行する。
+
+## セキュリティ制約
+- memo フィールドを画面表示する際は **必ず `textContent` で代入**（`innerHTML` 禁止・XSS防止）
+- ステータス値は `VALID_VIEWING_STATUSES` ホワイトリストで検証してから DOM に反映すること
+- APIレスポンスは `_validateRemote()` を経由し、不正なデータはDOM/localStorageに渡さない

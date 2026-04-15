@@ -1,0 +1,6 @@
+name = "fanaby-event"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "FANABY_VIEWING_STATUSES"
+id = "5b93698258b54a379d7b05c2dafe9739"

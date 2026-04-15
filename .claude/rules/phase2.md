@@ -9,8 +9,8 @@ paths: "**/*"
 ## A. 端末間ステータス同期（設計済み・未実装）
 
 - **方針:** Cloudflare Workers + KV（無料枠: 100k req/日・1GB）をバックエンドに実装
-- **移行:** `script.js` 内の `StatusStorage` オブジェクトの内部を `fetch()` ベースに差し替えるだけ
-- **移行手順:** `StatusStorage.export()` でLocalStorageからデータをエクスポートしてAPIに送る
+- **移行:** `script.js` 内の `ViewingStorage` オブジェクトの内部を `fetch()` ベースに差し替えるだけ
+- **移行手順:** `ViewingStorage.export()` でLocalStorageからデータをエクスポートしてAPIに送る
 - 依存: C（芸人追加UI）と Workers 実装を相乗りできる
 
 ## B. チケット販売期間リマインダー通知
@@ -20,6 +20,7 @@ paths: "**/*"
 - **課題:** チケット受付期限情報（先行抽選日・一般発売日）を `events.json` に追加が必要
   - 「お知らせ」テキストからパースするか、専用フィールドとして構造化する
 - インフラ: 既存の `notify.py` + Gmail SMTP を流用
+- **方針NEW:** リマインド通知は、DB管理ができるようになったら、指定した公演のみ詳細スケジュールを取得する仕様にしたい（要検討）
 
 ## C. 対象芸人の追加UI
 

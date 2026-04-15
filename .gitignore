@@ -4,3 +4,6 @@ data/theater_events.json
 __pycache__/
 *.pyc
 .DS_Store
+.claude/issues/
+.codex
+commit.sh

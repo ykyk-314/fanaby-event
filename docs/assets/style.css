@@ -69,7 +69,7 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
   .filter-bar select { min-width: 0; width: 100%; }
 }
 
-/* ---- ステータス管理 ---- */
+/* ---- 観覧ステータス ---- */
 :root {
   --status-want:            #3498db;
   --status-lottery-applied: #e67e22;
@@ -79,14 +79,14 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
 }
 
 /* カード左端ボーダー */
-.event-card[data-status="want"]            { border-left: 4px solid var(--status-want); }
-.event-card[data-status="lottery_applied"] { border-left: 4px solid var(--status-lottery-applied); }
-.event-card[data-status="lottery_lost"]    { border-left: 4px solid var(--status-lottery-lost); }
-.event-card[data-status="purchased"]       { border-left: 4px solid var(--status-purchased); }
-.event-card[data-status="attended"]        { border-left: 4px solid var(--status-attended); }
+.event-card[data-viewing-status="want"]            { border-left: 4px solid var(--status-want); }
+.event-card[data-viewing-status="lottery_applied"] { border-left: 4px solid var(--status-lottery-applied); }
+.event-card[data-viewing-status="lottery_lost"]    { border-left: 4px solid var(--status-lottery-lost); }
+.event-card[data-viewing-status="purchased"]       { border-left: 4px solid var(--status-purchased); }
+.event-card[data-viewing-status="attended"]        { border-left: 4px solid var(--status-attended); }
 
 /* ステータスセレクトラッパー */
-.status-wrap {
+.viewing-wrap {
   display: inline-flex;
   align-items: center;
   border-radius: 4px;
@@ -95,14 +95,14 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
   background: #f7f7f7;
   transition: border-color .15s, background .15s;
 }
-.status-wrap[data-status="want"]            { border-color: var(--status-want);            background: #eaf4fd; }
-.status-wrap[data-status="lottery_applied"] { border-color: var(--status-lottery-applied); background: #fdf3e3; }
-.status-wrap[data-status="lottery_lost"]    { border-color: var(--status-lottery-lost);    background: #f4f6f6; }
-.status-wrap[data-status="purchased"]       { border-color: var(--status-purchased);       background: #e9f7ef; }
-.status-wrap[data-status="attended"]        { border-color: var(--status-attended);        background: #eaecee; }
+.viewing-wrap[data-viewing-status="want"]            { border-color: var(--status-want);            background: #eaf4fd; }
+.viewing-wrap[data-viewing-status="lottery_applied"] { border-color: var(--status-lottery-applied); background: #fdf3e3; }
+.viewing-wrap[data-viewing-status="lottery_lost"]    { border-color: var(--status-lottery-lost);    background: #f4f6f6; }
+.viewing-wrap[data-viewing-status="purchased"]       { border-color: var(--status-purchased);       background: #e9f7ef; }
+.viewing-wrap[data-viewing-status="attended"]        { border-color: var(--status-attended);        background: #eaecee; }
 
 /* セレクト本体 — 文字色は常に暗色（ドロップダウン内も読める） */
-.status-select {
+.viewing-select {
   border: none;
   background: transparent;
   padding: 6px 10px;

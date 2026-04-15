@@ -128,8 +128,8 @@ def render_event_card(ev: dict) -> str:
         )
 
     status_select = (
-        f'<div class="status-wrap" data-status="">'
-        f'<select class="status-select" data-event-id="{ev.get("id", "")}">'
+        f'<div class="viewing-wrap" data-viewing-status="">'
+        f'<select class="viewing-select" data-event-id="{escape_html(ev.get("id", ""))}">'
         f'<option value="">＋ 記録する</option>'
         f'<option value="want">行きたい</option>'
         f'<option value="lottery_applied">先行申込済み</option>'
@@ -143,11 +143,11 @@ def render_event_card(ev: dict) -> str:
 
     return (
         f'<div class="{past_class}" '
-        f'data-talent="{ev.get("talent_id", "")}" '
+        f'data-talent="{escape_html(ev.get("talent_id", ""))}" '
         f'data-venue="{escape_html(venue_raw)}" '
-        f'data-date="{ev_date}" '
-        f'data-event-id="{ev.get("id", "")}" '
-        f'data-status="">'
+        f'data-date="{escape_html(ev_date)}" '
+        f'data-event-id="{escape_html(ev.get("id", ""))}" '
+        f'data-viewing-status="">'
         f'<div class="card-header">{badge}<span class="card-title">{title}</span></div>'
         f'<div class="card-body">'
         f'<div class="card-left"><div class="card-info">{info_rows}</div>{btns_html}</div>'
@@ -226,8 +226,8 @@ def main():
         <select id="filterVenue">
           <option value="">すべて</option>
         </select>
-        <label>ステータス</label>
-        <select id="filterStatus">
+        <label>観覧ステータス</label>
+        <select id="filterViewingStatus">
           <option value="">すべて</option>
           <option value="want">行きたい</option>
           <option value="lottery_applied">先行申込済み</option>

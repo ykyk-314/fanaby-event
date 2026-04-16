@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-15T17:46:34+09:00",
+  "updated_at": "2026-04-16T10:00:41+09:00",
   "events": [
     {
       "id": "11da334f",
@@ -646,32 +646,6 @@
       "diff": null
     },
     {
-      "id": "96103f25",
-      "talent_id": "7295",
-      "talent_name": "ケビンス",
-      "title": "グランドバトルEAST",
-      "date": "2026-04-19",
-      "open_time": null,
-      "start_time": "15:15",
-      "end_time": null,
-      "members": "[ランキングバトルライブ]イチキップリン／アイロンヘッド／カーネーション／クロフネ／鶴亀／やさしいズ／滝音／まちるだ／九条ジョー／ケビンス／ぱろぱろ／赤嶺総理／11月のリサ／アメリカンBBチキン／生ファラオ／バリカタ友情飯／ZAZY／MC：キクチウソツカナイ。",
-      "venue": "渋谷よしもと漫才劇場",
-      "place": "東京都｜渋谷",
-      "image_url": null,
-      "ticket_url": null,
-      "online_url": null,
-      "price": null,
-      "sources": [
-        "profile"
-      ],
-      "local_image": null,
-      "status": "notified",
-      "first_seen": "2026-03-31T17:27:57+09:00",
-      "last_updated": "2026-04-13T18:46:03+09:00",
-      "notified_at": "2026-04-13T18:46:04+09:00",
-      "diff": null
-    },
-    {
       "id": "ca0a7088",
       "talent_id": "7295",
       "talent_name": "ケビンス",
@@ -698,6 +672,32 @@
       "diff": null
     },
     {
+      "id": "96103f25",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "グランドバトルEAST",
+      "date": "2026-04-19",
+      "open_time": null,
+      "start_time": "15:15",
+      "end_time": null,
+      "members": "[ランキングバトルライブ]イチキップリン／アイロンヘッド／カーネーション／クロフネ／鶴亀／やさしいズ／滝音／まちるだ／九条ジョー／ケビンス／ぱろぱろ／赤嶺総理／11月のリサ／アメリカンBBチキン／生ファラオ／バリカタ友情飯／ZAZY／MC：キクチウソツカナイ。",
+      "venue": "渋谷よしもと漫才劇場",
+      "place": "東京都｜渋谷",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-03-31T17:27:57+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
+      "notified_at": "2026-04-13T18:46:04+09:00",
+      "diff": null
+    },
+    {
       "id": "ec63b13f",
       "talent_id": "10708",
       "talent_name": "シンクロニシティ",
@@ -719,9 +719,10 @@
       ],
       "local_image": "fliers/ec63b13f.jpg",
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "last_updated": "2026-04-15T17:46:34+09:00",
+      "notified_at": "2026-04-15T17:46:34+09:00",
+      "diff": null
     },
     {
       "id": "d547844c",
@@ -864,20 +865,19 @@
       "end_time": "20:00",
       "members": "[企画ライブ]ナイチンゲールダンス／ケビンス／9番街レトロ／サンタモニカ／しんや",
       "venue": "渋谷よしもと漫才劇場",
-      "place": "東京都｜渋谷",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013847_1_20260321171317239.png",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13108/37276",
+      "place": null,
+      "image_url": null,
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
         "theater:shibuya"
       ],
       "local_image": "fliers/58df4f85.png",
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
+      "last_updated": "2026-04-16T10:00:41+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "notified_at": "2026-04-16T10:00:41+09:00"
     },
     {
       "id": "ef0a9322",
@@ -901,9 +901,10 @@
       ],
       "local_image": "fliers/ef0a9322.jpg",
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "last_updated": "2026-04-15T17:46:34+09:00",
+      "notified_at": "2026-04-15T17:46:34+09:00",
+      "diff": null
     },
     {
       "id": "19084713",
@@ -1139,32 +1140,6 @@
       "diff": null
     },
     {
-      "id": "970cb0a5",
-      "talent_id": "7295",
-      "talent_name": "ケビンス",
-      "title": "ケビンストークライブ『バカと煙』",
-      "date": "2026-04-30",
-      "open_time": null,
-      "start_time": "21:00",
-      "end_time": null,
-      "members": "[企画ライブ]ケビンス",
-      "venue": "渋谷よしもと漫才劇場",
-      "place": "東京都｜渋谷",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015460_1_20260412224252307.jpg",
-      "ticket_url": null,
-      "online_url": null,
-      "price": null,
-      "sources": [
-        "profile"
-      ],
-      "local_image": "fliers/970cb0a5.jpg",
-      "status": "notified",
-      "first_seen": "2026-04-08T17:37:33+09:00",
-      "last_updated": "2026-04-13T18:46:03+09:00",
-      "notified_at": "2026-04-13T18:46:04+09:00",
-      "diff": null
-    },
-    {
       "id": "f2ee595a",
       "talent_id": "7295",
       "talent_name": "ケビンス",
@@ -1188,6 +1163,32 @@
       "first_seen": "2026-04-08T22:42:35+09:00",
       "last_updated": "2026-04-13T17:56:27+09:00",
       "notified_at": "2026-04-13T17:56:27+09:00",
+      "diff": null
+    },
+    {
+      "id": "970cb0a5",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "ケビンストークライブ『バカと煙』",
+      "date": "2026-04-30",
+      "open_time": null,
+      "start_time": "21:00",
+      "end_time": null,
+      "members": "[企画ライブ]ケビンス",
+      "venue": "渋谷よしもと漫才劇場",
+      "place": "東京都｜渋谷",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015460_1_20260412224252307.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/970cb0a5.jpg",
+      "status": "notified",
+      "first_seen": "2026-04-08T17:37:33+09:00",
+      "last_updated": "2026-04-13T18:46:03+09:00",
+      "notified_at": "2026-04-13T18:46:04+09:00",
       "diff": null
     },
     {
@@ -1238,9 +1239,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "last_updated": "2026-04-15T17:46:34+09:00",
+      "notified_at": "2026-04-15T17:46:34+09:00",
+      "diff": null
     },
     {
       "id": "580a25fe",
@@ -1305,20 +1307,19 @@
       "end_time": "20:00",
       "members": "[ネタライブ]今井らいぱち／カベポスター／ケビンス／そいつどいつ／ミカボ／9番街レトロ／ゼロカラン／他",
       "venue": "渋谷よしもと漫才劇場",
-      "place": "東京都｜渋谷",
+      "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/15048/41332",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
         "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
+      "last_updated": "2026-04-16T10:00:41+09:00",
       "first_seen": "2026-04-13T17:56:27+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "notified_at": "2026-04-16T10:00:41+09:00"
     },
     {
       "id": "81ec0599",
@@ -1341,9 +1342,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
+      "last_updated": "2026-04-16T10:00:41+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "notified_at": "2026-04-16T10:00:41+09:00"
     },
     {
       "id": "81ec0599",
@@ -1367,9 +1368,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "last_updated": "2026-04-15T17:46:34+09:00",
+      "notified_at": "2026-04-16T10:00:41+09:00"
     },
     {
       "id": "b09a139e",
@@ -1678,9 +1679,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
+      "last_updated": "2026-04-16T10:00:41+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "notified_at": "2026-04-16T10:00:41+09:00"
     },
     {
       "id": "919f2b19",
@@ -1705,7 +1706,7 @@
       "status": "notified",
       "first_seen": "2026-03-31T17:27:57+09:00",
       "last_updated": "2026-04-13T18:46:03+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "notified_at": "2026-04-16T10:00:41+09:00"
     },
     {
       "id": "65c5c490",
@@ -1755,9 +1756,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
       "first_seen": "2026-04-08T22:42:35+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "last_updated": "2026-04-15T17:46:34+09:00",
+      "notified_at": "2026-04-15T17:46:34+09:00",
+      "diff": null
     },
     {
       "id": "cfd66e12",
@@ -1781,9 +1783,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "last_updated": "2026-04-15T17:46:34+09:00",
+      "notified_at": "2026-04-15T17:46:34+09:00",
+      "diff": null
     },
     {
       "id": "71d861da",
@@ -1796,20 +1799,19 @@
       "end_time": "22:15",
       "members": "[企画ライブ]やさしいズ タイ／今井らいぱち／キンボシ／ダンビラムーチョ／ケビンス／バリカタ友情飯／金魚番長／他",
       "venue": "渋谷よしもと漫才劇場",
-      "place": "東京都｜渋谷",
+      "place": null,
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14150/39428",
+      "ticket_url": null,
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents-%E5%BC%B7%E3%81%84%E3%82%AB%E3%82%BF%E3%83%81-5-14-21-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%E3%80%8C%E5%BC%B7%E3%81%84%E3%82%AB%E3%82%BF%E3%83%81%E3%80%8D",
       "price": null,
       "sources": [
-        "profile",
         "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
+      "last_updated": "2026-04-16T10:00:41+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "notified_at": "2026-04-16T10:00:41+09:00"
     },
     {
       "id": "84d66428",
@@ -2145,9 +2147,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-15T17:46:34+09:00",
       "first_seen": "2026-03-31T17:27:57+09:00",
-      "notified_at": "2026-04-15T17:46:34+09:00"
+      "last_updated": "2026-04-15T17:46:34+09:00",
+      "notified_at": "2026-04-15T17:46:34+09:00",
+      "diff": null
     },
     {
       "id": "973b59ef",

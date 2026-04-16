@@ -15,7 +15,7 @@ paths: scripts/**/*.py
 - Selenium は `webdriver-manager` 不使用。`webdriver.Chrome(options=options)` のみ
 - プロフィールページの日付は M/D 形式（年なし）。`resolve_year()` で年を推定する
 - `events.json` への書き込みは **差分マージ**（past events carry-over）。全上書き禁止
-- イベントID: `SHA1("{talent_id}:{date}:{normalize_title(title)}")[:8]`
+- イベントID: `SHA1("{talent_id}:{date}:{venue}:{start_time}")[:8]`（venue/start_time 不明時は `SHA1("{talent_id}:{date}:{normalize_title(title)}")[:8]` にフォールバック）
 - 変更検知対象（`WATCH_FIELDS`）: `members / image_url / ticket_url / online_url / price / open_time / start_time / end_time / venue`
   - **公演日当日は `members` のみチェック**（ticket_url 等は当日券販売終了で変動するため）
 - チケットURL優先順位: 劇場ページ > プロフィールページ先頭 > null

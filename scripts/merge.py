@@ -3,7 +3,7 @@
 
 処理フロー:
 1. profile_events.json と theater_events.json を読み込む
-2. 劇場取得分を同一公演に統合（照合キー: date + 正規化タイトル）
+2. 劇場取得分を同一公演に統合（照合キー: talent_id + date + venue + start_time）
 3. 既存 events.json と比較して差分を検出（new / updated）
 4. events.json を上書き保存
 """
@@ -57,9 +57,15 @@ def normalize_title(title: str) -> str:
     return title.lower()
 
 
-def make_event_id(talent_id: str, event_date: str, title: str) -> str:
-    """イベントID: SHA1(talent_id + date + normalized_title) の先頭8文字。"""
-    key = f"{talent_id}:{event_date}:{normalize_title(title)}"
+def make_event_id(talent_id: str, event_date: str, title: str,
+                  venue: str | None = None, start_time: str | None = None) -> str:
+    """イベントID: SHA1(talent_id + date + venue + start_time) の先頭8文字。
+    venue/start_time が不明な場合は normalized_title にフォールバック。
+    """
+    if venue and start_time:
+        key = f"{talent_id}:{event_date}:{venue}:{start_time}"
+    else:
+        key = f"{talent_id}:{event_date}:{normalize_title(title)}"
     return hashlib.sha1(key.encode()).hexdigest()[:8]
 
 
@@ -95,7 +101,8 @@ def build_event_from_profile(p: dict) -> dict:
     image_url はプロフィールページからのみ取得する。
     """
     return {
-        "id": make_event_id(p["talent_id"], p["date"], p["title"]),
+        "id": make_event_id(p["talent_id"], p["date"], p["title"],
+                           venue=p.get("venue"), start_time=p.get("start_time")),
         "talent_id": p["talent_id"],
         "talent_name": p["talent_name"],
         "title": p["title"],
@@ -122,34 +129,60 @@ def merge_theater_into_events(
 ) -> None:
     """
     劇場イベントをプロフィールイベントリストに統合する。
-    同一公演は照合キー（talent_id + date + 正規化タイトル）で突き合わせ、
-    プロフィール側の不足情報を補完する。
+    同一公演は照合キーで突き合わせ、プロフィール側の不足情報を補完する。
     劇場のみにある公演は新規エントリとして追加する。
+
+    照合キーはデュアルインデックス:
+    - プライマリ: talent_id + date + venue + start_time（両方あるとき）
+    - セカンダリ: talent_id + date + normalize_title（フォールバック）
     """
     talent_map = {t["id"]: t["name"] for t in config["talents"]}
 
-    # events を (talent_id, date, norm_title) → index のインデックスに
-    event_index: dict[str, int] = {}
+    # プロフィールイベントをプライマリ・セカンダリの両キーでインデックスに登録
+    primary_index: dict[str, int] = {}   # talent_id:date:venue:start_time → index
+    secondary_index: dict[str, int] = {} # talent_id:date:norm_title → index
     for i, ev in enumerate(events):
-        key = _theater_key(ev["talent_id"], ev["date"], ev["title"])
-        event_index[key] = i
+        pkey = _theater_key(ev["talent_id"], ev["date"], ev["title"],
+                            venue=ev.get("venue"), start_time=ev.get("start_time"))
+        skey = _theater_key(ev["talent_id"], ev["date"], ev["title"])
+        if ev.get("venue") and ev.get("start_time"):
+            primary_index[pkey] = i
+        secondary_index[skey] = i
 
     for te in theater_events:
         for tid in te["matched_talent_ids"]:
-            key = _theater_key(tid, te["date"], te["title"])
-            if key in event_index:
-                # 既存イベントに劇場情報を補完
-                ev = events[event_index[key]]
+            # プライマリキー（venue+start_time）で照合
+            pkey = _theater_key(tid, te["date"], te["title"],
+                                venue=te.get("venue"), start_time=te.get("start_time"))
+            # セカンダリキー（normalize_title）で照合
+            skey = _theater_key(tid, te["date"], te["title"])
+
+            if pkey in primary_index:
+                # プライマリキーで一致（通常ケース）
+                ev = events[primary_index[pkey]]
                 _patch_from_theater(ev, te)
+            elif skey in secondary_index:
+                # セカンダリキーで一致（プロフィール側に venue/start_time がないケース）
+                ev = events[secondary_index[skey]]
+                _patch_from_theater(ev, te)
+                # venue/start_time が補完されたのでプライマリインデックスに昇格
+                if ev.get("venue") and ev.get("start_time"):
+                    idx = secondary_index[skey]
+                    new_pkey = _theater_key(ev["talent_id"], ev["date"], ev["title"],
+                                            venue=ev.get("venue"), start_time=ev.get("start_time"))
+                    primary_index[new_pkey] = idx
             else:
                 # 劇場にしか存在しないイベントを新規追加
                 new_ev = _build_event_from_theater(te, tid, talent_map)
                 if new_ev:
                     events.append(new_ev)
-                    event_index[key] = len(events) - 1
+                    primary_index[pkey] = len(events) - 1
 
 
-def _theater_key(talent_id: str, event_date: str, title: str) -> str:
+def _theater_key(talent_id: str, event_date: str, title: str,
+                 venue: str | None = None, start_time: str | None = None) -> str:
+    if venue and start_time:
+        return f"{talent_id}:{event_date}:{venue}:{start_time}"
     return f"{talent_id}:{event_date}:{normalize_title(title)}"
 
 
@@ -184,7 +217,8 @@ def _build_event_from_theater(te: dict, talent_id: str, talent_map: dict) -> dic
     if not talent_name:
         return None
     return {
-        "id": make_event_id(talent_id, te["date"], te["title"]),
+        "id": make_event_id(talent_id, te["date"], te["title"],
+                           venue=te.get("venue"), start_time=te.get("start_time")),
         "talent_id": talent_id,
         "talent_name": talent_name,
         "title": te["title"],

@@ -1,12 +1,13 @@
 /**
- * PATCH /api/viewing-statuses/:eventId  — 単一イベントの観覧ステータスを更新
+ * PATCH /api/viewing-statuses/:eventId  — 単一イベントの観覧ステータス・メモを更新
  * DELETE /api/viewing-statuses/:eventId — 単一イベントの観覧ステータスを削除
+ *
+ * ユーザー識別: Cloudflare Access が付与する CF-Access-Authenticated-User-Email を使用。
+ * KVキー: `status:{sha256(email)}`（メールアドレスを平文でKVに保存しない）
  */
 
-const KV_KEY = 'user_viewing_statuses';
 const EMPTY_DATA = { schema_version: 1, statuses: {} };
 
-// フロントエンドの VIEWING_STATUSES と同期させること
 const VALID_VIEWING_STATUSES = new Set([
   'want',
   'lottery_applied',
@@ -19,14 +20,22 @@ const EVENT_ID_RE = /^[0-9a-f]{8}$/;
 const MEMO_MAX_LEN = 1000;
 const HISTORY_MAX_LEN = 100;
 
-async function loadData(env) {
-  const data = await env.FANABY_VIEWING_STATUSES.get(KV_KEY, 'json');
+async function getUserKey(request) {
+  const email = request.headers.get('CF-Access-Authenticated-User-Email') || '';
+  if (!email) return null;
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(email));
+  const hex = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+  return `status:${hex}`;
+}
+
+async function loadData(env, kvKey) {
+  const data = await env.FANABY_VIEWING_STATUSES.get(kvKey, 'json');
   return data || { ...EMPTY_DATA, statuses: {} };
 }
 
-async function saveData(env, data) {
+async function saveData(env, kvKey, data) {
   data.updated_at = new Date().toISOString();
-  await env.FANABY_VIEWING_STATUSES.put(KV_KEY, JSON.stringify(data));
+  await env.FANABY_VIEWING_STATUSES.put(kvKey, JSON.stringify(data));
 }
 
 function jsonResponse(body, status = 200) {
@@ -36,54 +45,55 @@ function jsonResponse(body, status = 200) {
   });
 }
 
-export async function onRequestPatch(context) {
-  const eventId = context.params.eventId;
+export async function onRequestPatch({ request, params, env }) {
+  const kvKey = await getUserKey(request);
+  if (!kvKey) return jsonResponse({ error: 'Unauthorized' }, 401);
 
-  if (!EVENT_ID_RE.test(eventId)) {
-    return jsonResponse({ error: 'invalid eventId' }, 400);
-  }
+  const eventId = params.eventId;
+  if (!EVENT_ID_RE.test(eventId)) return jsonResponse({ error: 'invalid eventId' }, 400);
 
   let body;
   try {
-    body = await context.request.json();
+    body = await request.json();
   } catch {
     return jsonResponse({ error: 'invalid JSON' }, 400);
   }
 
-  if (!body || !body.status) {
-    return jsonResponse({ error: 'status required' }, 400);
+  if (!body) return jsonResponse({ error: 'request body required' }, 400);
+
+  // status と memo の両方が未指定はエラー
+  if (body.status === undefined && body.memo === undefined) {
+    return jsonResponse({ error: 'status or memo required' }, 400);
   }
-  if (!VALID_VIEWING_STATUSES.has(body.status)) {
+  // status が指定されている場合はホワイトリスト検証（空文字はステータスなしとして許容）
+  if (body.status !== undefined && body.status !== '' && !VALID_VIEWING_STATUSES.has(body.status)) {
     return jsonResponse({ error: 'invalid status value' }, 400);
   }
   if (body.memo !== undefined) {
-    if (typeof body.memo !== 'string') {
-      return jsonResponse({ error: 'memo must be a string' }, 400);
-    }
-    if (body.memo.length > MEMO_MAX_LEN) {
-      return jsonResponse({ error: `memo exceeds ${MEMO_MAX_LEN} chars` }, 400);
-    }
+    if (typeof body.memo !== 'string') return jsonResponse({ error: 'memo must be a string' }, 400);
+    if (body.memo.length > MEMO_MAX_LEN) return jsonResponse({ error: `memo exceeds ${MEMO_MAX_LEN} chars` }, 400);
   }
 
   try {
-    const data = await loadData(context.env);
+    const data = await loadData(env, kvKey);
     const now = new Date().toISOString();
-    const existing = data.statuses[eventId] || { history: [], memo: '' };
+    const existing = data.statuses[eventId] || { history: [], memo: '', status: '' };
 
-    existing.status = body.status;
-    existing.updated_at = now;
-    existing.history = existing.history || [];
-    existing.history.push({ status: body.status, at: now });
-
-    // 履歴が上限を超えたら古いものを削除
-    if (existing.history.length > HISTORY_MAX_LEN) {
-      existing.history = existing.history.slice(-HISTORY_MAX_LEN);
+    if (body.status !== undefined) {
+      existing.status = body.status;
+      if (body.status) {
+        existing.history = existing.history || [];
+        existing.history.push({ status: body.status, at: now });
+        if (existing.history.length > HISTORY_MAX_LEN) {
+          existing.history = existing.history.slice(-HISTORY_MAX_LEN);
+        }
+      }
     }
-
     if (body.memo !== undefined) existing.memo = body.memo;
+    existing.updated_at = now;
 
     data.statuses[eventId] = existing;
-    await saveData(context.env, data);
+    await saveData(env, kvKey, data);
 
     return jsonResponse({ ok: true, updated_at: now });
   } catch (e) {
@@ -92,18 +102,17 @@ export async function onRequestPatch(context) {
   }
 }
 
-export async function onRequestDelete(context) {
-  const eventId = context.params.eventId;
+export async function onRequestDelete({ request, params, env }) {
+  const kvKey = await getUserKey(request);
+  if (!kvKey) return jsonResponse({ error: 'Unauthorized' }, 401);
 
-  if (!EVENT_ID_RE.test(eventId)) {
-    return jsonResponse({ error: 'invalid eventId' }, 400);
-  }
+  const eventId = params.eventId;
+  if (!EVENT_ID_RE.test(eventId)) return jsonResponse({ error: 'invalid eventId' }, 400);
 
   try {
-    const data = await loadData(context.env);
+    const data = await loadData(env, kvKey);
     delete data.statuses[eventId];
-    await saveData(context.env, data);
-
+    await saveData(env, kvKey, data);
     return jsonResponse({ ok: true });
   } catch (e) {
     console.error('DELETE /api/viewing-statuses/:eventId error:', e);

@@ -2,59 +2,68 @@
 paths: "**/*"
 ---
 
-# Phase 2 未実装タスク
+# Phase 2 タスク
 
 **大前提: 無料・無課金で完結すること（最重要制約）**
 
-## A. 端末間ステータス同期（設計済み・未実装）
+---
 
-- **方針:** Cloudflare Workers + KV（無料枠: 100k req/日・1GB）をバックエンドに実装
-- **移行:** `script.js` 内の `ViewingStorage` オブジェクトの内部を `fetch()` ベースに差し替えるだけ
-- **移行手順:** `ViewingStorage.export()` でLocalStorageからデータをエクスポートしてAPIに送る
-- 依存: C（芸人追加UI）と Workers 実装を相乗りできる
+## ✅ 完了済み
 
-## B. チケット販売期間リマインダー通知
+### A. 端末間ステータス同期（P2-account）
+- Cloudflare Access + Pages Functions + KV によるアカウント別ステータス管理を実装
+- `ViewingStorage` が LocalStorage ↔ `/api/viewing-statuses` を透過的に同期
+- KVキー: `status:{sha256(email)}`（メールアドレスをKVに平文保存しない）
+- API: `GET/PATCH/DELETE /api/viewing-statuses/:eventId`、`GET /api/me`
 
-- **方針:** 先行抽選・一般先着の受付開始・終了前にメール通知
-- **活用:** `lottery_applied` ステータスと履歴の `at` を活用
-- **課題:** チケット受付期限情報（先行抽選日・一般発売日）を `events.json` に追加が必要
-  - 「お知らせ」テキストからパースするか、専用フィールドとして構造化する
-- インフラ: 既存の `notify.py` + Gmail SMTP を流用
-- **方針NEW:** リマインド通知は、DB管理ができるようになったら、指定した公演のみ詳細スケジュールを取得する仕様にしたい（要検討）
+### E. 検索機能の拡充（P2-Search-Condition）
+- 公演名・出演者のキーワード検索（スペース区切りAND）を実装
+- フィルターバーにキーワード入力欄を追加
+- `data-title` / `data-members` 属性を使った DOM フィルタ
 
-## C. 対象芸人の追加UI
+### F. コメント機能（P2-Comment）
+- 公演カードにメモ欄（textarea）を追加
+- 1秒デバウンスで自動保存（LocalStorage → KV 同期）
+
+### B. チケット販売期間リマインダー通知（P2-ticket-reminder）
+- fany.lol からチケット受付期間をスクレイピング（requests + BeautifulSoup）
+- `data/ticket_deadlines.json` に保存し、公演カードに受付種別・期間を表示
+- 通知条件:
+  - 先行抽選 受付開始 2時間前
+  - 先行抽選 受付終了 2時間前
+  - 一般発売 受付開始 1時間前
+- GitHub Actions `remind-check.yml` が JST 8:45〜22:45 の1時間ごとに実行
+- リマインドON/OFF ボタンを公演カードに追加
+- フィルターバーに「🔔 通知ONのみ」チェックボックスを追加
+- `functions/api/remind-list.js` で KV を走査してリマインドON の公演IDリストを返す
+- GitHub Secrets に `REMIND_API_URL` / `REMIND_API_SECRET` を追加済み
+- CloudFlareのPages に環境変数 `REMIND_API_SECRET`を設定済み
+
+---
+
+## 未実装（残タスク）
+
+### C. 対象芸人の追加UI
 
 - **方針:** Web UI 上で `data/config.json` の `talents[]` を追加・管理
-- 依存: A（Workers 実装）後に書き込みAPIを相乗りで実装
+- 依存: A（Workers 実装）✅ 完了済みのため着手可
 - 現状回避策: `data/config.json` を直接編集
+- 実装が必要なもの: KV または GitHub API 経由での `config.json` 書き込みAPI
 
-## D. Googleカレンダー連携
+### D. Googleカレンダー連携
 
 - **方針:** `purchased` ステータスの公演を自動でGoogleカレンダーに登録
 - OAuth 認証フローが必要（個人用でも実装コストが最も高い）
 - 無料範囲内だが優先度は最低
 
-## E. 検索機能の拡充（優先度 High）
-
-- 現状: 芸人タブ・会場・日付・ステータスでフィルタ可能
-- **追加予定:**
-  - 公演名のテキスト検索
-  - 出演者の個人名での絞り込み（コンビの片方、ゲスト名等）
-- 実装先: `docs/assets/script.js` のみ変更、インフラ不要
-
-## F. コメント機能（優先度 High）
-
-- **方針:** 公演カードにメモ欄を追加（LocalStorage保存）
-- 現状: Googleカレンダーでネタタイトル等を記録している
-- 実装先: `script.js` + `build.py`（カードHTML）
-- A（端末間同期）実装時に自動的にクラウド同期も可能になる設計にする
+---
 
 ## 実装ロードマップ
 
 ```
-優先   E（検索拡充）・F（コメント）        ← インフラ不要、高頻度で使う
+✅ 完了  E（検索拡充）・F（コメント）・A（端末間同期）・B（リマインダー）
   ↓
-中期   B（リマインダー）・A（端末間同期）  ← 既存インフラ活用
+中期    C（芸人追加UI）  ← A 完了済みのため着手可
   ↓
-長期   C（芸人追加UI）・D（Googleカレンダー）
+長期    D（Googleカレンダー）
 ```

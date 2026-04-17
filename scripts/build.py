@@ -141,18 +141,26 @@ def render_event_card(ev: dict) -> str:
     )
     btns_html = f'<div class="card-btns">{ticket_btns}{status_select}</div>'
 
+    ev_id = escape_html(ev.get("id", ""))
+    memo_html = (
+        f'<div class="memo-wrap">'
+        f'<textarea class="memo-input" data-event-id="{ev_id}"'
+        f' placeholder="メモ（ネタ・感想など）" rows="2"></textarea>'
+        f'</div>'
+    )
+
     return (
         f'<div class="{past_class}" '
         f'data-talent="{escape_html(ev.get("talent_id", ""))}" '
         f'data-venue="{escape_html(venue_raw)}" '
         f'data-date="{escape_html(ev_date)}" '
-        f'data-event-id="{escape_html(ev.get("id", ""))}" '
+        f'data-event-id="{ev_id}" '
         f'data-title="{escape_html(ev.get("title", ""))}" '
         f'data-members="{escape_html(ev.get("members") or "")}" '
         f'data-viewing-status="">'
         f'<div class="card-header">{badge}<span class="card-title">{title}</span></div>'
         f'<div class="card-body">'
-        f'<div class="card-left"><div class="card-info">{info_rows}</div>{btns_html}</div>'
+        f'<div class="card-left"><div class="card-info">{info_rows}</div>{btns_html}{memo_html}</div>'
         f'{flyer}'
         f'</div>'
         f'</div>'

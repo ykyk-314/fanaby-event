@@ -328,6 +328,22 @@ const ViewingStorage = {
       return false;
     }
   },
+
+  getMemo(eventId) {
+    const rec = this.get(eventId);
+    return rec ? (rec.memo || '') : '';
+  },
+
+  setMemo(eventId, text) {
+    const data = this._cache || this._loadLocal();
+    const existing = data.statuses[eventId]
+      || { history: [], status: '', memo: '' };
+    existing.memo = text;
+    existing.updated_at = new Date().toISOString();
+    data.statuses[eventId] = existing;
+    this._saveLocal(data);
+    this._patchRemote(eventId, { status: existing.status, memo: text });
+  },
 };
 
 function applyStatusToCard(card, status) {
@@ -368,10 +384,26 @@ document.addEventListener('change', e => {
   applyFilters();
 });
 
+function initMemoUI() {
+  document.querySelectorAll('.memo-input').forEach(textarea => {
+    const id = textarea.dataset.eventId;
+    if (!id) return;
+    textarea.value = ViewingStorage.getMemo(id);
+    let timer;
+    textarea.addEventListener('input', () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        ViewingStorage.setMemo(id, textarea.value);
+      }, 1000);
+    });
+  });
+}
+
 (async () => {
   // 初期化完了まで操作を無効化（APIフェッチ中の競合防止）
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = true; });
   await ViewingStorage.init();
   initStatusUI();
+  initMemoUI();
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = false; });
 })();

@@ -7,10 +7,11 @@ import json
 from datetime import date
 from pathlib import Path
 
-BASE_DIR = Path(__file__).parent.parent
-EVENTS_PATH = BASE_DIR / "data" / "events.json"
-CONFIG_PATH = BASE_DIR / "data" / "config.json"
-DOCS_DIR    = BASE_DIR / "docs"
+BASE_DIR        = Path(__file__).parent.parent
+EVENTS_PATH     = BASE_DIR / "data" / "events.json"
+CONFIG_PATH     = BASE_DIR / "data" / "config.json"
+DEADLINES_PATH  = BASE_DIR / "data" / "ticket_deadlines.json"
+DOCS_DIR        = BASE_DIR / "docs"
 
 WEEKDAYS = "月火水木金土日"
 
@@ -46,6 +47,32 @@ def format_price(price: dict | None) -> str:
     return " / ".join(parts)
 
 
+def ticket_badge_class(status_text: str) -> str:
+    """ステータステキストからCSSクラスを返す"""
+    if "中" in status_text:   # 先着発売中 / 抽選受付中
+        return "tbadge-active"
+    if "前" in status_text:   # 先着発売前
+        return "tbadge-upcoming"
+    return "tbadge-ended"     # 抽選受付終了 / その他
+
+
+def render_ticket_deadlines(tickets: list) -> str:
+    """チケット受付情報の HTML を生成する"""
+    if not tickets:
+        return ""
+    rows = ""
+    for t in tickets:
+        cls = ticket_badge_class(t.get("status_text", ""))
+        rows += (
+            f'<div class="ticket-row">'
+            f'<span class="tbadge {cls}">{escape_html(t.get("status_text", ""))}</span>'
+            f'<span class="tname">{escape_html(t.get("name", ""))}</span>'
+            f'<span class="tperiod">{escape_html(t.get("start", ""))} 〜 {escape_html(t.get("end", ""))}</span>'
+            f'</div>'
+        )
+    return f'<div class="ticket-deadlines">{rows}</div>'
+
+
 def render_badge(status: str) -> str:
     if status == "new":
         return '<span class="badge badge-new">NEW</span>'
@@ -54,7 +81,7 @@ def render_badge(status: str) -> str:
     return ""
 
 
-def render_event_card(ev: dict) -> str:
+def render_event_card(ev: dict, tickets: list | None = None) -> str:
     badge = render_badge(ev.get("status", ""))
     title = escape_html(ev.get("title", ""))
     date_str = format_date(ev.get("date", ""))
@@ -126,10 +153,18 @@ def render_event_card(ev: dict) -> str:
             f'<span class="info-label">料金</span><span>{price_str}</span>'
             f'</div>'
         )
+    if tickets:
+        info_rows += (
+            f'<div class="info-row ticket-info-row">'
+            f'<span class="info-label">受付</span>'
+            f'{render_ticket_deadlines(tickets)}'
+            f'</div>'
+        )
 
+    ev_id = escape_html(ev.get("id", ""))
     status_select = (
         f'<div class="viewing-wrap" data-viewing-status="">'
-        f'<select class="viewing-select" data-event-id="{escape_html(ev.get("id", ""))}">'
+        f'<select class="viewing-select" data-event-id="{ev_id}">'
         f'<option value="">＋ 記録する</option>'
         f'<option value="want">行きたい</option>'
         f'<option value="lottery_applied">先行申込済み</option>'
@@ -139,9 +174,11 @@ def render_event_card(ev: dict) -> str:
         f'</select>'
         f'</div>'
     )
-    btns_html = f'<div class="card-btns">{ticket_btns}{status_select}</div>'
-
-    ev_id = escape_html(ev.get("id", ""))
+    remind_btn = (
+        f'<button class="remind-btn" data-event-id="{ev_id}" data-remind=""'
+        f' title="チケットリマインドをONにする">&#x1F514;</button>'
+    )
+    btns_html = f'<div class="card-btns">{ticket_btns}{status_select}{remind_btn}</div>'
     memo_html = (
         f'<div class="memo-wrap">'
         f'<textarea class="memo-input" data-event-id="{ev_id}"'
@@ -176,6 +213,16 @@ def main():
     talents = config["talents"]
     today   = date.today().isoformat()
 
+    # ticket_deadlines.json を読み込み（存在しない場合は空）
+    ticket_map: dict[str, list] = {}
+    if DEADLINES_PATH.exists():
+        deadlines = json.loads(DEADLINES_PATH.read_text(encoding="utf-8"))
+        ticket_map = {
+            eid: ev["tickets"]
+            for eid, ev in deadlines.get("events", {}).items()
+            if ev.get("tickets")
+        }
+
     all_future = [e for e in events if e.get("date", "") >= today]
     all_past   = [e for e in events if e.get("date", "") < today]
 
@@ -188,8 +235,8 @@ def main():
         )
 
     # 全カードを単一DOMに配置（タブ切り替えはJSのフィルタで行う）
-    future_cards = "".join(render_event_card(e) for e in all_future)
-    past_cards   = "".join(render_event_card(e) for e in all_past)
+    future_cards = "".join(render_event_card(e, ticket_map.get(e["id"])) for e in all_future)
+    past_cards   = "".join(render_event_card(e, ticket_map.get(e["id"])) for e in all_past)
 
     content_html = ""
     if all_future:

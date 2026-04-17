@@ -344,6 +344,22 @@ const ViewingStorage = {
     this._saveLocal(data);
     this._patchRemote(eventId, { status: existing.status, memo: text });
   },
+
+  getRemind(eventId) {
+    const rec = this.get(eventId);
+    return rec ? (rec.remind === true) : false;
+  },
+
+  setRemind(eventId, bool) {
+    const data = this._cache || this._loadLocal();
+    const existing = data.statuses[eventId]
+      || { history: [], status: '', memo: '' };
+    existing.remind = bool;
+    existing.updated_at = new Date().toISOString();
+    data.statuses[eventId] = existing;
+    this._saveLocal(data);
+    this._patchRemote(eventId, { status: existing.status, memo: existing.memo || '', remind: bool });
+  },
 };
 
 function applyStatusToCard(card, status) {
@@ -397,6 +413,27 @@ async function initUserUI() {
   } catch { /* オフライン・Access未設定時は表示しない */ }
 }
 
+function applyRemindToBtn(btn, isOn) {
+  btn.dataset.remind = isOn ? 'on' : '';
+  btn.title = isOn ? 'チケットリマインドをOFFにする' : 'チケットリマインドをONにする';
+}
+
+function initRemindUI() {
+  document.querySelectorAll('.remind-btn').forEach(btn => {
+    const id = btn.dataset.eventId;
+    if (!id) return;
+    applyRemindToBtn(btn, ViewingStorage.getRemind(id));
+    btn.addEventListener('click', () => {
+      const newVal = !ViewingStorage.getRemind(id);
+      ViewingStorage.setRemind(id, newVal);
+      // 同一 event-id のボタンを全て更新
+      document.querySelectorAll(`.remind-btn[data-event-id="${id}"]`).forEach(b => {
+        applyRemindToBtn(b, newVal);
+      });
+    });
+  });
+}
+
 function initMemoUI() {
   document.querySelectorAll('.memo-input').forEach(textarea => {
     const id = textarea.dataset.eventId;
@@ -417,6 +454,7 @@ function initMemoUI() {
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = true; });
   await Promise.all([ViewingStorage.init(), initUserUI()]);
   initStatusUI();
+  initRemindUI();
   initMemoUI();
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = false; });
 })();

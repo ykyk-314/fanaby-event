@@ -16,7 +16,9 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
 .filter-bar { background: #fff; border-radius: 8px; padding: 10px 14px; margin-bottom: 14px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
 .filter-bar label { font-size: 12px; color: #888; white-space: nowrap; }
 .filter-bar select,
-.filter-bar input[type="date"] { border: 1px solid #ddd; border-radius: 4px; padding: 4px 8px; font-size: 13px; background: #fafafa; color: #333; }
+.filter-bar input[type="date"],
+.filter-bar input[type="text"] { border: 1px solid #ddd; border-radius: 4px; padding: 4px 8px; font-size: 13px; background: #fafafa; color: #333; }
+.filter-bar input[type="text"] { min-width: 220px; }
 .filter-bar select { min-width: 160px; max-width: 260px; }
 .filter-reset { margin-left: auto; padding: 4px 12px; font-size: 12px; border: 1px solid #ccc; border-radius: 4px; background: #fff; cursor: pointer; color: #666; }
 .filter-reset:hover { background: #f0f0f0; }
@@ -100,6 +102,25 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
 .viewing-wrap[data-viewing-status="lottery_lost"]    { border-color: var(--status-lottery-lost);    background: #f4f6f6; }
 .viewing-wrap[data-viewing-status="purchased"]       { border-color: var(--status-purchased);       background: #e9f7ef; }
 .viewing-wrap[data-viewing-status="attended"]        { border-color: var(--status-attended);        background: #eaecee; }
+
+/* メモ欄 */
+.memo-wrap { margin-top: 8px; }
+.memo-input {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 6px 8px;
+  font-size: 12px;
+  font-family: inherit;
+  color: #555;
+  background: #fafafa;
+  resize: vertical;
+  outline: none;
+  transition: border-color .15s;
+  line-height: 1.5;
+}
+.memo-input:focus { border-color: #aaa; background: #fff; }
+.memo-input::placeholder { color: #bbb; }
 
 /* セレクト本体 — 文字色は常に暗色（ドロップダウン内も読める） */
 .viewing-select {

@@ -77,27 +77,34 @@ function buildVenueOptions() {
 }
 
 function applyFilters() {
-  const venue  = document.getElementById('filterVenue').value;
-  const from   = document.getElementById('filterDateFrom').value;
-  const to     = document.getElementById('filterDateTo').value;
-  const status = document.getElementById('filterViewingStatus').value;
-  const cards  = allCards();
-  let visible  = 0;
+  const venue    = document.getElementById('filterVenue').value;
+  const from     = document.getElementById('filterDateFrom').value;
+  const to       = document.getElementById('filterDateTo').value;
+  const status   = document.getElementById('filterViewingStatus').value;
+  const keyword  = document.getElementById('filterKeyword').value.trim().toLowerCase();
+  const keywords = keyword ? keyword.split(/\s+/) : [];
+  const cards    = allCards();
+  let visible    = 0;
 
   cards.forEach(c => {
     const cardStatus = c.dataset.viewingStatus || '';
     const statusOk = !status
       || (status === 'none' ? cardStatus === '' : cardStatus === status);
+    const keywordOk = keywords.length === 0 || (() => {
+      const target = ((c.dataset.title || '') + ' ' + (c.dataset.members || '')).toLowerCase();
+      return keywords.every(kw => target.includes(kw));
+    })();
     const ok = (!currentTalent || c.dataset.talent === currentTalent)
             && (!venue  || c.dataset.venue === venue)
             && (!from   || c.dataset.date  >= from)
             && (!to     || c.dataset.date  <= to)
-            && statusOk;
+            && statusOk
+            && keywordOk;
     c.classList.toggle('hidden', !ok);
     if (ok) visible++;
   });
 
-  const isFiltered = currentTalent || venue || from || to || status;
+  const isFiltered = currentTalent || venue || from || to || status || keyword;
   document.getElementById('filterCount').textContent =
     isFiltered ? `${visible} 件表示中` : '';
 
@@ -114,8 +121,10 @@ function resetFilters() {
   document.getElementById('filterDateFrom').value = '';
   document.getElementById('filterDateTo').value = '';
   document.getElementById('filterViewingStatus').value = '';
+  document.getElementById('filterKeyword').value = '';
 }
 
+document.getElementById('filterKeyword').addEventListener('input', applyFilters);
 document.getElementById('filterVenue').addEventListener('change', applyFilters);
 document.getElementById('filterDateFrom').addEventListener('change', applyFilters);
 document.getElementById('filterDateTo').addEventListener('change', applyFilters);

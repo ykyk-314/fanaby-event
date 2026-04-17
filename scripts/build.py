@@ -147,6 +147,8 @@ def render_event_card(ev: dict) -> str:
         f'data-venue="{escape_html(venue_raw)}" '
         f'data-date="{escape_html(ev_date)}" '
         f'data-event-id="{escape_html(ev.get("id", ""))}" '
+        f'data-title="{escape_html(ev.get("title", ""))}" '
+        f'data-members="{escape_html(ev.get("members") or "")}" '
         f'data-viewing-status="">'
         f'<div class="card-header">{badge}<span class="card-title">{title}</span></div>'
         f'<div class="card-body">'
@@ -221,6 +223,10 @@ def main():
       {tab_buttons}
     </div>
     <div class="filter-bar" id="filterBar">
+      <div>
+        <label>キーワード</label>
+        <input type="text" id="filterKeyword" placeholder="公演名・出演者を検索（スペースでAND）">
+      </div>
       <div>
         <label>会場</label>
         <select id="filterVenue">

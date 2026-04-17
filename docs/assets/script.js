@@ -384,6 +384,19 @@ document.addEventListener('change', e => {
   applyFilters();
 });
 
+async function initUserUI() {
+  try {
+    const res = await fetch('/api/me');
+    if (!res.ok) return;
+    const { email, initial } = await res.json();
+    const el = document.getElementById('userAvatar');
+    if (!el) return;
+    el.textContent = initial; // textContent のみ（XSS防止）
+    el.title = email;
+    el.style.display = '';
+  } catch { /* オフライン・Access未設定時は表示しない */ }
+}
+
 function initMemoUI() {
   document.querySelectorAll('.memo-input').forEach(textarea => {
     const id = textarea.dataset.eventId;
@@ -402,7 +415,7 @@ function initMemoUI() {
 (async () => {
   // 初期化完了まで操作を無効化（APIフェッチ中の競合防止）
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = true; });
-  await ViewingStorage.init();
+  await Promise.all([ViewingStorage.init(), initUserUI()]);
   initStatusUI();
   initMemoUI();
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = false; });

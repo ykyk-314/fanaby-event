@@ -3,6 +3,13 @@ body { font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif; background: #f0
 header { background: #1a1a2e; color: #fff; padding: 16px 20px; }
 header h1 { font-size: 18px; font-weight: bold; }
 header p { font-size: 12px; color: #aaa; margin-top: 4px; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.user-avatar {
+  width: 34px; height: 34px; border-radius: 50%;
+  background: #3d3d5c; color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: bold; flex-shrink: 0; cursor: default;
+}
 .container { max-width: 900px; margin: 0 auto; padding: 16px; }
 
 /* タブ */

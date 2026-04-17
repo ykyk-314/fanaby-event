@@ -223,8 +223,13 @@ def main():
 </head>
 <body>
   <header>
-    <h1>公演スケジュール</h1>
-    <p>最終更新: {escape_html(updated_str)}</p>
+    <div class="header-inner">
+      <div>
+        <h1>公演スケジュール</h1>
+        <p>最終更新: {escape_html(updated_str)}</p>
+      </div>
+      <div id="userAvatar" class="user-avatar" style="display:none" title=""></div>
+    </div>
   </header>
   <div class="container">
     <div class="tabs">

@@ -178,11 +178,13 @@ const ViewingStorage = {
     const sanitized = {};
     for (const [id, entry] of Object.entries(data.statuses)) {
       if (!EVENT_ID_RE.test(id)) continue;
-      if (!entry || !VALID_VIEWING_STATUSES.has(entry.status)) continue;
+      if (!entry) continue;
+      if (entry.status !== '' && !VALID_VIEWING_STATUSES.has(entry.status)) continue;
       sanitized[id] = {
-        status:     entry.status,
+        status:     entry.status || '',
         updated_at: typeof entry.updated_at === 'string' ? entry.updated_at : '',
         memo:       typeof entry.memo === 'string' ? entry.memo : '',
+        remind:     entry.remind === true,
         history:    Array.isArray(entry.history) ? entry.history.filter(
           h => h && VALID_VIEWING_STATUSES.has(h.status) && typeof h.at === 'string'
         ) : [],

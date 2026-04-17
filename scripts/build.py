@@ -308,6 +308,7 @@ def main():
         <input type="date" id="filterDateFrom">
         <label>（まで）</label>
         <input type="date" id="filterDateTo">
+        <label class="filter-remind-label"><input type="checkbox" id="filterRemindOnly"> 🔔 通知ONのみ</label>
         <button class="filter-reset" id="filterReset">リセット</button>
         <span class="filter-count" id="filterCount"></span>
       </div>

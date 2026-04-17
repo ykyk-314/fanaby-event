@@ -81,10 +81,11 @@ function applyFilters() {
   const from     = document.getElementById('filterDateFrom').value;
   const to       = document.getElementById('filterDateTo').value;
   const status   = document.getElementById('filterViewingStatus').value;
-  const keyword  = document.getElementById('filterKeyword').value.trim().toLowerCase();
-  const keywords = keyword ? keyword.split(/\s+/) : [];
-  const cards    = allCards();
-  let visible    = 0;
+  const keyword    = document.getElementById('filterKeyword').value.trim().toLowerCase();
+  const keywords   = keyword ? keyword.split(/\s+/) : [];
+  const remindOnly = document.getElementById('filterRemindOnly').checked;
+  const cards      = allCards();
+  let visible      = 0;
 
   cards.forEach(c => {
     const cardStatus = c.dataset.viewingStatus || '';
@@ -94,17 +95,20 @@ function applyFilters() {
       const target = ((c.dataset.title || '') + ' ' + (c.dataset.members || '')).toLowerCase();
       return keywords.every(kw => target.includes(kw));
     })();
+    const remindOk = !remindOnly
+      || !!c.querySelector('.remind-btn[data-remind="on"]');
     const ok = (!currentTalent || c.dataset.talent === currentTalent)
             && (!venue  || c.dataset.venue === venue)
             && (!from   || c.dataset.date  >= from)
             && (!to     || c.dataset.date  <= to)
             && statusOk
-            && keywordOk;
+            && keywordOk
+            && remindOk;
     c.classList.toggle('hidden', !ok);
     if (ok) visible++;
   });
 
-  const isFiltered = currentTalent || venue || from || to || status || keyword;
+  const isFiltered = currentTalent || venue || from || to || status || keyword || remindOnly;
   document.getElementById('filterCount').textContent =
     isFiltered ? `${visible} 件表示中` : '';
 
@@ -122,9 +126,11 @@ function resetFilters() {
   document.getElementById('filterDateTo').value = '';
   document.getElementById('filterViewingStatus').value = '';
   document.getElementById('filterKeyword').value = '';
+  document.getElementById('filterRemindOnly').checked = false;
 }
 
 document.getElementById('filterKeyword').addEventListener('input', applyFilters);
+document.getElementById('filterRemindOnly').addEventListener('change', applyFilters);
 document.getElementById('filterVenue').addEventListener('change', applyFilters);
 document.getElementById('filterDateFrom').addEventListener('change', applyFilters);
 document.getElementById('filterDateTo').addEventListener('change', applyFilters);

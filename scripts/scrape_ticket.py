@@ -54,7 +54,10 @@ def get_remind_event_ids() -> list[str]:
             headers={"Authorization": f"Bearer {REMIND_API_SECRET}"},
             timeout=10,
         )
-        res.raise_for_status()
+        print(f"remind-list HTTP {res.status_code} (body={len(res.content)}bytes)")
+        if res.status_code != 200:
+            print(f"  レスポンス先頭: {res.text[:200]}")
+            res.raise_for_status()
         return [item["eventId"] for item in res.json()]
     except Exception as e:
         print(f"remind-list 取得エラー: {e}")

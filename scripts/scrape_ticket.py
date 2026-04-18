@@ -134,9 +134,10 @@ def main():
     events_data = json.loads(EVENTS_PATH.read_text(encoding="utf-8"))
     events_map  = {e["id"]: e for e in events_data.get("events", [])}
 
-    # ticket_deadlines.json を読み込み（なければ空で初期化）
+    # ticket_deadlines.json を読み込み（なければ・空なら初期化）
     if DEADLINES_PATH.exists():
-        deadlines = json.loads(DEADLINES_PATH.read_text(encoding="utf-8"))
+        content = DEADLINES_PATH.read_text(encoding="utf-8").strip()
+        deadlines = json.loads(content) if content else {"updated_at": "", "events": {}}
     else:
         deadlines = {"updated_at": "", "events": {}}
 

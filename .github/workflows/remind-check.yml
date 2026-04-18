@@ -4,7 +4,7 @@ on:
   schedule:
     # JST 8:45〜22:45 の間、1時間ごとに実行
     - cron: "45 23 * * *"  # UTC 23:45 = JST 8:45
-    - cron: "45 0-13 * * *" # UTC 0:45〜13:45 = JST 9:45〜22:45
+    - cron: "45 5,13 * * *" # UTC 0:45〜13:45 = JST 9:45〜22:45
   workflow_dispatch:
 
 permissions:

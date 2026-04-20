@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  deployments: write
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -33,13 +34,25 @@ jobs:
           REMIND_API_SECRET: ${{ secrets.REMIND_API_SECRET }}
         run: python scripts/scrape_ticket.py
 
-      - name: Commit ticket_deadlines.json if updated
+      - name: Build static site
+        run: python scripts/build.py
+
+      - name: Commit if updated
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ticket_deadlines.json 2>/dev/null || true
+          git add data/ticket_deadlines.json docs/index.html 2>/dev/null || true
           git diff --cached --quiet || git commit -m "chore: update ticket deadlines [skip ci]"
           git push
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: fanaby-event
+          directory: docs
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Send reminders
         env:

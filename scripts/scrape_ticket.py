@@ -55,9 +55,18 @@ def get_remind_event_ids() -> list[str]:
             timeout=10,
         )
         print(f"remind-list HTTP {res.status_code} (body={len(res.content)}bytes)")
+        content_type = res.headers.get("Content-Type", "")
         if res.status_code != 200:
             print(f"  レスポンス先頭: {res.text[:200]}")
             res.raise_for_status()
+        # CF Access がブロックした場合は HTML が返ってくる（JSON でない）
+        if "text/html" in content_type:
+            print(
+                f"  [ERROR] JSON ではなく HTML が返されました（Cloudflare Access がブロックしている可能性）\n"
+                f"  Content-Type: {content_type}\n"
+                f"  レスポンス先頭: {res.text[:300]}"
+            )
+            return []
         return [item["eventId"] for item in res.json()]
     except Exception as e:
         print(f"remind-list 取得エラー: {e}")

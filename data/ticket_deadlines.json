@@ -1,0 +1,224 @@
+{
+  "updated_at": "2026-04-20T23:14:02.538861+09:00",
+  "events": {
+    "70b4395b": {
+      "title": "おもろいぜトゥエルブ",
+      "date": "2026-05-23",
+      "scraped_at": "2026-04-20T23:14:02.538861+09:00",
+      "tickets": [
+        {
+          "name": "一般発売",
+          "type": "general",
+          "status_text": "先着発売中",
+          "start": "2026/04/16 10:00",
+          "end": "2026/05/22 23:59",
+          "url": "https://ticket.fany.lol/reception/48204/41377"
+        }
+      ]
+    },
+    "f3354f5c": {
+      "title": "滝音×マユリカの「夢夢夢らいぶ」",
+      "date": "2026-06-15",
+      "scraped_at": "2026-04-20T23:14:02.538861+09:00",
+      "tickets": [
+        {
+          "name": "一般発売",
+          "type": "general",
+          "status_text": "先着発売中",
+          "start": "2026/04/15 10:00",
+          "end": "2026/06/15 17:00",
+          "url": "https://ticket.fany.lol/reception/48038/40980"
+        },
+        {
+          "name": "●FANY IDプレミアムメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/04/11 11:00",
+          "end": "2026/04/13 11:00",
+          "url": "https://ticket.fany.lol/reception/48034/40980"
+        },
+        {
+          "name": "FANY IDメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/04/11 11:00",
+          "end": "2026/04/13 11:00",
+          "url": "https://ticket.fany.lol/reception/48036/40980"
+        }
+      ]
+    },
+    "7bfbd575": {
+      "title": "マユリカのうなげろりん！！presents日本の大学いきましょか",
+      "date": "2026-05-01",
+      "scraped_at": "2026-04-20T23:14:02.538861+09:00",
+      "tickets": [
+        {
+          "name": "リセール抽選販売",
+          "type": "lottery",
+          "status_text": "抽選受付中",
+          "start": "2026/04/18 11:00",
+          "end": "2026/04/21 11:00",
+          "url": "https://ticket.fany.lol/reception/49032/39079"
+        },
+        {
+          "name": "「うなぱっちん!!」一次抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/03/21 23:00",
+          "end": "2026/03/24 11:00",
+          "url": "https://ticket.fany.lol/reception/44750/39079"
+        },
+        {
+          "name": "「うなぱっちん!!」二次抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/03/27 11:00",
+          "end": "2026/03/31 11:00",
+          "url": "https://ticket.fany.lol/reception/44751/39079"
+        },
+        {
+          "name": "●FANY IDプレミアムメンバー一次抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/04/03 11:00",
+          "end": "2026/04/06 11:00",
+          "url": "https://ticket.fany.lol/reception/44752/39079"
+        },
+        {
+          "name": "FANY IDメンバー一次抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/04/03 11:00",
+          "end": "2026/04/06 11:00",
+          "url": "https://ticket.fany.lol/reception/44753/39079"
+        },
+        {
+          "name": "●FANY IDプレミアムメンバー二次抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/04/09 11:00",
+          "end": "2026/04/13 11:00",
+          "url": "https://ticket.fany.lol/reception/44754/39079"
+        },
+        {
+          "name": "FANY IDメンバー二次抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/04/09 11:00",
+          "end": "2026/04/13 11:00",
+          "url": "https://ticket.fany.lol/reception/44755/39079"
+        }
+      ]
+    },
+    "7b8f603b": {
+      "title": "kento fukayaのゆるいぜ！旅マウス！",
+      "date": "2026-05-24",
+      "scraped_at": "2026-04-20T23:14:02.538861+09:00",
+      "tickets": [
+        {
+          "name": "一般発売",
+          "type": "general",
+          "status_text": "先着発売中",
+          "start": "2026/03/14 10:00",
+          "end": "2026/05/23 23:59",
+          "url": "https://ticket.fany.lol/reception/43670/38203"
+        },
+        {
+          "name": "●FANY IDプレミアムメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/03/07 11:00",
+          "end": "2026/03/09 11:00",
+          "url": "https://ticket.fany.lol/reception/43668/38203"
+        },
+        {
+          "name": "FANY IDメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/03/07 11:00",
+          "end": "2026/03/09 11:00",
+          "url": "https://ticket.fany.lol/reception/43669/38203"
+        },
+        {
+          "name": "一般発売",
+          "type": "general",
+          "status_text": "先着発売中",
+          "start": "2026/03/14 10:00",
+          "end": "2026/06/19 17:00",
+          "url": "https://ticket.fany.lol/reception/43407/38110"
+        },
+        {
+          "name": "●FANY IDプレミアムメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/03/07 11:00",
+          "end": "2026/03/09 11:00",
+          "url": "https://ticket.fany.lol/reception/43405/38110"
+        },
+        {
+          "name": "FANY IDメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/03/07 11:00",
+          "end": "2026/03/09 11:00",
+          "url": "https://ticket.fany.lol/reception/43406/38110"
+        },
+        {
+          "name": "一般発売",
+          "type": "general",
+          "status_text": "先着発売中",
+          "start": "2026/03/14 10:00",
+          "end": "2026/07/04 23:59",
+          "url": "https://ticket.fany.lol/reception/43683/38206"
+        },
+        {
+          "name": "●FANY IDプレミアムメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/03/07 11:00",
+          "end": "2026/03/09 11:00",
+          "url": "https://ticket.fany.lol/reception/43681/38206"
+        },
+        {
+          "name": "FANY IDメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/03/07 11:00",
+          "end": "2026/03/09 11:00",
+          "url": "https://ticket.fany.lol/reception/43682/38206"
+        }
+      ]
+    },
+    "0ed5fe65": {
+      "title": "二刀流～漫才&コント両方します～",
+      "date": "2026-05-27",
+      "scraped_at": "2026-04-20T23:14:02.538861+09:00",
+      "tickets": [
+        {
+          "name": "●FANY IDプレミアムメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付前",
+          "start": "2026/04/21 11:00",
+          "end": "2026/04/23 11:00",
+          "url": "https://ticket.fany.lol/reception/49141/42035"
+        },
+        {
+          "name": "FANY IDメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付前",
+          "start": "2026/04/21 11:00",
+          "end": "2026/04/23 11:00",
+          "url": "https://ticket.fany.lol/reception/49142/42035"
+        },
+        {
+          "name": "一般発売",
+          "type": "general",
+          "status_text": "先着発売前",
+          "start": "2026/04/25 10:00",
+          "end": "2026/05/27 18:30",
+          "url": "https://ticket.fany.lol/reception/49143/42035"
+        }
+      ]
+    }
+  }
+}

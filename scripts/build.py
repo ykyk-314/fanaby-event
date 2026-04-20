@@ -216,7 +216,11 @@ def main():
     # ticket_deadlines.json を読み込み（存在しない場合は空）
     ticket_map: dict[str, list] = {}
     if DEADLINES_PATH.exists():
-        deadlines = json.loads(DEADLINES_PATH.read_text(encoding="utf-8"))
+        _dl_content = DEADLINES_PATH.read_text(encoding="utf-8").strip()
+        if _dl_content:
+            deadlines = json.loads(_dl_content)
+        else:
+            deadlines = {}
         ticket_map = {
             eid: ev["tickets"]
             for eid, ev in deadlines.get("events", {}).items()

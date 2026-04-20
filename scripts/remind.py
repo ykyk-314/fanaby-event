@@ -83,7 +83,11 @@ def main():
         print("ticket_deadlines.json が存在しません")
         return
 
-    deadlines = json.loads(DEADLINES_PATH.read_text(encoding="utf-8"))
+    _dl_content = DEADLINES_PATH.read_text(encoding="utf-8").strip()
+    if not _dl_content:
+        print("ticket_deadlines.json が空です")
+        return
+    deadlines = json.loads(_dl_content)
     now       = datetime.now(JST)
     yesterday = (now - timedelta(days=1)).date()
 

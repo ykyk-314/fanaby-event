@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T17:59:05+09:00",
+  "updated_at": "2026-04-21T09:58:32+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -274,18 +274,17 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013847_1_20260321171317239.png",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13108/37276",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": "fliers/8f0745e9.png",
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "7cfc776f",
@@ -300,18 +299,17 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013851_1_20260319131927017.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13074/37169",
+      "ticket_url": null,
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-4-26-19-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
       "price": null,
       "sources": [
-        "profile",
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": "fliers/7cfc776f.jpg",
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "0b896b1a",
@@ -334,9 +332,10 @@
       ],
       "local_image": "fliers/0b896b1a.jpg",
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "last_updated": "2026-04-20T17:59:05+09:00",
+      "notified_at": "2026-04-20T17:59:05+09:00",
+      "diff": null
     },
     {
       "id": "3b37edc5",
@@ -359,9 +358,10 @@
       ],
       "local_image": "fliers/3b37edc5.jpg",
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "last_updated": "2026-04-20T17:59:05+09:00",
+      "notified_at": "2026-04-20T17:59:05+09:00",
+      "diff": null
     },
     {
       "id": "37bee483",
@@ -384,9 +384,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "last_updated": "2026-04-20T17:59:05+09:00",
+      "notified_at": "2026-04-20T17:59:05+09:00",
+      "diff": null
     },
     {
       "id": "b536ad8c",
@@ -557,18 +558,17 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015460_1_20260412224252307.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/14869/40673",
+      "ticket_url": null,
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%96-%E3%83%90%E3%82%AB%E3%81%A8%E7%85%99-4-30-21-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%80%8E%E3%83%90%E3%82%AB%E3%81%A8%E7%85%99%E3%80%8F",
       "price": null,
       "sources": [
-        "profile",
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": "fliers/38e11f3d.jpg",
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "7bfbd575",
@@ -609,19 +609,17 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "place": "東京都｜六本木",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14397/39942",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:roppongi"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-18T09:53:18+09:00",
-      "notified_at": "2026-04-18T09:53:18+09:00",
-      "diff": null
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "15c94ccd",
@@ -688,18 +686,17 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/15048/41332",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "1007c93c",
@@ -714,18 +711,17 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14078/39272",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "3feb10bd",
@@ -740,18 +736,17 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14078/39273",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "681de04f",
@@ -956,9 +951,10 @@
       ],
       "local_image": "fliers/407425d2.jpg",
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "last_updated": "2026-04-20T17:59:05+09:00",
+      "notified_at": "2026-04-20T17:59:05+09:00",
+      "diff": null
     },
     {
       "id": "8e05b1e1",
@@ -1103,18 +1099,17 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14214/39629",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "770fa106",
@@ -1129,18 +1124,17 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015023_1_20260419180256223.png",
-      "ticket_url": "https://ticket.fany.lol/event/detail/14215/39633",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": "fliers/770fa106.png",
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "ea3770f9",
@@ -1155,18 +1149,17 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14150/39428",
+      "ticket_url": null,
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents-%E5%BC%B7%E3%81%84%E3%82%AB%E3%82%BF%E3%83%81-5-14-21-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%E3%80%8C%E5%BC%B7%E3%81%84%E3%82%AB%E3%82%BF%E3%83%81%E3%80%8D",
       "price": null,
       "sources": [
-        "profile",
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "9fa35501",
@@ -1285,18 +1278,17 @@
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/15154/41779",
+      "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
-        "profile",
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-20T17:59:05+09:00",
-      "last_updated": "2026-04-20T17:59:05+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "e5df361b",
@@ -1319,9 +1311,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "last_updated": "2026-04-20T17:59:05+09:00",
+      "notified_at": "2026-04-20T17:59:05+09:00",
+      "diff": null
     },
     {
       "id": "e27384fb",
@@ -1439,19 +1432,18 @@
       "members": "ゲスト：シンクロニシティ／MC：ザ・ローリングモンキー ムサシ／メタルラック 美意識タカシ／太宰 あやむ／かば鴉 イースト亮次郎／喜喜かいばしら／パンたべる パン",
       "venue": "よしもと福岡 大和証券劇場",
       "place": "福岡県｜福岡",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014918_1_20260419213029288.jpg",
       "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/756cb63b.jpg",
       "status": "notified",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-16T14:53:22+09:00",
-      "diff": null
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "8f652586",
@@ -1517,19 +1509,18 @@
       "members": "[ネタライブ]エバース／シンクロニシティ／軟水／インテイク／イチゴ／ゼロカラン",
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
-      "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/14543/40266",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015148_1_20260420153912205.jpeg",
+      "ticket_url": null,
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-5-27-15-15?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
       "price": null,
       "sources": [
-        "profile",
-        "theater:shibuya"
+        "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/cad53961.jpeg",
       "status": "notified",
-      "last_updated": "2026-04-20T17:59:05+09:00",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "0ed5fe65",
@@ -1554,7 +1545,8 @@
       "status": "notified",
       "first_seen": "2026-04-20T17:59:05+09:00",
       "last_updated": "2026-04-20T17:59:05+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00"
+      "notified_at": "2026-04-20T17:59:05+09:00",
+      "diff": null
     },
     {
       "id": "4ecf6fb9",
@@ -1825,7 +1817,7 @@
       "open_time": null,
       "start_time": "20:15",
       "end_time": null,
-      "members": "ななまがり／ZAZY／エバース／シンクロニシティ／他ゲスト",
+      "members": "ななまがり／ZAZY／エバース／シンクロニシティ／ゲスト：佐久間一行／他",
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": null,
@@ -1837,10 +1829,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-21T09:58:32+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-16T14:53:22+09:00",
-      "diff": null
+      "notified_at": "2026-04-21T09:58:32+09:00"
     },
     {
       "id": "123ce535",

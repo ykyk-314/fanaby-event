@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T23:14:02.538861+09:00",
+  "updated_at": "2026-04-21T23:20:03.364887+09:00",
   "events": {
     "70b4395b": {
       "title": "おもろいぜトゥエルブ",
@@ -50,16 +50,8 @@
     "7bfbd575": {
       "title": "マユリカのうなげろりん！！presents日本の大学いきましょか",
       "date": "2026-05-01",
-      "scraped_at": "2026-04-20T23:14:02.538861+09:00",
+      "scraped_at": "2026-04-21T23:20:03.364887+09:00",
       "tickets": [
-        {
-          "name": "リセール抽選販売",
-          "type": "lottery",
-          "status_text": "抽選受付中",
-          "start": "2026/04/18 11:00",
-          "end": "2026/04/21 11:00",
-          "url": "https://ticket.fany.lol/reception/49032/39079"
-        },
         {
           "name": "「うなぱっちん!!」一次抽選先行",
           "type": "lottery",
@@ -107,6 +99,14 @@
           "start": "2026/04/09 11:00",
           "end": "2026/04/13 11:00",
           "url": "https://ticket.fany.lol/reception/44755/39079"
+        },
+        {
+          "name": "リセール抽選販売",
+          "type": "lottery",
+          "status_text": "抽選受付終了",
+          "start": "2026/04/18 11:00",
+          "end": "2026/04/21 11:00",
+          "url": "https://ticket.fany.lol/reception/49032/39079"
         }
       ]
     },
@@ -192,12 +192,12 @@
     "0ed5fe65": {
       "title": "二刀流～漫才&コント両方します～",
       "date": "2026-05-27",
-      "scraped_at": "2026-04-20T23:14:02.538861+09:00",
+      "scraped_at": "2026-04-21T23:20:03.364887+09:00",
       "tickets": [
         {
           "name": "●FANY IDプレミアムメンバー抽選先行",
           "type": "lottery",
-          "status_text": "抽選受付前",
+          "status_text": "抽選受付中",
           "start": "2026/04/21 11:00",
           "end": "2026/04/23 11:00",
           "url": "https://ticket.fany.lol/reception/49141/42035"
@@ -205,7 +205,7 @@
         {
           "name": "FANY IDメンバー抽選先行",
           "type": "lottery",
-          "status_text": "抽選受付前",
+          "status_text": "抽選受付中",
           "start": "2026/04/21 11:00",
           "end": "2026/04/23 11:00",
           "url": "https://ticket.fany.lol/reception/49142/42035"

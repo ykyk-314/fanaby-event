@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T09:56:23+09:00",
+  "updated_at": "2026-04-22T17:48:14+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -376,22 +376,21 @@
       "open_time": null,
       "start_time": "19:15",
       "end_time": null,
-      "members": "[ネタライブ]イチキップリン／からし蓮根／ケビンス 山口コンボイ／九条ジョー／オダウエダ／カベポスター／世間知らズ／金魚番長／喫茶ムーン／DOG FOOD PARTY／ボダリキボバイ／エグい速さ／ただならぬ刀／MC兼レフリー：ミカボ 土屋翼",
+      "members": "[ネタライブ]イチキップリン／からし蓮根／ケビンス 山口コンボイ／九条ジョー／オダウエダ／カベポスター／世間知らズ／サンタモニカ／金魚番長／喫茶ムーン／しんや／DOG FOOD PARTY／ぺ／ボダリキボバイ／エグい速さ／ただならぬ刀／MC兼レフリー：ミカボ 土屋翼",
       "venue": "神保町よしもと漫才劇場",
       "place": "東京都｜神保町",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015606_1_20260422132517251.jpg",
       "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/37bee483.jpg",
       "status": "notified",
+      "last_updated": "2026-04-22T17:48:14+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-20T17:59:05+09:00",
-      "notified_at": "2026-04-20T17:59:05+09:00",
-      "diff": null
+      "notified_at": "2026-04-22T17:48:14+09:00"
     },
     {
       "id": "b536ad8c",
@@ -650,9 +649,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-22T09:56:23+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-22T09:56:23+09:00"
+      "last_updated": "2026-04-22T09:56:23+09:00",
+      "notified_at": "2026-04-22T09:56:23+09:00",
+      "diff": null
     },
     {
       "id": "15c94ccd",
@@ -1215,7 +1215,7 @@
       "open_time": null,
       "start_time": "19:00",
       "end_time": null,
-      "members": "5GAP／ダイタク／ケビンス／カベポスター／シンクロニシティ／めぞん／イチゴ／他／セルライトスパ",
+      "members": "５ＧＡＰ／ダイタク／ケビンス／カベポスター／シンクロニシティ／めぞん／イチゴ／他／セルライトスパ",
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260413155112151.jpg",
@@ -1227,9 +1227,9 @@
       ],
       "local_image": "fliers/9fa35501.jpg",
       "status": "notified",
-      "last_updated": "2026-04-22T09:56:23+09:00",
+      "last_updated": "2026-04-22T17:48:14+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-22T09:56:23+09:00"
+      "notified_at": "2026-04-22T17:48:14+09:00"
     },
     {
       "id": "46d158dc",
@@ -1240,7 +1240,7 @@
       "open_time": null,
       "start_time": "19:00",
       "end_time": null,
-      "members": "5GAP／ダイタク／ケビンス／カベポスター／シンクロニシティ／めぞん／イチゴ／他／セルライトスパ",
+      "members": "５ＧＡＰ／ダイタク／ケビンス／カベポスター／シンクロニシティ／めぞん／イチゴ／他／セルライトスパ",
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260413155112151.jpg",
@@ -1252,9 +1252,9 @@
       ],
       "local_image": "fliers/46d158dc.jpg",
       "status": "notified",
-      "last_updated": "2026-04-22T09:56:23+09:00",
+      "last_updated": "2026-04-22T17:48:14+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-22T09:56:23+09:00"
+      "notified_at": "2026-04-22T17:48:14+09:00"
     },
     {
       "id": "3e5a9c1b",

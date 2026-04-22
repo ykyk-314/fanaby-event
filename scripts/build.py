@@ -34,6 +34,15 @@ def escape_html(s: str) -> str:
     )
 
 
+def safe_url(url: str | None) -> str | None:
+    """http(s):// で始まる URL のみ通過させる。javascript: 等を無効化。"""
+    if not url:
+        return None
+    if url.startswith("https://") or url.startswith("http://"):
+        return url
+    return None
+
+
 def format_price(price: dict | None) -> str:
     if not price:
         return ""
@@ -102,12 +111,12 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
     price_str = escape_html(format_price(ev.get("price")))
 
     ticket_btns = ""
-    if ev.get("ticket_url"):
+    if safe_url(ev.get("ticket_url")):
         ticket_btns += (
             f'<a href="{escape_html(ev["ticket_url"])}" '
             f'target="_blank" class="btn btn-ticket">チケット購入</a>'
         )
-    if ev.get("online_url"):
+    if safe_url(ev.get("online_url")):
         ticket_btns += (
             f'<a href="{escape_html(ev["online_url"])}" '
             f'target="_blank" class="btn btn-online">配信チケット</a>'

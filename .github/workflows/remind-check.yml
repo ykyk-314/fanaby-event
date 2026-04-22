@@ -56,7 +56,8 @@ jobs:
 
       - name: Send reminders
         env:
-          MAIL_USER: ${{ secrets.MAIL_USER }}
-          MAIL_PASS: ${{ secrets.MAIL_PASS }}
-          MAIL_TO:   ${{ secrets.MAIL_TO }}
+          MAIL_USER:         ${{ secrets.MAIL_USER }}
+          MAIL_PASS:         ${{ secrets.MAIL_PASS }}
+          REMIND_API_URL:    ${{ secrets.REMIND_API_URL }}
+          REMIND_API_SECRET: ${{ secrets.REMIND_API_SECRET }}
         run: python scripts/remind.py

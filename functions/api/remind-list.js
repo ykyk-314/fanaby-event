@@ -34,9 +34,19 @@ export async function onRequestGet({ request, env }) {
         const data = await env.FANABY_VIEWING_STATUSES.get(key.name, 'json');
         if (!data?.statuses) continue;
 
+        // status:{hash} からハッシュを取り出し user:{hash} でメールアドレスを解決
+        const hash = key.name.slice('status:'.length);
+        let email = null;
+        try {
+          const profile = await env.FANABY_VIEWING_STATUSES.get(`user:${hash}`, 'json');
+          email = profile?.email ?? null;
+        } catch {
+          // email 解決失敗は許容（remind.py 側でスキップされる）
+        }
+
         for (const [eventId, entry] of Object.entries(data.statuses)) {
           if (entry.remind === true) {
-            result.push({ eventId });
+            result.push({ eventId, email });
           }
         }
       }
@@ -44,8 +54,8 @@ export async function onRequestGet({ request, env }) {
       cursor = listed.list_complete ? undefined : listed.cursor;
     } while (cursor);
 
-    // 重複排除（複数ユーザーが同一公演にremind:trueをつけた場合）
-    const unique = [...new Map(result.map(r => [r.eventId, r])).values()];
+    // 重複排除（同一ユーザーが複数デバイスで同一公演に remind:true をつけた場合）
+    const unique = [...new Map(result.map(r => [`${r.eventId}:${r.email ?? ''}`, r])).values()];
 
     return new Response(JSON.stringify(unique), {
       status: 200,

@@ -194,3 +194,142 @@ notify_targets = [
 4. **手動対応項目**:
    - Cloudflare Zero Trust で `/api/excluded-events` へのバイパスポリシー設定（GitHub Actions 用）
    - GitHub Secrets に `REMIND_API_URL` / `REMIND_API_SECRET` は既設済みなので追加不要
+
+# Phase 3-A-2: アカウント別リマインド通知 実装計画
+
+## Context
+
+**目的**: リマインドメールの送信先を「GitHub Secrets の固定 `MAIL_TO`」から「Cloudflare Access でログインしたユーザー自身のメールアドレス」に変更する。
+
+**背景**:
+- `scripts/remind.py` は現在 `MAIL_TO` 環境変数で指定された固定 1 アドレスに全ユーザー分のリマインドを送信している（`scripts/remind.py:29`, `.github/workflows/remind-check.yml:61`）
+- 複数ユーザーが使う前提で、各自が通知ONにした公演のリマインドは各自のメールに届くべき
+- 既存KV `FANABY_VIEWING_STATUSES` のキーは `status:{SHA256(email)}` と一方向ハッシュされており、ハッシュから email を逆算できないため、別途 email を保存する仕組みが必要
+
+**スコープ（今回の対象）**:
+- `scripts/remind.py` 経由のチケット受付リマインドのみ
+
+**対象外（将来対応 = A-2 後続）**:
+- `scripts/notify.py` によるスケジュール差分通知（同じ仕組みで拡張可能だが今回は手を入れない）
+
+---
+
+## 設計方針
+
+### データフロー
+
+```
+[ユーザーがページを開く]
+  → GET /api/me （既存フロー）
+  → CF-Access ヘッダーから email を取得
+  → user:{SHA256(email)} KV に { email, updated_at } を保存（改修点）
+
+[GitHub Actions: remind-check.yml]
+  → GET /api/remind-list
+  → status:{hash} 走査で remind:true を収集
+  → 各 hash に対応する user:{hash} から email を解決（改修点）
+  → [{ eventId, email }, ...] を返す
+
+[remind.py]
+  → API から [{eventId, email}] を取得
+  → ticket_deadlines.json を走査しリマインド対象を決定（既存ロジック）
+  → email 別にグルーピングしてユーザーごとにメール送信（改修点）
+  → MAIL_TO 環境変数は廃止
+```
+
+### KVスキーマ（追加）
+
+```
+キー: user:{SHA256(email)}
+値:  { "email": "xxx@example.com", "updated_at": "ISO8601" }
+```
+
+A-1（芸人登録）や A-3（LINE通知）はこの同じキーに `talents`, `line_token` を後から追加するだけで拡張可能。
+
+### /api/remind-list のレスポンス形式
+
+**旧**: `[{ "eventId": "..." }, ...]`
+**新**: `[{ "eventId": "...", "email": "..." | null }, ...]`
+
+`scrape_ticket.py:70` は `[item["eventId"] for item in res.json()]` で eventId のみ参照しているため後方互換あり。
+
+---
+
+## 実装ステップ
+
+### 1. `functions/api/me.js` 改修
+
+- CF-Access から取得した email を `user:{SHA256(email)}` キーに保存
+- 既存プロファイルと email が一致している場合は書き込みスキップ（書き込み回数削減）
+- 保存失敗時もレスポンスは正常返却（ユーザー体験を壊さない）
+
+### 2. `functions/api/remind-list.js` 改修
+
+- `key.name` から `status:` プレフィックスを除いたハッシュで `user:{hash}` を参照
+- 各 `{ eventId, email }` を返す
+- email 取得失敗時は `email: null`（remind.py 側で送信スキップ）
+- 重複排除キーを `${eventId}:${email ?? ''}` に変更（複数ユーザーが同じイベントに remind:true した場合も保持）
+
+### 3. `scripts/remind.py` 改修
+
+- `MAIL_TO` 環境変数の使用を廃止
+- `get_remind_recipients()` 関数を追加（既存 `scrape_ticket.py:46-73` を参考）
+  - `/api/remind-list` から `{ eventId: set[email] }` マップを作成
+- `remind_items` に `event_id` フィールドを追加（どのイベントのリマインドか識別するため）
+- 各 `remind_item` を対応ユーザーのメールアドレスにグルーピング
+- `send_mail(subject, html, to_addr)` に変更し、引数で宛先を受け取る
+- 通知先が未解決（email なし）の場合はスキップし、警告ログ出力
+
+### 4. `.github/workflows/remind-check.yml` 改修
+
+- `Send reminders` ステップから `MAIL_TO` を削除
+- `REMIND_API_URL` / `REMIND_API_SECRET` を追加（remind.py から API を叩くため）
+
+---
+
+## 修正対象ファイル一覧
+
+| ファイル | 変更内容 |
+|---|---|
+| `functions/api/me.js` | email を KV に保存する処理を追加 |
+| `functions/api/remind-list.js` | レスポンスに email フィールドを付加 |
+| `scripts/remind.py` | API からユーザーメールを取得し、ユーザー別に送信 |
+| `.github/workflows/remind-check.yml` | 環境変数を `MAIL_TO` → `REMIND_API_URL`/`REMIND_API_SECRET` に変更 |
+
+---
+
+## Cloudflare 設定の手動対応
+
+**今回は変更不要**。理由:
+
+- `/api/me` は既存で Cloudflare Access 保護済み（`fanaby-event` アプリ配下）
+- `/api/remind-list` は既存の `fanaby-event-remind-list` アプリで bypass 済み
+- 新規エンドポイントを作らないため、Access 設定の追加なし
+
+**注意事項**: 初回のプロファイル保存は各ユーザーが1度ページを開くまで行われない。そのため:
+1. 実装デプロイ後、既存ユーザーは1度サイトにアクセスする必要がある（`/api/me` が自動で呼ばれ、プロファイルが作成される）
+2. ユーザー未アクセスの時点で remind-check が走るとそのユーザーへの通知はスキップされる
+
+---
+
+## 検証方法
+
+1. **KV 保存確認**:
+   - ブラウザで `https://fanaby-event.pages.dev/` にアクセス
+   - Cloudflare Zero Trust ダッシュボード → `Workers & Pages` → `fanaby-event` → `KV` → `FANABY_VIEWING_STATUSES` を開く
+   - `user:` プレフィックスのキーが作成されており、値に自身のメールアドレスが含まれていることを確認
+
+2. **API 動作確認**:
+   ```bash
+   curl -H "Authorization: Bearer $REMIND_API_SECRET" \
+     https://fanaby-event.pages.dev/api/remind-list
+   ```
+   - レスポンスが `[{"eventId":"...","email":"..."}, ...]` 形式であること
+
+3. **リマインド送信確認**:
+   - GitHub Actions の `remind-check` を `workflow_dispatch` で手動実行
+   - ログに `送信完了: {email} ({N} 件)` のような出力が出ること
+   - 各ユーザーのメールボックスに該当リマインドが届くこと
+
+4. **後方互換確認**:
+   - `scrape_ticket.py` が従来通り eventId を取得できること（ログに remind-list HTTP 200 が出る）

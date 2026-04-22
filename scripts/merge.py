@@ -291,8 +291,10 @@ def download_flyers(events: list[dict], existing_map: dict[str, dict]) -> None:
                 skipped += 1
                 continue
 
-        # 拡張子を URL から推定（なければ .jpg）
-        suffix = Path(url.split("?")[0]).suffix or ".jpg"
+        # 拡張子を URL から推定（画像拡張子ホワイトリストに合致しなければ .jpg）
+        _ALLOWED_SUFFIXES = {".jpg", ".jpeg", ".png", ".gif", ".webp"}
+        _raw_suffix = Path(url.split("?")[0]).suffix.lower()
+        suffix = _raw_suffix if _raw_suffix in _ALLOWED_SUFFIXES else ".jpg"
         filename = f"{ev['id']}{suffix}"
         save_path = FLIERS_DIR / filename
 

@@ -50,6 +50,9 @@ jobs:
 
       - name: Merge and detect diffs
         if: ${{ !inputs.skip_scrape }}
+        env:
+          REMIND_API_URL: ${{ secrets.REMIND_API_URL }}
+          REMIND_API_SECRET: ${{ secrets.REMIND_API_SECRET }}
         run: python scripts/merge.py
 
       - name: Send notifications

@@ -180,8 +180,11 @@ def main():
     events = data.get("events", [])
     ts = now_jst()
 
-    # 通知対象: new または updated
-    notify_targets = [e for e in events if e.get("status") in ("new", "updated")]
+    # 通知対象: new または updated（除外済みイベントは除く）
+    notify_targets = [
+        e for e in events
+        if e.get("status") in ("new", "updated") and not e.get("excluded")
+    ]
     if not notify_targets:
         print("通知対象なし")
         return

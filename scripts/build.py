@@ -178,7 +178,17 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
         f'<button class="remind-btn" data-event-id="{ev_id}" data-remind=""'
         f' title="チケットリマインドをONにする">&#x1F514;</button>'
     )
-    btns_html = f'<div class="card-btns">{ticket_btns}{status_select}{remind_btn}</div>'
+    if ev.get("excluded"):
+        exclude_btn = (
+            f'<button class="unexclude-btn" data-event-id="{ev_id}"'
+            f' title="除外を解除する">解除</button>'
+        )
+    else:
+        exclude_btn = (
+            f'<button class="exclude-btn" data-event-id="{ev_id}"'
+            f' title="この公演を除外する">除外</button>'
+        )
+    btns_html = f'<div class="card-btns">{ticket_btns}{status_select}{remind_btn}{exclude_btn}</div>'
     memo_html = (
         f'<div class="memo-wrap">'
         f'<textarea class="memo-input" data-event-id="{ev_id}"'
@@ -186,8 +196,10 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
         f'</div>'
     )
 
+    excluded_attr = 'data-excluded="true"' if ev.get("excluded") else 'data-excluded="false"'
     return (
         f'<div class="{past_class}" '
+        f'{excluded_attr} '
         f'data-talent="{escape_html(ev.get("talent_id", ""))}" '
         f'data-venue="{escape_html(venue_raw)}" '
         f'data-date="{escape_html(ev_date)}" '
@@ -313,6 +325,7 @@ def main():
         <label>（まで）</label>
         <input type="date" id="filterDateTo">
         <label class="filter-remind-label"><input type="checkbox" id="filterRemindOnly"> 🔔 通知ONのみ</label>
+        <label class="filter-exclude-label"><input type="checkbox" id="filterShowExcluded"> 除外済みを表示</label>
         <button class="filter-reset" id="filterReset">リセット</button>
         <span class="filter-count" id="filterCount"></span>
       </div>

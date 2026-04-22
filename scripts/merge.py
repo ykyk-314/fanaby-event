@@ -10,9 +10,11 @@
 
 import hashlib
 import json
+import os
 import re
 import unicodedata
 import urllib.request
+import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlparse, urlunparse
@@ -38,6 +40,30 @@ WATCH_FIELDS_TODAY = ["members"]
 
 def now_jst() -> str:
     return datetime.now(JST).isoformat(timespec="seconds")
+
+
+def fetch_excluded_events() -> set[str] | None:
+    """Cloudflare Pages API から除外イベントIDリストを取得する。
+    取得失敗時は None を返し、呼び出し元が既存フラグを維持する。
+    """
+    api_url = os.environ.get("REMIND_API_URL", "").rstrip("/")
+    api_secret = os.environ.get("REMIND_API_SECRET", "")
+    if not api_url or not api_secret:
+        print("REMIND_API_URL / REMIND_API_SECRET 未設定 — 除外リスト取得をスキップ")
+        return None
+    try:
+        req = urllib.request.Request(
+            f"{api_url}/api/excluded-events",
+            headers={"Authorization": f"Bearer {api_secret}"},
+        )
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            ids = set(data.get("ids", []))
+            print(f"除外リスト取得: {len(ids)} 件")
+            return ids
+    except Exception as e:
+        print(f"警告: 除外リスト取得失敗: {e}")
+        return None
 
 
 def _normalize_ticket_url(url: str | None) -> str | None:
@@ -316,6 +342,9 @@ def diff_and_update(
             ev["notified_at"] = None
         else:
             old = existing_map[eid]
+            # 既存の excluded フラグを引き継ぎ（API取得失敗時のフォールバック）
+            if old.get("excluded"):
+                ev["excluded"] = True
             # 公演日当日は ticket_url 等が販売終了で変動するため members のみチェック
             watch = WATCH_FIELDS_TODAY if ev.get("date") == today else WATCH_FIELDS
             changed_fields = [
@@ -430,6 +459,22 @@ def main():
     # 差分検出
     print("差分を検出中...")
     final_events = diff_and_update(scraped, existing_events)
+
+    # 除外フラグの適用（KV APIから最新の除外リストを取得して反映）
+    excluded_ids = fetch_excluded_events()
+    if excluded_ids is not None:
+        for ev in final_events:
+            if ev["id"] in excluded_ids:
+                ev["excluded"] = True
+            elif ev.get("excluded"):
+                ev.pop("excluded", None)  # 除外解除された場合はフラグを削除
+        excl_count = sum(1 for e in final_events if e.get("excluded"))
+        if excl_count:
+            print(f"除外フラグ適用: {excl_count} 件")
+    else:
+        excl_count = sum(1 for e in final_events if e.get("excluded"))
+        if excl_count:
+            print(f"除外フラグ維持: {excl_count} 件（API取得失敗のため既存値を保持）")
 
     # 日付順にソート
     final_events.sort(key=lambda e: (e["date"], e.get("start_time") or ""))

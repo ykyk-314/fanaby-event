@@ -145,6 +145,47 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
   opacity: 1;
 }
 
+/* 除外ボタン */
+.exclude-btn {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f7f7f7;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #bbb;
+  transition: background .15s, border-color .15s, color .15s;
+}
+.exclude-btn:hover {
+  background: #fde8e8;
+  border-color: #e74c3c;
+  color: #e74c3c;
+}
+/* 解除ボタン */
+.unexclude-btn {
+  border: 1px solid #e74c3c;
+  border-radius: 4px;
+  background: #fde8e8;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #e74c3c;
+  transition: background .15s, border-color .15s, color .15s;
+}
+.unexclude-btn:hover {
+  background: #f7f7f7;
+  border-color: #ddd;
+  color: #bbb;
+}
+/* 除外済みカードをやや薄く・赤左ボーダーで表示 */
+.event-card[data-excluded="true"] {
+  opacity: .4;
+  border-left: 4px solid #e74c3c;
+}
+/* 除外済みフィルタラベル */
+.filter-exclude-label { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; color: #555 !important; }
+.filter-exclude-label input[type="checkbox"] { cursor: pointer; }
+
 /* メモ欄 */
 .memo-wrap { margin-top: 8px; }
 .memo-input {

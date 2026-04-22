@@ -77,15 +77,16 @@ function buildVenueOptions() {
 }
 
 function applyFilters() {
-  const venue    = document.getElementById('filterVenue').value;
-  const from     = document.getElementById('filterDateFrom').value;
-  const to       = document.getElementById('filterDateTo').value;
-  const status   = document.getElementById('filterViewingStatus').value;
-  const keyword    = document.getElementById('filterKeyword').value.trim().toLowerCase();
-  const keywords   = keyword ? keyword.split(/\s+/) : [];
-  const remindOnly = document.getElementById('filterRemindOnly').checked;
-  const cards      = allCards();
-  let visible      = 0;
+  const venue       = document.getElementById('filterVenue').value;
+  const from        = document.getElementById('filterDateFrom').value;
+  const to          = document.getElementById('filterDateTo').value;
+  const status      = document.getElementById('filterViewingStatus').value;
+  const keyword     = document.getElementById('filterKeyword').value.trim().toLowerCase();
+  const keywords    = keyword ? keyword.split(/\s+/) : [];
+  const remindOnly  = document.getElementById('filterRemindOnly').checked;
+  const showExcluded = document.getElementById('filterShowExcluded')?.checked ?? false;
+  const cards       = allCards();
+  let visible       = 0;
 
   cards.forEach(c => {
     const cardStatus = c.dataset.viewingStatus || '';
@@ -97,18 +98,20 @@ function applyFilters() {
     })();
     const remindOk = !remindOnly
       || !!c.querySelector('.remind-btn[data-remind="on"]');
+    const excludedOk = showExcluded || c.dataset.excluded !== 'true';
     const ok = (!currentTalent || c.dataset.talent === currentTalent)
             && (!venue  || c.dataset.venue === venue)
             && (!from   || c.dataset.date  >= from)
             && (!to     || c.dataset.date  <= to)
             && statusOk
             && keywordOk
-            && remindOk;
+            && remindOk
+            && excludedOk;
     c.classList.toggle('hidden', !ok);
     if (ok) visible++;
   });
 
-  const isFiltered = currentTalent || venue || from || to || status || keyword || remindOnly;
+  const isFiltered = currentTalent || venue || from || to || status || keyword || remindOnly || showExcluded;
   document.getElementById('filterCount').textContent =
     isFiltered ? `${visible} 件表示中` : '';
 
@@ -127,6 +130,8 @@ function resetFilters() {
   document.getElementById('filterViewingStatus').value = '';
   document.getElementById('filterKeyword').value = '';
   document.getElementById('filterRemindOnly').checked = false;
+  const showExcluded = document.getElementById('filterShowExcluded');
+  if (showExcluded) showExcluded.checked = false;
 }
 
 document.getElementById('filterKeyword').addEventListener('input', applyFilters);
@@ -135,6 +140,7 @@ document.getElementById('filterVenue').addEventListener('change', applyFilters);
 document.getElementById('filterDateFrom').addEventListener('change', applyFilters);
 document.getElementById('filterDateTo').addEventListener('change', applyFilters);
 document.getElementById('filterViewingStatus').addEventListener('change', applyFilters);
+document.getElementById('filterShowExcluded')?.addEventListener('change', applyFilters);
 document.getElementById('filterReset').addEventListener('click', () => {
   resetFilters();
   applyFilters();
@@ -442,6 +448,46 @@ function initRemindUI() {
   });
 }
 
+function initExcludeUI() {
+  document.addEventListener('click', async e => {
+    const btn = e.target.closest('.exclude-btn, .unexclude-btn');
+    if (!btn) return;
+    const eventId = btn.dataset.eventId;
+    if (!eventId) return;
+    const isExclude = btn.classList.contains('exclude-btn');
+    if (isExclude && !confirm('この公演を除外しますか？以降の通知・表示から外れます。')) return;
+    try {
+      const res = await fetch('/api/excluded-events', {
+        method: isExclude ? 'POST' : 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ eventId }),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      document.querySelectorAll(`.event-card[data-event-id="${eventId}"]`).forEach(card => {
+        card.dataset.excluded = isExclude ? 'true' : 'false';
+        const oldBtn = card.querySelector('.exclude-btn, .unexclude-btn');
+        if (!oldBtn) return;
+        const newBtn = document.createElement('button');
+        newBtn.dataset.eventId = eventId;
+        if (isExclude) {
+          newBtn.className = 'unexclude-btn';
+          newBtn.title = '除外を解除する';
+          newBtn.textContent = '解除';
+        } else {
+          newBtn.className = 'exclude-btn';
+          newBtn.title = 'この公演を除外する';
+          newBtn.textContent = '除外';
+        }
+        oldBtn.replaceWith(newBtn);
+      });
+      applyFilters();
+    } catch (err) {
+      console.error('exclude/unexclude failed', err);
+      alert('操作に失敗しました。');
+    }
+  });
+}
+
 function initMemoUI() {
   document.querySelectorAll('.memo-input').forEach(textarea => {
     const id = textarea.dataset.eventId;
@@ -464,5 +510,6 @@ function initMemoUI() {
   initStatusUI();
   initRemindUI();
   initMemoUI();
+  initExcludeUI();
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = false; });
 })();

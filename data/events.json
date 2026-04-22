@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T17:49:47+09:00",
+  "updated_at": "2026-04-22T09:56:23+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -283,9 +283,10 @@
       ],
       "local_image": "fliers/8f0745e9.png",
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "7cfc776f",
@@ -309,9 +310,10 @@
       ],
       "local_image": "fliers/7cfc776f.jpg",
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "0b896b1a",
@@ -569,9 +571,10 @@
       ],
       "local_image": "fliers/38e11f3d.jpg",
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "7bfbd575",
@@ -622,7 +625,8 @@
       "status": "notified",
       "first_seen": "2026-04-21T17:49:47+09:00",
       "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "2a420d1b",
@@ -637,18 +641,18 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "place": "東京都｜六本木",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14397/39942",
       "online_url": null,
       "price": null,
       "sources": [
-        "profile"
+        "profile",
+        "theater:roppongi"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-22T09:56:23+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T09:58:32+09:00",
-      "notified_at": "2026-04-21T09:58:32+09:00",
-      "diff": null
+      "notified_at": "2026-04-22T09:56:23+09:00"
     },
     {
       "id": "15c94ccd",
@@ -724,9 +728,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "1007c93c",
@@ -750,9 +755,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "3feb10bd",
@@ -776,9 +782,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "681de04f",
@@ -1140,9 +1147,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "770fa106",
@@ -1166,9 +1174,10 @@
       ],
       "local_image": "fliers/770fa106.png",
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "ea3770f9",
@@ -1192,9 +1201,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "9fa35501",
@@ -1205,7 +1215,7 @@
       "open_time": null,
       "start_time": "19:00",
       "end_time": null,
-      "members": "5GAP／ダイタク／ケビンス／カベポスター／シンクロニシティ／めぞん／イチゴ／他",
+      "members": "5GAP／ダイタク／ケビンス／カベポスター／シンクロニシティ／めぞん／イチゴ／他／セルライトスパ",
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260413155112151.jpg",
@@ -1217,10 +1227,9 @@
       ],
       "local_image": "fliers/9fa35501.jpg",
       "status": "notified",
+      "last_updated": "2026-04-22T09:56:23+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-16T14:53:22+09:00",
-      "diff": null
+      "notified_at": "2026-04-22T09:56:23+09:00"
     },
     {
       "id": "46d158dc",
@@ -1231,7 +1240,7 @@
       "open_time": null,
       "start_time": "19:00",
       "end_time": null,
-      "members": "5GAP／ダイタク／ケビンス／カベポスター／シンクロニシティ／めぞん／イチゴ／他",
+      "members": "5GAP／ダイタク／ケビンス／カベポスター／シンクロニシティ／めぞん／イチゴ／他／セルライトスパ",
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260413155112151.jpg",
@@ -1243,10 +1252,9 @@
       ],
       "local_image": "fliers/46d158dc.jpg",
       "status": "notified",
+      "last_updated": "2026-04-22T09:56:23+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-16T14:53:22+09:00",
-      "diff": null
+      "notified_at": "2026-04-22T09:56:23+09:00"
     },
     {
       "id": "3e5a9c1b",
@@ -1322,9 +1330,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-20T17:59:05+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "e5df361b",
@@ -1556,9 +1565,10 @@
       ],
       "local_image": "fliers/cad53961.jpeg",
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "0ed5fe65",
@@ -1581,9 +1591,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-21T17:49:47+09:00",
       "first_seen": "2026-04-20T17:59:05+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00"
+      "last_updated": "2026-04-21T17:49:47+09:00",
+      "notified_at": "2026-04-21T17:49:47+09:00",
+      "diff": null
     },
     {
       "id": "4ecf6fb9",

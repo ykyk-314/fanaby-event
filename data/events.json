@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T17:48:14+09:00",
+  "updated_at": "2026-04-23T10:00:23+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -388,9 +388,10 @@
       ],
       "local_image": "fliers/37bee483.jpg",
       "status": "notified",
-      "last_updated": "2026-04-22T17:48:14+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-22T17:48:14+09:00"
+      "last_updated": "2026-04-22T17:48:14+09:00",
+      "notified_at": "2026-04-22T17:48:14+09:00",
+      "diff": null
     },
     {
       "id": "b536ad8c",
@@ -742,7 +743,7 @@
       "open_time": "10:45",
       "start_time": "11:00",
       "end_time": "12:00",
-      "members": "[ネタライブ]ダンビラムーチョ／ドンデコルテ／マルセイユ／今井らいぱち／やさしいズ／ぱろぱろ／シンクロニシティ／照山おうちごはん／ゲスト：ニューヨーク／ガベジ／他",
+      "members": "[ネタライブ]ダンビラムーチョ／ドンデコルテ／マルセイユ／今井らいぱち／やさしいズ／ぱろぱろ／素敵じゃないか／シンクロニシティ／照山おうちごはん／ゲスト：ニューヨーク／ガベジ",
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
@@ -755,10 +756,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-23T10:00:23+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-23T10:00:23+09:00"
     },
     {
       "id": "3feb10bd",
@@ -769,7 +769,7 @@
       "open_time": "12:30",
       "start_time": "12:45",
       "end_time": "13:45",
-      "members": "[ネタライブ]ダンビラムーチョ／ドンデコルテ／マルセイユ／今井らいぱち／やさしいズ／ぱろぱろ／シンクロニシティ／照山おうちごはん／ゲスト：ニューヨーク／ガベジ／他",
+      "members": "[ネタライブ]ダンビラムーチョ／ドンデコルテ／マルセイユ／今井らいぱち／やさしいズ／ぱろぱろ／素敵じゃないか／シンクロニシティ／照山おうちごはん／ゲスト：ニューヨーク／ガベジ",
       "venue": "渋谷よしもと漫才劇場",
       "place": "東京都｜渋谷",
       "image_url": null,
@@ -782,10 +782,35 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-23T10:00:23+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-23T10:00:23+09:00"
+    },
+    {
+      "id": "f75ec7dd",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "渋谷よしもと漫才劇場 ゴールデンウィーク特別寄席",
+      "date": "2026-05-05",
+      "open_time": "14:15",
+      "start_time": "14:30",
+      "end_time": "15:30",
+      "members": "[ネタライブ]ダンビラムーチョ／ドンデコルテ／ツーナッカン／マルセイユ／今井らいぱち／やさしいズ／素敵じゃないか／シンクロニシティ／喫茶ムーン／ゲスト：ニューヨーク／ガベジ",
+      "venue": "渋谷よしもと漫才劇場",
+      "place": "東京都｜渋谷",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14078/39274",
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile",
+        "theater:shibuya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-23T10:00:23+09:00",
+      "last_updated": "2026-04-23T10:00:23+09:00",
+      "notified_at": "2026-04-23T10:00:23+09:00"
     },
     {
       "id": "681de04f",
@@ -812,6 +837,32 @@
       "last_updated": "2026-04-16T14:53:22+09:00",
       "notified_at": "2026-04-16T14:53:22+09:00",
       "diff": null
+    },
+    {
+      "id": "2c105bd1",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "渋谷よしもと漫才劇場 ゴールデンウィーク特別寄席",
+      "date": "2026-05-05",
+      "open_time": "16:00",
+      "start_time": "16:15",
+      "end_time": "17:15",
+      "members": "[ネタライブ]ドンデコルテ／ツーナッカン／マルセイユ／今井らいぱち／やさしいズ／素敵じゃないか／ブラゴーリ／シンクロニシティ／喫茶ムーン／ゲスト：ガベジ／他",
+      "venue": "渋谷よしもと漫才劇場",
+      "place": "東京都｜渋谷",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14078/39276",
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile",
+        "theater:shibuya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-23T10:00:23+09:00",
+      "last_updated": "2026-04-23T10:00:23+09:00",
+      "notified_at": "2026-04-23T10:00:23+09:00"
     },
     {
       "id": "6a4fba39",
@@ -1227,9 +1278,10 @@
       ],
       "local_image": "fliers/9fa35501.jpg",
       "status": "notified",
-      "last_updated": "2026-04-22T17:48:14+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-22T17:48:14+09:00"
+      "last_updated": "2026-04-22T17:48:14+09:00",
+      "notified_at": "2026-04-22T17:48:14+09:00",
+      "diff": null
     },
     {
       "id": "46d158dc",
@@ -1252,9 +1304,10 @@
       ],
       "local_image": "fliers/46d158dc.jpg",
       "status": "notified",
-      "last_updated": "2026-04-22T17:48:14+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-22T17:48:14+09:00"
+      "last_updated": "2026-04-22T17:48:14+09:00",
+      "notified_at": "2026-04-22T17:48:14+09:00",
+      "diff": null
     },
     {
       "id": "3e5a9c1b",
@@ -1579,7 +1632,7 @@
       "open_time": null,
       "start_time": "20:30",
       "end_time": null,
-      "members": "ゆにばーす／シンクロニシティ／ゼロカラン／他／ダンビラムーチョ",
+      "members": "ゆにばーす／ダンビラムーチョ／シンクロニシティ／ゼロカラン／他",
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": null,
@@ -1591,10 +1644,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-23T10:00:23+09:00",
       "first_seen": "2026-04-20T17:59:05+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-23T10:00:23+09:00"
     },
     {
       "id": "4ecf6fb9",
@@ -1865,7 +1917,7 @@
       "open_time": null,
       "start_time": "20:15",
       "end_time": null,
-      "members": "ななまがり／ZAZY／エバース／シンクロニシティ／ゲスト：佐久間一行／他",
+      "members": "ななまがり／ZAZY／エバース／シンクロニシティ／ゲスト：佐久間一行／ミキ",
       "venue": "ルミネtheよしもと",
       "place": "東京都｜新宿",
       "image_url": null,
@@ -1877,10 +1929,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-23T10:00:23+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T09:58:32+09:00",
-      "notified_at": "2026-04-21T09:58:32+09:00",
-      "diff": null
+      "notified_at": "2026-04-23T10:00:23+09:00"
     },
     {
       "id": "123ce535",

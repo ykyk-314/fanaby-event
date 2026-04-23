@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23T10:00:23+09:00",
+  "updated_at": "2026-04-23T17:49:17+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -480,7 +480,7 @@
       "open_time": null,
       "start_time": "18:30",
       "end_time": null,
-      "members": "ネルソンズ、ケビンス、ドンデコルテ小橋、\nゼロカラン、家族チャーハン江頭、酒ゴメス、エグい速さ、き展、義理ギリ",
+      "members": "ネルソンズ、ケビンス、ドンデコルテ小橋、\nゼロカラン、江頭一馬、酒ゴメス、エグい速さ、き展、義理ギリ",
       "venue": "赤坂RED/THEATER（東京都）",
       "place": null,
       "image_url": null,
@@ -492,10 +492,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-23T17:49:16+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-16T14:53:22+09:00",
-      "diff": null
+      "notified_at": "2026-04-23T17:49:17+09:00"
     },
     {
       "id": "9af6f4c8",
@@ -756,9 +755,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-23T10:00:23+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-23T10:00:23+09:00"
+      "last_updated": "2026-04-23T10:00:23+09:00",
+      "notified_at": "2026-04-23T10:00:23+09:00",
+      "diff": null
     },
     {
       "id": "3feb10bd",
@@ -782,9 +782,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-23T10:00:23+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-23T10:00:23+09:00"
+      "last_updated": "2026-04-23T10:00:23+09:00",
+      "notified_at": "2026-04-23T10:00:23+09:00",
+      "diff": null
     },
     {
       "id": "f75ec7dd",
@@ -810,7 +811,8 @@
       "status": "notified",
       "first_seen": "2026-04-23T10:00:23+09:00",
       "last_updated": "2026-04-23T10:00:23+09:00",
-      "notified_at": "2026-04-23T10:00:23+09:00"
+      "notified_at": "2026-04-23T10:00:23+09:00",
+      "diff": null
     },
     {
       "id": "681de04f",
@@ -862,7 +864,8 @@
       "status": "notified",
       "first_seen": "2026-04-23T10:00:23+09:00",
       "last_updated": "2026-04-23T10:00:23+09:00",
-      "notified_at": "2026-04-23T10:00:23+09:00"
+      "notified_at": "2026-04-23T10:00:23+09:00",
+      "diff": null
     },
     {
       "id": "6a4fba39",
@@ -1644,9 +1647,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-23T10:00:23+09:00",
       "first_seen": "2026-04-20T17:59:05+09:00",
-      "notified_at": "2026-04-23T10:00:23+09:00"
+      "last_updated": "2026-04-23T10:00:23+09:00",
+      "notified_at": "2026-04-23T10:00:23+09:00",
+      "diff": null
     },
     {
       "id": "4ecf6fb9",
@@ -1929,9 +1933,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-23T10:00:23+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-23T10:00:23+09:00"
+      "last_updated": "2026-04-23T10:00:23+09:00",
+      "notified_at": "2026-04-23T10:00:23+09:00",
+      "diff": null
     },
     {
       "id": "123ce535",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24T11:45:50+09:00",
+  "updated_at": "2026-04-24T13:53:15+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -276,17 +276,19 @@
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013847_1_20260321171317239.png",
       "ticket_url": "https://ticket.fany.lol/event/detail/13108/37276",
       "online_url": null,
-      "price": null,
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": "fliers/8f0745e9.png",
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "7cfc776f",
@@ -303,17 +305,20 @@
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013851_1_20260319131927017.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/13074/37169",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-4-26-19-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
-      "price": null,
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": "fliers/7cfc776f.jpg",
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "0b896b1a",
@@ -408,16 +413,20 @@
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013544_1_20260331115619988.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/13034/37113",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4%E3%81%AE-%E5%BA%AD-4-27-21-00?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4%E3%81%AE%E3%80%8C%E5%BA%AD%E3%80%8D",
-      "price": null,
+      "price": {
+        "advance": 1800,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:jimbocho"
       ],
       "local_image": "fliers/b536ad8c.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T11:45:49+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T11:45:50+09:00"
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "90f5df76",
@@ -564,17 +573,20 @@
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015460_1_20260412224252307.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14869/40673",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%96-%E3%83%90%E3%82%AB%E3%81%A8%E7%85%99-4-30-21-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%80%8E%E3%83%90%E3%82%AB%E3%81%A8%E7%85%99%E3%80%8F",
-      "price": null,
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": "fliers/38e11f3d.jpg",
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "7bfbd575",
@@ -643,17 +655,19 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14397/39942",
       "online_url": null,
-      "price": null,
+      "price": {
+        "advance": 2000,
+        "door": 2500
+      },
       "sources": [
         "profile",
         "theater:roppongi"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-22T09:56:23+09:00",
-      "notified_at": "2026-04-22T09:56:23+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "15c94ccd",
@@ -696,16 +710,20 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14083/39289",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A3-%E5%85%84%E5%BC%9F%E3%83%84%E3%83%BC%E3%83%9E%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%96-%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88-%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88-5-3-19-00?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A3%C3%97%E5%85%84%E5%BC%9F%E3%83%84%E3%83%BC%E3%83%9E%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%E3%80%8D",
-      "price": null,
+      "price": {
+        "advance": 1500,
+        "door": 2000,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T11:45:49+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T11:45:50+09:00"
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "292fe607",
@@ -722,17 +740,19 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15048/41332",
       "online_url": null,
-      "price": null,
+      "price": {
+        "advance": 2000,
+        "door": 2000
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "1007c93c",
@@ -749,17 +769,19 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14078/39272",
       "online_url": null,
-      "price": null,
+      "price": {
+        "advance": 3000,
+        "door": 3400
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-23T10:00:23+09:00",
-      "notified_at": "2026-04-23T10:00:23+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "3feb10bd",
@@ -776,17 +798,19 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14078/39273",
       "online_url": null,
-      "price": null,
+      "price": {
+        "advance": 3000,
+        "door": 3300
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-23T10:00:23+09:00",
-      "notified_at": "2026-04-23T10:00:23+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "f75ec7dd",
@@ -803,17 +827,19 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14078/39274",
       "online_url": null,
-      "price": null,
+      "price": {
+        "advance": 3000,
+        "door": 3300
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-23T10:00:23+09:00",
-      "last_updated": "2026-04-23T10:00:23+09:00",
-      "notified_at": "2026-04-23T10:00:23+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "681de04f",
@@ -856,17 +882,19 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14078/39276",
       "online_url": null,
-      "price": null,
+      "price": {
+        "advance": 3000,
+        "door": 3300
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-23T10:00:23+09:00",
-      "last_updated": "2026-04-23T10:00:23+09:00",
-      "notified_at": "2026-04-23T10:00:23+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "6a4fba39",
@@ -883,16 +911,20 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14088/39285",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%89%E6%A1%9C%E3%81%AE%E3%83%8D%E3%82%BF%E5%92%B2%E3%81%8D-5-5-20-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E3%83%89%E6%A1%9C%E3%81%AE%E3%83%8D%E3%82%BF%E5%92%B2%E3%81%8D",
-      "price": null,
+      "price": {
+        "advance": 1500,
+        "door": 2000,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T11:45:49+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T11:45:50+09:00"
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "fe1c2ba1",
@@ -935,16 +967,20 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14092/39277",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%99%E3%83%93%E3%83%B3%E3%82%B9-5-6-20-30?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E3%83%99%E3%83%93%E3%83%B3%E3%82%B9",
-      "price": null,
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T11:45:49+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T11:45:50+09:00"
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "2f1762e5",
@@ -1039,16 +1075,20 @@
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014727_1_20260419140619475.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14101/39298",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%8D%E3%82%BF%E4%B8%AD%E3%81%AE%E3%81%A9%E3%81%93%E3%81%8B%E3%81%A7%E3%81%8A%E4%BA%92%E3%81%84%E3%81%AB%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%81%A3%E3%81%A6%E8%A8%80%E3%82%8F%E3%81%AA%E3%81%84%E3%81%A8%E3%81%84%E3%81%91%E3%81%AA%E3%81%84%E3%83%A9%E3%82%A4%E3%83%96-5-10-19-00?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E3%83%8D%E3%82%BF%E4%B8%AD%E3%81%AE%E3%81%A9%E3%81%93%E3%81%8B%E3%81%A7%E3%81%8A%E4%BA%92%E3%81%84%E3%81%AB%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%81%A3%E3%81%A6%E8%A8%80%E3%82%8F%E3%81%AA%E3%81%84%E3%81%A8%E3%81%84%E3%81%91%E3%81%AA%E3%81%84%E3%83%A9%E3%82%A4%E3%83%96",
-      "price": null,
+      "price": {
+        "advance": 1500,
+        "door": 2000,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:jimbocho"
       ],
       "local_image": "fliers/407425d2.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T11:45:49+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T11:45:50+09:00"
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "8e05b1e1",
@@ -1091,16 +1131,20 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14863/40666",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BB%8A%E4%BA%95%E3%82%89%E3%81%84%E3%81%B1%E3%81%A1-%E3%81%95%E3%82%84%E9%A6%99%E6%96%B0%E5%B1%B1-%E3%83%94%E3%83%B3%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96-%E3%82%B7%E3%83%B3-%E3%82%BC%E3%83%AD%E3%83%92%E3%83%A3%E3%82%AF-5-11-19-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E4%BB%8A%E4%BA%95%E3%82%89%E3%81%84%E3%81%B1%E3%81%A1%E3%83%BB%E3%81%95%E3%82%84%E9%A6%99%E6%96%B0%E5%B1%B1%20%E3%83%94%E3%83%B3%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%BC%E3%83%AD%E3%83%92%E3%83%A3%E3%82%AF%E3%80%8D",
-      "price": null,
+      "price": {
+        "advance": 1800,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T11:45:49+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T11:45:50+09:00"
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "0684e7b6",
@@ -1111,7 +1155,7 @@
       "open_time": null,
       "start_time": "15:00",
       "end_time": null,
-      "members": "西川きよし、博多華丸・大吉、ギャロップ、5GAP、サルゴリラ、金属バット、ミキ、マユリカ、他\n＜吉本新喜劇＞\n座長：アキ\n島田珠代、末成映薫、島田一の介、ケン、大塚澪、野崎塁、レイチェル、信濃岳夫、他",
+      "members": "西川きよし、博多華丸・大吉、笑い飯、ギャロップ、5GAP、サルゴリラ、金属バット、ミキ、マユリカ\n＜吉本新喜劇＞\n座長：アキ\n島田一の介、末成映薫、島田珠代、ケン、信濃岳夫、佐藤太一郎、レイチェル、大黒笑けいけい、けんたくん、大塚澪、野崎塁",
       "venue": "IMM THEATER",
       "place": "東京都｜文京",
       "image_url": null,
@@ -1123,10 +1167,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-16T14:53:22+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "1a9d1109",
@@ -1137,7 +1180,7 @@
       "open_time": null,
       "start_time": "18:30",
       "end_time": null,
-      "members": "西川きよし、博多華丸・大吉、ギャロップ、5GAP、サルゴリラ、金属バット、ミキ、マユリカ、他\n＜吉本新喜劇＞\n座長：アキ\n島田珠代、末成映薫、島田一の介、ケン、大塚澪、野崎塁、レイチェル、信濃岳夫、他",
+      "members": "西川きよし、博多華丸・大吉、笑い飯、ギャロップ、5GAP、サルゴリラ、金属バット、ミキ、マユリカ\n＜吉本新喜劇＞\n座長：アキ\n島田一の介、末成映薫、島田珠代、ケン、信濃岳夫、佐藤太一郎、レイチェル、大黒笑けいけい、けんたくん、大塚澪、野崎塁",
       "venue": "IMM THEATER",
       "place": "東京都｜文京",
       "image_url": null,
@@ -1149,10 +1192,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-16T14:53:22+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "1d4d04ea",
@@ -1195,17 +1237,19 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14214/39629",
       "online_url": null,
-      "price": null,
+      "price": {
+        "advance": 3000,
+        "door": 3300
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "770fa106",
@@ -1222,17 +1266,19 @@
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015023_1_20260419180256223.png",
       "ticket_url": "https://ticket.fany.lol/event/detail/14215/39633",
       "online_url": null,
-      "price": null,
+      "price": {
+        "advance": 2000,
+        "door": 2500
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": "fliers/770fa106.png",
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "ea3770f9",
@@ -1249,17 +1295,20 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14150/39428",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents-%E5%BC%B7%E3%81%84%E3%82%AB%E3%82%BF%E3%83%81-5-14-21-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4presents%E3%80%8C%E5%BC%B7%E3%81%84%E3%82%AB%E3%82%BF%E3%83%81%E3%80%8D",
-      "price": null,
+      "price": {
+        "advance": 2500,
+        "door": 3000,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "9fa35501",
@@ -1380,17 +1429,19 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15154/41779",
       "online_url": null,
-      "price": null,
+      "price": {
+        "advance": 2000,
+        "door": 2500
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-20T17:59:05+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "e5df361b",
@@ -1407,16 +1458,20 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14096/39309",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE-5-20-19-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE",
-      "price": null,
+      "price": {
+        "advance": 1800,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T11:45:49+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T11:45:50+09:00"
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "e27384fb",
@@ -1589,16 +1644,20 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14120/39326",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4-5-26-21-00?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4",
-      "price": null,
+      "price": {
+        "advance": 1800,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T11:45:49+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T11:45:50+09:00"
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "cad53961",
@@ -1615,17 +1674,20 @@
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015148_1_20260420153912205.jpeg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14543/40266",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-5-27-15-15?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
-      "price": null,
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:shibuya"
       ],
       "local_image": "fliers/cad53961.jpeg",
       "status": "notified",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-21T17:49:47+09:00",
-      "notified_at": "2026-04-21T17:49:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "0ed5fe65",
@@ -1668,16 +1730,20 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14122/39321",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E4%B8%96%E9%96%93%E7%9F%A5%E3%82%89%E3%82%BA%E3%81%AE%E6%96%B0%E5%B8%9D%E5%9B%BD-5-27-21-00?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E4%B8%96%E9%96%93%E7%9F%A5%E3%82%89%E3%82%BA%E3%81%AE%E6%96%B0%E5%B8%9D%E5%9B%BD",
-      "price": null,
+      "price": {
+        "advance": 1500,
+        "door": 2000,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T11:45:49+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T11:45:50+09:00"
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "ea73ec86",
@@ -1694,16 +1760,20 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14123/39328",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8-5-28-21-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E6%B5%B7%E8%B3%8A%E3%83%90%E3%83%AC%E3%82%A8",
-      "price": null,
+      "price": {
+        "advance": 1800,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
         "profile",
         "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T11:45:49+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T11:45:50+09:00"
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "df8f59df",
@@ -1862,6 +1932,141 @@
       "diff": null
     },
     {
+      "id": "ccb48930",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "帰ってきた！ガリガリだらけの筋肉コーナーライブ",
+      "date": "2026-06-02",
+      "open_time": null,
+      "start_time": "21:15",
+      "end_time": null,
+      "members": "[企画ライブ]ピュート／オフローズ 宮崎駿介／シンクロニシティ 西野諒太郎／太鵬 がえちゃん／サンタモニカ マイム／イチゴ 木原優一／テキセツの街 山下よしあき／ザンゾウ スティック",
+      "venue": "神保町よしもと漫才劇場",
+      "place": "東京都｜神保町",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-24T13:53:15+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
+      "notified_at": "2026-04-24T13:53:15+09:00"
+    },
+    {
+      "id": "d8490deb",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "照山おうちごはんpresents「おせ茶碗蒸し」",
+      "date": "2026-06-03",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": "22:00",
+      "members": "[企画ライブ]照山おうちごはん／ケビンス／マリーマリー／テキセツの街",
+      "venue": "神保町よしもと漫才劇場",
+      "place": "東京都｜神保町",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15227/41902",
+      "online_url": null,
+      "price": {
+        "advance": 1500,
+        "door": 2000,
+        "online": 1300
+      },
+      "sources": [
+        "profile",
+        "theater:jimbocho"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-24T13:53:15+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
+      "notified_at": "2026-04-24T13:53:15+09:00"
+    },
+    {
+      "id": "01b9194c",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "勝手に決めよう",
+      "date": "2026-06-06",
+      "open_time": null,
+      "start_time": "20:45",
+      "end_time": null,
+      "members": "[企画ライブ]ケビンス 仁木恭平／ダンビラムーチョ 大原優一／9番街レトロ 京極風斗／ド桜 村田大樹／イチゴ イクト",
+      "venue": "神保町よしもと漫才劇場",
+      "place": "東京都｜神保町",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-24T13:53:15+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
+      "notified_at": "2026-04-24T13:53:15+09:00"
+    },
+    {
+      "id": "f3df1467",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "ホットフレッシュリリース",
+      "date": "2026-06-10",
+      "open_time": "21:00",
+      "start_time": "21:15",
+      "end_time": "22:15",
+      "members": "[企画ライブ]ケビンス／他",
+      "venue": "渋谷よしもと漫才劇場",
+      "place": "東京都｜渋谷",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15291/41955",
+      "online_url": null,
+      "price": {
+        "advance": 2300,
+        "door": 2800,
+        "online": 1300
+      },
+      "sources": [
+        "profile",
+        "theater:shibuya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-24T13:53:15+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
+      "notified_at": "2026-04-24T13:53:15+09:00"
+    },
+    {
+      "id": "3f6a0b2c",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "O－1グランプリ2026",
+      "date": "2026-06-14",
+      "open_time": null,
+      "start_time": "18:30",
+      "end_time": null,
+      "members": "カラタチ／三戸キャップ／シンクロニシティ 西野諒太郎／ラパルフェ都留拓也／リップグリップ岩永圭吾／明渡祐樹／MC：田畑祐一",
+      "venue": "大宮ラクーンよしもと劇場",
+      "place": "埼玉県｜大宮",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-24T13:53:15+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
+      "notified_at": "2026-04-24T13:53:15+09:00"
+    },
+    {
       "id": "f3354f5c",
       "talent_id": "5114",
       "talent_name": "マユリカ",
@@ -1888,6 +2093,66 @@
       "diff": null
     },
     {
+      "id": "9f9f78e7",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "スマイルキング",
+      "date": "2026-06-18",
+      "open_time": "15:00",
+      "start_time": "15:15",
+      "end_time": "16:15",
+      "members": "[ネタライブ]エバース／シンクロニシティ／軟水／インテイク／イチゴ／ゼロカラン",
+      "venue": "渋谷よしもと漫才劇場",
+      "place": "東京都｜渋谷",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15304/41998",
+      "online_url": null,
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1300
+      },
+      "sources": [
+        "profile",
+        "theater:shibuya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-24T13:53:15+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
+      "notified_at": "2026-04-24T13:53:15+09:00"
+    },
+    {
+      "id": "17228ace",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "四分漫才結社",
+      "date": "2026-06-18",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": "22:00",
+      "members": "[企画ライブ]セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／阿部直也／オズワルド／シシガシラ",
+      "venue": "神保町よしもと漫才劇場",
+      "place": "東京都｜神保町",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15235/41875",
+      "online_url": null,
+      "price": {
+        "advance": 1800,
+        "door": 2300,
+        "online": 1300
+      },
+      "sources": [
+        "profile",
+        "theater:jimbocho"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-24T13:53:15+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
+      "notified_at": "2026-04-24T13:53:15+09:00"
+    },
+    {
       "id": "e09f4b6b",
       "talent_id": "5114",
       "talent_name": "マユリカ",
@@ -1912,6 +2177,61 @@
       "last_updated": "2026-04-16T14:53:22+09:00",
       "notified_at": "2026-04-16T14:53:22+09:00",
       "diff": null
+    },
+    {
+      "id": "e712e584",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "漫才漫ション9兆1千5号室",
+      "date": "2026-06-20",
+      "open_time": "17:00",
+      "start_time": "17:15",
+      "end_time": "18:15",
+      "members": "[企画ライブ]ミカボ／シンクロニシティ／他",
+      "venue": "神保町よしもと漫才劇場",
+      "place": "東京都｜神保町",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15239/41881",
+      "online_url": null,
+      "price": {
+        "advance": 1500,
+        "door": 2000,
+        "online": 1300
+      },
+      "sources": [
+        "profile",
+        "theater:jimbocho"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-24T13:53:15+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
+      "notified_at": "2026-04-24T13:53:15+09:00"
+    },
+    {
+      "id": "598fb4c5",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "ゼロカランたいがpresents「俳優への道」season2",
+      "date": "2026-06-22",
+      "open_time": null,
+      "start_time": "19:15",
+      "end_time": null,
+      "members": "[企画ライブ]審査員：ゼロカラン たいが／世間知らズ さおり／太鵬 がえちゃん／マリーマリー えびちゃん／参加者：オダウエダ 植田／スーパーサイズ・ミー 西本／エバース 町田／シンクロニシティ 西野／軟水 大川内／狛犬 櫛野／進行：ゼロカラン ワキ",
+      "venue": "渋谷よしもと漫才劇場",
+      "place": "東京都｜渋谷",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-24T13:53:15+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
+      "notified_at": "2026-04-24T13:53:15+09:00"
     },
     {
       "id": "f7a596b8",

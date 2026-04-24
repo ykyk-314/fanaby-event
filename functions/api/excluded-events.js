@@ -4,8 +4,13 @@
  * DELETE /api/excluded-events — 除外イベントID解除 (body: { eventId })
  *
  * 認証:
- *   GET:         Bearer {REMIND_API_SECRET} または CF-Access-Authenticated-User-Email
- *   POST/DELETE: CF-Access-Authenticated-User-Email
+ *   GET:         Bearer {REMIND_API_SECRET} または CF-Access 認証済み
+ *   POST/DELETE: CF-Access 認証済み（ヘッダーまたは Cookie）
+ *
+ * /api/excluded-events は fanaby-event-api (bypass) アプリ配下のため
+ * CF-Access-Authenticated-User-Email ヘッダーが付与されない。
+ * bypass パスでもブラウザはログイン済みなら CF_Authorization Cookie を送信するため
+ * Cookie の存在で認証済みを判定する。
  */
 
 const KV_KEY = 'excluded_events';
@@ -18,7 +23,9 @@ function isBearerAuthorized(request, env) {
 }
 
 function isCfAccessAuthorized(request) {
-  return !!request.headers.get('CF-Access-Authenticated-User-Email');
+  if (request.headers.get('CF-Access-Authenticated-User-Email')) return true;
+  const cookie = request.headers.get('Cookie') || '';
+  return /\bCF_Authorization=[A-Za-z0-9._-]+/.test(cookie);
 }
 
 async function getExcludedIds(env) {

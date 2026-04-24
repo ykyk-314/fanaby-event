@@ -26,17 +26,20 @@
     {
       "id": "shibuya",
       "name": "渋谷よしもと漫才劇場",
-      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/"
+      "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/",
+      "api_id": "shibuya_manzaigekijyo"
     },
     {
       "id": "jimbocho",
       "name": "神保町よしもと漫才劇場",
-      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/"
+      "url": "https://jimbocho-manzaigekijyo.yoshimoto.co.jp/schedule/",
+      "api_id": "jimbocho_manzaigekijyo"
     },
     {
       "id": "roppongi",
       "name": "YOSHIMOTO ROPPONGI THEATER",
-      "url": "https://roppongi.yoshimoto.co.jp/schedule/"
+      "url": "https://roppongi.yoshimoto.co.jp/schedule/",
+      "api_id": "roppongi"
     }
   ]
 }

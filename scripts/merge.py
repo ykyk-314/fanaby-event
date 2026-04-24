@@ -226,9 +226,10 @@ def _patch_from_theater(ev: dict, te: dict) -> None:
     if te.get("members"):
         ev["members"] = te["members"]
     # 劇場チケットURLを記録（優先ルール解決時に使用）
-    theater_urls = te.get("ticket_urls", [])
-    if theater_urls:
-        ev["theater_ticket_url"] = theater_urls[0]
+    # ticket_url（スカラー）と ticket_urls（旧配列形式）の両方に対応
+    theater_url = te.get("ticket_url") or (te.get("ticket_urls") or [None])[0]
+    if theater_url:
+        ev["theater_ticket_url"] = theater_url
     if te.get("online_url") is not None:
         ev["online_url"] = te["online_url"]
     if te.get("price") is not None:
@@ -256,7 +257,8 @@ def _build_event_from_theater(te: dict, talent_id: str, talent_map: dict) -> dic
         "venue": te.get("venue"),
         "place": te.get("place"),
         "image_url": None,
-        "ticket_url": te.get("ticket_urls", [None])[0],  # 劇場のみの公演は即解決
+        # ticket_url（スカラー）と ticket_urls（旧配列形式）の両方に対応
+        "ticket_url": te.get("ticket_url") or (te.get("ticket_urls") or [None])[0],
         "online_url": te.get("online_url"),
         "price": te.get("price"),
         "sources": [te["source"]],

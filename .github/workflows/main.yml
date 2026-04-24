@@ -46,7 +46,7 @@ jobs:
 
       - name: Scrape theater pages
         if: ${{ !inputs.skip_scrape }}
-        run: python scripts/scrape_theater.py
+        run: python scripts/scrape_theater_api.py
 
       - name: Merge and detect diffs
         if: ${{ !inputs.skip_scrape }}

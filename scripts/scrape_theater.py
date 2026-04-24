@@ -32,6 +32,8 @@ def build_driver() -> webdriver.Chrome:
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1280,900")
+    options.add_argument("--disable-cache")
+    options.add_argument("--disk-cache-size=0")
     options.add_argument(
         "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -61,7 +63,13 @@ def click_month_tab(driver: webdriver.Chrome, year: int, month: int) -> bool:
     if not tabs:
         return False
     driver.execute_script("arguments[0].click();", tabs[0])
-    time.sleep(random.uniform(3, 5))
+    # アクティブクラスが切り替わるまで待機
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, f"#{tab_id}.active"))
+        )
+    except Exception:
+        time.sleep(random.uniform(3, 5))
     return True
 
 
@@ -75,10 +83,12 @@ def scrape_theater(
     print(f"  劇場取得中: {theater['name']} ({url})")
     driver.get(url)
 
-    # ページ初期ロード待機
+    # ページ初期ロード待機（タブリンク自体の出現まで確認）
     try:
         WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "ul.calendar-month"))
+            EC.presence_of_element_located(
+                (By.CSS_SELECTOR, "ul.calendar-month li a[id^='month']")
+            )
         )
     except Exception:
         print(f"  警告: calendar-month が見つかりません ({theater['name']})")

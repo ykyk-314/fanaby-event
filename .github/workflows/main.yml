@@ -42,7 +42,7 @@ jobs:
 
       - name: Scrape profile pages
         if: ${{ !inputs.skip_scrape }}
-        run: python scripts/scrape_profile.py
+        run: python scripts/scrape_profile_api.py
 
       - name: Scrape theater pages
         if: ${{ !inputs.skip_scrape }}

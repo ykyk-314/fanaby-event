@@ -133,7 +133,7 @@ def build_event_from_profile(p: dict) -> dict:
         "talent_name": p["talent_name"],
         "title": p["title"],
         "date": p["date"],
-        "open_time": None,
+        "open_time": p.get("open_time"),     # 劇場スケジュール取得時は上書きされる
         "start_time": p.get("start_time"),   # 劇場スケジュール取得時は上書きされる
         "end_time": None,
         "members": p.get("members", ""),     # 劇場スケジュール取得時は上書きされる

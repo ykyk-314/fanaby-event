@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24T17:51:39+09:00",
+  "updated_at": "2026-04-25T09:54:21+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -235,6 +235,35 @@
       "notified_at": "2026-04-24T17:51:39+09:00"
     },
     {
+      "id": "8f0745e9",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "中野なかるてぃんのイントロクイズネオ",
+      "date": "2026-04-25",
+      "open_time": "18:45",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "members": "[企画ライブ]ナイチンゲールダンス／ケビンス／9番街レトロ／サンタモニカ／しんや",
+      "venue": "渋谷よしもと漫才劇場",
+      "place": null,
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:shibuya"
+      ],
+      "local_image": "fliers/8f0745e9.png",
+      "status": "notified",
+      "first_seen": "2026-04-16T14:53:22+09:00",
+      "last_updated": "2026-04-24T13:53:15+09:00",
+      "notified_at": "2026-04-24T13:53:15+09:00",
+      "diff": null
+    },
+    {
       "id": "245959d4",
       "talent_id": "10708",
       "talent_name": "シンクロニシティ",
@@ -258,36 +287,6 @@
       "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
       "notified_at": "2026-04-24T17:51:39+09:00"
-    },
-    {
-      "id": "8f0745e9",
-      "talent_id": "7295",
-      "talent_name": "ケビンス",
-      "title": "中野なかるてぃんのイントロクイズネオ",
-      "date": "2026-04-25",
-      "open_time": "18:45",
-      "start_time": "19:00",
-      "end_time": "20:00",
-      "members": "[企画ライブ]ナイチンゲールダンス／ケビンス／9番街レトロ／サンタモニカ／しんや",
-      "venue": "渋谷よしもと漫才劇場",
-      "place": "渋谷",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013847_1_20260321171317239.png",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13108/37276",
-      "online_url": null,
-      "price": {
-        "advance": 2500,
-        "door": 3000
-      },
-      "sources": [
-        "profile",
-        "theater:shibuya"
-      ],
-      "local_image": "fliers/8f0745e9.png",
-      "status": "notified",
-      "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-24T13:53:15+09:00",
-      "notified_at": "2026-04-24T13:53:15+09:00",
-      "diff": null
     },
     {
       "id": "7cfc776f",
@@ -341,9 +340,10 @@
       ],
       "local_image": "fliers/0b896b1a.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "3b37edc5",
@@ -366,9 +366,10 @@
       ],
       "local_image": "fliers/3b37edc5.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "37bee483",
@@ -391,9 +392,10 @@
       ],
       "local_image": "fliers/37bee483.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "b536ad8c",
@@ -447,9 +449,10 @@
       ],
       "local_image": "fliers/90f5df76.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "3d93fdac",
@@ -472,9 +475,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "461f0a32",
@@ -497,9 +501,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "9af6f4c8",
@@ -522,9 +527,10 @@
       ],
       "local_image": "fliers/9af6f4c8.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "aa85a57f",
@@ -547,9 +553,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "38e11f3d",
@@ -685,9 +692,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "b2b88863",
@@ -745,9 +753,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "1007c93c",
@@ -860,9 +869,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "2c105bd1",
@@ -946,9 +956,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "b25a904d",
@@ -1002,9 +1013,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "e5c95193",
@@ -1027,9 +1039,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "5e17e4d7",
@@ -1052,9 +1065,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "407425d2",
@@ -1108,9 +1122,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "0afb5a16",
@@ -1124,7 +1139,7 @@
       "members": "[企画ライブ]今井らいぱち／さや香 新山／MC：マルセイユ 津田康平／ゲスト審査員：やさしいズ／ケビンス／ニッポンの社長",
       "venue": "神保町よしもと漫才劇場",
       "place": "神保町",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015315_1_20260424180649661.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14863/40666",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BB%8A%E4%BA%95%E3%82%89%E3%81%84%E3%81%B1%E3%81%A1-%E3%81%95%E3%82%84%E9%A6%99%E6%96%B0%E5%B1%B1-%E3%83%94%E3%83%B3%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96-%E3%82%B7%E3%83%B3-%E3%82%BC%E3%83%AD%E3%83%92%E3%83%A3%E3%82%AF-5-11-19-15?utm_medium=schedule&utm_source=jimbocho_manzaigekijyo&utm_campaign=%E4%BB%8A%E4%BA%95%E3%82%89%E3%81%84%E3%81%B1%E3%81%A1%E3%83%BB%E3%81%95%E3%82%84%E9%A6%99%E6%96%B0%E5%B1%B1%20%E3%83%94%E3%83%B3%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96%E3%80%8C%E3%82%B7%E3%83%B3%E3%83%BB%E3%82%BC%E3%83%AD%E3%83%92%E3%83%A3%E3%82%AF%E3%80%8D",
       "price": {
@@ -1136,12 +1151,11 @@
         "profile",
         "theater:jimbocho"
       ],
-      "local_image": null,
+      "local_image": "fliers/0afb5a16.jpg",
       "status": "notified",
+      "last_updated": "2026-04-25T09:54:20+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-24T13:53:15+09:00",
-      "notified_at": "2026-04-24T13:53:15+09:00",
-      "diff": null
+      "notified_at": "2026-04-25T09:54:21+09:00"
     },
     {
       "id": "0684e7b6",
@@ -1164,9 +1178,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "1a9d1109",
@@ -1189,9 +1204,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "1d4d04ea",
@@ -1214,9 +1230,10 @@
       ],
       "local_image": "fliers/1d4d04ea.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "272229e2",
@@ -1330,9 +1347,10 @@
       ],
       "local_image": "fliers/9fa35501.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "46d158dc",
@@ -1355,9 +1373,10 @@
       ],
       "local_image": "fliers/46d158dc.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "3e5a9c1b",
@@ -1380,9 +1399,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "39b8538f",
@@ -1405,9 +1425,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "224bca88",
@@ -1434,9 +1455,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-20T17:59:05+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "e5df361b",
@@ -1490,9 +1512,10 @@
       ],
       "local_image": "fliers/e27384fb.png",
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "70b4395b",
@@ -1515,9 +1538,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "7b8f603b",
@@ -1540,9 +1564,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "1a0d05d5",
@@ -1565,9 +1590,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "756cb63b",
@@ -1590,9 +1616,10 @@
       ],
       "local_image": "fliers/756cb63b.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "8f652586",
@@ -1615,9 +1642,35 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
+    },
+    {
+      "id": "244ef1b1",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "OGIRI QUEST",
+      "date": "2026-05-25",
+      "open_time": "20:30",
+      "start_time": "20:45",
+      "end_time": null,
+      "members": "MC：フランスピアノなかがわ\n令和ロマン松井ケムリ、ナイチンゲールダンス中野なかるてぃん、ケビンス仁木、ママタルト檜原、サツマカワRPG、フランツ土岐、ダウ90000吉原怜那、他",
+      "venue": "CBGKシブゲキ!!（東京都）",
+      "place": null,
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-25T09:54:20+09:00",
+      "last_updated": "2026-04-25T09:54:20+09:00",
+      "notified_at": "2026-04-25T09:54:21+09:00"
     },
     {
       "id": "5208c658",
@@ -1702,9 +1755,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-20T17:59:05+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "4ecf6fb9",
@@ -1789,9 +1843,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "40d6ff49",
@@ -1814,9 +1869,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "6b80e5f2",
@@ -1839,9 +1895,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "6d4e2ce7",
@@ -1864,9 +1921,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "8038742a",
@@ -1889,9 +1947,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "0048a253",
@@ -1914,9 +1973,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "ccb48930",
@@ -1939,9 +1999,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-24T13:53:15+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "d8490deb",
@@ -1995,9 +2056,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-24T13:53:15+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "f3df1467",
@@ -2051,9 +2113,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-24T13:53:15+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "f3354f5c",
@@ -2076,9 +2139,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "9f9f78e7",
@@ -2163,9 +2227,10 @@
       ],
       "local_image": "fliers/e09f4b6b.jpg",
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "e712e584",
@@ -2219,9 +2284,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-24T13:53:15+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     },
     {
       "id": "f7a596b8",
@@ -2244,9 +2310,60 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
+    },
+    {
+      "id": "f2f4a1d1",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "Kiwami極LIVEプラス",
+      "date": "2026-06-25",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "ゲスト:ケビンス／　\n牛ぺぺ／ネイビーズアフロ／侍スライス／隣人／もも／愛凛冴／とくいち／シャガール／ファンファーレと熱狂／ミケネ系",
+      "venue": "よしもと漫才劇場",
+      "place": "なんば",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-25T09:54:20+09:00",
+      "last_updated": "2026-04-25T09:54:20+09:00",
+      "notified_at": "2026-04-25T09:54:21+09:00"
+    },
+    {
+      "id": "fe09a54c",
+      "talent_id": "7295",
+      "talent_name": "ケビンス",
+      "title": "シゲカズですpresentsネタボーイ＆ノーミスボーイ",
+      "date": "2026-06-25",
+      "open_time": "19:00",
+      "start_time": "19:15",
+      "end_time": null,
+      "members": "シゲカズです／ケビンス／黒帯／天才ピアニスト／三遊間／シカノシンプ",
+      "venue": "よしもと漫才劇場",
+      "place": "なんば",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-25T09:54:20+09:00",
+      "last_updated": "2026-04-25T09:54:20+09:00",
+      "notified_at": "2026-04-25T09:54:21+09:00"
     },
     {
       "id": "123ce535",
@@ -2269,9 +2386,60 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
+    },
+    {
+      "id": "115a8e02",
+      "talent_id": "5114",
+      "talent_name": "マユリカ",
+      "title": "博多モダン",
+      "date": "2026-06-27",
+      "open_time": "17:45",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "マユリカ／カベポスター／エバース",
+      "venue": "よしもと福岡 大和証券劇場",
+      "place": "福岡",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-25T09:54:20+09:00",
+      "last_updated": "2026-04-25T09:54:20+09:00",
+      "notified_at": "2026-04-25T09:54:21+09:00"
+    },
+    {
+      "id": "1b9301a7",
+      "talent_id": "5114",
+      "talent_name": "マユリカ",
+      "title": "Kiwami極LIVE",
+      "date": "2026-06-29",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "ゲスト:マユリカ／　\n十手／ダブルアート／黒帯／-ZX-／オーサカクレオパトラ／ドーナツ・ピーナツ／チェリー大作戦／空前メテオ／電気ジュース／シゲカズです",
+      "venue": "よしもと漫才劇場",
+      "place": "なんば",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-25T09:54:20+09:00",
+      "last_updated": "2026-04-25T09:54:20+09:00",
+      "notified_at": "2026-04-25T09:54:21+09:00"
     },
     {
       "id": "69644149",
@@ -2294,9 +2462,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-24T17:51:39+09:00",
       "first_seen": "2026-04-18T09:53:18+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00"
+      "last_updated": "2026-04-24T17:51:39+09:00",
+      "notified_at": "2026-04-24T17:51:39+09:00",
+      "diff": null
     }
   ]
 }

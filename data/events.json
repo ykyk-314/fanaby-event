@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-26T10:01:07+09:00",
+  "updated_at": "2026-04-26T17:35:39+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -652,7 +652,7 @@
       "members": "蛙亭／シンクロニシティ／エレガント人生／世間知らズ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "place": "六本木",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014867_1_20260426130109833.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14397/39942",
       "online_url": null,
       "price": {
@@ -663,12 +663,11 @@
         "profile",
         "theater:roppongi"
       ],
-      "local_image": null,
+      "local_image": "fliers/2a420d1b.jpg",
       "status": "notified",
+      "last_updated": "2026-04-26T17:35:38+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-24T13:53:15+09:00",
-      "notified_at": "2026-04-24T13:53:15+09:00",
-      "diff": null
+      "notified_at": "2026-04-26T17:35:39+09:00"
     },
     {
       "id": "15c94ccd",
@@ -679,22 +678,21 @@
       "open_time": "18:30",
       "start_time": "19:00",
       "end_time": null,
-      "members": "ミルクボーイ／トット／セルライトスパ／滝音／ミカボ／エバース／シンクロニシティ／イチゴ／大王／他",
+      "members": "ミルクボーイ／トット／セルライトスパ／滝音／カベポスター／ミカボ／エバース／シンクロニシティ／イチゴ／大王",
       "venue": "ルミネtheよしもと",
       "place": "新宿",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015306_1_20260426101502114.jpg",
       "ticket_url": null,
       "online_url": null,
       "price": null,
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/15c94ccd.jpg",
       "status": "notified",
+      "last_updated": "2026-04-26T17:35:38+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-24T17:51:39+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00",
-      "diff": null
+      "notified_at": "2026-04-26T17:35:39+09:00"
     },
     {
       "id": "b2b88863",
@@ -1121,9 +1119,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-26T10:01:07+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-26T10:01:07+09:00"
+      "last_updated": "2026-04-26T10:01:07+09:00",
+      "notified_at": "2026-04-26T10:01:07+09:00",
+      "diff": null
     },
     {
       "id": "0afb5a16",
@@ -2005,6 +2004,36 @@
       "diff": null
     },
     {
+      "id": "8ba8a377",
+      "talent_id": "10708",
+      "talent_name": "シンクロニシティ",
+      "title": "シンクロニシティとインテイクが25分前後の漫才を1本ずつやるライブ",
+      "date": "2026-06-03",
+      "open_time": "19:00",
+      "start_time": "19:15",
+      "end_time": "20:15",
+      "members": "[企画ライブ]シンクロニシティ／インテイク",
+      "venue": "神保町よしもと漫才劇場",
+      "place": "神保町",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15226/41904",
+      "online_url": null,
+      "price": {
+        "advance": 1500,
+        "door": 2000,
+        "online": 1300
+      },
+      "sources": [
+        "profile",
+        "theater:jimbocho"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-26T17:35:38+09:00",
+      "last_updated": "2026-04-26T17:35:38+09:00",
+      "notified_at": "2026-04-26T17:35:39+09:00"
+    },
+    {
       "id": "d8490deb",
       "talent_id": "7295",
       "talent_name": "ケビンス",
@@ -2346,9 +2375,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-26T10:01:07+09:00",
       "first_seen": "2026-04-24T13:53:15+09:00",
-      "notified_at": "2026-04-26T10:01:07+09:00"
+      "last_updated": "2026-04-26T10:01:07+09:00",
+      "notified_at": "2026-04-26T10:01:07+09:00",
+      "diff": null
     },
     {
       "id": "f7a596b8",

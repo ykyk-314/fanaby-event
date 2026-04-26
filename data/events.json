@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25T17:29:08+09:00",
+  "updated_at": "2026-04-26T10:01:07+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -299,9 +299,9 @@
       "end_time": "20:00",
       "members": "[企画ライブ]エバース／シンクロニシティ／軟水／インテイク／イチゴ／ゼロカラン",
       "venue": "渋谷よしもと漫才劇場",
-      "place": "渋谷",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013851_1_20260319131927017.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/13074/37169",
+      "place": null,
+      "image_url": null,
+      "ticket_url": null,
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-4-26-19-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0",
       "price": {
         "advance": 2000,
@@ -309,7 +309,6 @@
         "online": 1300
       },
       "sources": [
-        "profile",
         "theater:shibuya"
       ],
       "local_image": "fliers/7cfc776f.jpg",
@@ -1110,7 +1109,7 @@
       "open_time": "19:00",
       "start_time": "19:30",
       "end_time": null,
-      "members": "マルセイユ／キンボシ／ミカボ／シンクロニシティ／9番街レトロ／ゼロカラン／めぞん／照山おうちごはん／ナユタ／他",
+      "members": "マルセイユ／キンボシ／カラタチ／ミカボ／シンクロニシティ／9番街レトロ／ゼロカラン／めぞん／照山おうちごはん／ナユタ／他",
       "venue": "ルミネtheよしもと",
       "place": "新宿",
       "image_url": null,
@@ -1122,10 +1121,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-26T10:01:07+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-24T17:51:39+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00",
-      "diff": null
+      "notified_at": "2026-04-26T10:01:07+09:00"
     },
     {
       "id": "0afb5a16",
@@ -2174,7 +2172,8 @@
       "status": "notified",
       "first_seen": "2026-04-25T17:29:08+09:00",
       "last_updated": "2026-04-25T17:29:08+09:00",
-      "notified_at": "2026-04-25T17:29:08+09:00"
+      "notified_at": "2026-04-25T17:29:08+09:00",
+      "diff": null
     },
     {
       "id": "9f9f78e7",
@@ -2323,7 +2322,8 @@
       "status": "notified",
       "first_seen": "2026-04-25T17:29:08+09:00",
       "last_updated": "2026-04-25T17:29:08+09:00",
-      "notified_at": "2026-04-25T17:29:08+09:00"
+      "notified_at": "2026-04-25T17:29:08+09:00",
+      "diff": null
     },
     {
       "id": "598fb4c5",
@@ -2334,7 +2334,7 @@
       "open_time": "19:00",
       "start_time": "19:15",
       "end_time": null,
-      "members": "[企画ライブ]審査員：ゼロカラン たいが／世間知らズ さおり／太鵬 がえちゃん／マリーマリー えびちゃん／参加者：オダウエダ 植田／スーパーサイズ・ミー 西本／エバース 町田／シンクロニシティ 西野／軟水 大川内／狛犬 櫛野／進行：ゼロカラン ワキ",
+      "members": "[企画ライブ]審査員：ゼロカラン たいが／からし蓮根 青空／世間知らズ さおり／太鵬 がえちゃん／マリーマリー えびちゃん／参加者：オダウエダ 植田／スーパーサイズ・ミー 西本／エバース 町田／シンクロニシティ 西野／軟水 大川内／狛犬 櫛野／進行：ゼロカラン ワキ",
       "venue": "渋谷よしもと漫才劇場",
       "place": "渋谷",
       "image_url": null,
@@ -2346,10 +2346,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-26T10:01:07+09:00",
       "first_seen": "2026-04-24T13:53:15+09:00",
-      "last_updated": "2026-04-24T17:51:39+09:00",
-      "notified_at": "2026-04-24T17:51:39+09:00",
-      "diff": null
+      "notified_at": "2026-04-26T10:01:07+09:00"
     },
     {
       "id": "f7a596b8",
@@ -2450,9 +2449,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-25T17:29:08+09:00",
       "first_seen": "2026-04-16T14:53:22+09:00",
-      "notified_at": "2026-04-25T17:29:08+09:00"
+      "last_updated": "2026-04-25T17:29:08+09:00",
+      "notified_at": "2026-04-25T17:29:08+09:00",
+      "diff": null
     },
     {
       "id": "115a8e02",

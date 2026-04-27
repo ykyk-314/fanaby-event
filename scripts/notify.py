@@ -66,6 +66,7 @@ def render_diff_rows(diff: dict | None) -> str:
         "start_time": "開演時刻",
         "end_time": "終演時刻",
         "venue": "会場",
+        "notice": "お知らせ",
     }
     labels = [label_map.get(f, f) for f in diff if f in label_map]
     if not labels:
@@ -99,7 +100,7 @@ def build_event_card(ev: dict) -> str:
     time_str = " | ".join(times) if times else "—"
 
     members_str = ev.get("members") or "—"
-    venue_str = ev.get("venue") or ev.get("place") or "—"
+    venue_str = ev.get("venue") or "—"
     price_str = format_price(ev.get("price"))
 
     ticket_btn = ""
@@ -189,11 +190,11 @@ def main():
         print("通知対象なし")
         return
 
-    # 芸人別にグルーピング
+    # 芸人別にグルーピング（複数芸人が出演する公演は各芸人の通知に含める）
     talent_map: dict[str, list[dict]] = {}
     for ev in notify_targets:
-        tid = ev["talent_id"]
-        talent_map.setdefault(tid, []).append(ev)
+        for tid in ev.get("talents", {}).keys():
+            talent_map.setdefault(tid, []).append(ev)
 
     sent_ids: set[str] = set()
     for talent in config["talents"]:

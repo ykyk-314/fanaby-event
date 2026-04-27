@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T12:21:32+09:00",
+  "updated_at": "2026-04-27T18:02:00+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -607,7 +607,7 @@
       "talents": {
         "7295": "ケビンス"
       },
-      "title": "ケビンストーク『バカと煙』",
+      "title": "ケビンストークライブ『バカと煙』",
       "date": "2026-04-30",
       "open_time": "20:45",
       "start_time": "21:00",
@@ -1123,6 +1123,33 @@
       "diff": null
     },
     {
+      "id": "8b2d9284",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "TOKYO SHUCHAN COLLECTION 2026",
+      "date": "2026-05-10",
+      "open_time": "13:30",
+      "start_time": "14:00",
+      "end_time": null,
+      "members": "蛙亭、カラタチ、kento fukaya、ZAZY、マユリカ、やさしいズ タイ、コットン、田津原理音、9番街レトロ、エルフ",
+      "venue": "銀座ブロッサム（中央会館）ホール",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-27T18:02:00+09:00",
+      "last_updated": "2026-04-27T18:02:00+09:00",
+      "notified_at": "2026-04-27T18:02:00+09:00"
+    },
+    {
       "id": "56daffc7",
       "talents": {
         "5114": "マユリカ"
@@ -1193,7 +1220,7 @@
       "open_time": "19:00",
       "start_time": "19:30",
       "end_time": null,
-      "members": "マルセイユ／キンボシ／カラタチ／ミカボ／シンクロニシティ／9番街レトロ／ゼロカラン／めぞん／照山おうちごはん／ナユタ／他",
+      "members": "マルセイユ／キンボシ／カラタチ／くらげ／ミカボ／シンクロニシティ／9番街レトロ／ゼロカラン／めぞん／照山おうちごはん／ナユタ／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -1206,10 +1233,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-27T18:02:00+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-27T18:02:00+09:00"
     },
     {
       "id": "29f5e4ac",
@@ -2309,6 +2335,38 @@
       "last_updated": "2026-04-27T12:05:52+09:00",
       "notified_at": "2026-04-27T12:05:52+09:00",
       "diff": null
+    },
+    {
+      "id": "e09ba954",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "山口コンボイMVPへの道",
+      "date": "2026-06-15",
+      "open_time": "21:00",
+      "start_time": "21:15",
+      "end_time": "22:15",
+      "members": "ケビンス／ビスケットブラザーズ／kento fukaya／ブラゴーリ／ド桜 村田／しんや",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15605/42608",
+      "online_url": null,
+      "notice": "様々な設定内でブロックごとに１番場を盛り上げたMVPを勝手に決めます。\r\n果たして山口コンボイはMVPになれるのか…！？\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：4/28（火）11:00～4/30（木）11:00\r\n〇一般販売：5/5（火）10:00\r\n\r\n■配信チケット■\r\n〇発売日：5/5（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1500
+      },
+      "sources": [
+        "theater:roppongi",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-27T18:02:00+09:00",
+      "last_updated": "2026-04-27T18:02:00+09:00",
+      "notified_at": "2026-04-27T18:02:00+09:00"
     },
     {
       "id": "b3c6f63e",

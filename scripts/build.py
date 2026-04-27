@@ -200,16 +200,10 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
         f'<button class="remind-btn" data-event-id="{ev_id}" data-remind=""'
         f' title="チケットリマインドをONにする">&#x1F514;</button>'
     )
-    if ev.get("excluded"):
-        exclude_btn = (
-            f'<button class="unexclude-btn" data-event-id="{ev_id}"'
-            f' title="除外を解除する">解除</button>'
-        )
-    else:
-        exclude_btn = (
-            f'<button class="exclude-btn" data-event-id="{ev_id}"'
-            f' title="この公演を除外する">除外</button>'
-        )
+    exclude_btn = (
+        f'<button class="exclude-btn" data-event-id="{ev_id}"'
+        f' title="この公演を除外する">除外</button>'
+    )
     btns_html = f'<div class="card-btns">{ticket_btns}{status_select}{remind_btn}{exclude_btn}</div>'
     memo_html = (
         f'<div class="memo-wrap">'
@@ -221,10 +215,9 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
     talents = ev.get("talents") or {}
     talent_ids_str = " ".join(sorted(talents.keys()))
 
-    excluded_attr = 'data-excluded="true"' if ev.get("excluded") else 'data-excluded="false"'
     return (
         f'<div class="{past_class}" '
-        f'{excluded_attr} '
+        f'data-excluded="false" '
         f'data-talent="{escape_html(talent_ids_str)}" '
         f'data-venue="{escape_html(venue_raw)}" '
         f'data-prefecture="{escape_html(prefecture_raw)}" '

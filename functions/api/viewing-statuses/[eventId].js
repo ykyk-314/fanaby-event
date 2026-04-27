@@ -61,13 +61,16 @@ export async function onRequestPatch({ request, params, env }) {
 
   if (!body) return jsonResponse({ error: 'request body required' }, 400);
 
-  // status・memo・remind のいずれも未指定はエラー
-  if (body.status === undefined && body.memo === undefined && body.remind === undefined) {
-    return jsonResponse({ error: 'status, memo, or remind required' }, 400);
+  // status・memo・remind・excluded のいずれも未指定はエラー
+  if (body.status === undefined && body.memo === undefined && body.remind === undefined && body.excluded === undefined) {
+    return jsonResponse({ error: 'status, memo, remind, or excluded required' }, 400);
   }
-  // remind はboolean のみ許容
+  // remind・excluded は boolean のみ許容
   if (body.remind !== undefined && typeof body.remind !== 'boolean') {
     return jsonResponse({ error: 'remind must be a boolean' }, 400);
+  }
+  if (body.excluded !== undefined && typeof body.excluded !== 'boolean') {
+    return jsonResponse({ error: 'excluded must be a boolean' }, 400);
   }
   // status が指定されている場合はホワイトリスト検証（空文字はステータスなしとして許容）
   if (body.status !== undefined && body.status !== '' && !VALID_VIEWING_STATUSES.has(body.status)) {
@@ -93,8 +96,9 @@ export async function onRequestPatch({ request, params, env }) {
         }
       }
     }
-    if (body.memo    !== undefined) existing.memo   = body.memo;
-    if (body.remind  !== undefined) existing.remind = body.remind;
+    if (body.memo     !== undefined) existing.memo     = body.memo;
+    if (body.remind   !== undefined) existing.remind   = body.remind;
+    if (body.excluded !== undefined) existing.excluded = body.excluded;
     existing.updated_at = now;
 
     data.statuses[eventId] = existing;

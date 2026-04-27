@@ -197,6 +197,7 @@ const ViewingStorage = {
         updated_at: typeof entry.updated_at === 'string' ? entry.updated_at : '',
         memo:       typeof entry.memo === 'string' ? entry.memo : '',
         remind:     entry.remind === true,
+        excluded:   entry.excluded === true,
         history:    Array.isArray(entry.history) ? entry.history.filter(
           h => h && VALID_VIEWING_STATUSES.has(h.status) && typeof h.at === 'string'
         ) : [],
@@ -374,6 +375,22 @@ const ViewingStorage = {
     this._saveLocal(data);
     this._patchRemote(eventId, { status: existing.status, memo: existing.memo || '', remind: bool });
   },
+
+  getExcluded(eventId) {
+    const rec = this.get(eventId);
+    return rec ? (rec.excluded === true) : false;
+  },
+
+  setExcluded(eventId, bool) {
+    const data = this._cache || this._loadLocal();
+    const existing = data.statuses[eventId]
+      || { history: [], status: '', memo: '' };
+    existing.excluded = bool;
+    existing.updated_at = new Date().toISOString();
+    data.statuses[eventId] = existing;
+    this._saveLocal(data);
+    this._patchRemote(eventId, { status: existing.status, memo: existing.memo || '', excluded: bool });
+  },
 };
 
 function applyStatusToCard(card, status) {
@@ -448,43 +465,46 @@ function initRemindUI() {
   });
 }
 
+function applyExcludedToCard(card, isExcluded) {
+  card.dataset.excluded = isExcluded ? 'true' : 'false';
+  const oldBtn = card.querySelector('.exclude-btn, .unexclude-btn');
+  if (!oldBtn) return;
+  const eventId = oldBtn.dataset.eventId;
+  const newBtn = document.createElement('button');
+  newBtn.dataset.eventId = eventId;
+  if (isExcluded) {
+    newBtn.className = 'unexclude-btn';
+    newBtn.title = '除外を解除する';
+    newBtn.textContent = '解除';
+  } else {
+    newBtn.className = 'exclude-btn';
+    newBtn.title = 'この公演を除外する';
+    newBtn.textContent = '除外';
+  }
+  oldBtn.replaceWith(newBtn);
+}
+
 function initExcludeUI() {
-  document.addEventListener('click', async e => {
+  // ViewingStorage から除外状態を反映（アカウントごと・端末間同期）
+  const all = ViewingStorage.getAll();
+  document.querySelectorAll('.event-card').forEach(card => {
+    const id = card.dataset.eventId;
+    if (!id) return;
+    if (all[id] && all[id].excluded) applyExcludedToCard(card, true);
+  });
+
+  document.addEventListener('click', e => {
     const btn = e.target.closest('.exclude-btn, .unexclude-btn');
     if (!btn) return;
     const eventId = btn.dataset.eventId;
     if (!eventId) return;
     const isExclude = btn.classList.contains('exclude-btn');
     if (isExclude && !confirm('この公演を除外しますか？以降の通知・表示から外れます。')) return;
-    try {
-      const res = await fetch('/api/excluded-events', {
-        method: isExclude ? 'POST' : 'DELETE',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ eventId }),
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      document.querySelectorAll(`.event-card[data-event-id="${eventId}"]`).forEach(card => {
-        card.dataset.excluded = isExclude ? 'true' : 'false';
-        const oldBtn = card.querySelector('.exclude-btn, .unexclude-btn');
-        if (!oldBtn) return;
-        const newBtn = document.createElement('button');
-        newBtn.dataset.eventId = eventId;
-        if (isExclude) {
-          newBtn.className = 'unexclude-btn';
-          newBtn.title = '除外を解除する';
-          newBtn.textContent = '解除';
-        } else {
-          newBtn.className = 'exclude-btn';
-          newBtn.title = 'この公演を除外する';
-          newBtn.textContent = '除外';
-        }
-        oldBtn.replaceWith(newBtn);
-      });
-      applyFilters();
-    } catch (err) {
-      console.error('exclude/unexclude failed', err);
-      alert('操作に失敗しました。');
-    }
+    ViewingStorage.setExcluded(eventId, isExclude);
+    document.querySelectorAll(`.event-card[data-event-id="${eventId}"]`).forEach(card => {
+      applyExcludedToCard(card, isExclude);
+    });
+    applyFilters();
   });
 }
 

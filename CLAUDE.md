@@ -47,4 +47,4 @@ main ←── feature/YYMMDD （機能開発・PRでマージ）
 - `docs/assets/` を変更する際は `build.py` の動作に影響がないか確認する
 - 3ステップ以上の変更は Plan モードで開始する
 - コンテキストが逼迫したら区切りを提案する
-- Phase 2 タスク一覧・スクレイピングHTML仕様は `.claude/rules/` を参照
+- 仕様は `.claude/rules/` を参照

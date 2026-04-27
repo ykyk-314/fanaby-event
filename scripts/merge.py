@@ -1,9 +1,9 @@
 """
-プロフィール取得分と劇場取得分をマージし、events.json を更新するスクリプト。
+劇場取得分と芸人プロフィール取得分をマージし、events.json を更新するスクリプト。
 
 処理フロー:
-1. profile_events.json と theater_events.json を読み込む
-2. 劇場取得分を同一公演に統合（照合キー: talent_id + date + venue + start_time）
+1. theater_events.json をベースにイベントリストを構築（1公演 = 1レコード）
+2. profile_events.json でギャップ補完（劇場にない公演を追加、talents に芸人を追加）
 3. 既存 events.json と比較して差分を検出（new / updated）
 4. events.json を上書き保存
 """
@@ -31,7 +31,7 @@ JST = timezone(timedelta(hours=9))
 # 変更を検知するフィールド（これらが変わったら updated とみなす）
 # online_url は一度取得したら更新しない仕様のため除外
 WATCH_FIELDS = ["members", "image_url", "ticket_url", "price",
-                "open_time", "start_time", "end_time", "venue"]
+                "open_time", "start_time", "end_time", "venue", "notice"]
 
 # 公演日当日のみチェックするフィールド
 # 当日券はサイトから購入不可になるため ticket_url 等が変動するが通知対象外とする
@@ -83,15 +83,16 @@ def normalize_title(title: str) -> str:
     return title.lower()
 
 
-def make_event_id(talent_id: str, event_date: str, title: str,
+def make_event_id(event_date: str, title: str,
                   venue: str | None = None, start_time: str | None = None) -> str:
-    """イベントID: SHA1(talent_id + date + venue + start_time) の先頭8文字。
+    """イベントID: SHA1(date + venue + start_time) の先頭8文字。
     venue/start_time が不明な場合は normalized_title にフォールバック。
+    talent_id はハッシュから除外（同一公演に複数芸人が出演するケースで1レコードに統合するため）。
     """
     if venue and start_time:
-        key = f"{talent_id}:{event_date}:{venue}:{start_time}"
+        key = f"{event_date}:{venue}:{start_time}"
     else:
-        key = f"{talent_id}:{event_date}:{normalize_title(title)}"
+        key = f"{event_date}:{normalize_title(title)}"
     return hashlib.sha1(key.encode()).hexdigest()[:8]
 
 
@@ -120,160 +121,114 @@ def load_existing_events() -> list[dict]:
     return events
 
 
-def build_event_from_profile(p: dict) -> dict:
-    """プロフィール取得データをイベントレコードに変換する。
-    劇場スケジュールが取得できない会場の公演に備え、プロフィールから取れる値はここで設定する。
-    劇場スケジュールが取得できた場合は _patch_from_theater で上書きされる。
-    image_url はプロフィールページからのみ取得する。
-    """
-    return {
-        "id": make_event_id(p["talent_id"], p["date"], p["title"],
-                           venue=p.get("venue"), start_time=p.get("start_time")),
-        "talent_id": p["talent_id"],
-        "talent_name": p["talent_name"],
-        "title": p["title"],
-        "date": p["date"],
-        "open_time": p.get("open_time"),     # 劇場スケジュール取得時は上書きされる
-        "start_time": p.get("start_time"),   # 劇場スケジュール取得時は上書きされる
-        "end_time": None,
-        "members": p.get("members", ""),     # 劇場スケジュール取得時は上書きされる
-        "venue": p.get("venue"),
-        "place": p.get("place"),
-        "image_url": p.get("image_url"),     # プロフィールページからのみ取得
-        "ticket_urls": p.get("ticket_urls", []),  # 優先ルール解決まで保持
-        "ticket_url": None,                        # 解決後に設定される
-        "online_url": None,
-        "price": None,
-        "sources": [p["source"]],
-    }
-
-
-def merge_theater_into_events(
-    events: list[dict],
-    theater_events: list[dict],
-    config: dict,
-) -> None:
-    """
-    劇場イベントをプロフィールイベントリストに統合する。
-    同一公演は照合キーで突き合わせ、プロフィール側の不足情報を補完する。
-    劇場のみにある公演は新規エントリとして追加する。
-
-    照合キーはデュアルインデックス:
-    - プライマリ: talent_id + date + venue + start_time（両方あるとき）
-    - セカンダリ: talent_id + date + normalize_title（フォールバック）
-    """
+def build_events_from_theater(theater_events: list[dict], config: dict) -> list[dict]:
+    """劇場取得データからイベントリストを構築する。1公演 = 1レコード。"""
     talent_map = {t["id"]: t["name"] for t in config["talents"]}
-
-    # プロフィールイベントをプライマリ・セカンダリの両キーでインデックスに登録
-    primary_index: dict[str, int] = {}   # talent_id:date:venue:start_time → index
-    secondary_index: dict[str, int] = {} # talent_id:date:norm_title → index
-    for i, ev in enumerate(events):
-        pkey = _theater_key(ev["talent_id"], ev["date"], ev["title"],
-                            venue=ev.get("venue"), start_time=ev.get("start_time"))
-        skey = _theater_key(ev["talent_id"], ev["date"], ev["title"])
-        if ev.get("venue") and ev.get("start_time"):
-            primary_index[pkey] = i
-        secondary_index[skey] = i
+    events: list[dict] = []
+    id_index: dict[str, int] = {}
 
     for te in theater_events:
-        for tid in te["matched_talent_ids"]:
-            # プライマリキー（venue+start_time）で照合
-            pkey = _theater_key(tid, te["date"], te["title"],
-                                venue=te.get("venue"), start_time=te.get("start_time"))
-            # セカンダリキー（normalize_title）で照合
-            skey = _theater_key(tid, te["date"], te["title"])
+        eid = make_event_id(te["date"], te["title"],
+                            venue=te.get("venue"), start_time=te.get("start_time"))
+        talents = {tid: talent_map[tid]
+                   for tid in te["matched_talent_ids"] if tid in talent_map}
 
-            if pkey in primary_index:
-                # プライマリキーで一致（通常ケース）
-                ev = events[primary_index[pkey]]
-                _patch_from_theater(ev, te)
-            elif skey in secondary_index:
-                # セカンダリキーで一致（プロフィール側に venue/start_time がないケース）
-                ev = events[secondary_index[skey]]
-                _patch_from_theater(ev, te)
-                # venue/start_time が補完されたのでプライマリインデックスに昇格
-                if ev.get("venue") and ev.get("start_time"):
-                    idx = secondary_index[skey]
-                    new_pkey = _theater_key(ev["talent_id"], ev["date"], ev["title"],
-                                            venue=ev.get("venue"), start_time=ev.get("start_time"))
-                    primary_index[new_pkey] = idx
-            else:
-                # 劇場にしか存在しないイベントを新規追加
-                new_ev = _build_event_from_theater(te, tid, talent_map)
-                if new_ev:
-                    events.append(new_ev)
-                    primary_index[pkey] = len(events) - 1
+        if eid in id_index:
+            # 同IDが重複した場合（日時・会場・開演が同一の別エントリ）は talents をマージ
+            events[id_index[eid]]["talents"].update(talents)
+            events[id_index[eid]]["talents"] = dict(sorted(events[id_index[eid]]["talents"].items()))
+            continue
+
+        ev = {
+            "id": eid,
+            "talents": dict(sorted(talents.items())),
+            "title": te["title"],
+            "date": te["date"],
+            "open_time": te.get("open_time"),
+            "start_time": te.get("start_time"),
+            "end_time": te.get("end_time"),
+            "members": te.get("members", ""),
+            "venue": te.get("venue"),
+            "prefecture": te.get("prefecture"),
+            "image_url": te.get("image_url"),
+            "ticket_url": te.get("ticket_url"),
+            "online_url": te.get("online_url"),
+            "notice": te.get("notice"),
+            "price": te.get("price"),
+            "sources": [te["source"]],
+        }
+        id_index[eid] = len(events)
+        events.append(ev)
+
+    return events
 
 
-def _theater_key(talent_id: str, event_date: str, title: str,
-                 venue: str | None = None, start_time: str | None = None) -> str:
-    if venue and start_time:
-        return f"{talent_id}:{event_date}:{venue}:{start_time}"
-    return f"{talent_id}:{event_date}:{normalize_title(title)}"
-
-
-def _patch_from_theater(ev: dict, te: dict) -> None:
-    """劇場データでイベントフィールドを上書きする。
-    時刻・出演者・料金・チケットURLは劇場スケジュールが正とするため、
-    劇場データが存在する場合は既存値に関わらず上書きする。
+def merge_profile_into_events(events: list[dict], profile_events: list[dict]) -> None:
+    """プロフィール取得データを劇場ベースのイベントリストに補完マージする。
+    - 同一公演（IDで照合）: talents に芸人を追加、theater が null のフィールドのみ補完
+    - 劇場にない公演: プロフィールのみの新規エントリとして追加
     """
-    if te.get("open_time") is not None:
-        ev["open_time"] = te["open_time"]
-    if te.get("start_time") is not None:
-        ev["start_time"] = te["start_time"]
-    if te.get("end_time") is not None:
-        ev["end_time"] = te["end_time"]
-    if te.get("members"):
-        ev["members"] = te["members"]
-    # 劇場チケットURLを記録（優先ルール解決時に使用）
-    # ticket_url（スカラー）と ticket_urls（旧配列形式）の両方に対応
-    theater_url = te.get("ticket_url") or (te.get("ticket_urls") or [None])[0]
-    if theater_url:
-        ev["theater_ticket_url"] = theater_url
-    if te.get("online_url") is not None:
-        ev["online_url"] = te["online_url"]
-    if te.get("price") is not None:
-        ev["price"] = te["price"]
-    src = te.get("source")
-    if src and src not in ev.get("sources", []):
-        ev.setdefault("sources", []).append(src)
+    id_index: dict[str, int] = {ev["id"]: i for i, ev in enumerate(events)}
+
+    for pe in profile_events:
+        eid = make_event_id(pe["date"], pe["title"],
+                            venue=pe.get("venue"), start_time=pe.get("start_time"))
+
+        if eid in id_index:
+            ev = events[id_index[eid]]
+            # talents: theater 側にいない芸人のみ追加
+            for tid, tname in (pe.get("talents") or {}).items():
+                ev["talents"].setdefault(tid, tname)
+            ev["talents"] = dict(sorted(ev["talents"].items()))
+            # theater 側が null の場合のみセット（theater 優先厳守）
+            if ev.get("image_url") is None and pe.get("image_url"):
+                ev["image_url"] = pe["image_url"]
+            if ev.get("open_time") is None and pe.get("open_time"):
+                ev["open_time"] = pe["open_time"]
+            if ev.get("start_time") is None and pe.get("start_time"):
+                ev["start_time"] = pe["start_time"]
+            src = pe.get("source")
+            if src and src not in ev.get("sources", []):
+                ev.setdefault("sources", []).append(src)
+        else:
+            # プロフィールにしかない公演を新規追加
+            talents = pe.get("talents") or {}
+            new_ev = {
+                "id": eid,
+                "talents": dict(sorted(talents.items())),
+                "title": pe["title"],
+                "date": pe["date"],
+                "open_time": pe.get("open_time"),
+                "start_time": pe.get("start_time"),
+                "end_time": None,
+                "members": pe.get("members", ""),
+                "venue": pe.get("venue"),
+                "prefecture": pe.get("prefecture"),
+                "image_url": pe.get("image_url"),
+                "ticket_url": None,
+                "online_url": None,
+                "notice": None,
+                "price": None,
+                "sources": [pe.get("source", "profile")],
+            }
+            id_index[eid] = len(events)
+            events.append(new_ev)
 
 
-def _build_event_from_theater(te: dict, talent_id: str, talent_map: dict) -> dict | None:
-    talent_name = talent_map.get(talent_id)
-    if not talent_name:
-        return None
-    return {
-        "id": make_event_id(talent_id, te["date"], te["title"],
-                           venue=te.get("venue"), start_time=te.get("start_time")),
-        "talent_id": talent_id,
-        "talent_name": talent_name,
-        "title": te["title"],
-        "date": te["date"],
-        "open_time": te.get("open_time"),
-        "start_time": te.get("start_time"),
-        "end_time": te.get("end_time"),
-        "members": te.get("members", ""),
-        "venue": te.get("venue"),
-        "place": te.get("place"),
-        "image_url": None,
-        # ticket_url（スカラー）と ticket_urls（旧配列形式）の両方に対応
-        "ticket_url": te.get("ticket_url") or (te.get("ticket_urls") or [None])[0],
-        "online_url": te.get("online_url"),
-        "price": te.get("price"),
-        "sources": [te["source"]],
-    }
-
-
-def download_flyers(events: list[dict], existing_map: dict[str, dict]) -> None:
+def download_flyers(
+    events: list[dict],
+    existing_map: dict[str, dict],
+    url_to_local: dict[str, str],
+) -> None:
     """
     フライヤー画像をローカルに保存する。
-    - 新規イベント: image_url があればダウンロード
-    - 既存イベント: image_url が変わっていたら再ダウンロードして上書き
-    - local_image フィールドに docs/ からの相対パスを設定する
+    - ① 新IDのファイルが既に存在: スキップ（冪等性）
+    - ② 同じ image_url の旧ファイルが存在: リネーム（IDリセット移行対応）
+    - ③ 上記いずれでもなければダウンロード
     """
     FLIERS_DIR.mkdir(parents=True, exist_ok=True)
-    downloaded = updated = skipped = 0
+    _ALLOWED_SUFFIXES = {".jpg", ".jpeg", ".png", ".gif", ".webp"}
+    downloaded = renamed = skipped = 0
 
     for ev in events:
         url = ev.get("image_url")
@@ -281,44 +236,39 @@ def download_flyers(events: list[dict], existing_map: dict[str, dict]) -> None:
             ev["local_image"] = existing_map.get(ev["id"], {}).get("local_image")
             continue
 
-        old = existing_map.get(ev["id"], {})
-        old_url = old.get("image_url")
-        old_local = old.get("local_image")
-
-        # URL が変わっていなくてローカルファイルが存在するならスキップ
-        if url == old_url and old_local:
-            local_path = BASE_DIR / "docs" / old_local
-            if local_path.exists():
-                ev["local_image"] = old_local
-                skipped += 1
-                continue
-
-        # 拡張子を URL から推定（画像拡張子ホワイトリストに合致しなければ .jpg）
-        _ALLOWED_SUFFIXES = {".jpg", ".jpeg", ".png", ".gif", ".webp"}
         _raw_suffix = Path(url.split("?")[0]).suffix.lower()
         suffix = _raw_suffix if _raw_suffix in _ALLOWED_SUFFIXES else ".jpg"
-        filename = f"{ev['id']}{suffix}"
-        save_path = FLIERS_DIR / filename
+        new_filename = f"{ev['id']}{suffix}"
+        new_path = FLIERS_DIR / new_filename
 
+        # ① 新IDのファイルが既に存在するならスキップ
+        if new_path.exists():
+            ev["local_image"] = f"fliers/{new_filename}"
+            skipped += 1
+            continue
+
+        # ② 同じ image_url の旧ファイルが存在するならリネーム
+        old_local = url_to_local.get(url)
+        if old_local:
+            old_path = BASE_DIR / "docs" / old_local
+            if old_path.exists():
+                old_path.rename(new_path)
+                ev["local_image"] = f"fliers/{new_filename}"
+                renamed += 1
+                continue
+
+        # ③ ダウンロード
         try:
-            req = urllib.request.Request(
-                url,
-                headers={"User-Agent": "Mozilla/5.0"},
-            )
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=15) as resp:
-                save_path.write_bytes(resp.read())
-            rel = f"fliers/{filename}"
-            ev["local_image"] = rel
-            if url == old_url:
-                skipped += 1  # ファイルが消えていたので再取得
-            else:
-                updated += 1 if old_url else 0
-                downloaded += 1 if not old_url else 0
+                new_path.write_bytes(resp.read())
+            ev["local_image"] = f"fliers/{new_filename}"
+            downloaded += 1
         except Exception as e:
             print(f"  警告: フライヤー取得失敗 ({ev['title'][:20]}): {e}")
-            ev["local_image"] = old_local  # 失敗時は旧パスを維持
+            ev["local_image"] = existing_map.get(ev["id"], {}).get("local_image")
 
-    print(f"フライヤー: 新規 {downloaded} 件、更新 {updated} 件、スキップ {skipped} 件")
+    print(f"フライヤー: 新規 {downloaded} 件、リネーム {renamed} 件、スキップ {skipped} 件")
 
 
 def diff_and_update(
@@ -395,24 +345,26 @@ def diff_and_update(
 def main():
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
 
-    print("プロフィールイベント読み込み中...")
-    profile_events = load_profile_events()
-    print(f"  {len(profile_events)} 件")
-
     print("劇場イベント読み込み中...")
     theater_events = load_theater_events()
     print(f"  {len(theater_events)} 件")
+
+    print("プロフィールイベント読み込み中...")
+    profile_events = load_profile_events()
+    print(f"  {len(profile_events)} 件")
 
     print("既存 events.json 読み込み中...")
     existing_events = load_existing_events()
     print(f"  {len(existing_events)} 件")
 
-    # プロフィール取得分をベースにイベントリストを構築
-    scraped: list[dict] = [build_event_from_profile(p) for p in profile_events]
+    # 劇場取得分をベースにイベントリストを構築（1公演 = 1レコード）
+    print("劇場データからイベントリストを構築中...")
+    scraped: list[dict] = build_events_from_theater(theater_events, config)
+    print(f"  {len(scraped)} 件")
 
-    # 劇場取得分をマージ
-    print("劇場データをマージ中...")
-    merge_theater_into_events(scraped, theater_events, config)
+    # プロフィール取得分でギャップ補完
+    print("プロフィールデータをマージ中...")
+    merge_profile_into_events(scraped, profile_events)
     print(f"  マージ後: {len(scraped)} 件")
 
     # 除外タイトルフィルタ（部分一致）
@@ -425,27 +377,19 @@ def main():
         ]
         print(f"除外フィルタ適用: {before - len(scraped)} 件除外 → {len(scraped)} 件")
 
-    # チケットURL優先ルール解決
-    # 1. 劇場スケジュールのURL（/event/detail/ パスのみ）があればそれを使用
-    # 2. プロフィールのURLのうち /event/detail/ パスのものを先頭から採用
-    # 3. いずれもなければ None
-    # クエリパラメータはすべて除去する
+    # チケットURL: 劇場データのスカラー値を /event/detail/ 形式チェック + クエリパラメータ除去
     for ev in scraped:
-        theater_url = _normalize_ticket_url(ev.pop("theater_ticket_url", None))
-        if theater_url:
-            ev["ticket_url"] = theater_url
-        else:
-            profile_urls = ev.pop("ticket_urls", None) or []
-            ev["ticket_url"] = next(
-                (u for u in (_normalize_ticket_url(u) for u in profile_urls) if u),
-                None,
-            )
-        ev.pop("ticket_urls", None)
+        ev["ticket_url"] = _normalize_ticket_url(ev.get("ticket_url"))
 
-    # フライヤー画像ダウンロード（URL変更時は再取得）
+    # フライヤー画像ダウンロード（image_url キーで旧ファイルをリネーム対応）
     print("フライヤー画像を処理中...")
     existing_map = {ev["id"]: ev for ev in existing_events}
-    download_flyers(scraped, existing_map)
+    url_to_local = {
+        ev["image_url"]: ev["local_image"]
+        for ev in existing_events
+        if ev.get("image_url") and ev.get("local_image")
+    }
+    download_flyers(scraped, existing_map, url_to_local)
 
     # フィールド保護: 既存値への後退を防ぐ
     # - open_time / start_time / end_time: None への後退はスクレイピング欠落によるバグ

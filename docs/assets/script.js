@@ -43,7 +43,7 @@ function allCards() {
 function buildVenueOptions() {
   const present = new Set();
   allCards().forEach(c => {
-    if (currentTalent && c.dataset.talent !== currentTalent) return;
+    if (currentTalent && !c.dataset.talent.split(' ').includes(currentTalent)) return;
     if (c.dataset.venue) present.add(c.dataset.venue);
   });
 
@@ -99,7 +99,7 @@ function applyFilters() {
     const remindOk = !remindOnly
       || !!c.querySelector('.remind-btn[data-remind="on"]');
     const excludedOk = showExcluded || c.dataset.excluded !== 'true';
-    const ok = (!currentTalent || c.dataset.talent === currentTalent)
+    const ok = (!currentTalent || c.dataset.talent.split(' ').includes(currentTalent))
             && (!venue  || c.dataset.venue === venue)
             && (!from   || c.dataset.date  >= from)
             && (!to     || c.dataset.date  <= to)

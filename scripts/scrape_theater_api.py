@@ -91,8 +91,6 @@ def parse_event(item: dict, theater: dict, talent_ids: set[str]) -> dict | None:
     ticket_url = raw_url1 if "ticket.fany.lol" in raw_url1 else None
 
     return {
-        "talent_id": None,
-        "talent_name": None,
         "matched_talent_ids": sorted(matched),
         "title": item["name"],
         "date": event_date,
@@ -101,10 +99,11 @@ def parse_event(item: dict, theater: dict, talent_ids: set[str]) -> dict | None:
         "end_time": item.get("dateTime3"),
         "members": members,
         "venue": theater["name"],
-        "place": None,
+        "prefecture": theater.get("prefecture"),
         "image_url": item.get("url3"),
         "ticket_url": ticket_url,
         "online_url": item.get("url2"),
+        "notice": item.get("notice") or None,
         "price": price or None,
         "source": f"theater:{theater['id']}",
     }

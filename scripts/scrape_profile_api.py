@@ -4,6 +4,7 @@ Selenium を使わず requests で JSON を直接取得し、profile_events.json
 """
 
 import json
+import re
 import requests
 from datetime import datetime
 from pathlib import Path
@@ -21,17 +22,15 @@ def fetch_talent(talent_id: str) -> list[dict]:
     return resp.json()
 
 
-def parse_venue_place(item: dict) -> tuple[str | None, str | None]:
-    """venue と place を返す。既存スクリプトの出力形式に合わせる。"""
-    if item.get("isPermanentPlace"):
-        # 吉本管轄劇場: placeType が劇場名、city が所在地
-        venue = item.get("placeType") or None
-        place = item.get("city") or None
-    else:
-        # その他劇場: place をそのまま venue に（"会場名（都道府県）" 形式で保持）
-        venue = item.get("place") or None
-        place = None
-    return venue, place
+def parse_venue_prefecture(item: dict) -> tuple[str | None, str | None]:
+    """place フィールド「劇場名（都道府県）」を分割して (venue, prefecture) を返す。
+    isPermanentPlace に関わらず一律で place フィールドから取得する。
+    """
+    place = item.get("place") or ""
+    m = re.match(r"^(.+?)（(.+?)）$", place.strip())
+    if m:
+        return m.group(1).strip(), m.group(2).strip()
+    return place.strip() or None, None
 
 
 def parse_event(item: dict, talent: dict) -> dict | None:
@@ -59,22 +58,20 @@ def parse_event(item: dict, talent: dict) -> dict | None:
     if not title:
         return None
 
-    venue, place = parse_venue_place(item)
+    venue, prefecture = parse_venue_prefecture(item)
     members = (item.get("member") or "").replace("\r\n", "\n").strip()
     image_url = item.get("url1") or None
 
     return {
-        "talent_id": talent["id"],
-        "talent_name": talent["name"],
+        "talents": {talent["id"]: talent["name"]},
         "title": title,
         "date": event_date,
         "open_time": open_time,
         "start_time": start_time,
         "members": members,
-        "place": place,
         "venue": venue,
+        "prefecture": prefecture,
         "image_url": image_url,
-        "ticket_urls": [],
         "source": "profile",
     }
 
@@ -84,7 +81,6 @@ def main():
     talents = config["talents"]
     all_events: list[dict] = []
 
-    # 同一公演が複数エントリになる場合（ticket_urlのみ異なる）を統合する
     for talent in talents:
         print(f"  取得中: {talent['name']}")
         try:
@@ -101,10 +97,6 @@ def main():
             key = (event["date"], event["title"], event["start_time"])
             if key not in merged:
                 merged[key] = event
-            else:
-                for url in event["ticket_urls"]:
-                    if url not in merged[key]["ticket_urls"]:
-                        merged[key]["ticket_urls"].append(url)
 
         events = list(merged.values())
         print(f"    {len(events)} 件取得（全 {len(items)} 件中）")

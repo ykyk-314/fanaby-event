@@ -105,8 +105,11 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
         times.append(f"終演 {ev['end_time']}")
     time_str = " | ".join(times)
 
-    venue_raw = ev.get("venue") or ev.get("place") or ""
-    venue     = escape_html(venue_raw)
+    venue_raw      = ev.get("venue") or ""
+    prefecture_raw = ev.get("prefecture") or ""
+    venue_display  = escape_html(venue_raw)
+    if prefecture_raw:
+        venue_display += f' / {escape_html(prefecture_raw)}'
     members   = escape_html(ev.get("members") or "")
     price_str = escape_html(format_price(ev.get("price")))
 
@@ -143,10 +146,10 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
         f'<span>{date_str}{" " + time_str if time_str else ""}</span>'
         f'</div>'
     )
-    if venue:
+    if venue_display:
         info_rows += (
             f'<div class="info-row">'
-            f'<span class="info-label">会場</span><span>{venue}</span>'
+            f'<span class="info-label">会場</span><span>{venue_display}</span>'
             f'</div>'
         )
     if members:
@@ -168,6 +171,16 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
             f'<span class="info-label">受付</span>'
             f'{render_ticket_deadlines(tickets)}'
             f'</div>'
+        )
+
+    notice_raw = ev.get("notice") or ""
+    notice_html = ""
+    if notice_raw:
+        notice_html = (
+            f'<details class="notice-details">'
+            f'<summary class="notice-summary">お知らせ</summary>'
+            f'<p class="notice-text">{escape_html(notice_raw)}</p>'
+            f'</details>'
         )
 
     ev_id = escape_html(ev.get("id", ""))
@@ -205,12 +218,16 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
         f'</div>'
     )
 
+    talents = ev.get("talents") or {}
+    talent_ids_str = " ".join(sorted(talents.keys()))
+
     excluded_attr = 'data-excluded="true"' if ev.get("excluded") else 'data-excluded="false"'
     return (
         f'<div class="{past_class}" '
         f'{excluded_attr} '
-        f'data-talent="{escape_html(ev.get("talent_id", ""))}" '
+        f'data-talent="{escape_html(talent_ids_str)}" '
         f'data-venue="{escape_html(venue_raw)}" '
+        f'data-prefecture="{escape_html(prefecture_raw)}" '
         f'data-date="{escape_html(ev_date)}" '
         f'data-event-id="{ev_id}" '
         f'data-title="{escape_html(ev.get("title", ""))}" '
@@ -218,7 +235,7 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
         f'data-viewing-status="">'
         f'<div class="card-header">{badge}<span class="card-title">{title}</span></div>'
         f'<div class="card-body">'
-        f'<div class="card-left"><div class="card-info">{info_rows}</div>{btns_html}{memo_html}</div>'
+        f'<div class="card-left"><div class="card-info">{info_rows}</div>{notice_html}{btns_html}{memo_html}</div>'
         f'{flyer}'
         f'</div>'
         f'</div>'

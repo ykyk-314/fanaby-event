@@ -12,7 +12,7 @@
       "start_time": "14:00",
       "end_time": null,
       "members": "カラタチ前田、小森園ひろし、九条ジョー、シンクロニシティ西野",
-      "venue": "表現ライブハウス 池袋西口GEKIBA（東京都）",
+      "venue": "表現ライブハウス 池袋西口GEKIBA",
       "prefecture": "東京都",
       "image_url": null,
       "local_image": null,
@@ -69,7 +69,7 @@
       "start_time": "19:00",
       "end_time": null,
       "members": "はら（ゆにばーす）、大谷健太、野澤輸出、オダウエダ、ルシファー吉岡（マセキ芸能社）、紺野ぶるま（松竹芸能）、ななまがり森下\nMC：ケビンス仁木恭平",
-      "venue": "LEFKADA新宿（東京都）",
+      "venue": "LEFKADA新宿",
       "prefecture": "東京都",
       "image_url": null,
       "local_image": null,
@@ -238,7 +238,7 @@
       "start_time": "16:00",
       "end_time": null,
       "members": "ソマオ・ミートボール\nゲスト：シンクロニシティ西野",
-      "venue": "ワラケンスタジオ（東京都）",
+      "venue": "ワラケンスタジオ",
       "prefecture": "東京都",
       "image_url": null,
       "local_image": null,
@@ -297,7 +297,7 @@
       "start_time": "19:00",
       "end_time": null,
       "members": "ドーナツ・ピーナツ、ミカボ\nゲスト：シンクロニシティ、愛凛冴、ひつじねいり(マセキ芸能社)",
-      "venue": "新宿シアターモリエール（東京都）",
+      "venue": "新宿シアターモリエール",
       "prefecture": "東京都",
       "image_url": null,
       "local_image": null,
@@ -636,39 +636,6 @@
       "diff": null
     },
     {
-      "id": "38e11f3d",
-      "talents": {
-        "7295": "ケビンス"
-      },
-      "title": "ケビンストークライブ『バカと煙』",
-      "date": "2026-04-30",
-      "open_time": "20:45",
-      "start_time": "21:00",
-      "end_time": "22:00",
-      "members": "[企画ライブ]ケビンス",
-      "venue": "渋谷よしもと漫才劇場",
-      "prefecture": null,
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015460_1_20260412224252307.jpg",
-      "local_image": "fliers/38e11f3d.jpg",
-      "ticket_url": "https://ticket.fany.lol/event/detail/14869/40673",
-      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%96-%E3%83%90%E3%82%AB%E3%81%A8%E7%85%99-4-30-21-00?utm_medium=schedule&utm_source=shibuya_manzaigekijyo&utm_campaign=%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%80%8E%E3%83%90%E3%82%AB%E3%81%A8%E7%85%99%E3%80%8F",
-      "notice": null,
-      "price": {
-        "advance": 2000,
-        "door": 2500,
-        "online": 1300
-      },
-      "status": "notified",
-      "first_seen": "2026-04-16T14:53:22+09:00",
-      "last_updated": "2026-04-24T13:53:15+09:00",
-      "notified_at": "2026-04-24T13:53:15+09:00",
-      "diff": null,
-      "sources": [
-        "profile",
-        "theater:shibuya"
-      ]
-    },
-    {
       "id": "7bfbd575",
       "talents": {
         "5114": "マユリカ"
@@ -679,7 +646,7 @@
       "start_time": "19:00",
       "end_time": null,
       "members": "マユリカ",
-      "venue": "LINE CUBE SHIBUYA（東京都）",
+      "venue": "LINE CUBE SHIBUYA",
       "prefecture": "東京都",
       "image_url": null,
       "local_image": null,
@@ -1166,8 +1133,8 @@
       "start_time": "14:00",
       "end_time": null,
       "members": "蛙亭、カラタチ、kento fukaya、ZAZY、マユリカ、やさしいズ タイ、コットン、田津原理音、9番街レトロ、エルフ",
-      "venue": "銀座ブロッサム",
-      "prefecture": "中央会館）ホール（東京都",
+      "venue": "銀座ブロッサム（中央会館）ホール",
+      "prefecture": "東京都",
       "image_url": null,
       "ticket_url": null,
       "online_url": null,

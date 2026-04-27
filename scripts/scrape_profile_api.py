@@ -24,10 +24,12 @@ def fetch_talent(talent_id: str) -> list[dict]:
 
 def parse_venue_prefecture(item: dict) -> tuple[str | None, str | None]:
     """place フィールド「劇場名（都道府県）」を分割して (venue, prefecture) を返す。
-    isPermanentPlace に関わらず一律で place フィールドから取得する。
+    末尾の（都道府県）を greedy で探すため、"銀座ブロッサム（中央会館）ホール（東京都）"
+    のように会場名に括弧を含む場合も正しく分割できる。
     """
     place = item.get("place") or ""
-    m = re.match(r"^(.+?)（(.+?)）$", place.strip())
+    # 末尾の（...都/道/府/県）を都道府県として切り出す
+    m = re.match(r"^(.+)（(.+?[都道府県])）$", place.strip())
     if m:
         return m.group(1).strip(), m.group(2).strip()
     return place.strip() or None, None

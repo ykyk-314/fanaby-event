@@ -1147,34 +1147,7 @@
       "status": "notified",
       "first_seen": "2026-04-27T18:02:00+09:00",
       "last_updated": "2026-04-27T18:02:00+09:00",
-      "notified_at": "2026-04-27T18:02:00+09:00"
-    },
-    {
-      "id": "56daffc7",
-      "talents": {
-        "5114": "マユリカ"
-      },
-      "title": "TOKYO SHUCHAN COLLECTION 2026",
-      "date": "2026-05-10",
-      "open_time": "13:30",
-      "start_time": "14:00",
-      "end_time": null,
-      "members": "蛙亭、カラタチ、kento fukaya、ZAZY、マユリカ、やさしいズ タイ、コットン、田津原理音、9番街レトロ、エルフ",
-      "venue": "銀座ブロッサム（中央会館）ホール",
-      "prefecture": "東京都",
-      "image_url": null,
-      "ticket_url": null,
-      "online_url": null,
-      "notice": null,
-      "price": null,
-      "sources": [
-        "profile"
-      ],
-      "local_image": null,
-      "status": "notified",
-      "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
+      "notified_at": "2026-04-27T18:02:00+09:00",
       "diff": null
     },
     {

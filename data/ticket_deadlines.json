@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T10:16:43.324772+09:00",
+  "updated_at": "2026-04-27T13:53:57.352312+09:00",
   "events": {
     "70b4395b": {
       "title": "おもろいぜトゥエルブ",
@@ -287,6 +287,105 @@
       "date": "2026-06-03",
       "scraped_at": "2026-04-27T08:59:25.598149+09:00",
       "tickets": []
+    },
+    "b3c6f63e": {
+      "title": "ケビンス×イチゴツーマンライブ「木原くん、梨あるよ」",
+      "date": "2026-06-17",
+      "scraped_at": "2026-04-27T13:53:57.352312+09:00",
+      "tickets": [
+        {
+          "name": "●FANY IDプレミアムメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付中",
+          "start": "2026/04/26 11:00",
+          "end": "2026/04/28 11:00",
+          "url": "https://ticket.fany.lol/reception/49306/42281"
+        },
+        {
+          "name": "FANY IDメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付中",
+          "start": "2026/04/26 11:00",
+          "end": "2026/04/28 11:00",
+          "url": "https://ticket.fany.lol/reception/49307/42281"
+        },
+        {
+          "name": "一般発売",
+          "type": "general",
+          "status_text": "先着発売前",
+          "start": "2026/05/05 10:00",
+          "end": "2026/06/17 19:00",
+          "url": "https://ticket.fany.lol/reception/49308/42281"
+        }
+      ]
+    },
+    "c40d3349": {
+      "title": "シンクロニシティとインテイクが25分前後の漫才を1本ずつやるライブ",
+      "date": "2026-06-03",
+      "scraped_at": "2026-04-27T13:53:57.352312+09:00",
+      "tickets": []
+    },
+    "316d4de4": {
+      "title": "ホットフレッシュリリース",
+      "date": "2026-06-10",
+      "scraped_at": "2026-04-27T13:53:57.352312+09:00",
+      "tickets": [
+        {
+          "name": "●FANY IDプレミアムメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付中",
+          "start": "2026/04/25 11:00",
+          "end": "2026/04/28 11:00",
+          "url": "https://ticket.fany.lol/reception/48959/41955"
+        },
+        {
+          "name": "FANY IDメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付中",
+          "start": "2026/04/25 11:00",
+          "end": "2026/04/28 11:00",
+          "url": "https://ticket.fany.lol/reception/48977/41955"
+        },
+        {
+          "name": "一般発売",
+          "type": "general",
+          "status_text": "先着発売前",
+          "start": "2026/05/05 10:00",
+          "end": "2026/06/10 19:15",
+          "url": "https://ticket.fany.lol/reception/48995/41955"
+        }
+      ]
+    },
+    "a6cbeee0": {
+      "title": "漫才漫ション9兆1千5号室",
+      "date": "2026-06-20",
+      "scraped_at": "2026-04-27T13:53:57.352312+09:00",
+      "tickets": [
+        {
+          "name": "●FANY IDプレミアムメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付中",
+          "start": "2026/04/25 11:00",
+          "end": "2026/04/28 11:00",
+          "url": "https://ticket.fany.lol/reception/48760/41881"
+        },
+        {
+          "name": "FANY IDメンバー抽選先行",
+          "type": "lottery",
+          "status_text": "抽選受付中",
+          "start": "2026/04/25 11:00",
+          "end": "2026/04/28 11:00",
+          "url": "https://ticket.fany.lol/reception/48808/41881"
+        },
+        {
+          "name": "一般発売",
+          "type": "general",
+          "status_text": "先着発売前",
+          "start": "2026/05/05 10:00",
+          "end": "2026/06/20 15:15",
+          "url": "https://ticket.fany.lol/reception/48854/41881"
+        }
+      ]
     }
   }
 }

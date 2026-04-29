@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-29T10:03:51+09:00",
+  "updated_at": "2026-04-29T17:56:47+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -701,13 +701,13 @@
       "open_time": "17:00",
       "start_time": "17:15",
       "end_time": "18:15",
-      "members": "蛙亭／シンクロニシティ／エレガント人生／世間知らズ",
+      "members": "蛙亭／シンクロニシティ／世間知らズ／定点計画",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014867_1_20260426130109833.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14397/39942",
       "online_url": null,
-      "notice": "男女コンビが集い、ネタとトークのライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：3/25（水）11:00～3/28（土）11:00\r\n〇一般販売：4/5（日）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "notice": "男女コンビが集い、ネタとトークのライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：3/25（水）11:00～3/28（土）11:00\r\n〇一般販売：4/5（日）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n■変更履歴■\r\n[追加]\r\n定点計画(4/29)\r\n\r\n※エレガント人生の出演はなくなりました。(4/29)",
       "price": {
         "advance": 2000,
         "door": 2500
@@ -718,10 +718,9 @@
       ],
       "local_image": "fliers/a4e273f4.jpg",
       "status": "notified",
+      "last_updated": "2026-04-29T17:56:47+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-29T17:56:47+09:00"
     },
     {
       "id": "70313322",
@@ -967,9 +966,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-29T10:03:51+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00"
+      "last_updated": "2026-04-29T10:03:51+09:00",
+      "notified_at": "2026-04-29T10:03:51+09:00",
+      "diff": null
     },
     {
       "id": "71620b5b",
@@ -1575,6 +1575,33 @@
       "diff": null
     },
     {
+      "id": "6fdd9357",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "沼ツーマン×2",
+      "date": "2026-05-22",
+      "open_time": "18:15",
+      "start_time": "18:30",
+      "end_time": null,
+      "members": "[ネタ]サルゴリラ／ケビンス／9番街レトロ／他",
+      "venue": "沼津ラクーンよしもと劇場",
+      "prefecture": "静岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-29T17:56:47+09:00",
+      "last_updated": "2026-04-29T17:56:47+09:00",
+      "notified_at": "2026-04-29T17:56:47+09:00"
+    },
+    {
       "id": "0e7d44cf",
       "talents": {
         "5114": "マユリカ"
@@ -1601,6 +1628,33 @@
       "last_updated": "2026-04-27T12:05:52+09:00",
       "notified_at": "2026-04-27T12:05:52+09:00",
       "diff": null
+    },
+    {
+      "id": "6da2efca",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "おかわり沼ツーマン×2",
+      "date": "2026-05-22",
+      "open_time": "19:45",
+      "start_time": "20:00",
+      "end_time": null,
+      "members": "[ネタ]サルゴリラ／ケビンス／9番街レトロ／他",
+      "venue": "沼津ラクーンよしもと劇場",
+      "prefecture": "静岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-29T17:56:47+09:00",
+      "last_updated": "2026-04-29T17:56:47+09:00",
+      "notified_at": "2026-04-29T17:56:47+09:00"
     },
     {
       "id": "fdc46d1e",
@@ -2217,7 +2271,8 @@
       "status": "notified",
       "first_seen": "2026-04-29T10:03:51+09:00",
       "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00"
+      "notified_at": "2026-04-29T10:03:51+09:00",
+      "diff": null
     },
     {
       "id": "c3412b7a",
@@ -2244,7 +2299,8 @@
       "status": "notified",
       "first_seen": "2026-04-29T10:03:51+09:00",
       "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00"
+      "notified_at": "2026-04-29T10:03:51+09:00",
+      "diff": null
     },
     {
       "id": "9aac9db9",
@@ -2271,7 +2327,8 @@
       "status": "notified",
       "first_seen": "2026-04-29T10:03:51+09:00",
       "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00"
+      "notified_at": "2026-04-29T10:03:51+09:00",
+      "diff": null
     },
     {
       "id": "b91d83fb",
@@ -2298,7 +2355,8 @@
       "status": "notified",
       "first_seen": "2026-04-29T10:03:51+09:00",
       "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00"
+      "notified_at": "2026-04-29T10:03:51+09:00",
+      "diff": null
     },
     {
       "id": "cedb7b8c",
@@ -2353,7 +2411,8 @@
       "status": "notified",
       "first_seen": "2026-04-29T10:03:51+09:00",
       "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00"
+      "notified_at": "2026-04-29T10:03:51+09:00",
+      "diff": null
     },
     {
       "id": "b8b96fdc",
@@ -2380,7 +2439,8 @@
       "status": "notified",
       "first_seen": "2026-04-29T10:03:51+09:00",
       "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00"
+      "notified_at": "2026-04-29T10:03:51+09:00",
+      "diff": null
     },
     {
       "id": "316d4de4",
@@ -2918,7 +2978,8 @@
       "status": "notified",
       "first_seen": "2026-04-29T10:03:51+09:00",
       "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00"
+      "notified_at": "2026-04-29T10:03:51+09:00",
+      "diff": null
     },
     {
       "id": "8930dd1d",
@@ -2945,7 +3006,8 @@
       "status": "notified",
       "first_seen": "2026-04-29T10:03:51+09:00",
       "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00"
+      "notified_at": "2026-04-29T10:03:51+09:00",
+      "diff": null
     },
     {
       "id": "f33d842f",
@@ -2972,7 +3034,8 @@
       "status": "notified",
       "first_seen": "2026-04-29T10:03:51+09:00",
       "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00"
+      "notified_at": "2026-04-29T10:03:51+09:00",
+      "diff": null
     },
     {
       "id": "43605af8",

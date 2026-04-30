@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-29T17:56:47+09:00",
+  "updated_at": "2026-04-30T10:03:47+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -625,8 +625,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/134e4962.jpg",
       "status": "notified",
@@ -718,9 +717,10 @@
       ],
       "local_image": "fliers/a4e273f4.jpg",
       "status": "notified",
-      "last_updated": "2026-04-29T17:56:47+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-29T17:56:47+09:00"
+      "last_updated": "2026-04-29T17:56:47+09:00",
+      "notified_at": "2026-04-29T17:56:47+09:00",
+      "diff": null
     },
     {
       "id": "70313322",
@@ -1599,7 +1599,8 @@
       "status": "notified",
       "first_seen": "2026-04-29T17:56:47+09:00",
       "last_updated": "2026-04-29T17:56:47+09:00",
-      "notified_at": "2026-04-29T17:56:47+09:00"
+      "notified_at": "2026-04-29T17:56:47+09:00",
+      "diff": null
     },
     {
       "id": "0e7d44cf",
@@ -1654,7 +1655,8 @@
       "status": "notified",
       "first_seen": "2026-04-29T17:56:47+09:00",
       "last_updated": "2026-04-29T17:56:47+09:00",
-      "notified_at": "2026-04-29T17:56:47+09:00"
+      "notified_at": "2026-04-29T17:56:47+09:00",
+      "diff": null
     },
     {
       "id": "fdc46d1e",
@@ -2256,7 +2258,7 @@
       "open_time": "12:45",
       "start_time": "13:00",
       "end_time": null,
-      "members": "CITY／ななまがり／ダイタク／男性ブランコ／からし蓮根／シンクロニシティ",
+      "members": "CITY／ななまがり／アイロンヘッド／ダイタク／男性ブランコ／からし蓮根／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
@@ -2269,10 +2271,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T10:03:47+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T10:03:47+09:00"
     },
     {
       "id": "c3412b7a",
@@ -2284,7 +2285,7 @@
       "open_time": "14:45",
       "start_time": "15:00",
       "end_time": null,
-      "members": "CITY／ななまがり／ダイタク／男性ブランコ／からし蓮根／シンクロニシティ",
+      "members": "CITY／ななまがり／アイロンヘッド／ダイタク／男性ブランコ／からし蓮根／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
@@ -2297,10 +2298,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T10:03:47+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T10:03:47+09:00"
     },
     {
       "id": "9aac9db9",
@@ -2312,7 +2312,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "CITY／タモンズ／ななまがり／ダイタク／男性ブランコ／からし蓮根／シンクロニシティ",
+      "members": "CITY／タモンズ／ななまがり／アイロンヘッド／ダイタク／男性ブランコ／からし蓮根／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
@@ -2325,10 +2325,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T10:03:47+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T10:03:47+09:00"
     },
     {
       "id": "b91d83fb",
@@ -2340,7 +2339,7 @@
       "open_time": "18:15",
       "start_time": "18:30",
       "end_time": null,
-      "members": "CITY／タモンズ／ななまがり／ダイタク／男性ブランコ／シンクロニシティ",
+      "members": "CITY／タモンズ／ななまがり／アイロンヘッド／ダイタク／男性ブランコ／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
@@ -2353,10 +2352,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T10:03:47+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T10:03:47+09:00"
     },
     {
       "id": "cedb7b8c",

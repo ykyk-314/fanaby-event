@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T10:03:47+09:00",
+  "updated_at": "2026-04-30T17:57:30+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -731,24 +731,27 @@
       "date": "2026-05-02",
       "open_time": "18:30",
       "start_time": "19:00",
-      "end_time": null,
+      "end_time": "20:10",
       "members": "ミルクボーイ／トット／セルライトスパ／滝音／カベポスター／ミカボ／エバース／シンクロニシティ／イチゴ／大王",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015306_1_20260426101502114.jpg",
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14845/40651",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/8(水) 11:00 〜 4/10(金) 11:00\r\n当落発表：4/11(土) 18:00頃\r\n\r\n一般発売：4/12(日) 10:00\r\n\r\n※未就学児入場不可",
+      "price": {
+        "advance": 3000,
+        "door": 3500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": "fliers/70313322.jpg",
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "0e3d26c9",
@@ -1013,24 +1016,28 @@
       "date": "2026-05-06",
       "open_time": "16:15",
       "start_time": "16:30",
-      "end_time": null,
+      "end_time": "17:30",
       "members": "素敵じゃないか／ソマオ・ミートボール／トット／すゑひろがりず／シシガシラ／ちょんまげラーメン／めぞん／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
-      "online_url": null,
-      "notice": null,
-      "price": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14656/40407",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E7%B4%A0%E6%95%B5%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E3%81%8B%E3%81%AE%E6%BC%AB%E6%89%8D%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3-5-6-16-30",
+      "notice": "素敵じゃないかが毎月ゲストを招いてお送りするネタとコーナーの60分！\r\n\r\n【チケット情報】\r\n先行期間：3/30（月）11:00～4/1（水）11:00\r\n当落発表：4/2（木）18:00頃\r\nオンライン・一般発売：4/3（金）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 1800,
+        "door": 2100,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "9fdf8ba4",
@@ -1191,24 +1198,27 @@
       "date": "2026-05-10",
       "open_time": "19:00",
       "start_time": "19:30",
-      "end_time": null,
+      "end_time": "20:40",
       "members": "マルセイユ／キンボシ／カラタチ／くらげ／ミカボ／シンクロニシティ／9番街レトロ／ゼロカラン／めぞん／照山おうちごはん／ナユタ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14878/40682",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "■チケット情報■\r\n一般発売：4/8(水)10:00～\r\n※FANYチケットのみ",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-28T10:02:29+09:00",
-      "notified_at": "2026-04-28T10:02:29+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "29f5e4ac",
@@ -1434,24 +1444,27 @@
       "date": "2026-05-16",
       "open_time": "18:30",
       "start_time": "19:00",
-      "end_time": null,
+      "end_time": "20:30",
       "members": "５ＧＡＰ／セルライトスパ／ダイタク／ケビンス／カベポスター／シンクロニシティ／めぞん／イチゴ／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260413155112151.jpg",
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15066/41374",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "■チケット情報■\r\n\r\n一般発売：4/14(火) 10:00\r\n\r\n※未就学児入場不可",
+      "price": {
+        "advance": 2800,
+        "door": 3300
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": "fliers/9e5dd139.jpg",
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "02f3be27",
@@ -1462,24 +1475,28 @@
       "date": "2026-05-17",
       "open_time": "14:15",
       "start_time": "14:30",
-      "end_time": null,
+      "end_time": "15:30",
       "members": "9番街レトロ／シンクロニシティ／兄弟／ナユタ／ビューティフルトーキョーマンズ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
-      "online_url": null,
-      "notice": null,
-      "price": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14689/40444",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/search?q=%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E5%BE%8C%E8%BC%A9%E4%BB%A3%E8%A1%A8%E3%81%AF%E5%83%95%E3%81%A7%E3%81%99%EF%BC%81%EF%BD%9E%E5%BE%8C%E8%BC%A9%E8%8A%B8%E4%BA%BA%E5%8A%9B%E7%8E%8B%E6%B1%BA%E5%AE%9A%E6%88%A6%EF%BD%9E&type=product",
+      "notice": "【チケット情報】\r\n先行期間：4/4（土）11:00～4/6（月）11:00\r\n当落発表：4/7（火）18:00頃\r\nオンライン・一般発売：4/8（水）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。",
+      "price": {
+        "advance": 1800,
+        "door": 2100,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "feaffba7",
@@ -1490,24 +1507,27 @@
       "date": "2026-05-17",
       "open_time": "15:45",
       "start_time": "16:00",
-      "end_time": null,
+      "end_time": "17:00",
       "members": "野澤輸出／9番街レトロ／ナユタ／ケビンス",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14643/40394",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "[チケット情報]\r\n先行期間：3/31（火）11:00～4/2（木）11:00\r\n当落発表：4/3（金）18:00頃\r\n一般発売：4/4（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n※本公演は、配信なしの公演となります。\r\n\r\n■出演者情報■\r\n「ケビンス」が追加になりました（4/2）\r\n\r\n\r\n本公演はペンライトのお持ち込みが可能となっております！\r\nご使用の際は、後ろや左右のお客様の視界を妨げないよう、ご配慮をお願い致します。\r\n皆様が気持ちよく公演をお楽しみいただけるよう、ご理解とご協力をお願い申し上げます。",
+      "price": {
+        "advance": 2300,
+        "door": 2800
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "8e3c105b",
@@ -1540,6 +1560,99 @@
       "last_updated": "2026-04-27T12:05:52+09:00",
       "notified_at": "2026-04-27T12:05:52+09:00",
       "diff": null
+    },
+    {
+      "id": "e14f6fa1",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　平日１２時の部プラス",
+      "date": "2026-05-19",
+      "open_time": "11:30",
+      "start_time": "12:00",
+      "end_time": "13:10",
+      "members": "中川家／レイザーラモン／うるとらブギーズ／金属バット／ダイタク／マユリカ／素敵じゃないか／エバース／ガベジ",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14071/39197",
+      "online_url": null,
+      "notice": "若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：3/25(水) 11:00 〜 3/28(土) 11:00\r\n当落発表：3/29(日) 18:00頃\r\n\r\n一般発売：4/5(日) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nうるとらブギーズ／ガベジ（4/6）\r\n素敵じゃないか（4/7）",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
+      "id": "8b109190",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　平日１４時の部プラス",
+      "date": "2026-05-19",
+      "open_time": "13:30",
+      "start_time": "14:00",
+      "end_time": "15:10",
+      "members": "中川家／レイザーラモン／うるとらブギーズ／金属バット／ダイタク／マユリカ／素敵じゃないか／エバース／ガベジ",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14071/39198",
+      "online_url": null,
+      "notice": "若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：3/25(水) 11:00 〜 3/28(土) 11:00\r\n当落発表：3/29(日) 18:00頃\r\n\r\n一般発売：4/5(日) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nうるとらブギーズ／ガベジ（4/6）\r\n素敵じゃないか（4/7）",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
+      "id": "abe2293a",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　平日１６時の部プラス",
+      "date": "2026-05-19",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": "17:10",
+      "members": "中川家／レイザーラモン／うるとらブギーズ／金属バット／ダイタク／マユリカ／素敵じゃないか／エバース／ガベジ",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14071/39199",
+      "online_url": null,
+      "notice": "若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：3/25(水) 11:00 〜 3/28(土) 11:00\r\n当落発表：3/29(日) 18:00頃\r\n\r\n一般発売：4/5(日) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nうるとらブギーズ／ガベジ（4/6）\r\n素敵じゃないか（4/7）",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "7650ffe8",
@@ -1584,7 +1697,7 @@
       "open_time": "18:15",
       "start_time": "18:30",
       "end_time": null,
-      "members": "[ネタ]サルゴリラ／ケビンス／9番街レトロ／他",
+      "members": "[ネタ]サルゴリラ／トット／ケビンス／9番街レトロ",
       "venue": "沼津ラクーンよしもと劇場",
       "prefecture": "静岡県",
       "image_url": null,
@@ -1597,10 +1710,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-29T17:56:47+09:00",
-      "last_updated": "2026-04-29T17:56:47+09:00",
-      "notified_at": "2026-04-29T17:56:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "0e7d44cf",
@@ -1640,7 +1752,7 @@
       "open_time": "19:45",
       "start_time": "20:00",
       "end_time": null,
-      "members": "[ネタ]サルゴリラ／ケビンス／9番街レトロ／他",
+      "members": "[ネタ]サルゴリラ／トット／ケビンス／9番街レトロ",
       "venue": "沼津ラクーンよしもと劇場",
       "prefecture": "静岡県",
       "image_url": null,
@@ -1653,10 +1765,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-29T17:56:47+09:00",
-      "last_updated": "2026-04-29T17:56:47+09:00",
-      "notified_at": "2026-04-29T17:56:47+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "fdc46d1e",
@@ -1901,24 +2012,27 @@
       "date": "2026-05-27",
       "open_time": "20:15",
       "start_time": "20:30",
-      "end_time": null,
+      "end_time": "21:45",
       "members": "ゆにばーす／ダンビラムーチョ／シンクロニシティ／ゼロカラン／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15331/42035",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/21(火) 11:00 〜 4/23(木) 11:00\r\n当落発表：4/24(金) 18:00頃\r\n\r\n一般発売：4/25(土) 10:00",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "55dac2f3",
@@ -2019,28 +2133,32 @@
       "talents": {
         "10708": "シンクロニシティ"
       },
-      "title": "GAG新ネタライブ「MENS JACKET COAT NEED HOMES，TOO」",
+      "title": "GAG新ネタライブ「MENS JACKET COAT NEED HOMES,TOO」",
       "date": "2026-05-30",
       "open_time": "11:45",
       "start_time": "12:00",
-      "end_time": null,
+      "end_time": "13:00",
       "members": "GAG／囲碁将棋／トット／タモンズ／ジェラードン／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
-      "online_url": null,
-      "notice": null,
-      "price": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14600/40349",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/gag%E6%96%B0%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96-mens-jacket-coat-need-homes-too-5-30-12-00",
+      "notice": "[チケット情報]\r\n《5/30(土)通し券》ダサ笑いのローンチパーティー\r\n4公演通し券：6,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n＜FANYチケット先行＞　 ※通し券のみ\r\n先行期間：4/18（土）11:00～4/20（月）11:00\r\n当落発表：4/21（火）18:00頃\r\n\r\n5/30（土）18:00開演「がっぷり四つ！かみちぃ＆よしおかさんMCのダサ反省会」の終演時間変更に伴い、チケット価格を変更させていただくこととなりました。\r\nその為、改めて先行受付を実施いたします。\r\nお客様にはご迷惑をお掛けし、誠に申し訳ございません。\r\n\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n\r\n■4公演オンラインセット券　4,000円\r\n\r\n※配信の映像に、お客様の頭が映り込む場面がございます。\r\n　あらかじめご理解・ご了承いただいたうえ、ご購入をお願いいたします。\r\n※都合により出演者が変更になる場合がございます。",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "2e174110",
@@ -2051,52 +2169,60 @@
       "date": "2026-05-30",
       "open_time": "13:45",
       "start_time": "14:00",
-      "end_time": null,
+      "end_time": "15:00",
       "members": "GAG／囲碁将棋／トット／タモンズ／ジェラードン／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
-      "online_url": null,
-      "notice": null,
-      "price": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14601/40350",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/s-%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC-j-%E3%82%B8%E3%83%A7%E3%82%A4%E3%83%95%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%8A%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%96-5-30-14-00",
+      "notice": "[チケット情報]\r\n《5/30(土)通し券》ダサ笑いのローンチパーティー\r\n4公演通し券：6,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n＜FANYチケット先行＞　 ※通し券のみ\r\n先行期間：4/18（土）11:00～4/20（月）11:00\r\n当落発表：4/21（火）18:00頃\r\n\r\n5/30（土）18:00開演「がっぷり四つ！かみちぃ＆よしおかさんMCのダサ反省会」の終演時間変更に伴い、チケット価格を変更させていただくこととなりました。\r\nその為、改めて先行受付を実施いたします。\r\nお客様にはご迷惑をお掛けし、誠に申し訳ございません。\r\n\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n\r\n■4公演オンラインセット券　4,000円\r\n\r\n※配信の映像に、お客様の頭が映り込む場面がございます。\r\n　あらかじめご理解・ご了承いただいたうえ、ご購入をお願いいたします。\r\n※都合により出演者が変更になる場合がございます。",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "e6b07308",
       "talents": {
         "10708": "シンクロニシティ"
       },
-      "title": "西野君、今の僕を見てくれないか？～【大宮お笑いタッグマッチ】",
+      "title": "西野君、今の僕を見てくれないか？　～【大宮お笑いタッグマッチ】ヤスニシペアvsアタアベペアvsネダナミペアvsタダタカペア～",
       "date": "2026-05-30",
       "open_time": "15:45",
       "start_time": "16:00",
-      "end_time": null,
+      "end_time": "17:00",
       "members": "GAG／囲碁将棋／トット／タモンズ／ジェラードン／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
-      "online_url": null,
-      "notice": null,
-      "price": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14598/40347",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E8%A5%BF%E9%87%8E%E5%90%9B-%E4%BB%8A%E3%81%AE%E5%83%95%E3%82%92%E8%A6%8B%E3%81%A6%E3%81%8F%E3%82%8C%E3%81%AA%E3%81%84%E3%81%8B-%E5%A4%A7%E5%AE%AE%E3%81%8A%E7%AC%91%E3%81%84%E3%82%BF%E3%83%83%E3%82%B0%E3%83%9E%E3%83%83%E3%83%81-%E3%83%A4%E3%82%B9%E3%83%8B%E3%82%B7%E3%83%9A%E3%82%A2vs%E3%82%A2%E3%82%BF%E3%82%A2%E3%83%99%E3%83%9A%E3%82%A2vs%E3%83%8D%E3%83%80%E3%83%8A%E3%83%9F%E3%83%9A%E3%82%A2vs%E3%82%BF%E3%83%80%E3%82%BF%E3%82%AB%E3%83%9A%E3%82%A2-5-30-16-00",
+      "notice": "[チケット情報]\r\n《5/30(土)通し券》ダサ笑いのローンチパーティー\r\n4公演通し券：6,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n＜FANYチケット先行＞　 ※通し券のみ\r\n先行期間：4/18（土）11:00～4/20（月）11:00\r\n当落発表：4/21（火）18:00頃\r\n\r\n5/30（土）18:00開演「がっぷり四つ！かみちぃ＆よしおかさんMCのダサ反省会」の終演時間変更に伴い、チケット価格を変更させていただくこととなりました。\r\nその為、改めて先行受付を実施いたします。\r\nお客様にはご迷惑をお掛けし、誠に申し訳ございません。\r\n\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n\r\n■4公演オンラインセット券　4,000円\r\n\r\n※配信の映像に、お客様の頭が映り込む場面がございます。\r\n　あらかじめご理解・ご了承いただいたうえ、ご購入をお願いいたします。\r\n※都合により出演者が変更になる場合がございます。",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "bb31fdff",
@@ -2107,24 +2233,121 @@
       "date": "2026-05-30",
       "open_time": "17:45",
       "start_time": "18:00",
-      "end_time": null,
+      "end_time": "18:30",
       "members": "GAG／囲碁将棋／トット／タモンズ／ジェラードン／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
-      "online_url": null,
-      "notice": null,
-      "price": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14599/40348",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%81%8C%E3%81%A3%E3%81%B7%E3%82%8A%E5%9B%9B%E3%81%A4-%E3%81%8B%E3%81%BF%E3%81%A1%E3%81%83-%E3%82%88%E3%81%97%E3%81%8A%E3%81%8B%E3%81%95%E3%82%93mc%E3%81%AE%E3%83%80%E3%82%B5%E5%8F%8D%E7%9C%81%E4%BC%9A-5-30-18-00",
+      "notice": "[チケット情報]\r\n《5/30(土)通し券》ダサ笑いのローンチパーティー\r\n4公演通し券：6,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n＜FANYチケット先行＞　 ※通し券のみ\r\n先行期間：4/18（土）11:00～4/20（月）11:00\r\n当落発表：4/21（火）18:00頃\r\n\r\n5/30（土）18:00開演「がっぷり四つ！かみちぃ＆よしおかさんMCのダサ反省会」の終演時間変更に伴い、チケット価格を変更させていただくこととなりました。\r\nその為、改めて先行受付を実施いたします。\r\nお客様にはご迷惑をお掛けし、誠に申し訳ございません。\r\n\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n\r\n■4公演オンラインセット券　4,000円\r\n\r\n※配信の映像に、お客様の頭が映り込む場面がございます。\r\n　あらかじめご理解・ご了承いただいたうえ、ご購入をお願いいたします。\r\n※都合により出演者が変更になる場合がございます。",
+      "price": {
+        "advance": 1500,
+        "door": 1800,
+        "online": 900
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
+      "id": "8dd4ea7e",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　土日祝１１時の部",
+      "date": "2026-05-31",
+      "open_time": "10:30",
+      "start_time": "11:00",
+      "end_time": "12:45",
+      "members": "はりけ～んず／囲碁将棋／マヂカルラブリー／バンビーノ／ロングコートダディ／マユリカ／バッテリィズ\n[SPコメディ]『くらやんの、ウエディング・ウォー』： ほんこん／シベリア文太／大山英雄／芦澤和哉／内海仁志／野性爆弾 ロッシー／カラテカ 矢部太郎／チャド・マレーン／三瓶／鈴木那奈",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/4207/15191",
+      "online_url": null,
+      "notice": "今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：3/25(水) 11:00 〜 3/28(土) 11:00\r\n当落発表：3/29(日) 18:00頃\r\n\r\n一般発売：4/5(日) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nバンビーノ（4/9）",
+      "price": {
+        "advance": 4500,
+        "door": 5000
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
+      "id": "bbf5a422",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　土日祝１３時３０分の部",
+      "date": "2026-05-31",
+      "open_time": "13:00",
+      "start_time": "13:30",
+      "end_time": "15:15",
+      "members": "はりけ～んず／囲碁将棋／マヂカルラブリー／バンビーノ／ロングコートダディ／マユリカ／バッテリィズ\n[SPコメディ]『くらやんの、ウエディング・ウォー』： ほんこん／シベリア文太／大山英雄／芦澤和哉／内海仁志／野性爆弾 ロッシー／カラテカ 矢部太郎／チャド・マレーン／三瓶／鈴木那奈",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/4207/15192",
+      "online_url": null,
+      "notice": "今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：3/25(水) 11:00 〜 3/28(土) 11:00\r\n当落発表：3/29(日) 18:00頃\r\n\r\n一般発売：4/5(日) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nバンビーノ（4/9）",
+      "price": {
+        "advance": 4500,
+        "door": 5000
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
+      "id": "c115f98f",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　土日祝１６時の部",
+      "date": "2026-05-31",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": "17:45",
+      "members": "はりけ～んず／囲碁将棋／マヂカルラブリー／バンビーノ／ロングコートダディ／マユリカ／バッテリィズ\n[SPコメディ]『くらやんの、ウエディング・ウォー』： ほんこん／シベリア文太／大山英雄／芦澤和哉／内海仁志／野性爆弾 ロッシー／カラテカ 矢部太郎／チャド・マレーン／三瓶／鈴木那奈",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/4207/15193",
+      "online_url": null,
+      "notice": "今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：3/25(水) 11:00 〜 3/28(土) 11:00\r\n当落発表：3/29(日) 18:00頃\r\n\r\n一般発売：4/5(日) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nバンビーノ（4/9）",
+      "price": {
+        "advance": 4500,
+        "door": 5000
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "d4cab5cf",
@@ -2249,6 +2472,37 @@
       "diff": null
     },
     {
+      "id": "b7fc91d2",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "ルミネtheよしもと　平日１２時の部プラス",
+      "date": "2026-06-05",
+      "open_time": "11:30",
+      "start_time": "12:00",
+      "end_time": "13:10",
+      "members": "かまいたち／ジャルジャル／銀シャリ／ダイタク／ケビンス／素敵じゃないか／エバース／金魚番長",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15412/42186",
+      "online_url": null,
+      "notice": "チャンピオンから話題の若手芸人までバラエティ豊かなメンバーが大集合！\r\n\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：4/25（土）11:00～4/28（火）11:00\r\n当落発表：4/29（水）18:00頃\r\n\r\n一般発売日：5/5（火）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n金魚番長（4/27）",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
       "id": "80178746",
       "talents": {
         "10708": "シンクロニシティ"
@@ -2257,23 +2511,28 @@
       "date": "2026-06-06",
       "open_time": "12:45",
       "start_time": "13:00",
-      "end_time": null,
+      "end_time": "14:00",
       "members": "CITY／ななまがり／アイロンヘッド／ダイタク／男性ブランコ／からし蓮根／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15853/43045",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "[チケット情報]\r\n《6/6(土)通し券》CITY'S TAKEOVER DAY\r\n5公演通し券：9,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：4/29（水）11:00～5/1（金）11:00　※通し券公演は通し券のみ先行\r\n当落発表：5/2（土）18:00頃\r\nオンライン・一般発売：5/3（日）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n■5公演オンラインセット券　6,000円\r\n",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-30T10:03:47+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-30T10:03:47+09:00"
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "c3412b7a",
@@ -2284,23 +2543,28 @@
       "date": "2026-06-06",
       "open_time": "14:45",
       "start_time": "15:00",
-      "end_time": null,
+      "end_time": "16:00",
       "members": "CITY／ななまがり／アイロンヘッド／ダイタク／男性ブランコ／からし蓮根／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15854/43046",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "[チケット情報]\r\n《6/6(土)通し券》CITY'S TAKEOVER DAY\r\n5公演通し券：9,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：4/29（水）11:00～5/1（金）11:00　※通し券公演は通し券のみ先行\r\n当落発表：5/2（土）18:00頃\r\nオンライン・一般発売：5/3（日）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n■5公演オンラインセット券　6,000円\r\n",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-30T10:03:47+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-30T10:03:47+09:00"
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "9aac9db9",
@@ -2311,23 +2575,28 @@
       "date": "2026-06-06",
       "open_time": "16:45",
       "start_time": "17:00",
-      "end_time": null,
+      "end_time": "18:00",
       "members": "CITY／タモンズ／ななまがり／アイロンヘッド／ダイタク／男性ブランコ／からし蓮根／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15855/43048",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "[チケット情報]\r\n《6/6(土)通し券》CITY'S TAKEOVER DAY\r\n5公演通し券：9,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：4/29（水）11:00～5/1（金）11:00　※通し券公演は通し券のみ先行\r\n当落発表：5/2（土）18:00頃\r\nオンライン・一般発売：5/3（日）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n■5公演オンラインセット券　6,000円\r\n",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-30T10:03:47+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-30T10:03:47+09:00"
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "b91d83fb",
@@ -2338,23 +2607,28 @@
       "date": "2026-06-06",
       "open_time": "18:15",
       "start_time": "18:30",
-      "end_time": null,
+      "end_time": "19:30",
       "members": "CITY／タモンズ／ななまがり／アイロンヘッド／ダイタク／男性ブランコ／シンクロニシティ",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15856/43047",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "[チケット情報]\r\n《6/6(土)通し券》CITY'S TAKEOVER DAY\r\n5公演通し券：9,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：4/29（水）11:00～5/1（金）11:00　※通し券公演は通し券のみ先行\r\n当落発表：5/2（土）18:00頃\r\nオンライン・一般発売：5/3（日）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n■5公演オンラインセット券　6,000円\r\n",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-04-30T10:03:47+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-30T10:03:47+09:00"
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "cedb7b8c",
@@ -2474,6 +2748,99 @@
       "diff": null
     },
     {
+      "id": "a64135e8",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　平日１２時の部",
+      "date": "2026-06-11",
+      "open_time": "11:30",
+      "start_time": "12:00",
+      "end_time": "13:10",
+      "members": "ジャルジャル／トータルテンボス／インポッシブル／ジャングルポケット／マユリカ／ゆにばーす／さや香／他",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/4208/15195",
+      "online_url": null,
+      "notice": "テレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：4/25（土）11:00～4/28（火）11:00\r\n当落発表：4/29（水）18:00頃\r\n\r\n一般発売日：5/5（火）10:00",
+      "price": {
+        "advance": 2800,
+        "door": 3300
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
+      "id": "05c5f62a",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　平日１４時の部プラス",
+      "date": "2026-06-11",
+      "open_time": "13:30",
+      "start_time": "14:00",
+      "end_time": "15:10",
+      "members": "ジャルジャル／はりけ～んず／トータルテンボス／とろサーモン／インポッシブル／ジャングルポケット／マユリカ／ゆにばーす／さや香",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15412/42191",
+      "online_url": null,
+      "notice": "テレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 11:00\r\n当落発表：4/29(水) 18:00頃\r\n\r\n一般発売：5/5(火) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nはりけ～んず（4/24）",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
+      "id": "39e18bcf",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　平日１６時の部プラス",
+      "date": "2026-06-11",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": "17:10",
+      "members": "ジャルジャル／はりけ～んず／トータルテンボス／とろサーモン／インポッシブル／ジャングルポケット／マユリカ／ゆにばーす／さや香",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15412/42192",
+      "online_url": null,
+      "notice": "テレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 10:00\r\n当落発表：4/29(水) 18:00頃\r\n\r\n一般発売：5/5(火) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nはりけ～んず（4/24）",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
       "id": "cd72232c",
       "talents": {
         "10708": "シンクロニシティ"
@@ -2502,6 +2869,68 @@
       "diff": null
     },
     {
+      "id": "c47ba93f",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　平日１４時の部",
+      "date": "2026-06-15",
+      "open_time": "13:30",
+      "start_time": "14:00",
+      "end_time": "15:10",
+      "members": "ペナルティ／佐久間一行／トータルテンボス／囲碁将棋／すゑひろがりず／セルライトスパ／マユリカ／他",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/4208/15214",
+      "online_url": null,
+      "notice": "実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：4/25（土）11:00～4/28（火）11:00\r\n当落発表：4/29（水）18:00頃\r\n\r\n一般発売日：5/5（火）10:00",
+      "price": {
+        "advance": 2800,
+        "door": 3300
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
+      "id": "ad35117c",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　平日１６時の部",
+      "date": "2026-06-15",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": "17:10",
+      "members": "ペナルティ／佐久間一行／トータルテンボス／囲碁将棋／すゑひろがりず／セルライトスパ／マユリカ／他",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/4208/15215",
+      "online_url": null,
+      "notice": "実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：4/25（土）11:00～4/28（火）11:00\r\n当落発表：4/29（水）18:00頃\r\n\r\n一般発売日：5/5（火）10:00",
+      "price": {
+        "advance": 2800,
+        "door": 3300
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
       "id": "06c18769",
       "talents": {
         "5114": "マユリカ"
@@ -2510,24 +2939,27 @@
       "date": "2026-06-15",
       "open_time": "18:30",
       "start_time": "19:00",
-      "end_time": null,
+      "end_time": "20:30",
       "members": "滝音／マユリカ／他ゲスト",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15003/40980",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※未就学児入場不可\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/11(土) 11:00 〜 4/13(月) 11:00\r\n当落発表：4/14(火) 18:00頃\r\n\r\n一般発売：4/15(水) 10:00",
+      "price": {
+        "advance": 3500,
+        "door": 4000
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "e09ba954",
@@ -2662,6 +3094,68 @@
       "diff": null
     },
     {
+      "id": "d89cc0c7",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　平日１４時の部プラス",
+      "date": "2026-06-19",
+      "open_time": "13:30",
+      "start_time": "14:00",
+      "end_time": "15:10",
+      "members": "はりけ～んず／2丁拳銃／ダイノジ／ハイキングウォーキング／ななまがり／マユリカ／蛙亭／さや香",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15412/42193",
+      "online_url": null,
+      "notice": "実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 11:00\r\n当落発表：4/29(水) 18:00頃\r\n\r\n一般発売：5/5(火) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nはりけ～んず（4/24）",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
+      "id": "8259a65a",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと　平日１６時の部プラス",
+      "date": "2026-06-19",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": "17:10",
+      "members": "はりけ～んず／2丁拳銃／ダイノジ／ハイキングウォーキング／ななまがり／マユリカ／蛙亭／さや香",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15412/42194",
+      "online_url": null,
+      "notice": "実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 10:00\r\n当落発表：4/29(水) 18:00頃\r\n\r\n一般発売：5/5(火) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nはりけ～んず（4/24）",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-04-30T17:57:30+09:00",
+      "last_updated": "2026-04-30T17:57:30+09:00",
+      "notified_at": "2026-04-30T17:57:30+09:00"
+    },
+    {
       "id": "c3dd7d4a",
       "talents": {
         "5114": "マユリカ"
@@ -2670,24 +3164,27 @@
       "date": "2026-06-19",
       "open_time": "18:30",
       "start_time": "19:00",
-      "end_time": null,
+      "end_time": "20:30",
       "members": "kento fukaya／ビスケットブラザーズ／マユリカ／さや香／ダブルヒガシ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014167_1_20260321163431016.jpg",
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/13562/38110",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※未就学児入場不可\r\n※飲食不可（ペットボトルのお飲み物は可）\r\n\r\n■チケット情報■\r\n先行受付：3/7(土)11:00～3/9(月)11:00\r\n一般発売：3/14(土)10:00～\r\n※FANYチケットのみ",
+      "price": {
+        "advance": 4000,
+        "door": 4500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": "fliers/c3dd7d4a.jpg",
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "a6cbeee0",
@@ -2699,13 +3196,13 @@
       "open_time": "17:00",
       "start_time": "17:15",
       "end_time": "18:15",
-      "members": "[企画ライブ]ミカボ／シンクロニシティ／他",
+      "members": "[企画ライブ]ミカボ／シンクロニシティ／ダブルヒガシ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15239/41881",
       "online_url": null,
-      "notice": "ミカボとシンクロニシティが切磋琢磨していこうというライブが4月から始動しました！\r\n毎回ゲストを招き切磋琢磨させていただきます！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　4/25（土）11:00～4/28（火）11:00\r\n　・FANY IDメンバー\r\n　    4/25（土）11:00～4/28（火）11:00\r\n\r\n〇一般販売：5/5（火）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：5/5（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n",
+      "notice": "ミカボとシンクロニシティが切磋琢磨していこうというライブが4月から始動しました！\r\n毎回ゲストを招き切磋琢磨させていただきます！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　4/25（土）11:00～4/28（火）11:00\r\n　・FANY IDメンバー\r\n　    4/25（土）11:00～4/28（火）11:00\r\n\r\n〇一般販売：5/5（火）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：5/5（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n\r\n■変更履歴■\r\n[追加]\r\nダブルヒガシ(4/30)\r\n",
       "price": {
         "advance": 1500,
         "door": 2000,
@@ -2717,10 +3214,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "9374e085",
@@ -2765,7 +3261,7 @@
       "open_time": "19:00",
       "start_time": "19:15",
       "end_time": null,
-      "members": "[企画ライブ]審査員：ゼロカラン たいが／からし蓮根 青空／世間知らズ さおり／太鵬 がえちゃん／マリーマリー えびちゃん／参加者：オダウエダ 植田／スーパーサイズ・ミー 西本／エバース 町田／シンクロニシティ 西野／軟水 大川内／狛犬 櫛野／進行：ゼロカラン ワキ",
+      "members": "[企画ライブ]審査員：ゼロカラン たいが／からし蓮根 青空／カベポスター 浜田／世間知らズ さおり／太鵬 がえちゃん／マリーマリー えびちゃん／参加者：オダウエダ 植田／スーパーサイズ・ミー 西本／エバース 町田／シンクロニシティ 西野／軟水 大川内／狛犬 櫛野／進行：ゼロカラン ワキ",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -2778,10 +3274,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "bfdc143b",
@@ -2792,24 +3287,28 @@
       "date": "2026-06-23",
       "open_time": "20:00",
       "start_time": "20:15",
-      "end_time": null,
+      "end_time": "21:30",
       "members": "ななまがり／ZAZY／エバース／シンクロニシティ／ゲスト：佐久間一行／ミキ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
-      "online_url": null,
-      "notice": null,
-      "price": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/14847/40652",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/lumine-26062320",
+      "notice": "■チケット情報■\r\n先行受付：4/8(水)11:00～4/10(金)11:00\r\n一般発売：4/12(日)10:00～\r\n※FANYチケットのみ\r\n\r\nオンラインチケット発売：4/12(日)10:00～\r\n※6/30(火)12:00まで販売\r\n\r\n■変更履歴■\r\n[追加]\r\n佐久間一行（4/20）\r\nミキ（4/22）",
+      "price": {
+        "advance": 30003000,
+        "door": 3500,
+        "online": 1800
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-04-30T17:57:30+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-30T17:57:30+09:00"
     },
     {
       "id": "fde5f23e",

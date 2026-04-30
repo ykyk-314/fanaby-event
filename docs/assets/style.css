@@ -177,7 +177,7 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
   border-color: #ddd;
   color: #bbb;
 }
-/* 除外済みカードをやや薄く・赤左ボーダーで表示 */
+/* 除外済みカードをやや薄く・赤左ボーダーで表示（.hidden による表示制御は script.js に一本化） */
 .event-card[data-excluded="true"] {
   opacity: .4;
   border-left: 4px solid #e74c3c;

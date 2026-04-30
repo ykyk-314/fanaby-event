@@ -467,6 +467,8 @@ function initRemindUI() {
 
 function applyExcludedToCard(card, isExcluded) {
   card.dataset.excluded = isExcluded ? 'true' : 'false';
+  const showExcluded = document.getElementById('filterShowExcluded')?.checked ?? false;
+  card.classList.toggle('hidden', isExcluded && !showExcluded);
   const oldBtn = card.querySelector('.exclude-btn, .unexclude-btn');
   if (!oldBtn) return;
   const eventId = oldBtn.dataset.eventId;

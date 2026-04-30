@@ -38,11 +38,25 @@
       "api_id": "jimbocho_manzaigekijyo"
     },
     {
+      "id": "lumine",
+      "name": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "url": "https://lumine.yoshimoto.co.jp/schedule/",
+      "api_id": "lumine"
+    },
+    {
       "id": "roppongi",
       "name": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "url": "https://roppongi.yoshimoto.co.jp/schedule/",
       "api_id": "roppongi"
+    },
+    {
+      "id": "omiya",
+      "name": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "url": "https://omiya.yoshimoto.co.jp/schedule/",
+      "api_id": "omiya"
     }
   ]
 }

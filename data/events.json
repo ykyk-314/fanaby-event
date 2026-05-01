@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T10:08:18+09:00",
+  "updated_at": "2026-05-01T17:49:39+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2273,6 +2273,37 @@
       "diff": null
     },
     {
+      "id": "5b1ee9a2",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "WEEKEND寄席70",
+      "date": "2026-05-30",
+      "open_time": "19:00",
+      "start_time": "19:30",
+      "end_time": "20:40",
+      "members": "ニューヨーク／カベポスター／ケビンス／ネイビーズアフロ／他",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15709/42750",
+      "online_url": null,
+      "notice": "■チケット情報■\r\n\r\n一般発売：5/2(土) 10:00",
+      "price": {
+        "advance": 2800,
+        "door": 3300
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-01T17:49:39+09:00",
+      "last_updated": "2026-05-01T17:49:39+09:00",
+      "notified_at": "2026-05-01T17:49:39+09:00"
+    },
+    {
       "id": "8dd4ea7e",
       "talents": {
         "5114": "マユリカ"
@@ -2896,7 +2927,8 @@
       "status": "notified",
       "first_seen": "2026-05-01T10:08:18+09:00",
       "last_updated": "2026-05-01T10:08:18+09:00",
-      "notified_at": "2026-05-01T10:08:18+09:00"
+      "notified_at": "2026-05-01T10:08:18+09:00",
+      "diff": null
     },
     {
       "id": "c8e6f4d8",
@@ -2927,7 +2959,8 @@
       "status": "notified",
       "first_seen": "2026-05-01T10:08:18+09:00",
       "last_updated": "2026-05-01T10:08:18+09:00",
-      "notified_at": "2026-05-01T10:08:18+09:00"
+      "notified_at": "2026-05-01T10:08:18+09:00",
+      "diff": null
     },
     {
       "id": "cd72232c",
@@ -3370,9 +3403,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-01T10:08:18+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-01T10:08:18+09:00"
+      "last_updated": "2026-05-01T10:08:18+09:00",
+      "notified_at": "2026-05-01T10:08:18+09:00",
+      "diff": null
     },
     {
       "id": "bfdc143b",
@@ -3518,6 +3552,38 @@
       "last_updated": "2026-04-27T12:05:52+09:00",
       "notified_at": "2026-04-27T12:05:52+09:00",
       "diff": null
+    },
+    {
+      "id": "a4f70cb3",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "ゴリラパンチ",
+      "date": "2026-06-28",
+      "open_time": "18:45",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "members": "[企画ライブ]ただならぬ刀／ダブルヒガシ／ド桜／シンクロニシティ",
+      "venue": "神保町よしもと漫才劇場",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15850/43040",
+      "online_url": null,
+      "notice": "ただならぬ刀がゲストと共にお送りしていくネタとコーナーのライブです！\r\n毎回が神回、毎回が伝説、毎回がウホ、毎回が革命、その瞬間を見逃すな！！！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/2（土）11:00～5/7（木）11:00\r\n　・FANY IDメンバー\r\n　 　5/2（土）11:00～5/7（木）11:00\r\n\r\n〇一般販売：5/10（日）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：5/10（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n■変更履歴■\r\n[追加]\r\nダブルヒガシ／ド桜／シンクロニシティ(4/26)",
+      "price": {
+        "advance": 1500,
+        "door": 2000,
+        "online": 1300
+      },
+      "sources": [
+        "theater:jimbocho",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-01T17:49:39+09:00",
+      "last_updated": "2026-05-01T17:49:39+09:00",
+      "notified_at": "2026-05-01T17:49:39+09:00"
     },
     {
       "id": "4fd3297b",

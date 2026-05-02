@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T10:00:21+09:00",
+  "updated_at": "2026-05-02T17:40:29+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -712,8 +712,7 @@
         "door": 2500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": "fliers/a4e273f4.jpg",
       "status": "notified",
@@ -767,7 +766,7 @@
       "members": "[企画ライブ]シンクロニシティ／兄弟",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014726_1_20260502141526466.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14083/39289",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A3-%E5%85%84%E5%BC%9F%E3%83%84%E3%83%BC%E3%83%9E%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%96-%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88-%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88-5-3-19-00",
       "notice": "シンクロニシティと兄弟によるツーマンライブが3回目の開催！\r\nネタとコーナーの60分です！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　3/25（水）11:00～3/28（土）11:00\r\n　・FANY IDメンバー\r\n　  3/25（水）11:00～3/28（土）11:00\r\n\r\n〇一般販売：4/5（日）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：4/5（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n",
@@ -780,12 +779,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/0e3d26c9.jpg",
       "status": "notified",
+      "last_updated": "2026-05-02T17:40:28+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-02T17:40:29+09:00"
     },
     {
       "id": "551da735",
@@ -1432,9 +1430,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-02T10:00:20+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-02T10:00:21+09:00"
+      "last_updated": "2026-05-02T10:00:20+09:00",
+      "notified_at": "2026-05-02T10:00:21+09:00",
+      "diff": null
     },
     {
       "id": "9e5dd139",
@@ -1694,6 +1693,39 @@
       "last_updated": "2026-04-27T12:05:52+09:00",
       "notified_at": "2026-04-27T12:05:52+09:00",
       "diff": null
+    },
+    {
+      "id": "fdd69682",
+      "talents": {
+        "5114": "マユリカ",
+        "7295": "ケビンス"
+      },
+      "title": "やさしいズタイpresents「超超超、超超超、超超超超超難問王決定戦 超ルミネ5」",
+      "date": "2026-05-21",
+      "open_time": "20:30",
+      "start_time": "20:45",
+      "end_time": "22:15",
+      "members": "やさしいズ タイ／もう中学生／ななまがり／キンボシ／マユリカ／ケビンス／世間知らズ／ナイチンゲールダンス／他",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015459_1_20260502105606579.jpg",
+      "ticket_url": "https://ticket.fany.lol/event/detail/15756/42852",
+      "online_url": null,
+      "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/3(日) 11:00 〜 5/7(木) 11:00\r\n当落発表：5/8(金) 18:00頃\r\n\r\n※先行申込での決済方法は、「クレジットカード」のみとなります。\r\n\r\n一般発売：5/9(土) 10:00\r\n\r\nオンラインチケット発売：5/9(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
+      "price": {
+        "advance": 3300,
+        "door": 3800,
+        "online": 1800
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": "fliers/fdd69682.jpg",
+      "status": "notified",
+      "first_seen": "2026-05-02T17:40:28+09:00",
+      "last_updated": "2026-05-02T17:40:28+09:00",
+      "notified_at": "2026-05-02T17:40:29+09:00"
     },
     {
       "id": "6fdd9357",
@@ -2454,6 +2486,33 @@
       "last_updated": "2026-04-27T12:05:52+09:00",
       "notified_at": "2026-04-27T12:05:52+09:00",
       "diff": null
+    },
+    {
+      "id": "e7684c0e",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "野澤輸出の60分「○○みたいに言うな！！」ライブ",
+      "date": "2026-06-03",
+      "open_time": "17:30",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "野澤輸出／シカゴ実業／ダンビラムーチョ 大原優一／ケビンス／素敵じゃないか 柏木成彦／ナユタ",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-02T17:40:28+09:00",
+      "last_updated": "2026-05-02T17:40:28+09:00",
+      "notified_at": "2026-05-02T17:40:29+09:00"
     },
     {
       "id": "c40d3349",
@@ -3433,7 +3492,8 @@
       "status": "notified",
       "first_seen": "2026-05-02T10:00:20+09:00",
       "last_updated": "2026-05-02T10:00:20+09:00",
-      "notified_at": "2026-05-02T10:00:21+09:00"
+      "notified_at": "2026-05-02T10:00:21+09:00",
+      "diff": null
     },
     {
       "id": "bfdc143b",

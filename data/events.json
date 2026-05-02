@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T17:49:39+09:00",
+  "updated_at": "2026-05-02T10:00:21+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1414,7 +1414,7 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": "22:15",
-      "members": "[企画ライブ]やさしいズ タイ／シカゴ実業 山本プロ野球／今井らいぱち／銀河ゆめゆめ／キンボシ／ダンビラムーチョ／ケビンス／ド桜／バリカタ友情飯／金魚番長／他",
+      "members": "[企画ライブ]やさしいズ タイ／シカゴ実業 山本プロ野球／今井らいぱち／銀河ゆめゆめ／キンボシ／ダンビラムーチョ／ケビンス／ド桜／バリカタ友情飯／金魚番長／ゼロカラン／他",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -1432,10 +1432,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-02T10:00:20+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-28T18:00:57+09:00",
-      "notified_at": "2026-04-28T18:00:57+09:00",
-      "diff": null
+      "notified_at": "2026-05-02T10:00:21+09:00"
     },
     {
       "id": "9e5dd139",
@@ -2301,7 +2300,8 @@
       "status": "notified",
       "first_seen": "2026-05-01T17:49:39+09:00",
       "last_updated": "2026-05-01T17:49:39+09:00",
-      "notified_at": "2026-05-01T17:49:39+09:00"
+      "notified_at": "2026-05-01T17:49:39+09:00",
+      "diff": null
     },
     {
       "id": "8dd4ea7e",
@@ -3409,6 +3409,33 @@
       "diff": null
     },
     {
+      "id": "b3afec5f",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "ノザワ！ニキ☆イワクラ！",
+      "date": "2026-06-22",
+      "open_time": "18:30",
+      "start_time": "19:30",
+      "end_time": null,
+      "members": "野澤輸出、ケビンス仁木、蛙亭イワクラ",
+      "venue": "阿佐ヶ谷ロフトA",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-02T10:00:20+09:00",
+      "last_updated": "2026-05-02T10:00:20+09:00",
+      "notified_at": "2026-05-02T10:00:21+09:00"
+    },
+    {
       "id": "bfdc143b",
       "talents": {
         "10708": "シンクロニシティ"
@@ -3583,7 +3610,8 @@
       "status": "notified",
       "first_seen": "2026-05-01T17:49:39+09:00",
       "last_updated": "2026-05-01T17:49:39+09:00",
-      "notified_at": "2026-05-01T17:49:39+09:00"
+      "notified_at": "2026-05-01T17:49:39+09:00",
+      "diff": null
     },
     {
       "id": "4fd3297b",

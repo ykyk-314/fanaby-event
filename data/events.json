@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T10:06:53+09:00",
+  "updated_at": "2026-05-03T17:43:17+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -845,9 +845,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-03T10:06:53+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-03T10:06:53+09:00"
+      "last_updated": "2026-05-03T10:06:53+09:00",
+      "notified_at": "2026-05-03T10:06:53+09:00",
+      "diff": null
     },
     {
       "id": "691a321d",
@@ -986,7 +987,7 @@
       "members": "[企画ライブ]ド桜／ダブルヒガシ／シンクロニシティ／兄弟",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014747_1_20260503112330902.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14088/39285",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%89%E6%A1%9C%E3%81%AE%E3%83%8D%E3%82%BF%E5%92%B2%E3%81%8D-5-5-20-15",
       "notice": "ド桜が新ネタ3本おろして、\r\nゲストにも1本やってもらって、\r\n最後はコーナーで盛り上がります！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　3/25（水）11:00～3/28（土）11:00\r\n　・FANY IDメンバー\r\n　  3/25（水）11:00～3/28（土）11:00\r\n\r\n〇一般販売：4/5（日）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：4/5（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n",
@@ -999,12 +1000,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/71620b5b.jpg",
       "status": "notified",
+      "last_updated": "2026-05-03T17:43:17+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-03T17:43:17+09:00"
     },
     {
       "id": "c5c5f48d",
@@ -1202,7 +1202,7 @@
       "members": "マルセイユ／キンボシ／カラタチ／くらげ／ミカボ／シンクロニシティ／9番街レトロ／ゼロカラン／めぞん／照山おうちごはん／ナユタ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015309_1_20260503135137178.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14878/40682",
       "online_url": null,
       "notice": "■チケット情報■\r\n一般発売：4/8(水)10:00～\r\n※FANYチケットのみ",
@@ -1214,12 +1214,11 @@
         "theater:lumine",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/2f649116.jpg",
       "status": "notified",
+      "last_updated": "2026-05-03T17:43:17+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-30T17:57:30+09:00",
-      "notified_at": "2026-04-30T17:57:30+09:00",
-      "diff": null
+      "notified_at": "2026-05-03T17:43:17+09:00"
     },
     {
       "id": "29f5e4ac",
@@ -1463,9 +1462,10 @@
       ],
       "local_image": "fliers/9e5dd139.jpg",
       "status": "notified",
-      "last_updated": "2026-05-03T10:06:53+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-03T10:06:53+09:00"
+      "last_updated": "2026-05-03T10:06:53+09:00",
+      "notified_at": "2026-05-03T10:06:53+09:00",
+      "diff": null
     },
     {
       "id": "02f3be27",
@@ -2497,7 +2497,7 @@
       "open_time": "17:30",
       "start_time": "18:00",
       "end_time": null,
-      "members": "野澤輸出／シカゴ実業／ダンビラムーチョ 大原優一／ケビンス／素敵じゃないか 柏木成彦／ナユタ",
+      "members": "野澤輸出／シカゴ実業 山本プロ野球／ダンビラムーチョ 大原優一／ケビンス 仁木恭平／素敵じゃないか 柏木成彦／ナユタ",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -2510,10 +2510,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-03T17:43:17+09:00",
       "first_seen": "2026-05-02T17:40:28+09:00",
-      "last_updated": "2026-05-02T17:40:28+09:00",
-      "notified_at": "2026-05-02T17:40:29+09:00",
-      "diff": null
+      "notified_at": "2026-05-03T17:43:17+09:00"
     },
     {
       "id": "c40d3349",
@@ -2618,7 +2617,7 @@
       "talents": {
         "10708": "シンクロニシティ"
       },
-      "title": "即興ネタ合わせ",
+      "title": "CITY'S TAKEOVER DAY　即興ネタ合わせ",
       "date": "2026-06-06",
       "open_time": "12:45",
       "start_time": "13:00",
@@ -2628,7 +2627,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15853/43045",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%8D%B3%E8%88%88%E3%83%8D%E3%82%BF%E5%90%88%E3%82%8F%E3%81%9B-6-6-13-00",
       "notice": "[チケット情報]\r\n《6/6(土)通し券》CITY'S TAKEOVER DAY\r\n5公演通し券：9,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：4/29（水）11:00～5/1（金）11:00　※通し券公演は通し券のみ先行\r\n当落発表：5/2（土）18:00頃\r\nオンライン・一般発売：5/3（日）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n■5公演オンラインセット券　6,000円\r\n",
       "price": {
         "advance": 2000,
@@ -2651,7 +2650,7 @@
       "talents": {
         "10708": "シンクロニシティ"
       },
-      "title": "先輩が絶対",
+      "title": "CITY'S TAKEOVER DAY　先輩が絶対",
       "date": "2026-06-06",
       "open_time": "14:45",
       "start_time": "15:00",
@@ -2661,7 +2660,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15854/43046",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%88%E8%BC%A9%E3%81%8C%E7%B5%B6%E5%AF%BE-6-6-15-00",
       "notice": "[チケット情報]\r\n《6/6(土)通し券》CITY'S TAKEOVER DAY\r\n5公演通し券：9,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：4/29（水）11:00～5/1（金）11:00　※通し券公演は通し券のみ先行\r\n当落発表：5/2（土）18:00頃\r\nオンライン・一般発売：5/3（日）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n■5公演オンラインセット券　6,000円\r\n",
       "price": {
         "advance": 2000,
@@ -2684,7 +2683,7 @@
       "talents": {
         "10708": "シンクロニシティ"
       },
-      "title": "劇団CITY「豆男はつらいよ」",
+      "title": "CITY'S TAKEOVER DAY　劇団CITY「豆男はつらいよ」",
       "date": "2026-06-06",
       "open_time": "16:45",
       "start_time": "17:00",
@@ -2694,7 +2693,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15855/43048",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%8A%87%E5%9B%A3city-%E8%B1%86%E7%94%B7%E3%81%AF%E3%81%A4%E3%82%89%E3%81%84%E3%82%88-6-6-17-00",
       "notice": "[チケット情報]\r\n《6/6(土)通し券》CITY'S TAKEOVER DAY\r\n5公演通し券：9,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：4/29（水）11:00～5/1（金）11:00　※通し券公演は通し券のみ先行\r\n当落発表：5/2（土）18:00頃\r\nオンライン・一般発売：5/3（日）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n■5公演オンラインセット券　6,000円\r\n",
       "price": {
         "advance": 2000,
@@ -2717,7 +2716,7 @@
       "talents": {
         "10708": "シンクロニシティ"
       },
-      "title": "CITY結成1周年パーティー",
+      "title": "CITY'S TAKEOVER DAY　CITY結成1周年パーティー",
       "date": "2026-06-06",
       "open_time": "18:15",
       "start_time": "18:30",
@@ -2727,7 +2726,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15856/43047",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/city%E7%B5%90%E6%88%901%E5%91%A8%E5%B9%B4%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC-6-6-18-30",
       "notice": "[チケット情報]\r\n《6/6(土)通し券》CITY'S TAKEOVER DAY\r\n5公演通し券：9,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：4/29（水）11:00～5/1（金）11:00　※通し券公演は通し券のみ先行\r\n当落発表：5/2（土）18:00頃\r\nオンライン・一般発売：5/3（日）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n■5公演オンラインセット券　6,000円\r\n",
       "price": {
         "advance": 2000,

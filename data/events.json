@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T10:04:25+09:00",
+  "updated_at": "2026-05-04T18:01:00+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1053,7 +1053,7 @@
       "members": "[企画ライブ]ケビンス",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014748_1_20260504104818882.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14092/39277",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%99%E3%83%93%E3%83%B3%E3%82%B9-5-6-20-30",
       "notice": "ケビンスがネタのベビーを産み出すライブ「ベビンス」！\r\nネタの過程が見られるライブです！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　3/25（水）11:00～3/28（土）11:00\r\n　・FANY IDメンバー\r\n　  3/25（水）11:00～3/28（土）11:00\r\n\r\n〇一般販売：4/5（日）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：4/5（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n",
@@ -1066,12 +1066,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/9fdf8ba4.jpg",
       "status": "notified",
+      "last_updated": "2026-05-04T18:01:00+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-04T18:01:00+09:00"
     },
     {
       "id": "d3ace8ab",
@@ -1447,13 +1446,13 @@
       "open_time": "18:30",
       "start_time": "19:00",
       "end_time": "20:30",
-      "members": "５ＧＡＰ／ダイタク／ケビンス／カベポスター／シンクロニシティ／めぞん／イチゴ",
+      "members": "2丁拳銃／５ＧＡＰ／セルライトスパ／ダイタク／カーネーション／マルセイユ／ケビンス／ラニーノーズ／カベポスター／シンクロニシティ／めぞん／イチゴ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260413155112151.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15066/41374",
       "online_url": null,
-      "notice": "■チケット情報■\r\n\r\n一般発売：4/14(火) 10:00\r\n\r\n※未就学児入場不可",
+      "notice": "■チケット情報■\r\n\r\n一般発売：4/14(火) 10:00\r\n\r\n※未就学児入場不可\r\n\r\n■変更履歴■\r\n[追加]\r\n２丁拳銃／セルライトスパ／マルセイユ／カーネーション／ラニーノーズ（5/4）",
       "price": {
         "advance": 2800,
         "door": 3300
@@ -1464,10 +1463,9 @@
       ],
       "local_image": "fliers/9e5dd139.jpg",
       "status": "notified",
+      "last_updated": "2026-05-04T18:01:00+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-05-03T10:06:53+09:00",
-      "notified_at": "2026-05-03T10:06:53+09:00",
-      "diff": null
+      "notified_at": "2026-05-04T18:01:00+09:00"
     },
     {
       "id": "02f3be27",
@@ -3441,6 +3439,70 @@
       "last_updated": "2026-04-27T12:05:52+09:00",
       "notified_at": "2026-04-27T12:05:52+09:00",
       "diff": null
+    },
+    {
+      "id": "c8b2334e",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "六本木ネオン～ネルソンズ×ダンビラムーチョ×シンクロニシティ～",
+      "date": "2026-06-20",
+      "open_time": "21:00",
+      "start_time": "21:15",
+      "end_time": "22:15",
+      "members": "ネルソンズ／ダンビラムーチョ／シンクロニシティ",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15934/43142",
+      "online_url": null,
+      "notice": "ネルソンズとダンビラムーチョとシンクロニシティの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/5（火）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "price": {
+        "advance": 3000,
+        "door": 3500,
+        "online": 2000
+      },
+      "sources": [
+        "theater:roppongi",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-04T18:01:00+09:00",
+      "last_updated": "2026-05-04T18:01:00+09:00",
+      "notified_at": "2026-05-04T18:01:00+09:00"
+    },
+    {
+      "id": "ed5909c2",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "六本木ネオン～コロコロチキチキペッパーズ×空気階段×ケビンス～",
+      "date": "2026-06-21",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "members": "コロコロチキチキペッパーズ／空気階段／ケビンス／MC：カベポスター 浜田",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15737/43146",
+      "online_url": null,
+      "notice": "コロコロチキチキペッパーズと空気階段とケビンスの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：5/5（火）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "price": {
+        "advance": 3000,
+        "door": 3500,
+        "online": 2000
+      },
+      "sources": [
+        "theater:roppongi",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-04T18:01:00+09:00",
+      "last_updated": "2026-05-04T18:01:00+09:00",
+      "notified_at": "2026-05-04T18:01:00+09:00"
     },
     {
       "id": "6209dcfb",

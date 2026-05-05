@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T18:01:00+09:00",
+  "updated_at": "2026-05-05T09:59:13+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -840,8 +840,7 @@
         "door": 3300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -1068,9 +1067,10 @@
       ],
       "local_image": "fliers/9fdf8ba4.jpg",
       "status": "notified",
-      "last_updated": "2026-05-04T18:01:00+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-04T18:01:00+09:00"
+      "last_updated": "2026-05-04T18:01:00+09:00",
+      "notified_at": "2026-05-04T18:01:00+09:00",
+      "diff": null
     },
     {
       "id": "d3ace8ab",
@@ -1085,7 +1085,7 @@
       "members": "はるかぜに告ぐ／ケビンス／黒帯／九ノ段／MC:アイラブ地球 コウノ・オブ・ザ・イヤー",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014262_1_20260505043013736.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -1093,12 +1093,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/d3ace8ab.jpg",
       "status": "notified",
+      "last_updated": "2026-05-05T09:59:12+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-05T09:59:13+09:00"
     },
     {
       "id": "d5c49ac6",
@@ -1449,7 +1448,7 @@
       "members": "2丁拳銃／５ＧＡＰ／セルライトスパ／ダイタク／カーネーション／マルセイユ／ケビンス／ラニーノーズ／カベポスター／シンクロニシティ／めぞん／イチゴ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260413155112151.jpg",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260505092606257.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15066/41374",
       "online_url": null,
       "notice": "■チケット情報■\r\n\r\n一般発売：4/14(火) 10:00\r\n\r\n※未就学児入場不可\r\n\r\n■変更履歴■\r\n[追加]\r\n２丁拳銃／セルライトスパ／マルセイユ／カーネーション／ラニーノーズ（5/4）",
@@ -1463,9 +1462,9 @@
       ],
       "local_image": "fliers/9e5dd139.jpg",
       "status": "notified",
-      "last_updated": "2026-05-04T18:01:00+09:00",
+      "last_updated": "2026-05-05T09:59:12+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-04T18:01:00+09:00"
+      "notified_at": "2026-05-05T09:59:13+09:00"
     },
     {
       "id": "02f3be27",
@@ -3470,7 +3469,8 @@
       "status": "notified",
       "first_seen": "2026-05-04T18:01:00+09:00",
       "last_updated": "2026-05-04T18:01:00+09:00",
-      "notified_at": "2026-05-04T18:01:00+09:00"
+      "notified_at": "2026-05-04T18:01:00+09:00",
+      "diff": null
     },
     {
       "id": "ed5909c2",
@@ -3502,7 +3502,8 @@
       "status": "notified",
       "first_seen": "2026-05-04T18:01:00+09:00",
       "last_updated": "2026-05-04T18:01:00+09:00",
-      "notified_at": "2026-05-04T18:01:00+09:00"
+      "notified_at": "2026-05-04T18:01:00+09:00",
+      "diff": null
     },
     {
       "id": "6209dcfb",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T09:59:13+09:00",
+  "updated_at": "2026-05-05T17:56:11+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -871,8 +871,7 @@
         "door": 3300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -903,8 +902,7 @@
         "door": 3300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -963,8 +961,7 @@
         "door": 3300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -1095,9 +1092,10 @@
       ],
       "local_image": "fliers/d3ace8ab.jpg",
       "status": "notified",
-      "last_updated": "2026-05-05T09:59:12+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-05T09:59:13+09:00"
+      "last_updated": "2026-05-05T09:59:12+09:00",
+      "notified_at": "2026-05-05T09:59:13+09:00",
+      "diff": null
     },
     {
       "id": "d5c49ac6",
@@ -1402,6 +1400,38 @@
       "diff": null
     },
     {
+      "id": "005f94cc",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "ケビンス×金魚番長ツーマンライブ「冷蔵庫祭」",
+      "date": "2026-05-14",
+      "open_time": "19:00",
+      "start_time": "19:15",
+      "end_time": "20:15",
+      "members": "[ネタ＆コーナーライブ]ケビンス／金魚番長",
+      "venue": "渋谷よしもと漫才劇場",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15947/43152",
+      "online_url": null,
+      "notice": "「ケビンス」と「金魚番長」のツーマンライブを開催！\r\n\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n一般発売：5/6(水) 10:00\r\n\r\nオンラインチケット発売：5/6(水) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1300
+      },
+      "sources": [
+        "theater:shibuya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-05T17:56:10+09:00",
+      "last_updated": "2026-05-05T17:56:10+09:00",
+      "notified_at": "2026-05-05T17:56:11+09:00"
+    },
+    {
       "id": "b1eaa6ea",
       "talents": {
         "7295": "ケビンス"
@@ -1462,9 +1492,10 @@
       ],
       "local_image": "fliers/9e5dd139.jpg",
       "status": "notified",
-      "last_updated": "2026-05-05T09:59:12+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-05T09:59:13+09:00"
+      "last_updated": "2026-05-05T09:59:12+09:00",
+      "notified_at": "2026-05-05T09:59:13+09:00",
+      "diff": null
     },
     {
       "id": "02f3be27",
@@ -2529,7 +2560,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15226/41904",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A3%E3%81%A8%E3%82%A4%E3%83%B3%E3%83%86%E3%82%A4%E3%82%AF%E3%81%8C25%E5%88%86%E5%89%8D%E5%BE%8C%E3%81%AE%E6%BC%AB%E6%89%8D%E3%82%921%E6%9C%AC%E3%81%9A%E3%81%A4%E3%82%84%E3%82%8B%E3%83%A9%E3%82%A4%E3%83%96-6-3-19-15",
       "notice": "シンクロニシティ、インテイクが25分前後の漫才を1本ずつやるライブです！\r\n普段なかなかみれない長尺の漫才をお楽しみください！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　4/27（月）11:00 ～ 4/30（木）11:00\r\n　・FANY IDメンバー\r\n　    4/27（月）11:00 ～ 4/30（木）11:00\r\n\r\n〇一般販売：5/5（火）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：5/5（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n",
       "price": {
         "advance": 1500,
@@ -2562,7 +2593,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15227/41902",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E7%85%A7%E5%B1%B1%E3%81%8A%E3%81%86%E3%81%A1%E3%81%94%E3%81%AF%E3%82%93presents-%E3%81%8A%E3%81%9B%E8%8C%B6%E7%A2%97%E8%92%B8%E3%81%97-6-3-21-00",
       "notice": "照山おうちごはんがゲストをお呼びして、ネタとコーナーで楽しんでいただく60分！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　4/25（土）11:00～4/28（火）11:00\r\n　・FANY IDメンバー\r\n　    4/25（土）11:00～4/28（火）11:00\r\n\r\n〇一般販売：5/5（火）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：5/5（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n",
       "price": {
         "advance": 1500,
@@ -3259,7 +3290,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15235/41875",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE-6-18-21-00",
       "notice": "文字通り四分間にすべてを注ぐ漫才師達のネタライブ。\r\n四分にちなんだコーナーも？！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　4/25（土）11:00～4/28（火）11:00\r\n　・FANY IDメンバー\r\n　    4/25（土）11:00～4/28（火）11:00\r\n\r\n〇一般販売：5/5（火）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：5/5（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n",
       "price": {
         "advance": 1800,
@@ -3388,7 +3419,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15239/41881",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4-6-20-17-15",
       "notice": "ミカボとシンクロニシティが切磋琢磨していこうというライブが4月から始動しました！\r\n毎回ゲストを招き切磋琢磨させていただきます！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　4/25（土）11:00～4/28（火）11:00\r\n　・FANY IDメンバー\r\n　    4/25（土）11:00～4/28（火）11:00\r\n\r\n〇一般販売：5/5（火）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：5/5（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n\r\n■変更履歴■\r\n[追加]\r\nダブルヒガシ(4/30)\r\n",
       "price": {
         "advance": 1500,

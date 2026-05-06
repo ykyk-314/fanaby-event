@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-06T09:59:24+09:00",
+  "updated_at": "2026-05-06T18:00:09+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1026,8 +1026,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -1414,7 +1413,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15947/43152",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9-%E9%87%91%E9%AD%9A%E7%95%AA%E9%95%B7%E3%83%84%E3%83%BC%E3%83%9E%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%96-%E5%86%B7%E8%94%B5%E5%BA%AB%E7%A5%AD-5-14-19-15",
       "notice": "「ケビンス」と「金魚番長」のツーマンライブを開催！\r\n\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n一般発売：5/6(水) 10:00\r\n\r\nオンラインチケット発売：5/6(水) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,
@@ -2086,7 +2085,7 @@
       "open_time": "20:15",
       "start_time": "20:30",
       "end_time": "21:45",
-      "members": "ゆにばーす／ダンビラムーチョ／シンクロニシティ／ゼロカラン／他",
+      "members": "セルライトスパ／ゆにばーす／ダンビラムーチョ／蛙亭／シンクロニシティ／ゼロカラン",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -2103,10 +2102,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-06T18:00:09+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-30T17:57:30+09:00",
-      "notified_at": "2026-04-30T17:57:30+09:00",
-      "diff": null
+      "notified_at": "2026-05-06T18:00:09+09:00"
     },
     {
       "id": "55dac2f3",
@@ -2337,6 +2335,7 @@
     {
       "id": "5b1ee9a2",
       "talents": {
+        "5114": "マユリカ",
         "7295": "ケビンス"
       },
       "title": "WEEKEND寄席70",
@@ -2344,7 +2343,7 @@
       "open_time": "19:00",
       "start_time": "19:30",
       "end_time": "20:40",
-      "members": "ニューヨーク／カベポスター／ケビンス／ネイビーズアフロ／他",
+      "members": "ニューヨーク／マユリカ／カベポスター／ケビンス／ネイビーズアフロ／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -2361,10 +2360,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-06T18:00:09+09:00",
       "first_seen": "2026-05-01T17:49:39+09:00",
-      "last_updated": "2026-05-01T17:49:39+09:00",
-      "notified_at": "2026-05-01T17:49:39+09:00",
-      "diff": null
+      "notified_at": "2026-05-06T18:00:09+09:00"
     },
     {
       "id": "8dd4ea7e",
@@ -3192,7 +3190,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15605/42608",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%B1%B1%E5%8F%A3%E3%82%B3%E3%83%B3%E3%83%9C%E3%82%A4mvp%E3%81%B8%E3%81%AE%E9%81%93-6-15-21-15",
       "notice": "様々な設定内でブロックごとに１番場を盛り上げたMVPを勝手に決めます。\r\n果たして山口コンボイはMVPになれるのか…！？\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：4/28（火）11:00～4/30（木）11:00\r\n〇一般販売：5/5（火）10:00\r\n\r\n■配信チケット■\r\n〇発売日：5/5（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,

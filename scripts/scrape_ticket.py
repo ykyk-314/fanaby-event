@@ -28,6 +28,8 @@ WEEKDAYS = "月火水木金土日"
 
 REMIND_API_URL    = os.environ.get("REMIND_API_URL", "")
 REMIND_API_SECRET = os.environ.get("REMIND_API_SECRET", "")
+CF_CLIENT_ID      = os.environ.get("CF_ACCESS_CLIENT_ID", "")
+CF_CLIENT_SECRET  = os.environ.get("CF_ACCESS_CLIENT_SECRET", "")
 
 SCRAPE_INTERVAL_HOURS = 24
 
@@ -49,9 +51,13 @@ def get_remind_event_ids() -> list[str]:
         print("REMIND_API_URL / REMIND_API_SECRET が未設定")
         return []
     try:
+        headers = {"Authorization": f"Bearer {REMIND_API_SECRET}"}
+        if CF_CLIENT_ID and CF_CLIENT_SECRET:
+            headers["CF-Access-Client-Id"]     = CF_CLIENT_ID
+            headers["CF-Access-Client-Secret"] = CF_CLIENT_SECRET
         res = requests.get(
             REMIND_API_URL,
-            headers={"Authorization": f"Bearer {REMIND_API_SECRET}"},
+            headers=headers,
             timeout=10,
         )
         print(f"remind-list HTTP {res.status_code} (body={len(res.content)}bytes)")

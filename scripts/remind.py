@@ -32,6 +32,8 @@ MAIL_USER         = os.environ["MAIL_USER"]
 MAIL_PASS         = os.environ["MAIL_PASS"]
 REMIND_API_URL    = os.environ.get("REMIND_API_URL", "").rstrip("/")
 REMIND_API_SECRET = os.environ.get("REMIND_API_SECRET", "")
+CF_CLIENT_ID      = os.environ.get("CF_ACCESS_CLIENT_ID", "")
+CF_CLIENT_SECRET  = os.environ.get("CF_ACCESS_CLIENT_SECRET", "")
 
 
 def parse_dt(s: str) -> datetime:
@@ -93,9 +95,13 @@ def get_remind_recipients() -> dict[str, set[str]]:
         print("REMIND_API_URL / REMIND_API_SECRET 未設定 — 通知先取得をスキップ")
         return {}
     try:
+        req_headers = {"Authorization": f"Bearer {REMIND_API_SECRET}"}
+        if CF_CLIENT_ID and CF_CLIENT_SECRET:
+            req_headers["CF-Access-Client-Id"]     = CF_CLIENT_ID
+            req_headers["CF-Access-Client-Secret"] = CF_CLIENT_SECRET
         req = urllib.request.Request(
             f"{REMIND_API_URL}/api/remind-list",
-            headers={"Authorization": f"Bearer {REMIND_API_SECRET}"},
+            headers=req_headers,
         )
         with urllib.request.urlopen(req, timeout=10) as resp:
             remind_list = json.loads(resp.read().decode("utf-8"))

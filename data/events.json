@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-07T10:03:31+09:00",
+  "updated_at": "2026-05-07T18:05:23+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1212,9 +1212,10 @@
       ],
       "local_image": "fliers/2f649116.jpg",
       "status": "notified",
-      "last_updated": "2026-05-07T10:03:31+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-07T10:03:31+09:00"
+      "last_updated": "2026-05-07T10:03:31+09:00",
+      "notified_at": "2026-05-07T10:03:31+09:00",
+      "diff": null
     },
     {
       "id": "29f5e4ac",
@@ -1477,10 +1478,10 @@
       "members": "2丁拳銃／５ＧＡＰ／セルライトスパ／ダイタク／カーネーション／マルセイユ／ケビンス／ラニーノーズ／カベポスター／シンクロニシティ／めぞん／イチゴ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260505092606257.jpg",
+      "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15066/41374",
       "online_url": null,
-      "notice": "■チケット情報■\r\n\r\n一般発売：4/14(火) 10:00\r\n\r\n※未就学児入場不可\r\n\r\n■変更履歴■\r\n[追加]\r\n２丁拳銃／セルライトスパ／マルセイユ／カーネーション／ラニーノーズ（5/4）",
+      "notice": "■チケット情報■\r\n\r\n一般発売：5/14(木) 10:00\r\n\r\n※未就学児入場不可\r\n\r\n■変更履歴■\r\n[追加]\r\n２丁拳銃／セルライトスパ／マルセイユ／カーネーション／ラニーノーズ（5/4）",
       "price": {
         "advance": 2800,
         "door": 3300
@@ -1491,10 +1492,9 @@
       ],
       "local_image": "fliers/9e5dd139.jpg",
       "status": "notified",
+      "last_updated": "2026-05-07T18:05:22+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-05-05T09:59:12+09:00",
-      "notified_at": "2026-05-05T09:59:13+09:00",
-      "diff": null
+      "notified_at": "2026-05-07T18:05:23+09:00"
     },
     {
       "id": "02f3be27",
@@ -1947,9 +1947,10 @@
       ],
       "local_image": "fliers/a8190cc8.jpg",
       "status": "notified",
-      "last_updated": "2026-05-07T10:03:31+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-07T10:03:31+09:00"
+      "last_updated": "2026-05-07T10:03:31+09:00",
+      "notified_at": "2026-05-07T10:03:31+09:00",
+      "diff": null
     },
     {
       "id": "1e162e87",
@@ -2020,7 +2021,7 @@
       "members": "[企画ライブ]ミカボ／シンクロニシティ／ゲスト:ミキ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014765_1_20260507111924179.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14120/39326",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4-5-26-21-00",
       "notice": "ミカボとシンクロニシティが切磋琢磨していこうというライブが4月から始動しました！\r\n今回はゲストにミキさんをお呼びさせていただきます\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　3/25（水）11:00～3/28（土）11:00\r\n　・FANY IDメンバー\r\n　  3/25（水）11:00～3/28（土）11:00\r\n\r\n〇一般販売：4/5（日）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：4/5（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n",
@@ -2033,12 +2034,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/77d48c08.jpg",
       "status": "notified",
+      "last_updated": "2026-05-07T18:05:22+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-07T18:05:23+09:00"
     },
     {
       "id": "c6c30a66",
@@ -3497,9 +3497,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-07T10:03:31+09:00",
       "first_seen": "2026-05-04T18:01:00+09:00",
-      "notified_at": "2026-05-07T10:03:31+09:00"
+      "last_updated": "2026-05-07T10:03:31+09:00",
+      "notified_at": "2026-05-07T10:03:31+09:00",
+      "diff": null
     },
     {
       "id": "ed5909c2",

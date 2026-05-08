@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T10:03:42+09:00",
+  "updated_at": "2026-05-08T17:43:10+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1478,7 +1478,7 @@
       "members": "2丁拳銃／５ＧＡＰ／セルライトスパ／ダイタク／カーネーション／マルセイユ／ケビンス／ラニーノーズ／カベポスター／シンクロニシティ／めぞん／イチゴ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260508164251186.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15066/41374",
       "online_url": null,
       "notice": "■チケット情報■\r\n\r\n一般発売：5/14(木) 10:00\r\n\r\n※未就学児入場不可\r\n\r\n■変更履歴■\r\n[追加]\r\n２丁拳銃／セルライトスパ／マルセイユ／カーネーション／ラニーノーズ（5/4）",
@@ -1492,10 +1492,9 @@
       ],
       "local_image": "fliers/9e5dd139.jpg",
       "status": "notified",
+      "last_updated": "2026-05-08T17:43:10+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-05-07T18:05:22+09:00",
-      "notified_at": "2026-05-07T18:05:23+09:00",
-      "diff": null
+      "notified_at": "2026-05-08T17:43:10+09:00"
     },
     {
       "id": "02f3be27",
@@ -1589,9 +1588,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-08T10:03:42+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-08T10:03:42+09:00"
+      "last_updated": "2026-05-08T10:03:42+09:00",
+      "notified_at": "2026-05-08T10:03:42+09:00",
+      "diff": null
     },
     {
       "id": "e14f6fa1",
@@ -2642,6 +2642,70 @@
       "last_updated": "2026-04-30T17:57:30+09:00",
       "notified_at": "2026-04-30T17:57:30+09:00",
       "diff": null
+    },
+    {
+      "id": "5e9b605b",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "大宮ネタとトーク「まだ話したことないトークテーマで話そう！」",
+      "date": "2026-06-05",
+      "open_time": "18:50",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "members": "エバース／ビューティフルトーキョーマンズ／マリーマリー／シンクロニシティ",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15922/43126",
+      "online_url": null,
+      "notice": "【チケット情報】\r\n先行期間：5/9（土）11:00～5/11（月）11:00\r\n当落発表：5/12（火）18:00頃\r\nオンライン・一般発売：5/13（水）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 2100,
+        "door": 2400,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-08T17:43:10+09:00",
+      "last_updated": "2026-05-08T17:43:10+09:00",
+      "notified_at": "2026-05-08T17:43:10+09:00"
+    },
+    {
+      "id": "ea405a20",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "演技派芸人決定戦！～ムービースター・えびちゃんを越えろ！～",
+      "date": "2026-06-05",
+      "open_time": "20:20",
+      "start_time": "20:30",
+      "end_time": "21:30",
+      "members": "エバース／ビューティフルトーキョーマンズ／マリーマリー／シンクロニシティ",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15923/43127",
+      "online_url": null,
+      "notice": "【チケット情報】\r\n先行期間：5/9（土）11:00～5/11（月）11:00\r\n当落発表：5/12（火）18:00頃\r\nオンライン・一般発売：5/13（水）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 2100,
+        "door": 2400,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-08T17:43:10+09:00",
+      "last_updated": "2026-05-08T17:43:10+09:00",
+      "notified_at": "2026-05-08T17:43:10+09:00"
     },
     {
       "id": "80178746",

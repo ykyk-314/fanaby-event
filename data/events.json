@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T10:02:50+09:00",
+  "updated_at": "2026-05-09T17:42:10+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1739,7 +1739,7 @@
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015459_1_20260502105606579.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15756/42852",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/lumine-26052120",
       "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/3(日) 11:00 〜 5/7(木) 11:00\r\n当落発表：5/8(金) 18:00頃\r\n\r\n※先行申込での決済方法は、「クレジットカード」のみとなります。\r\n\r\n一般発売：5/9(土) 10:00\r\n\r\nオンラインチケット発売：5/9(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
         "advance": 3300,
@@ -2088,7 +2088,7 @@
       "members": "セルライトスパ／ゆにばーす／ダンビラムーチョ／蛙亭／シンクロニシティ／ゼロカラン",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015730_1_20260509123252825.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15331/42035",
       "online_url": null,
       "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/21(火) 11:00 〜 4/23(木) 11:00\r\n当落発表：4/24(金) 18:00頃\r\n\r\n一般発売：4/25(土) 10:00",
@@ -2100,12 +2100,11 @@
         "theater:lumine",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/19e78c54.jpg",
       "status": "notified",
+      "last_updated": "2026-05-09T17:42:10+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-05-06T18:00:09+09:00",
-      "notified_at": "2026-05-06T18:00:09+09:00",
-      "diff": null
+      "notified_at": "2026-05-09T17:42:10+09:00"
     },
     {
       "id": "55dac2f3",
@@ -2491,6 +2490,60 @@
       "diff": null
     },
     {
+      "id": "82310443",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "やさしいズタイpresents「幕張タインモール」",
+      "date": "2026-06-02",
+      "open_time": "17:45",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "やさしいズ／ライス 田所仁／マユリカ／空気階段／ミカボ",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-09T17:42:10+09:00",
+      "last_updated": "2026-05-09T17:42:10+09:00",
+      "notified_at": "2026-05-09T17:42:10+09:00"
+    },
+    {
+      "id": "2034375a",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "やさしいズタイの「庭」",
+      "date": "2026-06-02",
+      "open_time": "19:15",
+      "start_time": "19:30",
+      "end_time": null,
+      "members": "やさしいズ／ライス 田所仁／マユリカ／空気階段／ミカボ",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-09T17:42:10+09:00",
+      "last_updated": "2026-05-09T17:42:10+09:00",
+      "notified_at": "2026-05-09T17:42:10+09:00"
+    },
+    {
       "id": "37b3eac2",
       "talents": {
         "10708": "シンクロニシティ"
@@ -2574,9 +2627,10 @@
       ],
       "local_image": "fliers/c40d3349.jpg",
       "status": "notified",
-      "last_updated": "2026-05-09T10:02:50+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-09T10:02:50+09:00"
+      "last_updated": "2026-05-09T10:02:50+09:00",
+      "notified_at": "2026-05-09T10:02:50+09:00",
+      "diff": null
     },
     {
       "id": "b21c6f56",

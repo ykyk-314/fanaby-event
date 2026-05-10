@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T17:42:10+09:00",
+  "updated_at": "2026-05-10T10:09:18+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2102,9 +2102,10 @@
       ],
       "local_image": "fliers/19e78c54.jpg",
       "status": "notified",
-      "last_updated": "2026-05-09T17:42:10+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-09T17:42:10+09:00"
+      "last_updated": "2026-05-09T17:42:10+09:00",
+      "notified_at": "2026-05-09T17:42:10+09:00",
+      "diff": null
     },
     {
       "id": "55dac2f3",
@@ -2514,7 +2515,8 @@
       "status": "notified",
       "first_seen": "2026-05-09T17:42:10+09:00",
       "last_updated": "2026-05-09T17:42:10+09:00",
-      "notified_at": "2026-05-09T17:42:10+09:00"
+      "notified_at": "2026-05-09T17:42:10+09:00",
+      "diff": null
     },
     {
       "id": "2034375a",
@@ -2541,7 +2543,8 @@
       "status": "notified",
       "first_seen": "2026-05-09T17:42:10+09:00",
       "last_updated": "2026-05-09T17:42:10+09:00",
-      "notified_at": "2026-05-09T17:42:10+09:00"
+      "notified_at": "2026-05-09T17:42:10+09:00",
+      "diff": null
     },
     {
       "id": "37b3eac2",
@@ -3945,6 +3948,33 @@
       "last_updated": "2026-04-29T10:03:51+09:00",
       "notified_at": "2026-04-29T10:03:51+09:00",
       "diff": null
+    },
+    {
+      "id": "62baf9ef",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "各々と小野",
+      "date": "2026-06-30",
+      "open_time": "18:30",
+      "start_time": "18:45",
+      "end_time": null,
+      "members": "CITY小野、きっと君はくるさカルビ、ケビンス山口コンボイ",
+      "venue": "ミコノス",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-10T10:09:18+09:00",
+      "last_updated": "2026-05-10T10:09:18+09:00",
+      "notified_at": "2026-05-10T10:09:18+09:00"
     },
     {
       "id": "8930dd1d",

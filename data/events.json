@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11T10:08:47+09:00",
+  "updated_at": "2026-05-11T18:23:53+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1478,7 +1478,7 @@
       "members": "2丁拳銃／５ＧＡＰ／兼光タカシ／セルライトスパ／ダイタク／カーネーション／マルセイユ／ケビンス／ラニーノーズ／カベポスター／シンクロニシティ／めぞん／イチゴ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260508164251186.jpg",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015463_1_20260511131106153.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15066/41374",
       "online_url": null,
       "notice": "■チケット情報■\r\n\r\n一般発売：5/14(木) 10:00\r\n\r\n※未就学児入場不可\r\n\r\n■変更履歴■\r\n[追加]\r\n２丁拳銃／セルライトスパ／マルセイユ／カーネーション／ラニーノーズ（5/4）\r\n兼光タカシ（5/10）",
@@ -1492,9 +1492,9 @@
       ],
       "local_image": "fliers/9e5dd139.jpg",
       "status": "notified",
-      "last_updated": "2026-05-11T10:08:47+09:00",
+      "last_updated": "2026-05-11T18:23:52+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-11T10:08:47+09:00"
+      "notified_at": "2026-05-11T18:23:53+09:00"
     },
     {
       "id": "02f3be27",
@@ -1590,7 +1590,8 @@
       "status": "notified",
       "first_seen": "2026-05-11T10:08:47+09:00",
       "last_updated": "2026-05-11T10:08:47+09:00",
-      "notified_at": "2026-05-11T10:08:47+09:00"
+      "notified_at": "2026-05-11T10:08:47+09:00",
+      "diff": null
     },
     {
       "id": "8e3c105b",
@@ -3638,7 +3639,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15934/43142",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%8D%E3%82%AA%E3%83%B3-%E3%83%8D%E3%83%AB%E3%82%BD%E3%83%B3%E3%82%BA-%E3%83%80%E3%83%B3%E3%83%93%E3%83%A9%E3%83%A0%E3%83%BC%E3%83%81%E3%83%A7-%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A3-6-20-21-15",
       "notice": "ネルソンズとダンビラムーチョとシンクロニシティの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/5（火）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：5/9（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nダブルヒガシ東(5/6)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 3000,
@@ -3671,7 +3672,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15737/43146",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%8D%E3%82%AA%E3%83%B3-%E3%82%B3%E3%83%AD%E3%82%B3%E3%83%AD%E3%83%81%E3%82%AD%E3%83%81%E3%82%AD%E3%83%9A%E3%83%83%E3%83%91%E3%83%BC%E3%82%BA-%E7%A9%BA%E6%B0%97%E9%9A%8E%E6%AE%B5-%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9-6-21-17-00",
       "notice": "コロコロチキチキペッパーズと空気階段とケビンスの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：5/5（火）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 3000,

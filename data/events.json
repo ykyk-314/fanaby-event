@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11T18:23:53+09:00",
+  "updated_at": "2026-05-12T10:02:38+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1492,9 +1492,10 @@
       ],
       "local_image": "fliers/9e5dd139.jpg",
       "status": "notified",
-      "last_updated": "2026-05-11T18:23:52+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-11T18:23:53+09:00"
+      "last_updated": "2026-05-11T18:23:52+09:00",
+      "notified_at": "2026-05-11T18:23:53+09:00",
+      "diff": null
     },
     {
       "id": "02f3be27",

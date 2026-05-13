@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T10:07:05+09:00",
+  "updated_at": "2026-05-13T18:14:12+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1356,8 +1356,7 @@
         "door": 3300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -2393,9 +2392,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-13T10:07:05+09:00",
       "first_seen": "2026-05-01T17:49:39+09:00",
-      "notified_at": "2026-05-13T10:07:05+09:00"
+      "last_updated": "2026-05-13T10:07:05+09:00",
+      "notified_at": "2026-05-13T10:07:05+09:00",
+      "diff": null
     },
     {
       "id": "8dd4ea7e",
@@ -2746,7 +2746,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15922/43126",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%A4%A7%E5%AE%AE%E3%83%8D%E3%82%BF%E3%81%A8%E3%83%88%E3%83%BC%E3%82%AF-%E3%81%BE%E3%81%A0%E8%A9%B1%E3%81%97%E3%81%9F%E3%81%93%E3%81%A8%E3%81%AA%E3%81%84%E3%83%88%E3%83%BC%E3%82%AF%E3%83%86%E3%83%BC%E3%83%9E%E3%81%A7%E8%A9%B1%E3%81%9D%E3%81%86-6-5-19-00",
       "notice": "【チケット情報】\r\n先行期間：5/9（土）11:00～5/11（月）11:00\r\n当落発表：5/12（火）18:00頃\r\nオンライン・一般発売：5/13（水）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
       "price": {
         "advance": 2100,
@@ -2779,7 +2779,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15923/43127",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BC%94%E6%8A%80%E6%B4%BE%E8%8A%B8%E4%BA%BA%E6%B1%BA%E5%AE%9A%E6%88%A6-%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC-%E3%81%88%E3%81%B3%E3%81%A1%E3%82%83%E3%82%93%E3%82%92%E8%B6%8A%E3%81%88%E3%82%8D-6-5-20-30",
       "notice": "【チケット情報】\r\n先行期間：5/9（土）11:00～5/11（月）11:00\r\n当落発表：5/12（火）18:00頃\r\nオンライン・一般発売：5/13（水）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
       "price": {
         "advance": 2100,
@@ -3457,9 +3457,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-13T10:07:05+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-13T10:07:05+09:00"
+      "last_updated": "2026-05-13T10:07:05+09:00",
+      "notified_at": "2026-05-13T10:07:05+09:00",
+      "diff": null
     },
     {
       "id": "d89cc0c7",
@@ -3922,6 +3923,33 @@
       "last_updated": "2026-05-01T17:49:39+09:00",
       "notified_at": "2026-05-01T17:49:39+09:00",
       "diff": null
+    },
+    {
+      "id": "84fd2805",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "MANZAI寄席",
+      "date": "2026-06-29",
+      "open_time": "16:00",
+      "start_time": "16:30",
+      "end_time": null,
+      "members": "ミカボ、シンクロニシティ、インテイク、軟水、カラタチ、ビューティフルトーキョーマンズ、ブラゴーリ、ただならぬ刀",
+      "venue": "なかのZERO　小ホール",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-13T18:14:12+09:00",
+      "last_updated": "2026-05-13T18:14:12+09:00",
+      "notified_at": "2026-05-13T18:14:12+09:00"
     },
     {
       "id": "4fd3297b",

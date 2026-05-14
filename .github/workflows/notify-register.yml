@@ -1,0 +1,35 @@
+name: notify-register
+
+on:
+  repository_dispatch:
+    types: [register-request]
+
+permissions:
+  contents: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install python-dotenv
+
+      - name: Send approval request email
+        env:
+          MAIL_USER:    ${{ secrets.MAIL_USER }}
+          MAIL_PASS:    ${{ secrets.MAIL_PASS }}
+          ADMIN_EMAIL:  ${{ secrets.ADMIN_EMAIL }}
+          SITE_ORIGIN:  ${{ vars.SITE_ORIGIN }}
+          REQ_TOKEN:    ${{ github.event.client_payload.token }}
+          REQ_EMAIL:    ${{ github.event.client_payload.email }}
+        run: python scripts/notify_register.py

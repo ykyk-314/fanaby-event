@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>新規登録申請 - fanaby-event</title>
   <link rel="stylesheet" href="assets/style.css">
-  <!-- Turnstile site key: 発行後に data-sitekey を実際の値に置き換えてください -->
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <style>
     .register-container {
@@ -102,8 +101,7 @@
         <label for="email">メールアドレス</label>
         <input type="email" id="email" name="email" required placeholder="your@email.com" autocomplete="email">
       </div>
-      <!-- Turnstile widget: data-sitekey を実際の Site Key に置き換えてください -->
-      <div class="cf-turnstile" data-sitekey="__REPLACE_WITH_TURNSTILE_SITE_KEY__" data-theme="light"></div>
+      <div class="cf-turnstile" data-sitekey="0x4AAAAAADPI-i9Zl-PlEWm2" data-theme="light"></div>
       <button type="submit" class="btn-submit" id="submit-btn">申請する</button>
     </form>
     <div id="result" role="alert"></div>

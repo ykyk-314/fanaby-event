@@ -118,7 +118,7 @@ export async function onRequestPost({ request, env }) {
         env.FANABY_VIEWING_STATUSES.delete(reqKey),
         env.FANABY_VIEWING_STATUSES.delete(emailKey),
       ]);
-      return json({ error: '申請の送信に失敗しました。しばらく後に再試行してください。' }, 500);
+      return json({ error: `[DEBUG] dispatch失敗: ${e.message}` }, 500);
     }
   } else {
     console.warn('GH_REPO or GH_DISPATCH_TOKEN not set, skipping dispatch');

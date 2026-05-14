@@ -14,7 +14,7 @@ load_dotenv()
 
 MAIL_USER = os.environ["MAIL_USER"]
 MAIL_PASS = os.environ["MAIL_PASS"]
-ADMIN_EMAIL = os.environ["MAIL_TO"]
+ADMIN_EMAIL = os.environ["ADMIN_EMAIL"]
 SITE_ORIGIN = os.environ.get("SITE_ORIGIN", "").rstrip("/")
 REQ_TOKEN = os.environ["REQ_TOKEN"]
 REQ_EMAIL = os.environ["REQ_EMAIL"]

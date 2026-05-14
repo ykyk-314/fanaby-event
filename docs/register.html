@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>新規登録申請 - fanaby-event</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <style>
+    .register-container {
+      max-width: 480px;
+      margin: 48px auto;
+      background: #fff;
+      border-radius: 8px;
+      padding: 32px 28px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    }
+    .register-container h2 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      color: #1a1a2e;
+    }
+    .register-container p {
+      color: #666;
+      font-size: 13px;
+      margin: 0 0 20px;
+      line-height: 1.6;
+    }
+    .form-group {
+      margin-bottom: 16px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      color: #555;
+      margin-bottom: 6px;
+    }
+    .form-group input[type="email"] {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      background: #fafafa;
+      box-sizing: border-box;
+      color: #333;
+    }
+    .form-group input[type="email"]:focus {
+      outline: none;
+      border-color: #3498db;
+      background: #fff;
+    }
+    .btn-submit {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background: #1a1a2e;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+      margin-top: 16px;
+    }
+    .btn-submit:disabled {
+      opacity: .6;
+      cursor: not-allowed;
+    }
+    #result {
+      margin-top: 16px;
+      padding: 12px;
+      border-radius: 4px;
+      font-size: 13px;
+      display: none;
+    }
+    #result.success {
+      background: #eafaf1;
+      color: #1e8449;
+      border: 1px solid #a9dfbf;
+    }
+    #result.error {
+      background: #fdedec;
+      color: #922b21;
+      border: 1px solid #f1948a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>fanaby-event</h1>
+  </header>
+  <div class="register-container">
+    <h2>新規登録申請</h2>
+    <p>
+      このサービスは管理者の承認が必要です。<br>
+      メールアドレスを入力して申請を送信すると、管理者に通知が届きます。<br>
+      承認後に OTP コードでログインできるようになります。
+    </p>
+    <form id="register-form" novalidate>
+      <div class="form-group">
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email" name="email" required placeholder="your@email.com" autocomplete="email">
+      </div>
+      <div class="cf-turnstile" data-sitekey="0x4AAAAAADPI-i9Zl-PlEWm2" data-theme="light"></div>
+      <button type="submit" class="btn-submit" id="submit-btn">申請する</button>
+    </form>
+    <div id="result" role="alert"></div>
+  </div>
+  <script src="assets/register.js"></script>
+</body>
+</html>

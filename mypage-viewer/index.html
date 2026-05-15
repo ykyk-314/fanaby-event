@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FANY 履歴ビューワー</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>FANY 履歴ビューワー</h1>
+  <a href="install.html" class="header-sub" style="color:#fff;text-decoration:none;">導入方法</a>
+</header>
+
+<div id="received-banner" class="received-banner" hidden></div>
+
+<div class="filter-panel">
+  <div class="filter-row">
+    <label class="filter-label" for="filter-keyword">キーワード</label>
+    <input type="text" id="filter-keyword" placeholder="公演名・会場名（スペース区切り AND）">
+  </div>
+
+  <div class="filter-row">
+    <label class="filter-label" for="filter-venue">会場</label>
+    <select id="filter-venue">
+      <option value="">すべて</option>
+    </select>
+  </div>
+
+  <div class="filter-row">
+    <label class="filter-label">公演日</label>
+    <input type="date" id="filter-date-from">
+    <span style="font-size:13px;color:#666;">〜</span>
+    <input type="date" id="filter-date-to">
+  </div>
+
+  <div class="filter-row">
+    <label class="filter-label">状態</label>
+    <div class="filter-status-group">
+      <label class="status-check">
+        <input type="checkbox" id="filter-status-paid" checked>入金済
+      </label>
+      <label class="status-check">
+        <input type="checkbox" id="filter-status-won" checked>当選
+      </label>
+      <label class="status-check">
+        <input type="checkbox" id="filter-status-unticketed" checked>未発券
+      </label>
+      <label class="status-check">
+        <input type="checkbox" id="filter-status-lost">落選
+      </label>
+      <label class="status-check">
+        <input type="checkbox" id="filter-status-other" checked>その他
+      </label>
+    </div>
+  </div>
+
+  <div class="filter-footer">
+    <span class="result-count" id="result-count"></span>
+    <button class="btn-clear" id="btn-clear">条件をリセット</button>
+  </div>
+</div>
+
+<main class="main">
+  <div class="scraped-at" id="scraped-at"></div>
+
+  <div id="empty-state" class="empty-state">
+    <div class="empty-icon">🎫</div>
+    <p><strong>履歴データがありません</strong></p>
+    <p>
+      <a href="https://ticket.fany.lol/history" target="_blank" rel="noopener noreferrer">
+        ticket.fany.lol/history
+      </a>
+      を開いてブックマークレットを実行してください。
+    </p>
+    <p><a href="install.html">導入方法はこちら</a></p>
+  </div>
+
+  <div id="cards"></div>
+</main>
+
+<script src="assets/viewer.js"></script>
+</body>
+</html>

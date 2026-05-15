@@ -1,0 +1,6 @@
+# Cloudflare Pages カスタムヘッダー
+# collector.js はブックマークレットのローダーとして ticket.fany.lol から読み込まれるため CORS を許可
+
+/assets/collector.js
+  Access-Control-Allow-Origin: https://ticket.fany.lol
+  Cache-Control: no-cache, no-store

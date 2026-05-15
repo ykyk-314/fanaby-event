@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FANY 履歴ビューワー — 導入方法</title>
+  <style>
+    :root {
+      --accent: #e84424;
+      --bg: #f5f5f5;
+      --surface: #fff;
+      --border: #ddd;
+      --text: #333;
+      --sub: #666;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+      font-size: 15px;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    header {
+      background: var(--accent);
+      color: #fff;
+      padding: 14px 18px;
+    }
+    header h1 { margin: 0; font-size: 17px; }
+    header a   { color: #fff; font-size: 13px; opacity: 0.85; }
+
+    .container { max-width: 640px; margin: 0 auto; padding: 20px 16px 48px; }
+
+    h2 { font-size: 17px; border-bottom: 2px solid var(--accent); padding-bottom: 4px; margin-top: 32px; }
+    h3 { font-size: 15px; margin-top: 20px; margin-bottom: 8px; }
+
+    .notice {
+      background: #fff8e1;
+      border-left: 4px solid #f9a825;
+      padding: 10px 14px;
+      border-radius: 4px;
+      font-size: 13px;
+      margin-bottom: 16px;
+    }
+
+    .step {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 12px;
+    }
+    .step-num {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-weight: bold;
+      font-size: 13px;
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+      text-align: center;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    .step-title { font-weight: bold; }
+
+    /* ブックマークレットリンクボックス */
+    .bookmarklet-box {
+      background: var(--surface);
+      border: 2px dashed var(--accent);
+      border-radius: 8px;
+      padding: 18px;
+      text-align: center;
+      margin: 16px 0;
+    }
+    .bookmarklet-box p { margin: 0 0 10px; font-size: 13px; color: var(--sub); }
+    .bookmarklet-link {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff !important;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 12px 28px;
+      border-radius: 24px;
+      margin-bottom: 6px;
+    }
+    .bookmarklet-hint { font-size: 12px; color: var(--sub); }
+
+    /* コードブロック */
+    .code-block {
+      background: #1e1e1e;
+      color: #d4d4d4;
+      font-family: 'Menlo', 'Courier New', monospace;
+      font-size: 12px;
+      padding: 12px;
+      border-radius: 6px;
+      overflow-x: auto;
+      word-break: break-all;
+      white-space: pre-wrap;
+      margin: 8px 0;
+    }
+
+    ol { padding-left: 20px; }
+    ol li { margin-bottom: 6px; }
+
+    img.screenshot {
+      max-width: 100%;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      margin: 8px 0;
+    }
+
+    .tab-btns { display: flex; gap: 4px; margin-bottom: -1px; }
+    .tab-btn {
+      padding: 8px 16px;
+      border: 1px solid var(--border);
+      border-bottom: none;
+      background: var(--bg);
+      border-radius: 6px 6px 0 0;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .tab-btn.active { background: var(--surface); font-weight: bold; }
+    .tab-content {
+      border: 1px solid var(--border);
+      background: var(--surface);
+      border-radius: 0 6px 6px 6px;
+      padding: 16px;
+    }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    .privacy-list {
+      background: #e8f5e9;
+      border-left: 4px solid #4caf50;
+      padding: 10px 14px;
+      border-radius: 4px;
+      font-size: 13px;
+      margin: 12px 0;
+    }
+    .privacy-list li { margin-bottom: 4px; }
+
+    a { color: var(--accent); }
+
+    @media (max-width: 480px) {
+      .container { padding: 16px 12px 40px; }
+      .bookmarklet-link { font-size: 15px; padding: 11px 22px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>FANY 履歴ビューワー — 導入方法</h1>
+  <a href="index.html">← ビューワーへ戻る</a>
+</header>
+
+<div class="container">
+
+  <h2>このツールについて</h2>
+  <p>
+    FANY（ticket.fany.lol）の購入・申込履歴を、公演名・会場・公演日・ステータスで自由に絞り込めるビューワーです。
+    ブックマークレットを使って FANY の履歴ページからデータを収集し、このビューワーに表示します。
+  </p>
+
+  <div class="privacy-list">
+    <strong>🔒 プライバシーについて</strong>
+    <ul>
+      <li>FANY のログイン情報（ID・パスワード）はこのツールに送信されません</li>
+      <li>取得した履歴データはあなたの端末の LocalStorage にのみ保存されます</li>
+      <li>外部サーバーへのデータ送信は一切ありません</li>
+    </ul>
+  </div>
+
+  <h2>ブックマークレットの設定</h2>
+
+  <div class="tab-btns">
+    <button class="tab-btn active" onclick="switchTab('safari')">iPhone Safari</button>
+    <button class="tab-btn" onclick="switchTab('chrome')">PC Chrome / Edge</button>
+  </div>
+  <div class="tab-content">
+    <div id="tab-safari" class="tab-panel active">
+      <p>Safari ではリンクのドラッグができないため、手動でブックマークを編集します。</p>
+      <ol>
+        <li>
+          <strong>適当なページをブックマークに追加</strong><br>
+          <code>ticket.fany.lol/history</code> など、どのページでも構いません。
+          共有ボタン（↑）から「ブックマークを追加」します。
+        </li>
+        <li>
+          <strong>ブックマークを編集して URL を書き換える</strong><br>
+          ブックマーク一覧を開いて、いま追加したブックマークを長押し →「編集」を選択。
+          名前を「<strong>FANY履歴取得</strong>」に変更し、URL 欄を<strong>全選択して以下のコードに置き換えて</strong>ください。
+        </li>
+      </ol>
+
+      <div class="bookmarklet-box">
+        <p>以下のテキストをコピーして URL 欄に貼り付けてください</p>
+        <div class="code-block" id="bookmarklet-url-text" onclick="copyBookmarklet()"></div>
+        <button onclick="copyBookmarklet()" style="margin-top:8px;padding:8px 18px;background:var(--accent);color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;">コピー</button>
+        <div id="copy-msg" style="font-size:12px;color:green;margin-top:4px;display:none;">コピーしました！</div>
+      </div>
+
+      <div class="notice">
+        URL 欄に「javascript:」から始まるテキストが入力されていることを確認してから保存してください。
+      </div>
+    </div>
+
+    <div id="tab-chrome" class="tab-panel">
+      <p>下のボタンをブックマークバーにドラッグ＆ドロップします。</p>
+      <div class="bookmarklet-box">
+        <p>以下のボタンをブックマークバーへドラッグしてください</p>
+        <a id="bookmarklet-link" class="bookmarklet-link" href="#">FANY履歴取得</a>
+        <div class="bookmarklet-hint">（ブックマークバーが表示されていない場合: Ctrl+Shift+B で表示）</div>
+      </div>
+    </div>
+  </div>
+
+  <h2>使い方</h2>
+
+  <div class="step">
+    <span class="step-num">1</span>
+    <span class="step-title">FANY にログインした状態で履歴ページを開く</span>
+    <p>
+      <a href="https://ticket.fany.lol/history" target="_blank" rel="noopener noreferrer">
+        https://ticket.fany.lol/history
+      </a>
+      を開いてください。ログインが必要な場合は先にログインしてください。
+    </p>
+  </div>
+
+  <div class="step">
+    <span class="step-num">2</span>
+    <span class="step-title">ブックマークレット「FANY履歴取得」を実行</span>
+    <p>
+      <strong>Safari</strong>: アドレスバーに「FANY」と入力してブックマーク候補から選ぶか、ブックマーク一覧から「FANY履歴取得」をタップします。<br>
+      <strong>Chrome</strong>: ブックマークバーの「FANY履歴取得」をクリックします。
+    </p>
+  </div>
+
+  <div class="step">
+    <span class="step-num">3</span>
+    <span class="step-title">自動でビューワーが開き、データが転送される</span>
+    <p>
+      ブラウザのタイトルに「取得中 N/19...」と表示されながら全ページを自動取得します。
+      取得完了後にビューワータブへデータが転送され、一覧が表示されます。
+    </p>
+  </div>
+
+  <div class="notice">
+    データはあなたの端末に保存されます。次回ビューワーを開いたときも前回のデータが表示されます。
+    最新の履歴を反映するには再度ブックマークレットを実行してください。
+  </div>
+
+  <h2>トラブルシューティング</h2>
+
+  <div class="step">
+    <span class="step-title">「セッション切れ」と表示される</span>
+    <p><a href="https://ticket.fany.lol/" target="_blank" rel="noopener noreferrer">FANY</a> に再ログインしてから実行してください。</p>
+  </div>
+
+  <div class="step">
+    <span class="step-title">Safari でブックマークレットが動かない</span>
+    <p>
+      URL 欄が「javascript:」から始まっているか確認してください。
+      「javascript:」の部分が消えてしまっている場合は、テキストを再度コピーして貼り直してください。
+    </p>
+  </div>
+
+  <div class="step">
+    <span class="step-title">ビューワーが開いたがデータが表示されない</span>
+    <p>
+      取得完了後にビューワーが開いていなかった可能性があります。
+      ブックマークレットを再実行するか、ビューワーを開いた状態でもう一度実行してみてください。
+    </p>
+  </div>
+
+</div>
+
+<script>
+  // ブックマークレットソースを collector.js から取得して埋め込む
+  // ビルド時に inline 化するのが理想だが、静的配信のため install.html 内で fetch + 動的注入
+  const VIEWER = 'https://mypage-viewer.pages.dev';
+
+  // collector.js の内容を fetch して javascript: URL を生成
+  (async function() {
+    try {
+      const res = await fetch('assets/collector.js');
+      const src = await res.text();
+      // minify: コメント除去 + 改行削除（簡易）
+      const mini = src
+        .replace(/\/\*[\s\S]*?\*\//g, '')   // ブロックコメント除去
+        .replace(/\/\/[^\n]*/g, '')          // 行コメント除去
+        .replace(/\s{2,}/g, ' ')             // 連続空白を1つに
+        .replace(/\n/g, ' ')                 // 改行を空白に
+        .trim();
+      const url = 'javascript:' + encodeURIComponent(mini);
+
+      // テキスト表示
+      document.getElementById('bookmarklet-url-text').textContent = url;
+      // ドラッグ用リンク
+      document.getElementById('bookmarklet-link').href = url;
+    } catch(e) {
+      document.getElementById('bookmarklet-url-text').textContent =
+        '読み込みエラー。ページをリロードしてください。';
+    }
+  })();
+
+  function copyBookmarklet() {
+    const text = document.getElementById('bookmarklet-url-text').textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      const msg = document.getElementById('copy-msg');
+      msg.style.display = 'block';
+      setTimeout(() => { msg.style.display = 'none'; }, 2000);
+    });
+  }
+
+  function switchTab(name) {
+    document.querySelectorAll('.tab-btn').forEach((b, i) => {
+      const tabs = ['safari', 'chrome'];
+      b.classList.toggle('active', tabs[i] === name);
+    });
+    document.querySelectorAll('.tab-panel').forEach((p) => {
+      p.classList.toggle('active', p.id === 'tab-' + name);
+    });
+  }
+</script>
+
+</body>
+</html>

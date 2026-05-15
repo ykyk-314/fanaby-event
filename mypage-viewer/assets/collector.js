@@ -135,15 +135,11 @@
     scrapedAt: new Date().toISOString(),
   };
 
-  // ビューワーが読み込まれるのを待ってから送信（フェッチに数秒かかるため概ね不要だが念のため）
-  const send = () => {
+  // cross-origin window の .document にはアクセス不可のため、常に setTimeout で送信
+  // 全ページ取得に最低 (pages * 400ms) かかるため、ビューワーはほぼ確実に読み込み済み
+  setTimeout(() => {
     try { vw.postMessage(msg, VIEWER); } catch (_) {}
-  };
-  if (vw && vw.document && vw.document.readyState === 'complete') {
-    send();
-  } else {
-    setTimeout(send, 2500);
-  }
+  }, 500);
 
   alert(entries.length + '件の履歴を取得しました。\nビューワーを確認してください。');
 })();

@@ -13,7 +13,7 @@ const STATUS_LABEL = {
   won:        '当選',
   unticketed: '未発券',
   lost:       '落選',
-  other:      'その他',
+  other:      '',
 };
 
 const STATUS_COLOR = {
@@ -23,6 +23,15 @@ const STATUS_COLOR = {
   lost:       '#95a5a6',
   other:      '#7f8c8d',
 };
+
+// 会場 select の優先表示順（部分一致）
+const PREFERRED_VENUES = [
+  'ルミネtheよしもと',
+  '渋谷よしもと漫才劇場',
+  '神保町よしもと漫才劇場',
+  '大宮ラクーンよしもと漫才劇場',
+  'よしもと幕張イオンモール劇場',
+];
 
 // ---- ストレージ ----
 
@@ -55,7 +64,6 @@ function validateEntries(raw) {
       seat_type:        String(e.seat_type || ''),
       quantity:         Number.isFinite(+e.quantity) ? Math.max(1, +e.quantity) : 1,
       price:            Number.isFinite(+e.price) ? Math.max(0, +e.price) : 0,
-      // detail_url は ticket.fany.lol/history/detail/ のみ許可
       detail_url:
         typeof e.detail_url === 'string' &&
         e.detail_url.startsWith('https://ticket.fany.lol/history/detail/')
@@ -71,42 +79,58 @@ const filters = {
   venue:    '',
   dateFrom: '',
   dateTo:   '',
-  status: {
-    paid:       true,
-    won:        true,
-    unticketed: true,
-    lost:       false, // デフォルト非表示
-    other:      true,
-  },
+  showLost: false,  // 落選を表示するか
+  showPast: false,  // 過去公演を表示するか
 };
 
 // ---- アプリ状態 ----
 
 let appData = null; // { schema_version, scraped_at, entries[] }
 
-// ---- フィルタ適用 ----
+// ---- ユーティリティ ----
+
+function getToday() {
+  const d = new Date();
+  return d.getFullYear() + '-'
+    + String(d.getMonth() + 1).padStart(2, '0') + '-'
+    + String(d.getDate()).padStart(2, '0');
+}
+
+// ---- フィルタ適用 + 公演日昇順ソート ----
 
 function applyFilters(entries) {
-  return entries.filter((e) => {
-    // ステータスチェック
-    if (!filters.status[e.status]) return false;
+  const today = getToday();
 
-    // 公演日 from/to
-    if (filters.dateFrom && e.performance_date < filters.dateFrom) return false;
-    if (filters.dateTo   && e.performance_date > filters.dateTo)   return false;
+  return entries
+    .filter((e) => {
+      // 落選フィルタ
+      if (e.status === 'lost' && !filters.showLost) return false;
 
-    // 会場
-    if (filters.venue && e.venue !== filters.venue) return false;
+      // 過去公演フィルタ（performance_date が空の場合は表示）
+      if (!filters.showPast && e.performance_date && e.performance_date < today) return false;
 
-    // キーワード（スペース区切り AND）
-    if (filters.keyword) {
-      const target = (e.title + ' ' + e.venue + ' ' + e.seat_type).toLowerCase();
-      const words = filters.keyword.toLowerCase().split(/\s+/).filter(Boolean);
-      if (!words.every((w) => target.includes(w))) return false;
-    }
+      // 公演日 from/to
+      if (filters.dateFrom && e.performance_date < filters.dateFrom) return false;
+      if (filters.dateTo   && e.performance_date > filters.dateTo)   return false;
 
-    return true;
-  });
+      // 会場
+      if (filters.venue && e.venue !== filters.venue) return false;
+
+      // キーワード（スペース区切り AND）
+      if (filters.keyword) {
+        const target = (e.title + ' ' + e.venue + ' ' + e.seat_type).toLowerCase();
+        const words = filters.keyword.toLowerCase().split(/\s+/).filter(Boolean);
+        if (!words.every((w) => target.includes(w))) return false;
+      }
+
+      return true;
+    })
+    .sort((a, b) => {
+      // 公演日昇順。日付不明は末尾
+      if (!a.performance_date) return 1;
+      if (!b.performance_date) return -1;
+      return a.performance_date < b.performance_date ? -1 : a.performance_date > b.performance_date ? 1 : 0;
+    });
 }
 
 // ---- DOM 生成 ----
@@ -124,36 +148,32 @@ function formatPrice(price) {
   return price > 0 ? '¥' + price.toLocaleString() : '';
 }
 
-function escText(str) {
-  // textContent での代入を前提とするためエスケープ不要だが、明示的に型保証
-  return String(str);
-}
-
 function createCard(entry) {
   const card = document.createElement('div');
   card.className = 'card status-' + entry.status;
-  if (entry.status === 'lost') card.classList.add('card--lost');
 
-  // ステータスバッジ
-  const badge = document.createElement('span');
-  badge.className = 'badge';
-  badge.style.background = STATUS_COLOR[entry.status] || '#7f8c8d';
-  badge.textContent = escText(STATUS_LABEL[entry.status] || entry.status_text || entry.status);
-  card.appendChild(badge);
+  // ステータスバッジ（status_text が空なら非表示）
+  const label = STATUS_LABEL[entry.status] || entry.status_text;
+  if (label) {
+    const badge = document.createElement('span');
+    badge.className = 'badge';
+    badge.style.background = STATUS_COLOR[entry.status] || '#7f8c8d';
+    badge.textContent = String(label);
+    card.appendChild(badge);
+  }
 
   // 公演日 + 時刻
   const dateRow = document.createElement('div');
   dateRow.className = 'card-date';
   const dateSpan = document.createElement('span');
   dateSpan.className = 'card-date-main';
-  dateSpan.textContent = escText(formatDate(entry.performance_date));
+  dateSpan.textContent = String(formatDate(entry.performance_date));
   dateRow.appendChild(dateSpan);
   if (entry.start_time) {
     const timeSpan = document.createElement('span');
     timeSpan.className = 'card-time';
-    timeSpan.textContent = escText(
-      (entry.open_time ? '開場 ' + entry.open_time + ' ' : '') +
-      '開演 ' + entry.start_time
+    timeSpan.textContent = String(
+      (entry.open_time ? '開場 ' + entry.open_time + '  ' : '') + '開演 ' + entry.start_time
     );
     dateRow.appendChild(timeSpan);
   }
@@ -162,13 +182,13 @@ function createCard(entry) {
   // タイトル
   const title = document.createElement('div');
   title.className = 'card-title';
-  title.textContent = escText(entry.title);
+  title.textContent = String(entry.title);
   card.appendChild(title);
 
   // 会場
   const venue = document.createElement('div');
   venue.className = 'card-venue';
-  venue.textContent = escText(entry.venue);
+  venue.textContent = String(entry.venue);
   card.appendChild(venue);
 
   // 詳細情報行
@@ -181,14 +201,13 @@ function createCard(entry) {
   if (entry.price > 0) parts.push(formatPrice(entry.price));
 
   const metaText = document.createElement('span');
-  metaText.textContent = escText(parts.join('  '));
+  metaText.textContent = String(parts.join('  '));
   meta.appendChild(metaText);
 
-  // 詳細リンク
   if (entry.detail_url) {
     const link = document.createElement('a');
     link.className = 'card-link';
-    link.href = entry.detail_url; // 上で /history/detail/ のみ許可済み
+    link.href = entry.detail_url;
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     link.textContent = '詳細';
@@ -200,14 +219,19 @@ function createCard(entry) {
   if (entry.reserved_at) {
     const reserved = document.createElement('div');
     reserved.className = 'card-reserved';
-    reserved.textContent = escText('予約: ' + entry.reserved_at);
+    reserved.textContent = String('予約: ' + entry.reserved_at);
     card.appendChild(reserved);
   }
 
   return card;
 }
 
-// ---- 会場 <select> を再構築 ----
+// ---- 会場 <select> を再構築（優先会場を先頭に） ----
+
+function venueOrder(venue) {
+  const idx = PREFERRED_VENUES.findIndex((p) => venue.includes(p));
+  return idx >= 0 ? idx : PREFERRED_VENUES.length;
+}
 
 function rebuildVenueOptions() {
   const select = document.getElementById('filter-venue');
@@ -216,7 +240,13 @@ function rebuildVenueOptions() {
 
   if (!appData) return;
 
-  const venues = [...new Set(appData.entries.map((e) => e.venue).filter(Boolean))].sort();
+  const venues = [...new Set(appData.entries.map((e) => e.venue).filter(Boolean))]
+    .sort((a, b) => {
+      const oa = venueOrder(a), ob = venueOrder(b);
+      if (oa !== ob) return oa - ob;
+      return a.localeCompare(b, 'ja');
+    });
+
   for (const v of venues) {
     const opt = document.createElement('option');
     opt.value = v;
@@ -234,7 +264,6 @@ function render() {
   const emptyEl   = document.getElementById('empty-state');
   const scrapedEl = document.getElementById('scraped-at');
 
-  // 全削除（textContent クリア）
   while (container.firstChild) container.removeChild(container.firstChild);
 
   if (!appData || !appData.entries.length) {
@@ -246,7 +275,6 @@ function render() {
 
   emptyEl.hidden = true;
 
-  // 更新日時
   if (appData.scraped_at) {
     const d = new Date(appData.scraped_at);
     scrapedEl.textContent = 'データ取得: ' + d.toLocaleString('ja-JP');
@@ -283,31 +311,29 @@ function setupFilters() {
     render();
   });
 
-  for (const status of VALID_STATUSES) {
-    const cb = document.getElementById('filter-status-' + status);
-    if (!cb) continue;
-    cb.addEventListener('change', (e) => {
-      filters.status[status] = e.target.checked;
-      render();
-    });
-  }
+  document.getElementById('filter-show-lost').addEventListener('change', (e) => {
+    filters.showLost = e.target.checked;
+    render();
+  });
+
+  document.getElementById('filter-show-past').addEventListener('change', (e) => {
+    filters.showPast = e.target.checked;
+    render();
+  });
 
   document.getElementById('btn-clear').addEventListener('click', () => {
     document.getElementById('filter-keyword').value = '';
     document.getElementById('filter-venue').value = '';
     document.getElementById('filter-date-from').value = '';
     document.getElementById('filter-date-to').value = '';
+    document.getElementById('filter-show-lost').checked = false;
+    document.getElementById('filter-show-past').checked = false;
     filters.keyword  = '';
     filters.venue    = '';
     filters.dateFrom = '';
     filters.dateTo   = '';
-    // ステータスはデフォルトに戻す
-    for (const status of VALID_STATUSES) {
-      const isDefault = status !== 'lost';
-      filters.status[status] = isDefault;
-      const cb = document.getElementById('filter-status-' + status);
-      if (cb) cb.checked = isDefault;
-    }
+    filters.showLost = false;
+    filters.showPast = false;
     render();
   });
 }

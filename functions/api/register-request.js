@@ -103,6 +103,7 @@ export async function onRequestPost({ request, env }) {
           'Accept': 'application/vnd.github+json',
           'Content-Type': 'application/json',
           'X-GitHub-Api-Version': '2022-11-28',
+          'User-Agent': 'fanaby-event',
         },
         body: JSON.stringify({ event_type: 'register-request', client_payload: { token, email } }),
       });

@@ -109,7 +109,7 @@ export async function onRequestPost({ request, env }) {
       if (!dispatchRes.ok) {
         const errText = await dispatchRes.text();
         console.error('GitHub dispatch failed:', dispatchRes.status, errText);
-        throw new Error(`dispatch status ${dispatchRes.status}`);
+        throw new Error(`dispatch status ${dispatchRes.status}: ${errText}`);
       }
     } catch (e) {
       console.error('register-request dispatch error:', e);

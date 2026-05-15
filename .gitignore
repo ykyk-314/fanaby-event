@@ -7,3 +7,4 @@ __pycache__/
 .claude/issues/
 .codex
 commit.sh
+secrets/

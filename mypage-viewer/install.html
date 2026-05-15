@@ -290,11 +290,13 @@
     try {
       const res = await fetch('assets/collector.js');
       const src = await res.text();
-      // minify: コメント除去 + 改行削除（簡易）
+      // minify: コメント除去 + 改行削除
+      // 注意: /\/\/[^\n]*/g は文字列内の https:// も破壊するため行頭限定にする
       const mini = src
-        .replace(/\/\*[\s\S]*?\*\//g, '')   // ブロックコメント除去
-        .replace(/\/\/[^\n]*/g, '')          // 行コメント除去
-        .replace(/\s{2,}/g, ' ')             // 連続空白を1つに
+        .replace(/\/\*[\s\S]*?\*\//g, '')    // ブロックコメント除去
+        .replace(/^\s*\/\/[^\n]*/gm, '')     // 行頭コメントのみ除去（文字列内の // は触れない）
+        .replace(/[ \t]+/g, ' ')             // 水平空白を縮小
+        .replace(/\n\s*\n+/g, '\n')          // 連続空行を削除
         .replace(/\n/g, ' ')                 // 改行を空白に
         .trim();
       const url = 'javascript:' + encodeURIComponent(mini);

@@ -3,13 +3,12 @@
  *
  * Cloudflare Access 認証済み（bypass 対象外）。
  * ADMIN_EMAILS に一致するユーザーのみ実行可能。
- * 承認後、Cloudflare Access アプリケーションのポリシーにメールアドレスを直接追加する。
+ * 承認後、Cloudflare Access Rule Group にメールアドレスを追加する。
  *
  * 必要な環境変数:
- *   CF_API_TOKEN       - Access: Apps and Policies Edit 権限
- *   CF_ACCOUNT_ID      - アカウントID
- *   CF_APP_ID          - Access アプリケーションID（UUID）
- *   CF_POLICY_ID       - 編集対象のポリシーID（UUID）
+ *   CF_API_TOKEN        - Access: Groups: Edit 権限
+ *   CF_ACCOUNT_ID       - アカウントID
+ *   CF_ACCESS_GROUP_ID  - 編集対象の Rule Group ID（UUID）
  */
 
 import { sha256hex, isAdmin } from '../_lib/auth.js';
@@ -42,44 +41,44 @@ function htmlResponse(title, message, isError = false) {
 </html>`, { status: isError ? 400 : 200, headers: { 'Content-Type': 'text/html; charset=UTF-8' } });
 }
 
-async function addEmailToPolicy(env, email) {
-  const base = `https://api.cloudflare.com/client/v4/accounts/${env.CF_ACCOUNT_ID}/access/apps/${env.CF_APP_ID}/policies/${env.CF_POLICY_ID}`;
+async function addEmailToGroup(env, email) {
+  const base = `https://api.cloudflare.com/client/v4/accounts/${env.CF_ACCOUNT_ID}/access/groups/${env.CF_ACCESS_GROUP_ID}`;
   const headers = {
     'Authorization': `Bearer ${env.CF_API_TOKEN}`,
     'Content-Type': 'application/json',
+    'User-Agent': 'fanaby-event',
   };
 
-  // 現在のポリシーを取得
+  // 現在の Rule Group を取得
   const getRes = await fetch(base, { headers });
   if (!getRes.ok) {
     const txt = await getRes.text();
-    throw new Error(`CF API GET policy failed: ${getRes.status} ${txt}`);
+    throw new Error(`CF API GET group failed: ${getRes.status} ${txt}`);
   }
   const getJson = await getRes.json();
-  const policy = getJson.result;
+  const group = getJson.result;
 
   // すでに追加済みか確認（冪等）
-  const include = policy.include || [];
+  const include = group.include || [];
   const alreadyAdded = include.some(rule => rule.email?.email?.toLowerCase() === email.toLowerCase());
   if (!alreadyAdded) {
     include.push({ email: { email } });
   }
 
-  // ポリシーを更新（全フィールドを送信）
+  // Rule Group を更新
   const putRes = await fetch(base, {
     method: 'PUT',
     headers,
     body: JSON.stringify({
-      name: policy.name,
-      decision: policy.decision,
+      name: group.name,
       include,
-      exclude: policy.exclude || [],
-      require: policy.require || [],
+      exclude: group.exclude || [],
+      require: group.require || [],
     }),
   });
   if (!putRes.ok) {
     const txt = await putRes.text();
-    throw new Error(`CF API PUT policy failed: ${putRes.status} ${txt}`);
+    throw new Error(`CF API PUT group failed: ${putRes.status} ${txt}`);
   }
 }
 
@@ -114,12 +113,12 @@ export async function onRequestGet({ request, env }) {
 
   const { email } = req;
 
-  // Cloudflare Access ポリシーにメール追加
+  // Cloudflare Access Rule Group にメール追加
   try {
-    await addEmailToPolicy(env, email);
+    await addEmailToGroup(env, email);
   } catch (e) {
     console.error('register-approve CF API error:', e);
-    return htmlResponse('CF API エラー', `Access ポリシーへの追加に失敗しました。再度リンクをクリックしてください。<br>詳細: ${e.message}`, true);
+    return htmlResponse('CF API エラー', `Access グループへの追加に失敗しました。再度リンクをクリックしてください。<br>詳細: ${e.message}`, true);
   }
 
   // KV を承認済みに更新（TTL 30日）

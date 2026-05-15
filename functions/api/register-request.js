@@ -110,7 +110,7 @@ export async function onRequestPost({ request, env }) {
       if (!dispatchRes.ok) {
         const errText = await dispatchRes.text();
         console.error('GitHub dispatch failed:', dispatchRes.status, errText);
-        throw new Error(`dispatch status ${dispatchRes.status}: ${errText}`);
+        throw new Error(`dispatch status ${dispatchRes.status}`);
       }
     } catch (e) {
       console.error('register-request dispatch error:', e);
@@ -119,7 +119,7 @@ export async function onRequestPost({ request, env }) {
         env.FANABY_VIEWING_STATUSES.delete(reqKey),
         env.FANABY_VIEWING_STATUSES.delete(emailKey),
       ]);
-      return json({ error: `[DEBUG] dispatch失敗: ${e.message}` }, 500);
+      return json({ error: '申請の送信に失敗しました。しばらく後に再試行してください。' }, 500);
     }
   } else {
     console.warn('GH_REPO or GH_DISPATCH_TOKEN not set, skipping dispatch');

@@ -28,7 +28,7 @@ jobs:
         env:
           MAIL_USER:    ${{ secrets.MAIL_USER }}
           MAIL_PASS:    ${{ secrets.MAIL_PASS }}
-          ADMIN_EMAIL:  ${{ secrets.MAIL_TO }}
+          ADMIN_EMAIL:  ${{ secrets.ADMIN_EMAIL }}
           SITE_ORIGIN:  ${{ vars.SITE_ORIGIN }}
           REQ_TOKEN:    ${{ github.event.client_payload.token }}
           REQ_EMAIL:    ${{ github.event.client_payload.email }}

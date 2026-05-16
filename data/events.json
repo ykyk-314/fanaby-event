@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T18:16:50+09:00",
+  "updated_at": "2026-05-16T10:01:51+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1783,9 +1783,10 @@
       ],
       "local_image": "fliers/fdd69682.jpg",
       "status": "notified",
-      "last_updated": "2026-05-15T18:16:50+09:00",
       "first_seen": "2026-05-02T17:40:28+09:00",
-      "notified_at": "2026-05-15T18:16:50+09:00"
+      "last_updated": "2026-05-15T18:16:50+09:00",
+      "notified_at": "2026-05-15T18:16:50+09:00",
+      "diff": null
     },
     {
       "id": "6fdd9357",
@@ -2165,9 +2166,10 @@
       ],
       "local_image": "fliers/55dac2f3.jpg",
       "status": "notified",
-      "last_updated": "2026-05-15T18:16:50+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-15T18:16:50+09:00"
+      "last_updated": "2026-05-15T18:16:50+09:00",
+      "notified_at": "2026-05-15T18:16:50+09:00",
+      "diff": null
     },
     {
       "id": "862adff0",
@@ -2212,7 +2214,7 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": null,
-      "members": "[企画ライブ]MC：シモリュウ 前田／シカゴ実業 山本／ケビンス 仁木／野澤輸出／他",
+      "members": "[企画ライブ]MC：シモリュウ 前田／シカゴ実業 山本／ケビンス 仁木／野澤輸出／ネルソンズ 岸健之助／大石／他",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -2225,10 +2227,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-16T10:01:51+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-16T10:01:51+09:00"
     },
     {
       "id": "3eb01ba8",
@@ -2501,7 +2502,7 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": null,
-      "members": "[企画ライブ]ケビンス 仁木／他",
+      "members": "[企画ライブ]ケビンス 仁木／シカゴ実業 山本プロ野球／シモリュウ 前田龍二／九条ジョー／世間知らズ 椎木ゆうた／ナイチンゲールダンス 中野なかるてぃん／ナユタ おのはら／野澤輸出／ZAZY／他",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -2514,10 +2515,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-16T10:01:51+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-16T10:01:51+09:00"
     },
     {
       "id": "82310443",
@@ -3874,7 +3874,7 @@
       "members": "マユリカ／カベポスター／エバース",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016036_1_20260515171809316.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -3882,12 +3882,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/f2beaa91.jpg",
       "status": "notified",
+      "last_updated": "2026-05-16T10:01:51+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-16T10:01:51+09:00"
     },
     {
       "id": "a4f70cb3",

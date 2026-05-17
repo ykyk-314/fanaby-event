@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T10:10:08+09:00",
+  "updated_at": "2026-05-17T17:51:55+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1519,8 +1519,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -1551,8 +1550,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -1734,7 +1732,7 @@
       "members": "[企画ライブ]セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／シシガシラ／オズワルド／阿部直也／ゲスト：ダンビラムーチョ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014738_1_20260517170237476.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14096/39309",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE-5-20-19-15",
       "notice": "文字通り四分間にすべてを注ぐ漫才師達のネタライブ。\r\n四分にちなんだコーナーも？！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　3/25（水）11:00～3/28（土）11:00\r\n　・FANY IDメンバー\r\n　  3/25（水）11:00～3/28（土）11:00\r\n\r\n〇一般販売：4/5（日）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：4/5（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n\r\n■変更履歴■\r\n[追加]\r\nダンビラムーチョ(5/14)",
@@ -1747,12 +1745,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/7650ffe8.jpg",
       "status": "notified",
+      "last_updated": "2026-05-17T17:51:55+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-05-14T18:07:41+09:00",
-      "notified_at": "2026-05-14T18:07:41+09:00",
-      "diff": null
+      "notified_at": "2026-05-17T17:51:55+09:00"
     },
     {
       "id": "fdd69682",
@@ -2939,7 +2936,7 @@
       "open_time": "20:30",
       "start_time": "20:45",
       "end_time": null,
-      "members": "[企画ライブ]ケビンス 仁木恭平／ダンビラムーチョ 大原優一／9番街レトロ 京極風斗／ド桜 村田大樹／イチゴ イクト",
+      "members": "[企画ライブ]ケビンス 仁木恭平／ダンビラムーチョ 大原優一／9番街レトロ 京極風斗／ド桜 村田大樹／イチゴ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -2952,10 +2949,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-17T17:51:55+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-17T17:51:55+09:00"
     },
     {
       "id": "4570ec84",
@@ -3571,7 +3567,7 @@
       "members": "[企画ライブ]ミカボ／シンクロニシティ／ダブルヒガシ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015847_1_20260517134107913.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15239/41881",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4-6-20-17-15",
       "notice": "ミカボとシンクロニシティが切磋琢磨していこうというライブが4月から始動しました！\r\n毎回ゲストを招き切磋琢磨させていただきます！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　4/25（土）11:00～4/28（火）11:00\r\n　・FANY IDメンバー\r\n　    4/25（土）11:00～4/28（火）11:00\r\n\r\n〇一般販売：5/5（火）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：5/5（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n\r\n■変更履歴■\r\n[追加]\r\nダブルヒガシ(4/30)\r\n",
@@ -3584,12 +3580,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/a6cbeee0.jpg",
       "status": "notified",
+      "last_updated": "2026-05-17T17:51:55+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-30T17:57:30+09:00",
-      "notified_at": "2026-04-30T17:57:30+09:00",
-      "diff": null
+      "notified_at": "2026-05-17T17:51:55+09:00"
     },
     {
       "id": "9374e085",
@@ -3893,7 +3888,8 @@
       "status": "notified",
       "first_seen": "2026-05-17T10:10:08+09:00",
       "last_updated": "2026-05-17T10:10:08+09:00",
-      "notified_at": "2026-05-17T10:10:08+09:00"
+      "notified_at": "2026-05-17T10:10:08+09:00",
+      "diff": null
     },
     {
       "id": "f2beaa91",
@@ -3954,7 +3950,8 @@
       "status": "notified",
       "first_seen": "2026-05-17T10:10:08+09:00",
       "last_updated": "2026-05-17T10:10:08+09:00",
-      "notified_at": "2026-05-17T10:10:08+09:00"
+      "notified_at": "2026-05-17T10:10:08+09:00",
+      "diff": null
     },
     {
       "id": "2a511b66",
@@ -3986,7 +3983,8 @@
       "status": "notified",
       "first_seen": "2026-05-17T10:10:08+09:00",
       "last_updated": "2026-05-17T10:10:08+09:00",
-      "notified_at": "2026-05-17T10:10:08+09:00"
+      "notified_at": "2026-05-17T10:10:08+09:00",
+      "diff": null
     },
     {
       "id": "a4f70cb3",
@@ -4051,7 +4049,8 @@
       "status": "notified",
       "first_seen": "2026-05-17T10:10:08+09:00",
       "last_updated": "2026-05-17T10:10:08+09:00",
-      "notified_at": "2026-05-17T10:10:08+09:00"
+      "notified_at": "2026-05-17T10:10:08+09:00",
+      "diff": null
     },
     {
       "id": "84fd2805",

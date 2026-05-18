@@ -37,6 +37,9 @@ jobs:
         run: python scripts/scrape_ticket.py
 
       - name: Build static site
+        env:
+          REMIND_API_URL:    ${{ secrets.REMIND_API_URL }}
+          REMIND_API_SECRET: ${{ secrets.REMIND_API_SECRET }}
         run: python scripts/build.py
 
       - name: Commit if updated

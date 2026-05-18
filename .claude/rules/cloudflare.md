@@ -16,6 +16,10 @@ paths: functions/**/*
 | `/api/register-request` | POST | Public (bypass) | `functions/api/register-request.js` | Turnstile + IP レート制限 + GitHub dispatch |
 | `/api/register-approve` | GET | CF Access + admin | `functions/api/register-approve.js` | Cloudflare Access Rule Group にメール追加 |
 | `/api/register-reject` | GET | CF Access + admin | `functions/api/register-reject.js` | KV のみ `rejected` に更新 |
+| `/api/talents` | GET, POST, PUT | GET: Bearer or CF Access、POST: CF Access、PUT: Bearer | `functions/api/talents/index.js` | 芸人マスタ一覧取得 / 新規追加 / 全置換 |
+| `/api/talents/:talentId` | PATCH, DELETE | PATCH: Bearer、DELETE: CF Access + admin | `functions/api/talents/[talentId].js` | name/image_url 補完 / 物理削除 |
+| `/api/user-talents` | GET, PUT | CF Access | `functions/api/user-talents.js` | ユーザー別フォロー talent_ids 取得 / 全置換 |
+| `/api/notify-targets` | GET | Bearer `REMIND_API_SECRET` | `functions/api/notify-targets.js` | KV 走査して全ユーザーの `{email, talent_ids}` 一覧を返す（notify.py 用） |
 
 - 認証ユーティリティ: `functions/_lib/auth.js` (`sha256hex` / `getCallerEmail` / `getAdminEmails` / `isAdmin`)
 - 呼び出し元メールアドレス: `CF-Access-Authenticated-User-Email` ヘッダーから取得
@@ -29,8 +33,10 @@ paths: functions/**/*
 | キー | TTL | 値の形式 | 用途 |
 |---|---|---|---|
 | `status:{sha256(email)}` | なし | `{statuses: {eventId: {status, updated_at, memo, remind, excluded, history[]}}}` | アカウント別観覧ステータスマスタ |
-| `user:{sha256(email)}` | なし | `{email, updated_at}` | メールアドレス解決用（`/api/remind-list` が参照） |
+| `user:{sha256(email)}` | なし | `{email, updated_at}` | メールアドレス解決用（`/api/remind-list` / `/api/notify-targets` が参照） |
 | `excluded_events` | なし | `{ids: [eventId, ...], updated_at}` | グローバル除外公演 ID リスト |
+| `talents` | なし | `{schema_version, talents: [{id, name, image_url, profile_url, added_at, added_by}], updated_at}` | グローバル芸人マスタ |
+| `user-talents:{sha256(email)}` | なし | `{schema_version, talent_ids: [...], updated_at}` | ユーザー別フォロー芸人 ID リスト |
 | `register-req:{token}` | 24h → 承認時 30d | `{email, created_at, status: pending/approved/rejected}` | 登録申請データ |
 | `register-email:{sha256(email)}` | 24h → 承認時 30d | `{token, status, created_at, approved_at?}` | メール重複申請ガード |
 | `ratelimit:register:{ip}` | 1h | カウンタ（上限 5 回/h） | 登録申請 IP レート制限 |

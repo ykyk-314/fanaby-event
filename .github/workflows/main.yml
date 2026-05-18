@@ -42,10 +42,16 @@ jobs:
 
       - name: Scrape profile pages
         if: ${{ !inputs.skip_scrape }}
+        env:
+          REMIND_API_URL: ${{ secrets.REMIND_API_URL }}
+          REMIND_API_SECRET: ${{ secrets.REMIND_API_SECRET }}
         run: python scripts/scrape_profile_api.py
 
       - name: Scrape theater pages
         if: ${{ !inputs.skip_scrape }}
+        env:
+          REMIND_API_URL: ${{ secrets.REMIND_API_URL }}
+          REMIND_API_SECRET: ${{ secrets.REMIND_API_SECRET }}
         run: python scripts/scrape_theater_api.py
 
       - name: Merge and detect diffs
@@ -58,12 +64,17 @@ jobs:
       - name: Send notifications
         if: ${{ !inputs.skip_scrape }}
         env:
-          MAIL_USER: ${{ secrets.MAIL_USER }}
-          MAIL_PASS: ${{ secrets.MAIL_PASS }}
-          MAIL_TO:   ${{ secrets.MAIL_TO }}
+          MAIL_USER:         ${{ secrets.MAIL_USER }}
+          MAIL_PASS:         ${{ secrets.MAIL_PASS }}
+          MAIL_TO:           ${{ secrets.MAIL_TO }}
+          REMIND_API_URL:    ${{ secrets.REMIND_API_URL }}
+          REMIND_API_SECRET: ${{ secrets.REMIND_API_SECRET }}
         run: python scripts/notify.py
 
       - name: Build static site
+        env:
+          REMIND_API_URL: ${{ secrets.REMIND_API_URL }}
+          REMIND_API_SECRET: ${{ secrets.REMIND_API_SECRET }}
         run: python scripts/build.py
 
       - name: Commit and push updated data

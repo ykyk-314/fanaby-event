@@ -6,6 +6,7 @@
 import json
 import os
 import smtplib
+import urllib.request
 from datetime import datetime, timezone, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -23,7 +24,7 @@ load_dotenv(BASE_DIR / ".env")
 
 MAIL_USER = os.environ["MAIL_USER"]
 MAIL_PASS = os.environ["MAIL_PASS"]
-MAIL_TO = os.environ["MAIL_TO"]
+MAIL_TO = os.environ.get("MAIL_TO", "")
 
 
 def now_jst() -> str:
@@ -142,7 +143,7 @@ def build_event_card(ev: dict) -> str:
 </div>"""
 
 
-def build_html(talent_name: str, events: list[dict]) -> str:
+def build_html(title: str, events: list[dict]) -> str:
     cards = "".join(build_event_card(ev) for ev in events)
     new_count = sum(1 for e in events if e.get("status") == "new")
     upd_count = sum(1 for e in events if e.get("status") == "updated")
@@ -152,7 +153,7 @@ def build_html(talent_name: str, events: list[dict]) -> str:
 <html lang="ja">
 <head><meta charset="UTF-8"></head>
 <body style="font-family:'Hiragino Sans',sans-serif;color:#333;max-width:600px;margin:0 auto;padding:16px">
-  <h2 style="border-bottom:2px solid #e74c3c;padding-bottom:8px">{talent_name} の公演情報</h2>
+  <h2 style="border-bottom:2px solid #e74c3c;padding-bottom:8px">{title}</h2>
   <p style="margin-top:4px;margin-bottom:12px;font-size:13px">
     <a href="https://fanaby-event.pages.dev/" style="color:#e74c3c;text-decoration:none">▶ fanaby-event を開く</a>
   </p>
@@ -163,16 +164,35 @@ def build_html(talent_name: str, events: list[dict]) -> str:
 </html>"""
 
 
-def send_mail(subject: str, html: str) -> None:
+def send_mail(subject: str, html: str, to: str) -> None:
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"] = MAIL_USER
-    msg["To"] = MAIL_TO
+    msg["To"] = to
     msg.attach(MIMEText(html, "html", "utf-8"))
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(MAIL_USER, MAIL_PASS)
-        smtp.sendmail(MAIL_USER, MAIL_TO, msg.as_string())
+        smtp.sendmail(MAIL_USER, to, msg.as_string())
+
+
+def fetch_notify_targets() -> list[dict] | None:
+    """GET /api/notify-targets からユーザー別フォロー一覧を取得する。"""
+    api_url = os.environ.get("REMIND_API_URL", "").rstrip("/")
+    api_secret = os.environ.get("REMIND_API_SECRET", "")
+    if not api_url or not api_secret:
+        return None
+    try:
+        req = urllib.request.Request(
+            f"{api_url}/api/notify-targets",
+            headers={"Authorization": f"Bearer {api_secret}"},
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        return data.get("targets", [])
+    except Exception as e:
+        print(f"警告: notify-targets 取得失敗: {e}")
+        return None
 
 
 def main():
@@ -182,35 +202,66 @@ def main():
     ts = now_jst()
 
     # 通知対象: new または updated（除外済みイベントは除く）
-    notify_targets = [
+    notify_events = [
         e for e in events
         if e.get("status") in ("new", "updated") and not e.get("excluded")
     ]
-    if not notify_targets:
+    if not notify_events:
         print("通知対象なし")
         return
 
-    # 芸人別にグルーピング（複数芸人が出演する公演は各芸人の通知に含める）
-    talent_map: dict[str, list[dict]] = {}
-    for ev in notify_targets:
-        for tid in ev.get("talents", {}).keys():
-            talent_map.setdefault(tid, []).append(ev)
-
     sent_ids: set[str] = set()
-    for talent in config["talents"]:
-        tid = talent["id"]
-        if tid not in talent_map:
-            continue
-        talent_events = sorted(talent_map[tid], key=lambda e: e.get("date", ""))
-        subject = f"【公演情報】{talent['name']} — 新規/更新 {len(talent_events)} 件"
-        html = build_html(talent["name"], talent_events)
-        try:
-            send_mail(subject, html)
-            print(f"送信完了: {talent['name']} ({len(talent_events)} 件)")
-            for ev in talent_events:
-                sent_ids.add(ev["id"])
-        except Exception as e:
-            print(f"送信失敗: {talent['name']}: {e}")
+    targets = fetch_notify_targets()
+
+    if targets:
+        # ユーザー別通知
+        for target in targets:
+            email = target.get("email")
+            talent_ids = set(target.get("talent_ids", []))
+            if not email or not talent_ids:
+                continue
+            user_events = [
+                ev for ev in notify_events
+                if any(tid in talent_ids for tid in ev.get("talents", {}).keys())
+            ]
+            if not user_events:
+                continue
+            user_events = sorted(user_events, key=lambda e: e.get("date", ""))
+            new_count = sum(1 for e in user_events if e.get("status") == "new")
+            upd_count = sum(1 for e in user_events if e.get("status") == "updated")
+            subject = f"【公演情報】新規 {new_count} 件 / 更新 {upd_count} 件"
+            html = build_html("フォロー中の公演情報", user_events)
+            try:
+                send_mail(subject, html, email)
+                print(f"送信完了: {email} ({len(user_events)} 件)")
+                for ev in user_events:
+                    sent_ids.add(ev["id"])
+            except Exception as e:
+                print(f"送信失敗: {email}: {e}")
+    else:
+        # フォールバック: config.json の芸人で MAIL_TO に送信
+        if not MAIL_TO:
+            print("MAIL_TO 未設定かつ notify-targets 取得失敗 — 通知スキップ")
+            return
+        talent_map: dict[str, list[dict]] = {}
+        for ev in notify_events:
+            for tid in ev.get("talents", {}).keys():
+                talent_map.setdefault(tid, []).append(ev)
+        for talent in config.get("talents", []):
+            tid = talent["id"]
+            if tid not in talent_map:
+                continue
+            talent_events = sorted(talent_map[tid], key=lambda e: e.get("date", ""))
+            tname = talent.get("name") or talent["id"]
+            subject = f"【公演情報】{tname} — 新規/更新 {len(talent_events)} 件"
+            html = build_html(f"{tname} の公演情報", talent_events)
+            try:
+                send_mail(subject, html, MAIL_TO)
+                print(f"送信完了(フォールバック): {tname} ({len(talent_events)} 件)")
+                for ev in talent_events:
+                    sent_ids.add(ev["id"])
+            except Exception as e:
+                print(f"送信失敗: {tname}: {e}")
 
     # 送信済みのステータスをリセット
     for ev in events:

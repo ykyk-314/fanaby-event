@@ -4,6 +4,9 @@ header { background: #1a1a2e; color: #fff; padding: 16px 20px; }
 header h1 { font-size: 18px; font-weight: bold; }
 header p { font-size: 12px; color: #aaa; margin-top: 4px; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.header-right { display: flex; align-items: center; gap: 10px; }
+.settings-link { color: #aaa; font-size: 20px; text-decoration: none; line-height: 1; }
+.settings-link:hover { color: #fff; }
 .user-avatar {
   width: 34px; height: 34px; border-radius: 50%;
   background: #3d3d5c; color: #fff;

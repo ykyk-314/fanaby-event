@@ -12,12 +12,16 @@ import hashlib
 import json
 import os
 import re
+import sys
 import unicodedata
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlparse, urlunparse
+
+sys.path.insert(0, str(Path(__file__).parent))
+from _talents_kv import fetch_talents_master
 
 BASE_DIR = Path(__file__).parent.parent
 CONFIG_PATH = BASE_DIR / "data" / "config.json"
@@ -123,7 +127,7 @@ def load_existing_events() -> list[dict]:
 
 def build_events_from_theater(theater_events: list[dict], config: dict) -> list[dict]:
     """劇場取得データからイベントリストを構築する。1公演 = 1レコード。"""
-    talent_map = {t["id"]: t["name"] for t in config["talents"]}
+    talent_map = {t["id"]: t.get("name") or t["id"] for t in config["talents"]}
     events: list[dict] = []
     id_index: dict[str, int] = {}
 
@@ -344,6 +348,8 @@ def diff_and_update(
 
 def main():
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    kv_talents = fetch_talents_master(config.get("talents", []))
+    config = dict(config, talents=kv_talents)
 
     print("劇場イベント読み込み中...")
     theater_events = load_theater_events()

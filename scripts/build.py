@@ -268,8 +268,17 @@ def main():
     # タブボタン
     tab_buttons = '<button class="tab-btn active" data-tab="all">全員</button>'
     for t in talents:
+        img_src = t.get("local_image") or t.get("image_url") or ""
+        if img_src and not img_src.startswith("http"):
+            img_src = f"/{img_src}"
+        avatar = (
+            f'<img class="tab-avatar" src="{escape_html(img_src)}" alt=""'
+            f' onerror="this.style.display=\'none\'">'
+            if img_src else ""
+        )
         tab_buttons += (
             f'<button class="tab-btn" data-tab="{t["id"]}">'
+            f'{avatar}'
             f'{escape_html(t.get("name") or t["id"])}</button>'
         )
 

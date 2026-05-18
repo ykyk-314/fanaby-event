@@ -564,11 +564,16 @@ async function initFollowFilter() {
   if (missingIds.length === 0) return;
 
   let nameMap = {};
+  let imgMap = {};
   try {
     const res = await fetch('/api/talents');
     if (res.ok) {
       const d = await res.json();
-      for (const t of (d.talents || [])) nameMap[t.id] = t.name || t.id;
+      for (const t of (d.talents || [])) {
+        nameMap[t.id] = t.name || t.id;
+        const src = t.local_image ? ('/' + t.local_image) : (t.image_url || '');
+        if (src) imgMap[t.id] = src;
+      }
     }
   } catch {}
 
@@ -577,7 +582,15 @@ async function initFollowFilter() {
     const btn = document.createElement('button');
     btn.className = 'tab-btn';
     btn.dataset.tab = id;
-    btn.textContent = nameMap[id] || id;
+    if (imgMap[id]) {
+      const img = document.createElement('img');
+      img.className = 'tab-avatar';
+      img.src = imgMap[id];
+      img.alt = '';
+      img.onerror = () => { img.style.display = 'none'; };
+      btn.appendChild(img);
+    }
+    btn.appendChild(document.createTextNode(nameMap[id] || id));
     btn.addEventListener('click', () => {
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');

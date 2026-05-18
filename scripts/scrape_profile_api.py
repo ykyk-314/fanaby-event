@@ -5,6 +5,7 @@ Selenium を使わず requests で JSON を直接取得し、profile_events.json
 
 import json
 import re
+import sys
 import requests
 from datetime import datetime
 from pathlib import Path
@@ -14,6 +15,10 @@ CONFIG_PATH = BASE_DIR / "data" / "config.json"
 OUTPUT_PATH = BASE_DIR / "data" / "profile_events.json"
 
 API_BASE = "https://feed-api.yoshimoto.co.jp/fany/tickets/v2"
+PROFILE_BASE = "https://profile.yoshimoto.co.jp/talent/detail"
+
+sys.path.insert(0, str(Path(__file__).parent))
+from _talents_kv import fetch_talents_master, patch_talent
 
 
 def fetch_talent(talent_id: str) -> list[dict]:
@@ -78,17 +83,53 @@ def parse_event(item: dict, talent: dict) -> dict | None:
     }
 
 
+def scrape_profile_info(talent: dict) -> dict:
+    """プロフィールページから name と image_url を取得する。失敗時は空 dict。"""
+    url = talent.get("profile_url") or f"{PROFILE_BASE}?id={talent['id']}"
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "ja,en;q=0.9",
+    }
+    try:
+        resp = requests.get(url, headers=headers, timeout=15)
+        resp.raise_for_status()
+        html = resp.text
+    except Exception as e:
+        print(f"    警告: プロフィールページ取得失敗 ({talent['id']}): {e}")
+        return {}
+
+    result: dict = {}
+    # <p class="prof_name">シンクロニシティ</p>
+    m = re.search(r'<p\b[^>]*class=["\'][^"\']*\bprof_name\b[^"\']*["\'][^>]*>(.*?)</p>', html, re.IGNORECASE | re.DOTALL)
+    if m:
+        name = re.sub(r"<[^>]+>", "", m.group(1)).strip()
+        if name:
+            result["name"] = name
+    # <div id="js-profSlide">...<img src="...">...
+    m = re.search(r'id=["\']js-profSlide["\'][^>]*>.*?<img\s+src=["\']([^"\']+)["\']', html, re.DOTALL)
+    if m:
+        img_url = m.group(1).strip()
+        if img_url.startswith("http"):
+            result["image_url"] = img_url
+    return result
+
+
 def main():
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-    talents = config["talents"]
+    talents = fetch_talents_master(config.get("talents", []))
     all_events: list[dict] = []
 
     for talent in talents:
-        print(f"  取得中: {talent['name']}")
+        display_name = talent.get("name") or f"ID:{talent['id']}"
+        print(f"  取得中: {display_name}")
         try:
             items = fetch_talent(talent["id"])
         except Exception as e:
-            print(f"  警告: 取得失敗 ({talent['name']}): {e}")
+            print(f"  警告: 取得失敗 ({display_name}): {e}")
             continue
 
         merged: dict[tuple, dict] = {}
@@ -103,6 +144,24 @@ def main():
         events = list(merged.values())
         print(f"    {len(events)} 件取得（全 {len(items)} 件中）")
         all_events.extend(events)
+
+    # name / image_url が未設定の芸人をプロフィールページから補完
+    needs_patch = [t for t in talents if not t.get("name") or not t.get("image_url")]
+    if needs_patch:
+        print(f"\nプロフィール情報補完: {len(needs_patch)} 件")
+        for talent in needs_patch:
+            info = scrape_profile_info(talent)
+            if not info:
+                continue
+            kw: dict = {}
+            if not talent.get("name") and info.get("name"):
+                kw["name"] = info["name"]
+                print(f"    名前補完: {talent['id']} → {info['name']}")
+            if not talent.get("image_url") and info.get("image_url"):
+                kw["image_url"] = info["image_url"]
+                print(f"    画像補完: {talent['id']} → (取得)")
+            if kw:
+                patch_talent(talent["id"], **kw)
 
     OUTPUT_PATH.write_text(
         json.dumps(all_events, ensure_ascii=False, indent=2),

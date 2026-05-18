@@ -69,6 +69,38 @@ cron 設定:
 
 ---
 
+### `talent-added.yml` — 新規芸人追加時の即時スクレイプ
+
+| 項目 | 値 |
+|---|---|
+| トリガー | `repository_dispatch: [talent-added]`（`/api/talents` POST から発火） |
+| 権限 | `contents: write`, `deployments: write` |
+
+実行ステップ（順序）:
+1. checkout
+2. Python 3.11 セットアップ
+3. `pip install requests python-dotenv`（Chrome 不要）
+4. `python scripts/scrape_profile_api.py`（名前・画像・スケジュール取得）
+5. `python scripts/scrape_theater_api.py`
+6. `python scripts/merge.py`
+7. `python scripts/notify.py`（新規公演をユーザー別に通知）
+8. `python scripts/build.py`
+9. `git add data/events.json docs/index.html docs/fliers/` → commit & push
+10. `cloudflare/pages-action@v1` でデプロイ
+
+使用 Secrets:
+
+| ステップ | Secrets |
+|---|---|
+| scrape_*.py / merge.py / build.py | `REMIND_API_URL`, `REMIND_API_SECRET` |
+| notify.py | `MAIL_USER`, `MAIL_PASS`, `MAIL_TO`, `REMIND_API_URL`, `REMIND_API_SECRET` |
+| デプロイ | `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `GITHUB_TOKEN`（自動提供） |
+
+発火元: `functions/api/talents/index.js` の POST ハンドラ（KV 保存成功後、`GH_REPO` / `GH_DISPATCH_TOKEN` が設定されている場合のみ）
+レスポンス: `{ ok: true, talent: {...}, scrape_triggered: true/false }`
+
+---
+
 ### `notify-register.yml` — 登録申請通知
 
 | 項目 | 値 |

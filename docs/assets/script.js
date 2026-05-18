@@ -13,6 +13,7 @@ const YOSHIMOTO_VENUES = [
 
 // ---- タブ切り替え（単一DOM + talentフィルタ） ----
 let currentTalent = '';
+let followedTalents = null; // null=未ロード/取得失敗, []=0件, [...]=フォロー済み
 
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -44,6 +45,8 @@ function buildVenueOptions() {
   const present = new Set();
   allCards().forEach(c => {
     if (currentTalent && !c.dataset.talent.split(' ').includes(currentTalent)) return;
+    if (!currentTalent && followedTalents &&
+        !c.dataset.talent.split(' ').some(t => followedTalents.includes(t))) return;
     if (c.dataset.venue) present.add(c.dataset.venue);
   });
 
@@ -99,6 +102,9 @@ function applyFilters() {
     const remindOk = !remindOnly
       || !!c.querySelector('.remind-btn[data-remind="on"]');
     const excludedOk = showExcluded || c.dataset.excluded !== 'true';
+    const followOk = !followedTalents
+      || currentTalent !== ''
+      || c.dataset.talent.split(' ').some(t => followedTalents.includes(t));
     const ok = (!currentTalent || c.dataset.talent.split(' ').includes(currentTalent))
             && (!venue  || c.dataset.venue === venue)
             && (!from   || c.dataset.date  >= from)
@@ -106,14 +112,23 @@ function applyFilters() {
             && statusOk
             && keywordOk
             && remindOk
-            && excludedOk;
+            && excludedOk
+            && followOk;
     c.classList.toggle('hidden', !ok);
     if (ok) visible++;
   });
 
   const isFiltered = currentTalent || venue || from || to || status || keyword || remindOnly || showExcluded;
-  document.getElementById('filterCount').textContent =
-    isFiltered ? `${visible} 件表示中` : '';
+  const countEl = document.getElementById('filterCount');
+  if (followedTalents !== null && followedTalents.length === 0) {
+    countEl.textContent = 'フォロー中の芸人がいません。';
+    const link = document.createElement('a');
+    link.href = 'settings.html';
+    link.textContent = '設定から追加してください';
+    countEl.appendChild(link);
+  } else {
+    countEl.textContent = isFiltered ? `${visible} 件表示中` : '';
+  }
 
   // セクション見出しの件数を更新
   document.querySelectorAll('.section, .section-past').forEach(section => {
@@ -525,13 +540,31 @@ function initMemoUI() {
   });
 }
 
+async function initFollowFilter() {
+  try {
+    const res = await fetch('/api/user-talents');
+    if (!res.ok) return;
+    const data = await res.json();
+    followedTalents = Array.isArray(data.talent_ids) ? data.talent_ids : [];
+  } catch {
+    return;
+  }
+  document.querySelectorAll('.tab-btn[data-tab]').forEach(btn => {
+    const tabId = btn.dataset.tab;
+    if (tabId === 'all') return;
+    btn.style.display = followedTalents.includes(tabId) ? '' : 'none';
+  });
+}
+
 (async () => {
   // 初期化完了まで操作を無効化（APIフェッチ中の競合防止）
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = true; });
-  await Promise.all([ViewingStorage.init(), initUserUI()]);
+  await Promise.all([ViewingStorage.init(), initUserUI(), initFollowFilter()]);
   initStatusUI();
   initRemindUI();
   initMemoUI();
   initExcludeUI();
+  buildVenueOptions();
+  applyFilters();
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = false; });
 })();

@@ -5,6 +5,7 @@ Selenium を使わず requests で JSON を直接取得し、theater_events.json
 
 import json
 import re
+import sys
 import requests
 from calendar import monthrange
 from datetime import date
@@ -17,6 +18,9 @@ OUTPUT_PATH = BASE_DIR / "data" / "theater_events.json"
 API_BASE = "https://feed-api.yoshimoto.co.jp/fany/theater/v1"
 API_VENUE = "01"
 FETCH_MONTHS = 2
+
+sys.path.insert(0, str(Path(__file__).parent))
+from _talents_kv import fetch_talents_master
 
 
 def get_date_range(today: date) -> tuple[str, str]:
@@ -111,7 +115,8 @@ def parse_event(item: dict, theater: dict, talent_ids: set[str]) -> dict | None:
 
 def main():
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-    talent_ids = {t["id"] for t in config["talents"]}
+    kv_talents = fetch_talents_master(config.get("talents", []))
+    talent_ids = {t["id"] for t in kv_talents}
     today = date.today()
     date_from, date_to = get_date_range(today)
     print(f"取得期間: {date_from} 〜 {date_to}")

@@ -40,6 +40,28 @@ jobs:
         if: ${{ !inputs.skip_scrape }}
         run: pip install -r requirements.txt
 
+      - name: Diagnose API access
+        if: ${{ !inputs.skip_scrape }}
+        env:
+          REMIND_API_URL:          ${{ secrets.REMIND_API_URL }}
+          REMIND_API_SECRET:       ${{ secrets.REMIND_API_SECRET }}
+          CF_ACCESS_CLIENT_ID:     ${{ secrets.CF_ACCESS_CLIENT_ID }}
+          CF_ACCESS_CLIENT_SECRET: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
+        run: |
+          echo "=== Bearer のみ ==="
+          curl -s -o /tmp/r1.txt -w "status=%{http_code} content_type=%{content_type}\n" \
+            -H "Authorization: Bearer $REMIND_API_SECRET" \
+            "$REMIND_API_URL/api/talents"
+          echo "body(先頭300文字):"; head -c 300 /tmp/r1.txt; echo
+          echo ""
+          echo "=== Bearer + CF Access サービストークン ==="
+          curl -s -o /tmp/r2.txt -w "status=%{http_code} content_type=%{content_type}\n" \
+            -H "Authorization: Bearer $REMIND_API_SECRET" \
+            -H "CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID" \
+            -H "CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET" \
+            "$REMIND_API_URL/api/talents"
+          echo "body(先頭300文字):"; head -c 300 /tmp/r2.txt; echo
+
       - name: Scrape profile pages
         if: ${{ !inputs.skip_scrape }}
         env:

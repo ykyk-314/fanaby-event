@@ -47,6 +47,8 @@ jobs:
           REMIND_API_SECRET:       ${{ secrets.REMIND_API_SECRET }}
           CF_ACCESS_CLIENT_ID:     ${{ secrets.CF_ACCESS_CLIENT_ID }}
           CF_ACCESS_CLIENT_SECRET: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
+          CLOUDFLARE_API_TOKEN:    ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID:   ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: python scripts/scrape_profile_api.py
 
       - name: Scrape theater pages
@@ -56,6 +58,8 @@ jobs:
           REMIND_API_SECRET:       ${{ secrets.REMIND_API_SECRET }}
           CF_ACCESS_CLIENT_ID:     ${{ secrets.CF_ACCESS_CLIENT_ID }}
           CF_ACCESS_CLIENT_SECRET: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
+          CLOUDFLARE_API_TOKEN:    ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID:   ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: python scripts/scrape_theater_api.py
 
       - name: Merge and detect diffs

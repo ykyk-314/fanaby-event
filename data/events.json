@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T17:51:55+09:00",
+  "updated_at": "2026-05-18T10:11:16+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1747,9 +1747,10 @@
       ],
       "local_image": "fliers/7650ffe8.jpg",
       "status": "notified",
-      "last_updated": "2026-05-17T17:51:55+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-17T17:51:55+09:00"
+      "last_updated": "2026-05-17T17:51:55+09:00",
+      "notified_at": "2026-05-17T17:51:55+09:00",
+      "diff": null
     },
     {
       "id": "fdd69682",
@@ -2949,9 +2950,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-17T17:51:55+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-17T17:51:55+09:00"
+      "last_updated": "2026-05-17T17:51:55+09:00",
+      "notified_at": "2026-05-17T17:51:55+09:00",
+      "diff": null
     },
     {
       "id": "4570ec84",
@@ -3582,9 +3584,10 @@
       ],
       "local_image": "fliers/a6cbeee0.jpg",
       "status": "notified",
-      "last_updated": "2026-05-17T17:51:55+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-17T17:51:55+09:00"
+      "last_updated": "2026-05-17T17:51:55+09:00",
+      "notified_at": "2026-05-17T17:51:55+09:00",
+      "diff": null
     },
     {
       "id": "9374e085",

@@ -4,8 +4,6 @@
  * PUT  /api/talents — マスタ全体更新（Bearer・スクリプト用）
  */
 
-import { getCallerEmail } from '../../_lib/auth.js';
-
 const KV_KEY = 'talents';
 const TALENT_ID_RE = /^\d+$/;
 const MAX_TALENTS = 200;
@@ -15,6 +13,10 @@ function json(body, status = 200) {
     status,
     headers: { 'Content-Type': 'application/json' },
   });
+}
+
+function getCallerEmail(request) {
+  return (request.headers.get('CF-Access-Authenticated-User-Email') || '').toLowerCase();
 }
 
 function isBearerAuthorized(request, env) {

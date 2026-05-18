@@ -3,8 +3,6 @@
  * DELETE /api/talents/:id — マスタから物理削除（CF Access + admin のみ）
  */
 
-import { isAdmin } from '../../_lib/auth.js';
-
 const KV_KEY = 'talents';
 const TALENT_ID_RE = /^\d+$/;
 
@@ -13,6 +11,19 @@ function json(body, status = 200) {
     status,
     headers: { 'Content-Type': 'application/json' },
   });
+}
+
+function getCallerEmail(request) {
+  return (request.headers.get('CF-Access-Authenticated-User-Email') || '').toLowerCase();
+}
+
+function getAdminEmails(env) {
+  return (env.ADMIN_EMAILS || '').split(',').map(s => s.trim().toLowerCase()).filter(Boolean);
+}
+
+function isAdmin(request, env) {
+  const email = getCallerEmail(request);
+  return !!email && getAdminEmails(env).includes(email);
 }
 
 function isBearerAuthorized(request, env) {

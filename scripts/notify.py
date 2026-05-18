@@ -176,6 +176,18 @@ def send_mail(subject: str, html: str, to: str) -> None:
         smtp.sendmail(MAIL_USER, to, msg.as_string())
 
 
+def _api_headers(api_secret: str) -> dict:
+    """Bearer 認証 + CF Access サービストークンヘッダーを構築する。"""
+    headers = {"Authorization": f"Bearer {api_secret}"}
+    client_id = os.environ.get("CF_ACCESS_CLIENT_ID", "")
+    client_secret = os.environ.get("CF_ACCESS_CLIENT_SECRET", "")
+    if client_id:
+        headers["CF-Access-Client-Id"] = client_id
+    if client_secret:
+        headers["CF-Access-Client-Secret"] = client_secret
+    return headers
+
+
 def fetch_notify_targets() -> list[dict] | None:
     """GET /api/notify-targets からユーザー別フォロー一覧を取得する。"""
     api_url = os.environ.get("REMIND_API_URL", "").rstrip("/")
@@ -185,7 +197,7 @@ def fetch_notify_targets() -> list[dict] | None:
     try:
         req = urllib.request.Request(
             f"{api_url}/api/notify-targets",
-            headers={"Authorization": f"Bearer {api_secret}"},
+            headers=_api_headers(api_secret),
         )
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode("utf-8"))

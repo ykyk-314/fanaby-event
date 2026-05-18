@@ -38,8 +38,10 @@ jobs:
 
       - name: Build static site
         env:
-          REMIND_API_URL:    ${{ secrets.REMIND_API_URL }}
-          REMIND_API_SECRET: ${{ secrets.REMIND_API_SECRET }}
+          REMIND_API_URL:          ${{ secrets.REMIND_API_URL }}
+          REMIND_API_SECRET:       ${{ secrets.REMIND_API_SECRET }}
+          CF_ACCESS_CLIENT_ID:     ${{ secrets.CF_ACCESS_CLIENT_ID }}
+          CF_ACCESS_CLIENT_SECRET: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
         run: python scripts/build.py
 
       - name: Commit if updated

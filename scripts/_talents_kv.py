@@ -9,6 +9,18 @@ import os
 import urllib.request
 
 
+def _api_headers(api_secret: str) -> dict:
+    """Bearer 認証 + CF Access サービストークンヘッダーを構築する。"""
+    headers = {"Authorization": f"Bearer {api_secret}"}
+    client_id = os.environ.get("CF_ACCESS_CLIENT_ID", "")
+    client_secret = os.environ.get("CF_ACCESS_CLIENT_SECRET", "")
+    if client_id:
+        headers["CF-Access-Client-Id"] = client_id
+    if client_secret:
+        headers["CF-Access-Client-Secret"] = client_secret
+    return headers
+
+
 def fetch_talents_master(config_talents: list[dict]) -> list[dict]:
     """
     GET /api/talents で KV の芸人マスタを取得する。
@@ -22,7 +34,7 @@ def fetch_talents_master(config_talents: list[dict]) -> list[dict]:
     try:
         req = urllib.request.Request(
             f"{api_url}/api/talents",
-            headers={"Authorization": f"Bearer {api_secret}"},
+            headers=_api_headers(api_secret),
         )
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode("utf-8"))
@@ -62,13 +74,12 @@ def patch_talent(
         return False
     try:
         payload = json.dumps(body).encode("utf-8")
+        headers = _api_headers(api_secret)
+        headers["Content-Type"] = "application/json"
         req = urllib.request.Request(
             f"{api_url}/api/talents/{talent_id}",
             data=payload,
-            headers={
-                "Authorization": f"Bearer {api_secret}",
-                "Content-Type": "application/json",
-            },
+            headers=headers,
             method="PATCH",
         )
         with urllib.request.urlopen(req, timeout=10) as resp:

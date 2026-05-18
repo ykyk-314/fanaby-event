@@ -278,7 +278,10 @@ async function handleAddToMaster() {
     await FollowStorage.addId(data.talent.id);
 
     const displayName = data.talent.name || `ID: ${data.talent.id}`;
-    showMsg('addMsg', 'success', `${displayName} を登録しました。芸人名と画像は次回の定期更新で反映されます。`);
+    const reflectMsg = data.scrape_triggered
+      ? '芸人名・画像・スケジュールは数分以内に反映されます。'
+      : '芸人名と画像は次回の定期更新で反映されます。';
+    showMsg('addMsg', 'success', `${displayName} を登録しました。${reflectMsg}`);
     input.value = '';
     render();
   } catch (e) {

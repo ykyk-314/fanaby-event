@@ -79,10 +79,41 @@ export async function onRequestPost({ request, env }) {
     master.talents.push(entry);
     master.updated_at = new Date().toISOString();
     await env.FANABY_VIEWING_STATUSES.put(KV_KEY, JSON.stringify(master));
-    return json({ ok: true, talent: entry });
+
+    // KV 保存成功後に即時スクレイプをトリガー（失敗しても KV はロールバックしない）
+    const scrape_triggered = await triggerScrape(env, talentId);
+
+    return json({ ok: true, talent: entry, scrape_triggered });
   } catch (e) {
     console.error('POST /api/talents error:', e);
     return json({ error: 'internal error' }, 500);
+  }
+}
+
+async function triggerScrape(env, talentId) {
+  const ghRepo  = env.GH_REPO || '';
+  const ghToken = env.GH_DISPATCH_TOKEN || '';
+  if (!ghRepo || !ghToken) return false;
+  try {
+    const res = await fetch(`https://api.github.com/repos/${ghRepo}/dispatches`, {
+      method: 'POST',
+      headers: {
+        'Authorization':        `Bearer ${ghToken}`,
+        'Accept':               'application/vnd.github+json',
+        'Content-Type':         'application/json',
+        'X-GitHub-Api-Version': '2022-11-28',
+        'User-Agent':           'fanaby-event',
+      },
+      body: JSON.stringify({ event_type: 'talent-added', client_payload: { talent_id: talentId } }),
+    });
+    if (!res.ok) {
+      console.error('talent-added dispatch failed:', res.status, await res.text());
+      return false;
+    }
+    return true;
+  } catch (e) {
+    console.error('talent-added dispatch error:', e);
+    return false;
   }
 }
 

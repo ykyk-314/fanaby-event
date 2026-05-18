@@ -45,7 +45,8 @@ export async function onRequestGet({ request, env }) {
   try {
     return json(await getMaster(env));
   } catch (e) {
-    return json({ error: 'internal error', _debug: String(e), _kvDefined: typeof env.FANABY_VIEWING_STATUSES }, 500);
+    console.error('GET /api/talents error:', e);
+    return json({ error: 'internal error' }, 500);
   }
 }
 

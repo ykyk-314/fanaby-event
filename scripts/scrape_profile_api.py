@@ -13,6 +13,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent.parent
 CONFIG_PATH = BASE_DIR / "data" / "config.json"
 OUTPUT_PATH = BASE_DIR / "data" / "profile_events.json"
+TALENTS_DIR = BASE_DIR / "docs" / "talents"
 
 API_BASE = "https://feed-api.yoshimoto.co.jp/fany/tickets/v2"
 PROFILE_BASE = "https://profile.yoshimoto.co.jp/talent/detail"
@@ -118,6 +119,39 @@ def scrape_profile_info(talent: dict) -> dict:
     return result
 
 
+def download_talent_image(talent_id: str, image_url: str) -> str | None:
+    """プロフィール画像をダウンロードして docs/talents/{id}.{ext} に保存する。
+    成功時は相対パス（例: "talents/10708.jpg"）を返す。
+    """
+    TALENTS_DIR.mkdir(parents=True, exist_ok=True)
+    try:
+        resp = requests.get(image_url, timeout=15)
+        resp.raise_for_status()
+        content_type = resp.headers.get("Content-Type", "")
+        if "png" in content_type:
+            ext = ".png"
+        elif "webp" in content_type:
+            ext = ".webp"
+        elif "gif" in content_type:
+            ext = ".gif"
+        else:
+            url_path = image_url.split("?")[0].lower()
+            if url_path.endswith(".png"):
+                ext = ".png"
+            elif url_path.endswith(".webp"):
+                ext = ".webp"
+            elif url_path.endswith(".gif"):
+                ext = ".gif"
+            else:
+                ext = ".jpg"
+        filename = f"{talent_id}{ext}"
+        (TALENTS_DIR / filename).write_bytes(resp.content)
+        return f"talents/{filename}"
+    except Exception as e:
+        print(f"    警告: プロフィール画像DL失敗 ({talent_id}): {e}")
+        return None
+
+
 def main():
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     talents = fetch_talents_master(config.get("talents", []))
@@ -146,10 +180,10 @@ def main():
         all_events.extend(events)
 
     # name / image_url が未設定の芸人をプロフィールページから補完
-    needs_patch = [t for t in talents if not t.get("name") or not t.get("image_url")]
-    if needs_patch:
-        print(f"\nプロフィール情報補完: {len(needs_patch)} 件")
-        for talent in needs_patch:
+    needs_info = [t for t in talents if not t.get("name") or not t.get("image_url")]
+    if needs_info:
+        print(f"\nプロフィール情報補完: {len(needs_info)} 件")
+        for talent in needs_info:
             info = scrape_profile_info(talent)
             if not info:
                 continue
@@ -159,9 +193,26 @@ def main():
                 print(f"    名前補完: {talent['id']} → {info['name']}")
             if not talent.get("image_url") and info.get("image_url"):
                 kw["image_url"] = info["image_url"]
-                print(f"    画像補完: {talent['id']} → (取得)")
+                print(f"    画像URL補完: {talent['id']}")
+                # 新たに取得した image_url を即時ダウンロード
+                if not talent.get("local_image"):
+                    local = download_talent_image(talent["id"], info["image_url"])
+                    if local:
+                        kw["local_image"] = local
+                        print(f"    画像DL: {talent['id']} → {local}")
             if kw:
                 patch_talent(talent["id"], **kw)
+                talent.update(kw)
+
+    # image_url はあるが local_image が未保存の芸人を補完
+    needs_download = [t for t in talents if t.get("image_url") and not t.get("local_image")]
+    if needs_download:
+        print(f"\nプロフィール画像ローカル保存: {len(needs_download)} 件")
+        for talent in needs_download:
+            local = download_talent_image(talent["id"], talent["image_url"])
+            if local:
+                patch_talent(talent["id"], local_image=local)
+                print(f"    {talent['id']} → {local}")
 
     OUTPUT_PATH.write_text(
         json.dumps(all_events, ensure_ascii=False, indent=2),

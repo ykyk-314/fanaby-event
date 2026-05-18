@@ -37,9 +37,15 @@ def fetch_talents_master(config_talents: list[dict]) -> list[dict]:
         return config_talents
 
 
-def patch_talent(talent_id: str, *, name: str | None = None, image_url: str | None = None) -> bool:
+def patch_talent(
+    talent_id: str,
+    *,
+    name: str | None = None,
+    image_url: str | None = None,
+    local_image: str | None = None,
+) -> bool:
     """
-    PATCH /api/talents/:id で KV の name/image_url を更新する。
+    PATCH /api/talents/:id で KV の name/image_url/local_image を更新する。
     """
     api_url = os.environ.get("REMIND_API_URL", "").rstrip("/")
     api_secret = os.environ.get("REMIND_API_SECRET", "")
@@ -50,6 +56,8 @@ def patch_talent(talent_id: str, *, name: str | None = None, image_url: str | No
         body["name"] = name
     if image_url is not None:
         body["image_url"] = image_url
+    if local_image is not None:
+        body["local_image"] = local_image
     if not body:
         return False
     try:

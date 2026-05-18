@@ -47,7 +47,7 @@ export async function onRequestPatch({ request, params, env }) {
   try { body = await request.json(); }
   catch { return json({ error: 'invalid JSON' }, 400); }
 
-  if (body.name === undefined && body.image_url === undefined) {
+  if (body.name === undefined && body.image_url === undefined && body.local_image === undefined) {
     return json({ error: 'nothing to update' }, 400);
   }
 
@@ -58,6 +58,7 @@ export async function onRequestPatch({ request, params, env }) {
 
     if (body.name !== undefined) master.talents[idx].name = body.name || null;
     if (body.image_url !== undefined) master.talents[idx].image_url = body.image_url || null;
+    if (body.local_image !== undefined) master.talents[idx].local_image = body.local_image || null;
     master.updated_at = new Date().toISOString();
     await env.FANABY_VIEWING_STATUSES.put(KV_KEY, JSON.stringify(master));
     return json({ ok: true });

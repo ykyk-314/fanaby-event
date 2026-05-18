@@ -102,10 +102,11 @@ function makePlaceholder(name) {
 }
 
 function makeAvatar(talent) {
-  if (talent.image_url) {
+  const imgSrc = talent.local_image ? ('/' + talent.local_image) : talent.image_url;
+  if (imgSrc) {
     const img = document.createElement('img');
     img.className = 'talent-avatar';
-    img.src = talent.image_url;
+    img.src = imgSrc;
     img.alt = '';
     img.onerror = function() {
       this.replaceWith(makePlaceholder(talent.name));

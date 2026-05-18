@@ -6,6 +6,7 @@
 import json
 import os
 import smtplib
+import sys
 import urllib.request
 from datetime import datetime, timezone, timedelta
 from email.mime.multipart import MIMEMultipart
@@ -13,6 +14,9 @@ from email.mime.text import MIMEText
 from pathlib import Path
 
 from dotenv import load_dotenv
+
+sys.path.insert(0, str(Path(__file__).parent))
+from _talents_kv import fetch_notify_targets_kv
 
 BASE_DIR = Path(__file__).parent.parent
 EVENTS_PATH = BASE_DIR / "data" / "events.json"
@@ -189,7 +193,14 @@ def _api_headers(api_secret: str) -> dict:
 
 
 def fetch_notify_targets() -> list[dict] | None:
-    """GET /api/notify-targets からユーザー別フォロー一覧を取得する。"""
+    """ユーザー別フォロー一覧を取得する。
+    1. Cloudflare KV REST API 直接アクセス（CF Access バイパス）
+    2. /api/notify-targets エンドポイント経由（フォールバック）
+    """
+    targets = fetch_notify_targets_kv()
+    if targets is not None:
+        return targets
+
     api_url = os.environ.get("REMIND_API_URL", "").rstrip("/")
     api_secret = os.environ.get("REMIND_API_SECRET", "")
     if not api_url or not api_secret:

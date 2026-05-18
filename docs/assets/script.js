@@ -549,11 +549,45 @@ async function initFollowFilter() {
   } catch {
     return;
   }
+
+  // 既存タブの表示/非表示制御
+  const renderedTabIds = new Set();
   document.querySelectorAll('.tab-btn[data-tab]').forEach(btn => {
     const tabId = btn.dataset.tab;
     if (tabId === 'all') return;
+    renderedTabIds.add(tabId);
     btn.style.display = followedTalents.includes(tabId) ? '' : 'none';
   });
+
+  // フォロー中だが HTML にタブがない芸人 → 動的生成
+  const missingIds = followedTalents.filter(id => !renderedTabIds.has(id));
+  if (missingIds.length === 0) return;
+
+  let nameMap = {};
+  try {
+    const res = await fetch('/api/talents');
+    if (res.ok) {
+      const d = await res.json();
+      for (const t of (d.talents || [])) nameMap[t.id] = t.name || t.id;
+    }
+  } catch {}
+
+  const tabsEl = document.querySelector('.tabs');
+  for (const id of missingIds) {
+    const btn = document.createElement('button');
+    btn.className = 'tab-btn';
+    btn.dataset.tab = id;
+    btn.textContent = nameMap[id] || id;
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentTalent = id;
+      resetFilters();
+      buildVenueOptions();
+      applyFilters();
+    });
+    tabsEl.appendChild(btn);
+  }
 }
 
 (async () => {

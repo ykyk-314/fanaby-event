@@ -1,4 +1,4 @@
-/* FANY 履歴コレクター
+/* 履歴コレクター
  * ticket.fany.lol 上で実行する（ブックマークレット経由またはスクリプト注入）
  * same-origin fetch で全ページを取得し、postMessage でビューワーへ送信する
  */

@@ -1,4 +1,4 @@
-/* FANY 履歴ビューワー
+/* 履歴ビューワー
  * - postMessage で collector.js からデータを受信
  * - LocalStorage に永続保存
  * - フィルタ UI でリアルタイム絞り込み

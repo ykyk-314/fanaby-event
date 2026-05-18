@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FANY 履歴ビューワー — 導入方法</title>
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <title>マイページ履歴ビューワー — 導入方法</title>
   <style>
     :root {
       --accent: #e84424;
@@ -133,6 +135,55 @@
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
 
+    /* 長押しボタン */
+    .longpress-box {
+      background: #fff3f0;
+      border: 2px solid var(--accent);
+      border-radius: 12px;
+      padding: 20px 16px;
+      text-align: center;
+      margin: 12px 0 8px;
+    }
+    .longpress-box .label {
+      font-size: 13px;
+      color: var(--sub);
+      margin-bottom: 12px;
+    }
+    .longpress-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff !important;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 14px 36px;
+      border-radius: 28px;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+    .longpress-hint {
+      font-size: 12px;
+      color: var(--sub);
+      margin-top: 10px;
+    }
+
+    /* フォールバック折りたたみ */
+    details.fallback {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      margin-top: 12px;
+    }
+    details.fallback summary {
+      padding: 10px 14px;
+      cursor: pointer;
+      font-size: 13px;
+      color: var(--sub);
+      list-style: none;
+    }
+    details.fallback summary::before { content: '▶ '; }
+    details.fallback[open] summary::before { content: '▼ '; }
+    details.fallback .fallback-body { padding: 0 14px 14px; }
+
     .privacy-list {
       background: #e8f5e9;
       border-left: 4px solid #4caf50;
@@ -154,7 +205,7 @@
 <body>
 
 <header>
-  <h1>FANY 履歴ビューワー — 導入方法</h1>
+  <h1>マイページ履歴ビューワー — 導入方法</h1>
   <a href="index.html">← ビューワーへ戻る</a>
 </header>
 
@@ -162,14 +213,14 @@
 
   <h2>このツールについて</h2>
   <p>
-    FANY（ticket.fany.lol）の購入・申込履歴を、公演名・会場・公演日・ステータスで自由に絞り込めるビューワーです。
-    ブックマークレットを使って FANY の履歴ページからデータを収集し、このビューワーに表示します。
+    マイページの購入・申込履歴を、公演名・会場・公演日・ステータスで自由に絞り込めるビューワーです。
+    ブックマークレットを使って マイページの履歴ページからデータを収集し、このビューワーに表示します。
   </p>
 
   <div class="privacy-list">
     <strong>🔒 プライバシーについて</strong>
     <ul>
-      <li>FANY のログイン情報（ID・パスワード）はこのツールに送信されません</li>
+      <li>マイページのログイン情報（ID・パスワード）はこのツールに送信されません</li>
       <li>取得した履歴データはあなたの端末の LocalStorage にのみ保存されます</li>
       <li>外部サーバーへのデータ送信は一切ありません</li>
     </ul>
@@ -178,52 +229,61 @@
   <h2>ブックマークレットの設定</h2>
 
   <div class="tab-btns">
-    <button class="tab-btn active" onclick="switchTab('safari')">iPhone Safari</button>
-    <button class="tab-btn" onclick="switchTab('chrome')">PC Chrome / Edge</button>
+    <button class="tab-btn" id="tab-btn-mobile" onclick="switchTab('mobile')">スマホ（iOS / Android）</button>
+    <button class="tab-btn" id="tab-btn-pc" onclick="switchTab('pc')">PC</button>
   </div>
   <div class="tab-content">
-    <div id="tab-safari" class="tab-panel active">
-      <p>Safari ではリンクのドラッグができないため、手動でブックマークを編集します。</p>
-      <ol>
-        <li>
-          <strong>適当なページをブックマークに追加</strong><br>
-          <code>ticket.fany.lol/history</code> など、どのページでも構いません。
-          共有ボタン（↑）から「ブックマークを追加」します。
-        </li>
-        <li>
-          <strong>ブックマークを編集して URL を書き換える</strong><br>
-          ブックマーク一覧を開いて、いま追加したブックマークを長押し →「編集」を選択。
-          名前を「<strong>FANY履歴取得</strong>」に変更し、URL 欄を<strong>全選択して以下のコードに置き換えて</strong>ください。
-        </li>
-      </ol>
 
-      <div class="bookmarklet-box">
-        <p>以下のテキストをコピーして URL 欄に貼り付けてください</p>
-        <div class="code-block" id="bookmarklet-url-text" onclick="copyBookmarklet()"></div>
-        <button onclick="copyBookmarklet()" style="margin-top:8px;padding:8px 18px;background:var(--accent);color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;">コピー</button>
-        <div id="copy-msg" style="font-size:12px;color:green;margin-top:4px;display:none;">コピーしました！</div>
+    <!-- スマホタブ -->
+    <div id="tab-mobile" class="tab-panel">
+
+      <p style="margin-top:0">下のボタンを<strong>長押し</strong>して「ブックマークを追加」をタップしてください。</p>
+
+      <div class="longpress-box">
+        <div class="label">このボタンを長押し（1〜2秒）→「ブックマークを追加」をタップ</div>
+        <a id="bookmarklet-link" class="longpress-btn" href="#">履歴取得</a>
+        <div class="longpress-hint">
+          iOS Safari: 「ブックマークを追加」<br>
+          Android Chrome: 「ブックマークに追加」
+        </div>
       </div>
 
-      <div class="notice">
-        URL 欄に「javascript:」から始まるテキストが入力されていることを確認してから保存してください。
-      </div>
+      <details class="fallback">
+        <summary>長押しでメニューが出ない場合はこちら（コピーして貼り付け）</summary>
+        <div class="fallback-body">
+          <ol style="margin:8px 0;padding-left:18px;">
+            <li>下のコードをコピーする</li>
+            <li>任意のページ（例: ticket.fany.lol）をブックマークに追加する</li>
+            <li>ブックマーク一覧を開き、追加したブックマークを長押し →「編集」を選択</li>
+            <li>名前を「履歴取得」に変更し、URL 欄を全選択してコードを貼り付けて保存</li>
+          </ol>
+          <div class="code-block" id="bookmarklet-url-text" onclick="copyBookmarklet()" style="cursor:pointer"></div>
+          <button onclick="copyBookmarklet()" style="margin-top:8px;padding:8px 18px;background:var(--accent);color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;">コピー</button>
+          <div id="copy-msg" style="font-size:12px;color:green;margin-top:4px;display:none;">コピーしました！</div>
+          <div class="notice" style="margin-top:12px;margin-bottom:0">
+            URL 欄に「javascript:」から始まるテキストが貼り付けられていることを確認してから保存してください。
+          </div>
+        </div>
+      </details>
     </div>
 
-    <div id="tab-chrome" class="tab-panel">
-      <p>下のボタンをブックマークバーにドラッグ＆ドロップします。</p>
+    <!-- PC タブ -->
+    <div id="tab-pc" class="tab-panel">
+      <p style="margin-top:0">下のボタンをブックマークバーにドラッグ＆ドロップします。</p>
       <div class="bookmarklet-box">
         <p>以下のボタンをブックマークバーへドラッグしてください</p>
-        <a id="bookmarklet-link" class="bookmarklet-link" href="#">FANY履歴取得</a>
+        <a id="bookmarklet-link-pc" class="bookmarklet-link" href="#">履歴取得</a>
         <div class="bookmarklet-hint">（ブックマークバーが表示されていない場合: Ctrl+Shift+B で表示）</div>
       </div>
     </div>
+
   </div>
 
   <h2>使い方</h2>
 
   <div class="step">
     <span class="step-num">1</span>
-    <span class="step-title">FANY にログインした状態で履歴ページを開く</span>
+    <span class="step-title">マイページにログインした状態で履歴ページを開く</span>
     <p>
       <a href="https://ticket.fany.lol/history" target="_blank" rel="noopener noreferrer">
         https://ticket.fany.lol/history
@@ -234,10 +294,10 @@
 
   <div class="step">
     <span class="step-num">2</span>
-    <span class="step-title">ブックマークレット「FANY履歴取得」を実行</span>
+    <span class="step-title">ブックマークレット「履歴取得」を実行</span>
     <p>
-      <strong>Safari</strong>: アドレスバーに「FANY」と入力してブックマーク候補から選ぶか、ブックマーク一覧から「FANY履歴取得」をタップします。<br>
-      <strong>Chrome</strong>: ブックマークバーの「FANY履歴取得」をクリックします。
+      <strong>スマホ</strong>: ブックマーク一覧から「履歴取得」をタップします。<br>
+      <strong>PC</strong>: ブックマークバーの「履歴取得」をクリックします。
     </p>
   </div>
 
@@ -259,14 +319,14 @@
 
   <div class="step">
     <span class="step-title">「セッション切れ」と表示される</span>
-    <p><a href="https://ticket.fany.lol/" target="_blank" rel="noopener noreferrer">FANY</a> に再ログインしてから実行してください。</p>
+    <p><a href="https://ticket.fany.lol/" target="_blank" rel="noopener noreferrer">マイページ</a> に再ログインしてから実行してください。</p>
   </div>
 
   <div class="step">
-    <span class="step-title">Safari でブックマークレットが動かない</span>
+    <span class="step-title">ブックマークレットが動かない</span>
     <p>
-      URL 欄が「javascript:」から始まっているか確認してください。
-      「javascript:」の部分が消えてしまっている場合は、テキストを再度コピーして貼り直してください。
+      ブックマークの URL 欄が「javascript:」から始まっているか確認してください。
+      「javascript:」の部分が消えてしまっている場合は、コピー方式（フォールバック手順）でテキストを再度貼り直してください。
     </p>
   </div>
 
@@ -281,30 +341,22 @@
 </div>
 
 <script>
-  // ブックマークレットソースを collector.js から取得して埋め込む
-  // ビルド時に inline 化するのが理想だが、静的配信のため install.html 内で fetch + 動的注入
-  const VIEWER = 'https://mypage-viewer.pages.dev';
-
-  // collector.js の内容を fetch して javascript: URL を生成
   (async function() {
     try {
       const res = await fetch('assets/collector.js');
       const src = await res.text();
-      // minify: コメント除去 + 改行削除
-      // 注意: /\/\/[^\n]*/g は文字列内の https:// も破壊するため行頭限定にする
       const mini = src
-        .replace(/\/\*[\s\S]*?\*\//g, '')    // ブロックコメント除去
-        .replace(/^\s*\/\/[^\n]*/gm, '')     // 行頭コメントのみ除去（文字列内の // は触れない）
-        .replace(/[ \t]+/g, ' ')             // 水平空白を縮小
-        .replace(/\n\s*\n+/g, '\n')          // 連続空行を削除
-        .replace(/\n/g, ' ')                 // 改行を空白に
+        .replace(/\/\*[\s\S]*?\*\//g, '')
+        .replace(/^\s*\/\/[^\n]*/gm, '')
+        .replace(/[ \t]+/g, ' ')
+        .replace(/\n\s*\n+/g, '\n')
+        .replace(/\n/g, ' ')
         .trim();
       const url = 'javascript:' + encodeURIComponent(mini);
 
-      // テキスト表示
       document.getElementById('bookmarklet-url-text').textContent = url;
-      // ドラッグ用リンク
       document.getElementById('bookmarklet-link').href = url;
+      document.getElementById('bookmarklet-link-pc').href = url;
     } catch(e) {
       document.getElementById('bookmarklet-url-text').textContent =
         '読み込みエラー。ページをリロードしてください。';
@@ -321,14 +373,17 @@
   }
 
   function switchTab(name) {
-    document.querySelectorAll('.tab-btn').forEach((b, i) => {
-      const tabs = ['safari', 'chrome'];
-      b.classList.toggle('active', tabs[i] === name);
+    document.querySelectorAll('.tab-btn').forEach((b) => {
+      b.classList.toggle('active', b.id === 'tab-btn-' + name);
     });
     document.querySelectorAll('.tab-panel').forEach((p) => {
       p.classList.toggle('active', p.id === 'tab-' + name);
     });
   }
+
+  // スマホ判定: モバイルならスマホタブをデフォルト表示
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  switchTab(isMobile ? 'mobile' : 'pc');
 </script>
 
 </body>

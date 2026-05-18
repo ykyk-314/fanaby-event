@@ -40,43 +40,6 @@ jobs:
         if: ${{ !inputs.skip_scrape }}
         run: pip install -r requirements.txt
 
-      - name: Diagnose API access
-        if: ${{ !inputs.skip_scrape }}
-        env:
-          REMIND_API_URL:          ${{ secrets.REMIND_API_URL }}
-          REMIND_API_SECRET:       ${{ secrets.REMIND_API_SECRET }}
-          CF_ACCESS_CLIENT_ID:     ${{ secrets.CF_ACCESS_CLIENT_ID }}
-          CF_ACCESS_CLIENT_SECRET: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
-        run: |
-          H_BEARER="Authorization: Bearer $REMIND_API_SECRET"
-          H_CID="CF-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
-          H_CSEC="CF-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
-
-          echo "=== /api/talents (サービストークンあり) ==="
-          curl -si -o /tmp/r_talents.txt \
-            -H "$H_BEARER" -H "$H_CID" -H "$H_CSEC" \
-            "$REMIND_API_URL/api/talents"
-          grep -E "^HTTP/|^content-type:|^cf-ray:" /tmp/r_talents.txt || true
-          echo "---body---"; tail -c 300 /tmp/r_talents.txt; echo
-
-          echo ""
-          echo "=== /api/user-talents (サービストークンあり) ==="
-          curl -si -o /tmp/r_ut.txt \
-            -H "$H_BEARER" -H "$H_CID" -H "$H_CSEC" \
-            "$REMIND_API_URL/api/user-talents"
-          grep -E "^HTTP/|^content-type:|^cf-ray:" /tmp/r_ut.txt || true
-          echo "---body---"; tail -c 300 /tmp/r_ut.txt; echo
-
-          echo ""
-          echo "=== /api/talents/99999 PATCH (サービストークンあり) ==="
-          curl -si -o /tmp/r_patch.txt -X PATCH \
-            -H "$H_BEARER" -H "$H_CID" -H "$H_CSEC" \
-            -H "Content-Type: application/json" \
-            -d '{"name":"test"}' \
-            "$REMIND_API_URL/api/talents/99999"
-          grep -E "^HTTP/|^content-type:|^cf-ray:" /tmp/r_patch.txt || true
-          echo "---body---"; tail -c 300 /tmp/r_patch.txt; echo
-
       - name: Scrape profile pages
         if: ${{ !inputs.skip_scrape }}
         env:
@@ -133,10 +96,7 @@ jobs:
           git push
 
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: fanaby-event
-          directory: docs
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+        run: npx wrangler@3 pages deploy docs --project-name fanaby-event
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

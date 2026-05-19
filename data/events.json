@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-18T18:50:49+09:00",
+  "updated_at": "2026-05-19T10:10:37+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -1649,10 +1649,10 @@
         "profile"
       ],
       "local_image": "fliers/151c731e.jpg",
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "e14f6fa1",
@@ -1794,13 +1794,13 @@
       "open_time": "20:30",
       "start_time": "20:45",
       "end_time": "22:15",
-      "members": "やさしいズ タイ／もう中学生／ななまがり／キンボシ／マユリカ／空気階段／ケビンス／ラニーノーズ／世間知らズ／ナイチンゲールダンス／関根麻里／他",
+      "members": "やさしいズ タイ／もう中学生／ななまがり／ロジャー沖縄／キンボシ／マユリカ／空気階段／ケビンス／九条ジョー／ラニーノーズ／世間知らズ／ナイチンゲールダンス／関根麻里",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015459_1_20260502105606579.jpg",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015459_1_20260518190353590.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15756/42852",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/lumine-26052120",
-      "notice": "■変更履歴■\r\n［追加］\r\n空気階段、ラニーノーズ、関根麻里（5/15）\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/3(日) 11:00 〜 5/7(木) 11:00\r\n当落発表：5/8(金) 18:00頃\r\n\r\n※先行申込での決済方法は、「クレジットカード」のみとなります。\r\n\r\n一般発売：5/9(土) 10:00\r\n\r\nオンラインチケット発売：5/9(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
+      "notice": "■変更履歴■\r\n［追加］\r\n空気階段、ラニーノーズ、関根麻里（5/15）\r\nロジャー沖縄、九条ジョー（5/18）\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/3(日) 11:00 〜 5/7(木) 11:00\r\n当落発表：5/8(金) 18:00頃\r\n\r\n※先行申込での決済方法は、「クレジットカード」のみとなります。\r\n\r\n一般発売：5/9(土) 10:00\r\n\r\nオンラインチケット発売：5/9(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
         "advance": 3300,
         "door": 3800,
@@ -1812,10 +1812,9 @@
       ],
       "local_image": "fliers/fdd69682.jpg",
       "status": "notified",
+      "last_updated": "2026-05-19T10:10:37+09:00",
       "first_seen": "2026-05-02T17:40:28+09:00",
-      "last_updated": "2026-05-15T18:16:50+09:00",
-      "notified_at": "2026-05-15T18:16:50+09:00",
-      "diff": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "6fdd9357",
@@ -1932,7 +1931,7 @@
     {
       "id": "adba1aa7",
       "talents": {
-        "5110": null,
+        "5110": "kento fukaya",
         "7295": "ケビンス"
       },
       "title": "kento fukayaのゆるいぜ！旅マウス！",
@@ -1989,7 +1988,7 @@
     {
       "id": "e39d88c7",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "野澤輸出の勝負大喜利",
       "date": "2026-05-25",
@@ -2008,10 +2007,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "a8190cc8",
@@ -2072,7 +2071,7 @@
     {
       "id": "d374a367",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "ノザカラ",
       "date": "2026-05-25",
@@ -2091,10 +2090,10 @@
         "profile"
       ],
       "local_image": "fliers/d374a367.jpg",
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "8a2afcc8",
@@ -2127,7 +2126,7 @@
     {
       "id": "73890ad6",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "「MIKKEMONオールスターズ」",
       "date": "2026-05-26",
@@ -2146,10 +2145,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "77d48c08",
@@ -2318,7 +2317,7 @@
     {
       "id": "7e02319d",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "大阪銀座",
       "date": "2026-05-29",
@@ -2342,10 +2341,10 @@
         "profile"
       ],
       "local_image": "fliers/7e02319d.jpg",
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "f6e11e43",
@@ -2639,7 +2638,7 @@
     {
       "id": "359c9d2b",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "ROPPONGIコントリーグ ニッポンの社長チームvsななまがりチーム",
       "date": "2026-05-31",
@@ -2663,10 +2662,10 @@
         "profile"
       ],
       "local_image": "fliers/359c9d2b.jpg",
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "d4cab5cf",
@@ -2877,7 +2876,7 @@
     {
       "id": "aeefb89b",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "ハゲにまつわるコーナーライブ",
       "date": "2026-06-04",
@@ -2896,15 +2895,15 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "e243ca73",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "LLRの幕張ファクトリー～僕たち幕張でこのネタ初めてやります～",
       "date": "2026-06-04",
@@ -2923,10 +2922,10 @@
         "profile"
       ],
       "local_image": "fliers/e243ca73.jpg",
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "b7fc91d2",
@@ -2996,7 +2995,7 @@
     {
       "id": "ad622984",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "19時ライブ",
       "date": "2026-06-05",
@@ -3015,10 +3014,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "ea405a20",
@@ -3188,7 +3187,7 @@
     {
       "id": "ffcfb8c2",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "kento fukaya単独ライブ",
       "date": "2026-06-06",
@@ -3207,10 +3206,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "cedb7b8c",
@@ -3299,7 +3298,7 @@
     {
       "id": "1d787902",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "濁",
       "date": "2026-06-10",
@@ -3323,10 +3322,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "316d4de4",
@@ -3492,7 +3491,7 @@
     {
       "id": "0469baea",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "バンビーノのウキウキ幕張キッズ JAM♪",
       "date": "2026-06-14",
@@ -3511,15 +3510,15 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "9b7d8f61",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "幕張土日祝ネタＳＰ６月公演",
       "date": "2026-06-14",
@@ -3538,15 +3537,15 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "eea3fa5d",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "グランドバトルEAST 第四部",
       "date": "2026-06-14",
@@ -3569,10 +3568,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "c8e6f4d8",
@@ -3637,7 +3636,7 @@
     {
       "id": "d4d23efa",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "ROPPONGIコントリーグ ニッポンの社長チーム vs ネルソンズチーム",
       "date": "2026-06-14",
@@ -3647,7 +3646,7 @@
       "members": "MC：九条ジョー／【ニッポンの社長チーム】カゲヤマ／軟水／kento fukaya／ヘンダーソン／【ネルソンズチーム】伝書鳩／いぬ／ブラゴーリ／オフローズ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016345_1_20260518212200538.png",
       "ticket_url": "https://ticket.fany.lol/event/detail/15933/43138",
       "online_url": null,
       "notice": "6チーム総当たりのリーグ戦を行い、コントによる熾烈なバトルを繰り広げる「ROPPONGIコントリーグ」\r\n勝敗を決めるのは観客の皆様の投票！\r\n今回の対決は、ニッポンの社長チームVSネルソンズチームです！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/5（火）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n※チームリーダーの「ニッポンの社長」と「ネルソンズ」の出演はございません。\r\n\r\n■変更履歴■\r\n[追加]\r\n九条ジョー(5/3)",
@@ -3659,11 +3658,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
-      "status": "new",
+      "local_image": "fliers/d4d23efa.png",
+      "status": "notified",
+      "last_updated": "2026-05-19T10:10:37+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "c47ba93f",
@@ -3764,7 +3763,7 @@
     {
       "id": "e09ba954",
       "talents": {
-        "5110": null,
+        "5110": "kento fukaya",
         "7295": "ケビンス"
       },
       "title": "山口コンボイMVPへの道",
@@ -3961,7 +3960,7 @@
     {
       "id": "c3dd7d4a",
       "talents": {
-        "5110": null,
+        "5110": "kento fukaya",
         "5114": "マユリカ"
       },
       "title": "kento fukayaのゆるいぜ！旅マウス！",
@@ -4027,7 +4026,7 @@
     {
       "id": "95f54762",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "七転八起",
       "date": "2026-06-20",
@@ -4046,10 +4045,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "9374e085",
@@ -4153,7 +4152,7 @@
     {
       "id": "c668bad3",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "マックスフーケン",
       "date": "2026-06-21",
@@ -4172,10 +4171,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "6209dcfb",
@@ -4269,7 +4268,7 @@
     {
       "id": "f544a4b9",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "原始人ライブ",
       "date": "2026-06-23",
@@ -4288,15 +4287,15 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "1971a017",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "今里のひまわり",
       "date": "2026-06-24",
@@ -4319,10 +4318,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "fde5f23e",
@@ -4411,7 +4410,7 @@
     {
       "id": "761384ed",
       "talents": {
-        "5110": null,
+        "5110": "kento fukaya",
         "7295": "ケビンス"
       },
       "title": "やさしいズタイpresents「素敵渋谷七景 連夜」　《「タインベーダーを攻略するのは俺達だ！」と「強いカタチ」》",
@@ -4474,7 +4473,7 @@
       "id": "60752f9a",
       "talents": {
         "10708": "シンクロニシティ",
-        "5110": null,
+        "5110": "kento fukaya",
         "7295": "ケビンス"
       },
       "title": "やさしいズタイpresents 「素敵渋谷七景 連夜」　《「見すぎちゃダメよ　も・じ・ば・ら・し」と「超超超、超超超、超超超超超難問王決定戦 超チーム予選」》",
@@ -4574,7 +4573,7 @@
     {
       "id": "f9c4710d",
       "talents": {
-        "5110": null,
+        "5110": "kento fukaya",
         "7295": "ケビンス"
       },
       "title": "やさしいズタイpresents 「素敵渋谷七景 連夜」　《「パドック大喜利～目指せ喜利馬記念～」と「超超超、超超超、超超超超超難問王決定戦 超チーム決戦」》",
@@ -4720,7 +4719,7 @@
     {
       "id": "17715b06",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "大阪銀座",
       "date": "2026-06-30",
@@ -4744,15 +4743,15 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "479fe40f",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "kento fukayaのゆるいぜ！旅マウス！",
       "date": "2026-07-05",
@@ -4771,10 +4770,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "8930dd1d",
@@ -4835,7 +4834,7 @@
     {
       "id": "36039d37",
       "talents": {
-        "5110": null
+        "5110": "kento fukaya"
       },
       "title": "ZiDolトークライブ～2026年春ツアー、夏のワンマンライブ映像を見ながら喋ろう～",
       "date": "2026-08-11",
@@ -4854,10 +4853,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-18T18:50:49+09:00",
       "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": null
+      "notified_at": "2026-05-19T10:10:37+09:00"
     },
     {
       "id": "43605af8",

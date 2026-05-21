@@ -168,6 +168,48 @@ def build_html(title: str, events: list[dict]) -> str:
 </html>"""
 
 
+def build_html_grouped(events: list[dict], talent_order: list[str], talent_names: dict[str, str]) -> str:
+    """芸人別にセクション分けしたHTMLを生成する。"""
+    groups: dict[str, list[dict]] = {tid: [] for tid in talent_order}
+    for ev in events:
+        for tid in ev.get("talents", {}).keys():
+            if tid in groups:
+                groups[tid].append(ev)
+
+    new_count = sum(1 for e in events if e.get("status") == "new")
+    upd_count = sum(1 for e in events if e.get("status") == "updated")
+    summary = f"新規 {new_count} 件 / 更新 {upd_count} 件"
+
+    sections = ""
+    for tid in talent_order:
+        group_events = sorted(groups.get(tid, []), key=lambda e: e.get("date", ""))
+        if not group_events:
+            continue
+        name = talent_names.get(tid, tid)
+        cards = "".join(build_event_card(ev) for ev in group_events)
+        sections += (
+            f'<div style="margin-bottom:24px">'
+            f'<h3 style="font-size:14px;font-weight:bold;color:#1a1a2e;'
+            f'border-bottom:2px solid #c8cfe0;padding:0 0 6px;margin-bottom:10px">'
+            f'{name}（{len(group_events)} 件）</h3>'
+            f'{cards}</div>'
+        )
+
+    return f"""<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="UTF-8"></head>
+<body style="font-family:'Hiragino Sans',sans-serif;color:#333;max-width:600px;margin:0 auto;padding:16px">
+  <h2 style="border-bottom:2px solid #e74c3c;padding-bottom:8px">フォロー中の公演情報</h2>
+  <p style="margin-top:4px;margin-bottom:12px;font-size:13px">
+    <a href="https://fanaby-event.pages.dev/" style="color:#e74c3c;text-decoration:none">▶ fanaby-event を開く</a>
+  </p>
+  <p style="color:#666;font-size:13px">{summary}</p>
+  {sections}
+  <p style="color:#aaa;font-size:11px;margin-top:32px">fanaby-event 自動通知</p>
+</body>
+</html>"""
+
+
 def send_mail(subject: str, html: str, to: str) -> None:
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
@@ -236,16 +278,23 @@ def main():
     sent_ids: set[str] = set()
     targets = fetch_notify_targets()
 
+    # config から芸人名マップを構築
+    talent_names: dict[str, str] = {
+        t["id"]: t.get("name") or t["id"]
+        for t in config.get("talents", [])
+    }
+
     if targets:
         # ユーザー別通知
         for target in targets:
             email = target.get("email")
-            talent_ids = set(target.get("talent_ids", []))
+            talent_ids: list[str] = target.get("talent_ids", [])  # 順序を保持してグループ表示に使用
             if not email or not talent_ids:
                 continue
+            talent_id_set = set(talent_ids)
             user_events = [
                 ev for ev in notify_events
-                if any(tid in talent_ids for tid in ev.get("talents", {}).keys())
+                if any(tid in talent_id_set for tid in ev.get("talents", {}).keys())
             ]
             if not user_events:
                 continue
@@ -253,7 +302,7 @@ def main():
             new_count = sum(1 for e in user_events if e.get("status") == "new")
             upd_count = sum(1 for e in user_events if e.get("status") == "updated")
             subject = f"【公演情報】新規 {new_count} 件 / 更新 {upd_count} 件"
-            html = build_html("フォロー中の公演情報", user_events)
+            html = build_html_grouped(user_events, talent_ids, talent_names)
             try:
                 send_mail(subject, html, email)
                 print(f"送信完了: {email} ({len(user_events)} 件)")

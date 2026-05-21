@@ -171,7 +171,7 @@ def build_html(title: str, events: list[dict]) -> str:
 def send_mail(subject: str, html: str, to: str) -> None:
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
-    msg["From"] = MAIL_USER
+    msg["From"] = f"Fanaby-Event <{MAIL_USER}>"
     msg["To"] = to
     msg.attach(MIMEText(html, "html", "utf-8"))
 

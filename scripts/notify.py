@@ -16,7 +16,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _talents_kv import fetch_notify_targets_kv
+from _talents_kv import fetch_notify_targets_kv, fetch_talents_master
 
 BASE_DIR = Path(__file__).parent.parent
 EVENTS_PATH = BASE_DIR / "data" / "events.json"
@@ -168,7 +168,7 @@ def build_html(title: str, events: list[dict]) -> str:
 </html>"""
 
 
-def build_html_grouped(events: list[dict], talent_order: list[str], talent_names: dict[str, str]) -> str:
+def build_html_grouped(events: list[dict], talent_order: list[str], talents_data: dict[str, dict]) -> str:
     """芸人別にセクション分けしたHTMLを生成する。"""
     groups: dict[str, list[dict]] = {tid: [] for tid in talent_order}
     for ev in events:
@@ -185,13 +185,35 @@ def build_html_grouped(events: list[dict], talent_order: list[str], talent_names
         group_events = sorted(groups.get(tid, []), key=lambda e: e.get("date", ""))
         if not group_events:
             continue
-        name = talent_names.get(tid, tid)
+
+        talent_info = talents_data.get(tid, {})
+        name = talent_info.get("name") or tid
+
+        local_image = talent_info.get("local_image") or ""
+        image_url = talent_info.get("image_url") or ""
+        if local_image:
+            img_path = local_image[len("docs/"):] if local_image.startswith("docs/") else local_image
+            profile_img_url = f"https://fanaby-event.pages.dev/{img_path}"
+        elif image_url and image_url.startswith("http"):
+            profile_img_url = image_url
+        else:
+            profile_img_url = ""
+
+        avatar_html = ""
+        if profile_img_url:
+            avatar_html = (
+                f'<img src="{profile_img_url}" alt="{name}" '
+                f'style="width:32px;height:32px;border-radius:50%;object-fit:cover;'
+                f'vertical-align:middle;margin-right:8px;flex-shrink:0;">'
+            )
+
         cards = "".join(build_event_card(ev) for ev in group_events)
         sections += (
             f'<div style="margin-bottom:24px">'
             f'<h3 style="font-size:14px;font-weight:bold;color:#1a1a2e;'
-            f'border-bottom:2px solid #c8cfe0;padding:0 0 6px;margin-bottom:10px">'
-            f'{name}（{len(group_events)} 件）</h3>'
+            f'border-bottom:2px solid #c8cfe0;padding:6px 0;margin-bottom:10px;'
+            f'display:flex;align-items:center;">'
+            f'{avatar_html}{name}（{len(group_events)} 件）</h3>'
             f'{cards}</div>'
         )
 
@@ -278,11 +300,9 @@ def main():
     sent_ids: set[str] = set()
     targets = fetch_notify_targets()
 
-    # config から芸人名マップを構築
-    talent_names: dict[str, str] = {
-        t["id"]: t.get("name") or t["id"]
-        for t in config.get("talents", [])
-    }
+    # 芸人マスタ取得（KV → config.json フォールバック）
+    talents_list = fetch_talents_master(config.get("talents", []))
+    talents_data: dict[str, dict] = {t["id"]: t for t in talents_list}
 
     if targets:
         # ユーザー別通知
@@ -302,7 +322,7 @@ def main():
             new_count = sum(1 for e in user_events if e.get("status") == "new")
             upd_count = sum(1 for e in user_events if e.get("status") == "updated")
             subject = f"【公演情報】新規 {new_count} 件 / 更新 {upd_count} 件"
-            html = build_html_grouped(user_events, talent_ids, talent_names)
+            html = build_html_grouped(user_events, talent_ids, talents_data)
             try:
                 send_mail(subject, html, email)
                 print(f"送信完了: {email} ({len(user_events)} 件)")

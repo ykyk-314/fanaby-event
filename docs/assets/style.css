@@ -234,16 +234,9 @@ details[open] > .notice-summary::before { content: '▼ '; }
 .memo-input:focus { border-color: #aaa; background: #fff; }
 .memo-input::placeholder { color: #bbb; }
 
-/* フォロー中タブ — 芸人別グループ見出し */
-.follow-group-header {
-  font-size: 13px;
-  font-weight: bold;
-  color: #1a1a2e;
-  padding: 6px 10px 5px;
-  margin: 14px 0 6px;
-  border-bottom: 2px solid #c8cfe0;
-}
-.follow-group-header:first-of-type { margin-top: 0; }
+/* 公演カード — 芸人アイコン */
+.card-talent-icons { margin-left: auto; display: flex; gap: 3px; align-items: center; flex-shrink: 0; }
+.card-talent-icon { width: 22px; height: 22px; border-radius: 50%; object-fit: cover; }
 
 /* セレクト本体 — 文字色は常に暗色（ドロップダウン内も読める） */
 .viewing-select {

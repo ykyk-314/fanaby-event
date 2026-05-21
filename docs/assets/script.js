@@ -14,8 +14,8 @@ const YOSHIMOTO_VENUES = [
 // ---- タブ切り替え（単一DOM + talentフィルタ） ----
 let currentTalent = '';
 let followedTalents = null; // null=未ロード/取得失敗, []=0件, [...]=フォロー済み
-let followedTalentNames = {}; // id -> 芸人名（フォロー中タブのグループ見出し用）
-const _followGroupContainers = new Map(); // container -> [元のカード順] 復元用
+let tabImgMap = {};   // talent_id -> tab avatar src
+let tabNameMap = {};  // talent_id -> 芸人名
 
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -81,57 +81,41 @@ function buildVenueOptions() {
   }
 }
 
-// ---- フォロー中タブ 芸人別グループ表示 ----
-function clearFollowGroups() {
-  for (const [container, origCards] of _followGroupContainers) {
-    container.querySelectorAll('.follow-group-header').forEach(el => el.remove());
-    for (const card of origCards) container.appendChild(card);
-  }
-  _followGroupContainers.clear();
+// ---- 公演カード — 芸人アイコン注入 ----
+function buildTabImgMap() {
+  document.querySelectorAll('.tab-btn[data-tab]').forEach(btn => {
+    const tabId = btn.dataset.tab;
+    if (tabId === 'all') return;
+    const avatarImg = btn.querySelector('.tab-avatar');
+    if (avatarImg && avatarImg.src) tabImgMap[tabId] = avatarImg.src;
+    let name = '';
+    for (const node of btn.childNodes) {
+      if (node.nodeType === 3) name += node.textContent;
+    }
+    tabNameMap[tabId] = name.trim() || tabId;
+  });
 }
 
-function renderFollowGroups() {
-  // フォロー中タブ（全員タブ + フォロー中芸人あり）以外はグループ解除して終了
-  if (currentTalent !== '' || !followedTalents || followedTalents.length === 0) {
-    clearFollowGroups();
-    return;
-  }
-
-  clearFollowGroups();
-
-  const containers = [
-    document.getElementById('section-future'),
-    document.getElementById('section-past'),
-  ].filter(Boolean);
-
-  for (const container of containers) {
-    const allCards = Array.from(container.querySelectorAll('.event-card'));
-    if (!allCards.length) continue;
-
-    _followGroupContainers.set(container, allCards);
-
-    // 芸人ごとにカードを振り分け（followedTalents の順を維持）
-    const groups = new Map();
-    for (const tid of followedTalents) groups.set(tid, []);
-
-    for (const card of allCards) {
-      const cardTalents = card.dataset.talent.split(' ').filter(Boolean);
-      const tid = followedTalents.find(t => cardTalents.includes(t));
-      if (tid) groups.get(tid).push(card);
+function injectTalentAvatars() {
+  document.querySelectorAll('.event-card').forEach(card => {
+    if (card.querySelector('.card-talent-icons')) return;
+    const talentIds = (card.dataset.talent || '').split(' ').filter(Boolean);
+    const withImg = talentIds.filter(tid => tabImgMap[tid]);
+    if (!withImg.length) return;
+    const wrap = document.createElement('div');
+    wrap.className = 'card-talent-icons';
+    for (const tid of withImg) {
+      const img = document.createElement('img');
+      img.className = 'card-talent-icon';
+      img.src = tabImgMap[tid];
+      img.alt = tabNameMap[tid] || '';
+      img.title = tabNameMap[tid] || '';
+      img.onerror = () => { img.style.display = 'none'; };
+      wrap.appendChild(img);
     }
-
-    // カードを一旦すべて除去してから芸人別に再挿入
-    for (const card of allCards) card.remove();
-
-    for (const [tid, cards] of groups) {
-      if (!cards.length) continue;
-      const header = document.createElement('div');
-      header.className = 'follow-group-header';
-      header.textContent = followedTalentNames[tid] || tid;
-      container.appendChild(header);
-      for (const card of cards) container.appendChild(card);
-    }
-  }
+    const header = card.querySelector('.card-header');
+    if (header) header.appendChild(wrap);
+  });
 }
 
 function applyFilters() {
@@ -192,7 +176,6 @@ function applyFilters() {
     countEl.textContent = section.querySelectorAll('.event-card:not(.hidden)').length;
   });
 
-  renderFollowGroups();
 }
 
 function resetFilters() {
@@ -633,7 +616,6 @@ async function initFollowFilter() {
       }
     }
   } catch {}
-  followedTalentNames = nameMap;
 
   const tabsEl = document.querySelector('.tabs');
   for (const id of missingIds) {
@@ -669,6 +651,8 @@ async function initFollowFilter() {
   initRemindUI();
   initMemoUI();
   initExcludeUI();
+  buildTabImgMap();
+  injectTalentAvatars();
   buildVenueOptions();
   applyFilters();
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = false; });

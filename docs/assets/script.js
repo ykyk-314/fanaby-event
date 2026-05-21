@@ -14,6 +14,8 @@ const YOSHIMOTO_VENUES = [
 // ---- タブ切り替え（単一DOM + talentフィルタ） ----
 let currentTalent = '';
 let followedTalents = null; // null=未ロード/取得失敗, []=0件, [...]=フォロー済み
+let followedTalentNames = {}; // id -> 芸人名（フォロー中タブのグループ見出し用）
+const _followGroupContainers = new Map(); // container -> [元のカード順] 復元用
 
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -79,6 +81,59 @@ function buildVenueOptions() {
   }
 }
 
+// ---- フォロー中タブ 芸人別グループ表示 ----
+function clearFollowGroups() {
+  for (const [container, origCards] of _followGroupContainers) {
+    container.querySelectorAll('.follow-group-header').forEach(el => el.remove());
+    for (const card of origCards) container.appendChild(card);
+  }
+  _followGroupContainers.clear();
+}
+
+function renderFollowGroups() {
+  // フォロー中タブ（全員タブ + フォロー中芸人あり）以外はグループ解除して終了
+  if (currentTalent !== '' || !followedTalents || followedTalents.length === 0) {
+    clearFollowGroups();
+    return;
+  }
+
+  clearFollowGroups();
+
+  const containers = [
+    document.getElementById('section-future'),
+    document.getElementById('section-past'),
+  ].filter(Boolean);
+
+  for (const container of containers) {
+    const allCards = Array.from(container.querySelectorAll('.event-card'));
+    if (!allCards.length) continue;
+
+    _followGroupContainers.set(container, allCards);
+
+    // 芸人ごとにカードを振り分け（followedTalents の順を維持）
+    const groups = new Map();
+    for (const tid of followedTalents) groups.set(tid, []);
+
+    for (const card of allCards) {
+      const cardTalents = card.dataset.talent.split(' ').filter(Boolean);
+      const tid = followedTalents.find(t => cardTalents.includes(t));
+      if (tid) groups.get(tid).push(card);
+    }
+
+    // カードを一旦すべて除去してから芸人別に再挿入
+    for (const card of allCards) card.remove();
+
+    for (const [tid, cards] of groups) {
+      if (!cards.length) continue;
+      const header = document.createElement('div');
+      header.className = 'follow-group-header';
+      header.textContent = followedTalentNames[tid] || tid;
+      container.appendChild(header);
+      for (const card of cards) container.appendChild(card);
+    }
+  }
+}
+
 function applyFilters() {
   const venue       = document.getElementById('filterVenue').value;
   const from        = document.getElementById('filterDateFrom').value;
@@ -136,6 +191,8 @@ function applyFilters() {
     if (!countEl) return;
     countEl.textContent = section.querySelectorAll('.event-card:not(.hidden)').length;
   });
+
+  renderFollowGroups();
 }
 
 function resetFilters() {
@@ -576,6 +633,7 @@ async function initFollowFilter() {
       }
     }
   } catch {}
+  followedTalentNames = nameMap;
 
   const tabsEl = document.querySelector('.tabs');
   for (const id of missingIds) {

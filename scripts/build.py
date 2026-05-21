@@ -7,6 +7,7 @@ import json
 import sys
 from datetime import date
 from pathlib import Path
+from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).parent))
 from _talents_kv import fetch_talents_master
@@ -94,6 +95,56 @@ def render_badge(status: str) -> str:
     return ""
 
 
+def make_gcal_url(ev: dict) -> str | None:
+    """公演情報から Google Calendar 予定追加 URL を生成する。"""
+    date_str = ev.get("date", "")
+    if not date_str:
+        return None
+
+    open_time  = ev.get("open_time")  or ""
+    start_time = ev.get("start_time") or ""
+    end_time   = ev.get("end_time")   or ""
+
+    start_base = open_time or start_time
+    if not start_base:
+        return None
+
+    date_compact = date_str.replace("-", "")
+    start_dt = f"{date_compact}T{start_base.replace(':', '')}00"
+
+    if end_time:
+        end_dt = f"{date_compact}T{end_time.replace(':', '')}00"
+    else:
+        base_for_end = start_time or open_time
+        h, m = map(int, base_for_end.split(":"))
+        h = (h + 1) % 24
+        end_dt = f"{date_compact}T{h:02d}{m:02d}00"
+
+    times = []
+    if open_time:
+        times.append(f"開場 {open_time}")
+    if start_time:
+        times.append(f"開演 {start_time}")
+    if end_time:
+        times.append(f"終演 {end_time}")
+    details_parts = [" | ".join(times)] if times else []
+    members = ev.get("members") or ""
+    if members:
+        details_parts.append(members)
+    details_text = "\n".join(details_parts)
+
+    params = [
+        ("action",   "TEMPLATE"),
+        ("text",     ev.get("title", "")),
+        ("dates",    f"{start_dt}/{end_dt}"),
+        ("ctz",      "Asia/Tokyo"),
+        ("location", ev.get("venue") or ""),
+        ("details",  details_text),
+    ]
+    query = "&".join(f"{k}={quote(str(v))}" for k, v in params)
+    return f"https://calendar.google.com/calendar/render?{query}"
+
+
 def render_event_card(ev: dict, tickets: list | None = None) -> str:
     badge = render_badge(ev.get("status", ""))
     title = escape_html(ev.get("title", ""))
@@ -128,6 +179,11 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
             f'<a href="{escape_html(ev["online_url"])}" '
             f'target="_blank" class="btn btn-online">配信チケット</a>'
         )
+    gcal_url = make_gcal_url(ev)
+    gcal_btn = (
+        f'<a href="{escape_html(gcal_url)}" target="_blank" rel="noopener"'
+        f' class="btn btn-gcal" title="Googleカレンダーに追加">&#x1F4C5;</a>'
+    ) if gcal_url else ""
 
     # フライヤー: ローカル画像優先、なければ外部URL
     img_src = ev.get("local_image") or ev.get("image_url") or ""
@@ -208,7 +264,7 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
         f'<button class="exclude-btn" data-event-id="{ev_id}"'
         f' title="この公演を除外する">除外</button>'
     )
-    btns_html = f'<div class="card-btns">{ticket_btns}{status_select}{remind_btn}{exclude_btn}</div>'
+    btns_html = f'<div class="card-btns">{ticket_btns}{gcal_btn}{status_select}{remind_btn}{exclude_btn}</div>'
     memo_html = (
         f'<div class="memo-wrap">'
         f'<textarea class="memo-input" data-event-id="{ev_id}"'

@@ -46,5 +46,7 @@ main ←── feature/YYMMDD （機能開発・PRでマージ）
 - Selenium は `webdriver-manager` 不使用。`webdriver.Chrome(options=options)` のみ記述
 - `docs/assets/` を変更する際は `build.py` の動作に影響がないか確認する
 - 3ステップ以上の変更は Plan モードで開始する
+- 設計フェーズは Plan モードを利用する
+- .claude/plans/配下への設計書出力時、ファイル名は設計内容が分かりやすい命名をする
 - コンテキストが逼迫したら区切りを提案する
 - 仕様は `.claude/rules/` を参照

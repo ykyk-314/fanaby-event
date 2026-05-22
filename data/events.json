@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T10:11:24+09:00",
+  "updated_at": "2026-05-22T18:18:45+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -3147,7 +3147,7 @@
       "members": "野澤輸出／シカゴ実業 山本プロ野球／ダンビラムーチョ 大原優一／ケビンス 仁木恭平／素敵じゃないか 柏木成彦／ナユタ",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016392_1_20260522134400383.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -3155,12 +3155,17 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
-      "status": "notified",
+      "local_image": "fliers/e7684c0e.jpg",
+      "status": "updated",
+      "last_updated": "2026-05-22T18:18:45+09:00",
+      "diff": {
+        "image_url": {
+          "before": null,
+          "after": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016392_1_20260522134400383.jpg"
+        }
+      },
       "first_seen": "2026-05-02T17:40:28+09:00",
-      "last_updated": "2026-05-03T17:43:17+09:00",
-      "notified_at": "2026-05-03T17:43:17+09:00",
-      "diff": null
+      "notified_at": "2026-05-03T17:43:17+09:00"
     },
     {
       "id": "c40d3349",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T18:18:45+09:00",
+  "updated_at": "2026-05-23T10:07:37+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2212,7 +2212,7 @@
       "members": "[企画ライブ]ケビンス 山口コンボイ／田津原理音",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015029_1_20260522194501848.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -2220,12 +2220,17 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
-      "status": "notified",
+      "local_image": "fliers/1e162e87.jpg",
+      "status": "updated",
+      "last_updated": "2026-05-23T10:07:37+09:00",
+      "diff": {
+        "image_url": {
+          "before": null,
+          "after": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015029_1_20260522194501848.jpg"
+        }
+      },
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-04-27T12:05:52+09:00"
     },
     {
       "id": "d374a367",
@@ -3156,16 +3161,11 @@
         "profile"
       ],
       "local_image": "fliers/e7684c0e.jpg",
-      "status": "updated",
-      "last_updated": "2026-05-22T18:18:45+09:00",
-      "diff": {
-        "image_url": {
-          "before": null,
-          "after": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016392_1_20260522134400383.jpg"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-05-02T17:40:28+09:00",
-      "notified_at": "2026-05-03T17:43:17+09:00"
+      "last_updated": "2026-05-22T18:18:45+09:00",
+      "notified_at": "2026-05-03T17:43:17+09:00",
+      "diff": null
     },
     {
       "id": "c40d3349",
@@ -4867,7 +4867,7 @@
       "members": "[企画ライブ]審査員：ゼロカラン たいが／世間知らズ さおり／太鵬 がえちゃん／マリーマリー えびちゃん／参加者：からし蓮根 青空／オダウエダ 植田／カベポスター 浜田／スーパーサイズ・ミー 西本／エバース 町田／シンクロニシティ 西野／軟水 大川内／狛犬 櫛野／進行：ゼロカラン ワキ",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016076_1_20260522193108171.png",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -4875,12 +4875,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/6209dcfb.png",
       "status": "notified",
+      "last_updated": "2026-05-23T10:07:37+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-05-01T10:08:18+09:00",
-      "notified_at": "2026-05-01T10:08:18+09:00",
-      "diff": null
+      "notified_at": "2026-05-23T10:07:37+09:00"
     },
     {
       "id": "b3afec5f",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T10:07:37+09:00",
+  "updated_at": "2026-05-23T17:51:02+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2221,16 +2221,11 @@
         "profile"
       ],
       "local_image": "fliers/1e162e87.jpg",
-      "status": "updated",
-      "last_updated": "2026-05-23T10:07:37+09:00",
-      "diff": {
-        "image_url": {
-          "before": null,
-          "after": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015029_1_20260522194501848.jpg"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00"
+      "last_updated": "2026-05-23T10:07:37+09:00",
+      "notified_at": "2026-04-27T12:05:52+09:00",
+      "diff": null
     },
     {
       "id": "d374a367",
@@ -4877,9 +4872,10 @@
       ],
       "local_image": "fliers/6209dcfb.png",
       "status": "notified",
-      "last_updated": "2026-05-23T10:07:37+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-23T10:07:37+09:00"
+      "last_updated": "2026-05-23T10:07:37+09:00",
+      "notified_at": "2026-05-23T10:07:37+09:00",
+      "diff": null
     },
     {
       "id": "b3afec5f",

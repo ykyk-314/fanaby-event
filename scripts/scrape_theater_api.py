@@ -53,6 +53,13 @@ def extract_talent_ids(member_html: str) -> set[str]:
     return set(re.findall(r"id=(\d+)", member_html))
 
 
+def match_by_name(member_text: str, talent_name_to_id: dict[str, str]) -> set[str]:
+    """member テキストに芸人名が含まれる場合、対応するIDを返す。
+    HTMLリンクなしのプレーンテキスト形式にフォールバックするために使用。
+    """
+    return {tid for name, tid in talent_name_to_id.items() if name and name in member_text}
+
+
 def extract_members(member_html: str) -> str:
     """memberHtml から <a> タグのみ除去したプレーンテキストを返す。"""
     text = re.sub(r"<br\s*/?>", "\n", member_html, flags=re.IGNORECASE)
@@ -70,9 +77,16 @@ def parse_price(price_str: str | None) -> int | None:
     return int(digits) if digits else None
 
 
-def parse_event(item: dict, theater: dict, talent_ids: set[str]) -> dict | None:
+def parse_event(
+    item: dict, theater: dict, talent_ids: set[str],
+    talent_name_to_id: dict[str, str] | None = None,
+) -> dict | None:
     member_html = item.get("memberHtml") or ""
     member_talent_ids = extract_talent_ids(member_html)
+    # memberHtml に <a href="...?id=XXXXXX"> 形式のリンクがない場合、芸人名で照合
+    if not member_talent_ids and talent_name_to_id:
+        member_text = item.get("member") or member_html
+        member_talent_ids = match_by_name(member_text, talent_name_to_id)
     matched = talent_ids & member_talent_ids
     if not matched:
         return None
@@ -117,6 +131,7 @@ def main():
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     kv_talents = fetch_talents_master(config.get("talents", []))
     talent_ids = {t["id"] for t in kv_talents}
+    talent_name_to_id = {t["name"]: t["id"] for t in kv_talents if t.get("name")}
     today = date.today()
     date_from, date_to = get_date_range(today)
     print(f"取得期間: {date_from} 〜 {date_to}")
@@ -134,7 +149,7 @@ def main():
         except Exception as e:
             print(f"  警告: 取得失敗 ({theater['name']}): {e}")
             continue
-        events = [e for item in items if (e := parse_event(item, theater, talent_ids))]
+        events = [e for item in items if (e := parse_event(item, theater, talent_ids, talent_name_to_id))]
         print(f"    {len(events)} 件ヒット（全 {len(items)} 件中）")
         all_events.extend(events)
 

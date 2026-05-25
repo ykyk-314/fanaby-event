@@ -191,11 +191,13 @@ def build_html_grouped(events: list[dict], talent_order: list[str], talents_data
 
         local_image = talent_info.get("local_image") or ""
         image_url = talent_info.get("image_url") or ""
-        if local_image:
+        # fanaby-event.pages.dev は CF Access 保護のためメール内から参照不可。
+        # image_url（吉本プロフィールの元 URL）を優先して使う。
+        if image_url and image_url.startswith("http"):
+            profile_img_url = image_url
+        elif local_image:
             img_path = local_image[len("docs/"):] if local_image.startswith("docs/") else local_image
             profile_img_url = f"https://fanaby-event.pages.dev/{img_path}"
-        elif image_url and image_url.startswith("http"):
-            profile_img_url = image_url
         else:
             profile_img_url = ""
 

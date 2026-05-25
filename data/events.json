@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T10:14:33+09:00",
+  "updated_at": "2026-05-25T16:02:03+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -3026,7 +3026,7 @@
       "members": "やさしいズ／ライス 田所仁／マユリカ／空気階段／ミカボ",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016622_1_20260525144602336.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -3034,12 +3034,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/2034375a.jpg",
       "status": "notified",
+      "last_updated": "2026-05-25T16:02:02+09:00",
       "first_seen": "2026-05-09T17:42:10+09:00",
-      "last_updated": "2026-05-09T17:42:10+09:00",
-      "notified_at": "2026-05-09T17:42:10+09:00",
-      "diff": null
+      "notified_at": "2026-05-25T16:02:03+09:00"
     },
     {
       "id": "a0340667",

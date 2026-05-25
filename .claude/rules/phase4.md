@@ -7,32 +7,41 @@ Phase 2 / Phase 3 の完了後に残った未実装タスクを整理。
 
 ---
 
-## A. アカウント別芸人登録
+## A. アカウント別芸人登録 ✅ 実装完了
 
 **背景**: 現在はサービス固定で `data/config.json` の `talents[]` に登録した芸人を全ユーザー共通で取得している。ログインアカウントごとに対象芸人を選択できるようにしたい。
 
-**要件**:
-- ユーザーが芸人名で検索 → 候補一覧表示 → 選択 → 芸人マスタへ追加
-- 芸人マスタはグローバル管理（1ユーザーが追加した芸人は全ユーザーが選択可能）
-- ユーザーはマスタから自分が追跡したい芸人を選択する
-- ユーザー別の選択情報に基づき、スケジュール更新通知・リマインド通知を送る
+**実装済み内容**:
 
-**現状の芸人マスタ**（`data/config.json`）:
+| レイヤー | 実装 |
+|---|---|
+| 芸人マスタ（KV） | `functions/api/talents/index.js` GET/POST/PUT、`functions/api/talents/[talentId].js` PATCH/DELETE |
+| ユーザー別フォロー（KV） | `functions/api/user-talents.js` GET/PUT、KVキー `user-talents:{sha256(email)}` |
+| 設定UI | `docs/settings.html` + `docs/assets/settings.js`（FollowStorage: LocalStorage↔KV透過同期） |
+| スクレイプ連携 | `scripts/_talents_kv.py`（全スクリプトが KV から芸人マスタ取得、config.json フォールバック） |
+| 新規追加時即時スクレイプ | `.github/workflows/talent-added.yml`（POST /api/talents 成功後に GitHub dispatch） |
+| ユーザー別通知 | `scripts/notify.py`（`/api/notify-targets` から芸人別にメール送信） |
+
+**設定ページ機能**（`docs/settings.html`）:
+- フォロー中の芸人一覧 + 解除ボタン
+- グローバルマスタから選択してフォロー追加
+- プロフィール URL 入力でマスタへ新規登録 → 自動フォロー追加（409 の場合はフォローのみ追加）
+
+**現状の芸人マスタ**（KV `talents` キー: 5件）:
 | ID | 名前 |
 |---|---|
 | 10708 | シンクロニシティ |
 | 5114 | マユリカ |
 | 7295 | ケビンス |
+| （ID未確認） | kento fukaya |
+| （ID未確認） | ビスケットブラザーズ |
 
-**検討事項**:
-- 芸人マスタの保存先: `data/config.json`（GitHub Push）か Cloudflare KV か
-- ユーザー別芸人選択の保存先: Cloudflare KV（`status:{hash}` に統合 or 別キー）
-- スクレイプ対象芸人の管理: config.json 固定から動的管理への移行
-- GitHub Actions の `scrape_profile_api.py` は config.json を参照するため、KV 管理にする場合はスクレイプ前に KV から全芸人リストを取得する仕組みが必要
+**未着手の要件**:
+- 芸人名でのキーワード検索・候補一覧表示（現状は profile.yoshimoto.co.jp で調べてURL入力が必要）
 
 ---
 
-## B. ピックアップ公演取得
+## B. ピックアップ公演取得 ❌ 未着手
 
 **背景**: 現在はマスタ登録芸人が出演する公演しか取り込めない。特定の公演や芸人を個別に取り込みたいケースに対応したい。
 
@@ -41,14 +50,16 @@ Phase 2 / Phase 3 の完了後に残った未実装タスクを整理。
 - 取り込んだ公演は `events.json` に追加され、通常公演と同様に表示・管理される
 
 **検討事項**:
-- feed-api (`/fany/tickets/v2` または `/fany/theater/v1`) で検索 API が存在するか
+- feed-api (`/fany/tickets/v2` または `/fany/theater/v1`) で検索 API が存在するか（未調査）
 - 手動追加 UI の設計（管理者専用か全ユーザー可か）
 
 ---
 
-## C. LINE 通知
+## C. LINE 通知 / Web Push 通知 ❌ 未着手
 
-**背景**: 現在のメール通知を LINE 通知に置き換えたい。Cloudflare Access ログインアカウントごとに LINE 情報を登録し、LINE 登録済みのユーザーには LINE で通知する。
+**背景**: 現在のメール通知を LINE 通知や Push 通知に置き換えたい。
+
+**現状の通知手段**: Gmail SMTP（`notify.py`）のみ
 
 **要件**:
 - ユーザーが LINE 情報（notify token など）を登録できる UI
@@ -57,18 +68,24 @@ Phase 2 / Phase 3 の完了後に残った未実装タスクを整理。
 **制約**: **LINE 連携が課金必須なら断念**。完全無料・無課金での実装が可能な場合のみ進める。
 
 **検討事項**:
-- LINE Notify は 2025 年 3 月にサービス終了済み
+- LINE Notify は 2025 年 3 月にサービス終了済み → 使用不可
 - LINE Messaging API の無料枠（月 200 通）で代替可能か要調査
-- 無料代替: Push 通知（Web Push / PWA）への変更も検討対象
+- 無料代替: Web Push（Service Worker + VAPID）への変更も検討対象
+  - PWA 基盤はすでに存在（`site.webmanifest`, `icon-192.png`, `icon-512.png`）
+  - Cloudflare Workers / KV で Push サブスクリプション管理が可能（無料枠内）
 
 ---
 
-## D. Google カレンダー連携（優先度: 低）
+## D. Google カレンダー連携（優先度: 低）⚠️ 手動ボタンのみ実装済み
 
-**背景**: `purchased`（購入済み）ステータスの公演を自動で Google カレンダーに登録したい。
+**背景**: `purchased`（購入済み）ステータスの公演を Google カレンダーに登録したい。
 
-**要件**:
-- `purchased` にステータス変更したタイミングで Google カレンダーにイベント追加
-- 認証: OAuth 2.0 フロー（個人用でも実装コストが最大）
+**実装済み**:
+- `build.py:98` `make_gcal_url()` — 全公演カードに「📅」ボタンを生成
+- クリックすると Google カレンダーの予定追加ページが開く（手動での一件ずつ追加）
 
-**制約**: 無料範囲内だが実装コストが最も高い。他タスクより優先度を下げる。
+**未実装**:
+- `purchased` にステータス変更した瞬間に自動登録する仕組み
+- OAuth 2.0 フロー（実装コスト最大）
+
+**制約**: 無料範囲内だが実装コストが最も高い。手動ボタンで代替できているため優先度は最低。

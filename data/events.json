@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T16:19:00+09:00",
+  "updated_at": "2026-05-25T18:33:46+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -3831,7 +3831,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "46c94e36",
@@ -3861,7 +3862,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "d3821635",
@@ -3892,7 +3894,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "6a4c9a8e",
@@ -5674,7 +5677,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "1883d9f7",
@@ -5704,7 +5708,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "13456286",
@@ -5735,7 +5740,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "5413fb57",
@@ -5766,7 +5772,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "10ffac74",
@@ -5798,7 +5805,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "06d5ceaf",
@@ -5829,7 +5837,8 @@
       "status": "new",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "479fe40f",
@@ -5888,7 +5897,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "b9855b6c",
@@ -5919,7 +5929,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "f29a77ce",
@@ -5950,7 +5961,8 @@
       "status": "new",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "66972315",
@@ -5981,7 +5993,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "fc7e6206",
@@ -6012,7 +6025,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "6fe32c70",
@@ -6043,7 +6057,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "a48856e2",
@@ -6073,7 +6088,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "64d0f782",
@@ -6103,7 +6119,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "b672ed81",
@@ -6133,7 +6150,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "e4c77586",
@@ -6164,7 +6182,8 @@
       "status": "new",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e68d0cbe",
@@ -6195,7 +6214,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "9ec5fbfe",
@@ -6226,7 +6246,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "f778aeac",
@@ -6257,7 +6278,8 @@
       "status": "new",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "675b992c",
@@ -6288,7 +6310,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "3b080ff4",
@@ -6319,7 +6342,8 @@
       "status": "new",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a27cecec",
@@ -6350,7 +6374,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "9751910f",
@@ -6381,7 +6406,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "00d0d9b1",
@@ -6411,7 +6437,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "0cee2b43",
@@ -6443,7 +6470,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "8b5d731d",
@@ -6474,7 +6502,8 @@
       "status": "new",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "08a3be72",
@@ -6486,13 +6515,13 @@
       "open_time": "11:30",
       "start_time": "12:00",
       "end_time": "13:10",
-      "members": "テンダラー／あべこうじ／ハイキングウォーキング／トット／マルセイユ／ニッポンの社長／マユリカ／他",
+      "members": "テンダラー／あべこうじ／ハイキングウォーキング／トット／マルセイユ／ニッポンの社長／マユリカ／素敵じゃないか",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16524/44381",
       "online_url": null,
-      "notice": "チャンピオンが多数出演の実力派揃い！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：5/25（月）11:00～5/28（木）11:00\r\n当落発表：5/29（金）18:00頃\r\n\r\n一般発売日：6/5（金）10:00",
+      "notice": "チャンピオンが多数出演の実力派揃い！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：5/25（月）11:00～5/28（木）11:00\r\n当落発表：5/29（金）18:00頃\r\n\r\n一般発売日：6/5（金）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n素敵じゃないか（5/25）",
       "price": {
         "advance": 35002500,
         "door": 40003000
@@ -6502,9 +6531,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-25T18:33:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T18:33:46+09:00"
     },
     {
       "id": "0843dbfe",
@@ -6534,7 +6563,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "92fab915",
@@ -6564,7 +6594,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "6c124e87",
@@ -6595,7 +6626,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "c9b1ec0d",
@@ -6626,7 +6658,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "9b0f2b96",
@@ -6657,7 +6690,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "33791383",
@@ -6689,7 +6723,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "33b24a34",
@@ -6719,7 +6754,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "5a0eaafd",
@@ -6749,7 +6785,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "11ee5a66",
@@ -6779,7 +6816,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "c4fe3318",
@@ -6809,7 +6847,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "42e6c745",
@@ -6839,7 +6878,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "b208aef6",
@@ -6870,7 +6910,8 @@
       "status": "new",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d1bbffda",
@@ -6901,7 +6942,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "fbe289ae",
@@ -6932,7 +6974,8 @@
       "status": "new",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "db30c52e",
@@ -6962,7 +7005,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00"
+      "notified_at": "2026-05-25T16:19:00+09:00",
+      "diff": null
     },
     {
       "id": "8930dd1d",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T18:25:15+09:00",
+  "updated_at": "2026-05-26T23:50:47+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2334,8 +2334,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": "fliers/77d48c08.jpg",
       "status": "notified",
@@ -3873,7 +3872,7 @@
       "open_time": "19:00",
       "start_time": "19:30",
       "end_time": "20:40",
-      "members": "ライス／kento fukaya／オダウエダ／めぞん／他",
+      "members": "ライス／うるとらブギーズ／kento fukaya／オダウエダ／めぞん／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -3890,10 +3889,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "d3821635",
@@ -4392,7 +4390,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T18:25:15+09:00",
       "last_updated": "2026-05-26T18:25:15+09:00",
-      "notified_at": "2026-05-26T18:25:15+09:00"
+      "notified_at": "2026-05-26T18:25:15+09:00",
+      "diff": null
     },
     {
       "id": "c47ba93f",
@@ -5080,11 +5079,10 @@
         "profile"
       ],
       "local_image": "fliers/ad4a5e58.jpg",
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "bfdc143b",
@@ -5949,7 +5947,7 @@
         "10708": "シンクロニシティ",
         "5997": "ビスケットブラザーズ"
       },
-      "title": "六本木シアター1周年特別企画！「ROPPONNGI CONTE CHAMPIONSHIP U-10 」",
+      "title": "六本木シアター1周年特別企画！「ROPPONGI CONTE CHAMPIONSHIP U-10 」",
       "date": "2026-07-04",
       "open_time": "19:45",
       "start_time": "20:00",
@@ -5958,7 +5956,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17040/45252",
       "online_url": null,
       "notice": "芸歴10年目以下の東京所属コント師によるコント大会「ROPPONGI CONT CHAMPIONSHIP U-10」開催決定！\r\n六本木シアターを舞台に、若手コント師約20組が4分ネタで激突します。審査はお客様投票に加え、マンボウやしろさん、ライス田所さん、ビスケットブラザーズ原田さんら実力派芸人審査員も参加。ここから未来のスターが生まれるかもしれない、コント好き必見の熱いバトルをぜひ劇場でお楽しみください！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
@@ -5971,10 +5969,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "06d5ceaf",
@@ -6003,11 +6000,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "479fe40f",
@@ -6051,7 +6047,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17047/45258",
       "online_url": null,
       "notice": "豪華ユニットメンバーが一堂に大集結！\r\nユニットコントとスペシャルなコーナーで、六本木シアターの1周年を熱く盛り上げる特別公演をお届けします！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
@@ -6064,10 +6060,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "b9855b6c",
@@ -6083,7 +6078,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17049/45257",
       "online_url": null,
       "notice": "カゲヤマ益田脚本のドラマ台本を出演者が1分間で覚えて演じる即興コントライブ。\r\n誰かが台詞を間違えたり、飛ばしたりした時点で罰ゲームも…!?\r\n今回は1周年ということで、キングオブコントチャンピオンが勢揃い！\r\nさらに！主催カゲヤマ益田の同居人、ドンデコルテも参加したスペシャルバージョンでお届けします。\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
@@ -6096,10 +6091,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "f29a77ce",
@@ -6128,11 +6122,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "66972315",
@@ -6306,7 +6299,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17041/45251",
       "online_url": null,
       "notice": "2組ずつがお互いにリクエストしたネタを披露しあうライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
@@ -6318,10 +6311,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "b672ed81",
@@ -6410,11 +6402,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "e68d0cbe",
@@ -6593,11 +6584,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "675b992c",
@@ -6659,11 +6649,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "a27cecec",
@@ -6786,9 +6775,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-26T18:25:15+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T18:25:15+09:00"
+      "last_updated": "2026-05-26T18:25:15+09:00",
+      "notified_at": "2026-05-26T18:25:15+09:00",
+      "diff": null
     },
     {
       "id": "8b5d731d",
@@ -6817,11 +6807,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "08a3be72",
@@ -7323,11 +7312,10 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "d1bbffda",
@@ -7487,7 +7475,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/16872/45026",
+      "ticket_url": "https://ticket.fany.lol/event/detail/16873/45028",
       "online_url": null,
       "notice": "コントのエキスパートを先生に迎え、若手コント師たちがネタを観てもらい、舞台上ででアドバイスをいただく”ガチ”ライブです！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/27（水）11:00～5/29（金）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n※公演時間が変更になっております。大変申し訳ございません。\r\n21:00開場／21:15開演／22:15終演⇒19:30開場／19:45開演／20:45終演に変更。",
       "price": {
@@ -7500,10 +7488,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-05-26T23:50:47+09:00"
     },
     {
       "id": "8930dd1d",

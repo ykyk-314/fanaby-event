@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T10:09:04+09:00",
+  "updated_at": "2026-05-26T18:25:15+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2601,9 +2601,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-26T10:09:04+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "f6e11e43",
@@ -2627,16 +2628,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-05-26T10:09:04+09:00",
-      "diff": {
-        "members": {
-          "before": "[企画ライブ]MC：シモリュウ 前田／シカゴ実業 山本／ケビンス 仁木／野澤輸出／ネルソンズ 岸健之助／大石／他",
-          "after": "[企画ライブ]MC：シモリュウ 前田／シカゴ実業 山本／ケビンス 仁木／ミカボ 土屋翼／野澤輸出／ネルソンズ 岸健之助／大石"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-16T10:01:51+09:00"
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-16T10:01:51+09:00",
+      "diff": null
     },
     {
       "id": "3eb01ba8",
@@ -2762,7 +2758,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "bb31fdff",
@@ -3010,16 +3007,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-05-26T10:09:04+09:00",
-      "diff": {
-        "members": {
-          "before": "[企画ライブ]ケビンス 仁木／シカゴ実業 山本プロ野球／シモリュウ 前田龍二／九条ジョー／世間知らズ 椎木ゆうた／ナイチンゲールダンス 中野なかるてぃん／ナユタ おのはら／野澤輸出／ZAZY／他",
-          "after": "[企画ライブ]ケビンス 仁木／シカゴ実業 山本プロ野球／シモリュウ 前田／九条ジョー／世間知らズ 椎木／ナイチンゲールダンス 中野／ナユタ おのはら／野澤輸出／ZAZY／令和ロマン 松井ケムリ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-16T10:01:51+09:00"
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-16T10:01:51+09:00",
+      "diff": null
     },
     {
       "id": "82310443",
@@ -3661,9 +3653,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-26T10:09:04+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "ffcfb8c2",
@@ -4375,6 +4368,33 @@
       "diff": null
     },
     {
+      "id": "c4dc95f0",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "幕張ネタ＆コーナー～最後にレインコートを着て写真タイムもあるよ～",
+      "date": "2026-06-15",
+      "open_time": "11:30",
+      "start_time": "12:00",
+      "end_time": null,
+      "members": "ジャルジャル／ななまがり／ビスケットブラザーズ／9番街レトロ",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017569_1_20260524091218596.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/c4dc95f0.jpg",
+      "status": "notified",
+      "first_seen": "2026-05-26T18:25:15+09:00",
+      "last_updated": "2026-05-26T18:25:15+09:00",
+      "notified_at": "2026-05-26T18:25:15+09:00"
+    },
+    {
       "id": "c47ba93f",
       "talents": {
         "5114": "マユリカ"
@@ -5063,7 +5083,8 @@
       "status": "new",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bfdc143b",
@@ -5152,7 +5173,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "1971a017",
@@ -5862,7 +5884,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "5413fb57",
@@ -5887,9 +5910,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-26T10:09:04+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "12cb7565",
@@ -5916,7 +5940,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "10ffac74",
@@ -6197,7 +6222,8 @@
         "online": 1500
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6231,7 +6257,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "a48856e2",
@@ -6318,7 +6345,8 @@
         "door": 3000
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6352,7 +6380,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "e4c77586",
@@ -6410,7 +6439,8 @@
         "online": 1500
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6477,7 +6507,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "833d5399",
@@ -6504,7 +6535,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "1497e6af",
@@ -6531,7 +6563,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "f778aeac",
@@ -6744,23 +6777,18 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/16834/44938",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "超豪華メンバーで即興の音楽を奏でます！\r\nフェス感覚で楽しんでください！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：5/27（水）11:00～5/29（金）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
-      "price": {
-        "advance": 3000,
-        "door": 3500,
-        "online": 2000
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:roppongi"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-26T18:25:15+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-05-26T18:25:15+09:00"
     },
     {
       "id": "8b5d731d",
@@ -6785,7 +6813,8 @@
         "online": 1500
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
@@ -6915,7 +6944,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "6c124e87",
@@ -7008,7 +7038,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "9b0f2b96",
@@ -7134,7 +7165,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "5a0eaafd",
@@ -7254,7 +7286,8 @@
         "door": 3000
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -7353,7 +7386,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "98bcaea6",
@@ -7380,7 +7414,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "363b7d9e",
@@ -7407,7 +7442,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "fbe289ae",
@@ -7431,28 +7467,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-05-26T10:09:04+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": "https://ticket.fany.lol/event/detail/16421/44033",
-          "after": null
-        },
-        "price": {
-          "before": {
-            "advance": 2000,
-            "door": 2500,
-            "online": 1300
-          },
-          "after": null
-        },
-        "notice": {
-          "before": "シマッシュレコードが奏でる音楽に合わせて歌う、即興ソングバトルの最終回！\r\n即興で一番良い歌を歌えるのは誰だ？！\r\nラストを飾るにふさわしい、魂の即興ソングが炸裂。\r\n有終の美か、それとも波乱か。奇跡のメロディが生まれる瞬間をお見逃しなく！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
-          "after": null
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": null
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "db30c52e",
@@ -7476,7 +7495,8 @@
         "door": 2300
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -7594,7 +7614,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00"
+      "notified_at": "2026-05-26T10:09:04+09:00",
+      "diff": null
     },
     {
       "id": "43605af8",

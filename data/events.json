@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T23:50:47+09:00",
+  "updated_at": "2026-05-26T23:52:56+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2377,6 +2377,33 @@
       "diff": null
     },
     {
+      "id": "8a381271",
+      "talents": {
+        "2772": null
+      },
+      "title": "無限大喜利 1周年記念LIVE",
+      "date": "2026-05-27",
+      "open_time": "18:30",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "マヂカルラブリー野田クリスタル、野澤輸出、赤嶺総理、ママタルト檜原、真空ジェシカ川北、他\nMC：ヒロユキMc-Ⅱ",
+      "venue": "ユーロライブ",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T23:52:56+09:00",
+      "last_updated": "2026-05-26T23:52:56+09:00",
+      "notified_at": "2026-05-26T23:52:56+09:00"
+    },
+    {
       "id": "5d630b99",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -3889,9 +3916,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "last_updated": "2026-05-26T23:50:46+09:00",
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "d3821635",
@@ -4525,6 +4553,70 @@
       "diff": null
     },
     {
+      "id": "4442f4cc",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "宴の前の静かさ～12周年目前！過去一静かなトークライブ～",
+      "date": "2026-06-17",
+      "open_time": "17:45",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "members": "マヂカルラブリー／囲碁将棋／GAG／タモンズ／すゑひろがりず／ジェラードン",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15567/42552",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%AE%B4%E3%81%AE%E5%89%8D%E3%81%AE%E9%9D%99%E3%81%8B%E3%81%95-12%E5%91%A8%E5%B9%B4%E7%9B%AE%E5%89%8D-%E9%81%8E%E5%8E%BB%E4%B8%80%E9%9D%99%E3%81%8B%E3%81%AA%E3%83%88%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%96-6-17-18-00",
+      "notice": "【チケット情報】\r\n先行期間：4/25（土）11:00～4/27（月）11:00 \r\n当落発表：4/28（火）18:00頃\r\nオンライン・一般発売：4/29（水）10:00\r\n※都合により出演者が変更になる場合がございます\r\n",
+      "price": {
+        "advance": 2300,
+        "door": 2600,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T23:52:56+09:00",
+      "last_updated": "2026-05-26T23:52:56+09:00",
+      "notified_at": "2026-05-26T23:52:56+09:00"
+    },
+    {
+      "id": "9ad1a819",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "大宮セブンライブ",
+      "date": "2026-06-17",
+      "open_time": "19:15",
+      "start_time": "19:30",
+      "end_time": "20:30",
+      "members": "マヂカルラブリー／囲碁将棋／GAG／タモンズ／すゑひろがりず／ジェラードン",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/15588/42573",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%A4%A7%E5%AE%AE%E3%82%BB%E3%83%96%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%96-6-17-19-30",
+      "notice": "【チケット情報】\r\n先行期間：4/25（土）11:00～4/27（月）11:00\r\n当落発表：4/28（火）18:00頃\r\nオンライン・一般発売：4/29（水）10:00\r\n※都合により出演者が変更になる場合がございます\r\n",
+      "price": {
+        "advance": 2300,
+        "door": 2600,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T23:52:56+09:00",
+      "last_updated": "2026-05-26T23:52:56+09:00",
+      "notified_at": "2026-05-26T23:52:56+09:00"
+    },
+    {
       "id": "b3c6f63e",
       "talents": {
         "7295": "ケビンス"
@@ -5082,7 +5174,8 @@
       "status": "notified",
       "first_seen": "2026-05-26T10:09:04+09:00",
       "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "bfdc143b",
@@ -5969,9 +6062,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "last_updated": "2026-05-26T23:50:46+09:00",
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "06d5ceaf",
@@ -6003,7 +6097,62 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
+    },
+    {
+      "id": "c8b70297",
+      "talents": {
+        "2772": null
+      },
+      "title": "【毎月5日はFANYの日！～プレミアムメンバー感謝デー～】沼津ラクーンよしもと劇場",
+      "date": "2026-07-05",
+      "open_time": "10:45",
+      "start_time": "11:00",
+      "end_time": null,
+      "members": "[ネタ]ツーナッカン／LLR／マヂカルラブリー／GAG／タモンズ／すゑひろがりず／さこリッチ／ぬまんづ",
+      "venue": "沼津ラクーンよしもと劇場",
+      "prefecture": "静岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T23:52:56+09:00",
+      "last_updated": "2026-05-26T23:52:56+09:00",
+      "notified_at": "2026-05-26T23:52:56+09:00"
+    },
+    {
+      "id": "48225fa5",
+      "talents": {
+        "2772": null
+      },
+      "title": "【毎月5日はFANYの日！～プレミアムメンバー感謝デー～】沼津ラクーンよしもと劇場",
+      "date": "2026-07-05",
+      "open_time": "12:45",
+      "start_time": "13:00",
+      "end_time": null,
+      "members": "[ネタ]ツーナッカン／LLR／マヂカルラブリー／GAG／タモンズ／すゑひろがりず／さこリッチ／ぬまんづ",
+      "venue": "沼津ラクーンよしもと劇場",
+      "prefecture": "静岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T23:52:56+09:00",
+      "last_updated": "2026-05-26T23:52:56+09:00",
+      "notified_at": "2026-05-26T23:52:56+09:00"
     },
     {
       "id": "479fe40f",
@@ -6060,9 +6209,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "last_updated": "2026-05-26T23:50:46+09:00",
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "b9855b6c",
@@ -6091,9 +6241,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "last_updated": "2026-05-26T23:50:46+09:00",
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "f29a77ce",
@@ -6125,7 +6276,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "66972315",
@@ -6311,9 +6463,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "last_updated": "2026-05-26T23:50:46+09:00",
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "b672ed81",
@@ -6405,7 +6558,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "e68d0cbe",
@@ -6587,7 +6741,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "675b992c",
@@ -6652,7 +6807,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "a27cecec",
@@ -6810,7 +6966,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "08a3be72",
@@ -6847,6 +7004,7 @@
     {
       "id": "0843dbfe",
       "talents": {
+        "2772": "マヂカルラブリー",
         "5114": "マユリカ"
       },
       "title": "ルミネtheよしもと　夏休み特別公演〈2回目〉",
@@ -6879,6 +7037,7 @@
     {
       "id": "92fab915",
       "talents": {
+        "2772": "マヂカルラブリー",
         "5114": "マユリカ"
       },
       "title": "ルミネtheよしもと　夏休み特別公演〈3回目〉",
@@ -7029,6 +7188,33 @@
       "last_updated": "2026-05-26T10:09:04+09:00",
       "notified_at": "2026-05-26T10:09:04+09:00",
       "diff": null
+    },
+    {
+      "id": "3d5e82db",
+      "talents": {
+        "2772": null
+      },
+      "title": "マヂカルラブリー・囲碁将棋のワクワクドキドキツアーin尾道",
+      "date": "2026-07-24",
+      "open_time": "18:15",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "マヂカルラブリー、囲碁将棋、ななまがり",
+      "venue": "しまなみ交流館ホール",
+      "prefecture": "広島県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T23:52:56+09:00",
+      "last_updated": "2026-05-26T23:52:56+09:00",
+      "notified_at": "2026-05-26T23:52:56+09:00"
     },
     {
       "id": "9b0f2b96",
@@ -7315,7 +7501,8 @@
       "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
       "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "d1bbffda",
@@ -7488,9 +7675,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-26T23:50:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00"
+      "last_updated": "2026-05-26T23:50:46+09:00",
+      "notified_at": "2026-05-26T23:50:47+09:00",
+      "diff": null
     },
     {
       "id": "8930dd1d",
@@ -7577,6 +7765,33 @@
       "diff": null
     },
     {
+      "id": "fedfdb5a",
+      "talents": {
+        "2772": null
+      },
+      "title": "マヂカルラブリー・囲碁将棋のワクワクドキドキツアーin新潟",
+      "date": "2026-08-22",
+      "open_time": "16:15",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "マヂカルラブリー、囲碁将棋、インポッシブル",
+      "venue": "新潟市民プラザ",
+      "prefecture": "新潟県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T23:52:56+09:00",
+      "last_updated": "2026-05-26T23:52:56+09:00",
+      "notified_at": "2026-05-26T23:52:56+09:00"
+    },
+    {
       "id": "8ddd3ddc",
       "talents": {
         "5114": "マユリカ"
@@ -7631,6 +7846,33 @@
       "last_updated": "2026-04-27T12:05:52+09:00",
       "notified_at": "2026-04-27T12:05:52+09:00",
       "diff": null
+    },
+    {
+      "id": "43162563",
+      "talents": {
+        "2772": null
+      },
+      "title": "マヂカルラブリー・囲碁将棋のワクワクドキドキツアーin小樽",
+      "date": "2026-11-22",
+      "open_time": "16:15",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "マヂカルラブリー、囲碁将棋、空気階段",
+      "venue": "小樽市民会館",
+      "prefecture": "北海道",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T23:52:56+09:00",
+      "last_updated": "2026-05-26T23:52:56+09:00",
+      "notified_at": "2026-05-26T23:52:56+09:00"
     }
   ]
 }

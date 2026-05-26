@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T18:33:46+09:00",
+  "updated_at": "2026-05-26T10:09:04+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2589,7 +2589,7 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/14644/40396",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E7%AC%AC4%E5%9B%9E%E6%89%8B%E5%9C%9F%E7%94%A3%E3%81%8C%E3%81%BE%E3%81%A0%E3%81%AD%E3%81%87%E3%81%AA%E3%81%81-%E7%9B%8A%E7%94%B0%E6%9D%B1%E4%BA%AC%E6%94%AF%E9%83%A8%E9%95%B7%E3%81%8C%E3%81%84%E3%81%BE%E3%81%A0%E3%81%AB%E3%81%8A%E6%80%92%E3%82%8A%E3%81%A7%E3%81%99-5-29-20-30",
-      "notice": "【チケット情報】\r\n先行期間：3/31（火）11:00～4/2（木）11:00\r\n当落発表：4/3（金）18:00頃\r\nオンライン・一般発売：4/4（土）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n【出演者情報】\r\n「カゲヤマ タバやん。」は都合により休演いたします（4/28）\r\n「すゑひろがりず」が追加になりました。（5/2）\r\n",
+      "notice": "【チケット情報】\r\n先行期間：3/31（火）11:00～4/2（木）11:00\r\n当落発表：4/3（金）18:00頃\r\nオンライン・一般発売：4/4（土）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n【出演者情報】\r\n「カゲヤマ タバやん。」は都合により休演いたします（4/28）\r\n「すゑひろがりず」が追加になりました。（5/2）\r\n\r\n「カベポスター永見」ですが、都合により公演序盤（冒頭約20分程度）のみの出演となります。\r\n直前のご案内となり、ご来場および配信チケットをご購入のお客様にはご迷惑をおかけしますことを、深くお詫び申し上げます。大変申し訳ございません。（5/25）",
       "price": {
         "advance": 2000,
         "door": 2300,
@@ -2601,10 +2601,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-26T10:09:04+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-20T12:44:27+09:00",
-      "diff": null
+      "notified_at": "2026-05-26T10:09:04+09:00"
     },
     {
       "id": "f6e11e43",
@@ -2616,7 +2615,7 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": null,
-      "members": "[企画ライブ]MC：シモリュウ 前田／シカゴ実業 山本／ケビンス 仁木／野澤輸出／ネルソンズ 岸健之助／大石／他",
+      "members": "[企画ライブ]MC：シモリュウ 前田／シカゴ実業 山本／ケビンス 仁木／ミカボ 土屋翼／野澤輸出／ネルソンズ 岸健之助／大石",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -2628,11 +2627,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "diff": {
+        "members": {
+          "before": "[企画ライブ]MC：シモリュウ 前田／シカゴ実業 山本／ケビンス 仁木／野澤輸出／ネルソンズ 岸健之助／大石／他",
+          "after": "[企画ライブ]MC：シモリュウ 前田／シカゴ実業 山本／ケビンス 仁木／ミカボ 土屋翼／野澤輸出／ネルソンズ 岸健之助／大石"
+        }
+      },
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-05-16T10:01:51+09:00",
-      "notified_at": "2026-05-16T10:01:51+09:00",
-      "diff": null
+      "notified_at": "2026-05-16T10:01:51+09:00"
     },
     {
       "id": "3eb01ba8",
@@ -2732,6 +2736,33 @@
       "last_updated": "2026-04-30T17:57:30+09:00",
       "notified_at": "2026-04-30T17:57:30+09:00",
       "diff": null
+    },
+    {
+      "id": "b2359e80",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "コミックシーモアpresentsマンガ沼ライブ",
+      "date": "2026-05-30",
+      "open_time": "15:00",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "MC：麒麟・川島明、かまいたち・山内健司\n漫画家：板垣恵介先生、森田まさのり先生\nゲスト芸人：タイムマシーン3号・関太、ビスケットブラザーズ・原田泰雅",
+      "venue": "ニッショーホール",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
     },
     {
       "id": "bb31fdff",
@@ -2967,7 +2998,7 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": null,
-      "members": "[企画ライブ]ケビンス 仁木／シカゴ実業 山本プロ野球／シモリュウ 前田龍二／九条ジョー／世間知らズ 椎木ゆうた／ナイチンゲールダンス 中野なかるてぃん／ナユタ おのはら／野澤輸出／ZAZY／他",
+      "members": "[企画ライブ]ケビンス 仁木／シカゴ実業 山本プロ野球／シモリュウ 前田／九条ジョー／世間知らズ 椎木／ナイチンゲールダンス 中野／ナユタ おのはら／野澤輸出／ZAZY／令和ロマン 松井ケムリ",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -2979,11 +3010,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "diff": {
+        "members": {
+          "before": "[企画ライブ]ケビンス 仁木／シカゴ実業 山本プロ野球／シモリュウ 前田龍二／九条ジョー／世間知らズ 椎木ゆうた／ナイチンゲールダンス 中野なかるてぃん／ナユタ おのはら／野澤輸出／ZAZY／他",
+          "after": "[企画ライブ]ケビンス 仁木／シカゴ実業 山本プロ野球／シモリュウ 前田／九条ジョー／世間知らズ 椎木／ナイチンゲールダンス 中野／ナユタ おのはら／野澤輸出／ZAZY／令和ロマン 松井ケムリ"
+        }
+      },
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-05-16T10:01:51+09:00",
-      "notified_at": "2026-05-16T10:01:51+09:00",
-      "diff": null
+      "notified_at": "2026-05-16T10:01:51+09:00"
     },
     {
       "id": "82310443",
@@ -3612,7 +3648,7 @@
       "open_time": "18:15",
       "start_time": "18:30",
       "end_time": null,
-      "members": "ダブルアート／豪快キャプテン／ドーナツ・ピーナツ／ぎょうぶ／ぐろう／ゲスト:ビスケットブラザーズ／他",
+      "members": "ダブルアート／豪快キャプテン／ドーナツ・ピーナツ／ぎょうぶ／ぐろう／ゲスト:ヘンダーソン／ビスケットブラザーズ",
       "venue": "森ノ宮よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -3625,10 +3661,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-26T10:09:04+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-20T12:44:27+09:00",
-      "diff": null
+      "notified_at": "2026-05-26T10:09:04+09:00"
     },
     {
       "id": "ffcfb8c2",
@@ -3825,7 +3860,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -3856,7 +3892,8 @@
         "door": 3000
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -3888,7 +3925,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -5001,6 +5039,33 @@
       "diff": null
     },
     {
+      "id": "ad4a5e58",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "6月幕張ネタ＆コーナー～エンディングはお団子片手に初夏のフォトタイム～",
+      "date": "2026-06-23",
+      "open_time": "11:30",
+      "start_time": "12:00",
+      "end_time": null,
+      "members": "囲碁将棋／トット／ネルソンズ／ケビンス",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016804_1_20260515140342599.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/ad4a5e58.jpg",
+      "status": "new",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": null
+    },
+    {
       "id": "bfdc143b",
       "talents": {
         "10708": "シンクロニシティ"
@@ -5061,6 +5126,33 @@
       "last_updated": "2026-05-18T18:50:49+09:00",
       "notified_at": "2026-05-19T10:10:37+09:00",
       "diff": null
+    },
+    {
+      "id": "52fd7e7c",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ヒロユキMc-IIと幕張でコーナーやろう！",
+      "date": "2026-06-24",
+      "open_time": "12:00",
+      "start_time": "12:30",
+      "end_time": null,
+      "members": "【MC】ヒロユキMc-Ⅱ／ツートライブ／相席スタート／ダイタク／マユリカ",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
     },
     {
       "id": "1971a017",
@@ -5671,7 +5763,8 @@
         "door": 3000
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -5734,7 +5827,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -5742,6 +5836,33 @@
       "last_updated": "2026-05-25T16:19:00+09:00",
       "notified_at": "2026-05-25T16:19:00+09:00",
       "diff": null
+    },
+    {
+      "id": "f86ac83c",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "隣人のコントライブ",
+      "date": "2026-07-02",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": null,
+      "members": "隣人／ダブルアート／マイスイートメモリーズ／うただ／cacao／釈迦虎／ゲスト:ビスケットブラザーズ／ザ・プラン9",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
     },
     {
       "id": "5413fb57",
@@ -5757,23 +5878,45 @@
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/16405/44051",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "さや香石井、ロングコートダディ兎、ビスケットブラザーズきんのトークライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
-      "price": {
-        "advance": 2000,
-        "door": 2500,
-        "online": 1300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-26T10:09:04+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-05-26T10:09:04+09:00"
+    },
+    {
+      "id": "12cb7565",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "見取り図寄席in岐阜",
+      "date": "2026-07-04",
+      "open_time": "17:00",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "見取り図、セルライトスパ、マユリカ、カベポスター、ダブルヒガシ、エバース",
+      "venue": "バロー文化ホール　大ホール",
+      "prefecture": "岐阜県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
     },
     {
       "id": "10ffac74",
@@ -5831,7 +5974,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:jimbocho"
+        "theater:jimbocho",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
@@ -5955,7 +6099,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
@@ -6019,7 +6164,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:jimbocho"
+        "theater:jimbocho",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6061,6 +6207,33 @@
       "diff": null
     },
     {
+      "id": "ecadae40",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "LLRの八門遁甲ライブ～第二…芸人だよバカヤロー！浅草東洋館の門…開！！～",
+      "date": "2026-07-09",
+      "open_time": "19:00",
+      "start_time": "19:30",
+      "end_time": null,
+      "members": "LLR、ヤーレンズ、カラタチ、ビスケットブラザーズ、ネコニスズ\nMC：キクチウソツカナイ。",
+      "venue": "浅草東洋館",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
+    },
+    {
       "id": "a48856e2",
       "talents": {
         "5110": "kento fukaya"
@@ -6082,7 +6255,8 @@
         "door": 2000
       },
       "sources": [
-        "theater:jimbocho"
+        "theater:jimbocho",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6154,6 +6328,33 @@
       "diff": null
     },
     {
+      "id": "55c186f5",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "ごきげん会？ポポポポーン？",
+      "date": "2026-07-11",
+      "open_time": "18:15",
+      "start_time": "18:30",
+      "end_time": null,
+      "members": "うただ／ぎょうぶ／軟水／シンクロニシティ",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
+    },
+    {
       "id": "e4c77586",
       "talents": {
         "7295": "ケビンス"
@@ -6176,7 +6377,8 @@
         "online": 1500
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
@@ -6240,7 +6442,8 @@
         "door": 2300
       },
       "sources": [
-        "theater:jimbocho"
+        "theater:jimbocho",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6248,6 +6451,87 @@
       "last_updated": "2026-05-25T16:19:00+09:00",
       "notified_at": "2026-05-25T16:19:00+09:00",
       "diff": null
+    },
+    {
+      "id": "b15ad6eb",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "IMM THEATER 寄席",
+      "date": "2026-07-15",
+      "open_time": "12:30",
+      "start_time": "13:00",
+      "end_time": null,
+      "members": "もう中学生、ニューヨーク、マユリカ、ヤーレンズ、オズワルド、たくろう、他",
+      "venue": "IMM THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
+    },
+    {
+      "id": "833d5399",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "IMM THEATER 寄席",
+      "date": "2026-07-15",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "もう中学生、ニューヨーク、カナメストーン、マユリカ、オズワルド、たくろう、他",
+      "venue": "IMM THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
+    },
+    {
+      "id": "1497e6af",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "IMM THEATER 寄席",
+      "date": "2026-07-15",
+      "open_time": "18:30",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "もう中学生、ニューヨーク、カナメストーン、マユリカ、オズワルド、たくろう、他",
+      "venue": "IMM THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
     },
     {
       "id": "f778aeac",
@@ -6272,7 +6556,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
@@ -6304,7 +6589,8 @@
         "online": 1500
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6336,7 +6622,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
@@ -6368,7 +6655,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:jimbocho"
+        "theater:jimbocho",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6431,7 +6719,8 @@
         "door": 2300
       },
       "sources": [
-        "theater:jimbocho"
+        "theater:jimbocho",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6527,13 +6816,15 @@
         "door": 40003000
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-25T18:33:46+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T18:33:46+09:00"
+      "last_updated": "2026-05-25T18:33:46+09:00",
+      "notified_at": "2026-05-25T18:33:46+09:00",
+      "diff": null
     },
     {
       "id": "0843dbfe",
@@ -6557,7 +6848,8 @@
         "door": 4000
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6588,7 +6880,8 @@
         "door": 4000
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6596,6 +6889,33 @@
       "last_updated": "2026-05-25T16:19:00+09:00",
       "notified_at": "2026-05-25T16:19:00+09:00",
       "diff": null
+    },
+    {
+      "id": "77721d3d",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "空想・妄想の話で盛り上がりたい！feat.カラタチ.シンクロニシティ",
+      "date": "2026-07-21",
+      "open_time": "18:15",
+      "start_time": "18:30",
+      "end_time": null,
+      "members": "ゲスト：カラタチ／シンクロニシティ／ザ・ローリングモンキー ムサシ／中村圭太／太宰 てつ／喜喜かいばしら マウンテン",
+      "venue": "よしもと福岡 大和証券劇場",
+      "prefecture": "福岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
     },
     {
       "id": "6c124e87",
@@ -6620,7 +6940,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6652,7 +6973,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:jimbocho"
+        "theater:jimbocho",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6660,6 +6982,33 @@
       "last_updated": "2026-05-25T16:19:00+09:00",
       "notified_at": "2026-05-25T16:19:00+09:00",
       "diff": null
+    },
+    {
+      "id": "044d72d3",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "宇宙ステーション「なにわ」",
+      "date": "2026-07-23",
+      "open_time": "19:15",
+      "start_time": "19:30",
+      "end_time": null,
+      "members": "例えば炎／豪快キャプテン／ゲスト:ダブルアート／ビスケットブラザーズ",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
     },
     {
       "id": "9b0f2b96",
@@ -6684,7 +7033,8 @@
         "door": 2500
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6717,7 +7067,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:jimbocho"
+        "theater:jimbocho",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6748,7 +7099,8 @@
         "door": 45003500
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6756,6 +7108,33 @@
       "last_updated": "2026-05-25T16:19:00+09:00",
       "notified_at": "2026-05-25T16:19:00+09:00",
       "diff": null
+    },
+    {
+      "id": "2e0fdd43",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "マンゲキLIVE夏休みSP",
+      "date": "2026-07-28",
+      "open_time": "13:15",
+      "start_time": "13:30",
+      "end_time": null,
+      "members": "ゲスト:マユリカ／空気階段／　\nフースーヤ／ダブルアート／マイスイートメモリーズ／マグリット／鬼としみちゃむ／愛凛冴／cacao／シスター／ミケネ系／やまぐちたけし",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
     },
     {
       "id": "5a0eaafd",
@@ -6779,7 +7158,8 @@
         "door": 4500
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6810,7 +7190,8 @@
         "door": 4500
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6841,7 +7222,8 @@
         "door": 4500
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6904,7 +7286,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
@@ -6946,6 +7329,87 @@
       "diff": null
     },
     {
+      "id": "34612477",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "マンゲキLIVE夏休みSP",
+      "date": "2026-07-29",
+      "open_time": "13:15",
+      "start_time": "13:30",
+      "end_time": null,
+      "members": "ゲスト:男性ブランコ／ビスケットブラザーズ／　\n祇園／吉田たち／真輝志／ラビットラ／アイラブ地球／牛ぺぺ／ナナ／ぐろう／あんよの日／九ノ段",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
+    },
+    {
+      "id": "98bcaea6",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "Kiwami極LIVE",
+      "date": "2026-07-29",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "ゲスト:男性ブランコ／ビスケットブラザーズ／　\n黒帯／超速バギー／鬼としみちゃむ／侍スライス／センリーズ／隣人／イチオク／ウーロンパンダ／銀鬼／爛々 萌々",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
+    },
+    {
+      "id": "363b7d9e",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "お笑いライブ　ドンガラガッシャン",
+      "date": "2026-07-29",
+      "open_time": "18:30",
+      "start_time": "18:45",
+      "end_time": null,
+      "members": "ダブルアート／豪快キャプテン／ドーナツ・ピーナツ／ぎょうぶ／ぐろう／ゲスト:ビスケットブラザーズ",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
+    },
+    {
       "id": "fbe289ae",
       "talents": {
         "7295": "ケビンス"
@@ -6959,23 +7423,36 @@
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/16421/44033",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "シマッシュレコードが奏でる音楽に合わせて歌う、即興ソングバトルの最終回！\r\n即興で一番良い歌を歌えるのは誰だ？！\r\nラストを飾るにふさわしい、魂の即興ソングが炸裂。\r\n有終の美か、それとも波乱か。奇跡のメロディが生まれる瞬間をお見逃しなく！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
-      "price": {
-        "advance": 2000,
-        "door": 2500,
-        "online": 1300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/16421/44033",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 2000,
+            "door": 2500,
+            "online": 1300
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "シマッシュレコードが奏でる音楽に合わせて歌う、即興ソングバトルの最終回！\r\n即興で一番良い歌を歌えるのは誰だ？！\r\nラストを飾るにふさわしい、魂の即興ソングが炸裂。\r\n有終の美か、それとも波乱か。奇跡のメロディが生まれる瞬間をお見逃しなく！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+          "after": null
+        }
+      },
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "db30c52e",
@@ -7091,6 +7568,33 @@
       "last_updated": "2026-05-18T18:50:49+09:00",
       "notified_at": "2026-05-19T10:10:37+09:00",
       "diff": null
+    },
+    {
+      "id": "8ddd3ddc",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ぼーんとぅ盆踊り2026夏～私たちは盆踊りをするために生まれてきた～in TOKYO",
+      "date": "2026-08-28",
+      "open_time": "17:00",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "音頭取り：レイザーラモンRG\n腰振りの鬼：レイザーラモンHG\n盆踊りの鬼：藤崎マーケット トキ\n若頭：藤崎マーケット 田崎\n\n■ぼーん芸人\n秋山竜次（ロバート）、キンタロー。、コロコロチキチキペッパーズ、すゑひろがりず、とにかく明るい安村、どぶろっく、紅しょうが、マユリカ、ヨネダ2000\n\n■ぼーん楽団\n氣志團",
+      "venue": "豊洲PIT",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-26T10:09:04+09:00",
+      "last_updated": "2026-05-26T10:09:04+09:00",
+      "notified_at": "2026-05-26T10:09:04+09:00"
     },
     {
       "id": "43605af8",

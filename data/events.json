@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T10:13:03+09:00",
+  "updated_at": "2026-05-27T18:22:28+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2366,8 +2366,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/c6c30a66.jpeg",
       "status": "notified",
@@ -2831,7 +2830,7 @@
       "open_time": "19:00",
       "start_time": "19:30",
       "end_time": "20:40",
-      "members": "ニューヨーク／滝音／マユリカ／カベポスター／ケビンス／ネイビーズアフロ／他",
+      "members": "ニューヨーク／滝音／マユリカ／カベポスター／ケビンス／ネイビーズアフロ／金魚番長",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -2848,10 +2847,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-27T18:22:27+09:00",
       "first_seen": "2026-05-01T17:49:39+09:00",
-      "last_updated": "2026-05-13T10:07:05+09:00",
-      "notified_at": "2026-05-13T10:07:05+09:00",
-      "diff": null
+      "notified_at": "2026-05-27T18:22:28+09:00"
     },
     {
       "id": "8dd4ea7e",
@@ -4694,13 +4692,13 @@
       "open_time": "19:15",
       "start_time": "19:30",
       "end_time": "20:30",
-      "members": "ビスケットブラザーズ／コロコロチキチキペッパーズ／ネルソンズ",
+      "members": "ビスケットブラザーズ／コロコロチキチキペッパーズ／ネルソンズ／今井らいぱち",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15722/42782",
       "online_url": null,
-      "notice": "父の日目前！コントのあとにお父さんたちががんばるコーナーのライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/3（日）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "notice": "父の日目前！コントのあとにお父さんたちががんばるコーナーのライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/3（日）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n今井らいぱち（5/27）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2500,
         "door": 3000
@@ -4711,10 +4709,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-27T18:22:27+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-20T12:44:27+09:00",
-      "diff": null
+      "notified_at": "2026-05-27T18:22:28+09:00"
     },
     {
       "id": "1431c5f7",
@@ -5192,7 +5189,7 @@
       "members": "ななまがり／ZAZY／エバース／シンクロニシティ／ゲスト：佐久間一行／ミキ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000013975_1_20260527150540320.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/14847/40652",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/lumine-26062320",
       "notice": "■チケット情報■\r\n先行受付：4/8(水)11:00～4/10(金)11:00\r\n一般発売：4/12(日)10:00～\r\n※FANYチケットのみ\r\n\r\nオンラインチケット発売：4/12(日)10:00～\r\n※6/30(火)12:00まで販売\r\n\r\n■変更履歴■\r\n[追加]\r\n佐久間一行（4/20）\r\nミキ（4/22）",
@@ -5205,12 +5202,11 @@
         "theater:lumine",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/bfdc143b.jpg",
       "status": "notified",
+      "last_updated": "2026-05-27T18:22:27+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-30T17:57:30+09:00",
-      "notified_at": "2026-04-30T17:57:30+09:00",
-      "diff": null
+      "notified_at": "2026-05-27T18:22:28+09:00"
     },
     {
       "id": "f544a4b9",
@@ -7835,7 +7831,7 @@
       "open_time": "17:15",
       "start_time": "18:00",
       "end_time": null,
-      "members": "村上ショージ、山名（アキナ）、スクールゾーン\nゲスト：マユリカ",
+      "members": "村上ショージ、アキナ、スクールゾーン\nゲスト：マユリカ",
       "venue": "山形市民会館　小ホール",
       "prefecture": "山形県",
       "image_url": null,
@@ -7848,10 +7844,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-27T18:22:27+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-27T18:22:28+09:00"
     },
     {
       "id": "43162563",

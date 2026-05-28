@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T10:06:00+09:00",
+  "updated_at": "2026-05-28T11:30:48+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2726,6 +2726,33 @@
       "diff": null
     },
     {
+      "id": "8b292616",
+      "talents": {
+        "11715": null
+      },
+      "title": "大須よしもとネタコレクション",
+      "date": "2026-05-30",
+      "open_time": "13:45",
+      "start_time": "14:00",
+      "end_time": null,
+      "members": "すゑひろがりず、イチオク、翠星チークダンス、愛凛冴、九ノ段、電気ジュース、紅点",
+      "venue": "大須演芸場",
+      "prefecture": "愛知県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
+    },
+    {
       "id": "e6b07308",
       "talents": {
         "10708": "シンクロニシティ"
@@ -2971,9 +2998,10 @@
       ],
       "local_image": "fliers/0142c07d.jpg",
       "status": "notified",
-      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-28T10:06:00+09:00"
+      "last_updated": "2026-05-28T10:06:00+09:00",
+      "notified_at": "2026-05-28T10:06:00+09:00",
+      "diff": null
     },
     {
       "id": "359c9d2b",
@@ -3036,6 +3064,33 @@
       "last_updated": "2026-05-26T10:09:04+09:00",
       "notified_at": "2026-05-16T10:01:51+09:00",
       "diff": null
+    },
+    {
+      "id": "783da818",
+      "talents": {
+        "11715": null
+      },
+      "title": "森ノ宮Kakeru翔LIVEプラス",
+      "date": "2026-06-02",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "どんちっち／半年記念日／マーメイド／電気ジュース／シカノシンプ／例えば炎／天ロクの丘／釈迦虎／入学卒業／野良レール／ゆくえ／ゲスト:めぞん\n[コーナー出演者]MC：シカノシンプ／マーメイド／天ロクの丘／入学卒業／ゆくえ",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
     },
     {
       "id": "82310443",
@@ -3181,9 +3236,10 @@
       ],
       "local_image": "fliers/37b3eac2.jpg",
       "status": "notified",
-      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-28T10:06:00+09:00"
+      "last_updated": "2026-05-28T10:06:00+09:00",
+      "notified_at": "2026-05-28T10:06:00+09:00",
+      "diff": null
     },
     {
       "id": "e7684c0e",
@@ -3400,6 +3456,33 @@
       "diff": null
     },
     {
+      "id": "f6e2bfd4",
+      "talents": {
+        "11715": null
+      },
+      "title": "やまぐちたけしpresentsコーナーライブ【期待の星】",
+      "date": "2026-06-05",
+      "open_time": "18:25",
+      "start_time": "18:40",
+      "end_time": null,
+      "members": "やまぐちたけし／マイスイートメモリーズ 花谷／黒帯 てらうち／華山 にこらす／センリーズ きたしろ／イチオク タケヤ／三遊間 稲継／タイムキーパー ひでき／ぐろう 家村／電気ジュース 藤本もふ／生姜猫 カンサイ",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015708_1_20260519213336422.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/f6e2bfd4.jpg",
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
+    },
+    {
       "id": "5e9b605b",
       "talents": {
         "10708": "シンクロニシティ"
@@ -3520,6 +3603,33 @@
       "last_updated": "2026-05-08T17:43:10+09:00",
       "notified_at": "2026-05-08T17:43:10+09:00",
       "diff": null
+    },
+    {
+      "id": "8765ac05",
+      "talents": {
+        "11715": null
+      },
+      "title": "ポルックスネタライブ",
+      "date": "2026-06-06",
+      "open_time": "11:45",
+      "start_time": "12:00",
+      "end_time": null,
+      "members": "九ノ段、ルージュ、銀鬼、アポロ軍曹、ごぞうろっぷ、コブラマン、バリアシオン、電気ジュース、ゆくえ",
+      "venue": "日本橋Pollux Theater",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
     },
     {
       "id": "80178746",
@@ -3704,9 +3814,10 @@
       ],
       "local_image": "fliers/ffcfb8c2.jpg",
       "status": "notified",
-      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-05-28T10:06:00+09:00"
+      "last_updated": "2026-05-28T10:06:00+09:00",
+      "notified_at": "2026-05-28T10:06:00+09:00",
+      "diff": null
     },
     {
       "id": "cedb7b8c",
@@ -3853,6 +3964,33 @@
       "diff": null
     },
     {
+      "id": "05f536d3",
+      "talents": {
+        "11715": null
+      },
+      "title": "Kakeru翔グランプリWEST",
+      "date": "2026-06-07",
+      "open_time": "19:00",
+      "start_time": "19:15",
+      "end_time": null,
+      "members": "MC:もも\ncacao／シャガール／タイムキーパー／ときヲりぴーと／どんちっち／半年記念日／ファンファーレと熱狂／空前メテオ／ぐろう／シカノシンプ／例えば炎／天ロクの丘／電気ジュース／釈迦虎／浪速モダンカダン／ミステリーハンター／銀鬼／入学卒業／野良レール／バリアシオン／シンボリル／おもしろジャンケン／ゆくえ／西野",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
+    },
+    {
       "id": "9172be6a",
       "talents": {
         "5114": "マユリカ"
@@ -3977,9 +4115,10 @@
       ],
       "local_image": "fliers/6a4c9a8e.jpg",
       "status": "notified",
-      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-28T10:06:00+09:00"
+      "last_updated": "2026-05-28T10:06:00+09:00",
+      "notified_at": "2026-05-28T10:06:00+09:00",
+      "diff": null
     },
     {
       "id": "1d787902",
@@ -4042,9 +4181,10 @@
       ],
       "local_image": "fliers/237a69a5.jpg",
       "status": "notified",
-      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-28T10:06:00+09:00"
+      "last_updated": "2026-05-28T10:06:00+09:00",
+      "notified_at": "2026-05-28T10:06:00+09:00",
+      "diff": null
     },
     {
       "id": "316d4de4",
@@ -4679,6 +4819,33 @@
       "diff": null
     },
     {
+      "id": "6ad3c3ad",
+      "talents": {
+        "11715": null
+      },
+      "title": "電極愛",
+      "date": "2026-06-18",
+      "open_time": "18:45",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "電気ジュース、愛凛冴\nゲスト：デルマパンゲ",
+      "venue": "日本橋Pollux Theater",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
+    },
+    {
       "id": "a911d662",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -5023,9 +5190,10 @@
       ],
       "local_image": "fliers/c8b2334e.jpg",
       "status": "notified",
-      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-04T18:01:00+09:00",
-      "notified_at": "2026-05-28T10:06:00+09:00"
+      "last_updated": "2026-05-28T10:06:00+09:00",
+      "notified_at": "2026-05-28T10:06:00+09:00",
+      "diff": null
     },
     {
       "id": "ed5909c2",
@@ -5055,9 +5223,10 @@
       ],
       "local_image": "fliers/ed5909c2.jpg",
       "status": "notified",
-      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-04T18:01:00+09:00",
-      "notified_at": "2026-05-28T10:06:00+09:00"
+      "last_updated": "2026-05-28T10:06:00+09:00",
+      "notified_at": "2026-05-28T10:06:00+09:00",
+      "diff": null
     },
     {
       "id": "c668bad3",
@@ -5322,6 +5491,33 @@
       "diff": null
     },
     {
+      "id": "a7988cde",
+      "talents": {
+        "11715": null
+      },
+      "title": "こんちゃんのSUPERハレルーヤライブ",
+      "date": "2026-06-25",
+      "open_time": "18:15",
+      "start_time": "18:30",
+      "end_time": null,
+      "members": "オニイチャン／空前メテオ／ぐろう／シスター／ジョックロック／マーメイド／ライムギ／電気ジュース",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015713_1_20260508181141771.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/a7988cde.jpg",
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
+    },
+    {
       "id": "725991ca",
       "talents": {
         "7295": "ケビンス"
@@ -5348,6 +5544,33 @@
       "last_updated": "2026-04-27T12:05:52+09:00",
       "notified_at": "2026-04-27T12:05:52+09:00",
       "diff": null
+    },
+    {
+      "id": "da54b04e",
+      "talents": {
+        "11715": null
+      },
+      "title": "森ノ宮Kakeru翔LIVEプラス",
+      "date": "2026-06-26",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "コブラマン／シカノシンプ／九ノ段／例えば炎／電気ジュース／釈迦虎／満丸／ミケネ系／銀鬼／東雲／おもしろジャンケン\n[コーナー出演者]MC：釈迦虎／例えば炎／九ノ段／電気ジュース／銀鬼",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
     },
     {
       "id": "b805ff11",
@@ -5669,6 +5892,7 @@
     {
       "id": "4fd3297b",
       "talents": {
+        "11715": null,
         "5114": "マユリカ"
       },
       "title": "Kiwami極LIVE",
@@ -5749,6 +5973,33 @@
       "last_updated": "2026-05-10T10:09:18+09:00",
       "notified_at": "2026-05-10T10:09:18+09:00",
       "diff": null
+    },
+    {
+      "id": "87cef011",
+      "talents": {
+        "11715": null
+      },
+      "title": "女芸人大祭り～ネタとコーナーで盛り上がる夜～",
+      "date": "2026-06-30",
+      "open_time": "18:45",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "ハイヒール　リンゴ、天才ピアニスト、爛々　萌々、西野、電気ジュース、はるかぜに告ぐ、ヤメピ、はるみ、紫式部、やました、スズマチドオリ、爽快キラーズ、天使、ラメ入り、翠星の如く、リンダーリン、明日の朝ごはん、国背負い、双葉",
+      "venue": "YES THEATER",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
     },
     {
       "id": "17715b06",
@@ -6708,6 +6959,33 @@
       "diff": null
     },
     {
+      "id": "3a2676dd",
+      "talents": {
+        "11715": null
+      },
+      "title": "Kiwami極LIVE",
+      "date": "2026-07-17",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "ゲスト:パンクブーブー／トット／　\nラビットラ／牛ぺぺ／華山／侍スライス／イノシカチョウ／翠星チークダンス／とくいち／英千代／ぐろう／電気ジュース",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
+    },
+    {
       "id": "f778aeac",
       "talents": {
         "7295": "ケビンス"
@@ -7562,6 +7840,33 @@
       "diff": null
     },
     {
+      "id": "f9c23156",
+      "talents": {
+        "11715": null
+      },
+      "title": "SHIN NETA Kakeru翔LIVE",
+      "date": "2026-07-29",
+      "open_time": "14:45",
+      "start_time": "15:00",
+      "end_time": null,
+      "members": "コブラマン／ときヲりぴーと／ファンファーレと熱狂／半年記念日／キョンビ／電気ジュース／浪速モダンカダン／バリアシオン／おもしろジャンケン／ゆくえ／他",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
+    },
+    {
       "id": "98bcaea6",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -7644,6 +7949,33 @@
       "last_updated": "2026-05-26T10:09:04+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "ff399ee7",
+      "talents": {
+        "11715": null
+      },
+      "title": "森ノ宮Kakeru翔LIVEプラス",
+      "date": "2026-07-30",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "どんちっち／半年記念日／マーメイド／ライムギ／空前メテオ／シカノシンプ／清川雄司／天ロクの丘／電気ジュース／浪速モダンカダン／野良レール",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-28T11:30:48+09:00",
+      "last_updated": "2026-05-28T11:30:48+09:00",
+      "notified_at": "2026-05-28T11:30:48+09:00"
     },
     {
       "id": "db30c52e",

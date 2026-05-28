@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T11:30:48+09:00",
+  "updated_at": "2026-05-28T18:29:23+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2728,7 +2728,7 @@
     {
       "id": "8b292616",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "大須よしもとネタコレクション",
       "date": "2026-05-30",
@@ -2750,7 +2750,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "e6b07308",
@@ -3068,7 +3069,7 @@
     {
       "id": "783da818",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "森ノ宮Kakeru翔LIVEプラス",
       "date": "2026-06-02",
@@ -3090,7 +3091,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "82310443",
@@ -3458,7 +3460,7 @@
     {
       "id": "f6e2bfd4",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "やまぐちたけしpresentsコーナーライブ【期待の星】",
       "date": "2026-06-05",
@@ -3480,7 +3482,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "5e9b605b",
@@ -3607,7 +3610,7 @@
     {
       "id": "8765ac05",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "ポルックスネタライブ",
       "date": "2026-06-06",
@@ -3629,7 +3632,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "80178746",
@@ -3966,7 +3970,7 @@
     {
       "id": "05f536d3",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "Kakeru翔グランプリWEST",
       "date": "2026-06-07",
@@ -3988,7 +3992,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "9172be6a",
@@ -4005,7 +4010,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16785/44886",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/search?q=MANZAI%20FES%EF%BD%9E%E9%9F%B3%E6%A5%BD%E7%95%AA%E7%B5%84%E3%81%A3%E3%81%BD%E3%81%84%E3%83%88%E3%83%BC%E3%82%AF%E3%81%8C%E3%81%82%E3%82%8B%E6%BC%AB%E6%89%8D%E5%AF%84%E5%B8%AD%EF%BD%9E&type=product",
       "notice": "[チケット情報]\r\n≪6／8通し券≫（1）MANZAI FES～音楽番組っぽいトークがある漫才寄席～（2）大人の本気（ガチ）運動会！\r\n2公演通し券：3,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：5/24（日）11:00～5/26（火）11:00　 ※通し券のみ先行\r\n当落発表：5/27（水）18:00頃\r\nオンライン・一般発売：5/28（木）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n■2公演オンラインセット券　2,400円\r\n",
       "price": {
         "advance": 2000,
@@ -4070,7 +4075,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16786/44887",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/search?q=MANZAI%20FES%EF%BD%9E%E9%9F%B3%E6%A5%BD%E7%95%AA%E7%B5%84%E3%81%A3%E3%81%BD%E3%81%84%E3%83%88%E3%83%BC%E3%82%AF%E3%81%8C%E3%81%82%E3%82%8B%E6%BC%AB%E6%89%8D%E5%AF%84%E5%B8%AD%EF%BD%9E&type=product",
       "notice": "[チケット情報]\r\n≪6／8通し券≫（1）MANZAI FES～音楽番組っぽいトークがある漫才寄席～（2）大人の本気（ガチ）運動会！\r\n2公演通し券：3,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：5/24（日）11:00～5/26（火）11:00　 ※通し券のみ先行\r\n当落発表：5/27（水）18:00頃\r\nオンライン・一般発売：5/28（木）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n■2公演オンラインセット券　2,400円\r\n",
       "price": {
         "advance": 2000,
@@ -4821,7 +4826,7 @@
     {
       "id": "6ad3c3ad",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "電極愛",
       "date": "2026-06-18",
@@ -4843,7 +4848,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "a911d662",
@@ -5493,7 +5499,7 @@
     {
       "id": "a7988cde",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "こんちゃんのSUPERハレルーヤライブ",
       "date": "2026-06-25",
@@ -5515,7 +5521,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "725991ca",
@@ -5548,7 +5555,7 @@
     {
       "id": "da54b04e",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "森ノ宮Kakeru翔LIVEプラス",
       "date": "2026-06-26",
@@ -5570,7 +5577,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "b805ff11",
@@ -5743,7 +5751,7 @@
       "members": "[企画ライブ]ただならぬ刀／ダブルヒガシ／ド桜／シンクロニシティ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016341_1_20260528120147090.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15850/43040",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B4%E3%83%AA%E3%83%A9%E3%83%91%E3%83%B3%E3%83%81-6-28-19-00",
       "notice": "ただならぬ刀がゲストと共にお送りしていくネタとコーナーのライブです！\r\n毎回が神回、毎回が伝説、毎回がウホ、毎回が革命、その瞬間を見逃すな！！！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/2（土）11:00～5/7（木）11:00\r\n　・FANY IDメンバー\r\n　 　5/2（土）11:00～5/7（木）11:00\r\n\r\n〇一般販売：5/10（日）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：5/10（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n■変更履歴■\r\n[追加]\r\nダブルヒガシ／ド桜／シンクロニシティ(4/26)",
@@ -5756,12 +5764,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/a4f70cb3.jpg",
       "status": "notified",
+      "last_updated": "2026-05-28T18:29:22+09:00",
       "first_seen": "2026-05-01T17:49:39+09:00",
-      "last_updated": "2026-05-01T17:49:39+09:00",
-      "notified_at": "2026-05-01T17:49:39+09:00",
-      "diff": null
+      "notified_at": "2026-05-28T18:29:23+09:00"
     },
     {
       "id": "d63e091c",
@@ -5892,7 +5899,7 @@
     {
       "id": "4fd3297b",
       "talents": {
-        "11715": null,
+        "11715": "電気ジュース",
         "5114": "マユリカ"
       },
       "title": "Kiwami極LIVE",
@@ -5977,7 +5984,7 @@
     {
       "id": "87cef011",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "女芸人大祭り～ネタとコーナーで盛り上がる夜～",
       "date": "2026-06-30",
@@ -5999,7 +6006,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "17715b06",
@@ -6109,7 +6117,7 @@
       "open_time": "19:30",
       "start_time": "19:45",
       "end_time": "20:45",
-      "members": "セッツァー／ゲスト：セルライトスパ／いぬ／kento fukaya／ビスケットブラザーズ／カベポスター／軟水／ピュート",
+      "members": "セッツァー／ゲスト：セルライトスパ／ビスケットブラザーズ／カベポスター／kento fukaya／いぬ／軟水／ピュート",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -6126,10 +6134,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-28T18:29:22+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-05-28T18:29:23+09:00"
     },
     {
       "id": "1883d9f7",
@@ -6961,7 +6968,7 @@
     {
       "id": "3a2676dd",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "Kiwami極LIVE",
       "date": "2026-07-17",
@@ -6983,7 +6990,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "f778aeac",
@@ -7842,7 +7850,7 @@
     {
       "id": "f9c23156",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "SHIN NETA Kakeru翔LIVE",
       "date": "2026-07-29",
@@ -7864,7 +7872,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "98bcaea6",
@@ -7953,7 +7962,7 @@
     {
       "id": "ff399ee7",
       "talents": {
-        "11715": null
+        "11715": "電気ジュース"
       },
       "title": "森ノ宮Kakeru翔LIVEプラス",
       "date": "2026-07-30",
@@ -7975,7 +7984,8 @@
       "status": "notified",
       "first_seen": "2026-05-28T11:30:48+09:00",
       "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00"
+      "notified_at": "2026-05-28T11:30:48+09:00",
+      "diff": null
     },
     {
       "id": "db30c52e",
@@ -7987,7 +7997,7 @@
       "open_time": "19:30",
       "start_time": "19:45",
       "end_time": "20:45",
-      "members": "MC：カベポスター 浜田／【先生】ライス 田所／軟水／ピュート／シンクロニシティ／オフローズ／伝書鳩",
+      "members": "【先生】ライス 田所／軟水／ピュート／シンクロニシティ／オフローズ／伝書鳩／MC：カベポスター 浜田",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -8004,10 +8014,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-28T18:29:22+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-26T23:50:46+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00",
-      "diff": null
+      "notified_at": "2026-05-28T18:29:23+09:00"
     },
     {
       "id": "8930dd1d",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T18:22:28+09:00",
+  "updated_at": "2026-05-28T10:06:00+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -2847,9 +2847,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-27T18:22:27+09:00",
       "first_seen": "2026-05-01T17:49:39+09:00",
-      "notified_at": "2026-05-27T18:22:28+09:00"
+      "last_updated": "2026-05-27T18:22:27+09:00",
+      "notified_at": "2026-05-27T18:22:28+09:00",
+      "diff": null
     },
     {
       "id": "8dd4ea7e",
@@ -2957,7 +2958,7 @@
       "open_time": "19:00",
       "start_time": "19:15",
       "end_time": null,
-      "members": "ドンデコルテ／ネルソンズ／滝音／MC：ビスケットブラザーズ きん",
+      "members": "ドンデコルテ／ネルソンズ／滝音／コーナーMC：ビスケットブラザーズ きん",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000014881_1_20260426154039305.jpg",
@@ -2970,10 +2971,9 @@
       ],
       "local_image": "fliers/0142c07d.jpg",
       "status": "notified",
+      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-20T12:44:27+09:00",
-      "diff": null
+      "notified_at": "2026-05-28T10:06:00+09:00"
     },
     {
       "id": "359c9d2b",
@@ -3171,7 +3171,7 @@
       "members": "[企画ライブ]ピュート／オフローズ 宮崎駿介／シンクロニシティ 西野諒太郎／太鵬 がえちゃん／サンタモニカ マイム／イチゴ 木原優一／テキセツの街 山下よしあき／ザンゾウ スティック",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015903_1_20260527205536083.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -3179,12 +3179,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/37b3eac2.jpg",
       "status": "notified",
+      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-28T10:06:00+09:00"
     },
     {
       "id": "e7684c0e",
@@ -3695,7 +3694,7 @@
       "members": "kento fukaya",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015656_1_20260527202830369.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -3703,12 +3702,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/ffcfb8c2.jpg",
       "status": "notified",
+      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-05-19T10:10:37+09:00",
-      "diff": null
+      "notified_at": "2026-05-28T10:06:00+09:00"
     },
     {
       "id": "cedb7b8c",
@@ -3965,7 +3963,7 @@
       "members": "ビスケットブラザーズ／空気階段",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016132_1_20260527211030406.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15621/42620",
       "online_url": null,
       "notice": "コントチャンピオンの2組によるネタとコントについて語るトークライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：4/28（火）11:00～4/30（木）11:00\r\n〇一般販売：5/5（火）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
@@ -3977,12 +3975,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/6a4c9a8e.jpg",
       "status": "notified",
+      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-20T12:44:27+09:00",
-      "diff": null
+      "notified_at": "2026-05-28T10:06:00+09:00"
     },
     {
       "id": "1d787902",
@@ -4027,10 +4024,10 @@
       "open_time": "19:15",
       "start_time": "19:30",
       "end_time": "20:30",
-      "members": "ニッポンの社長／ビスケットブラザーズ／コットン／MC：九条ジョー",
+      "members": "ニッポンの社長／ビスケットブラザーズ／コットン／コーナーMC：九条ジョー",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016368_1_20260527211459931.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15940/43144",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%8D%E3%82%AA%E3%83%B3-%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E3%81%AE%E7%A4%BE%E9%95%B7-%E3%83%93%E3%82%B9%E3%82%B1%E3%83%83%E3%83%88%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA-%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3-6-10-19-30",
       "notice": "ニッポンの社長とビスケットブラザーズとコットンの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：5/5（火）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
@@ -4043,12 +4040,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/237a69a5.jpg",
       "status": "notified",
+      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-20T12:44:27+09:00",
-      "diff": null
+      "notified_at": "2026-05-28T10:06:00+09:00"
     },
     {
       "id": "316d4de4",
@@ -4709,9 +4705,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-27T18:22:27+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-27T18:22:28+09:00"
+      "last_updated": "2026-05-27T18:22:27+09:00",
+      "notified_at": "2026-05-27T18:22:28+09:00",
+      "diff": null
     },
     {
       "id": "1431c5f7",
@@ -5008,10 +5005,10 @@
       "open_time": "21:00",
       "start_time": "21:15",
       "end_time": "22:15",
-      "members": "ネルソンズ／ダンビラムーチョ／シンクロニシティ／MC：ダブルヒガシ 東",
+      "members": "ネルソンズ／ダンビラムーチョ／シンクロニシティ／コーナーMC：ダブルヒガシ 東",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016346_1_20260527211739669.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15934/43142",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%8D%E3%82%AA%E3%83%B3-%E3%83%8D%E3%83%AB%E3%82%BD%E3%83%B3%E3%82%BA-%E3%83%80%E3%83%B3%E3%83%93%E3%83%A9%E3%83%A0%E3%83%BC%E3%83%81%E3%83%A7-%E3%82%B7%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%B7%E3%83%86%E3%82%A3-6-20-21-15",
       "notice": "ネルソンズとダンビラムーチョとシンクロニシティの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/5（火）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：5/9（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nダブルヒガシ東(5/6)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
@@ -5024,12 +5021,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/c8b2334e.jpg",
       "status": "notified",
+      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-04T18:01:00+09:00",
-      "last_updated": "2026-05-07T10:03:31+09:00",
-      "notified_at": "2026-05-07T10:03:31+09:00",
-      "diff": null
+      "notified_at": "2026-05-28T10:06:00+09:00"
     },
     {
       "id": "ed5909c2",
@@ -5041,10 +5037,10 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": "18:00",
-      "members": "コロコロチキチキペッパーズ／空気階段／ケビンス／MC：カベポスター 浜田",
+      "members": "コロコロチキチキペッパーズ／空気階段／ケビンス／コーナーMC：カベポスター 浜田",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016352_1_20260527211926897.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15737/43146",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%8D%E3%82%AA%E3%83%B3-%E3%82%B3%E3%83%AD%E3%82%B3%E3%83%AD%E3%83%81%E3%82%AD%E3%83%81%E3%82%AD%E3%83%9A%E3%83%83%E3%83%91%E3%83%BC%E3%82%BA-%E7%A9%BA%E6%B0%97%E9%9A%8E%E6%AE%B5-%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9-6-21-17-00",
       "notice": "コロコロチキチキペッパーズと空気階段とケビンスの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：5/5（火）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
@@ -5057,12 +5053,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/ed5909c2.jpg",
       "status": "notified",
+      "last_updated": "2026-05-28T10:06:00+09:00",
       "first_seen": "2026-05-04T18:01:00+09:00",
-      "last_updated": "2026-05-04T18:01:00+09:00",
-      "notified_at": "2026-05-04T18:01:00+09:00",
-      "diff": null
+      "notified_at": "2026-05-28T10:06:00+09:00"
     },
     {
       "id": "c668bad3",
@@ -5204,9 +5199,10 @@
       ],
       "local_image": "fliers/bfdc143b.jpg",
       "status": "notified",
-      "last_updated": "2026-05-27T18:22:27+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-27T18:22:28+09:00"
+      "last_updated": "2026-05-27T18:22:27+09:00",
+      "notified_at": "2026-05-27T18:22:28+09:00",
+      "diff": null
     },
     {
       "id": "f544a4b9",
@@ -7844,9 +7840,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-27T18:22:27+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-05-27T18:22:28+09:00"
+      "last_updated": "2026-05-27T18:22:27+09:00",
+      "notified_at": "2026-05-27T18:22:28+09:00",
+      "diff": null
     },
     {
       "id": "43162563",

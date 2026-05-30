@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T18:24:21+09:00",
+  "updated_at": "2026-05-30T10:10:12+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -5506,7 +5506,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "ゲスト:ケビンス／　\n牛ぺぺ／ネイビーズアフロ／侍スライス／隣人／もも／愛凛冴／とくいち／シャガール／ファンファーレと熱狂／ミケネ系",
+      "members": "ゲスト:ケビンス／　\n牛ぺぺ／ネイビーズアフロ／侍スライス／隣人／もも／愛凛冴／とくいち／シャガール／ファンファーレと熱狂／ミケネ系／照山おうちごはん",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -5519,10 +5519,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-30T10:10:12+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-05-30T10:10:12+09:00"
     },
     {
       "id": "a7988cde",
@@ -5590,7 +5589,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "コブラマン／シカノシンプ／九ノ段／例えば炎／電気ジュース／釈迦虎／満丸／ミケネ系／銀鬼／東雲／おもしろジャンケン\n[コーナー出演者]MC：釈迦虎／例えば炎／九ノ段／電気ジュース／銀鬼",
+      "members": "コブラマン／シカノシンプ／九ノ段／例えば炎／電気ジュース／釈迦虎／満丸／ミケネ系／銀鬼／東雲／おもしろジャンケン／照山おうちごはん\n[コーナー出演者]MC：釈迦虎／例えば炎／九ノ段／電気ジュース／銀鬼",
       "venue": "森ノ宮よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -5603,10 +5602,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-05-30T10:10:12+09:00",
       "first_seen": "2026-05-28T11:30:48+09:00",
-      "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00",
-      "diff": null
+      "notified_at": "2026-05-30T10:10:12+09:00"
     },
     {
       "id": "b805ff11",
@@ -6313,7 +6311,8 @@
       "status": "notified",
       "first_seen": "2026-05-29T18:24:21+09:00",
       "last_updated": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-05-29T18:24:21+09:00"
+      "notified_at": "2026-05-29T18:24:21+09:00",
+      "diff": null
     },
     {
       "id": "12cb7565",
@@ -6368,7 +6367,8 @@
       "status": "notified",
       "first_seen": "2026-05-29T18:24:21+09:00",
       "last_updated": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-05-29T18:24:21+09:00"
+      "notified_at": "2026-05-29T18:24:21+09:00",
+      "diff": null
     },
     {
       "id": "10ffac74",
@@ -6894,9 +6894,10 @@
       ],
       "local_image": "fliers/e4c77586.jpeg",
       "status": "notified",
-      "last_updated": "2026-05-29T18:24:21+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-29T18:24:21+09:00"
+      "last_updated": "2026-05-29T18:24:21+09:00",
+      "notified_at": "2026-05-29T18:24:21+09:00",
+      "diff": null
     },
     {
       "id": "e68d0cbe",
@@ -8191,6 +8192,116 @@
       "diff": null
     },
     {
+      "id": "502e864d",
+      "talents": {
+        "5114": "マユリカ",
+        "7295": "ケビンス"
+      },
+      "title": "教育おたのしみ会～笑いとげんじつ～",
+      "date": "2026-08-09",
+      "open_time": "13:30",
+      "start_time": "14:00",
+      "end_time": null,
+      "members": "ケビンス、マユリカ、滝音、例えば炎、タマ（教育番組）、ほか",
+      "venue": "COOL JAPAN PARK OSAKA TTホール",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-30T10:10:12+09:00",
+      "last_updated": "2026-05-30T10:10:12+09:00",
+      "notified_at": "2026-05-30T10:10:12+09:00"
+    },
+    {
+      "id": "d8b58eff",
+      "talents": {
+        "5114": "マユリカ",
+        "7295": "ケビンス"
+      },
+      "title": "神★大喜利 ～東西交流会～",
+      "date": "2026-08-09",
+      "open_time": "16:15",
+      "start_time": "16:45",
+      "end_time": null,
+      "members": "中山功太、ニッポンの社長 辻、マユリカ 阪本、ケビンス 仁木、サツマカワRPG（ケイダッシュステージ）、ママタルト（サンミュージックプロダクション）、ほか",
+      "venue": "COOL JAPAN PARK OSAKA TTホール",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-30T10:10:12+09:00",
+      "last_updated": "2026-05-30T10:10:12+09:00",
+      "notified_at": "2026-05-30T10:10:12+09:00"
+    },
+    {
+      "id": "11760a00",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "全日本表現力選手権 ～TTホールの会～",
+      "date": "2026-08-09",
+      "open_time": "19:00",
+      "start_time": "19:30",
+      "end_time": null,
+      "members": "守谷日和、藤崎マーケット、ガリットチュウ 熊谷、アキナ、トット、ネルソンズ 岸、マユリカ",
+      "venue": "COOL JAPAN PARK OSAKA TTホール",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-30T10:10:12+09:00",
+      "last_updated": "2026-05-30T10:10:12+09:00",
+      "notified_at": "2026-05-30T10:10:12+09:00"
+    },
+    {
+      "id": "1618bcfb",
+      "talents": {
+        "5110": "kento fukaya"
+      },
+      "title": "くままのゲームパーティー in大阪",
+      "date": "2026-08-10",
+      "open_time": "11:00",
+      "start_time": "11:30",
+      "end_time": null,
+      "members": "くまま、吉田たち、kento fukaya、ドーナツ・ピーナツ、9番街レトロ、ぎょうぶ、ヨネダ2000、ママタルト（サンミュージックプロダクション）",
+      "venue": "COOL JAPAN PARK OSAKA WWホール",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-05-30T10:10:12+09:00",
+      "last_updated": "2026-05-30T10:10:12+09:00",
+      "notified_at": "2026-05-30T10:10:12+09:00"
+    },
+    {
       "id": "36039d37",
       "talents": {
         "5110": "kento fukaya"
@@ -8327,7 +8438,8 @@
       "status": "notified",
       "first_seen": "2026-05-29T18:24:21+09:00",
       "last_updated": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-05-29T18:24:21+09:00"
+      "notified_at": "2026-05-29T18:24:21+09:00",
+      "diff": null
     },
     {
       "id": "7f2c685c",
@@ -8354,7 +8466,8 @@
       "status": "notified",
       "first_seen": "2026-05-29T18:24:21+09:00",
       "last_updated": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-05-29T18:24:21+09:00"
+      "notified_at": "2026-05-29T18:24:21+09:00",
+      "diff": null
     },
     {
       "id": "1a1eda6d",
@@ -8381,7 +8494,8 @@
       "status": "notified",
       "first_seen": "2026-05-29T18:24:21+09:00",
       "last_updated": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-05-29T18:24:21+09:00"
+      "notified_at": "2026-05-29T18:24:21+09:00",
+      "diff": null
     },
     {
       "id": "43162563",

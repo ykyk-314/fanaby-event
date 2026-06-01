@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T18:13:01+09:00",
+  "updated_at": "2026-06-01T10:20:41+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -3090,9 +3090,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-05-31T18:13:01+09:00",
       "first_seen": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-31T18:13:01+09:00"
+      "last_updated": "2026-05-31T18:13:01+09:00",
+      "notified_at": "2026-05-31T18:13:01+09:00",
+      "diff": null
     },
     {
       "id": "783da818",
@@ -3569,9 +3570,10 @@
       ],
       "local_image": "fliers/ad622984.jpg",
       "status": "notified",
-      "last_updated": "2026-05-31T18:13:01+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-05-31T18:13:01+09:00"
+      "last_updated": "2026-05-31T18:13:01+09:00",
+      "notified_at": "2026-05-31T18:13:01+09:00",
+      "diff": null
     },
     {
       "id": "de0fe193",
@@ -5608,6 +5610,33 @@
       "diff": null
     },
     {
+      "id": "882d81bf",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "ヤジ漫GP",
+      "date": "2026-06-26",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "CITY石井、アイロンヘッド、カーネーション、ケビンス、ド桜、大王",
+      "venue": "新宿シアターモリエール",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-01T10:20:40+09:00",
+      "last_updated": "2026-06-01T10:20:40+09:00",
+      "notified_at": "2026-06-01T10:20:41+09:00"
+    },
+    {
       "id": "da54b04e",
       "talents": {
         "11715": "電気ジュース"
@@ -5634,6 +5663,33 @@
       "last_updated": "2026-05-30T10:10:12+09:00",
       "notified_at": "2026-05-30T10:10:12+09:00",
       "diff": null
+    },
+    {
+      "id": "980b2d64",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "おもろいぜトゥエルブ",
+      "date": "2026-06-27",
+      "open_time": "10:00",
+      "start_time": "10:30",
+      "end_time": null,
+      "members": "からし蓮根、ドーナツ・ピーナツ、ケビンス、ぐろう、ゼロカラン、ド桜",
+      "venue": "雷5656会館　ときわホール",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-01T10:20:40+09:00",
+      "last_updated": "2026-06-01T10:20:40+09:00",
+      "notified_at": "2026-06-01T10:20:41+09:00"
     },
     {
       "id": "b805ff11",
@@ -7203,7 +7259,8 @@
       "status": "notified",
       "first_seen": "2026-05-31T18:13:01+09:00",
       "last_updated": "2026-05-31T18:13:01+09:00",
-      "notified_at": "2026-05-31T18:13:01+09:00"
+      "notified_at": "2026-05-31T18:13:01+09:00",
+      "diff": null
     },
     {
       "id": "675b992c",
@@ -8378,24 +8435,28 @@
       "date": "2026-08-11",
       "open_time": "19:00",
       "start_time": "19:30",
-      "end_time": null,
+      "end_time": "20:45",
       "members": "kento fukaya／スーズ 高見／紅しょうが 稲田美紀／ニッポンの社長 ケツ／男性ブランコ 浦井のりひろ／マユリカ 中谷祐太",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
-      "online_url": null,
-      "notice": null,
-      "price": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/16287/43852",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/lumine-26081119",
+      "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/17(日) 11:00 〜 5/19(火) 11:00\r\n当落発表：5/20(水) 18:00頃\r\n\r\n一般発売：5/21(木) 10:00\r\n\r\nオンラインチケット発売：5/21(木) 10:00\r\n\r\n※未就学児入場不可\r\n※飲食不可（但し劇場内ペットボトルのお飲み物は可）",
+      "price": {
+        "advance": 3200,
+        "door": 3700,
+        "online": 2000
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-01T10:20:40+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-05-19T10:10:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-01T10:20:41+09:00"
     },
     {
       "id": "fedfdb5a",

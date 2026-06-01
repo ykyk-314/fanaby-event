@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T10:20:41+09:00",
+  "updated_at": "2026-06-01T19:01:34+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -3085,8 +3085,7 @@
         "door": 3300
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -4539,13 +4538,13 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": "22:15",
-      "members": "MC：九条ジョー／【ニッポンの社長チーム】カゲヤマ／軟水／kento fukaya／ヘンダーソン／【ネルソンズチーム】伝書鳩／いぬ／ブラゴーリ／オフローズ",
+      "members": "MC：九条ジョー／【ニッポンの社長チーム】カゲヤマ 益田／軟水／kento fukaya／ヘンダーソン／【ネルソンズチーム】伝書鳩／いぬ／ブラゴーリ／オフローズ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016345_1_20260518212200538.png",
       "ticket_url": "https://ticket.fany.lol/event/detail/15933/43138",
       "online_url": null,
-      "notice": "6チーム総当たりのリーグ戦を行い、コントによる熾烈なバトルを繰り広げる「ROPPONGIコントリーグ」\r\n勝敗を決めるのは観客の皆様の投票！\r\n今回の対決は、ニッポンの社長チームVSネルソンズチームです！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/5（火）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n※チームリーダーの「ニッポンの社長」と「ネルソンズ」の出演はございません。\r\n\r\n■変更履歴■\r\n[追加]\r\n九条ジョー(5/3)",
+      "notice": "6チーム総当たりのリーグ戦を行い、コントによる熾烈なバトルを繰り広げる「ROPPONGIコントリーグ」\r\n勝敗を決めるのは観客の皆様の投票！\r\n今回の対決は、ニッポンの社長チームVSネルソンズチームです！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/5（火）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n■変更履歴■\r\nカゲヤマタバやん。は休演いたします。(6/1)\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n※チームリーダーの「ニッポンの社長」と「ネルソンズ」の出演はございません。\r\n\r\n■変更履歴■\r\n[追加]\r\n九条ジョー(5/3)",
       "price": {
         "advance": 2500,
         "door": 3000
@@ -4556,10 +4555,9 @@
       ],
       "local_image": "fliers/d4d23efa.png",
       "status": "notified",
+      "last_updated": "2026-06-01T19:01:33+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-01T19:01:34+09:00"
     },
     {
       "id": "c4dc95f0",
@@ -5634,7 +5632,8 @@
       "status": "notified",
       "first_seen": "2026-06-01T10:20:40+09:00",
       "last_updated": "2026-06-01T10:20:40+09:00",
-      "notified_at": "2026-06-01T10:20:41+09:00"
+      "notified_at": "2026-06-01T10:20:41+09:00",
+      "diff": null
     },
     {
       "id": "da54b04e",
@@ -5689,7 +5688,8 @@
       "status": "notified",
       "first_seen": "2026-06-01T10:20:40+09:00",
       "last_updated": "2026-06-01T10:20:40+09:00",
-      "notified_at": "2026-06-01T10:20:41+09:00"
+      "notified_at": "2026-06-01T10:20:41+09:00",
+      "diff": null
     },
     {
       "id": "b805ff11",
@@ -6459,10 +6459,9 @@
     {
       "id": "10ffac74",
       "talents": {
-        "10708": "シンクロニシティ",
         "5997": "ビスケットブラザーズ"
       },
-      "title": "六本木シアター1周年特別企画！「ROPPONGI CONTE CHAMPIONSHIP U-10 」",
+      "title": "六本木シアター1周年特別企画！「ROPPONGI CONTE CHAMPIONSHIP U-10」",
       "date": "2026-07-04",
       "open_time": "19:45",
       "start_time": "20:00",
@@ -6471,23 +6470,18 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/17040/45252",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "芸歴10年目以下の東京所属コント師によるコント大会「ROPPONGI CONT CHAMPIONSHIP U-10」開催決定！\r\n六本木シアターを舞台に、若手コント師約20組が4分ネタで激突します。審査はお客様投票に加え、マンボウやしろさん、ライス田所さん、ビスケットブラザーズ原田さんら実力派芸人審査員も参加。ここから未来のスターが生まれるかもしれない、コント好き必見の熱いバトルをぜひ劇場でお楽しみください！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
-      "price": {
-        "advance": 2500,
-        "door": 3000,
-        "online": 1800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:roppongi"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-01T19:01:33+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-01T19:01:34+09:00"
     },
     {
       "id": "06d5ceaf",
@@ -6629,7 +6623,8 @@
         "online": 2000
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6661,7 +6656,8 @@
         "online": 2300
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6884,7 +6880,8 @@
         "door": 3000
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -8047,7 +8044,8 @@
         "online": 1500
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -8454,9 +8452,64 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-01T10:20:40+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-06-01T10:20:41+09:00"
+      "last_updated": "2026-06-01T10:20:40+09:00",
+      "notified_at": "2026-06-01T10:20:41+09:00",
+      "diff": null
+    },
+    {
+      "id": "6857ebbe",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "よしもとお笑い森ノ宮劇場",
+      "date": "2026-08-15",
+      "open_time": "10:30",
+      "start_time": "11:00",
+      "end_time": null,
+      "members": "矢野・兵動／テンダラー／マヂカルラブリー／トット／ドンデコルテ／他\n[新喜劇]辻本茂雄／他",
+      "venue": "COOL JAPAN PARK OSAKA TTホール",
+      "prefecture": "大阪府",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017630_1_20260601131900755.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/6857ebbe.jpg",
+      "status": "notified",
+      "first_seen": "2026-06-01T19:01:33+09:00",
+      "last_updated": "2026-06-01T19:01:33+09:00",
+      "notified_at": "2026-06-01T19:01:34+09:00"
+    },
+    {
+      "id": "fafa5dad",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "よしもとお笑い森ノ宮劇場",
+      "date": "2026-08-15",
+      "open_time": "13:30",
+      "start_time": "14:00",
+      "end_time": null,
+      "members": "矢野・兵動／テンダラー／マヂカルラブリー／トット／ドンデコルテ／他\n[新喜劇]辻本茂雄／他",
+      "venue": "COOL JAPAN PARK OSAKA TTホール",
+      "prefecture": "大阪府",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017634_1_20260601131914680.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/fafa5dad.jpg",
+      "status": "notified",
+      "first_seen": "2026-06-01T19:01:33+09:00",
+      "last_updated": "2026-06-01T19:01:33+09:00",
+      "notified_at": "2026-06-01T19:01:34+09:00"
     },
     {
       "id": "fedfdb5a",

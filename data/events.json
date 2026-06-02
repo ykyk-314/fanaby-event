@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T10:19:28+09:00",
+  "updated_at": "2026-06-02T18:40:32+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -4083,9 +4083,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-02T10:19:28+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-02T10:19:28+09:00"
+      "last_updated": "2026-06-02T10:19:28+09:00",
+      "notified_at": "2026-06-02T10:19:28+09:00",
+      "diff": null
     },
     {
       "id": "d3821635",
@@ -4165,7 +4166,7 @@
       "members": "[企画ライブ]シカゴ実業／いぬ／kento fukaya／シモリュウ／素敵じゃないか／ロジャー沖縄／木本悠斗／他",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016069_1_20260602161506834.png",
       "ticket_url": "https://ticket.fany.lol/event/detail/15290/41943",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BF%81-6-10-19-15",
       "notice": "シカゴ実業山本プロ野球企画、大阪時代からの人気公演！ネタとコーナーをお届けします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 11:00\r\n\r\n一般発売：5/5(火) 10:00\r\n\r\nオンラインチケット発売：5/5(火) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n[追加]\r\n木本悠斗(5/21)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
@@ -4178,12 +4179,11 @@
         "theater:shibuya",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/1d787902.png",
       "status": "notified",
+      "last_updated": "2026-06-02T18:40:31+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "last_updated": "2026-05-21T18:20:47+09:00",
-      "notified_at": "2026-05-21T18:20:47+09:00",
-      "diff": null
+      "notified_at": "2026-06-02T18:40:32+09:00"
     },
     {
       "id": "237a69a5",
@@ -4231,7 +4231,7 @@
       "members": "[企画ライブ]ケビンス／ダンビラムーチョ／ミカボ",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016051_1_20260602161708801.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15291/41955",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%9B%E3%83%83%E3%83%88%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9-6-10-21-15",
       "notice": "ケビンスの今1番ホットなネタを“フレッシュ”な状態でみなさんにリリースします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 11:00\r\n\r\n一般発売：5/5(火) 10:00\r\n\r\nオンラインチケット発売：5/5(火) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n[追加]\r\nダンビラムーチョ(5/21)\r\nミカボ(5/21)\r\n※都合により、出演者が変更になる可能性がございます。",
@@ -4244,12 +4244,11 @@
         "theater:shibuya",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/316d4de4.jpg",
       "status": "notified",
+      "last_updated": "2026-06-02T18:40:31+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-05-21T18:20:47+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-06-02T18:40:32+09:00"
     },
     {
       "id": "a64135e8",
@@ -4554,9 +4553,10 @@
       ],
       "local_image": "fliers/d4d23efa.png",
       "status": "notified",
-      "last_updated": "2026-06-02T10:19:28+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-06-02T10:19:28+09:00"
+      "last_updated": "2026-06-02T10:19:28+09:00",
+      "notified_at": "2026-06-02T10:19:28+09:00",
+      "diff": null
     },
     {
       "id": "c4dc95f0",
@@ -6667,6 +6667,62 @@
       "diff": null
     },
     {
+      "id": "4ef21b4d",
+      "talents": {
+        "5110": "kento fukaya",
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "原始人寄席ｉｎ幕張",
+      "date": "2026-07-06",
+      "open_time": "16:30",
+      "start_time": "16:45",
+      "end_time": null,
+      "members": "フースーヤ／セルライトスパ／ビスケットブラザーズ／今井らいぱち／kento fukaya／たくろう／【MC】アイラブ地球 コウノ・オブ・ザ・イヤー",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017593_1_20260602112339124.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/4ef21b4d.jpg",
+      "status": "notified",
+      "first_seen": "2026-06-02T18:40:31+09:00",
+      "last_updated": "2026-06-02T18:40:31+09:00",
+      "notified_at": "2026-06-02T18:40:32+09:00"
+    },
+    {
+      "id": "603f9271",
+      "talents": {
+        "5110": "kento fukaya",
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "原始人ライブｉｎ幕張～ハチャメチャ好き勝手にボケる男たち～",
+      "date": "2026-07-06",
+      "open_time": "18:15",
+      "start_time": "18:30",
+      "end_time": null,
+      "members": "フースーヤ／セルライトスパ ヒーゴー／ビスケットブラザーズ 原田／今井らいぱち／kento fukaya／たくろう きむらバンド／【MC】アイラブ地球 コウノ・オブ・ザ・イヤー",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017594_1_20260602112354904.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/603f9271.jpg",
+      "status": "notified",
+      "first_seen": "2026-06-02T18:40:31+09:00",
+      "last_updated": "2026-06-02T18:40:31+09:00",
+      "notified_at": "2026-06-02T18:40:32+09:00"
+    },
+    {
       "id": "f29a77ce",
       "talents": {
         "7295": "ケビンス"
@@ -6857,6 +6913,37 @@
       "last_updated": "2026-05-25T16:19:00+09:00",
       "notified_at": "2026-05-25T16:19:00+09:00",
       "diff": null
+    },
+    {
+      "id": "55376c14",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "ルミネtheよしもと 若手ネタフェスティバル",
+      "date": "2026-07-10",
+      "open_time": "18:45",
+      "start_time": "19:15",
+      "end_time": "20:30",
+      "members": "今井らいぱち／カラタチ／カベポスター／素敵じゃないか／世間知らズ／ダブルヒガシ／ミカボ／シンクロニシティ／ド桜／めぞん／インテイク／他",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17092/45415",
+      "online_url": null,
+      "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/3(水) 11:00 〜 6/5(金) 11:00\r\n\r\n一般発売：6/7(日) 10:00",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-02T18:40:31+09:00",
+      "last_updated": "2026-06-02T18:40:31+09:00",
+      "notified_at": "2026-06-02T18:40:32+09:00"
     },
     {
       "id": "64d0f782",
@@ -7206,7 +7293,7 @@
       "members": "[企画ライブ]大王／ケビンス／ドッチモドッチ／ぱろぱろ／イチゴ／金魚番長／小虎",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017524_1_20260602162619325.png",
       "ticket_url": "https://ticket.fany.lol/event/detail/16394/44019",
       "online_url": null,
       "notice": "7年目の山内仁平の仲間たちと12年目の渡辺ポットの仲間たちを集めて独自国家を築きました。国の若者達と老害達との間で覇権争いが絶えません。\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
@@ -7219,12 +7306,11 @@
         "theater:shibuya",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/f778aeac.png",
       "status": "notified",
+      "last_updated": "2026-06-02T18:40:31+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00",
-      "diff": null
+      "notified_at": "2026-06-02T18:40:32+09:00"
     },
     {
       "id": "b97b1431",

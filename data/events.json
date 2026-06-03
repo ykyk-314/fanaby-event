@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T10:24:51+09:00",
+  "updated_at": "2026-06-03T18:49:07+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -3597,9 +3597,10 @@
       ],
       "local_image": "fliers/de0fe193.jpg",
       "status": "notified",
-      "last_updated": "2026-06-03T10:24:51+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-06-03T10:24:51+09:00"
+      "last_updated": "2026-06-03T10:24:51+09:00",
+      "notified_at": "2026-06-03T10:24:51+09:00",
+      "diff": null
     },
     {
       "id": "ea405a20",
@@ -3891,7 +3892,7 @@
       "members": "隣人／ダブルアート／マイスイートメモリーズ／スナフキンズ／とくいち／シスター／ゲスト:ビスケットブラザーズ／蛙亭",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015627_1_20260603131234858.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -3899,12 +3900,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/cf82deb0.jpg",
       "status": "notified",
+      "last_updated": "2026-06-03T18:49:06+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-20T12:44:27+09:00",
-      "diff": null
+      "notified_at": "2026-06-03T18:49:07+09:00"
     },
     {
       "id": "4570ec84",
@@ -4162,13 +4162,13 @@
       "open_time": "19:00",
       "start_time": "19:15",
       "end_time": "20:30",
-      "members": "[企画ライブ]シカゴ実業／いぬ／kento fukaya／シモリュウ／素敵じゃないか／ロジャー沖縄／木本悠斗／他",
+      "members": "[企画ライブ]シカゴ実業／カゲヤマ 益田／いぬ／kento fukaya／シモリュウ／素敵じゃないか／ロジャー沖縄／木本悠斗／他",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016069_1_20260602161506834.png",
       "ticket_url": "https://ticket.fany.lol/event/detail/15290/41943",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BF%81-6-10-19-15",
-      "notice": "シカゴ実業山本プロ野球企画、大阪時代からの人気公演！ネタとコーナーをお届けします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 11:00\r\n\r\n一般発売：5/5(火) 10:00\r\n\r\nオンラインチケット発売：5/5(火) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n[追加]\r\n木本悠斗(5/21)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "notice": "シカゴ実業山本プロ野球企画、大阪時代からの人気公演！ネタとコーナーをお届けします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/25(土) 11:00 〜 4/28(火) 11:00\r\n\r\n一般発売：5/5(火) 10:00\r\n\r\nオンラインチケット発売：5/5(火) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n[追加]\r\n木本悠斗(5/21)\r\nカゲヤマ 益田(6/3)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2300,
         "door": 2800,
@@ -4180,10 +4180,9 @@
       ],
       "local_image": "fliers/1d787902.png",
       "status": "notified",
+      "last_updated": "2026-06-03T18:49:06+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "last_updated": "2026-06-02T18:40:31+09:00",
-      "notified_at": "2026-06-02T18:40:32+09:00",
-      "diff": null
+      "notified_at": "2026-06-03T18:49:07+09:00"
     },
     {
       "id": "237a69a5",
@@ -6247,7 +6246,8 @@
       "status": "notified",
       "first_seen": "2026-06-03T10:24:51+09:00",
       "last_updated": "2026-06-03T10:24:51+09:00",
-      "notified_at": "2026-06-03T10:24:51+09:00"
+      "notified_at": "2026-06-03T10:24:51+09:00",
+      "diff": null
     },
     {
       "id": "f7a9daae",
@@ -6279,7 +6279,8 @@
       "status": "notified",
       "first_seen": "2026-06-03T10:24:51+09:00",
       "last_updated": "2026-06-03T10:24:51+09:00",
-      "notified_at": "2026-06-03T10:24:51+09:00"
+      "notified_at": "2026-06-03T10:24:51+09:00",
+      "diff": null
     },
     {
       "id": "4c106bdd",
@@ -8693,7 +8694,8 @@
       "status": "notified",
       "first_seen": "2026-06-03T10:24:51+09:00",
       "last_updated": "2026-06-03T10:24:51+09:00",
-      "notified_at": "2026-06-03T10:24:51+09:00"
+      "notified_at": "2026-06-03T10:24:51+09:00",
+      "diff": null
     },
     {
       "id": "fedfdb5a",

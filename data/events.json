@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T18:40:32+09:00",
+  "updated_at": "2026-06-03T10:24:51+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -3587,7 +3587,7 @@
       "members": "[企画ライブ]さや香 石井／ロングコートダディ 兎／ビスケットブラザーズ きん",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016066_1_20260602161326015.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -3595,12 +3595,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/de0fe193.jpg",
       "status": "notified",
+      "last_updated": "2026-06-03T10:24:51+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-05-20T12:44:27+09:00",
-      "diff": null
+      "notified_at": "2026-06-03T10:24:51+09:00"
     },
     {
       "id": "ea405a20",
@@ -4181,9 +4180,10 @@
       ],
       "local_image": "fliers/1d787902.png",
       "status": "notified",
-      "last_updated": "2026-06-02T18:40:31+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-06-02T18:40:32+09:00"
+      "last_updated": "2026-06-02T18:40:31+09:00",
+      "notified_at": "2026-06-02T18:40:32+09:00",
+      "diff": null
     },
     {
       "id": "237a69a5",
@@ -4246,9 +4246,10 @@
       ],
       "local_image": "fliers/316d4de4.jpg",
       "status": "notified",
-      "last_updated": "2026-06-02T18:40:31+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-06-02T18:40:32+09:00"
+      "last_updated": "2026-06-02T18:40:31+09:00",
+      "notified_at": "2026-06-02T18:40:32+09:00",
+      "diff": null
     },
     {
       "id": "a64135e8",
@@ -6218,6 +6219,69 @@
       "diff": null
     },
     {
+      "id": "0fba039f",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "おおみや差しライブ～マユリカ×エバース～",
+      "date": "2026-07-01",
+      "open_time": "17:20",
+      "start_time": "17:30",
+      "end_time": "18:30",
+      "members": "マユリカ／エバース",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17072/45286",
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/6（土）11:00～6/8（月）11:00\r\n当落発表：6/9（火）18:00頃\r\nオンライン：6/14（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n",
+      "price": {
+        "advance": 2500,
+        "door": 2800,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-03T10:24:51+09:00",
+      "last_updated": "2026-06-03T10:24:51+09:00",
+      "notified_at": "2026-06-03T10:24:51+09:00"
+    },
+    {
+      "id": "f7a9daae",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "大宮ネタとコーナー「至高の寄席選挙！～理想の寄席を作ってみよう～」",
+      "date": "2026-07-01",
+      "open_time": "18:50",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "members": "すゑひろがりず／ダイタク／マユリカ／エバース",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17106/45431",
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/3（水）11:00～6/5（金）11:00 \r\n当落発表：6/6（土）18:00頃\r\nオンライン・一般発売：6/7（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 2200,
+        "door": 2500,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-03T10:24:51+09:00",
+      "last_updated": "2026-06-03T10:24:51+09:00",
+      "notified_at": "2026-06-03T10:24:51+09:00"
+    },
+    {
       "id": "4c106bdd",
       "talents": {
         "5110": "kento fukaya",
@@ -6692,7 +6756,8 @@
       "status": "notified",
       "first_seen": "2026-06-02T18:40:31+09:00",
       "last_updated": "2026-06-02T18:40:31+09:00",
-      "notified_at": "2026-06-02T18:40:32+09:00"
+      "notified_at": "2026-06-02T18:40:32+09:00",
+      "diff": null
     },
     {
       "id": "603f9271",
@@ -6720,7 +6785,8 @@
       "status": "notified",
       "first_seen": "2026-06-02T18:40:31+09:00",
       "last_updated": "2026-06-02T18:40:31+09:00",
-      "notified_at": "2026-06-02T18:40:32+09:00"
+      "notified_at": "2026-06-02T18:40:32+09:00",
+      "diff": null
     },
     {
       "id": "f29a77ce",
@@ -6943,7 +7009,8 @@
       "status": "notified",
       "first_seen": "2026-06-02T18:40:31+09:00",
       "last_updated": "2026-06-02T18:40:31+09:00",
-      "notified_at": "2026-06-02T18:40:32+09:00"
+      "notified_at": "2026-06-02T18:40:32+09:00",
+      "diff": null
     },
     {
       "id": "64d0f782",
@@ -7308,9 +7375,10 @@
       ],
       "local_image": "fliers/f778aeac.png",
       "status": "notified",
-      "last_updated": "2026-06-02T18:40:31+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-02T18:40:32+09:00"
+      "last_updated": "2026-06-02T18:40:31+09:00",
+      "notified_at": "2026-06-02T18:40:32+09:00",
+      "diff": null
     },
     {
       "id": "b97b1431",
@@ -8598,6 +8666,34 @@
       "last_updated": "2026-06-01T19:01:33+09:00",
       "notified_at": "2026-06-01T19:01:34+09:00",
       "diff": null
+    },
+    {
+      "id": "fcf8d826",
+      "talents": {
+        "5114": "マユリカ",
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "見取り図盆踊り2026",
+      "date": "2026-08-21",
+      "open_time": "15:00",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "見取り図、アインシュタイン、エバース、熊元プロレス（紅しょうが）、コットン、コロコロチキチキペッパーズ、ジェラードン、ジャングルポケット、ビスケットブラザーズ、マユリカ、レイザーラモン、ロングコートダディ",
+      "venue": "堂島リバーフォーラム",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-03T10:24:51+09:00",
+      "last_updated": "2026-06-03T10:24:51+09:00",
+      "notified_at": "2026-06-03T10:24:51+09:00"
     },
     {
       "id": "fedfdb5a",

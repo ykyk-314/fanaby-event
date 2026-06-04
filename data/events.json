@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T10:25:01+09:00",
+  "updated_at": "2026-06-04T18:31:17+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -4083,9 +4083,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-04T10:25:01+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-04T10:25:01+09:00"
+      "last_updated": "2026-06-04T10:25:01+09:00",
+      "notified_at": "2026-06-04T10:25:01+09:00",
+      "diff": null
     },
     {
       "id": "d3821635",
@@ -4661,13 +4662,13 @@
       "open_time": "18:30",
       "start_time": "19:00",
       "end_time": "20:30",
-      "members": "滝音／マユリカ／他ゲスト",
+      "members": "滝音／マユリカ／ゲスト：うるとらブギーズ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15003/40980",
       "online_url": null,
-      "notice": "※未就学児入場不可\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/11(土) 11:00 〜 4/13(月) 11:00\r\n当落発表：4/14(火) 18:00頃\r\n\r\n一般発売：4/15(水) 10:00",
+      "notice": "※未就学児入場不可\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：4/11(土) 11:00 〜 4/13(月) 11:00\r\n当落発表：4/14(火) 18:00頃\r\n\r\n一般発売：4/15(水) 10:00\r\n\r\n\r\n■変更履歴■\r\n[追加]\r\nうるとらブギーズ（6/4）",
       "price": {
         "advance": 3500,
         "door": 4000
@@ -4678,10 +4679,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-04T18:31:16+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-30T17:57:30+09:00",
-      "notified_at": "2026-04-30T17:57:30+09:00",
-      "diff": null
+      "notified_at": "2026-06-04T18:31:17+09:00"
     },
     {
       "id": "e09ba954",
@@ -4970,9 +4970,10 @@
       ],
       "local_image": "fliers/390d4ccc.jpg",
       "status": "notified",
-      "last_updated": "2026-06-04T10:25:01+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-06-04T10:25:01+09:00"
+      "last_updated": "2026-06-04T10:25:01+09:00",
+      "notified_at": "2026-06-04T10:25:01+09:00",
+      "diff": null
     },
     {
       "id": "d89cc0c7",
@@ -6212,9 +6213,10 @@
       ],
       "local_image": "fliers/7ab11efd.jpg",
       "status": "notified",
-      "last_updated": "2026-06-04T10:25:01+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-06-04T10:25:01+09:00"
+      "last_updated": "2026-06-04T10:25:01+09:00",
+      "notified_at": "2026-06-04T10:25:01+09:00",
+      "diff": null
     },
     {
       "id": "0fba039f",
@@ -7138,6 +7140,37 @@
       "diff": null
     },
     {
+      "id": "4804563e",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "ボケに山口コンボイが降臨しちゃってる寄席",
+      "date": "2026-07-12",
+      "open_time": "17:45",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "members": "ケビンス／エバース／バッテリィズ／ナイチンゲールダンス",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/9（火）11:00～6/11（木）11:00\r\n当落発表：6/12（金）18:00頃\r\nオンライン・一般発売：6/13（土）10:00\r\n\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 2200,
+        "door": 2500,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-04T18:31:16+09:00",
+      "last_updated": "2026-06-04T18:31:16+09:00",
+      "notified_at": "2026-06-04T18:31:17+09:00"
+    },
+    {
       "id": "e68d0cbe",
       "talents": {
         "5110": "kento fukaya"
@@ -7245,7 +7278,7 @@
       "open_time": "12:30",
       "start_time": "13:00",
       "end_time": null,
-      "members": "もう中学生、ニューヨーク、マユリカ、ヤーレンズ、オズワルド、たくろう、他",
+      "members": "テツandトモ、もう中学生、ニューヨーク、マユリカ、ヤーレンズ、ハナコ、オズワルド、たくろう、他",
       "venue": "IMM THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -7258,10 +7291,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-04T18:31:16+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00",
-      "diff": null
+      "notified_at": "2026-06-04T18:31:17+09:00"
     },
     {
       "id": "833d5399",
@@ -7273,7 +7305,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "もう中学生、ニューヨーク、カナメストーン、マユリカ、オズワルド、たくろう、他",
+      "members": "テツandトモ、もう中学生、ニューヨーク、カナメストーン、マユリカ、ハナコ、オズワルド、たくろう、他",
       "venue": "IMM THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -7286,10 +7318,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-04T18:31:16+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00",
-      "diff": null
+      "notified_at": "2026-06-04T18:31:17+09:00"
     },
     {
       "id": "1497e6af",
@@ -7301,7 +7332,7 @@
       "open_time": "18:30",
       "start_time": "19:00",
       "end_time": null,
-      "members": "もう中学生、ニューヨーク、カナメストーン、マユリカ、オズワルド、たくろう、他",
+      "members": "テツandトモ、もう中学生、ニューヨーク、カナメストーン、マユリカ、ハナコ、オズワルド、たくろう、他",
       "venue": "IMM THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -7314,10 +7345,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-04T18:31:16+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00",
-      "diff": null
+      "notified_at": "2026-06-04T18:31:17+09:00"
     },
     {
       "id": "54decacb",
@@ -7344,7 +7374,8 @@
       "status": "notified",
       "first_seen": "2026-06-04T10:25:01+09:00",
       "last_updated": "2026-06-04T10:25:01+09:00",
-      "notified_at": "2026-06-04T10:25:01+09:00"
+      "notified_at": "2026-06-04T10:25:01+09:00",
+      "diff": null
     },
     {
       "id": "3a2676dd",
@@ -8516,7 +8547,8 @@
       "status": "notified",
       "first_seen": "2026-06-04T10:25:01+09:00",
       "last_updated": "2026-06-04T10:25:01+09:00",
-      "notified_at": "2026-06-04T10:25:01+09:00"
+      "notified_at": "2026-06-04T10:25:01+09:00",
+      "diff": null
     },
     {
       "id": "502e864d",

@@ -100,7 +100,7 @@ def get_remind_recipients() -> dict[str, set[str]]:
             req_headers["CF-Access-Client-Id"]     = CF_CLIENT_ID
             req_headers["CF-Access-Client-Secret"] = CF_CLIENT_SECRET
         req = urllib.request.Request(
-            f"{REMIND_API_URL}/api/remind-list",
+            REMIND_API_URL,
             headers=req_headers,
         )
         with urllib.request.urlopen(req, timeout=10) as resp:

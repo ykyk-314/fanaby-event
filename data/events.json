@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T18:49:07+09:00",
+  "updated_at": "2026-06-04T10:25:01+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -3902,9 +3902,10 @@
       ],
       "local_image": "fliers/cf82deb0.jpg",
       "status": "notified",
-      "last_updated": "2026-06-03T18:49:06+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-06-03T18:49:07+09:00"
+      "last_updated": "2026-06-03T18:49:06+09:00",
+      "notified_at": "2026-06-03T18:49:07+09:00",
+      "diff": null
     },
     {
       "id": "4570ec84",
@@ -4065,7 +4066,7 @@
       "open_time": "19:00",
       "start_time": "19:30",
       "end_time": "20:40",
-      "members": "ライス／うるとらブギーズ／ななまがり／kento fukaya／蛙亭／オダウエダ／ミカボ／めぞん／ゼロカラン／他",
+      "members": "ライス／うるとらブギーズ／ななまがり／ヘンダーソン／kento fukaya／蛙亭／オダウエダ／ミカボ／めぞん／ゼロカラン／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -4082,10 +4083,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-04T10:25:01+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-06-02T10:19:28+09:00",
-      "notified_at": "2026-06-02T10:19:28+09:00",
-      "diff": null
+      "notified_at": "2026-06-04T10:25:01+09:00"
     },
     {
       "id": "d3821635",
@@ -4180,9 +4180,10 @@
       ],
       "local_image": "fliers/1d787902.png",
       "status": "notified",
-      "last_updated": "2026-06-03T18:49:06+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-06-03T18:49:07+09:00"
+      "last_updated": "2026-06-03T18:49:06+09:00",
+      "notified_at": "2026-06-03T18:49:07+09:00",
+      "diff": null
     },
     {
       "id": "237a69a5",
@@ -4955,7 +4956,7 @@
       "members": "やさしいズ／ゲスト：ビスケットブラザーズ／ネルソンズ／蛙亭／スクールゾーン／今井らいぱち／オフローズ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016143_1_20260603223443308.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15607/42606",
       "online_url": null,
       "notice": "遂に第五回の複数ライブ開催が決定しました！\r\n複数ライブ史上最大のやさしいズの複数ライブをお届けしたいと思います！\r\n\r\nやさしいズ新ネタ、ゲストネタ、タイpresents企画と内容大盛りです！\r\n\r\n是非劇場にお越しください！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：4/28（火）11:00～4/30（木）11:00\r\n〇一般販売：5/5（火）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nネルソンズ(5/23)\r\nスクールゾーン(5/23)\r\n蛙亭(5/30)\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -4967,12 +4968,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/390d4ccc.jpg",
       "status": "notified",
+      "last_updated": "2026-06-04T10:25:01+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-31T10:17:35+09:00",
-      "notified_at": "2026-05-31T10:17:36+09:00",
-      "diff": null
+      "notified_at": "2026-06-04T10:25:01+09:00"
     },
     {
       "id": "d89cc0c7",
@@ -6198,7 +6198,7 @@
       "members": "ニッポンの社長／ビスケットブラザーズ／ネルソンズ／ななまがり／オフローズ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016164_1_20260603225008575.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15728/42786",
       "online_url": null,
       "notice": "6月限定！結婚やお見合いなどのネタを集めたコントライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/3（日）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -6210,12 +6210,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/7ab11efd.jpg",
       "status": "notified",
+      "last_updated": "2026-06-04T10:25:01+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-04T10:25:01+09:00"
     },
     {
       "id": "0fba039f",
@@ -7319,6 +7318,33 @@
       "last_updated": "2026-05-26T10:09:04+09:00",
       "notified_at": "2026-05-26T10:09:04+09:00",
       "diff": null
+    },
+    {
+      "id": "54decacb",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "ＭＫＲ～それぞれの決勝へ～",
+      "date": "2026-07-16",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": null,
+      "members": "三戸キャップ、たつろう、スロッピ、キンボシ、鶴亀、まんじろう　\nゲスト：ド桜、シンクロニシティ",
+      "venue": "表現ライブハウス 池袋西口GEKIBA",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-04T10:25:01+09:00",
+      "last_updated": "2026-06-04T10:25:01+09:00",
+      "notified_at": "2026-06-04T10:25:01+09:00"
     },
     {
       "id": "3a2676dd",
@@ -8464,6 +8490,33 @@
       "last_updated": "2026-04-29T10:03:51+09:00",
       "notified_at": "2026-04-29T10:03:51+09:00",
       "diff": null
+    },
+    {
+      "id": "e2fec78c",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "バッテリィズ寺家の三重っぱり寄席in桑名",
+      "date": "2026-08-07",
+      "open_time": "17:00",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "バッテリィズ、ニッポンの社長、ビスケットブラザーズ、おたまじゃくし中西、ミキ、さや香、カベポスター、エバース、ほか",
+      "venue": "柿安シティホール（桑名市民会館）　大ホール",
+      "prefecture": "三重県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-04T10:25:01+09:00",
+      "last_updated": "2026-06-04T10:25:01+09:00",
+      "notified_at": "2026-06-04T10:25:01+09:00"
     },
     {
       "id": "502e864d",

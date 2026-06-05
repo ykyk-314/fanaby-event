@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T10:15:32+09:00",
+  "updated_at": "2026-06-05T18:21:47+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -3874,9 +3874,10 @@
       ],
       "local_image": "fliers/cedb7b8c.jpg",
       "status": "notified",
-      "last_updated": "2026-06-05T10:15:32+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-06-05T10:15:32+09:00"
+      "last_updated": "2026-06-05T10:15:32+09:00",
+      "notified_at": "2026-06-05T10:15:32+09:00",
+      "diff": null
     },
     {
       "id": "cf82deb0",
@@ -4068,7 +4069,7 @@
       "members": "ライス／うるとらブギーズ／ななまがり／ヘンダーソン／カーネーション／kento fukaya／蛙亭／オダウエダ／ミカボ／めぞん／ゼロカラン",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017140_1_20260605113859604.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16448/44078",
       "online_url": null,
       "notice": "■チケット情報■\r\n\r\n一般発売：5/23(土) 10:00",
@@ -4080,11 +4081,11 @@
         "theater:lumine",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/46c94e36.jpg",
       "status": "notified",
-      "last_updated": "2026-06-05T10:15:32+09:00",
+      "last_updated": "2026-06-05T18:21:47+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-05T10:15:32+09:00"
+      "notified_at": "2026-06-05T18:21:47+09:00"
     },
     {
       "id": "d3821635",
@@ -6148,9 +6149,10 @@
       ],
       "local_image": "fliers/17715b06.jpg",
       "status": "notified",
-      "last_updated": "2026-06-05T10:15:32+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-06-05T10:15:32+09:00"
+      "last_updated": "2026-06-05T10:15:32+09:00",
+      "notified_at": "2026-06-05T10:15:32+09:00",
+      "diff": null
     },
     {
       "id": "148f095d",
@@ -6239,7 +6241,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -6258,13 +6261,13 @@
       "open_time": "18:50",
       "start_time": "19:00",
       "end_time": "20:00",
-      "members": "すゑひろがりず／ダイタク／マユリカ／エバース",
+      "members": "すゑひろがりず／ダイタク／マユリカ／エバース／CITY",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17106/45431",
       "online_url": null,
-      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/3（水）11:00～6/5（金）11:00 \r\n当落発表：6/6（土）18:00頃\r\nオンライン・一般発売：6/7（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/3（水）11:00～6/5（金）11:00 \r\n当落発表：6/6（土）18:00頃\r\nオンライン・一般発売：6/7（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n■出演者情報■\r\n追加：CITY（6/5）\r\n",
       "price": {
         "advance": 2200,
         "door": 2500,
@@ -6276,10 +6279,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-05T18:21:47+09:00",
       "first_seen": "2026-06-03T10:24:51+09:00",
-      "last_updated": "2026-06-03T10:24:51+09:00",
-      "notified_at": "2026-06-03T10:24:51+09:00",
-      "diff": null
+      "notified_at": "2026-06-05T18:21:47+09:00"
     },
     {
       "id": "4c106bdd",
@@ -6361,7 +6363,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16403/44042",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BF%81-7-2-21-00",
       "notice": "シカゴ実業山本プロ野球企画、大阪時代からの人気公演！ネタとコーナーをお届けします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2300,
@@ -6562,7 +6564,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16480/44234",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%99%E3%83%93%E3%83%B3%E3%82%B9-7-4-20-45",
       "notice": "ケビンスがネタのベビーを産み出すライブ「ベビンス」！\r\nネタの過程が見られるライブです！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 1800,
@@ -6803,7 +6805,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16419/44045",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E4%B9%9D%E6%9D%A1%E3%82%B8%E3%83%A7%E3%83%BC%E3%81%BF%E3%81%9F%E3%81%84%E3%81%AB%E5%85%A8%E8%8A%B8%E4%BA%BA%E3%81%8C%E3%83%8D%E3%82%BF%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AB%E3%82%A2%E3%83%95%E3%82%BF%E3%83%BC%E3%83%88%E3%83%BC%E3%82%AF%E3%82%92%E3%81%99%E3%82%8B%E3%83%A9%E3%82%A4%E3%83%96-7-7-21-15",
       "notice": "R-1決勝で披露した　九条ジョーのネタ中のアフタートーク\r\nそれを出演芸人全員がネタ終わりにアフタートークをするライブ！\r\nネタ終わりにアフタートークを聞いてみよう\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,
@@ -6836,7 +6838,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16830/44935",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%8D%E3%82%AA%E3%83%B3-%E3%83%AD%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%BC%E3%83%88%E3%83%80%E3%83%87%E3%82%A3-%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E3%81%AE%E7%A4%BE%E9%95%B7-%E3%83%A8%E3%83%8D%E3%83%802000-7-7-21-15",
       "notice": "ロングコートダディとニッポンの社長とヨネダ2000の3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：6/1（月）11:00～6/3（水）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 3000,
@@ -6869,7 +6871,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16486/44184",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E7%85%A7%E5%B1%B1%E3%81%8A%E3%81%86%E3%81%A1%E3%81%94%E3%81%AF%E3%82%93presents-%E3%81%8A%E3%81%9B%E3%81%A1%E3%82%89%E3%81%97%E5%AF%BF%E5%8F%B8-7-8-19-15",
       "notice": "照山おうちごはんがゲストをお呼びして、ネタとコーナーで楽しんでいただく60分！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 1500,
@@ -6902,7 +6904,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16853/45000",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/roppongi%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%82%B0-%E3%83%8D%E3%83%AB%E3%82%BD%E3%83%B3%E3%82%BA%E3%83%81%E3%83%BC%E3%83%A0-vs-%E3%81%AA%E3%81%AA%E3%81%BE%E3%81%8C%E3%82%8A%E3%83%81%E3%83%BC%E3%83%A0-7-8-19-45",
       "notice": "6チーム総当たりのリーグ戦を行い、コントによる熾烈なバトルを繰り広げる「ROPPONGIコントリーグ」\r\n勝敗を決めるのは観客の皆様の投票！\r\n今回の対決は、ネルソンズチームVSななまがりチームです！\r\n\r\n※今回、ネルソンズのネタ披露はございません。\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/27（水）11:00～5/29（金）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2500,
@@ -6975,9 +6977,10 @@
       ],
       "local_image": "fliers/a48856e2.jpg",
       "status": "notified",
-      "last_updated": "2026-06-05T10:15:32+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-05T10:15:32+09:00"
+      "last_updated": "2026-06-05T10:15:32+09:00",
+      "notified_at": "2026-06-05T10:15:32+09:00",
+      "diff": null
     },
     {
       "id": "55376c14",
@@ -7118,7 +7121,7 @@
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017544_1_20260529124559046.jpeg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16429/44041",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B7%E3%82%B2%E3%82%AB%E3%82%BA%E3%81%A7%E3%81%99presents%E3%82%AF%E3%82%BB%E3%83%84%E3%82%A2%E3%83%BC2026-%E3%81%95%E3%82%89%E3%81%AB%E3%81%95%E3%82%89%E3%81%AB%E3%83%9E%E3%83%B3%E3%82%B2%E3%82%ADin%E6%B8%8B%E8%B0%B7-%E7%A5%9E%E8%B1%AA%E8%8F%AF%E8%8A%B8%E4%BA%BA%E3%83%8D%E3%82%BF%E3%81%A8%E5%A4%A7%E9%98%AA%E5%90%8D%E7%89%A9%E7%A5%9E%E3%82%AF%E3%82%BB%E4%BC%81%E7%94%BB%E3%81%AE%E5%90%88%E6%B3%95%E3%83%88%E3%83%AA%E3%83%83%E3%83%97%E6%97%85-7-11-18-45",
       "notice": "豪華全組ネタと大阪名物神クセ企画のクセツアーが一年振りに渋谷マンゲキで大開催！\r\n普段生で見れない圧倒的な量と質で永遠に楽しいので絶対お願いします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 3000,
@@ -7150,7 +7153,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17264/46004",
       "online_url": null,
       "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/9（火）11:00～6/11（木）11:00\r\n当落発表：6/12（金）18:00頃\r\nオンライン・一般発売：6/13（土）10:00\r\n\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
       "price": {
@@ -7163,10 +7166,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-05T18:21:47+09:00",
       "first_seen": "2026-06-04T18:31:16+09:00",
-      "last_updated": "2026-06-04T18:31:16+09:00",
-      "notified_at": "2026-06-04T18:31:17+09:00",
-      "diff": null
+      "notified_at": "2026-06-05T18:21:47+09:00"
     },
     {
       "id": "e68d0cbe",
@@ -7183,7 +7185,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16858/45010",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/roppongi%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%82%B0-%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E3%81%AE%E7%A4%BE%E9%95%B7%E3%83%81%E3%83%BC%E3%83%A0-vs-%E9%8A%80%E6%B2%B3%E3%82%86%E3%82%81%E3%82%86%E3%82%81%E3%83%81%E3%83%BC%E3%83%A0-7-12-18-45",
       "notice": "6チーム総当たりのリーグ戦を行い、コントによる熾烈なバトルを繰り広げる「ROPPONGIコントリーグ」\r\n勝敗を決めるのは観客の皆様の投票！\r\n今回の対決は、ニッポンの社長チームVS銀河ゆめゆめチームです！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/27（水）11:00～5/29（金）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2500,
@@ -7229,9 +7231,10 @@
       ],
       "local_image": "fliers/9ec5fbfe.jpg",
       "status": "notified",
-      "last_updated": "2026-06-05T10:15:32+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-05T10:15:32+09:00"
+      "last_updated": "2026-06-05T10:15:32+09:00",
+      "notified_at": "2026-06-05T10:15:32+09:00",
+      "diff": null
     },
     {
       "id": "bfb395b8",
@@ -7378,7 +7381,8 @@
       "status": "notified",
       "first_seen": "2026-06-05T10:15:32+09:00",
       "last_updated": "2026-06-05T10:15:32+09:00",
-      "notified_at": "2026-06-05T10:15:32+09:00"
+      "notified_at": "2026-06-05T10:15:32+09:00",
+      "diff": null
     },
     {
       "id": "54decacb",
@@ -7451,7 +7455,7 @@
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017524_1_20260602162619325.png",
       "ticket_url": "https://ticket.fany.lol/event/detail/16394/44019",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%A4%A7%E7%8E%8B%E3%81%AE-%E5%9C%8B-7-17-21-00",
       "notice": "7年目の山内仁平の仲間たちと12年目の渡辺ポットの仲間たちを集めて独自国家を築きました。国の若者達と老害達との間で覇権争いが絶えません。\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2300,
@@ -7484,7 +7488,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16395/44024",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF-%E8%BE%BB%E4%BA%95%E3%81%A7%E3%81%99-%E3%81%BB%E3%81%AA%E3%82%B3%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%84%E3%81%A3%E3%81%A6%E3%81%84%E3%81%8D%E3%81%BE%E3%81%97%E3%82%87%E3%81%8B-7-18-17-00",
       "notice": "こんにちは！辻井です！私がMCを務める60分のコーナーライブ！私がマイクを持った時！ハズレなし！楽しい時間にしましょう！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\nビスケットブラザーズ(5/31)\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,
@@ -7550,7 +7554,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16396/44020",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%BC%E3%83%AD%E3%82%AB%E3%83%A9%E3%83%B3-9%E7%95%AA%E8%A1%97%E3%83%AC%E3%83%88%E3%83%AD-%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9-3-man-cell-%E3%81%94%E8%A6%A7%E3%81%AE%E3%82%AA%E3%83%AC%E3%81%9F%E3%81%A1-7-19-16-45",
       "notice": "ケビンス・9番街レトロ・ゼロカランによるスリーマンライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,
@@ -7583,7 +7587,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16732/44836",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BB%8A%E4%BA%95%E3%82%89%E3%81%84%E3%81%B1%E3%81%A1-%E3%81%95%E3%82%84%E9%A6%99%E6%96%B0%E5%B1%B1-%E3%83%94%E3%83%B3%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96-%E3%82%B7%E3%83%B3-%E3%82%BC%E3%83%AD%E3%83%92%E3%83%A3%E3%82%AF-7-19-19-00",
       "notice": "今井らいぱちとさや香新山がピンネタを行い、ゲスト審査員に「ゼロ」か「ヒャク」かで審査してもらうライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 1800,
@@ -7616,7 +7620,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16832/44934",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%8D%E3%82%AA%E3%83%B3-%E3%83%9A%E3%83%8A%E3%83%AB%E3%83%86%E3%82%A3-%E3%83%93%E3%82%B9%E3%82%B1%E3%83%83%E3%83%88%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA-%E7%B4%85%E3%81%97%E3%82%87%E3%81%86%E3%81%8C-7-19-19-15",
       "notice": "ペナルティとビスケットブラザーズと紅しょうがの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/1（月）11:00～6/3（水）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2500,
@@ -7710,7 +7714,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16867/45023",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%B1%B1%E5%8F%A3%E3%82%B3%E3%83%B3%E3%83%9C%E3%82%A4mvp%E3%81%B8%E3%81%AE%E9%81%93-7-20-20-45",
       "notice": "様々な設定内でブロックごとに１番場を盛り上げたMVPを勝手に決めます。果たして山口コンボイはMVPになれるのか…！？\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/27（水）11:00～5/29（金）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2000,
@@ -7869,7 +7873,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16399/44023",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-7-22-15-15",
       "notice": "お客さんの笑顔をだいいちに考えるライブ\r\n\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,
@@ -7902,7 +7906,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16736/44832",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE-7-22-19-15",
       "notice": "文字通り四分間にすべてを注ぐ漫才師達のネタライブ。\r\n四分にちなんだコーナーも？！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 1800,
@@ -8025,7 +8029,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16745/44840",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4-7-27-19-15",
       "notice": "ミカボとシンクロニシティが切磋琢磨していこうというライブが4月から始動しました！\r\n今回はゲストにビスケットブラザーズさんをお呼びさせていただきます\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 1500,
@@ -8246,7 +8250,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16416/44028",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%9B%E3%83%83%E3%83%88%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9-7-28-21-15",
       "notice": "ケビンスの今1番ホットなネタを“フレッシュ”な状態でみなさんにリリースします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,
@@ -8408,6 +8412,37 @@
       "last_updated": "2026-05-26T10:09:04+09:00",
       "notified_at": "2026-05-26T10:09:04+09:00",
       "diff": null
+    },
+    {
+      "id": "dbeb9133",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "鈴木家ベビーシッターオーディション",
+      "date": "2026-07-29",
+      "open_time": "18:50",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "members": "マヂカルラブリー／パピヨン ／生ファラオ／他",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17273/46013",
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/9（火）11:00～6/11（木）11:00\r\n当落発表：6/12（金）18:00頃\r\nオンライン・一般発売：6/13（土）10:00\r\n\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1500
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-05T18:21:47+09:00",
+      "last_updated": "2026-06-05T18:21:47+09:00",
+      "notified_at": "2026-06-05T18:21:47+09:00"
     },
     {
       "id": "fbe289ae",
@@ -8868,6 +8903,33 @@
       "last_updated": "2026-05-26T10:09:04+09:00",
       "notified_at": "2026-05-26T10:09:04+09:00",
       "diff": null
+    },
+    {
+      "id": "cf06816a",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "やさしいズタイpresents",
+      "date": "2026-08-30",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "やさしいズ タイ／やさしいズ 佐伯元輝／ビスケットブラザーズ／男性ブランコ／紅しょうが／たくろう／しゃかりき／他",
+      "venue": "よしもと福岡 大和証券劇場",
+      "prefecture": "福岡県",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017938_1_20260605120102647.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/cf06816a.jpg",
+      "status": "notified",
+      "first_seen": "2026-06-05T18:21:47+09:00",
+      "last_updated": "2026-06-05T18:21:47+09:00",
+      "notified_at": "2026-06-05T18:21:47+09:00"
     },
     {
       "id": "43605af8",

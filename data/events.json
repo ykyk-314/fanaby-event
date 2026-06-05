@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T18:31:17+09:00",
+  "updated_at": "2026-06-05T10:15:32+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -3864,7 +3864,7 @@
       "members": "[企画ライブ]ケビンス 仁木恭平／ダンビラムーチョ 大原優一／9番街レトロ 京極風斗／ド桜 村田大樹／イチゴ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015879_1_20260604171658919.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -3872,12 +3872,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/cedb7b8c.jpg",
       "status": "notified",
+      "last_updated": "2026-06-05T10:15:32+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-05-17T17:51:55+09:00",
-      "notified_at": "2026-05-17T17:51:55+09:00",
-      "diff": null
+      "notified_at": "2026-06-05T10:15:32+09:00"
     },
     {
       "id": "cf82deb0",
@@ -4066,7 +4065,7 @@
       "open_time": "19:00",
       "start_time": "19:30",
       "end_time": "20:40",
-      "members": "ライス／うるとらブギーズ／ななまがり／ヘンダーソン／kento fukaya／蛙亭／オダウエダ／ミカボ／めぞん／ゼロカラン／他",
+      "members": "ライス／うるとらブギーズ／ななまがり／ヘンダーソン／カーネーション／kento fukaya／蛙亭／オダウエダ／ミカボ／めぞん／ゼロカラン",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -4083,10 +4082,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-05T10:15:32+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-06-04T10:25:01+09:00",
-      "notified_at": "2026-06-04T10:25:01+09:00",
-      "diff": null
+      "notified_at": "2026-06-05T10:15:32+09:00"
     },
     {
       "id": "d3821635",
@@ -4679,9 +4677,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-04T18:31:16+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-06-04T18:31:17+09:00"
+      "last_updated": "2026-06-04T18:31:16+09:00",
+      "notified_at": "2026-06-04T18:31:17+09:00",
+      "diff": null
     },
     {
       "id": "e09ba954",
@@ -6134,7 +6133,7 @@
       "members": "[企画ライブ]シモリュウ／今井らいぱち／kento fukaya／滝音／田津原理音／らぶおじさん",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015876_1_20260604184644612.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15270/41897",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%A4%A7%E9%98%AA%E9%8A%80%E5%BA%A7-6-30-19-15",
       "notice": "2024年4月に上京したメンバーによるネタとコーナーライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　4/25（土）11:00～4/28（火）11:00\r\n　・FANY IDメンバー\r\n　    4/25（土）11:00～4/28（火）11:00\r\n\r\n〇一般販売：5/5（火）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：5/5（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n",
@@ -6147,12 +6146,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/17715b06.jpg",
       "status": "notified",
+      "last_updated": "2026-06-05T10:15:32+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-05-19T10:10:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-05T10:15:32+09:00"
     },
     {
       "id": "148f095d",
@@ -6963,7 +6961,7 @@
       "members": "[企画ライブ]kento fukaya／シモリュウ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017177_1_20260605095940024.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16753/44810",
       "online_url": null,
       "notice": "kento fukayaとシモリュウによるツーマンライブ！\r\nネタ数本とトークの60分をお届けします！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
@@ -6975,12 +6973,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/a48856e2.jpg",
       "status": "notified",
+      "last_updated": "2026-06-05T10:15:32+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-06-05T10:15:32+09:00"
     },
     {
       "id": "55376c14",
@@ -7168,7 +7165,8 @@
       "status": "notified",
       "first_seen": "2026-06-04T18:31:16+09:00",
       "last_updated": "2026-06-04T18:31:16+09:00",
-      "notified_at": "2026-06-04T18:31:17+09:00"
+      "notified_at": "2026-06-04T18:31:17+09:00",
+      "diff": null
     },
     {
       "id": "e68d0cbe",
@@ -7217,7 +7215,7 @@
       "members": "[企画ライブ]kento fukaya／ビスケットブラザーズ きん",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017186_1_20260605095956755.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16756/44811",
       "online_url": null,
       "notice": "久しぶりに復活きんけん！\r\nトークライブで色んな映像も見る1時間！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
@@ -7229,12 +7227,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/9ec5fbfe.jpg",
       "status": "notified",
+      "last_updated": "2026-06-05T10:15:32+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-06-05T10:15:32+09:00"
     },
     {
       "id": "bfb395b8",
@@ -7291,9 +7288,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-04T18:31:16+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-06-04T18:31:17+09:00"
+      "last_updated": "2026-06-04T18:31:16+09:00",
+      "notified_at": "2026-06-04T18:31:17+09:00",
+      "diff": null
     },
     {
       "id": "833d5399",
@@ -7318,9 +7316,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-04T18:31:16+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-06-04T18:31:17+09:00"
+      "last_updated": "2026-06-04T18:31:16+09:00",
+      "notified_at": "2026-06-04T18:31:17+09:00",
+      "diff": null
     },
     {
       "id": "1497e6af",
@@ -7345,9 +7344,41 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-04T18:31:16+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-06-04T18:31:17+09:00"
+      "last_updated": "2026-06-04T18:31:16+09:00",
+      "notified_at": "2026-06-04T18:31:17+09:00",
+      "diff": null
+    },
+    {
+      "id": "9f528484",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "ケビンス×トレンディエンジェルツーマンライブ「抜けてる男」",
+      "date": "2026-07-15",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": "22:00",
+      "members": "[企画ライブ]ケビンス／トレンディエンジェル",
+      "venue": "渋谷よしもと漫才劇場",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17222/45945",
+      "online_url": null,
+      "notice": "今回は「ケビンス」と「トレンディエンジェル」のツーマンライブを開催！\r\nそれぞれの個性が光るネタはもちろん、このライブだけのコラボ企画や掛け合いも見逃せません！異なるスタイルを持つ2組が交差することでどんな化学反応が起こるのか？！\r\nぜひ体感してください。\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/8(月) 11:00 〜 6/10(水) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/8(月) 11:00 〜 6/10(水) 11:00\r\n\r\n一般発売：6/12(金) 10:00\r\n\r\nオンラインチケット発売：6/12(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1300
+      },
+      "sources": [
+        "theater:shibuya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-05T10:15:32+09:00",
+      "last_updated": "2026-06-05T10:15:32+09:00",
+      "notified_at": "2026-06-05T10:15:32+09:00"
     },
     {
       "id": "54decacb",

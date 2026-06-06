@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T10:10:51+09:00",
+  "updated_at": "2026-06-06T18:02:38+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -3686,8 +3686,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -3719,8 +3718,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -3752,8 +3750,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -6683,7 +6680,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17047/45258",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/roppongi26070518",
       "notice": "豪華ユニットメンバーが一堂に大集結！\r\nユニットコントとスペシャルなコーナーで、六本木シアターの1周年を熱く盛り上げる特別公演をお届けします！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 3000,
@@ -6716,7 +6713,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17049/45257",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/roppongi26070520",
       "notice": "カゲヤマ益田脚本のドラマ台本を出演者が1分間で覚えて演じる即興コントライブ。\r\n誰かが台詞を間違えたり、飛ばしたりした時点で罰ゲームも…!?\r\n今回は1周年ということで、キングオブコントチャンピオンが勢揃い！\r\nさらに！主催カゲヤマ益田の同居人、ドンデコルテも参加したスペシャルバージョンでお届けします。\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 3300,
@@ -8286,7 +8283,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16986/45176",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%93%E3%82%B9%E3%82%B1%E3%83%83%E3%83%88%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA%E3%81%AE%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%81%A7%E3%82%84%E3%82%8B%E3%82%84%E3%81%A7-7-28-21-15",
       "notice": "■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2500,
@@ -8355,9 +8352,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-06T10:10:51+09:00",
       "first_seen": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-06-06T10:10:51+09:00"
+      "last_updated": "2026-06-06T10:10:51+09:00",
+      "notified_at": "2026-06-06T10:10:51+09:00",
+      "diff": null
     },
     {
       "id": "98bcaea6",
@@ -8476,7 +8474,8 @@
       "status": "notified",
       "first_seen": "2026-06-06T10:10:51+09:00",
       "last_updated": "2026-06-06T10:10:51+09:00",
-      "notified_at": "2026-06-06T10:10:51+09:00"
+      "notified_at": "2026-06-06T10:10:51+09:00",
+      "diff": null
     },
     {
       "id": "fbe289ae",
@@ -8501,9 +8500,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-06T10:10:51+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-06T10:10:51+09:00"
+      "last_updated": "2026-06-06T10:10:51+09:00",
+      "notified_at": "2026-06-06T10:10:51+09:00",
+      "diff": null
     },
     {
       "id": "ff399ee7",

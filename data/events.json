@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T10:19:23+09:00",
+  "updated_at": "2026-06-08T18:48:06+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -4144,9 +4144,10 @@
       ],
       "local_image": "fliers/6a4c9a8e.jpg",
       "status": "notified",
-      "last_updated": "2026-06-08T10:19:23+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-06-08T10:19:23+09:00"
+      "last_updated": "2026-06-08T10:19:23+09:00",
+      "notified_at": "2026-06-08T10:19:23+09:00",
+      "diff": null
     },
     {
       "id": "1d787902",
@@ -6238,8 +6239,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -7365,6 +7365,33 @@
       "last_updated": "2026-06-05T10:15:32+09:00",
       "notified_at": "2026-06-05T10:15:32+09:00",
       "diff": null
+    },
+    {
+      "id": "6ab2d5e8",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "LLRの幕張ファクトリー～僕たち幕張でこのネタ初めてやります～",
+      "date": "2026-07-13",
+      "open_time": "17:30",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "LLR／ツートライブ／シンクロニシティ／イチゴ／【MC】たけうちっち",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017660_1_20260603095412109.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/6ab2d5e8.jpg",
+      "status": "notified",
+      "first_seen": "2026-06-08T18:48:06+09:00",
+      "last_updated": "2026-06-08T18:48:06+09:00",
+      "notified_at": "2026-06-08T18:48:06+09:00"
     },
     {
       "id": "bfb395b8",

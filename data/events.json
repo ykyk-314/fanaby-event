@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T18:48:06+09:00",
+  "updated_at": "2026-06-09T10:10:19+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -7291,7 +7291,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -7391,7 +7392,8 @@
       "status": "notified",
       "first_seen": "2026-06-08T18:48:06+09:00",
       "last_updated": "2026-06-08T18:48:06+09:00",
-      "notified_at": "2026-06-08T18:48:06+09:00"
+      "notified_at": "2026-06-08T18:48:06+09:00",
+      "diff": null
     },
     {
       "id": "bfb395b8",
@@ -8525,7 +8527,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "ゲスト:男性ブランコ／ビスケットブラザーズ／　\n黒帯／超速バギー／鬼としみちゃむ／侍スライス／センリーズ／隣人／イチオク／ウーロンパンダ／銀鬼／爛々 萌々",
+      "members": "ゲスト:男性ブランコ／ビスケットブラザーズ／　\n黒帯／超速バギー／鬼としみちゃむ／侍スライス／センリーズ／隣人／イチオク／ライムギ／銀鬼／爛々 萌々",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -8538,10 +8540,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-09T10:10:19+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00",
-      "diff": null
+      "notified_at": "2026-06-09T10:10:19+09:00"
     },
     {
       "id": "363b7d9e",
@@ -8594,7 +8595,8 @@
         "online": 1500
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -8626,7 +8628,8 @@
         "online": 1500
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T10:10:19+09:00",
+  "updated_at": "2026-06-09T18:21:02+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -4160,7 +4160,7 @@
       "open_time": "19:00",
       "start_time": "19:15",
       "end_time": "20:30",
-      "members": "[企画ライブ]シカゴ実業／カゲヤマ 益田／いぬ／kento fukaya／シモリュウ／ケビンス／素敵じゃないか／ロジャー沖縄／木本悠斗／他",
+      "members": "[企画ライブ]シカゴ実業／カゲヤマ 益田／いぬ／kento fukaya／シモリュウ／ケビンス／素敵じゃないか／ロジャー沖縄／木本悠斗",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016069_1_20260602161506834.png",
@@ -4178,10 +4178,9 @@
       ],
       "local_image": "fliers/1d787902.png",
       "status": "notified",
+      "last_updated": "2026-06-09T18:21:02+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "last_updated": "2026-06-07T10:18:57+09:00",
-      "notified_at": "2026-06-07T10:18:57+09:00",
-      "diff": null
+      "notified_at": "2026-06-09T18:21:02+09:00"
     },
     {
       "id": "237a69a5",
@@ -7121,13 +7120,13 @@
       "open_time": "18:45",
       "start_time": "19:15",
       "end_time": "20:30",
-      "members": "今井らいぱち／カラタチ／カベポスター／素敵じゃないか／世間知らズ／ダブルヒガシ／ミカボ／シンクロニシティ／ド桜／めぞん／インテイク／他",
+      "members": "今井らいぱち／カラタチ／カベポスター／素敵じゃないか／世間知らズ／ダブルヒガシ／ミカボ／シンクロニシティ／ド桜／ナイチンゲールダンス／めぞん／インテイク／ゴーヤゴー",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017618_1_20260609125316945.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/17092/45415",
       "online_url": null,
-      "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/3(水) 11:00 〜 6/5(金) 11:00\r\n\r\n一般発売：6/7(日) 10:00",
+      "notice": "■変更履歴■\r\n[追加]\r\nナイチンゲールダンス、ゴーヤゴー（6/9）\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/3(水) 11:00 〜 6/5(金) 11:00\r\n\r\n一般発売：6/7(日) 10:00",
       "price": {
         "advance": 2500,
         "door": 3000
@@ -7136,12 +7135,11 @@
         "theater:lumine",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/55376c14.jpg",
       "status": "notified",
+      "last_updated": "2026-06-09T18:21:02+09:00",
       "first_seen": "2026-06-02T18:40:31+09:00",
-      "last_updated": "2026-06-02T18:40:31+09:00",
-      "notified_at": "2026-06-02T18:40:32+09:00",
-      "diff": null
+      "notified_at": "2026-06-09T18:21:02+09:00"
     },
     {
       "id": "64d0f782",
@@ -7174,6 +7172,33 @@
       "last_updated": "2026-05-30T17:57:37+09:00",
       "notified_at": "2026-05-30T17:57:37+09:00",
       "diff": null
+    },
+    {
+      "id": "6d48de25",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "東西交流会～翠星チークダンスが選んだメンバーでお届けするネタとコーナーの60分～",
+      "date": "2026-07-11",
+      "open_time": "11:45",
+      "start_time": "12:00",
+      "end_time": null,
+      "members": "翠星チークダンス、シンクロニシティ、愛凛冴、例えば炎、ママタルト（サンミュージック）",
+      "venue": "心斎橋パルコ　SPACE14",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-09T18:21:02+09:00",
+      "last_updated": "2026-06-09T18:21:02+09:00",
+      "notified_at": "2026-06-09T18:21:02+09:00"
     },
     {
       "id": "b672ed81",
@@ -8540,9 +8565,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-09T10:10:19+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-06-09T10:10:19+09:00"
+      "last_updated": "2026-06-09T10:10:19+09:00",
+      "notified_at": "2026-06-09T10:10:19+09:00",
+      "diff": null
     },
     {
       "id": "363b7d9e",

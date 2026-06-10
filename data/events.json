@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T18:21:02+09:00",
+  "updated_at": "2026-06-10T10:16:10+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -4178,9 +4178,10 @@
       ],
       "local_image": "fliers/1d787902.png",
       "status": "notified",
-      "last_updated": "2026-06-09T18:21:02+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-06-09T18:21:02+09:00"
+      "last_updated": "2026-06-09T18:21:02+09:00",
+      "notified_at": "2026-06-09T18:21:02+09:00",
+      "diff": null
     },
     {
       "id": "237a69a5",
@@ -7137,9 +7138,10 @@
       ],
       "local_image": "fliers/55376c14.jpg",
       "status": "notified",
-      "last_updated": "2026-06-09T18:21:02+09:00",
       "first_seen": "2026-06-02T18:40:31+09:00",
-      "notified_at": "2026-06-09T18:21:02+09:00"
+      "last_updated": "2026-06-09T18:21:02+09:00",
+      "notified_at": "2026-06-09T18:21:02+09:00",
+      "diff": null
     },
     {
       "id": "64d0f782",
@@ -7198,7 +7200,8 @@
       "status": "notified",
       "first_seen": "2026-06-09T18:21:02+09:00",
       "last_updated": "2026-06-09T18:21:02+09:00",
-      "notified_at": "2026-06-09T18:21:02+09:00"
+      "notified_at": "2026-06-09T18:21:02+09:00",
+      "diff": null
     },
     {
       "id": "b672ed81",

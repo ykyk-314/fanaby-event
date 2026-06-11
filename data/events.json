@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T10:18:16+09:00",
+  "updated_at": "2026-06-11T18:41:47+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -4711,9 +4711,10 @@
       ],
       "local_image": "fliers/e09ba954.jpg",
       "status": "notified",
-      "last_updated": "2026-06-11T10:18:16+09:00",
       "first_seen": "2026-04-27T18:02:00+09:00",
-      "notified_at": "2026-06-11T10:18:16+09:00"
+      "last_updated": "2026-06-11T10:18:16+09:00",
+      "notified_at": "2026-06-11T10:18:16+09:00",
+      "diff": null
     },
     {
       "id": "4442f4cc",
@@ -4902,9 +4903,10 @@
       ],
       "local_image": "fliers/a911d662.jpg",
       "status": "notified",
-      "last_updated": "2026-06-11T10:18:16+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-06-11T10:18:16+09:00"
+      "last_updated": "2026-06-11T10:18:16+09:00",
+      "notified_at": "2026-06-11T10:18:16+09:00",
+      "diff": null
     },
     {
       "id": "1431c5f7",
@@ -6313,6 +6315,37 @@
       "diff": null
     },
     {
+      "id": "e04436f5",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "５ＧＡＰのキングオブバカコント～短いネタこそバカコント編～",
+      "date": "2026-07-01",
+      "open_time": "20:15",
+      "start_time": "20:30",
+      "end_time": "21:45",
+      "members": "５ＧＡＰ／今井らいぱち／シンクロニシティ／ゼロカラン／MC：タケト／他",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17132/45459",
+      "online_url": null,
+      "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/6(土) 11:00 〜 6/8(月) 11:00\r\n\r\n一般発売：6/10(水) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n今井らいぱち／シンクロニシティ／ゼロカラン（6/11）",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-11T18:41:46+09:00",
+      "last_updated": "2026-06-11T18:41:46+09:00",
+      "notified_at": "2026-06-11T18:41:47+09:00"
+    },
+    {
       "id": "1883d9f7",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -7012,9 +7045,10 @@
       ],
       "local_image": "fliers/6fe32c70.jpg",
       "status": "notified",
-      "last_updated": "2026-06-11T10:18:16+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-11T10:18:16+09:00"
+      "last_updated": "2026-06-11T10:18:16+09:00",
+      "notified_at": "2026-06-11T10:18:16+09:00",
+      "diff": null
     },
     {
       "id": "f5be7796",
@@ -7311,9 +7345,9 @@
       "online_url": null,
       "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/9（火）11:00～6/11（木）11:00\r\n当落発表：6/12（金）18:00頃\r\nオンライン・一般発売：6/13（土）10:00\r\n\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
       "price": {
-        "advance": 2200,
-        "door": 2500,
-        "online": 1300
+        "advance": 2500,
+        "door": 2800,
+        "online": 1500
       },
       "sources": [
         "theater:omiya",
@@ -7321,10 +7355,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-11T18:41:46+09:00",
       "first_seen": "2026-06-04T18:31:16+09:00",
-      "last_updated": "2026-06-05T18:21:47+09:00",
-      "notified_at": "2026-06-05T18:21:47+09:00",
-      "diff": null
+      "notified_at": "2026-06-11T18:41:47+09:00"
     },
     {
       "id": "e68d0cbe",
@@ -7354,9 +7387,10 @@
       ],
       "local_image": "fliers/e68d0cbe.jpg",
       "status": "notified",
-      "last_updated": "2026-06-11T10:18:16+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-11T10:18:16+09:00"
+      "last_updated": "2026-06-11T10:18:16+09:00",
+      "notified_at": "2026-06-11T10:18:16+09:00",
+      "diff": null
     },
     {
       "id": "9ec5fbfe",
@@ -7784,9 +7818,10 @@
       ],
       "local_image": "fliers/a27cecec.jpg",
       "status": "notified",
-      "last_updated": "2026-06-11T10:18:16+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-11T10:18:16+09:00"
+      "last_updated": "2026-06-11T10:18:16+09:00",
+      "notified_at": "2026-06-11T10:18:16+09:00",
+      "diff": null
     },
     {
       "id": "9751910f",

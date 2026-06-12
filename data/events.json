@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T18:41:47+09:00",
+  "updated_at": "2026-06-12T10:21:07+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -4475,13 +4475,13 @@
       "open_time": "17:45",
       "start_time": "18:00",
       "end_time": "19:45",
-      "members": "[ランキングバトルライブ]たつろう／デンゼル／入間国際宣言／銀河ゆめゆめ／くらげ／まんじろう／ケビンス／田津原理音／ぱろぱろ／スーパーサイズ・ミー／素敵じゃないか／世間知らズ／9番街レトロ／アズーロ24／マリーマリー／アケガラス／ZAZY／MC：ザ・パンチ",
+      "members": "[ランキングバトルライブ]たつろう／デンゼル／入間国際宣言／銀河ゆめゆめ／くらげ／まんじろう／ケビンス／田津原理音／ぱろぱろ／スーパーサイズ・ミー／素敵じゃないか／世間知らズ／9番街レトロ／アズーロ24／アケガラス／ZAZY／MC：ザ・パンチ",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15300/41971",
       "online_url": null,
-      "notice": "極メンバー総出演！2か月に1回（偶数月）開催される芸歴9年目以上のネタバトル！\r\n※4月よりグランドバトルEASTの配信はございません\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/2(土) 11:00 〜 5/7(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/2(土) 11:00 〜 5/7(木) 11:00\r\n\r\n一般発売：5/13(水) 10:00\r\n\r\n※未就学児入場不可\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n[追加]\r\nアケガラス(5/12)\r\nZAZY(5/12)\r\nザ・パンチ(5/30)\r\n※都合により、出演者が変更になる可能性がございます。",
+      "notice": "極メンバー総出演！2か月に1回（偶数月）開催される芸歴9年目以上のネタバトル！\r\n※4月よりグランドバトルEASTの配信はございません\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/2(土) 11:00 〜 5/7(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/2(土) 11:00 〜 5/7(木) 11:00\r\n\r\n一般発売：5/13(水) 10:00\r\n\r\n※未就学児入場不可\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n[追加]\r\nアケガラス(5/12)\r\nZAZY(5/12)\r\nザ・パンチ(5/30)\r\n\r\n[変更]\r\nマリーマリーは休演いたします。(6/11)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,
         "door": 2300
@@ -4492,10 +4492,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-12T10:21:07+09:00",
       "first_seen": "2026-05-01T10:08:18+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-12T10:21:07+09:00"
     },
     {
       "id": "cd72232c",
@@ -6343,7 +6342,8 @@
       "status": "notified",
       "first_seen": "2026-06-11T18:41:46+09:00",
       "last_updated": "2026-06-11T18:41:46+09:00",
-      "notified_at": "2026-06-11T18:41:47+09:00"
+      "notified_at": "2026-06-11T18:41:47+09:00",
+      "diff": null
     },
     {
       "id": "1883d9f7",
@@ -7355,9 +7355,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-11T18:41:46+09:00",
       "first_seen": "2026-06-04T18:31:16+09:00",
-      "notified_at": "2026-06-11T18:41:47+09:00"
+      "last_updated": "2026-06-11T18:41:46+09:00",
+      "notified_at": "2026-06-11T18:41:47+09:00",
+      "diff": null
     },
     {
       "id": "e68d0cbe",
@@ -7601,6 +7602,33 @@
       "last_updated": "2026-06-05T10:15:32+09:00",
       "notified_at": "2026-06-05T10:15:32+09:00",
       "diff": null
+    },
+    {
+      "id": "b0cc6341",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "バリアシオンの咆哮声vol.10",
+      "date": "2026-07-16",
+      "open_time": "17:15",
+      "start_time": "17:30",
+      "end_time": null,
+      "members": "バリアシオン、ゲスト:電気ジュース、天ロクの丘",
+      "venue": "日本橋Pollux Theater",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-12T10:21:07+09:00",
+      "last_updated": "2026-06-12T10:21:07+09:00",
+      "notified_at": "2026-06-12T10:21:07+09:00"
     },
     {
       "id": "54decacb",
@@ -8266,6 +8294,33 @@
       "diff": null
     },
     {
+      "id": "a45be874",
+      "talents": {
+        "8060": "下川はじメロディ"
+      },
+      "title": "劇場版名探偵クイズ vol.5",
+      "date": "2026-07-27",
+      "open_time": "20:15",
+      "start_time": "20:30",
+      "end_time": null,
+      "members": "おたまじゃくし中西、のびのびハッピーズ 下川、ジェロニモ 牧尾、ホテル 橋本、カノッサ ウエハース光川、ヤメピ 水分スイ、ロキ フク・フクダ",
+      "venue": "日本橋Pollux Theater",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-12T10:21:07+09:00",
+      "last_updated": "2026-06-12T10:21:07+09:00",
+      "notified_at": "2026-06-12T10:21:07+09:00"
+    },
+    {
       "id": "33b24a34",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -8452,6 +8507,33 @@
       "last_updated": "2026-05-30T17:57:37+09:00",
       "notified_at": "2026-05-30T17:57:37+09:00",
       "diff": null
+    },
+    {
+      "id": "9be590a1",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "電極愛",
+      "date": "2026-07-28",
+      "open_time": "20:15",
+      "start_time": "20:30",
+      "end_time": null,
+      "members": "電気ジュース、愛凛冴、ゲスト：祇園",
+      "venue": "日本橋Pollux Theater",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-12T10:21:07+09:00",
+      "last_updated": "2026-06-12T10:21:07+09:00",
+      "notified_at": "2026-06-12T10:21:07+09:00"
     },
     {
       "id": "b208aef6",

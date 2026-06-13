@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T18:36:53+09:00",
+  "updated_at": "2026-06-13T10:18:58+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -6533,7 +6533,7 @@
       "open_time": "18:30",
       "start_time": "19:00",
       "end_time": null,
-      "members": "マヂカルラブリー、他",
+      "members": "マヂカルラブリー、黒帯",
       "venue": "YES THEATER",
       "prefecture": "大阪府",
       "image_url": null,
@@ -6546,10 +6546,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-13T10:18:58+09:00",
       "first_seen": "2026-05-29T18:24:21+09:00",
-      "last_updated": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-05-29T18:24:21+09:00",
-      "diff": null
+      "notified_at": "2026-06-13T10:18:58+09:00"
     },
     {
       "id": "10ffac74",
@@ -7013,9 +7012,10 @@
       ],
       "local_image": "fliers/fc7e6206.jpg",
       "status": "notified",
-      "last_updated": "2026-06-12T18:36:53+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-12T18:36:53+09:00"
+      "last_updated": "2026-06-12T18:36:53+09:00",
+      "notified_at": "2026-06-12T18:36:53+09:00",
+      "diff": null
     },
     {
       "id": "6fe32c70",

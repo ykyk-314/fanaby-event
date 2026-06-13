@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T10:18:58+09:00",
+  "updated_at": "2026-06-13T18:14:26+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -4367,8 +4367,7 @@
         "door": 2300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -6232,7 +6231,7 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17072/45286",
       "online_url": null,
-      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/6（土）11:00～6/8（月）11:00\r\n当落発表：6/9（火）18:00頃\r\nオンライン：6/14（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n",
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n二次先行期間：6/17（水）11:00～6/19（金）11:00\r\n当落発表：6/20（土）18:00頃\r\n\r\nオンライン：6/14（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n",
       "price": {
         "advance": 2500,
         "door": 2800,
@@ -6243,10 +6242,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-13T18:14:25+09:00",
       "first_seen": "2026-06-03T10:24:51+09:00",
-      "last_updated": "2026-06-03T10:24:51+09:00",
-      "notified_at": "2026-06-03T10:24:51+09:00",
-      "diff": null
+      "notified_at": "2026-06-13T18:14:26+09:00"
     },
     {
       "id": "f7a9daae",
@@ -6546,9 +6544,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-13T10:18:58+09:00",
       "first_seen": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-06-13T10:18:58+09:00"
+      "last_updated": "2026-06-13T10:18:58+09:00",
+      "notified_at": "2026-06-13T10:18:58+09:00",
+      "diff": null
     },
     {
       "id": "10ffac74",
@@ -7066,9 +7065,9 @@
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016614_1_20260604172623444.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/17193/45550",
       "online_url": null,
-      "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/8(月) 11:00 〜 6/10(水) 11:00\r\n\r\n一般発売：6/12(金) 10:00",
+      "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/8(月) 11:00 〜 6/10(水) 11:00\r\n\r\n一般発売：6/12(金) 10:00\r\n\r\nーーーーーーーーーー\r\n★立見券をご購入のお客様★\r\n※劇場内、最後方の立見スペースでのご観劇となります。\r\n※座席はございませんので、チケット券面に記載の位置に立ってご観劇いただきます。\r\n※指定された位置以外でのご観劇は出来ません。\r\n※おひとりさまのスペースは、足元の白線枠内のみとなります。お荷物を含め、白線枠内に収めていただきますようお願いいたします。\r\n※折りたたみ椅子等の持ち込み・使用はできません。\r\nーーーーーーーーーー",
       "price": {
-        "advance": 2800,
+        "advance": 28002800,
         "door": 3300
       },
       "sources": [
@@ -7077,10 +7076,9 @@
       ],
       "local_image": "fliers/f5be7796.jpg",
       "status": "notified",
+      "last_updated": "2026-06-13T18:14:25+09:00",
       "first_seen": "2026-06-07T18:13:15+09:00",
-      "last_updated": "2026-06-07T18:13:15+09:00",
-      "notified_at": "2026-06-07T18:13:16+09:00",
-      "diff": null
+      "notified_at": "2026-06-13T18:14:26+09:00"
     },
     {
       "id": "ecadae40",
@@ -7342,7 +7340,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17264/46004",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/search?q=%E3%83%9C%E3%82%B1%E3%81%AB%E5%B1%B1%E5%8F%A3%E3%82%B3%E3%83%B3%E3%83%9C%E3%82%A4%E3%81%8C%E9%99%8D%E8%87%A8%E3%81%97%E3%81%A1%E3%82%83%E3%81%A3%E3%81%A6%E3%82%8B%E5%AF%84%E5%B8%AD&type=product",
       "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/9（火）11:00～6/11（木）11:00\r\n当落発表：6/12（金）18:00頃\r\nオンライン・一般発売：6/13（土）10:00\r\n\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
       "price": {
         "advance": 2500,
@@ -8731,7 +8729,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17273/46013",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/search?q=%E9%88%B4%E6%9C%A8%E5%AE%B6%E3%83%99%E3%83%93%E3%83%BC%E3%82%B7%E3%83%83%E3%82%BF%E3%83%BC%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3&type=product",
       "notice": "12周年企画☆大宮セブン6組がそれぞれ主宰する、計12公演のライブ開催！\r\nこちらの公演は【マヂカルラブリー企画】です！\r\n\r\n前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/9（火）11:00～6/11（木）11:00\r\n当落発表：6/12（金）18:00頃\r\nオンライン・一般発売：6/13（土）10:00\r\n\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
       "price": {
         "advance": 2000,
@@ -8764,7 +8762,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17263/46001",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/search?q=%E3%83%9E%E3%83%82%E3%82%AB%E3%83%AB%E3%83%A9%E3%83%96%E3%83%AA%E3%83%BC%E3%83%88%E3%83%BC%E3%82%AF&type=product",
       "notice": "12周年企画☆大宮セブン6組がそれぞれ主宰する、計12公演のライブ開催！\r\nこちらの公演は【マヂカルラブリー企画】です！\r\n\r\n前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：6/9（火）11:00～6/11（木）11:00\r\n当落発表：6/12（金）18:00頃\r\nオンライン・一般発売：6/13（土）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
       "price": {
         "advance": 2000,
@@ -9252,7 +9250,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "やさしいズ タイ／やさしいズ 佐伯元輝／ビスケットブラザーズ／男性ブランコ／紅しょうが／たくろう／しゃかりき／他",
+      "members": "やさしいズ タイ／やさしいズ 佐伯元輝／ビスケットブラザーズ／男性ブランコ／紅しょうが／たくろう／ダンビラムーチョ／しゃかりき",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017938_1_20260605120102647.jpg",
@@ -9265,10 +9263,9 @@
       ],
       "local_image": "fliers/cf06816a.jpg",
       "status": "notified",
+      "last_updated": "2026-06-13T18:14:25+09:00",
       "first_seen": "2026-06-05T18:21:47+09:00",
-      "last_updated": "2026-06-05T18:21:47+09:00",
-      "notified_at": "2026-06-05T18:21:47+09:00",
-      "diff": null
+      "notified_at": "2026-06-13T18:14:26+09:00"
     },
     {
       "id": "43605af8",

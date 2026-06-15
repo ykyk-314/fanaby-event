@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T18:16:25+09:00",
+  "updated_at": "2026-06-15T10:24:10+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -7234,6 +7234,33 @@
       "diff": null
     },
     {
+      "id": "d7118c69",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "ヒナキャップ！集まれ！夏の大作戦！",
+      "date": "2026-07-11",
+      "open_time": "15:45",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "ヒナキャップ、ケビンス、スロッピ、太鵬、カラタチ",
+      "venue": "Route Theater",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-15T10:24:10+09:00",
+      "last_updated": "2026-06-15T10:24:10+09:00",
+      "notified_at": "2026-06-15T10:24:10+09:00"
+    },
+    {
       "id": "b672ed81",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -7510,7 +7537,8 @@
       "status": "notified",
       "first_seen": "2026-06-14T18:16:25+09:00",
       "last_updated": "2026-06-14T18:16:25+09:00",
-      "notified_at": "2026-06-14T18:16:25+09:00"
+      "notified_at": "2026-06-14T18:16:25+09:00",
+      "diff": null
     },
     {
       "id": "b15ad6eb",

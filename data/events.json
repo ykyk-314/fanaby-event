@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T10:25:30+09:00",
+  "updated_at": "2026-06-16T18:56:47+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -6236,7 +6236,8 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -8001,6 +8002,37 @@
       "diff": null
     },
     {
+      "id": "3e5be91d",
+      "talents": {
+        "5110": "kento fukaya"
+      },
+      "title": "ドリームネタ祭り",
+      "date": "2026-07-20",
+      "open_time": "18:30",
+      "start_time": "19:00",
+      "end_time": "20:10",
+      "members": "ラフ次元／ダイタク／スクールゾーン／kento fukaya／他",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17530/46467",
+      "online_url": null,
+      "notice": "■チケット情報■\r\n\r\n一般発売：6/17(水) 10:00",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-16T18:56:47+09:00",
+      "last_updated": "2026-06-16T18:56:47+09:00",
+      "notified_at": "2026-06-16T18:56:47+09:00"
+    },
+    {
       "id": "8b5d731d",
       "talents": {
         "7295": "ケビンス"
@@ -8187,9 +8219,10 @@
       ],
       "local_image": "fliers/6c124e87.jpeg",
       "status": "notified",
-      "last_updated": "2026-06-16T10:25:29+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-16T10:25:30+09:00"
+      "last_updated": "2026-06-16T10:25:29+09:00",
+      "notified_at": "2026-06-16T10:25:30+09:00",
+      "diff": null
     },
     {
       "id": "c9b1ec0d",

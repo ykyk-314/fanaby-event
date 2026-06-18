@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T18:48:20+09:00",
+  "updated_at": "2026-06-18T10:19:50+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -4933,9 +4933,10 @@
       ],
       "local_image": "fliers/1431c5f7.jpg",
       "status": "notified",
-      "last_updated": "2026-06-17T18:48:20+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-06-17T18:48:20+09:00"
+      "last_updated": "2026-06-17T18:48:20+09:00",
+      "notified_at": "2026-06-17T18:48:20+09:00",
+      "diff": null
     },
     {
       "id": "390d4ccc",
@@ -5090,9 +5091,10 @@
       ],
       "local_image": "fliers/c3dd7d4a.jpg",
       "status": "notified",
-      "last_updated": "2026-06-17T18:48:20+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-06-17T18:48:20+09:00"
+      "last_updated": "2026-06-17T18:48:20+09:00",
+      "notified_at": "2026-06-17T18:48:20+09:00",
+      "diff": null
     },
     {
       "id": "18b5d813",
@@ -8285,6 +8287,60 @@
       "diff": null
     },
     {
+      "id": "58f12735",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "大須よしもとネタパレード",
+      "date": "2026-07-24",
+      "open_time": "16:00",
+      "start_time": "16:15",
+      "end_time": null,
+      "members": "シゲカズです、黒帯、カベポスター、ケビンス、ぐろう、空前メテオ",
+      "venue": "大須演芸場",
+      "prefecture": "愛知県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-18T10:19:49+09:00",
+      "last_updated": "2026-06-18T10:19:49+09:00",
+      "notified_at": "2026-06-18T10:19:50+09:00"
+    },
+    {
+      "id": "c2a32026",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "シゲカズですpresents 真正解クイズ王",
+      "date": "2026-07-24",
+      "open_time": "18:15",
+      "start_time": "18:30",
+      "end_time": null,
+      "members": "シゲカズです、黒帯、カベポスター、ケビンス、ぐろう、空前メテオ",
+      "venue": "大須演芸場",
+      "prefecture": "愛知県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-18T10:19:49+09:00",
+      "last_updated": "2026-06-18T10:19:49+09:00",
+      "notified_at": "2026-06-18T10:19:50+09:00"
+    },
+    {
       "id": "3d5e82db",
       "talents": {
         "2772": "マヂカルラブリー"
@@ -8344,6 +8400,33 @@
       "last_updated": "2026-05-25T16:19:00+09:00",
       "notified_at": "2026-05-25T16:19:00+09:00",
       "diff": null
+    },
+    {
+      "id": "a1703894",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "シゲカズですpresentsクセツアー2026 さらにさらにナゴヤシクセフェス",
+      "date": "2026-07-24",
+      "open_time": "19:45",
+      "start_time": "20:00",
+      "end_time": null,
+      "members": "シゲカズです、黒帯、カベポスター、ケビンス、ぐろう",
+      "venue": "大須演芸場",
+      "prefecture": "愛知県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-18T10:19:49+09:00",
+      "last_updated": "2026-06-18T10:19:49+09:00",
+      "notified_at": "2026-06-18T10:19:50+09:00"
     },
     {
       "id": "df75f54d",
@@ -9007,9 +9090,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-17T18:48:20+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-06-17T18:48:20+09:00"
+      "last_updated": "2026-06-17T18:48:20+09:00",
+      "notified_at": "2026-06-17T18:48:20+09:00",
+      "diff": null
     },
     {
       "id": "f33d842f",

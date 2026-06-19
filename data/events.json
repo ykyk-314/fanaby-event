@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T18:41:14+09:00",
+  "updated_at": "2026-06-19T10:25:36+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -5090,9 +5090,10 @@
       ],
       "local_image": "fliers/c3dd7d4a.jpg",
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "18b5d813",
@@ -5168,7 +5169,7 @@
       "members": "ときヲりぴーと／ゲスト:kento fukaya／カベポスター",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015652_1_20260619035107041.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -5176,12 +5177,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/95f54762.jpg",
       "status": "notified",
+      "last_updated": "2026-06-19T10:25:36+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-05-19T10:10:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-19T10:25:36+09:00"
     },
     {
       "id": "9374e085",
@@ -5295,7 +5295,7 @@
       "members": "真輝志／kento fukaya",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015674_1_20260619035146888.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -5303,12 +5303,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/c668bad3.jpg",
       "status": "notified",
+      "last_updated": "2026-06-19T10:25:36+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "last_updated": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-05-19T10:10:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-19T10:25:36+09:00"
     },
     {
       "id": "6209dcfb",
@@ -5422,9 +5421,10 @@
       ],
       "local_image": "fliers/bfdc143b.jpg",
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "f544a4b9",
@@ -5525,7 +5525,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "ゲスト:ケビンス／　\n牛ぺぺ／ネイビーズアフロ／侍スライス／隣人／もも／愛凛冴／とくいち／シャガール／ファンファーレと熱狂／ミケネ系／照山おうちごはん",
+      "members": "ゲスト:ケビンス／カベポスター／　\n牛ぺぺ／ネイビーズアフロ／侍スライス／隣人／もも／愛凛冴／とくいち／シャガール／ファンファーレと熱狂／ミケネ系／照山おうちごはん",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -5538,10 +5538,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-19T10:25:36+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-05-30T10:10:12+09:00",
-      "notified_at": "2026-05-30T10:10:12+09:00",
-      "diff": null
+      "notified_at": "2026-06-19T10:25:36+09:00"
     },
     {
       "id": "a7988cde",
@@ -6336,9 +6335,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-06-11T18:41:46+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "1883d9f7",
@@ -6558,7 +6558,7 @@
       "members": "MC：ドンデコルテ／審査員：マンボウやしろ／ライス 田所仁／ビスケットブラザーズ 原田／＜東京所属芸歴10年目以下のコント師＞シンクロニシティ／ソマオ・ミートボール／軟水／ピュート／ヨネダ2000／今夜はブルース／定点計画／青いデルタ／ザンゾウ／ぺ／DOG FOOD PARTY／アリハガ／エグい速さ／セカンドロット／き展／伝書鳩／なでなでボーイ／球技大会／ただならぬ刀／照山おうちごはん／ミナミナミ／パパパジャマ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017458_1_20260618211339030.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -6566,12 +6566,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/10ffac74.jpg",
       "status": "notified",
+      "last_updated": "2026-06-19T10:25:36+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-06-01T19:01:33+09:00",
-      "notified_at": "2026-06-01T19:01:34+09:00",
-      "diff": null
+      "notified_at": "2026-06-19T10:25:36+09:00"
     },
     {
       "id": "06d5ceaf",
@@ -6703,7 +6702,7 @@
       "members": "MC：ビスケットブラザーズ／メトロンズ（しずる、サルゴリラ、ライス）／ジェネレーソンズ（ジェラードン、ネルソンズ）／ロコスパ（ロングコートダディ、セルライトスパ）／ニッポンの社長 ケツ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017573_1_20260618210008593.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/17047/45258",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/roppongi26070518",
       "notice": "豪華ユニットメンバーが一堂に大集結！\r\nユニットコントとスペシャルなコーナーで、六本木シアターの1周年を熱く盛り上げる特別公演をお届けします！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -6716,12 +6715,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/153016a4.jpg",
       "status": "notified",
+      "last_updated": "2026-06-19T10:25:36+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-19T10:25:36+09:00"
     },
     {
       "id": "b9855b6c",
@@ -6736,7 +6734,7 @@
       "members": "カゲヤマ／サルゴリラ／ライス／ロングコートダディ／コロコロチキチキペッパーズ／ビスケットブラザーズ／ドンデコルテ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017574_1_20260618210254885.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/17049/45257",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/roppongi26070520",
       "notice": "カゲヤマ益田脚本のドラマ台本を出演者が1分間で覚えて演じる即興コントライブ。\r\n誰かが台詞を間違えたり、飛ばしたりした時点で罰ゲームも…!?\r\n今回は1周年ということで、キングオブコントチャンピオンが勢揃い！\r\nさらに！主催カゲヤマ益田の同居人、ドンデコルテも参加したスペシャルバージョンでお届けします。\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -6749,12 +6747,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/b9855b6c.jpg",
       "status": "notified",
+      "last_updated": "2026-06-19T10:25:36+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-19T10:25:36+09:00"
     },
     {
       "id": "4ef21b4d",
@@ -7072,9 +7069,10 @@
       ],
       "local_image": "fliers/f5be7796.jpg",
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-06-07T18:13:15+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "ecadae40",
@@ -7163,9 +7161,10 @@
       ],
       "local_image": "fliers/55376c14.jpg",
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-06-02T18:40:31+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "64d0f782",
@@ -7488,7 +7487,7 @@
       "members": "マヂカルラブリー",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017484_1_20260618210700049.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16935/45122",
       "online_url": null,
       "notice": "※本公演は、4/30(木)にルミネtheよしもとで開催された「マヂカルラブリー単独ライブ『ループもの』」と同様の内容を予定しております。\r\n※未就学児入場不可\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：5/29（金）11:00～5/31（日）23:59\r\n〇一般販売：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -7500,12 +7499,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/bfb395b8.jpg",
       "status": "notified",
+      "last_updated": "2026-06-19T10:25:36+09:00",
       "first_seen": "2026-05-29T10:15:34+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-19T10:25:36+09:00"
     },
     {
       "id": "4cbdd681",
@@ -8022,9 +8020,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-06-16T18:56:47+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "8b5d731d",
@@ -8086,9 +8085,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "0843dbfe",
@@ -8118,9 +8118,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "92fab915",
@@ -8150,9 +8151,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "77721d3d",
@@ -8374,7 +8376,7 @@
       "members": "[企画ライブ]kento fukaya／ビスケットブラザーズ きん",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017401_1_20260617200937578.jpeg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16455/44111",
       "online_url": null,
       "notice": "ネタのブラッシュアップ。ミニ単独ライブです！いやリトル単独ライブと言ったところか！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
@@ -8386,12 +8388,11 @@
         "theater:shibuya",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/9b0f2b96.jpeg",
       "status": "notified",
+      "last_updated": "2026-06-19T10:25:36+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-06-19T10:25:36+09:00"
     },
     {
       "id": "a1703894",
@@ -8538,9 +8539,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "2e0fdd43",
@@ -8597,9 +8599,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "11ee5a66",
@@ -8628,9 +8631,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "c4fe3318",
@@ -8659,9 +8663,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "42e6c745",
@@ -9282,9 +9287,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-18T18:41:14+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-06-18T18:41:14+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "6857ebbe",

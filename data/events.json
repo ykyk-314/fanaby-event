@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T18:44:32+09:00",
+  "updated_at": "2026-06-20T10:14:56+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -5306,9 +5306,10 @@
       ],
       "local_image": "fliers/c668bad3.jpg",
       "status": "notified",
-      "last_updated": "2026-06-19T18:44:32+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-06-19T18:44:32+09:00"
+      "last_updated": "2026-06-19T18:44:32+09:00",
+      "notified_at": "2026-06-19T18:44:32+09:00",
+      "diff": null
     },
     {
       "id": "6209dcfb",
@@ -5741,9 +5742,10 @@
       ],
       "local_image": "fliers/761384ed.jpg",
       "status": "notified",
-      "last_updated": "2026-06-19T18:44:32+09:00",
       "first_seen": "2026-05-17T10:10:08+09:00",
-      "notified_at": "2026-06-19T18:44:32+09:00"
+      "last_updated": "2026-06-19T18:44:32+09:00",
+      "notified_at": "2026-06-19T18:44:32+09:00",
+      "diff": null
     },
     {
       "id": "f2beaa91",
@@ -5803,9 +5805,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-19T18:44:32+09:00",
       "first_seen": "2026-05-17T10:10:08+09:00",
-      "notified_at": "2026-06-19T18:44:32+09:00"
+      "last_updated": "2026-06-19T18:44:32+09:00",
+      "notified_at": "2026-06-19T18:44:32+09:00",
+      "diff": null
     },
     {
       "id": "2a511b66",
@@ -6155,13 +6158,13 @@
       "open_time": "19:30",
       "start_time": "19:45",
       "end_time": "20:45",
-      "members": "ニッポンの社長／ビスケットブラザーズ／しずる／ネルソンズ／ななまがり",
+      "members": "ニッポンの社長／ビスケットブラザーズ／しずる／ネルソンズ／ななまがり／蛙亭",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/15727/42788",
       "online_url": null,
-      "notice": "2組ずつがお互いにリクエストしたネタを披露しあうライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/3（日）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "notice": "2組ずつがお互いにリクエストしたネタを披露しあうライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/3（日）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■変更履歴■\r\n[追加]\r\n蛙亭(6/19)",
       "price": {
         "advance": 2500,
         "door": 3000
@@ -6172,10 +6175,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-20T10:14:55+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-20T10:14:56+09:00"
     },
     {
       "id": "7ab11efd",
@@ -6317,7 +6319,7 @@
       "open_time": "20:15",
       "start_time": "20:30",
       "end_time": "21:45",
-      "members": "５ＧＡＰ／今井らいぱち／シンクロニシティ／ゼロカラン／MC：タケト／他",
+      "members": "５ＧＡＰ／今井らいぱち／滝音／蛙亭／からし蓮根／シンクロニシティ／ゼロカラン／MC：タケト／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -6334,10 +6336,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-20T10:14:55+09:00",
       "first_seen": "2026-06-11T18:41:46+09:00",
-      "last_updated": "2026-06-18T18:41:14+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00",
-      "diff": null
+      "notified_at": "2026-06-20T10:14:56+09:00"
     },
     {
       "id": "1883d9f7",
@@ -7978,7 +7979,7 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": "22:30",
-      "members": "セルライトスパ ヒーゴー／ビスケットブラザーズ 原田／ロングコートダディ 兎／さや香 石井／ダンビラムーチョ 大原／ラニーノーズ 洲崎／9番街レトロ／ケビンス 山口コンボイ／野澤輸出／らぶおじさん",
+      "members": "セルライトスパ ヒーゴー／ビスケットブラザーズ 原田／ロングコートダディ 兎／さや香 石井／ダンビラムーチョ 大原／ラニーノーズ 洲崎／9番街レトロ／ケビンス 山口コンボイ／うるとらブギーズ 八木／しんや／野澤輸出／らぶおじさん",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -7991,10 +7992,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-20T10:14:55+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-06-07T18:13:15+09:00",
-      "notified_at": "2026-06-07T18:13:16+09:00",
-      "diff": null
+      "notified_at": "2026-06-20T10:14:56+09:00"
     },
     {
       "id": "3e5be91d",
@@ -9122,6 +9122,60 @@
       "diff": null
     },
     {
+      "id": "1be0de26",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "夏休み恒例！吉本新喜劇＆バラエティ公演",
+      "date": "2026-08-05",
+      "open_time": "10:15",
+      "start_time": "11:00",
+      "end_time": null,
+      "members": "吉本新喜劇：辻本茂雄、ほか\nアンダーポイント、めぞん、ケビンス、河内家菊水丸、藤崎マーケット、兼光タカシ、COWCOW",
+      "venue": "御園座",
+      "prefecture": "愛知県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-20T10:14:55+09:00",
+      "last_updated": "2026-06-20T10:14:55+09:00",
+      "notified_at": "2026-06-20T10:14:56+09:00"
+    },
+    {
+      "id": "619d42c7",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "夏休み恒例！吉本新喜劇＆バラエティ公演",
+      "date": "2026-08-05",
+      "open_time": "15:15",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "吉本新喜劇：辻本茂雄、ほか\nアンダーポイント、めぞん、ケビンス、河内家菊水丸、藤崎マーケット、兼光タカシ、COWCOW",
+      "venue": "御園座",
+      "prefecture": "愛知県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-20T10:14:55+09:00",
+      "last_updated": "2026-06-20T10:14:55+09:00",
+      "notified_at": "2026-06-20T10:14:56+09:00"
+    },
+    {
       "id": "e2fec78c",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -9490,7 +9544,8 @@
       "status": "notified",
       "first_seen": "2026-06-19T18:44:32+09:00",
       "last_updated": "2026-06-19T18:44:32+09:00",
-      "notified_at": "2026-06-19T18:44:32+09:00"
+      "notified_at": "2026-06-19T18:44:32+09:00",
+      "diff": null
     },
     {
       "id": "43605af8",

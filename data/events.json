@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T10:23:47+09:00",
+  "updated_at": "2026-06-21T18:26:33+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -5272,8 +5272,7 @@
         "online": 2000
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": "fliers/ed5909c2.jpg",
       "status": "notified",
@@ -6771,7 +6770,7 @@
       "members": "フースーヤ／セルライトスパ／ビスケットブラザーズ／今井らいぱち／kento fukaya／たくろう／【MC】アイラブ地球 コウノ・オブ・ザ・イヤー",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017593_1_20260602112339124.jpg",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017593_1_20260621134701986.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -6781,10 +6780,9 @@
       ],
       "local_image": "fliers/4ef21b4d.jpg",
       "status": "notified",
+      "last_updated": "2026-06-21T18:26:32+09:00",
       "first_seen": "2026-06-02T18:40:31+09:00",
-      "last_updated": "2026-06-02T18:40:31+09:00",
-      "notified_at": "2026-06-02T18:40:32+09:00",
-      "diff": null
+      "notified_at": "2026-06-21T18:26:33+09:00"
     },
     {
       "id": "603f9271",
@@ -6800,7 +6798,7 @@
       "members": "フースーヤ／セルライトスパ ヒーゴー／ビスケットブラザーズ 原田／今井らいぱち／kento fukaya／たくろう きむらバンド／【MC】アイラブ地球 コウノ・オブ・ザ・イヤー",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017594_1_20260602112354904.jpg",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017594_1_20260621134549703.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -6810,10 +6808,9 @@
       ],
       "local_image": "fliers/603f9271.jpg",
       "status": "notified",
+      "last_updated": "2026-06-21T18:26:32+09:00",
       "first_seen": "2026-06-02T18:40:31+09:00",
-      "last_updated": "2026-06-02T18:40:31+09:00",
-      "notified_at": "2026-06-02T18:40:32+09:00",
-      "diff": null
+      "notified_at": "2026-06-21T18:26:33+09:00"
     },
     {
       "id": "0415ea1f",
@@ -9044,7 +9041,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "どんちっち／半年記念日／マーメイド／ライムギ／空前メテオ／シカノシンプ／清川雄司／天ロクの丘／電気ジュース／浪速モダンカダン／野良レール",
+      "members": "どんちっち／半年記念日／マーメイド／ライムギ／空前メテオ／シカノシンプ／清川雄司／天ロクの丘／電気ジュース／浪速モダンカダン／野良レール\n[コーナー出演者]MC：空前メテオ／半年記念日／ライムギ／浪速モダンカダン／電気ジュース",
       "venue": "森ノ宮よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -9057,10 +9054,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-21T18:26:32+09:00",
       "first_seen": "2026-05-28T11:30:48+09:00",
-      "last_updated": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-05-28T11:30:48+09:00",
-      "diff": null
+      "notified_at": "2026-06-21T18:26:33+09:00"
     },
     {
       "id": "db30c52e",
@@ -9753,7 +9749,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "やさしいズ タイ／やさしいズ 佐伯元輝／ビスケットブラザーズ／男性ブランコ／紅しょうが／たくろう／ダンビラムーチョ／しゃかりき",
+      "members": "やさしいズ タイ／やさしいズ 佐伯元輝／ビスケットブラザーズ／男性ブランコ／紅しょうが／たくろう／ダンビラムーチョ／しゃかりき／フースーヤ",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017938_1_20260605120102647.jpg",
@@ -9766,10 +9762,9 @@
       ],
       "local_image": "fliers/cf06816a.jpg",
       "status": "notified",
+      "last_updated": "2026-06-21T18:26:32+09:00",
       "first_seen": "2026-06-05T18:21:47+09:00",
-      "last_updated": "2026-06-13T18:14:25+09:00",
-      "notified_at": "2026-06-13T18:14:26+09:00",
-      "diff": null
+      "notified_at": "2026-06-21T18:26:33+09:00"
     },
     {
       "id": "a4492174",

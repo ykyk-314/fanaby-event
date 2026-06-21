@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T18:13:59+09:00",
+  "updated_at": "2026-06-21T10:23:47+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -6336,9 +6336,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-20T18:13:59+09:00",
       "first_seen": "2026-06-11T18:41:46+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "last_updated": "2026-06-20T18:13:59+09:00",
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "1883d9f7",
@@ -8213,7 +8214,8 @@
       "status": "notified",
       "first_seen": "2026-06-20T18:13:59+09:00",
       "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "6c124e87",
@@ -9174,7 +9176,8 @@
       "status": "notified",
       "first_seen": "2026-06-20T18:13:59+09:00",
       "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "1be0de26",
@@ -9254,13 +9257,15 @@
         "door": 40003000
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-20T18:13:59+09:00",
       "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "ee2b0625",
@@ -9284,13 +9289,15 @@
         "door": 4000
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-20T18:13:59+09:00",
       "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "e82c2e14",
@@ -9314,13 +9321,15 @@
         "door": 4000
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-20T18:13:59+09:00",
       "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "e2fec78c",
@@ -9632,13 +9641,15 @@
         "door": 45003500
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-20T18:13:59+09:00",
       "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "64b4ff31",
@@ -9662,13 +9673,15 @@
         "door": 4500
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-20T18:13:59+09:00",
       "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "21d6b775",
@@ -9692,13 +9705,15 @@
         "door": 4500
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-20T18:13:59+09:00",
       "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "8ddd3ddc",
@@ -9778,13 +9793,15 @@
         "door": 45003500
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-20T18:13:59+09:00",
       "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "0091fb9a",
@@ -9808,13 +9825,15 @@
         "door": 4500
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-20T18:13:59+09:00",
       "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "34e13371",
@@ -9838,13 +9857,15 @@
         "door": 4500
       },
       "sources": [
-        "theater:lumine"
+        "theater:lumine",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-20T18:13:59+09:00",
       "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "e8252c42",
@@ -9869,9 +9890,10 @@
       ],
       "local_image": "fliers/e8252c42.jpg",
       "status": "notified",
-      "last_updated": "2026-06-20T18:13:59+09:00",
       "first_seen": "2026-06-19T18:44:32+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00"
+      "last_updated": "2026-06-20T18:13:59+09:00",
+      "notified_at": "2026-06-20T18:13:59+09:00",
+      "diff": null
     },
     {
       "id": "43605af8",

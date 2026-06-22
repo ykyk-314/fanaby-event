@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T18:26:33+09:00",
+  "updated_at": "2026-06-22T10:23:28+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -6780,9 +6780,10 @@
       ],
       "local_image": "fliers/4ef21b4d.jpg",
       "status": "notified",
-      "last_updated": "2026-06-21T18:26:32+09:00",
       "first_seen": "2026-06-02T18:40:31+09:00",
-      "notified_at": "2026-06-21T18:26:33+09:00"
+      "last_updated": "2026-06-21T18:26:32+09:00",
+      "notified_at": "2026-06-21T18:26:33+09:00",
+      "diff": null
     },
     {
       "id": "603f9271",
@@ -6808,9 +6809,10 @@
       ],
       "local_image": "fliers/603f9271.jpg",
       "status": "notified",
-      "last_updated": "2026-06-21T18:26:32+09:00",
       "first_seen": "2026-06-02T18:40:31+09:00",
-      "notified_at": "2026-06-21T18:26:33+09:00"
+      "last_updated": "2026-06-21T18:26:32+09:00",
+      "notified_at": "2026-06-21T18:26:33+09:00",
+      "diff": null
     },
     {
       "id": "0415ea1f",
@@ -9054,9 +9056,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-21T18:26:32+09:00",
       "first_seen": "2026-05-28T11:30:48+09:00",
-      "notified_at": "2026-06-21T18:26:33+09:00"
+      "last_updated": "2026-06-21T18:26:32+09:00",
+      "notified_at": "2026-06-21T18:26:33+09:00",
+      "diff": null
     },
     {
       "id": "db30c52e",
@@ -9616,6 +9619,33 @@
       "diff": null
     },
     {
+      "id": "24e566c3",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "よしもと　ド夏笑い(どかわらい) 3DAYS in 神戸2026",
+      "date": "2026-08-25",
+      "open_time": "18:15",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "ビスケットブラザーズ、コロコロチキチキペッパーズ、マイスイートメモリーズ、ジェラードン、ネルソンズ、ダンビラムーチョ、蛙亭、隣人\nラバーガール、ラブレターズ",
+      "venue": "神戸国際会館　こくさいホール",
+      "prefecture": "兵庫県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-22T10:23:28+09:00",
+      "last_updated": "2026-06-22T10:23:28+09:00",
+      "notified_at": "2026-06-22T10:23:28+09:00"
+    },
+    {
       "id": "1bd896ce",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -9762,9 +9792,10 @@
       ],
       "local_image": "fliers/cf06816a.jpg",
       "status": "notified",
-      "last_updated": "2026-06-21T18:26:32+09:00",
       "first_seen": "2026-06-05T18:21:47+09:00",
-      "notified_at": "2026-06-21T18:26:33+09:00"
+      "last_updated": "2026-06-21T18:26:32+09:00",
+      "notified_at": "2026-06-21T18:26:33+09:00",
+      "diff": null
     },
     {
       "id": "a4492174",

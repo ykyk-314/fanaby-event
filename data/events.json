@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T10:23:28+09:00",
+  "updated_at": "2026-06-22T19:12:04+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -9619,6 +9619,37 @@
       "diff": null
     },
     {
+      "id": "94d61e0b",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "ルミネtheよしもと25周年記念！スペシャルネタライブ！",
+      "date": "2026-08-24",
+      "open_time": "17:30",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "ザ・パンチ／トータルテンボス／くまだまさし／パンクブーブー／銀シャリ／もりやすバンバンビガロ／囲碁将棋／しずる／トレンディエンジェル／メンバー／ツートライブ／すゑひろがりず／ネルソンズ／マユリカ／ラニーノーズ／たくろう／ヨネダ2000",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17858/47147",
+      "online_url": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/23(火) 11:00 〜 6/25(木) 11:00\r\n当落発表：6/26(金) 18:00頃\r\n\r\n一般発売：6/27(土) 10:00\r\n\r\n※未就学児入場不可",
+      "price": {
+        "advance": 2500,
+        "door": 2500
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-22T19:12:03+09:00",
+      "last_updated": "2026-06-22T19:12:03+09:00",
+      "notified_at": "2026-06-22T19:12:04+09:00"
+    },
+    {
       "id": "24e566c3",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -9643,7 +9674,8 @@
       "status": "notified",
       "first_seen": "2026-06-22T10:23:28+09:00",
       "last_updated": "2026-06-22T10:23:28+09:00",
-      "notified_at": "2026-06-22T10:23:28+09:00"
+      "notified_at": "2026-06-22T10:23:28+09:00",
+      "diff": null
     },
     {
       "id": "1bd896ce",
@@ -9768,6 +9800,38 @@
       "last_updated": "2026-05-26T10:09:04+09:00",
       "notified_at": "2026-05-26T10:09:04+09:00",
       "diff": null
+    },
+    {
+      "id": "d4f57a2e",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ビスケットブラザーズの観にきてほしい",
+      "date": "2026-08-28",
+      "open_time": "20:15",
+      "start_time": "20:30",
+      "end_time": "21:30",
+      "members": "ビスケットブラザーズ／ゲスト：ジェラードン／ヘンダーソン／ミカボ／DOG FOOD PARTY／他",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17646/46744",
+      "online_url": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/23(火) 11:00 〜 6/25(月) 11:00\r\n当落発表：6/26(火) 18:00頃\r\n\r\n一般発売：6/27(土) 10:00",
+      "price": {
+        "advance": 3000,
+        "door": 3500,
+        "online": 1800
+      },
+      "sources": [
+        "theater:lumine",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-22T19:12:03+09:00",
+      "last_updated": "2026-06-22T19:12:03+09:00",
+      "notified_at": "2026-06-22T19:12:04+09:00"
     },
     {
       "id": "cf06816a",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T19:12:04+09:00",
+  "updated_at": "2026-06-23T10:09:01+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -5584,7 +5584,7 @@
       "members": "シゲカズです／ケビンス／黒帯／天才ピアニスト／三遊間／シカノシンプ",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000015669_1_20260623020723635.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -5592,12 +5592,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/725991ca.jpg",
       "status": "notified",
+      "last_updated": "2026-06-23T10:09:01+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-06-23T10:09:01+09:00"
     },
     {
       "id": "882d81bf",
@@ -6011,7 +6010,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "ゲスト:マユリカ／　\n十手／ダブルアート／黒帯／-ZX-／オーサカクレオパトラ／ドーナツ・ピーナツ／チェリー大作戦／空前メテオ／電気ジュース／シゲカズです",
+      "members": "ゲスト:マユリカ／　\n十手／ダブルアート／黒帯／-ZX-／オーサカクレオパトラ／ドーナツ・ピーナツ／チェリー大作戦／タレンチ／空前メテオ／電気ジュース／シゲカズです",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -6024,10 +6023,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-23T10:09:01+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "last_updated": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-04-27T12:05:52+09:00",
-      "diff": null
+      "notified_at": "2026-06-23T10:09:01+09:00"
     },
     {
       "id": "c7ada356",
@@ -7681,6 +7679,33 @@
       "last_updated": "2026-06-12T10:21:07+09:00",
       "notified_at": "2026-06-12T10:21:07+09:00",
       "diff": null
+    },
+    {
+      "id": "37a79ded",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "ケビンス×9番街レトロ ツーマンライブ「跳躍物無」",
+      "date": "2026-07-16",
+      "open_time": "17:30",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "ケビンス／9番街レトロ",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017691_1_20260622174658551.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/37a79ded.jpg",
+      "status": "notified",
+      "first_seen": "2026-06-23T10:09:01+09:00",
+      "last_updated": "2026-06-23T10:09:01+09:00",
+      "notified_at": "2026-06-23T10:09:01+09:00"
     },
     {
       "id": "54decacb",
@@ -9359,6 +9384,37 @@
       "diff": null
     },
     {
+      "id": "6fb83afe",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "TEAM近藤の新ネタやりたい人やってしまおうライブ",
+      "date": "2026-08-07",
+      "open_time": "20:20",
+      "start_time": "20:30",
+      "end_time": "21:30",
+      "members": "TEAM近藤／ヘンダーソン／CITY／ゆにばーす／ウルトラスーパーコバタナックス／ミズドリ／シンクロニシティ／はるかぜとともに／照山おうちごはん／他",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17655/46770",
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\nオンライン・一般発売：7/5（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 1800,
+        "door": 2100,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-23T10:09:01+09:00",
+      "last_updated": "2026-06-23T10:09:01+09:00",
+      "notified_at": "2026-06-23T10:09:01+09:00"
+    },
+    {
       "id": "502e864d",
       "talents": {
         "5114": "マユリカ",
@@ -9562,6 +9618,68 @@
       "diff": null
     },
     {
+      "id": "b2f99e4e",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "素敵じゃないかの漫才グランドチャンピオン",
+      "date": "2026-08-15",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "members": "素敵じゃないか／パンクブーブー／すゑひろがりず／蛙亭／まんじろう／シンクロニシティ／他",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17664/46777",
+      "online_url": null,
+      "notice": "素敵じゃないかが毎月ゲストを招いてお送りするネタとコーナーの60分！\r\n\r\n前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行：6/25（木）11:00～6/28（日）11:00　\r\n当落発表：6/29（月）18:00頃\r\nオンライン・一般発売：7/5（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 1800,
+        "door": 2100,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-23T10:09:01+09:00",
+      "last_updated": "2026-06-23T10:09:01+09:00",
+      "notified_at": "2026-06-23T10:09:01+09:00"
+    },
+    {
+      "id": "f886d6ed",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "大宮セブンライブ",
+      "date": "2026-08-19",
+      "open_time": "19:15",
+      "start_time": "19:30",
+      "end_time": "20:30",
+      "members": "マヂカルラブリー／囲碁将棋／GAG／すゑひろがりず／タモンズ／ジェラードン",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17660/46776",
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\nオンライン・一般発売：7/5（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n",
+      "price": {
+        "advance": 2300,
+        "door": 2600,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-23T10:09:01+09:00",
+      "last_updated": "2026-06-23T10:09:01+09:00",
+      "notified_at": "2026-06-23T10:09:01+09:00"
+    },
+    {
       "id": "fcf8d826",
       "talents": {
         "5114": "マユリカ",
@@ -9647,7 +9765,8 @@
       "status": "notified",
       "first_seen": "2026-06-22T19:12:03+09:00",
       "last_updated": "2026-06-22T19:12:03+09:00",
-      "notified_at": "2026-06-22T19:12:04+09:00"
+      "notified_at": "2026-06-22T19:12:04+09:00",
+      "diff": null
     },
     {
       "id": "24e566c3",
@@ -9831,7 +9950,8 @@
       "status": "notified",
       "first_seen": "2026-06-22T19:12:03+09:00",
       "last_updated": "2026-06-22T19:12:03+09:00",
-      "notified_at": "2026-06-22T19:12:04+09:00"
+      "notified_at": "2026-06-22T19:12:04+09:00",
+      "diff": null
     },
     {
       "id": "cf06816a",

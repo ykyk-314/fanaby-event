@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T10:09:01+09:00",
+  "updated_at": "2026-06-23T18:21:04+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -5594,9 +5594,10 @@
       ],
       "local_image": "fliers/725991ca.jpg",
       "status": "notified",
-      "last_updated": "2026-06-23T10:09:01+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-06-23T10:09:01+09:00"
+      "last_updated": "2026-06-23T10:09:01+09:00",
+      "notified_at": "2026-06-23T10:09:01+09:00",
+      "diff": null
     },
     {
       "id": "882d81bf",
@@ -6010,7 +6011,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "ゲスト:マユリカ／　\n十手／ダブルアート／黒帯／-ZX-／オーサカクレオパトラ／ドーナツ・ピーナツ／チェリー大作戦／タレンチ／空前メテオ／電気ジュース／シゲカズです",
+      "members": "ゲスト:マユリカ／　\n十手／ダブルアート／黒帯／ネイビーズアフロ／-ZX-／オーサカクレオパトラ／ドーナツ・ピーナツ／チェリー大作戦／タレンチ／空前メテオ／電気ジュース／シゲカズです",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -6023,9 +6024,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-23T10:09:01+09:00",
+      "last_updated": "2026-06-23T18:21:04+09:00",
       "first_seen": "2026-04-27T12:05:52+09:00",
-      "notified_at": "2026-06-23T10:09:01+09:00"
+      "notified_at": "2026-06-23T18:21:04+09:00"
     },
     {
       "id": "c7ada356",
@@ -7634,7 +7635,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17222/45945",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9-%E3%83%88%E3%83%AC%E3%83%B3%E3%83%87%E3%82%A3%E3%82%A8%E3%83%B3%E3%82%B8%E3%82%A7%E3%83%AB%E3%83%84%E3%83%BC%E3%83%9E%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%96-%E6%8A%9C%E3%81%91%E3%81%A6%E3%82%8B%E7%94%B7-7-15-21-00",
       "notice": "今回は「ケビンス」と「トレンディエンジェル」のツーマンライブを開催！\r\nそれぞれの個性が光るネタはもちろん、このライブだけのコラボ企画や掛け合いも見逃せません！異なるスタイルを持つ2組が交差することでどんな化学反応が起こるのか？！\r\nぜひ体感してください。\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/8(月) 11:00 〜 6/10(水) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/8(月) 11:00 〜 6/10(水) 11:00\r\n\r\n一般発売：6/12(金) 10:00\r\n\r\nオンラインチケット発売：6/12(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,
@@ -7705,7 +7706,8 @@
       "status": "notified",
       "first_seen": "2026-06-23T10:09:01+09:00",
       "last_updated": "2026-06-23T10:09:01+09:00",
-      "notified_at": "2026-06-23T10:09:01+09:00"
+      "notified_at": "2026-06-23T10:09:01+09:00",
+      "diff": null
     },
     {
       "id": "54decacb",
@@ -7844,7 +7846,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16367/43955",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/suiyou-gacchanko-260718",
       "notice": "■チケット情報■\r\n\r\n＜FANYチケット先行＞\r\n先行受付：6/6（土）11:00～6/8（月）11:00\r\n\r\n＜一般・オンラインチケット発売＞\r\n6/13（土）10:00～\r\n\r\n※本公演は、stand.fm「【ABCラジオ】がっちゃんこシーズン2」メンバーシップ会員を対象とした抽選販売を実施しております。予めご了承ください。\r\n\r\n※全席指定。\r\n※劇場内での飲食はお断りしております。（但し、ペットボトルのお飲み物は可）\r\n※未就学児は入場不可。\r\n※都合により出演者が異なる場合があります。\r\n※変更・払戻不可。記載日のみ有効。\r\n※ビデオ・カメラ、または携帯電話等での録音・録画・撮影・配信禁止。\r\n※他の方への迷惑行為と判断した場合はご退場頂く事があります。\r\n※イベントを収録する際はカメラに映る可能性があります。\r\n※立見の方は開場時間になりましたら整理番号順でご入場いただきます。\r\n　開場時に不在の場合は最後尾でご入場となる可能性があります。  \r\n\r\n【車いすでご来場のお客様へ】\r\n車いすをご使用の方は、必ず購入前に下記のFANYチケットお問合せ窓口までお問い合わせください。\r\nまた、視覚や聴覚等に障がいのある方で特別な配慮を必要とされる方も購入前にお問い合わせください。\r\n※ご来場時に障がい者手帳等のご提示をお願いする場合がございます。\r\n\r\nFANYチケットお問合せダイヤル　0570-550-100（10時～19時／年中無休）\r\nFANYチケットお問合せフォーム　https://f.msgs.jp/webapp/form/18802_evbb_16/index.do",
       "price": {
         "advance": 3000,
@@ -9406,13 +9408,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-23T10:09:01+09:00",
       "last_updated": "2026-06-23T10:09:01+09:00",
-      "notified_at": "2026-06-23T10:09:01+09:00"
+      "notified_at": "2026-06-23T10:09:01+09:00",
+      "diff": null
     },
     {
       "id": "502e864d",
@@ -9640,13 +9644,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-23T10:09:01+09:00",
       "last_updated": "2026-06-23T10:09:01+09:00",
-      "notified_at": "2026-06-23T10:09:01+09:00"
+      "notified_at": "2026-06-23T10:09:01+09:00",
+      "diff": null
     },
     {
       "id": "f886d6ed",
@@ -9671,13 +9677,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-23T10:09:01+09:00",
       "last_updated": "2026-06-23T10:09:01+09:00",
-      "notified_at": "2026-06-23T10:09:01+09:00"
+      "notified_at": "2026-06-23T10:09:01+09:00",
+      "diff": null
     },
     {
       "id": "fcf8d826",
@@ -9735,6 +9743,33 @@
       "last_updated": "2026-05-26T23:52:56+09:00",
       "notified_at": "2026-05-26T23:52:56+09:00",
       "diff": null
+    },
+    {
+      "id": "b54d7bbb",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "川島明の辞書で呑むTHEライブ４　たぎれ有明！たっぷり7000人で呑みましょう",
+      "date": "2026-08-23",
+      "open_time": "16:00",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "MC：川島明（麒麟）\n出演者：村上（マヂカルラブリー）、佐久間宣行、松丸亮吾、サーヤ（ラランド）、松田好花、蓮見翔（ダウ90000）",
+      "venue": "東京ガーデンシアター",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-23T18:21:04+09:00",
+      "last_updated": "2026-06-23T18:21:04+09:00",
+      "notified_at": "2026-06-23T18:21:04+09:00"
     },
     {
       "id": "94d61e0b",

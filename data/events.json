@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T18:18:52+09:00",
+  "updated_at": "2026-06-25T10:11:20+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -6335,9 +6335,10 @@
       ],
       "local_image": "fliers/e04436f5.jpg",
       "status": "notified",
-      "last_updated": "2026-06-24T18:18:52+09:00",
       "first_seen": "2026-06-11T18:41:46+09:00",
-      "notified_at": "2026-06-24T18:18:52+09:00"
+      "last_updated": "2026-06-24T18:18:52+09:00",
+      "notified_at": "2026-06-24T18:18:52+09:00",
+      "diff": null
     },
     {
       "id": "1883d9f7",
@@ -6381,13 +6382,13 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": "22:15",
-      "members": "[企画ライブ]シカゴ実業／いぬ／kento fukaya／ロジャー沖縄／ニッポンの社長／他",
+      "members": "[企画ライブ]シカゴ実業／いぬ／kento fukaya／ロジャー沖縄／ニッポンの社長／木本悠斗／他",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017533_1_20260623195807774.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16403/44042",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BF%81-7-2-21-00",
-      "notice": "シカゴ実業山本プロ野球企画、大阪時代からの人気公演！ネタとコーナーをお届けします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "notice": "シカゴ実業山本プロ野球企画、大阪時代からの人気公演！ネタとコーナーをお届けします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n[追加]\r\n木本悠斗(6/24)\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2300,
         "door": 2800,
@@ -6399,10 +6400,9 @@
       ],
       "local_image": "fliers/13456286.jpg",
       "status": "notified",
+      "last_updated": "2026-06-25T10:11:20+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "f86ac83c",
@@ -7926,6 +7926,37 @@
       "diff": null
     },
     {
+      "id": "7137051f",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "神回サミット",
+      "date": "2026-07-19",
+      "open_time": "18:45",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "members": "[企画ライブ]ケビンス 仁木／カゲヤマ 益田／9番街レトロ なかむら／ド桜 村田／金魚番長 箕輪／ゼロカラン／野澤輸出",
+      "venue": "渋谷よしもと漫才劇場",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18098/47676",
+      "online_url": null,
+      "notice": "ケビンス仁木企画の大喜利ライブ！\r\n大喜利スタイルで神回を決定！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/26(金) 11:00 〜 6/29(月) 11:00\r\n当落発表：6/30(火) 18:00頃\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/26(金) 11:00 〜 6/26(金) 11:00\r\n当落発表：6/30(火) 18:00頃\r\n\r\n一般発売：7/1(水) 10:00\r\n\r\nオンラインチケット発売：7/1(水) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1300
+      },
+      "sources": [
+        "theater:shibuya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
       "id": "a27cecec",
       "talents": {
         "5110": "kento fukaya"
@@ -8491,7 +8522,7 @@
       "members": "[企画ライブ]kento fukaya／ビスケットブラザーズ きん",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017401_1_20260617200937578.jpeg",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017401_1_20260624170113646.jpeg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16455/44111",
       "online_url": null,
       "notice": "ネタのブラッシュアップ。ミニ単独ライブです！いやリトル単独ライブと言ったところか！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
@@ -8505,10 +8536,9 @@
       ],
       "local_image": "fliers/9b0f2b96.jpeg",
       "status": "notified",
+      "last_updated": "2026-06-25T10:11:20+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-06-19T10:25:36+09:00",
-      "notified_at": "2026-06-19T10:25:36+09:00",
-      "diff": null
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "a1703894",
@@ -9234,6 +9264,33 @@
       "diff": null
     },
     {
+      "id": "895de6f6",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "Kakeru翔グランプリWEST",
+      "date": "2026-08-01",
+      "open_time": "15:30",
+      "start_time": "15:45",
+      "end_time": null,
+      "members": "ごぞうろっぷ／三遊間／ときヲりぴーと／オニイチャン／空前メテオ／ジョックロック／ライムギ／電気ジュース／天ロクの丘／彼岸花／満丸／ミケネ系／あんよの日／東雲／生姜猫／バリアシオン／おもしろジャンケン／ちあき／清川雄司",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
       "id": "c8a8d703",
       "talents": {
         "10708": "シンクロニシティ",
@@ -9289,6 +9346,37 @@
       "last_updated": "2026-04-29T10:03:51+09:00",
       "notified_at": "2026-04-29T10:03:51+09:00",
       "diff": null
+    },
+    {
+      "id": "5c8790a4",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "六本木ネオン～ジェラードン×3時のヒロイン×ケビンス～",
+      "date": "2026-08-02",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "members": "ジェラードン／3時のヒロイン／ケビンス",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18228/47866",
+      "online_url": null,
+      "notice": "ジェラードンと3時のヒロインとケビンスの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/29（月）11:00～7/1（水）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n■配信チケット■\r\n〇発売日：7/5（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2500,
+        "door": 3000,
+        "online": 1500
+      },
+      "sources": [
+        "theater:roppongi"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "10456687",
@@ -9375,6 +9463,36 @@
       "diff": null
     },
     {
+      "id": "7abc58a0",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "照山おうちごはんpresents「おせチンジャオロース」",
+      "date": "2026-08-05",
+      "open_time": "19:15",
+      "start_time": "19:30",
+      "end_time": "20:30",
+      "members": "照山おうちごはん／ライス／ビスケットブラザーズ",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18230/47865",
+      "online_url": null,
+      "notice": "照山おうちごはんがゲストをお呼びして、コントとコーナーで楽しんでいただく60分！\r\nおせち♪おせち♪おせチンジャオロース♪\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/29（月）11:00～7/1（水）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2000,
+        "door": 2500
+      },
+      "sources": [
+        "theater:roppongi"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
       "id": "8e8f5529",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -9397,9 +9515,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-24T18:18:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T18:18:52+09:00"
+      "last_updated": "2026-06-24T18:18:52+09:00",
+      "notified_at": "2026-06-24T18:18:52+09:00",
+      "diff": null
     },
     {
       "id": "e51d1ff0",
@@ -9425,9 +9544,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-24T18:18:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T18:18:52+09:00"
+      "last_updated": "2026-06-24T18:18:52+09:00",
+      "notified_at": "2026-06-24T18:18:52+09:00",
+      "diff": null
     },
     {
       "id": "e9f220a5",
@@ -9567,18 +9687,23 @@
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17655/46770",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\nオンライン・一般発売：7/5（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 1800,
+        "door": 2100,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-24T18:18:52+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
       "first_seen": "2026-06-23T10:09:01+09:00",
-      "notified_at": "2026-06-24T18:18:52+09:00"
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "2c012c14",
@@ -9608,9 +9733,41 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-24T18:18:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T18:18:52+09:00"
+      "last_updated": "2026-06-24T18:18:52+09:00",
+      "notified_at": "2026-06-24T18:18:52+09:00",
+      "diff": null
+    },
+    {
+      "id": "e0c04574",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "六本木コントナイト-60-",
+      "date": "2026-08-08",
+      "open_time": "18:30",
+      "start_time": "18:45",
+      "end_time": "19:45",
+      "members": "佐久間一行／ロングコートダディ／ライス／しずる／ビスケットブラザーズ／ヨネダ2000／ななまがり／ぼる塾",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17642/46740",
+      "online_url": null,
+      "notice": "■会場チケット■\r\n全席指定\r\n〇先行受付：6/25（木）11:00～6/28（日）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2800,
+        "door": 3300
+      },
+      "sources": [
+        "theater:roppongi",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "18bf5b36",
@@ -9643,6 +9800,64 @@
       "last_updated": "2026-06-24T10:07:20+09:00",
       "notified_at": "2026-06-24T10:07:20+09:00",
       "diff": null
+    },
+    {
+      "id": "ba360f78",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "六本木ネオン～ロングコートダディ×ビスケットブラザーズ×ヨネダ2000〜",
+      "date": "2026-08-08",
+      "open_time": "20:15",
+      "start_time": "20:30",
+      "end_time": "21:30",
+      "members": "ロングコートダディ／ビスケットブラザーズ／ヨネダ2000",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": "■会場チケット■\r\n全席指定\r\n※販売スケジュールは後日掲載いたします。\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2800,
+        "door": 3300,
+        "online": 1800
+      },
+      "sources": [
+        "theater:roppongi"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "3a221a93",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "天才ピアニストpresentsすっぴん眼鏡",
+      "date": "2026-08-08",
+      "open_time": "20:30",
+      "start_time": "20:45",
+      "end_time": null,
+      "members": "天才ピアニスト／オーサカクレオパトラ りえちゃん／爛々 萌々／電気ジュース 福沢／やました／はるかぜに告ぐ／獅子丸 もういっちょ！とん平",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "502e864d",
@@ -9701,6 +9916,33 @@
       "last_updated": "2026-06-24T10:07:20+09:00",
       "notified_at": "2026-06-24T10:07:20+09:00",
       "diff": null
+    },
+    {
+      "id": "691ea9d6",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "翔全員ライブ!!!体育祭SP",
+      "date": "2026-08-09",
+      "open_time": "17:45",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "cacao／コブラマン／ごぞうろっぷ／三遊間／シャガール／タイムキーパー／ときヲりぴーと／どんちっち／ファンファーレと熱狂／半年記念日／オニイチャン／空前メテオ／ぐろう／シスター／ジョックロック／マーメイド／ライムギ／キョンビ／九ノ段／シカノシンプ／　\n例えば炎／電気ジュース／天ロクの丘／マーティー／釈迦虎／彼岸花／満丸／ミケネ系／ミステリーハンター／あんよの日／東雲／生姜猫／入学卒業／バリアシオン／シンボリル／おもしろジャンケン／ちあき／ゆくえ／清川雄司",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "11760a00",
@@ -9792,6 +10034,33 @@
       "diff": null
     },
     {
+      "id": "2527e49e",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "七転八起",
+      "date": "2026-08-10",
+      "open_time": "19:15",
+      "start_time": "19:30",
+      "end_time": null,
+      "members": "ときヲりぴーと／ゲスト:マルセイユ／ビスケットブラザーズ",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
       "id": "0b45718e",
       "talents": {
         "5110": "kento fukaya"
@@ -9858,6 +10127,114 @@
       "diff": null
     },
     {
+      "id": "ca6f01ce",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "幕張お盆ネタＳＰ",
+      "date": "2026-08-12",
+      "open_time": "13:30",
+      "start_time": "14:00",
+      "end_time": null,
+      "members": "[ネタ]西川のりお・上方よしお／もりやすバンバンビガロ／トレンディエンジェル／コロコロチキチキペッパーズ／ゆにばーす／ケビンス／他",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "f0d70552",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "幕張お盆ネタＳＰ",
+      "date": "2026-08-12",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "[ネタ]西川のりお・上方よしお／もりやすバンバンビガロ／トレンディエンジェル／コロコロチキチキペッパーズ／ゆにばーす／ケビンス／他",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "433cfa1e",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "森ノ宮Kakeru翔SP",
+      "date": "2026-08-13",
+      "open_time": "10:45",
+      "start_time": "11:00",
+      "end_time": null,
+      "members": "半年記念日／オニイチャン／空前メテオ／ジョックロック／清川雄司／電気ジュース／あんよの日／入学卒業／おもしろジャンケン／ゲスト:ザ・パンチ／トット／たくろう",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "ddb24632",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "隣人のコントライブ",
+      "date": "2026-08-14",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": null,
+      "members": "隣人／うただ／オニイチャン／シカノシンプ／ゲスト:ダブルアート／マイスイートメモリーズ／ビスケットブラザーズ／伝書鳩",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
       "id": "6857ebbe",
       "talents": {
         "2772": "マヂカルラブリー"
@@ -9867,7 +10244,7 @@
       "open_time": "10:30",
       "start_time": "11:00",
       "end_time": null,
-      "members": "矢野・兵動／テンダラー／マヂカルラブリー／トット／ドンデコルテ／他\n[新喜劇]辻本茂雄／他",
+      "members": "矢野・兵動／テンダラー／マヂカルラブリー／トット／他\n[新喜劇]辻本茂雄／他",
       "venue": "COOL JAPAN PARK OSAKA TTホール",
       "prefecture": "大阪府",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017630_1_20260601131900755.jpg",
@@ -9880,10 +10257,9 @@
       ],
       "local_image": "fliers/6857ebbe.jpg",
       "status": "notified",
+      "last_updated": "2026-06-25T10:11:20+09:00",
       "first_seen": "2026-06-01T19:01:33+09:00",
-      "last_updated": "2026-06-01T19:01:33+09:00",
-      "notified_at": "2026-06-01T19:01:34+09:00",
-      "diff": null
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "fafa5dad",
@@ -9895,7 +10271,7 @@
       "open_time": "13:30",
       "start_time": "14:00",
       "end_time": null,
-      "members": "矢野・兵動／テンダラー／マヂカルラブリー／トット／ドンデコルテ／他\n[新喜劇]辻本茂雄／他",
+      "members": "矢野・兵動／テンダラー／マヂカルラブリー／トット／他\n[新喜劇]辻本茂雄／他",
       "venue": "COOL JAPAN PARK OSAKA TTホール",
       "prefecture": "大阪府",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017634_1_20260601131914680.jpg",
@@ -9908,10 +10284,9 @@
       ],
       "local_image": "fliers/fafa5dad.jpg",
       "status": "notified",
+      "last_updated": "2026-06-25T10:11:20+09:00",
       "first_seen": "2026-06-01T19:01:33+09:00",
-      "last_updated": "2026-06-01T19:01:33+09:00",
-      "notified_at": "2026-06-01T19:01:34+09:00",
-      "diff": null
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "0d7c1a0d",
@@ -9956,22 +10331,27 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": "18:00",
-      "members": "素敵じゃないか／パンクブーブー／すゑひろがりず／蛙亭／まんじろう／シンクロニシティ／他",
+      "members": "素敵じゃないか／パンクブーブー／すゑひろがりず／蛙亭／まんじろう／シンクロニシティ／太鵬／他",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17664/46777",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "素敵じゃないかが毎月ゲストを招いてお送りするネタとコーナーの60分！\r\n\r\n前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行：6/25（木）11:00～6/28（日）11:00　\r\n当落発表：6/29（月）18:00頃\r\nオンライン・一般発売：7/5（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 1800,
+        "door": 2100,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-24T18:18:52+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
       "first_seen": "2026-06-23T10:09:01+09:00",
-      "notified_at": "2026-06-24T18:18:52+09:00"
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "fc5cff88",
@@ -10102,6 +10482,37 @@
       "diff": null
     },
     {
+      "id": "ac7b53c8",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "六本木ネオン～ななまがり×コロコロチキチキペッパーズ×ビスケットブラザーズ〜",
+      "date": "2026-08-16",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "members": "ななまがり／コロコロチキチキペッパーズ／ビスケットブラザーズ",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": "ななまがりとコロコロチキチキペッパーズとビスケットブラザーズの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：7/4（土）11:00～7/6（月）11:00\r\n〇一般販売：7/8（水）10:00\r\n\r\n■配信チケット■\r\n〇発売日：7/8（水）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2500,
+        "door": 3000,
+        "online": 1500
+      },
+      "sources": [
+        "theater:roppongi"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
       "id": "7476aa12",
       "talents": {
         "5110": "kento fukaya"
@@ -10130,7 +10541,70 @@
       "status": "notified",
       "first_seen": "2026-06-24T18:18:52+09:00",
       "last_updated": "2026-06-24T18:18:52+09:00",
-      "notified_at": "2026-06-24T18:18:52+09:00"
+      "notified_at": "2026-06-24T18:18:52+09:00",
+      "diff": null
+    },
+    {
+      "id": "58e0451e",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "浪速コント倶楽部",
+      "date": "2026-08-16",
+      "open_time": "18:30",
+      "start_time": "18:45",
+      "end_time": "19:45",
+      "members": "ななまがり／コロコロチキチキペッパーズ／ビスケットブラザーズ／九条ジョー／滝音／蛙亭",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17796/46991",
+      "online_url": null,
+      "notice": "関西出身のコント師が集結！\r\n\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/25（木）11:00～6/28（日）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:roppongi",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "0e80c9f4",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ご無沙汰ネタ集め！～昔に作ったコントを披露する会～",
+      "date": "2026-08-16",
+      "open_time": "20:15",
+      "start_time": "20:30",
+      "end_time": "21:30",
+      "members": "ななまがり／コロコロチキチキペッパーズ／ビスケットブラザーズ／滝音／蛙亭",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17797/46989",
+      "online_url": null,
+      "notice": "昔に作ったコントを久しぶりに披露するコントライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/25（木）11:00～6/28（日）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:roppongi",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "d62fb848",
@@ -10221,9 +10695,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-24T18:18:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T18:18:52+09:00"
+      "last_updated": "2026-06-24T18:18:52+09:00",
+      "notified_at": "2026-06-24T18:18:52+09:00",
+      "diff": null
     },
     {
       "id": "a5069b91",
@@ -10272,18 +10747,23 @@
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17660/46776",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\nオンライン・一般発売：7/5（日）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n",
+      "price": {
+        "advance": 2300,
+        "door": 2600,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-24T18:18:52+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
       "first_seen": "2026-06-23T10:09:01+09:00",
-      "notified_at": "2026-06-24T18:18:52+09:00"
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "95e8b5cb",
@@ -10346,6 +10826,122 @@
       "last_updated": "2026-06-03T10:24:51+09:00",
       "notified_at": "2026-06-03T10:24:51+09:00",
       "diff": null
+    },
+    {
+      "id": "944c7202",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "森ノ宮Kakeru翔LIVEプラス",
+      "date": "2026-08-21",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "シャガール／タイムキーパー／半年記念日／空前メテオ／マーメイド／ライムギ／シカノシンプ／例えば炎／電気ジュース",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "fc2edc76",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "ガチ飯コントライブ",
+      "date": "2026-08-21",
+      "open_time": "19:15",
+      "start_time": "19:30",
+      "end_time": "20:30",
+      "members": "レインボー／ネルソンズ／スクールゾーン／シンクロニシティ／他",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17822/47017",
+      "online_url": null,
+      "notice": "ネタ中に本気でご飯を食べるコントライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/25（木）11:00～6/28（日）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:roppongi",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "89b43bd5",
+      "talents": {
+        "5110": "kento fukaya",
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "原始人ライブ",
+      "date": "2026-08-21",
+      "open_time": "19:15",
+      "start_time": "19:30",
+      "end_time": null,
+      "members": "フースーヤ／アイラブ地球 コウノ・オブ・ザ・イヤー／祇園 木﨑／マイスイートメモリーズ 花谷／ツートライブ／今井らいぱち／kento fukaya／ビスケットブラザーズ 原田／たくろう きむらバンド",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "a4c1e323",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "野澤輸出のコント「カラオケ」",
+      "date": "2026-08-21",
+      "open_time": "21:00",
+      "start_time": "21:15",
+      "end_time": "22:15",
+      "members": "野澤輸出／ケビンス／大石／ナユタ／他",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18232/47869",
+      "online_url": null,
+      "notice": "■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/29（月）11:00～7/1（水）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:roppongi"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "fedfdb5a",
@@ -10499,6 +11095,33 @@
       "last_updated": "2026-06-24T10:07:20+09:00",
       "notified_at": "2026-06-24T10:07:20+09:00",
       "diff": null
+    },
+    {
+      "id": "747684f7",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "マンゲキLIVE夏休みSP",
+      "date": "2026-08-25",
+      "open_time": "13:15",
+      "start_time": "13:30",
+      "end_time": null,
+      "members": "ゲスト:ザ・パンチ／コロコロチキチキペッパーズ／　\nフースーヤ／華山／もも／イチオク／オーサカクレオパトラ／とくいち／例えば炎／電気ジュース／釈迦虎",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "24e566c3",
@@ -10753,6 +11376,7 @@
     {
       "id": "d4f57a2e",
       "talents": {
+        "5110": "kento fukaya",
         "5997": "ビスケットブラザーズ"
       },
       "title": "ビスケットブラザーズの観にきてほしい",
@@ -10760,7 +11384,7 @@
       "open_time": "20:15",
       "start_time": "20:30",
       "end_time": "21:30",
-      "members": "ビスケットブラザーズ／ゲスト：ジェラードン／ヘンダーソン／ミカボ／DOG FOOD PARTY／他",
+      "members": "ビスケットブラザーズ／ゲスト：ジェラードン／ヘンダーソン／kento fukaya／ミカボ／DOG FOOD PARTY",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -10778,10 +11402,90 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-25T10:11:20+09:00",
       "first_seen": "2026-06-22T19:12:03+09:00",
-      "last_updated": "2026-06-22T19:12:03+09:00",
-      "notified_at": "2026-06-22T19:12:04+09:00",
-      "diff": null
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "3042039a",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "森ノ宮Kakeru翔SP",
+      "date": "2026-08-29",
+      "open_time": "10:45",
+      "start_time": "11:00",
+      "end_time": null,
+      "members": "cacao／半年記念日／シスター／ライムギ／シカノシンプ／電気ジュース／彼岸花／あんよの日／東雲／入学卒業／ちあき／ゲスト:吉田たち／エバース",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "bd9b7fae",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "気になるあの娘とビスケットブラザーズ",
+      "date": "2026-08-29",
+      "open_time": "17:00",
+      "start_time": "17:15",
+      "end_time": null,
+      "members": "気になるあの娘／ゲスト：ビスケットブラザーズ",
+      "venue": "よしもと福岡 大和証券劇場",
+      "prefecture": "福岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "74fefc6a",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "ごぞうろっぷの「他力本願」",
+      "date": "2026-08-29",
+      "open_time": "17:45",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "ごぞうろっぷ／黒帯／丸亀じゃんご／愛凛冴／フースーヤ／電気ジュース／九ノ段",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "cf06816a",
@@ -10810,6 +11514,63 @@
       "last_updated": "2026-06-24T10:07:20+09:00",
       "notified_at": "2026-06-24T10:07:20+09:00",
       "diff": null
+    },
+    {
+      "id": "688e76e7",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "やさしいズタイpresents",
+      "date": "2026-08-30",
+      "open_time": "18:45",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "やさしいズ タイ／やさしいズ 佐伯元輝／ビスケットブラザーズ／男性ブランコ／紅しょうが／たくろう／ダンビラムーチョ／しゃかりき／フースーヤ",
+      "venue": "よしもと福岡 大和証券劇場",
+      "prefecture": "福岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
+    },
+    {
+      "id": "e263a7dd",
+      "talents": {
+        "5110": "kento fukaya"
+      },
+      "title": "ROPPONGIコントリーグ GAGチームvsニッポンの社長チーム",
+      "date": "2026-08-30",
+      "open_time": "19:00",
+      "start_time": "19:15",
+      "end_time": "20:30",
+      "members": "【GAGチーム】GAG／ライス／ヨネダ2000／エレガント人生／【ニッポンの社長チーム】ニッポンの社長／カゲヤマ／kento fukaya／軟水",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": "6チーム総当たりのリーグ戦を行い、コントによる熾烈なバトルを繰り広げる「ROPPONGIコントリーグ」\r\n勝敗を決めるのは観客の皆様の投票！\r\n今回の対決は、GAGチームVSニッポンの社長チームです！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/30（火）11:00～7/2（木）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:roppongi"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "a4492174",
@@ -10906,6 +11667,38 @@
       "last_updated": "2026-06-20T18:13:59+09:00",
       "notified_at": "2026-06-20T18:13:59+09:00",
       "diff": null
+    },
+    {
+      "id": "01f5b1c9",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "山口コンボイMVPへの道",
+      "date": "2026-08-31",
+      "open_time": "21:00",
+      "start_time": "21:15",
+      "end_time": "22:15",
+      "members": "ケビンス／オダウエダ／ブラゴーリ／生ファラオ／イチゴ／他",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17826/47018",
+      "online_url": null,
+      "notice": "様々な設定内でブロックごとに1番場を盛り上げたMVPを勝手に決めます。果たして山口コンボイはMVPになれるのか...！？\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/25（木）11:00～6/28（日）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n■配信チケット■\r\n〇発売日：7/5（日）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1500
+      },
+      "sources": [
+        "theater:roppongi",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-25T10:11:20+09:00",
+      "last_updated": "2026-06-25T10:11:20+09:00",
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "e8252c42",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T10:14:27+09:00",
+  "updated_at": "2026-06-26T18:18:07+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -5950,13 +5950,13 @@
       "open_time": "20:30",
       "start_time": "20:45",
       "end_time": "21:45",
-      "members": "レインボー／ビスケットブラザーズ／ななまがり／他",
+      "members": "レインボー／ビスケットブラザーズ／ななまがり／カゲヤマ 益田",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016162_1_20260517031433670.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15745/42799",
       "online_url": null,
-      "notice": "「柔」と「剛」を兼ね備えるメンバーが集結し、ネタとコーナーで熱くなります！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：5/3（日）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "notice": "「柔」と「剛」を兼ね備えるメンバーが集結し、ネタとコーナーで熱くなります！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：5/3（日）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nカゲヤマ 益田（6/26）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2500,
         "door": 3000
@@ -5967,10 +5967,9 @@
       ],
       "local_image": "fliers/33c3a775.jpg",
       "status": "notified",
+      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-26T18:18:07+09:00"
     },
     {
       "id": "84fd2805",
@@ -6159,7 +6158,7 @@
       "members": "ニッポンの社長／ビスケットブラザーズ／しずる／ネルソンズ／ななまがり／蛙亭",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016163_1_20260626172526081.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15727/42788",
       "online_url": null,
       "notice": "2組ずつがお互いにリクエストしたネタを披露しあうライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/3（日）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■変更履歴■\r\n[追加]\r\n蛙亭(6/19)",
@@ -6171,12 +6170,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/148f095d.jpg",
       "status": "notified",
+      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-06-20T10:14:55+09:00",
-      "notified_at": "2026-06-20T10:14:56+09:00",
-      "diff": null
+      "notified_at": "2026-06-26T18:18:07+09:00"
     },
     {
       "id": "7ab11efd",
@@ -6289,7 +6287,7 @@
       "members": "セッツァー／ゲスト：セルライトスパ／ビスケットブラザーズ／カベポスター／kento fukaya／いぬ／軟水／ピュート",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017435_1_20260626173347101.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16601/44534",
       "online_url": null,
       "notice": "セッツァー主催！\r\n白髪ヅラを愛する芸人たちによる白髪ネタを満喫できる60分。\r\n辺り一面銀世界ライブご堪能あれ。\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/25（月）11:00～5/28（木）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -6301,12 +6299,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/4c106bdd.jpg",
       "status": "notified",
+      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-26T18:18:07+09:00"
     },
     {
       "id": "e04436f5",
@@ -6959,7 +6956,7 @@
       "members": "ロングコートダディ／ニッポンの社長／ヨネダ2000／MC：kento fukaya",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017466_1_20260626174918268.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16830/44935",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%8D%E3%82%AA%E3%83%B3-%E3%83%AD%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%BC%E3%83%88%E3%83%80%E3%83%87%E3%82%A3-%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E3%81%AE%E7%A4%BE%E9%95%B7-%E3%83%A8%E3%83%8D%E3%83%802000-7-7-21-15",
       "notice": "ロングコートダディとニッポンの社長とヨネダ2000の3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：6/1（月）11:00～6/3（水）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -6972,12 +6969,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/66972315.jpg",
       "status": "notified",
+      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-26T18:18:07+09:00"
     },
     {
       "id": "fc7e6206",
@@ -7270,7 +7266,7 @@
       "members": "生姜猫／ななまがり／ビスケットブラザーズ／セルライトスパ／コットン",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017474_1_20260626175220281.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16855/45013",
       "online_url": null,
       "notice": "■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/27（水）11:00～5/29（金）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -7282,12 +7278,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/b672ed81.jpg",
       "status": "notified",
+      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-26T18:18:07+09:00"
     },
     {
       "id": "55c186f5",
@@ -7982,9 +7977,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-26T10:14:27+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-26T10:14:27+09:00"
+      "last_updated": "2026-06-26T10:14:27+09:00",
+      "notified_at": "2026-06-26T10:14:27+09:00",
+      "diff": null
     },
     {
       "id": "9751910f",
@@ -9342,7 +9338,8 @@
       "status": "notified",
       "first_seen": "2026-06-26T10:14:27+09:00",
       "last_updated": "2026-06-26T10:14:27+09:00",
-      "notified_at": "2026-06-26T10:14:27+09:00"
+      "notified_at": "2026-06-26T10:14:27+09:00",
+      "diff": null
     },
     {
       "id": "c8a8d703",
@@ -10245,6 +10242,60 @@
       "diff": null
     },
     {
+      "id": "bd84b2b0",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in東京",
+      "date": "2026-08-12",
+      "open_time": "15:15",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "今夜も星が綺麗、滝音、ダンビラムーチョ、TCクラクション、ななまがり、ビスケットブラザーズ、他",
+      "venue": "めぐろパーシモンホール　大ホール",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-26T18:18:06+09:00",
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00"
+    },
+    {
+      "id": "24654405",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in東京",
+      "date": "2026-08-12",
+      "open_time": "18:15",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "今夜も星が綺麗、滝音、ダンビラムーチョ、TCクラクション、ななまがり、ビスケットブラザーズ、他",
+      "venue": "めぐろパーシモンホール　大ホール",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-26T18:18:06+09:00",
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00"
+    },
+    {
       "id": "433cfa1e",
       "talents": {
         "11715": "電気ジュース"
@@ -10417,9 +10468,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-26T10:14:27+09:00",
       "first_seen": "2026-06-23T10:09:01+09:00",
-      "notified_at": "2026-06-26T10:14:27+09:00"
+      "last_updated": "2026-06-26T10:14:27+09:00",
+      "notified_at": "2026-06-26T10:14:27+09:00",
+      "diff": null
     },
     {
       "id": "fc5cff88",
@@ -10742,6 +10794,60 @@
       "last_updated": "2026-06-24T10:07:20+09:00",
       "notified_at": "2026-06-24T10:07:20+09:00",
       "diff": null
+    },
+    {
+      "id": "b2b8ac1a",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in札幌",
+      "date": "2026-08-17",
+      "open_time": "14:15",
+      "start_time": "15:00",
+      "end_time": null,
+      "members": "蛙亭、今夜も星が綺麗、ゼロカラン、滝音、ダンビラムーチョ、TCクラクション、ななまがり、ビスケットブラザーズ",
+      "venue": "札幌市教育文化会館 大ホール",
+      "prefecture": "北海道",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-26T18:18:06+09:00",
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00"
+    },
+    {
+      "id": "84888f65",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in札幌",
+      "date": "2026-08-17",
+      "open_time": "17:15",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "蛙亭、今夜も星が綺麗、ゼロカラン、滝音、ダンビラムーチョ、TCクラクション、ななまがり、ビスケットブラザーズ",
+      "venue": "札幌市教育文化会館 大ホール",
+      "prefecture": "北海道",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-26T18:18:06+09:00",
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00"
     },
     {
       "id": "7a80e682",
@@ -11666,7 +11772,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18254/47897",
       "online_url": null,
       "notice": "6チーム総当たりのリーグ戦を行い、コントによる熾烈なバトルを繰り広げる「ROPPONGIコントリーグ」\r\n勝敗を決めるのは観客の皆様の投票！\r\n今回の対決は、GAGチームVSニッポンの社長チームです！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/30（火）11:00～7/2（木）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
@@ -11678,10 +11784,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "last_updated": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-25T10:11:20+09:00",
-      "diff": null
+      "notified_at": "2026-06-26T18:18:07+09:00"
     },
     {
       "id": "a4492174",
@@ -11813,6 +11918,60 @@
       "diff": null
     },
     {
+      "id": "397da61d",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in福岡",
+      "date": "2026-09-05",
+      "open_time": "13:15",
+      "start_time": "14:00",
+      "end_time": null,
+      "members": "今夜も星が綺麗、スタミナパン、セルライトスパ、TCクラクション、ななまがり、ビスケットブラザーズ、見取り図、他",
+      "venue": "福岡国際会議場　メインホール",
+      "prefecture": "福岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-26T18:18:06+09:00",
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00"
+    },
+    {
+      "id": "e510440a",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in福岡",
+      "date": "2026-09-05",
+      "open_time": "16:15",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "今夜も星が綺麗、スタミナパン、セルライトスパ、TCクラクション、ななまがり、ビスケットブラザーズ、見取り図、他",
+      "venue": "福岡国際会議場　メインホール",
+      "prefecture": "福岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-26T18:18:06+09:00",
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00"
+    },
+    {
       "id": "e8252c42",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -11867,6 +12026,60 @@
       "last_updated": "2026-05-27T18:22:27+09:00",
       "notified_at": "2026-05-27T18:22:28+09:00",
       "diff": null
+    },
+    {
+      "id": "d5f19f0b",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in名古屋",
+      "date": "2026-09-11",
+      "open_time": "14:15",
+      "start_time": "15:00",
+      "end_time": null,
+      "members": "蛙亭、からし蓮根、今夜も星が綺麗、滝音、TCクラクション、ななまがり、ビスケットブラザーズ、他",
+      "venue": "日本特殊陶業市民会館　ビレッジホール",
+      "prefecture": "愛知県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-26T18:18:06+09:00",
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00"
+    },
+    {
+      "id": "d5cdc568",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in名古屋",
+      "date": "2026-09-11",
+      "open_time": "17:15",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "蛙亭、からし蓮根、今夜も星が綺麗、滝音、TCクラクション、ななまがり、ビスケットブラザーズ、他",
+      "venue": "日本特殊陶業市民会館　ビレッジホール",
+      "prefecture": "愛知県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-26T18:18:06+09:00",
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00"
     },
     {
       "id": "eaf46088",
@@ -11990,7 +12203,7 @@
       "open_time": "09:30",
       "start_time": "10:30",
       "end_time": null,
-      "members": "≪9/21 出演アーティスト≫\n新しい学校のリーダーズ、カジヒデキ、くまま、サニーデイ・サービス　and more...\n\n≪9/21 出演芸人≫\n相席スタート、アキナ、エバース、エルフ、カゲヤマ、カベポスター、クロスバー直撃、佐久間一行、しずる、シャンプーハット、スリムクラブ、ダイアン、ちょんまげラーメン、軟水、ネルソンズ、NON STYLE、ビスケットブラザーズ、ピュート、ヘッドライト、紅しょうが、めぞん、隣人、レインボー、笑い飯　and more...\n\n≪9/21 フォートナイトエリア≫\n今別府直之、宇都宮まき、Unger、かめてぃん、川畑泰史、キャプテンしょーた、しゅんてゃん、土屋(ミカボ)、寺本(テンプルカントリー)、らいと、らいふがーど、LiaqN　and more...",
+      "members": "≪9/21 出演アーティスト≫\n新しい学校のリーダーズ、カジヒデキ、くまま、サニーデイ・サービス　and more...\n\n≪9/21 出演芸人≫\n相席スタート、アキナ、エバース、エルフ、カゲヤマ、カベポスター、クロスバー直撃、佐久間一行、しずる、シャンプーハット、スリムクラブ、ダイアン、ちょんまげラーメン、軟水、ネルソンズ、NON STYLE、ビスケットブラザーズ、ピュート、ヘッドライト、紅しょうが、めぞん、隣人、レインボー、笑い飯　and more...\n\n≪9/21 フォートナイトエリア≫\nUnger、今別府直之、宇都宮まき、かめてぃん、川畑泰史、キャプテンしょーた、しゅんてゃん、土屋(ミカボ)、寺本(テンプルカントリー)、らいと、らいふがーど、LiaqN　and more...",
       "venue": "インテックス大阪　4号館、5号館",
       "prefecture": "大阪府",
       "image_url": null,
@@ -12003,10 +12216,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-29T18:24:21+09:00",
-      "last_updated": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-05-29T18:24:21+09:00",
-      "diff": null
+      "notified_at": "2026-06-26T18:18:07+09:00"
     },
     {
       "id": "7f2c685c",
@@ -12018,7 +12230,7 @@
       "open_time": "09:30",
       "start_time": "10:30",
       "end_time": null,
-      "members": "≪9/21 出演アーティスト≫\n新しい学校のリーダーズ、カジヒデキ、くまま、サニーデイ・サービス　and more...\n\n≪9/21 出演芸人≫\n相席スタート、アキナ、エバース、エルフ、カゲヤマ、カベポスター、クロスバー直撃、佐久間一行、しずる、シャンプーハット、スリムクラブ、ダイアン、ちょんまげラーメン、軟水、ネルソンズ、NON STYLE、ビスケットブラザーズ、ピュート、ヘッドライト、紅しょうが、めぞん、隣人、レインボー、笑い飯　and more...\n\n≪9/21 フォートナイトエリア≫\n今別府直之、宇都宮まき、Unger、かめてぃん、川畑泰史、キャプテンしょーた、しゅんてゃん、土屋(ミカボ)、寺本(テンプルカントリー)、らいと、らいふがーど、LiaqN　and more...",
+      "members": "≪9/21 出演アーティスト≫\n新しい学校のリーダーズ、カジヒデキ、くまま、サニーデイ・サービス　and more...\n\n≪9/21 出演芸人≫\n相席スタート、アキナ、エバース、エルフ、カゲヤマ、カベポスター、クロスバー直撃、佐久間一行、しずる、シャンプーハット、スリムクラブ、ダイアン、ちょんまげラーメン、軟水、ネルソンズ、NON STYLE、ビスケットブラザーズ、ピュート、ヘッドライト、紅しょうが、めぞん、隣人、レインボー、笑い飯　and more...\n\n≪9/21 フォートナイトエリア≫\nUnger、今別府直之、宇都宮まき、かめてぃん、川畑泰史、キャプテンしょーた、しゅんてゃん、土屋(ミカボ)、寺本(テンプルカントリー)、らいと、らいふがーど、LiaqN　and more...",
       "venue": "インテックス大阪　4号館、5号館",
       "prefecture": "大阪府",
       "image_url": null,
@@ -12031,10 +12243,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-29T18:24:21+09:00",
-      "last_updated": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-05-29T18:24:21+09:00",
-      "diff": null
+      "notified_at": "2026-06-26T18:18:07+09:00"
     },
     {
       "id": "3b671863",
@@ -12158,7 +12369,7 @@
       "open_time": "09:30",
       "start_time": "10:30",
       "end_time": null,
-      "members": "≪9/21 出演アーティスト≫\n新しい学校のリーダーズ、カジヒデキ、くまま、サニーデイ・サービス　and more...\n\n≪9/21 出演芸人≫\n相席スタート、アキナ、エバース、エルフ、カゲヤマ、カベポスター、クロスバー直撃、佐久間一行、しずる、シャンプーハット、スリムクラブ、ダイアン、ちょんまげラーメン、軟水、ネルソンズ、NON STYLE、ビスケットブラザーズ、ピュート、ヘッドライト、紅しょうが、めぞん、隣人、レインボー、笑い飯　and more...\n\n≪9/21 フォートナイトエリア≫\n今別府直之、宇都宮まき、Unger、かめてぃん、川畑泰史、キャプテンしょーた、しゅんてゃん、土屋(ミカボ)、寺本(テンプルカントリー)、らいと、らいふがーど、LiaqN　and more...",
+      "members": "≪9/21 出演アーティスト≫\n新しい学校のリーダーズ、カジヒデキ、くまま、サニーデイ・サービス　and more...\n\n≪9/21 出演芸人≫\n相席スタート、アキナ、エバース、エルフ、カゲヤマ、カベポスター、クロスバー直撃、佐久間一行、しずる、シャンプーハット、スリムクラブ、ダイアン、ちょんまげラーメン、軟水、ネルソンズ、NON STYLE、ビスケットブラザーズ、ピュート、ヘッドライト、紅しょうが、めぞん、隣人、レインボー、笑い飯　and more...\n\n≪9/21 フォートナイトエリア≫\nUnger、今別府直之、宇都宮まき、かめてぃん、川畑泰史、キャプテンしょーた、しゅんてゃん、土屋(ミカボ)、寺本(テンプルカントリー)、らいと、らいふがーど、LiaqN　and more...",
       "venue": "インテックス大阪　4号館、5号館",
       "prefecture": "大阪府",
       "image_url": null,
@@ -12171,10 +12382,63 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-29T18:24:21+09:00",
-      "last_updated": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-05-29T18:24:21+09:00",
-      "diff": null
+      "notified_at": "2026-06-26T18:18:07+09:00"
+    },
+    {
+      "id": "9b139e03",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in大阪",
+      "date": "2026-10-03",
+      "open_time": "13:15",
+      "start_time": "14:00",
+      "end_time": null,
+      "members": "蛙亭、今夜も星が綺麗、滝音、ダンビラムーチョ、TCクラクション、ななまがり、ビスケットブラザーズ、隣人",
+      "venue": "COOL JAPAN PARK OSAKA WWホール",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-26T18:18:06+09:00",
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00"
+    },
+    {
+      "id": "f58fcb5e",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in大阪",
+      "date": "2026-10-03",
+      "open_time": "16:15",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "蛙亭、今夜も星が綺麗、滝音、ダンビラムーチョ、TCクラクション、ななまがり、ビスケットブラザーズ、隣人",
+      "venue": "COOL JAPAN PARK OSAKA WWホール",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-26T18:18:06+09:00",
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00"
     },
     {
       "id": "43162563",

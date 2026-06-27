@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T18:18:07+09:00",
+  "updated_at": "2026-06-27T10:10:11+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -5967,9 +5967,10 @@
       ],
       "local_image": "fliers/33c3a775.jpg",
       "status": "notified",
-      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "84fd2805",
@@ -6041,7 +6042,7 @@
       "members": "野澤輸出／マユリカ 中谷",
       "venue": "よしもと道頓堀シアター",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016239_1_20260626181213575.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -6049,12 +6050,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/c7ada356.jpg",
       "status": "notified",
+      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "last_updated": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-04-29T10:03:51+09:00",
-      "diff": null
+      "notified_at": "2026-06-27T10:10:11+09:00"
     },
     {
       "id": "62baf9ef",
@@ -6172,9 +6172,10 @@
       ],
       "local_image": "fliers/148f095d.jpg",
       "status": "notified",
-      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "7ab11efd",
@@ -6301,9 +6302,10 @@
       ],
       "local_image": "fliers/4c106bdd.jpg",
       "status": "notified",
-      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "e04436f5",
@@ -6415,7 +6417,7 @@
       "members": "隣人／ダブルアート／マイスイートメモリーズ／うただ／cacao／釈迦虎／ゲスト:ビスケットブラザーズ／ザ・プラン9",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016893_1_20260626215004818.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -6423,12 +6425,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/f86ac83c.jpg",
       "status": "notified",
+      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00",
-      "diff": null
+      "notified_at": "2026-06-27T10:10:11+09:00"
     },
     {
       "id": "5413fb57",
@@ -6730,13 +6731,13 @@
       "open_time": "20:30",
       "start_time": "20:45",
       "end_time": "22:15",
-      "members": "カゲヤマ／サルゴリラ／ライス／ロングコートダディ／コロコロチキチキペッパーズ／ビスケットブラザーズ／ドンデコルテ",
+      "members": "カゲヤマ 益田／サルゴリラ／ライス／ロングコートダディ／コロコロチキチキペッパーズ／ビスケットブラザーズ／ドンデコルテ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017574_1_20260618210254885.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/17049/45257",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/roppongi26070520",
-      "notice": "カゲヤマ益田脚本のドラマ台本を出演者が1分間で覚えて演じる即興コントライブ。\r\n誰かが台詞を間違えたり、飛ばしたりした時点で罰ゲームも…!?\r\n今回は1周年ということで、キングオブコントチャンピオンが勢揃い！\r\nさらに！主催カゲヤマ益田の同居人、ドンデコルテも参加したスペシャルバージョンでお届けします。\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "notice": "カゲヤマ益田脚本のドラマ台本を出演者が1分間で覚えて演じる即興コントライブ。\r\n誰かが台詞を間違えたり、飛ばしたりした時点で罰ゲームも…!?\r\n今回は1周年ということで、キングオブコントチャンピオンが勢揃い！\r\nさらに！主催カゲヤマ益田の同居人、ドンデコルテも参加したスペシャルバージョンでお届けします。\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n■変更履歴■\r\nカゲヤマタバやん。都合により、休演いたします。誠に申し訳ございません。(6/26)\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 3300,
         "door": 3800,
@@ -6748,10 +6749,9 @@
       ],
       "local_image": "fliers/b9855b6c.jpg",
       "status": "notified",
+      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-06-19T10:25:36+09:00",
-      "notified_at": "2026-06-19T10:25:36+09:00",
-      "diff": null
+      "notified_at": "2026-06-27T10:10:11+09:00"
     },
     {
       "id": "4ef21b4d",
@@ -6971,9 +6971,10 @@
       ],
       "local_image": "fliers/66972315.jpg",
       "status": "notified",
-      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "fc7e6206",
@@ -7280,9 +7281,10 @@
       ],
       "local_image": "fliers/b672ed81.jpg",
       "status": "notified",
-      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "55c186f5",
@@ -7388,13 +7390,13 @@
       "open_time": "18:30",
       "start_time": "18:45",
       "end_time": "20:00",
-      "members": "MC：バイク川崎バイク／【ニッポンの社長チーム】ニッポンの社長／天才ピアニスト／kento fukaya／カゲヤマ／【銀河ゆめゆめチーム】銀河ゆめゆめ／インポッシブル／そいつどいつ／５ＧＡＰ",
+      "members": "MC：バイク川崎バイク／【ニッポンの社長チーム】ニッポンの社長／天才ピアニスト／kento fukaya／カゲヤマ 益田／【銀河ゆめゆめチーム】銀河ゆめゆめ／インポッシブル／そいつどいつ／５ＧＡＰ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017479_1_20260610212519645.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16858/45010",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/roppongi%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%82%B0-%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E3%81%AE%E7%A4%BE%E9%95%B7%E3%83%81%E3%83%BC%E3%83%A0-vs-%E9%8A%80%E6%B2%B3%E3%82%86%E3%82%81%E3%82%86%E3%82%81%E3%83%81%E3%83%BC%E3%83%A0-7-12-18-45",
-      "notice": "6チーム総当たりのリーグ戦を行い、コントによる熾烈なバトルを繰り広げる「ROPPONGIコントリーグ」\r\n勝敗を決めるのは観客の皆様の投票！\r\n今回の対決は、ニッポンの社長チームVS銀河ゆめゆめチームです！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/27（水）11:00～5/29（金）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "notice": "6チーム総当たりのリーグ戦を行い、コントによる熾烈なバトルを繰り広げる「ROPPONGIコントリーグ」\r\n勝敗を決めるのは観客の皆様の投票！\r\n今回の対決は、ニッポンの社長チームVS銀河ゆめゆめチームです！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/27（水）11:00～5/29（金）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/5（金）10:00\r\n\r\n■変更履歴■\r\nカゲヤマタバやん。都合により、休演いたします。誠に申し訳ございません。(6/26)\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2500,
         "door": 3000,
@@ -7406,10 +7408,9 @@
       ],
       "local_image": "fliers/e68d0cbe.jpg",
       "status": "notified",
+      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-06-11T10:18:16+09:00",
-      "notified_at": "2026-06-11T10:18:16+09:00",
-      "diff": null
+      "notified_at": "2026-06-27T10:10:11+09:00"
     },
     {
       "id": "9ec5fbfe",
@@ -7995,7 +7996,7 @@
       "members": "ペナルティ／ビスケットブラザーズ／紅しょうが／MC：さや香 石井",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017496_1_20260626183443190.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16832/44934",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%8D%E3%82%AA%E3%83%B3-%E3%83%9A%E3%83%8A%E3%83%AB%E3%83%86%E3%82%A3-%E3%83%93%E3%82%B9%E3%82%B1%E3%83%83%E3%83%88%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA-%E7%B4%85%E3%81%97%E3%82%87%E3%81%86%E3%81%8C-7-19-19-15",
       "notice": "ペナルティとビスケットブラザーズと紅しょうがの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/1（月）11:00～6/3（水）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -8008,12 +8009,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/9751910f.jpg",
       "status": "notified",
+      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-27T10:10:11+09:00"
     },
     {
       "id": "00d0d9b1",
@@ -8061,7 +8061,7 @@
       "members": "セルライトスパ ヒーゴー／ビスケットブラザーズ 原田／ロングコートダディ 兎／さや香 石井／ダンビラムーチョ 大原／ラニーノーズ 洲崎／9番街レトロ／ケビンス 山口コンボイ／うるとらブギーズ 八木／しんや／野澤輸出／らぶおじさん",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017497_1_20260626183239056.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -8069,12 +8069,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/0cee2b43.jpg",
       "status": "notified",
+      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-06-20T10:14:55+09:00",
-      "notified_at": "2026-06-20T10:14:56+09:00",
-      "diff": null
+      "notified_at": "2026-06-27T10:10:11+09:00"
     },
     {
       "id": "3e5be91d",
@@ -8121,7 +8120,7 @@
       "members": "ケビンス／紅しょうが 熊元プロレス／9番街レトロ／九条ジョー／金魚番長 箕輪／イチゴ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017502_1_20260626183824613.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16867/45023",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%B1%B1%E5%8F%A3%E3%82%B3%E3%83%B3%E3%83%9C%E3%82%A4mvp%E3%81%B8%E3%81%AE%E9%81%93-7-20-20-45",
       "notice": "様々な設定内でブロックごとに１番場を盛り上げたMVPを勝手に決めます。果たして山口コンボイはMVPになれるのか…！？\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/27（水）11:00～5/29（金）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -8134,12 +8133,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/8b5d731d.jpg",
       "status": "notified",
+      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-27T10:10:11+09:00"
     },
     {
       "id": "08a3be72",
@@ -8877,7 +8875,7 @@
       "members": "やさしいズ／ビスケットブラザーズ／男性ブランコ／蛙亭／軟水／他",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017513_1_20260626191555410.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16869/45021",
       "online_url": null,
       "notice": "遂に第六回の複数ライブ開催が決定しました！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/27（水）11:00～5/29（金）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -8889,12 +8887,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/42e6c745.jpg",
       "status": "notified",
+      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-27T10:10:11+09:00"
     },
     {
       "id": "9be590a1",
@@ -8970,7 +8967,7 @@
       "members": "ビスケットブラザーズ／ななまがり／ネルソンズ／セルライトスパ／男性ブランコ／バイク川崎バイク／今井らいぱち／DOG FOOD PARTY",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017514_1_20260626191829321.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16986/45176",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%93%E3%82%B9%E3%82%B1%E3%83%83%E3%83%88%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA%E3%81%AE%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%81%A7%E3%82%84%E3%82%8B%E3%82%84%E3%81%A7-7-28-21-15",
       "notice": "■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/2（火）11:00～6/4（木）11:00\r\n〇一般販売：6/6（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：6/6（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -8983,12 +8980,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/d1bbffda.jpg",
       "status": "notified",
+      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-30T17:57:37+09:00",
-      "notified_at": "2026-05-30T17:57:37+09:00",
-      "diff": null
+      "notified_at": "2026-06-27T10:10:11+09:00"
     },
     {
       "id": "34612477",
@@ -10266,7 +10262,8 @@
       "status": "notified",
       "first_seen": "2026-06-26T18:18:06+09:00",
       "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "24654405",
@@ -10293,7 +10290,8 @@
       "status": "notified",
       "first_seen": "2026-06-26T18:18:06+09:00",
       "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "433cfa1e",
@@ -10820,7 +10818,8 @@
       "status": "notified",
       "first_seen": "2026-06-26T18:18:06+09:00",
       "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "84888f65",
@@ -10847,7 +10846,8 @@
       "status": "notified",
       "first_seen": "2026-06-26T18:18:06+09:00",
       "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "7a80e682",
@@ -11428,6 +11428,68 @@
       "diff": null
     },
     {
+      "id": "c0929b76",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "決勝進出者だらけの激アツ寄席",
+      "date": "2026-08-27",
+      "open_time": "18:50",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "members": "ななまがり／ジェラードン／ツートライブ／オズワルド／ビスケットブラザーズ",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18241/47878",
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n[チケット情報]\r\n《8/27(木)通し券》(1)決勝進出者だらけの激アツ寄席(2)たかのりに続け！ネクストビジュ爆芸人発掘ライブ！\r\n2公演通し券：3,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：6/28（日）11:00～6/30（火）11:00　※通し券だけ先行\r\n当落発表：7/1（水）18:00頃\r\nオンライン・一般発売：7/2（木）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n\r\n■2公演オンラインセット券　2,400円",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-27T10:10:11+09:00",
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00"
+    },
+    {
+      "id": "a9a0f50b",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "たかのりに続け！ネクストビジュ爆芸人発掘ライブ！",
+      "date": "2026-08-27",
+      "open_time": "20:20",
+      "start_time": "20:30",
+      "end_time": "21:30",
+      "members": "ツートライブ／ななまがり／ジェラードン／オズワルド／ビスケットブラザーズ",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18242/47880",
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n[チケット情報]\r\n《8/27(木)通し券》(1)決勝進出者だらけの激アツ寄席(2)たかのりに続け！ネクストビジュ爆芸人発掘ライブ！\r\n2公演通し券：3,500円\r\n\r\n▼大宮劇場の通し券公演はこちら\r\nhttps://r.ticket.fany.lol/omiya_toshikenn\r\n\r\n先行期間：6/28（日）11:00～6/30（火）11:00　※通し券だけ先行\r\n当落発表：7/1（水）18:00頃\r\nオンライン・一般発売：7/2（木）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n\r\n■2公演オンラインセット券　2,400円",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-27T10:10:11+09:00",
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00"
+    },
+    {
       "id": "1bd896ce",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -11600,7 +11662,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17646/46744",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/lumine-26082820",
       "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/23(火) 11:00 〜 6/25(月) 11:00\r\n当落発表：6/26(火) 18:00頃\r\n\r\n一般発売：6/27(土) 10:00",
       "price": {
         "advance": 3000,
@@ -11645,6 +11707,60 @@
       "last_updated": "2026-06-25T10:11:20+09:00",
       "notified_at": "2026-06-25T10:11:20+09:00",
       "diff": null
+    },
+    {
+      "id": "4f3a7c24",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "キョキョラジ番組イベント「キョキョキョライブ」",
+      "date": "2026-08-29",
+      "open_time": "13:00",
+      "start_time": "13:30",
+      "end_time": null,
+      "members": "仁木恭平（ケビンス）、京極風斗（9番街レトロ）\nゲスト：村田大樹（ド桜）",
+      "venue": "草月ホール",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-27T10:10:11+09:00",
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00"
+    },
+    {
+      "id": "95db1892",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "キョキョラジ番組イベント「キョキョキョライブ」",
+      "date": "2026-08-29",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "仁木恭平（ケビンス）、京極風斗（9番街レトロ）",
+      "venue": "草月ホール",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-27T10:10:11+09:00",
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00"
     },
     {
       "id": "bd9b7fae",
@@ -11784,9 +11900,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "a4492174",
@@ -11942,7 +12059,8 @@
       "status": "notified",
       "first_seen": "2026-06-26T18:18:06+09:00",
       "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "e510440a",
@@ -11969,7 +12087,8 @@
       "status": "notified",
       "first_seen": "2026-06-26T18:18:06+09:00",
       "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "e8252c42",
@@ -12052,7 +12171,8 @@
       "status": "notified",
       "first_seen": "2026-06-26T18:18:06+09:00",
       "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "d5cdc568",
@@ -12079,7 +12199,8 @@
       "status": "notified",
       "first_seen": "2026-06-26T18:18:06+09:00",
       "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "eaf46088",
@@ -12216,9 +12337,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "7f2c685c",
@@ -12243,9 +12365,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "3b671863",
@@ -12382,9 +12505,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-26T18:18:06+09:00",
       "first_seen": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "last_updated": "2026-06-26T18:18:06+09:00",
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "9b139e03",
@@ -12411,7 +12535,8 @@
       "status": "notified",
       "first_seen": "2026-06-26T18:18:06+09:00",
       "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "f58fcb5e",
@@ -12438,7 +12563,8 @@
       "status": "notified",
       "first_seen": "2026-06-26T18:18:06+09:00",
       "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00"
+      "notified_at": "2026-06-26T18:18:07+09:00",
+      "diff": null
     },
     {
       "id": "43162563",

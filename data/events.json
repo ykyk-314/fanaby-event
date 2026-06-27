@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T10:10:11+09:00",
+  "updated_at": "2026-06-27T18:04:38+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -5735,8 +5735,7 @@
         "online": 2000
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/761384ed.jpg",
       "status": "notified",
@@ -6042,7 +6041,7 @@
       "members": "野澤輸出／マユリカ 中谷",
       "venue": "よしもと道頓堀シアター",
       "prefecture": "大阪府",
-      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016239_1_20260626181213575.jpg",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016239_1_20260627103638668.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -6052,9 +6051,9 @@
       ],
       "local_image": "fliers/c7ada356.jpg",
       "status": "notified",
-      "last_updated": "2026-06-27T10:10:11+09:00",
+      "last_updated": "2026-06-27T18:04:38+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "notified_at": "2026-06-27T18:04:38+09:00"
     },
     {
       "id": "62baf9ef",
@@ -6427,9 +6426,10 @@
       ],
       "local_image": "fliers/f86ac83c.jpg",
       "status": "notified",
-      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "5413fb57",
@@ -6749,9 +6749,10 @@
       ],
       "local_image": "fliers/b9855b6c.jpg",
       "status": "notified",
-      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "4ef21b4d",
@@ -7408,9 +7409,10 @@
       ],
       "local_image": "fliers/e68d0cbe.jpg",
       "status": "notified",
-      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "9ec5fbfe",
@@ -8011,9 +8013,10 @@
       ],
       "local_image": "fliers/9751910f.jpg",
       "status": "notified",
-      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "00d0d9b1",
@@ -8071,9 +8074,10 @@
       ],
       "local_image": "fliers/0cee2b43.jpg",
       "status": "notified",
-      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "3e5be91d",
@@ -8135,9 +8139,10 @@
       ],
       "local_image": "fliers/8b5d731d.jpg",
       "status": "notified",
-      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "08a3be72",
@@ -8889,9 +8894,10 @@
       ],
       "local_image": "fliers/42e6c745.jpg",
       "status": "notified",
-      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "9be590a1",
@@ -8982,9 +8988,10 @@
       ],
       "local_image": "fliers/d1bbffda.jpg",
       "status": "notified",
-      "last_updated": "2026-06-27T10:10:11+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "last_updated": "2026-06-27T10:10:11+09:00",
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "34612477",
@@ -11450,13 +11457,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-27T10:10:11+09:00",
       "last_updated": "2026-06-27T10:10:11+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "a9a0f50b",
@@ -11481,13 +11490,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-06-27T10:10:11+09:00",
       "last_updated": "2026-06-27T10:10:11+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "1bd896ce",
@@ -11733,7 +11744,8 @@
       "status": "notified",
       "first_seen": "2026-06-27T10:10:11+09:00",
       "last_updated": "2026-06-27T10:10:11+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "95db1892",
@@ -11760,7 +11772,8 @@
       "status": "notified",
       "first_seen": "2026-06-27T10:10:11+09:00",
       "last_updated": "2026-06-27T10:10:11+09:00",
-      "notified_at": "2026-06-27T10:10:11+09:00"
+      "notified_at": "2026-06-27T10:10:11+09:00",
+      "diff": null
     },
     {
       "id": "bd9b7fae",
@@ -12147,6 +12160,33 @@
       "diff": null
     },
     {
+      "id": "1dd0077e",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in名古屋",
+      "date": "2026-09-11",
+      "open_time": "14:15",
+      "start_time": "15:00",
+      "end_time": null,
+      "members": "蛙亭、からし蓮根、今夜も星が綺麗、滝音、TCクラクション、ななまがり、ビスケットブラザーズ、他",
+      "venue": "Niterra日本特殊陶業市民会館　ﾋﾞﾚｯｼﾞﾎｰﾙ",
+      "prefecture": "愛知県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-27T18:04:38+09:00",
+      "last_updated": "2026-06-27T18:04:38+09:00",
+      "notified_at": "2026-06-27T18:04:38+09:00"
+    },
+    {
       "id": "d5f19f0b",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -12173,6 +12213,33 @@
       "last_updated": "2026-06-26T18:18:06+09:00",
       "notified_at": "2026-06-26T18:18:07+09:00",
       "diff": null
+    },
+    {
+      "id": "9aaf05d9",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "ダブルインパクトツアー2026in名古屋",
+      "date": "2026-09-11",
+      "open_time": "17:15",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "蛙亭、からし蓮根、今夜も星が綺麗、滝音、TCクラクション、ななまがり、ビスケットブラザーズ、他",
+      "venue": "Niterra日本特殊陶業市民会館　ﾋﾞﾚｯｼﾞﾎｰﾙ",
+      "prefecture": "愛知県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-27T18:04:38+09:00",
+      "last_updated": "2026-06-27T18:04:38+09:00",
+      "notified_at": "2026-06-27T18:04:38+09:00"
     },
     {
       "id": "d5cdc568",

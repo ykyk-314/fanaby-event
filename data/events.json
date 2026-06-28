@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T10:16:01+09:00",
+  "updated_at": "2026-06-28T18:13:13+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -5830,14 +5830,14 @@
         "online": 2000
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-28T10:16:01+09:00",
       "first_seen": "2026-05-17T10:10:08+09:00",
-      "notified_at": "2026-06-28T10:16:01+09:00"
+      "last_updated": "2026-06-28T10:16:01+09:00",
+      "notified_at": "2026-06-28T10:16:01+09:00",
+      "diff": null
     },
     {
       "id": "a4f70cb3",
@@ -5933,9 +5933,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-28T10:16:01+09:00",
       "first_seen": "2026-05-17T10:10:08+09:00",
-      "notified_at": "2026-06-28T10:16:01+09:00"
+      "last_updated": "2026-06-28T10:16:01+09:00",
+      "notified_at": "2026-06-28T10:16:01+09:00",
+      "diff": null
     },
     {
       "id": "33c3a775",
@@ -6049,9 +6050,10 @@
       ],
       "local_image": "fliers/c7ada356.jpg",
       "status": "notified",
-      "last_updated": "2026-06-28T10:16:01+09:00",
       "first_seen": "2026-04-29T10:03:51+09:00",
-      "notified_at": "2026-06-28T10:16:01+09:00"
+      "last_updated": "2026-06-28T10:16:01+09:00",
+      "notified_at": "2026-06-28T10:16:01+09:00",
+      "diff": null
     },
     {
       "id": "62baf9ef",
@@ -6184,13 +6186,13 @@
       "open_time": "21:15",
       "start_time": "21:30",
       "end_time": "22:30",
-      "members": "ニッポンの社長／ビスケットブラザーズ／ネルソンズ／ななまがり／オフローズ",
+      "members": "ニッポンの社長／ビスケットブラザーズ／ネルソンズ／ななまがり／オフローズ／MC：ダブルヒガシ 東",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016164_1_20260603225008575.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/15728/42786",
       "online_url": null,
-      "notice": "6月限定！結婚やお見合いなどのネタを集めたコントライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/3（日）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "notice": "6月限定！結婚やお見合いなどのネタを集めたコントライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/3（日）11:00～5/7（木）11:00\r\n〇一般販売：5/9（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nダブルヒガシ 東（6/28）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2500,
         "door": 3000
@@ -6201,10 +6203,9 @@
       ],
       "local_image": "fliers/7ab11efd.jpg",
       "status": "notified",
+      "last_updated": "2026-06-28T18:13:12+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "last_updated": "2026-06-04T10:25:01+09:00",
-      "notified_at": "2026-06-04T10:25:01+09:00",
-      "diff": null
+      "notified_at": "2026-06-28T18:13:13+09:00"
     },
     {
       "id": "0fba039f",
@@ -6378,13 +6379,13 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": "22:15",
-      "members": "[企画ライブ]シカゴ実業／いぬ／kento fukaya／ロジャー沖縄／ニッポンの社長／木本悠斗／他",
+      "members": "[企画ライブ]シカゴ実業／イチキップリン／カゲヤマ 益田／いぬ／kento fukaya／ロジャー沖縄／ニッポンの社長／木本悠斗／他",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017533_1_20260623195807774.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/16403/44042",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BF%81-7-2-21-00",
-      "notice": "シカゴ実業山本プロ野球企画、大阪時代からの人気公演！ネタとコーナーをお届けします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n[追加]\r\n木本悠斗(6/24)\r\n※都合により、出演者が変更になる可能性がございます。",
+      "notice": "シカゴ実業山本プロ野球企画、大阪時代からの人気公演！ネタとコーナーをお届けします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：5/25(月) 11:00 〜 5/28(木) 11:00\r\n\r\n一般発売：6/5(金) 10:00\r\n\r\nオンラインチケット発売：6/5(金) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n[追加]\r\n木本悠斗(6/24)\r\nイチキップリン(6/28)\r\nカゲヤマ益田(6/28)\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2300,
         "door": 2800,
@@ -6396,10 +6397,9 @@
       ],
       "local_image": "fliers/13456286.jpg",
       "status": "notified",
+      "last_updated": "2026-06-28T18:13:12+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-25T10:11:20+09:00",
-      "diff": null
+      "notified_at": "2026-06-28T18:13:13+09:00"
     },
     {
       "id": "f86ac83c",
@@ -9422,7 +9422,8 @@
         "online": 1500
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -9537,7 +9538,8 @@
         "door": 2500
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -9755,9 +9757,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-28T10:16:01+09:00",
       "first_seen": "2026-06-23T10:09:01+09:00",
-      "notified_at": "2026-06-28T10:16:01+09:00"
+      "last_updated": "2026-06-28T10:16:01+09:00",
+      "notified_at": "2026-06-28T10:16:01+09:00",
+      "diff": null
     },
     {
       "id": "2c012c14",
@@ -9870,7 +9873,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18348/48108",
       "online_url": null,
       "notice": "■会場チケット■\r\n全席指定\r\n※販売スケジュールは後日掲載いたします。\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
@@ -9883,10 +9886,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-28T18:13:12+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "last_updated": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-25T10:11:20+09:00",
-      "diff": null
+      "notified_at": "2026-06-28T18:13:13+09:00"
     },
     {
       "id": "3a221a93",
@@ -10617,7 +10619,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18326/48084",
       "online_url": null,
       "notice": "ななまがりとコロコロチキチキペッパーズとビスケットブラザーズの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：7/4（土）11:00～7/6（月）11:00\r\n〇一般販売：7/8（水）10:00\r\n\r\n■配信チケット■\r\n〇発売日：7/8（水）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
@@ -10630,10 +10632,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-28T18:13:12+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "last_updated": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-25T10:11:20+09:00",
-      "diff": null
+      "notified_at": "2026-06-28T18:13:13+09:00"
     },
     {
       "id": "7476aa12",
@@ -11148,7 +11149,8 @@
         "door": 3000
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -11217,6 +11219,36 @@
       "last_updated": "2026-06-24T10:07:20+09:00",
       "notified_at": "2026-06-24T10:07:20+09:00",
       "diff": null
+    },
+    {
+      "id": "15f52498",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "六本木コント総選挙～お客様が選ぶコントライブ～",
+      "date": "2026-08-23",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "members": "ジェラードン／ビスケットブラザーズ／ネルソンズ／蛙亭／ダンビラムーチョ",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18327/48083",
+      "online_url": null,
+      "notice": "お客様の投票で披露するネタが決まるコントライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：7/4（土）11:00～7/6（月）11:00\r\n〇一般販売：7/8（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nビスケットブラザーズ（6/28）\r\nダンビラムーチョ（6/28）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:roppongi"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-06-28T18:13:12+09:00",
+      "last_updated": "2026-06-28T18:13:12+09:00",
+      "notified_at": "2026-06-28T18:13:13+09:00"
     },
     {
       "id": "b54d7bbb",

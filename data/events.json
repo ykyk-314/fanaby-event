@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T18:13:13+09:00",
+  "updated_at": "2026-06-29T10:16:33+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -6203,9 +6203,10 @@
       ],
       "local_image": "fliers/7ab11efd.jpg",
       "status": "notified",
-      "last_updated": "2026-06-28T18:13:12+09:00",
       "first_seen": "2026-05-20T12:44:27+09:00",
-      "notified_at": "2026-06-28T18:13:13+09:00"
+      "last_updated": "2026-06-28T18:13:12+09:00",
+      "notified_at": "2026-06-28T18:13:13+09:00",
+      "diff": null
     },
     {
       "id": "0fba039f",
@@ -6397,9 +6398,10 @@
       ],
       "local_image": "fliers/13456286.jpg",
       "status": "notified",
-      "last_updated": "2026-06-28T18:13:12+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-28T18:13:13+09:00"
+      "last_updated": "2026-06-28T18:13:12+09:00",
+      "notified_at": "2026-06-28T18:13:13+09:00",
+      "diff": null
     },
     {
       "id": "f86ac83c",
@@ -9886,9 +9888,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-28T18:13:12+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-28T18:13:13+09:00"
+      "last_updated": "2026-06-28T18:13:12+09:00",
+      "notified_at": "2026-06-28T18:13:13+09:00",
+      "diff": null
     },
     {
       "id": "3a221a93",
@@ -10632,9 +10635,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-28T18:13:12+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-28T18:13:13+09:00"
+      "last_updated": "2026-06-28T18:13:12+09:00",
+      "notified_at": "2026-06-28T18:13:13+09:00",
+      "diff": null
     },
     {
       "id": "7476aa12",
@@ -11248,7 +11252,8 @@
       "status": "notified",
       "first_seen": "2026-06-28T18:13:12+09:00",
       "last_updated": "2026-06-28T18:13:12+09:00",
-      "notified_at": "2026-06-28T18:13:13+09:00"
+      "notified_at": "2026-06-28T18:13:13+09:00",
+      "diff": null
     },
     {
       "id": "b54d7bbb",

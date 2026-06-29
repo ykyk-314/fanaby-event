@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T10:16:33+09:00",
+  "updated_at": "2026-06-29T18:46:58+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -8341,13 +8341,13 @@
       "open_time": "19:00",
       "start_time": "19:15",
       "end_time": "20:15",
-      "members": "[企画ライブ]セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／阿部直也／オズワルド／シシガシラ",
+      "members": "[企画ライブ]セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／阿部直也／オズワルド／シシガシラ／ゲスト：カベポスター",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16736/44832",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE-7-22-19-15",
-      "notice": "文字通り四分間にすべてを注ぐ漫才師達のネタライブ。\r\n四分にちなんだコーナーも？！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "notice": "文字通り四分間にすべてを注ぐ漫才師達のネタライブ。\r\n四分にちなんだコーナーも？！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n■変更履歴■\r\n[追加]\r\nカベポスター(6/29)",
       "price": {
         "advance": 1800,
         "door": 2300,
@@ -8359,10 +8359,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-29T18:46:57+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-25T16:19:00+09:00",
-      "diff": null
+      "notified_at": "2026-06-29T18:46:58+09:00"
     },
     {
       "id": "044d72d3",
@@ -9741,7 +9740,7 @@
       "open_time": "20:20",
       "start_time": "20:30",
       "end_time": "21:30",
-      "members": "TEAM近藤／ヘンダーソン／CITY／ゆにばーす／ウルトラスーパーコバタナックス／ミズドリ／シンクロニシティ／はるかぜとともに／照山おうちごはん／他",
+      "members": "TEAM近藤／ヘンダーソン／ゆにばーす／ウルトラスーパーコバタナックス／ミズドリ／シンクロニシティ／はるかぜとともに／照山おうちごはん／他",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
@@ -9759,10 +9758,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-06-29T18:46:57+09:00",
       "first_seen": "2026-06-23T10:09:01+09:00",
-      "last_updated": "2026-06-28T10:16:01+09:00",
-      "notified_at": "2026-06-28T10:16:01+09:00",
-      "diff": null
+      "notified_at": "2026-06-29T18:46:58+09:00"
     },
     {
       "id": "2c012c14",
@@ -10662,8 +10660,7 @@
         "door": 4000
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/7476aa12.jpg",
       "status": "notified",
@@ -11943,7 +11940,8 @@
         "door": 3000
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T10:11:30+09:00",
+  "updated_at": "2026-06-30T18:18:53+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -7647,9 +7647,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-30T10:11:29+09:00",
       "first_seen": "2026-06-05T10:15:32+09:00",
-      "notified_at": "2026-06-30T10:11:30+09:00"
+      "last_updated": "2026-06-30T10:11:29+09:00",
+      "notified_at": "2026-06-30T10:11:30+09:00",
+      "diff": null
     },
     {
       "id": "b0cc6341",
@@ -9430,7 +9431,8 @@
       "status": "notified",
       "first_seen": "2026-06-30T10:11:29+09:00",
       "last_updated": "2026-06-30T10:11:29+09:00",
-      "notified_at": "2026-06-30T10:11:30+09:00"
+      "notified_at": "2026-06-30T10:11:30+09:00",
+      "diff": null
     },
     {
       "id": "5c8790a4",
@@ -10244,9 +10246,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-30T10:11:29+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-30T10:11:30+09:00"
+      "last_updated": "2026-06-30T10:11:29+09:00",
+      "notified_at": "2026-06-30T10:11:30+09:00",
+      "diff": null
     },
     {
       "id": "f0d70552",
@@ -10271,9 +10274,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-30T10:11:29+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-30T10:11:30+09:00"
+      "last_updated": "2026-06-30T10:11:29+09:00",
+      "notified_at": "2026-06-30T10:11:30+09:00",
+      "diff": null
     },
     {
       "id": "bd84b2b0",
@@ -11338,9 +11342,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-06-30T10:11:29+09:00",
       "first_seen": "2026-06-22T19:12:03+09:00",
-      "notified_at": "2026-06-30T10:11:30+09:00"
+      "last_updated": "2026-06-30T10:11:29+09:00",
+      "notified_at": "2026-06-30T10:11:30+09:00",
+      "diff": null
     },
     {
       "id": "07397c17",

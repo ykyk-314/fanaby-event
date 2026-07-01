@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T18:18:53+09:00",
+  "updated_at": "2026-07-01T10:16:52+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -6553,7 +6553,7 @@
       "open_time": "19:45",
       "start_time": "20:00",
       "end_time": "22:15",
-      "members": "MC：ドンデコルテ／審査員：マンボウやしろ／ライス 田所仁／ビスケットブラザーズ 原田／＜東京所属芸歴10年目以下のコント師＞シンクロニシティ／ソマオ・ミートボール／軟水／ピュート／ヨネダ2000／今夜はブルース／定点計画／青いデルタ／ザンゾウ／ぺ／DOG FOOD PARTY／アリハガ／エグい速さ／セカンドロット／き展／伝書鳩／なでなでボーイ／球技大会／ただならぬ刀／照山おうちごはん／ミナミナミ／パパパジャマ",
+      "members": "MC：ドンデコルテ／審査員：マンボウやしろ／ライス 田所仁／ビスケットブラザーズ 原田／＜東京所属芸歴10年目以下のコント師＞シンクロニシティ／ソマオ・ミートボール／軟水／ピュート／ヨネダ2000／喫茶ムーン／今夜はブルース／定点計画／青いデルタ／ザンゾウ／ぺ／DOG FOOD PARTY／アリハガ／エグい速さ／セカンドロット／き展／伝書鳩／なでなでボーイ／球技大会／ただならぬ刀／照山おうちごはん／ミナミナミ／パパパジャマ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017458_1_20260618211339030.jpg",
@@ -6566,10 +6566,9 @@
       ],
       "local_image": "fliers/10ffac74.jpg",
       "status": "notified",
+      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-06-19T10:25:36+09:00",
-      "notified_at": "2026-06-19T10:25:36+09:00",
-      "diff": null
+      "notified_at": "2026-07-01T10:16:52+09:00"
     },
     {
       "id": "06d5ceaf",
@@ -12179,24 +12178,27 @@
       "date": "2026-09-06",
       "open_time": "16:45",
       "start_time": "17:00",
-      "end_time": null,
+      "end_time": "18:30",
       "members": "ミサイルマン 岩部／ザ・プラン9 浅越ゴエ／FUJIWARA 原西／2丁拳銃／ビスケットブラザーズ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018176_1_20260620120410700.jpg",
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17581/46629",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "＜武将様コメント＞\r\n今年もやって参りました戦国！夏の大和国巡り！今年は大阪、幕張、大宮、名古屋、六本木の五ヶ所を巡らせて頂きまする。\r\n昨年お越し頂きました皆々様も、まだ戦国に足を踏み入れた事の無い皆々様も、どうぞ今年の夏は戦国でどうぞごゆるりと！\r\n素敵な夏の思い出を作りましょうぞ！\r\n\r\n＜ゴエ爺コメント＞\r\n拙者ゴエ爺でござる！今年も武将様とゴエ爺が大和国を東奔西走じゃ！\r\n各劇場で参加してくれる出演者達が、「戦国」の仲間になるのか、はたまた敵対するのか！？幕が上がるまでは分からぬ。その目で全ての瞬間を見届けるのじゃ！！お待ちしておりまする！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇FC先行：6/20（土）11:00～6/23（火）11:00\r\n〇FANY先行：6/26（金）11:00～6/29（月）11:00　※決済：クレカのみ\r\n〇一般販売：7/2（木）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "price": {
+        "advance": 3000,
+        "door": 3500
+      },
       "sources": [
+        "theater:roppongi",
         "profile"
       ],
       "local_image": "fliers/e8252c42.jpg",
       "status": "notified",
+      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-19T18:44:32+09:00",
-      "last_updated": "2026-06-20T18:13:59+09:00",
-      "notified_at": "2026-06-20T18:13:59+09:00",
-      "diff": null
+      "notified_at": "2026-07-01T10:16:52+09:00"
     },
     {
       "id": "43605af8",
@@ -12343,112 +12345,124 @@
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと シルバーウィーク特別公演",
+      "title": "ルミネtheよしもと　シルバーウィーク特別公演〈1回目〉",
       "date": "2026-09-19",
       "open_time": "10:30",
       "start_time": "11:00",
-      "end_time": null,
+      "end_time": "12:10",
       "members": "村上ショージ／2丁拳銃／ミルクボーイ／トット／マユリカ／レインボー／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17458/46253",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00",
+      "price": {
+        "advance": 5000,
+        "door": 5500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-01T10:16:52+09:00"
     },
     {
       "id": "4d5f3337",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと シルバーウィーク特別公演",
+      "title": "ルミネtheよしもと　シルバーウィーク特別公演〈2回目〉",
       "date": "2026-09-19",
       "open_time": "12:30",
       "start_time": "13:00",
-      "end_time": null,
+      "end_time": "14:10",
       "members": "村上ショージ／2丁拳銃／ミルクボーイ／トット／マユリカ／レインボー／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17458/46254",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00",
+      "price": {
+        "advance": 5000,
+        "door": 5500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-01T10:16:52+09:00"
     },
     {
       "id": "04f95917",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと シルバーウィーク特別公演",
+      "title": "ルミネtheよしもと　シルバーウィーク特別公演〈3回目〉",
       "date": "2026-09-19",
       "open_time": "14:30",
       "start_time": "15:00",
-      "end_time": null,
+      "end_time": "16:10",
       "members": "村上ショージ／ミルクボーイ／トット／インポッシブル／マユリカ／レインボー／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17458/46255",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00",
+      "price": {
+        "advance": 5000,
+        "door": 5500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-01T10:16:52+09:00"
     },
     {
       "id": "1bdcbe29",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと シルバーウィーク特別公演",
+      "title": "ルミネtheよしもと　シルバーウィーク特別公演〈4回目〉",
       "date": "2026-09-19",
       "open_time": "16:30",
       "start_time": "17:00",
-      "end_time": null,
+      "end_time": "18:10",
       "members": "村上ショージ／ミルクボーイ／トット／インポッシブル／マユリカ／レインボー／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17458/46256",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00",
+      "price": {
+        "advance": 5000,
+        "door": 5500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-01T10:16:52+09:00"
     },
     {
       "id": "aa703548",
@@ -12511,112 +12525,124 @@
       "talents": {
         "2772": "マヂカルラブリー"
       },
-      "title": "ルミネtheよしもと シルバーウィーク特別公演",
+      "title": "ルミネtheよしもと　シルバーウィーク特別公演〈1回目〉",
       "date": "2026-09-22",
       "open_time": "10:30",
       "start_time": "11:00",
-      "end_time": null,
+      "end_time": "12:10",
       "members": "テンダラー／銀シャリ／兼光タカシ／もりやすバンバンビガロ／囲碁将棋／マヂカルラブリー／ジャングルポケット／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17458/46265",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nチャンピオンが多数出演！豪華メンバーでお届け！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00",
+      "price": {
+        "advance": 5000,
+        "door": 5500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-01T10:16:52+09:00"
     },
     {
       "id": "748fb1f2",
       "talents": {
         "2772": "マヂカルラブリー"
       },
-      "title": "ルミネtheよしもと シルバーウィーク特別公演",
+      "title": "ルミネtheよしもと　シルバーウィーク特別公演〈2回目〉",
       "date": "2026-09-22",
       "open_time": "12:30",
       "start_time": "13:00",
-      "end_time": null,
+      "end_time": "14:10",
       "members": "テンダラー／銀シャリ／兼光タカシ／もりやすバンバンビガロ／囲碁将棋／マヂカルラブリー／ジャングルポケット／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17458/46266",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nチャンピオンが多数出演！豪華メンバーでお届け！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00",
+      "price": {
+        "advance": 5000,
+        "door": 5500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-01T10:16:52+09:00"
     },
     {
       "id": "965e0d86",
       "talents": {
         "2772": "マヂカルラブリー"
       },
-      "title": "ルミネtheよしもと シルバーウィーク特別公演",
+      "title": "ルミネtheよしもと　シルバーウィーク特別公演〈3回目〉",
       "date": "2026-09-22",
       "open_time": "14:30",
       "start_time": "15:00",
-      "end_time": null,
+      "end_time": "16:10",
       "members": "テンダラー／銀シャリ／兼光タカシ／もりやすバンバンビガロ／囲碁将棋／マヂカルラブリー／ジャングルポケット／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17458/46267",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nチャンピオンが多数出演！豪華メンバーでお届け！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00",
+      "price": {
+        "advance": 5000,
+        "door": 5500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-01T10:16:52+09:00"
     },
     {
       "id": "2c8b4d83",
       "talents": {
         "2772": "マヂカルラブリー"
       },
-      "title": "ルミネtheよしもと シルバーウィーク特別公演",
+      "title": "ルミネtheよしもと　シルバーウィーク特別公演〈4回目〉",
       "date": "2026-09-22",
       "open_time": "16:30",
       "start_time": "17:00",
-      "end_time": null,
+      "end_time": "18:10",
       "members": "テンダラー／銀シャリ／兼光タカシ／もりやすバンバンビガロ／囲碁将棋／マヂカルラブリー／ジャングルポケット／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17458/46268",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nチャンピオンが多数出演！豪華メンバーでお届け！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00",
+      "price": {
+        "advance": 5000,
+        "door": 5500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-01T10:16:52+09:00"
     },
     {
       "id": "1a1eda6d",

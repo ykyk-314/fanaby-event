@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T10:16:52+09:00",
+  "updated_at": "2026-07-01T18:20:29+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -6566,9 +6566,10 @@
       ],
       "local_image": "fliers/10ffac74.jpg",
       "status": "notified",
-      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-07-01T10:16:52+09:00"
+      "last_updated": "2026-07-01T10:16:52+09:00",
+      "notified_at": "2026-07-01T10:16:52+09:00",
+      "diff": null
     },
     {
       "id": "06d5ceaf",
@@ -12196,9 +12197,10 @@
       ],
       "local_image": "fliers/e8252c42.jpg",
       "status": "notified",
-      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-19T18:44:32+09:00",
-      "notified_at": "2026-07-01T10:16:52+09:00"
+      "last_updated": "2026-07-01T10:16:52+09:00",
+      "notified_at": "2026-07-01T10:16:52+09:00",
+      "diff": null
     },
     {
       "id": "43605af8",
@@ -12367,9 +12369,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-01T10:16:52+09:00"
+      "last_updated": "2026-07-01T10:16:52+09:00",
+      "notified_at": "2026-07-01T10:16:52+09:00",
+      "diff": null
     },
     {
       "id": "4d5f3337",
@@ -12398,9 +12401,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-01T10:16:52+09:00"
+      "last_updated": "2026-07-01T10:16:52+09:00",
+      "notified_at": "2026-07-01T10:16:52+09:00",
+      "diff": null
     },
     {
       "id": "04f95917",
@@ -12429,9 +12433,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-01T10:16:52+09:00"
+      "last_updated": "2026-07-01T10:16:52+09:00",
+      "notified_at": "2026-07-01T10:16:52+09:00",
+      "diff": null
     },
     {
       "id": "1bdcbe29",
@@ -12460,9 +12465,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-01T10:16:52+09:00"
+      "last_updated": "2026-07-01T10:16:52+09:00",
+      "notified_at": "2026-07-01T10:16:52+09:00",
+      "diff": null
     },
     {
       "id": "aa703548",
@@ -12547,9 +12553,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-01T10:16:52+09:00"
+      "last_updated": "2026-07-01T10:16:52+09:00",
+      "notified_at": "2026-07-01T10:16:52+09:00",
+      "diff": null
     },
     {
       "id": "748fb1f2",
@@ -12578,9 +12585,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-01T10:16:52+09:00"
+      "last_updated": "2026-07-01T10:16:52+09:00",
+      "notified_at": "2026-07-01T10:16:52+09:00",
+      "diff": null
     },
     {
       "id": "965e0d86",
@@ -12609,9 +12617,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-01T10:16:52+09:00"
+      "last_updated": "2026-07-01T10:16:52+09:00",
+      "notified_at": "2026-07-01T10:16:52+09:00",
+      "diff": null
     },
     {
       "id": "2c8b4d83",
@@ -12640,9 +12649,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-01T10:16:52+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-01T10:16:52+09:00"
+      "last_updated": "2026-07-01T10:16:52+09:00",
+      "notified_at": "2026-07-01T10:16:52+09:00",
+      "diff": null
     },
     {
       "id": "1a1eda6d",

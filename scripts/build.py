@@ -384,6 +384,7 @@ def main():
         <p>最終更新: {escape_html(updated_str)}</p>
       </div>
       <div class="header-right">
+        <a href="exclude-settings.html" class="settings-link" title="除外設定">&#x2298;</a>
         <a href="settings.html" class="settings-link" title="設定">&#x2699;</a>
         <div id="userAvatar" class="user-avatar" style="display:none" title=""></div>
       </div>

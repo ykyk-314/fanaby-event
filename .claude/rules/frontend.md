@@ -20,8 +20,10 @@ paths: docs/**/*
 | `docs/fliers/` | `merge.py` が管理 | 手動で削除・追加しない |
 | `docs/register.html` | 静的（手動管理） | 新規登録申請フォーム（Access bypass・Turnstile 付き） |
 | `docs/assets/register.js` | 静的（手動管理） | 登録フォームの JS |
-| `docs/settings.html` | 静的（手動管理） | 個人設定画面（フォロー芸人・除外キーワード） |
-| `docs/assets/settings.js` | 静的（手動管理） | 設定画面の JS（`FollowStorage` / `ExcludeKeywordStorage`） |
+| `docs/settings.html` | 静的（手動管理） | 芸人管理画面（フォロー芸人・芸人追加・新規登録） |
+| `docs/assets/settings.js` | 静的（手動管理） | 芸人管理画面の JS（`FollowStorage`） |
+| `docs/exclude-settings.html` | 静的（手動管理） | 除外設定画面（定常公演の一括/劇場指定除外・除外キーワード） |
+| `docs/assets/exclude-settings.js` | 静的（手動管理） | 除外設定画面の JS（`StandingExcludeStorage` / `ExcludeKeywordStorage`） |
 | `docs/robots.txt` | 静的 | 全クローラー拒否。変更不要 |
 
 ## フロントエンド設計
@@ -56,19 +58,19 @@ paths: docs/**/*
 
 ## 個人除外設定
 
-タイトルの部分一致で公演を非表示にする個人設定。`docs/settings.html` に2セクションある。
+タイトルの部分一致で公演を非表示にする個人設定。芸人管理（`docs/settings.html`）とは別画面の `docs/exclude-settings.html` に2セクションある（`docs/index.html` ヘッダーの ⊘ アイコンから遷移）。
 
 ### 定常公演を除外する
 劇場主催で月内に何度も開催される寄席・冠番組をまとめて除外する設定。3択（`除外しない`/`一括除外する`/`指定劇場を除外する`）+ 劇場チェックボックス（`指定劇場を除外する` 選択時のみ表示）。
 
-- 設定画面: `docs/assets/settings.js` の `StandingExcludeStorage` オブジェクトが LocalStorage（キー `fanaby_standing_exclude`）と `/api/user-standing-exclude`（CF Access 認証下）を透過同期。`FollowStorage` と同型（`init/get/set(mode, venues)`）。劇場一覧は `STANDING_VENUES` 定数（12劇場）
+- 設定画面: `docs/assets/exclude-settings.js` の `StandingExcludeStorage` オブジェクトが LocalStorage（キー `fanaby_standing_exclude`）と `/api/user-standing-exclude`（CF Access 認証下）を透過同期。`FollowStorage`（`docs/assets/settings.js`）と同型（`init/get/set(mode, venues)`）。劇場一覧は `STANDING_VENUES` 定数（12劇場）
 - 表示側: `docs/assets/script.js` の `initStandingExcludeFilter()` が `/api/user-standing-exclude`（ユーザー設定）と `/api/standing-show-keywords`（劇場別キーワードカタログ、共有）を取得し、`standingExclude`/`standingCatalog` に保持。`isStandingExcluded(title, venue)` で判定し、`applyFilters()` が「除外済み表示」チェックボックスの対象に含める
 - キーワードカタログ自体はユーザー編集不可（`scripts/_talents_kv.py` の `STANDING_SHOW_KEYWORDS_BY_VENUE` が起源。KV `standing-show-keywords` へ `merge.py` が自動 seed）
 
 ### 除外キーワード（任意のタイトル）
 ユーザーが自由記述で追加するキーワードリスト。
 
-- 設定画面: `docs/assets/settings.js` の `ExcludeKeywordStorage` オブジェクトが LocalStorage（キー `fanaby_exclude_keywords`）と `/api/user-exclude-keywords`（CF Access 認証下）を透過同期。`FollowStorage` と同型（`init/getKeywords/setKeywords/addKeyword/removeKeyword`）
+- 設定画面: `docs/assets/exclude-settings.js` の `ExcludeKeywordStorage` オブジェクトが LocalStorage（キー `fanaby_exclude_keywords`）と `/api/user-exclude-keywords`（CF Access 認証下）を透過同期。`FollowStorage` と同型（`init/getKeywords/setKeywords/addKeyword/removeKeyword`）
 - 表示側: `docs/assets/script.js` の `initExcludeFilter()` が `/api/user-exclude-keywords` から取得し、グローバル変数 `excludeKeywords` に保持。`applyFilters()` が `c.dataset.title` との部分一致（大小文字区別あり）でマッチした公演を「除外済み表示」チェックボックスの対象に含める
 - 未設定ユーザーには空リストが返る（デフォルト値はなし）
 

@@ -4,9 +4,21 @@ header { background: #1a1a2e; color: #fff; padding: 16px 20px; }
 header h1 { font-size: 18px; font-weight: bold; }
 header p { font-size: 12px; color: #aaa; margin-top: 4px; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-.header-right { display: flex; align-items: center; gap: 10px; }
-.settings-link { color: #aaa; font-size: 20px; text-decoration: none; line-height: 1; }
-.settings-link:hover { color: #fff; }
+.header-right { display: flex; align-items: center; gap: 14px; }
+.settings-link {
+  color: #aaa;
+  font-size: 28px;
+  text-decoration: none;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: color .15s, background .15s;
+}
+.settings-link:hover { color: #fff; background: rgba(255,255,255,.12); }
 .user-avatar {
   width: 34px; height: 34px; border-radius: 50%;
   background: #3d3d5c; color: #fff;
@@ -14,6 +26,16 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
   font-size: 14px; font-weight: bold; flex-shrink: 0; cursor: default;
 }
 .container { max-width: 900px; margin: 0 auto; padding: 16px; }
+
+/* タブ + フィルターバー（スクロール追従） */
+.sticky-controls {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #f0f0f0;
+  padding-top: 16px;
+  margin-top: -16px;
+}
 
 /* タブ */
 .tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
@@ -77,6 +99,29 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
 #lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.82); z-index: 1000; align-items: center; justify-content: center; cursor: zoom-out; }
 #lightbox.open { display: flex; }
 #lightbox img { max-width: 90vw; max-height: 90vh; border-radius: 6px; object-fit: contain; box-shadow: 0 4px 32px rgba(0,0,0,.5); }
+
+/* 最上部へ戻るボタン */
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: #1a1a2e;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity .2s, transform .2s, visibility .2s;
+  z-index: 60;
+}
+.back-to-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+.back-to-top:hover { opacity: .85; }
 
 @media (max-width: 560px) {
   .card-body { flex-direction: column-reverse; }

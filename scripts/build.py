@@ -391,39 +391,41 @@ def main():
     </div>
   </header>
   <div class="container">
-    <div class="tabs">
-      {tab_buttons}
-    </div>
-    <div class="filter-bar" id="filterBar">
-      <div>
-        <label>キーワード</label>
-        <input type="text" id="filterKeyword" placeholder="公演名・出演者を検索（スペースでAND）">
+    <div class="sticky-controls">
+      <div class="tabs">
+        {tab_buttons}
       </div>
-      <div>
-        <label>会場</label>
-        <select id="filterVenue">
-          <option value="">すべて</option>
-        </select>
-        <label>観覧ステータス</label>
-        <select id="filterViewingStatus">
-          <option value="">すべて</option>
-          <option value="want">行きたい</option>
-          <option value="lottery_applied">先行申込済み</option>
-          <option value="lottery_lost">落選</option>
-          <option value="purchased">購入済み</option>
-          <option value="attended">行った</option>
-          <option value="none">未設定</option>
-        </select>
-      </div>
-      <div>
-        <label>日付（から）</label>
-        <input type="date" id="filterDateFrom">
-        <label>（まで）</label>
-        <input type="date" id="filterDateTo">
-        <label class="filter-remind-label"><input type="checkbox" id="filterRemindOnly"> 🔔 通知ONのみ</label>
-        <label class="filter-exclude-label"><input type="checkbox" id="filterShowExcluded"> 除外済みを表示</label>
-        <button class="filter-reset" id="filterReset">リセット</button>
-        <span class="filter-count" id="filterCount"></span>
+      <div class="filter-bar" id="filterBar">
+        <div>
+          <label>キーワード</label>
+          <input type="text" id="filterKeyword" placeholder="公演名・出演者を検索（スペースでAND）">
+        </div>
+        <div>
+          <label>会場</label>
+          <select id="filterVenue">
+            <option value="">すべて</option>
+          </select>
+          <label>観覧ステータス</label>
+          <select id="filterViewingStatus">
+            <option value="">すべて</option>
+            <option value="want">行きたい</option>
+            <option value="lottery_applied">先行申込済み</option>
+            <option value="lottery_lost">落選</option>
+            <option value="purchased">購入済み</option>
+            <option value="attended">行った</option>
+            <option value="none">未設定</option>
+          </select>
+        </div>
+        <div>
+          <label>日付（から）</label>
+          <input type="date" id="filterDateFrom">
+          <label>（まで）</label>
+          <input type="date" id="filterDateTo">
+          <label class="filter-remind-label"><input type="checkbox" id="filterRemindOnly"> 🔔 通知ONのみ</label>
+          <label class="filter-exclude-label"><input type="checkbox" id="filterShowExcluded"> 除外済みを表示</label>
+          <button class="filter-reset" id="filterReset">リセット</button>
+          <span class="filter-count" id="filterCount"></span>
+        </div>
       </div>
     </div>
     {content_html}
@@ -431,6 +433,7 @@ def main():
   <div id="lightbox" onclick="closeLightbox()">
     <img id="lightboxImg" src="" alt="フライヤー拡大">
   </div>
+  <button id="backToTop" class="back-to-top" title="画面最上部へ戻る" aria-label="画面最上部へ戻る">&#x2191;</button>
   <script src="assets/script.js"></script>
 </body>
 </html>"""

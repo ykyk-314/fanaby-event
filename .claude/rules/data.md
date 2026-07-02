@@ -6,7 +6,7 @@ paths: data/**/*
 
 ## Git管理対象
 - `data/events.json` — スクレイピング結果の正本。**過去イベントを除去しない**
-- `data/config.json` — 芸人・劇場・除外タイトルの設定
+- `data/config.json` — 芸人・劇場の設定
 
 ## Git管理外（.gitignore）
 - `data/profile_events.json` — scrape_profile_api.py の中間出力
@@ -63,6 +63,15 @@ paths: data/**/*
 `events.json` には保存せず Cloudflare KV（`status:{sha256(email)}`）で管理する。
 `excluded` は例外的に `events.json` に `true` で書き込まれるが、これは merge.py がグローバル除外リスト（`/api/excluded-events`）を参照して付与するもの。
 
+### タイトルキーワードによる除外（個人設定）
+公演タイトルの部分一致による除外（旧 `exclude_titles`）は、ユーザーごとの個人設定に一本化されている。
+`events.json` には反映されない（全公演がそのまま保存される）。表示（`docs/assets/script.js` の `applyFilters()`）とメール通知（`notify.py`）が、それぞれ以下2種類の設定でタイトルをフィルタする。
+
+1. **定常公演の除外**（劇場主催で月内に何度も開催される寄席・冠番組）: ユーザーごとの `mode`（`off`/`all`/`venues`）+ `venues[]`（KV `user-standing-exclude:{sha256(email)}`、未設定時は `mode:"all"`）と、劇場別キーワードカタログ（KV `standing-show-keywords`、共有・全ユーザー共通）を組み合わせて判定
+2. **任意のタイトル除外**: ユーザーが自由記述で追加するキーワードリスト（KV `user-exclude-keywords:{sha256(email)}`、未設定時は空リスト）
+
+詳細は `.claude/rules/cloudflare.md` を参照。
+
 ## config.json 構造
 
 ```json
@@ -80,13 +89,12 @@ paths: data/**/*
       "url": "https://shibuya-manzaigekijyo.yoshimoto.co.jp/schedule/",
       "api_id": "shibuya_manzaigekijyo"
     }
-  ],
-  "exclude_titles": ["渋谷Kiwami極"]
+  ]
 }
 ```
 
-- `exclude_titles`: 部分一致で対象公演をフィルタアウト
 - `theaters[].api_id`: 劇場 API（`scrape_theater_api.py`）で使用するエンドポイント識別子。`api_id` が無い劇場はスキップ
+- `exclude_titles` は廃止済み（個人除外キーワード設定に移行。上記「タイトルキーワードによる除外」参照）
 
 ## ticket_deadlines.json スキーマ
 

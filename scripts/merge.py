@@ -21,7 +21,7 @@ from pathlib import Path
 from urllib.parse import urlparse, urlunparse
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _talents_kv import fetch_talents_master
+from _talents_kv import ensure_standing_show_keywords, fetch_talents_master
 
 BASE_DIR = Path(__file__).parent.parent
 CONFIG_PATH = BASE_DIR / "data" / "config.json"
@@ -350,6 +350,7 @@ def main():
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     kv_talents = fetch_talents_master(config.get("talents", []))
     config = dict(config, talents=kv_talents)
+    ensure_standing_show_keywords()
 
     print("劇場イベント読み込み中...")
     theater_events = load_theater_events()
@@ -372,16 +373,6 @@ def main():
     print("プロフィールデータをマージ中...")
     merge_profile_into_events(scraped, profile_events)
     print(f"  マージ後: {len(scraped)} 件")
-
-    # 除外タイトルフィルタ（部分一致）
-    exclude_titles: list[str] = config.get("exclude_titles", [])
-    if exclude_titles:
-        before = len(scraped)
-        scraped = [
-            ev for ev in scraped
-            if not any(kw in ev["title"] for kw in exclude_titles)
-        ]
-        print(f"除外フィルタ適用: {before - len(scraped)} 件除外 → {len(scraped)} 件")
 
     # チケットURL: 劇場データのスカラー値を /event/detail/ 形式チェック + クエリパラメータ除去
     for ev in scraped:

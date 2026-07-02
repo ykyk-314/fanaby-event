@@ -7,40 +7,6 @@ Phase 2 / Phase 3 の完了後に残った未実装タスクを整理。
 
 ---
 
-## A. アカウント別芸人登録 ✅ 実装完了
-
-**背景**: 現在はサービス固定で `data/config.json` の `talents[]` に登録した芸人を全ユーザー共通で取得している。ログインアカウントごとに対象芸人を選択できるようにしたい。
-
-**実装済み内容**:
-
-| レイヤー | 実装 |
-|---|---|
-| 芸人マスタ（KV） | `functions/api/talents/index.js` GET/POST/PUT、`functions/api/talents/[talentId].js` PATCH/DELETE |
-| ユーザー別フォロー（KV） | `functions/api/user-talents.js` GET/PUT、KVキー `user-talents:{sha256(email)}` |
-| 設定UI | `docs/settings.html` + `docs/assets/settings.js`（FollowStorage: LocalStorage↔KV透過同期） |
-| スクレイプ連携 | `scripts/_talents_kv.py`（全スクリプトが KV から芸人マスタ取得、config.json フォールバック） |
-| 新規追加時即時スクレイプ | `.github/workflows/talent-added.yml`（POST /api/talents 成功後に GitHub dispatch） |
-| ユーザー別通知 | `scripts/notify.py`（`/api/notify-targets` から芸人別にメール送信） |
-
-**設定ページ機能**（`docs/settings.html`）:
-- フォロー中の芸人一覧 + 解除ボタン
-- グローバルマスタから選択してフォロー追加
-- プロフィール URL 入力でマスタへ新規登録 → 自動フォロー追加（409 の場合はフォローのみ追加）
-
-**現状の芸人マスタ**（KV `talents` キー: 5件）:
-| ID | 名前 |
-|---|---|
-| 10708 | シンクロニシティ |
-| 5114 | マユリカ |
-| 7295 | ケビンス |
-| （ID未確認） | kento fukaya |
-| （ID未確認） | ビスケットブラザーズ |
-
-**未着手の要件**:
-- 芸人名でのキーワード検索・候補一覧表示（現状は profile.yoshimoto.co.jp で調べてURL入力が必要）
-
----
-
 ## B. ピックアップ公演取得 ❌ 未着手
 
 **背景**: 現在はマスタ登録芸人が出演する公演しか取り込めない。特定の公演や芸人を個別に取り込みたいケースに対応したい。
@@ -74,18 +40,15 @@ Phase 2 / Phase 3 の完了後に残った未実装タスクを整理。
   - PWA 基盤はすでに存在（`site.webmanifest`, `icon-192.png`, `icon-512.png`）
   - Cloudflare Workers / KV で Push サブスクリプション管理が可能（無料枠内）
 
+
 ---
 
-## D. Google カレンダー連携（優先度: 低）⚠️ 手動ボタンのみ実装済み
+## 他１
+芸人追加方法の現状は profile.yoshimoto.co.jp で調べてURLをコピーし入力が必要
+キーワードを入力して検索をすると、リアルタイムでprofile.yoshimoto.co.jpから候補を取得、追加ボタンでスケジュールに追加できるようにする
+※検索に利用できるAPIは公開されていないため、何らかの方法で直接画面を表示して取得する必要がある
 
-**背景**: `purchased`（購入済み）ステータスの公演を Google カレンダーに登録したい。
-
-**実装済み**:
-- `build.py:98` `make_gcal_url()` — 全公演カードに「📅」ボタンを生成
-- クリックすると Google カレンダーの予定追加ページが開く（手動での一件ずつ追加）
-
-**未実装**:
-- `purchased` にステータス変更した瞬間に自動登録する仕組み
-- OAuth 2.0 フロー（実装コスト最大）
-
-**制約**: 無料範囲内だが実装コストが最も高い。手動ボタンで代替できているため優先度は最低。
+## 他２
+スケジュール取得芸人以外の公演を単発でスケジュールに追加したい
+特定の公演をスケジュールに追加できない。ticket.fany.lol から候補を取得、追加ボタンでスケジュールに追加できるようにしたい
+※検索に利用できるAPIは公開されていないため、何らかの方法で直接画面を表示して取得する必要がある

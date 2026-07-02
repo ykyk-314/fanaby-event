@@ -53,9 +53,12 @@ notify_register.py  → Gmail SMTP 送信（管理者宛）
 - 入力: `data/theater_events.json`, `data/profile_events.json`, `data/events.json`, `data/config.json`
 - 出力: `data/events.json`, `docs/fliers/*.{jpg,jpeg,png,gif,webp}`
 - 環境変数: `REMIND_API_URL`, `REMIND_API_SECRET`（除外リスト取得用）
+- `main()` 冒頭で `ensure_standing_show_keywords()`（`_talents_kv.py`）を呼び、KV `standing-show-keywords`（定常公演の劇場別キーワードカタログ）が未作成なら初期投入する（冪等）
 
 ### `notify.py`
 - 対象: `status in (new, updated)` かつ `excluded` でないイベント
+- ユーザー別分岐: 各ユーザーの `exclude_keywords`（任意タイトル。`/api/notify-targets` 由来）でタイトル部分一致除外し、さらに `standing_exclude`（`mode`/`venues`）と `fetch_standing_show_keywords()` のカタログで `is_standing_excluded()` 判定した定常公演を除外
+- フォールバック分岐（`MAIL_TO`）: `standing_exclude={"mode":"all","venues":[]}` 相当（全劇場一括）でカタログ照合し同様に除外
 - 送信後: `status` を `notified` にリセット
 - SMTP: `smtp.gmail.com:465`（SMTP_SSL）
 - 環境変数: `MAIL_USER`, `MAIL_PASS`, `MAIL_TO`
@@ -116,7 +119,7 @@ updated → notified（変更なし判定時にリセット ← 古い diff の�
 - **差分マージ必須**（past events carry-over）。全上書き禁止
 - `open_time / start_time / end_time` の None 後退を防ぐ（既存値がある場合は上書きしない）
 - `online_url` は一度取得したら更新しない
-- `exclude_titles`（部分一致）に引っかかる公演は除外
+- タイトルキーワードによるグローバル除外は行わない（個人除外キーワード設定に移行済み。`.claude/rules/data.md` 参照）
 
 ### チケット URL の正規化
 - `/event/detail/` パスのもののみ採用し、クエリパラメータを除去

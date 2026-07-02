@@ -14,6 +14,23 @@ from datetime import datetime as _dt
 
 _KV_NAMESPACE_ID = "5b93698258b54a379d7b05c2dafe9739"
 
+# 定常公演（劇場主催で月内に何度も開催される寄席・冠番組）の劇場別キーワードカタログ
+# seed 専用。runtime の真実源は KV `standing-show-keywords`
+STANDING_SHOW_KEYWORDS_BY_VENUE = {
+    "渋谷よしもと漫才劇場": ["渋谷マンゲキお笑いライブ", "渋谷Kiwami極"],
+    "神保町よしもと漫才劇場": ["神保町マンゲキお笑いライブ", "神保町Kakeru翔"],
+    "ルミネtheよしもと": ["の部", "特別公演", "特別興行"],
+    "YOSHIMOTO ROPPONGI THEATER": ["六本木お笑いコントライブ", "六本木コントライブ"],
+    "大宮ラクーンよしもと劇場": ["大宮ラクーンよしもと寄席"],
+    "よしもと幕張イオンモール劇場": ["幕張平日ネタ", "幕張土日祝ネタ", "幕張お盆ネタ"],
+    "よしもと漫才劇場": ["Kiwami極", "マンゲキお笑いライブ", "マンゲキLIVE夏休みSP"],
+    "森ノ宮よしもと漫才劇場": ["森ノ宮マンゲキお笑いライブ", "森ノ宮Kakeru翔"],
+    "よしもと福岡 大和証券劇場": ["福岡よしもとお笑いライブ", "福岡ネタまつり"],
+    "よしもと道頓堀シアター": ["よしもとお笑いレストラン"],
+    "沼津ラクーンよしもと劇場": ["沼津週末寄席", "沼津ラクーンよしもと寄席"],
+    "なんばグランド花月": ["本公演", "特別興行"],
+}
+
 
 # ---------------------------------------------------------------------------
 # KV REST API 低レベルヘルパー
@@ -271,7 +288,51 @@ def fetch_notify_targets_kv() -> "list[dict] | None":
             continue
         follow_data = _get_kv_json(cf_api_token, cf_account_id, f"user-talents:{hash_}")
         talent_ids = follow_data.get("talent_ids", []) if follow_data else []
-        targets.append({"email": profile["email"], "talent_ids": talent_ids})
+        ek_data = _get_kv_json(cf_api_token, cf_account_id, f"user-exclude-keywords:{hash_}")
+        exclude_keywords = ek_data.get("keywords", []) if ek_data else []
+        se_data = _get_kv_json(cf_api_token, cf_account_id, f"user-standing-exclude:{hash_}")
+        standing_exclude = {
+            "mode": se_data.get("mode", "all") if se_data else "all",
+            "venues": se_data.get("venues", []) if se_data else [],
+        }
+        targets.append({
+            "email": profile["email"],
+            "talent_ids": talent_ids,
+            "exclude_keywords": exclude_keywords,
+            "standing_exclude": standing_exclude,
+        })
 
     print(f"  KV から通知対象取得: {len(targets)} ユーザー")
     return targets
+
+
+# ---------------------------------------------------------------------------
+# 定常公演キーワードカタログ
+# ---------------------------------------------------------------------------
+
+def ensure_standing_show_keywords() -> None:
+    """KV `standing-show-keywords` が無ければ STANDING_SHOW_KEYWORDS_BY_VENUE で初期投入する（冪等）。"""
+    cf_api_token = os.environ.get("CLOUDFLARE_API_TOKEN", "")
+    cf_account_id = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
+    if not cf_api_token or not cf_account_id:
+        return
+    existing = _get_kv_json(cf_api_token, cf_account_id, "standing-show-keywords")
+    if existing is not None:
+        return
+    value = {
+        "schema_version": 1,
+        "venues": STANDING_SHOW_KEYWORDS_BY_VENUE,
+        "updated_at": _dt.utcnow().isoformat() + "Z",
+    }
+    if _put_kv_json(cf_api_token, cf_account_id, "standing-show-keywords", value):
+        print(f"  KV standing-show-keywords を初期投入: {len(STANDING_SHOW_KEYWORDS_BY_VENUE)} 劇場")
+
+
+def fetch_standing_show_keywords() -> dict:
+    """KV `standing-show-keywords` の venues マップを取得する（失敗時は空辞書）。"""
+    cf_api_token = os.environ.get("CLOUDFLARE_API_TOKEN", "")
+    cf_account_id = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
+    if not cf_api_token or not cf_account_id:
+        return {}
+    data = _get_kv_json(cf_api_token, cf_account_id, "standing-show-keywords")
+    return data.get("venues", {}) if data else {}

@@ -16,7 +16,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _talents_kv import fetch_notify_targets_kv, fetch_talents_master
+from _talents_kv import fetch_notify_targets_kv, fetch_standing_show_keywords, fetch_talents_master
 
 BASE_DIR = Path(__file__).parent.parent
 EVENTS_PATH = BASE_DIR / "data" / "events.json"
@@ -284,11 +284,29 @@ def fetch_notify_targets() -> list[dict] | None:
         return None
 
 
+def is_standing_excluded(ev: dict, standing_exclude: dict, catalog: dict) -> bool:
+    """定常公演の除外設定（一括 / 劇場指定）に該当するか判定する。"""
+    mode = standing_exclude.get("mode", "off")
+    if mode == "off":
+        return False
+    venue = ev.get("venue")
+    keywords = catalog.get(venue, [])
+    if not keywords:
+        return False
+    title = ev.get("title") or ""
+    if mode == "all":
+        return any(kw in title for kw in keywords)
+    if mode == "venues":
+        return venue in standing_exclude.get("venues", []) and any(kw in title for kw in keywords)
+    return False
+
+
 def main():
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     data = json.loads(EVENTS_PATH.read_text(encoding="utf-8"))
     events = data.get("events", [])
     ts = now_jst()
+    standing_catalog = fetch_standing_show_keywords()
 
     # 通知対象: new または updated（除外済みイベントは除く）
     notify_events = [
@@ -318,6 +336,17 @@ def main():
                 ev for ev in notify_events
                 if any(tid in talent_id_set for tid in ev.get("talents", {}).keys())
             ]
+            exclude_keywords = target.get("exclude_keywords", [])
+            if exclude_keywords:
+                user_events = [
+                    ev for ev in user_events
+                    if not any(kw in (ev.get("title") or "") for kw in exclude_keywords)
+                ]
+            standing_exclude = target.get("standing_exclude", {})
+            user_events = [
+                ev for ev in user_events
+                if not is_standing_excluded(ev, standing_exclude, standing_catalog)
+            ]
             if not user_events:
                 continue
             user_events = sorted(user_events, key=lambda e: e.get("date", ""))
@@ -337,6 +366,11 @@ def main():
         if not MAIL_TO:
             print("MAIL_TO 未設定かつ notify-targets 取得失敗 — 通知スキップ")
             return
+        fallback_standing_exclude = {"mode": "all", "venues": []}
+        notify_events = [
+            ev for ev in notify_events
+            if not is_standing_excluded(ev, fallback_standing_exclude, standing_catalog)
+        ]
         talent_map: dict[str, list[dict]] = {}
         for ev in notify_events:
             for tid in ev.get("talents", {}).keys():

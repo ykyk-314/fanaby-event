@@ -14,6 +14,21 @@ const YOSHIMOTO_VENUES = [
 // ---- タブ切り替え（単一DOM + talentフィルタ） ----
 let currentTalent = '';
 let followedTalents = null; // null=未ロード/取得失敗, []=0件, [...]=フォロー済み
+let excludeKeywords = [];   // 個人除外キーワード（タイトル部分一致）
+let standingExclude = { mode: 'off', venues: [] }; // 定常公演の除外設定
+let standingCatalog = {};   // 定常公演キーワードカタログ（venue -> keywords[]）
+
+function isStandingExcluded(title, venue) {
+  const mode = standingExclude.mode;
+  if (mode === 'off' || !mode) return false;
+  const keywords = standingCatalog[venue];
+  if (!keywords || keywords.length === 0) return false;
+  if (mode === 'all') return keywords.some(kw => title.includes(kw));
+  if (mode === 'venues') {
+    return standingExclude.venues.includes(venue) && keywords.some(kw => title.includes(kw));
+  }
+  return false;
+}
 let tabImgMap = {};   // talent_id -> tab avatar src
 let tabNameMap = {};  // talent_id -> 芸人名
 
@@ -140,7 +155,10 @@ function applyFilters() {
     })();
     const remindOk = !remindOnly
       || !!c.querySelector('.remind-btn[data-remind="on"]');
-    const excludedOk = showExcluded || c.dataset.excluded !== 'true';
+    const title = c.dataset.title || '';
+    const kwExcluded = excludeKeywords.length > 0 && excludeKeywords.some(kw => title.includes(kw));
+    const stExcluded = isStandingExcluded(title, c.dataset.venue || '');
+    const excludedOk = showExcluded || (c.dataset.excluded !== 'true' && !kwExcluded && !stExcluded);
     const followOk = !followedTalents
       || currentTalent !== ''
       || c.dataset.talent.split(' ').some(t => followedTalents.includes(t));
@@ -580,6 +598,32 @@ function initMemoUI() {
   });
 }
 
+async function initExcludeFilter() {
+  try {
+    const res = await fetch('/api/user-exclude-keywords');
+    if (!res.ok) return;
+    const data = await res.json();
+    excludeKeywords = Array.isArray(data.keywords) ? data.keywords : [];
+  } catch {}
+}
+
+async function initStandingExcludeFilter() {
+  try {
+    const [seRes, catalogRes] = await Promise.all([
+      fetch('/api/user-standing-exclude'),
+      fetch('/api/standing-show-keywords'),
+    ]);
+    if (seRes.ok) {
+      const d = await seRes.json();
+      standingExclude = { mode: d.mode || 'off', venues: Array.isArray(d.venues) ? d.venues : [] };
+    }
+    if (catalogRes.ok) {
+      const d = await catalogRes.json();
+      standingCatalog = (d.venues && typeof d.venues === 'object') ? d.venues : {};
+    }
+  } catch {}
+}
+
 async function initFollowFilter() {
   try {
     const res = await fetch('/api/user-talents');
@@ -646,7 +690,7 @@ async function initFollowFilter() {
 (async () => {
   // 初期化完了まで操作を無効化（APIフェッチ中の競合防止）
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = true; });
-  await Promise.all([ViewingStorage.init(), initUserUI(), initFollowFilter()]);
+  await Promise.all([ViewingStorage.init(), initUserUI(), initFollowFilter(), initExcludeFilter(), initStandingExcludeFilter()]);
   initStatusUI();
   initRemindUI();
   initMemoUI();

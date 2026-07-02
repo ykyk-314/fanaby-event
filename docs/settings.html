@@ -76,6 +76,40 @@
       flex-shrink: 0;
     }
     .btn-unfollow:hover { background: #f5f5f5; }
+    .standing-mode-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 0;
+      font-size: 14px;
+      color: #333;
+    }
+    .standing-venue-list {
+      margin: 10px 0 0 24px;
+      padding-top: 6px;
+      border-top: 1px solid #f5f5f5;
+    }
+    .standing-venue-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 0;
+      font-size: 13px;
+      color: #444;
+    }
+    .keyword-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 8px 0;
+      border-bottom: 1px solid #f5f5f5;
+    }
+    .keyword-row:last-child { border-bottom: none; }
+    .keyword-text {
+      flex: 1;
+      font-size: 14px;
+      color: #333;
+    }
     .btn-follow {
       padding: 5px 14px;
       font-size: 13px;
@@ -170,6 +204,34 @@
       <div id="followedList">
         <div class="loading-overlay">読み込み中...</div>
       </div>
+    </div>
+
+    <!-- 定常公演を除外する -->
+    <div class="settings-section">
+      <h2>定常公演を除外する</h2>
+      <p style="font-size:13px;color:#666;margin-bottom:12px;">
+        劇場主催で月内に何度も開催される寄席・冠番組（定常公演）をまとめて非表示にできます。
+      </p>
+      <div id="standingExcludeControls">
+        <div class="loading-overlay">読み込み中...</div>
+      </div>
+      <div class="status-msg" id="standingMsg"></div>
+    </div>
+
+    <!-- 除外キーワード -->
+    <div class="settings-section">
+      <h2>除外キーワード</h2>
+      <p style="font-size:13px;color:#666;margin-bottom:12px;">
+        公演タイトルにこれらの語を含む公演は、一覧表示とメール通知から除外されます（部分一致）。
+      </p>
+      <div id="excludeKeywordList">
+        <div class="loading-overlay">読み込み中...</div>
+      </div>
+      <div class="add-form">
+        <input type="text" id="addKeyword" placeholder="除外したいキーワード">
+        <button class="btn-add" id="addKeywordBtn" onclick="handleAddKeyword()">追加</button>
+      </div>
+      <div class="status-msg" id="keywordMsg"></div>
     </div>
 
     <!-- マスタから追加 -->

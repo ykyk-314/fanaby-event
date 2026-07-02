@@ -25,39 +25,41 @@
     </div>
   </header>
   <div class="container">
-    <div class="tabs">
-      <button class="tab-btn active" data-tab="all">全員</button><button class="tab-btn" data-tab="10708"><img class="tab-avatar" src="/talents/10708.jpg" alt="" onerror="this.style.display='none'">シンクロニシティ</button><button class="tab-btn" data-tab="5114"><img class="tab-avatar" src="/talents/5114.jpg" alt="" onerror="this.style.display='none'">マユリカ</button><button class="tab-btn" data-tab="7295"><img class="tab-avatar" src="/talents/7295.jpg" alt="" onerror="this.style.display='none'">ケビンス</button><button class="tab-btn" data-tab="5110"><img class="tab-avatar" src="/talents/5110.jpg" alt="" onerror="this.style.display='none'">kento fukaya</button><button class="tab-btn" data-tab="5997"><img class="tab-avatar" src="/talents/5997.jpg" alt="" onerror="this.style.display='none'">ビスケットブラザーズ</button><button class="tab-btn" data-tab="8060"><img class="tab-avatar" src="/talents/8060.jpg" alt="" onerror="this.style.display='none'">下川はじメロディ</button><button class="tab-btn" data-tab="2772"><img class="tab-avatar" src="/talents/2772.jpg" alt="" onerror="this.style.display='none'">マヂカルラブリー</button><button class="tab-btn" data-tab="11715"><img class="tab-avatar" src="/talents/11715.jpg" alt="" onerror="this.style.display='none'">電気ジュース</button>
-    </div>
-    <div class="filter-bar" id="filterBar">
-      <div>
-        <label>キーワード</label>
-        <input type="text" id="filterKeyword" placeholder="公演名・出演者を検索（スペースでAND）">
+    <div class="sticky-controls">
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="all">全員</button><button class="tab-btn" data-tab="10708"><img class="tab-avatar" src="/talents/10708.jpg" alt="" onerror="this.style.display='none'">シンクロニシティ</button><button class="tab-btn" data-tab="5114"><img class="tab-avatar" src="/talents/5114.jpg" alt="" onerror="this.style.display='none'">マユリカ</button><button class="tab-btn" data-tab="7295"><img class="tab-avatar" src="/talents/7295.jpg" alt="" onerror="this.style.display='none'">ケビンス</button><button class="tab-btn" data-tab="5110"><img class="tab-avatar" src="/talents/5110.jpg" alt="" onerror="this.style.display='none'">kento fukaya</button><button class="tab-btn" data-tab="5997"><img class="tab-avatar" src="/talents/5997.jpg" alt="" onerror="this.style.display='none'">ビスケットブラザーズ</button><button class="tab-btn" data-tab="8060"><img class="tab-avatar" src="/talents/8060.jpg" alt="" onerror="this.style.display='none'">下川はじメロディ</button><button class="tab-btn" data-tab="2772"><img class="tab-avatar" src="/talents/2772.jpg" alt="" onerror="this.style.display='none'">マヂカルラブリー</button><button class="tab-btn" data-tab="11715"><img class="tab-avatar" src="/talents/11715.jpg" alt="" onerror="this.style.display='none'">電気ジュース</button>
       </div>
-      <div>
-        <label>会場</label>
-        <select id="filterVenue">
-          <option value="">すべて</option>
-        </select>
-        <label>観覧ステータス</label>
-        <select id="filterViewingStatus">
-          <option value="">すべて</option>
-          <option value="want">行きたい</option>
-          <option value="lottery_applied">先行申込済み</option>
-          <option value="lottery_lost">落選</option>
-          <option value="purchased">購入済み</option>
-          <option value="attended">行った</option>
-          <option value="none">未設定</option>
-        </select>
-      </div>
-      <div>
-        <label>日付（から）</label>
-        <input type="date" id="filterDateFrom">
-        <label>（まで）</label>
-        <input type="date" id="filterDateTo">
-        <label class="filter-remind-label"><input type="checkbox" id="filterRemindOnly"> 🔔 通知ONのみ</label>
-        <label class="filter-exclude-label"><input type="checkbox" id="filterShowExcluded"> 除外済みを表示</label>
-        <button class="filter-reset" id="filterReset">リセット</button>
-        <span class="filter-count" id="filterCount"></span>
+      <div class="filter-bar" id="filterBar">
+        <div>
+          <label>キーワード</label>
+          <input type="text" id="filterKeyword" placeholder="公演名・出演者を検索（スペースでAND）">
+        </div>
+        <div>
+          <label>会場</label>
+          <select id="filterVenue">
+            <option value="">すべて</option>
+          </select>
+          <label>観覧ステータス</label>
+          <select id="filterViewingStatus">
+            <option value="">すべて</option>
+            <option value="want">行きたい</option>
+            <option value="lottery_applied">先行申込済み</option>
+            <option value="lottery_lost">落選</option>
+            <option value="purchased">購入済み</option>
+            <option value="attended">行った</option>
+            <option value="none">未設定</option>
+          </select>
+        </div>
+        <div>
+          <label>日付（から）</label>
+          <input type="date" id="filterDateFrom">
+          <label>（まで）</label>
+          <input type="date" id="filterDateTo">
+          <label class="filter-remind-label"><input type="checkbox" id="filterRemindOnly"> 🔔 通知ONのみ</label>
+          <label class="filter-exclude-label"><input type="checkbox" id="filterShowExcluded"> 除外済みを表示</label>
+          <button class="filter-reset" id="filterReset">リセット</button>
+          <span class="filter-count" id="filterCount"></span>
+        </div>
       </div>
     </div>
     <div class="section" id="section-future"><h3 class="section-title">今後の公演（<span class="section-count">437</span>件）</h3><div class="event-card" data-excluded="false" data-talent="5110" data-venue="渋谷よしもと漫才劇場" data-prefecture="東京都" data-date="2026-07-02" data-event-id="09753572" data-title="渋谷Kiwami極LIVE" data-members="[ネタ＆コーナーライブ]マルセイユ／ダンビラムーチョ／シカゴ実業／入間国際宣言／kento fukaya／スクラップス／ド桜／サンタモニカ／ゼロカラン
@@ -5776,6 +5778,7 @@ kento fukaya（6/18）
   <div id="lightbox" onclick="closeLightbox()">
     <img id="lightboxImg" src="" alt="フライヤー拡大">
   </div>
+  <button id="backToTop" class="back-to-top" title="画面最上部へ戻る" aria-label="画面最上部へ戻る">&#x2191;</button>
   <script src="assets/script.js"></script>
 </body>
 </html>

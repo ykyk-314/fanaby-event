@@ -2,7 +2,7 @@
  * GET /api/notify-targets
  *
  * notify.py が呼び出す内部 API。
- * KV を走査して全ユーザーの {email, talent_ids} リストを返す。
+ * KV を走査して全ユーザーの {email, talent_ids, exclude_keywords, standing_exclude} リストを返す。
  *
  * 認証: Authorization: Bearer {REMIND_API_SECRET}
  */
@@ -34,7 +34,16 @@ export async function onRequestGet({ request, env }) {
         const followData = await env.FANABY_VIEWING_STATUSES.get(`user-talents:${hash}`, 'json');
         const talent_ids = Array.isArray(followData?.talent_ids) ? followData.talent_ids : [];
 
-        targets.push({ email: profile.email, talent_ids });
+        const ekData = await env.FANABY_VIEWING_STATUSES.get(`user-exclude-keywords:${hash}`, 'json');
+        const exclude_keywords = Array.isArray(ekData?.keywords) ? ekData.keywords : [];
+
+        const seData = await env.FANABY_VIEWING_STATUSES.get(`user-standing-exclude:${hash}`, 'json');
+        const standing_exclude = {
+          mode: seData?.mode || 'all',
+          venues: Array.isArray(seData?.venues) ? seData.venues : [],
+        };
+
+        targets.push({ email: profile.email, talent_ids, exclude_keywords, standing_exclude });
       }
 
       cursor = listed.list_complete ? undefined : listed.cursor;

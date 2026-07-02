@@ -19,7 +19,10 @@ paths: functions/**/*
 | `/api/talents` | GET, POST, PUT | GET: Bearer or CF Access、POST: CF Access、PUT: Bearer | `functions/api/talents/index.js` | 芸人マスタ一覧取得 / 新規追加 / 全置換 |
 | `/api/talents/:talentId` | PATCH, DELETE | PATCH: Bearer、DELETE: CF Access + admin | `functions/api/talents/[talentId].js` | name/image_url 補完 / 物理削除 |
 | `/api/user-talents` | GET, PUT | CF Access | `functions/api/user-talents.js` | ユーザー別フォロー talent_ids 取得 / 全置換 |
-| `/api/notify-targets` | GET | Bearer `REMIND_API_SECRET` | `functions/api/notify-targets.js` | KV 走査して全ユーザーの `{email, talent_ids}` 一覧を返す（notify.py 用） |
+| `/api/user-exclude-keywords` | GET, PUT | CF Access | `functions/api/user-exclude-keywords.js` | ユーザー別除外キーワード（任意タイトル部分一致）取得（未設定時は空リスト） / 全置換 |
+| `/api/user-standing-exclude` | GET, PUT | CF Access | `functions/api/user-standing-exclude.js` | 定常公演の除外設定（`mode: off/all/venues` + `venues[]`）取得（未設定時は `mode:"all"`） / 保存 |
+| `/api/standing-show-keywords` | GET | CF Access | `functions/api/standing-show-keywords.js` | 定常公演キーワードの劇場別カタログ（共有・全ユーザー共通）を返す |
+| `/api/notify-targets` | GET | Bearer `REMIND_API_SECRET` | `functions/api/notify-targets.js` | KV 走査して全ユーザーの `{email, talent_ids, exclude_keywords, standing_exclude}` 一覧を返す（notify.py 用） |
 
 - 認証ユーティリティ: `functions/_lib/auth.js` (`sha256hex` / `getCallerEmail` / `getAdminEmails` / `isAdmin`)
 - 呼び出し元メールアドレス: `CF-Access-Authenticated-User-Email` ヘッダーから取得
@@ -37,6 +40,9 @@ paths: functions/**/*
 | `excluded_events` | なし | `{ids: [eventId, ...], updated_at}` | グローバル除外公演 ID リスト |
 | `talents` | なし | `{schema_version, talents: [{id, name, image_url, profile_url, added_at, added_by}], updated_at}` | グローバル芸人マスタ |
 | `user-talents:{sha256(email)}` | なし | `{schema_version, talent_ids: [...], updated_at}` | ユーザー別フォロー芸人 ID リスト |
+| `user-exclude-keywords:{sha256(email)}` | なし | `{schema_version, keywords: [...], updated_at}` | ユーザー別除外キーワードリスト（任意タイトル部分一致。未設定時は空リスト） |
+| `user-standing-exclude:{sha256(email)}` | なし | `{schema_version, mode: "off"\|"all"\|"venues", venues: [...], updated_at}` | ユーザー別の定常公演除外設定。未設定時は `mode:"all"` 扱い |
+| `standing-show-keywords` | なし | `{schema_version, venues: {"劇場名": [キーワード, ...], ...}, updated_at}` | 定常公演キーワードの劇場別カタログ（共有）。`merge.py` が未作成時に自動 seed |
 | `register-req:{token}` | 24h → 承認時 30d | `{email, created_at, status: pending/approved/rejected}` | 登録申請データ |
 | `register-email:{sha256(email)}` | 24h → 承認時 30d | `{token, status, created_at, approved_at?}` | メール重複申請ガード |
 | `ratelimit:register:{ip}` | 1h | カウンタ（上限 5 回/h） | 登録申請 IP レート制限 |

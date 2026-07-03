@@ -5,7 +5,8 @@
 
 ## カスタマイズ方針
 - `data/config.json` が設定の起点。芸人・劇場・除外タイトルはここで管理する
-- `docs/assets/`（style.css / script.js）は静的ファイル。`build.py` は触れない
+- `docs/index.html`（ヘッダー・芸人タブの器・フィルターバー）と `docs/assets/`（style.css / script.js）は静的ファイル。`build.py` は触れない
+- `docs/schedule.html`（スケジュールカードのHTMLフラグメント）のみ `build.py` が生成する
 - `data/events.json` は過去イベントも保持（carry-over）。削除・上書きに注意
 
 ## 技術スタック
@@ -24,7 +25,7 @@
 | 劇場スクレイプ | `python scripts/scrape_theater.py` |
 | マージ・差分検出 | `python scripts/merge.py` |
 | メール通知 | `python scripts/notify.py` |
-| HTML生成 | `python scripts/build.py` |
+| スケジュールHTML生成 | `python scripts/build.py`（`docs/schedule.html` を生成。枠の `docs/index.html` は生成しない） |
 
 ## ディレクトリ構造
 | パス | 役割 |
@@ -32,6 +33,8 @@
 | `scripts/` | Pythonスクリプト群（実行順: scrape→merge→notify→build） |
 | `data/events.json` | スクレイピング結果（Git管理・過去分も保持） |
 | `docs/` | Cloudflare Pages 配信ディレクトリ |
+| `docs/index.html` | 静的HTML（ヘッダー・芸人タブの器・フィルターバー。Git管理・build.py は変更しない） |
+| `docs/schedule.html` | スケジュールカードのHTMLフラグメント（build.py が生成・Git管理） |
 | `docs/assets/` | 静的CSS/JS（Git管理・build.py は変更しない） |
 | `docs/fliers/` | フライヤー画像（merge.py がDL・Git管理） |
 

@@ -53,6 +53,25 @@ function closeLightbox() {
 }
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 
+// ---- スケジュールフラグメントの読み込み ----
+// build.py が生成する docs/schedule.html（カードのみのHTML断片）を取得し、
+// 静的な index.html に差し込む。
+async function injectSchedule() {
+  const root = document.getElementById('scheduleRoot');
+  try {
+    const res = await fetch('schedule.html', { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    root.innerHTML = await res.text();
+    const meta = document.getElementById('scheduleMeta');
+    const lastUpdated = document.getElementById('lastUpdated');
+    if (meta && lastUpdated) {
+      lastUpdated.textContent = '最終更新: ' + (meta.dataset.updated || '—');
+    }
+  } catch {
+    root.innerHTML = '<p class="empty">スケジュールの読み込みに失敗しました</p>';
+  }
+}
+
 // ---- 最上部へ戻るボタン ----
 (() => {
   const btn = document.getElementById('backToTop');
@@ -636,6 +655,43 @@ async function initStandingExcludeFilter() {
   } catch {}
 }
 
+// 芸人マスタ（/api/talents）から芸人タブを全件生成する。
+// index.html には「全員」タブのみ静的に置いてあり、個別タブは常にここで動的生成する
+// （build.py はスケジュールカードのみを生成し、芸人タブとは無関係にする方針のため）。
+async function buildAllTabs() {
+  try {
+    const res = await fetch('/api/talents');
+    if (!res.ok) return;
+    const data = await res.json();
+    const talents = Array.isArray(data.talents) ? data.talents : [];
+    const tabsEl = document.querySelector('.tabs');
+    for (const t of talents) {
+      const btn = document.createElement('button');
+      btn.className = 'tab-btn';
+      btn.dataset.tab = t.id;
+      const imgSrc = t.local_image ? ('/' + t.local_image) : (t.image_url || '');
+      if (imgSrc) {
+        const img = document.createElement('img');
+        img.className = 'tab-avatar';
+        img.src = imgSrc;
+        img.alt = '';
+        img.onerror = () => { img.style.display = 'none'; };
+        btn.appendChild(img);
+      }
+      btn.appendChild(document.createTextNode(t.name || t.id));
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentTalent = t.id;
+        resetFilters();
+        buildVenueOptions();
+        applyFilters();
+      });
+      tabsEl.appendChild(btn);
+    }
+  } catch {}
+}
+
 async function initFollowFilter() {
   try {
     const res = await fetch('/api/user-talents');
@@ -646,60 +702,16 @@ async function initFollowFilter() {
     return;
   }
 
-  // 既存タブの表示/非表示制御
-  const renderedTabIds = new Set();
   document.querySelectorAll('.tab-btn[data-tab]').forEach(btn => {
     const tabId = btn.dataset.tab;
     if (tabId === 'all') return;
-    renderedTabIds.add(tabId);
     btn.style.display = followedTalents.includes(tabId) ? '' : 'none';
   });
-
-  // フォロー中だが HTML にタブがない芸人 → 動的生成
-  const missingIds = followedTalents.filter(id => !renderedTabIds.has(id));
-  if (missingIds.length === 0) return;
-
-  let nameMap = {};
-  let imgMap = {};
-  try {
-    const res = await fetch('/api/talents');
-    if (res.ok) {
-      const d = await res.json();
-      for (const t of (d.talents || [])) {
-        nameMap[t.id] = t.name || t.id;
-        const src = t.local_image ? ('/' + t.local_image) : (t.image_url || '');
-        if (src) imgMap[t.id] = src;
-      }
-    }
-  } catch {}
-
-  const tabsEl = document.querySelector('.tabs');
-  for (const id of missingIds) {
-    const btn = document.createElement('button');
-    btn.className = 'tab-btn';
-    btn.dataset.tab = id;
-    if (imgMap[id]) {
-      const img = document.createElement('img');
-      img.className = 'tab-avatar';
-      img.src = imgMap[id];
-      img.alt = '';
-      img.onerror = () => { img.style.display = 'none'; };
-      btn.appendChild(img);
-    }
-    btn.appendChild(document.createTextNode(nameMap[id] || id));
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentTalent = id;
-      resetFilters();
-      buildVenueOptions();
-      applyFilters();
-    });
-    tabsEl.appendChild(btn);
-  }
 }
 
 (async () => {
+  // スケジュールカードと芸人タブは静的 index.html に含まれないため、まず読み込んで差し込む
+  await Promise.all([injectSchedule(), buildAllTabs()]);
   // 初期化完了まで操作を無効化（APIフェッチ中の競合防止）
   document.querySelectorAll('.viewing-select').forEach(sel => { sel.disabled = true; });
   await Promise.all([ViewingStorage.init(), initUserUI(), initFollowFilter(), initExcludeFilter(), initStandingExcludeFilter()]);

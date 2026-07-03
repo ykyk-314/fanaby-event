@@ -23,7 +23,7 @@ paths: .github/workflows/**/*
 7. `python scripts/merge.py`
 8. `python scripts/notify.py`
 9. `python scripts/build.py`（`skip_scrape=true` でも実行）
-10. `git add data/events.json docs/index.html docs/fliers/` → commit & push
+10. `git add data/events.json docs/schedule.html docs/fliers/` → commit & push
 11. `cloudflare/pages-action@v1` で `docs/` を Cloudflare Pages にデプロイ
 
 使用 Secrets / Variables:
@@ -55,7 +55,7 @@ cron 設定:
 3. `pip install requests beautifulsoup4 python-dotenv`
 4. `python scripts/scrape_ticket.py`
 5. `python scripts/build.py`
-6. `git add data/ticket_deadlines.json docs/index.html` → commit & push
+6. `git add data/ticket_deadlines.json docs/schedule.html` → commit & push
 7. `cloudflare/pages-action@v1` でデプロイ
 8. `python scripts/remind.py`（デプロイ後に送信）
 
@@ -85,7 +85,7 @@ cron 設定:
 6. `python scripts/merge.py`
 7. `python scripts/notify.py`（新規公演をユーザー別に通知）
 8. `python scripts/build.py`
-9. `git add data/events.json docs/index.html docs/fliers/` → commit & push
+9. `git add data/events.json docs/schedule.html docs/fliers/` → commit & push
 10. `cloudflare/pages-action@v1` でデプロイ
 
 使用 Secrets:

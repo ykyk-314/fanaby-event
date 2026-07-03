@@ -1,20 +1,16 @@
 """
-events.json を読み込み、docs/index.html を生成するスクリプト。
+events.json を読み込み、docs/schedule.html（スケジュールカードのHTMLフラグメント）を生成するスクリプト。
+docs/index.html はヘッダー・芸人タブ・フィルターバーを含む静的ファイルで、このスクリプトは触れない。
 CSS/JS は docs/assets/ に静的ファイルとして置いており、このスクリプトは触れない。
 """
 
 import json
-import sys
 from datetime import date
 from pathlib import Path
 from urllib.parse import quote
 
-sys.path.insert(0, str(Path(__file__).parent))
-from _talents_kv import fetch_talents_master
-
 BASE_DIR        = Path(__file__).parent.parent
 EVENTS_PATH     = BASE_DIR / "data" / "events.json"
-CONFIG_PATH     = BASE_DIR / "data" / "config.json"
 DEADLINES_PATH  = BASE_DIR / "data" / "ticket_deadlines.json"
 DOCS_DIR        = BASE_DIR / "docs"
 
@@ -297,11 +293,9 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
 
 
 def main():
-    config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     data   = json.loads(EVENTS_PATH.read_text(encoding="utf-8"))
     events: list[dict] = data.get("events", [])
     updated_at: str    = data.get("updated_at") or ""
-    talents = fetch_talents_master(config.get("talents", []))
     today   = date.today().isoformat()
 
     # ticket_deadlines.json を読み込み（存在しない場合は空）
@@ -320,23 +314,6 @@ def main():
 
     all_future = [e for e in events if e.get("date", "") >= today]
     all_past   = [e for e in events if e.get("date", "") < today]
-
-    # タブボタン
-    tab_buttons = '<button class="tab-btn active" data-tab="all">全員</button>'
-    for t in talents:
-        img_src = t.get("local_image") or t.get("image_url") or ""
-        if img_src and not img_src.startswith("http"):
-            img_src = f"/{img_src}"
-        avatar = (
-            f'<img class="tab-avatar" src="{escape_html(img_src)}" alt=""'
-            f' onerror="this.style.display=\'none\'">'
-            if img_src else ""
-        )
-        tab_buttons += (
-            f'<button class="tab-btn" data-tab="{t["id"]}">'
-            f'{avatar}'
-            f'{escape_html(t.get("name") or t["id"])}</button>'
-        )
 
     # 全カードを単一DOMに配置（タブ切り替えはJSのフィルタで行う）
     future_cards = "".join(render_event_card(e, ticket_map.get(e["id"])) for e in all_future)
@@ -364,85 +341,15 @@ def main():
         updated_at.replace("T", " ").replace("+09:00", " JST") if updated_at else "—"
     )
 
-    html = f"""<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>公演スケジュール</title>
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="/icon-192.png" type="image/png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-  <header>
-    <div class="header-inner">
-      <div>
-        <h1>公演スケジュール</h1>
-        <p>最終更新: {escape_html(updated_str)}</p>
-      </div>
-      <div class="header-right">
-        <a href="exclude-settings.html" class="settings-link" title="除外設定">&#x2298;</a>
-        <a href="settings.html" class="settings-link" title="設定">&#x2699;</a>
-        <div id="userAvatar" class="user-avatar" style="display:none" title=""></div>
-      </div>
-    </div>
-  </header>
-  <div class="container">
-    <div class="sticky-controls">
-      <div class="tabs">
-        {tab_buttons}
-      </div>
-      <div class="filter-bar" id="filterBar">
-        <div>
-          <label>キーワード</label>
-          <input type="text" id="filterKeyword" placeholder="公演名・出演者を検索（スペースでAND）">
-        </div>
-        <div>
-          <label>会場</label>
-          <select id="filterVenue">
-            <option value="">すべて</option>
-          </select>
-          <label>観覧ステータス</label>
-          <select id="filterViewingStatus">
-            <option value="">すべて</option>
-            <option value="want">行きたい</option>
-            <option value="lottery_applied">先行申込済み</option>
-            <option value="lottery_lost">落選</option>
-            <option value="purchased">購入済み</option>
-            <option value="attended">行った</option>
-            <option value="none">未設定</option>
-          </select>
-        </div>
-        <div>
-          <label>日付（から）</label>
-          <input type="date" id="filterDateFrom">
-          <label>（まで）</label>
-          <input type="date" id="filterDateTo">
-          <label class="filter-remind-label"><input type="checkbox" id="filterRemindOnly"> 🔔 通知ONのみ</label>
-          <label class="filter-exclude-label"><input type="checkbox" id="filterShowExcluded"> 除外済みを表示</label>
-          <button class="filter-reset" id="filterReset">リセット</button>
-          <span class="filter-count" id="filterCount"></span>
-        </div>
-      </div>
-    </div>
-    {content_html}
-  </div>
-  <div id="lightbox" onclick="closeLightbox()">
-    <img id="lightboxImg" src="" alt="フライヤー拡大">
-  </div>
-  <button id="backToTop" class="back-to-top" title="画面最上部へ戻る" aria-label="画面最上部へ戻る">&#x2191;</button>
-  <script src="assets/script.js"></script>
-</body>
-</html>"""
+    # docs/index.html（静的ファイル）が fetch して差し込むスケジュール部分のみを出力
+    meta_html = f'<div id="scheduleMeta" data-updated="{escape_html(updated_str)}" hidden></div>'
+    fragment = meta_html + content_html
 
-    (DOCS_DIR / "index.html").write_text(html, encoding="utf-8")
+    (DOCS_DIR / "schedule.html").write_text(fragment, encoding="utf-8")
 
     print(
         f"build 完了: 今後 {len(all_future)} 件、過去 {len(all_past)} 件\n"
-        f"  → {DOCS_DIR / 'index.html'}"
+        f"  → {DOCS_DIR / 'schedule.html'}"
     )
 
 

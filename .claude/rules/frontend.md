@@ -5,7 +5,8 @@ paths: docs/**/*
 # docs/ — 静的サイト（Cloudflare Pages）
 
 ## ファイル管理の原則
-- `docs/index.html` は `build.py` が生成する。手動編集は `build.py` に反映されない
+- `docs/index.html` は静的（手動管理）ファイル。ヘッダー・芸人タブの器（「全員」ボタンのみ）・フィルターバーを含み、`build.py` は触れない。main マージで Cloudflare Pages（Git 連携）が自動デプロイする
+- `docs/schedule.html` は `build.py` が生成するスケジュールカードの HTML フラグメント（ヘッダーや枠は含まない）。手動編集は `build.py` に反映されない
 - `docs/assets/style.css` / `docs/assets/script.js` は静的ファイル。`build.py` は触れない
 - `docs/fliers/` は `merge.py` が管理。手動で削除・追加しない
 - `docs/robots.txt` は全クローラー拒否設定。変更不要
@@ -14,7 +15,8 @@ paths: docs/**/*
 
 | パス | 管理者 | 備考 |
 |---|---|---|
-| `docs/index.html` | `build.py` が生成 | 手動編集不可 |
+| `docs/index.html` | 静的（手動管理） | ヘッダー・芸人タブの器・フィルターバー。`build.py` は触れない |
+| `docs/schedule.html` | `build.py` が生成 | スケジュールカードのみのHTMLフラグメント。手動編集不可 |
 | `docs/assets/style.css` | 静的（手動管理） | `build.py` は触れない |
 | `docs/assets/script.js` | 静的（手動管理） | `build.py` は触れない |
 | `docs/fliers/` | `merge.py` が管理 | 手動で削除・追加しない |
@@ -27,6 +29,8 @@ paths: docs/**/*
 | `docs/robots.txt` | 静的 | 全クローラー拒否。変更不要 |
 
 ## フロントエンド設計
+- スケジュール読み込み: `docs/index.html` はロード時に `script.js` の `injectSchedule()` が `schedule.html` を fetch し、`#scheduleRoot` に `innerHTML` で差し込む（build.py がフルページを生成していた旧方式から変更）。フラグメント先頭の `#scheduleMeta[data-updated]` からヘッダーの「最終更新」表示を更新する
+- 芸人タブ: 静的 index.html には「全員」タブのみ存在。`buildAllTabs()` が `/api/talents` から個別タブを毎回動的生成する（芸人マスタの変更が build.py の実行を待たず即座に反映される）
 - タブ切り替え: 全カードを単一 DOM に置き、JS フィルタで切り替え（DOM を再生成しない）
 - 観覧ステータス管理: `script.js` 内の `ViewingStorage` オブジェクト経由で LocalStorage ↔ Cloudflare KV を透過同期
   - LocalStorage キー: `fanaby_viewing_statuses`

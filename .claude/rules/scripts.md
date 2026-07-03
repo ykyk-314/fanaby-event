@@ -13,14 +13,14 @@ paths: scripts/**/*.py
 2. scrape_theater_api.py  → data/theater_events.json（中間・gitignore）
 3. merge.py               → data/events.json + docs/fliers/（DL）
 4. notify.py              → Gmail SMTP 送信
-5. build.py               → docs/index.html
+5. build.py               → docs/schedule.html（スケジュールカードのHTMLフラグメント）
 ```
 
 ### リマインドフロー（`remind-check.yml` が JST 8:45〜22:45 毎時実行）
 
 ```
 1. scrape_ticket.py  → data/ticket_deadlines.json
-2. build.py          → docs/index.html
+2. build.py          → docs/schedule.html
 3. remind.py         → Gmail SMTP 送信（ユーザー別）
 ```
 
@@ -85,8 +85,10 @@ notify_register.py  → Gmail SMTP 送信（管理者宛）
 - 環境変数: `MAIL_USER`, `MAIL_PASS`, `ADMIN_EMAIL`, `SITE_ORIGIN`, `REQ_TOKEN`, `REQ_EMAIL`
 
 ### `build.py`
-- 入力: `data/events.json`, `data/ticket_deadlines.json`, `data/config.json`
-- 出力: `docs/index.html`
+- 入力: `data/events.json`, `data/ticket_deadlines.json`
+- 出力: `docs/schedule.html`（スケジュールカードのみの HTML フラグメント。`<div id="scheduleMeta" data-updated="...">` + カード群）
+- `docs/index.html`（ヘッダー・芸人タブ・フィルターバーを含む枠）は静的ファイルであり、`build.py` は生成・変更しない。`docs/index.html` の JS がロード時に `schedule.html` を fetch して `#scheduleRoot` に差し込む
+- 芸人タブは `docs/assets/script.js` の `buildAllTabs()` が `/api/talents` から動的生成する（`build.py` は芸人マスタを参照しない）
 - `docs/assets/style.css` / `docs/assets/script.js` は変更しない
 
 ---

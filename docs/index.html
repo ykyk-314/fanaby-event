@@ -31,15 +31,15 @@
       </div>
       <div class="filter-bar" id="filterBar">
         <div>
-          <label>キーワード</label>
+          <label class="filter-label" data-icon="🔍">キーワード</label>
           <input type="text" id="filterKeyword" placeholder="公演名・出演者を検索（スペースでAND）">
         </div>
         <div>
-          <label>会場</label>
+          <label class="filter-label" data-icon="📍">会場</label>
           <select id="filterVenue">
             <option value="">すべて</option>
           </select>
-          <label>観覧ステータス</label>
+          <label class="filter-label" data-icon="👀">観覧ステータス</label>
           <select id="filterViewingStatus">
             <option value="">すべて</option>
             <option value="want">行きたい</option>
@@ -51,9 +51,9 @@
           </select>
         </div>
         <div>
-          <label>日付（から）</label>
+          <label class="filter-label" data-icon="📅">日付（から）</label>
           <input type="date" id="filterDateFrom">
-          <label>（まで）</label>
+          <label class="filter-label" data-icon="〜">（まで）</label>
           <input type="date" id="filterDateTo">
           <label class="filter-remind-label"><input type="checkbox" id="filterRemindOnly"> 🔔 通知ONのみ</label>
           <label class="filter-exclude-label"><input type="checkbox" id="filterShowExcluded"> 除外済みを表示</label>
@@ -62,6 +62,7 @@
         </div>
       </div>
     </div>
+    <div id="controlsSentinel" aria-hidden="true"></div>
     <div id="scheduleRoot">
       <p class="empty">読み込み中...</p>
     </div>

@@ -84,6 +84,36 @@ async function injectSchedule() {
   });
 })();
 
+// ---- コントロールバー（タブ+フィルターバー）のスクロール挙動 ----
+// 最上部付近: 常にフル表示 / スクロール中: 隠す / 停止200ms後: コンパクト表示で再表示
+(() => {
+  const controls = document.querySelector('.sticky-controls');
+  const sentinel = document.getElementById('controlsSentinel');
+  if (!controls || !sentinel) return;
+
+  let atTop = true;
+  let stopTimer = null;
+
+  const io = new IntersectionObserver(([entry]) => {
+    atTop = entry.isIntersecting;
+    if (atTop) {
+      clearTimeout(stopTimer);
+      controls.classList.remove('is-hidden', 'is-compact');
+    }
+  }, { rootMargin: '20px 0px 0px 0px', threshold: 0 });
+  io.observe(sentinel);
+
+  window.addEventListener('scroll', () => {
+    if (atTop) return;
+    controls.classList.add('is-hidden');
+    clearTimeout(stopTimer);
+    stopTimer = setTimeout(() => {
+      controls.classList.remove('is-hidden');
+      controls.classList.add('is-compact');
+    }, 200);
+  }, { passive: true });
+})();
+
 // ---- フィルター ----
 function allCards() {
   return Array.from(document.querySelectorAll('.event-card'));

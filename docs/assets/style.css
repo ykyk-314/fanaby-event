@@ -36,6 +36,21 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
   padding-top: 16px;
   margin-top: -16px;
   padding-bottom: 3px;
+  transition: transform .25s ease;
+}
+
+/* スクロール中は上へスライドして隠す */
+.sticky-controls.is-hidden { transform: translateY(-110%); }
+
+/* スクロール停止後に再表示するコンパクト版（タブ縮小・フィルター1行・アイコン化） */
+.sticky-controls.is-compact .tabs { margin-bottom: 6px; }
+.sticky-controls.is-compact .tab-btn { padding: 3px 10px; font-size: 12px; }
+.sticky-controls.is-compact .filter-bar { padding: 6px 10px; gap: 8px; margin-bottom: 8px; }
+.sticky-controls.is-compact .filter-bar label.filter-label { font-size: 0; }
+.sticky-controls.is-compact .filter-bar label.filter-label::before { content: attr(data-icon); font-size: 14px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .sticky-controls { transition: none; }
 }
 
 /* タブ */

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T19:12:12+09:00",
+  "updated_at": "2026-07-06T12:27:38+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -8303,7 +8303,7 @@
       "open_time": "11:45",
       "start_time": "12:00",
       "end_time": "13:30",
-      "members": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫",
+      "members": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫\n【コーナー出演者】 MC：セルライトスパ／生姜猫／ZAZY／ヘンダーソン",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017472_1_20260610212312276.jpg",
@@ -8319,11 +8319,16 @@
         "profile"
       ],
       "local_image": "fliers/3d2605ee.jpg",
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-06T12:27:38+09:00",
+      "diff": {
+        "members": {
+          "before": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫",
+          "after": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫\n【コーナー出演者】 MC：セルライトスパ／生姜猫／ZAZY／ヘンダーソン"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "e05d94ad",
@@ -8457,7 +8462,7 @@
       "open_time": "14:15",
       "start_time": "14:30",
       "end_time": "16:00",
-      "members": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫",
+      "members": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫\n【コーナー出演者】 MC：ななまがり／生姜猫／蛙亭／コットン",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -8473,11 +8478,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-06T12:27:38+09:00",
+      "diff": {
+        "members": {
+          "before": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫",
+          "after": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫\n【コーナー出演者】 MC：ななまがり／生姜猫／蛙亭／コットン"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "d7118c69",
@@ -9183,16 +9193,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-05T19:12:12+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]カーネーション／ダンビラムーチョ／ヨネダ2000／今井らいぱち／シモリュウ／おミュータンツ／9番街レトロ／シンクロニシティ／ソマオ・ミートボール／他\n[ コーナー出演者]今井らいぱち／ダンビラムーチョ／9番街レトロ／ヨネダ2000／他",
-          "after": "[ネタ＆コーナーライブ]カーネーション／ダンビラムーチョ／ヨネダ2000／今井らいぱち／シモリュウ／おミュータンツ／9番街レトロ／シンクロニシティ／ソマオ・ミートボール／他\n[ コーナー出演者]MC：カーネーション／今井らいぱち／ダンビラムーチョ／9番街レトロ／ヨネダ2000"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-05T19:12:12+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bfb395b8",
@@ -11000,7 +11005,7 @@
       "open_time": "19:45",
       "start_time": "20:00",
       "end_time": null,
-      "members": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／喜喜かいばしら／パンたべる／かば鴉／外村",
+      "members": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／喜喜かいばしら／パンたべる／かば鴉／ほか村",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -11012,11 +11017,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-06T12:27:38+09:00",
+      "diff": {
+        "members": {
+          "before": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／喜喜かいばしら／パンたべる／かば鴉／外村",
+          "after": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／喜喜かいばしら／パンたべる／かば鴉／ほか村"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "6c124e87",
@@ -12447,6 +12457,33 @@
       "diff": null
     },
     {
+      "id": "23707ea2",
+      "talents": {
+        "5110": "kento fukaya"
+      },
+      "title": "森ノ宮マンゲキお笑いライブSP",
+      "date": "2026-08-01",
+      "open_time": "13:15",
+      "start_time": "13:30",
+      "end_time": null,
+      "members": "ギャロップ／ガクテンソク／kento fukaya／ネイビーズアフロ／豪快キャプテン／愛凛冴／アイラブ地球／翠星チークダンス／チェリー大作戦／ぎょうぶ／ジョックロック／例えば炎",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-07-06T12:27:38+09:00",
+      "last_updated": "2026-07-06T12:27:38+09:00",
+      "notified_at": null
+    },
+    {
       "id": "b03f51f7",
       "talents": {
         "10708": "シンクロニシティ",
@@ -12506,6 +12543,33 @@
       "last_updated": "2026-06-25T10:11:20+09:00",
       "notified_at": "2026-06-25T10:11:20+09:00",
       "diff": null
+    },
+    {
+      "id": "9168375e",
+      "talents": {
+        "5110": "kento fukaya"
+      },
+      "title": "森ノ宮マンゲキお笑いライブSP",
+      "date": "2026-08-01",
+      "open_time": "15:45",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "ギャロップ／ガクテンソク／kento fukaya／ネイビーズアフロ／ドーナツ・ピーナツ／豪快キャプテン／愛凛冴／アイラブ地球／翠星チークダンス／チェリー大作戦／ぎょうぶ",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-07-06T12:27:38+09:00",
+      "last_updated": "2026-07-06T12:27:38+09:00",
+      "notified_at": null
     },
     {
       "id": "7939c735",
@@ -13132,9 +13196,10 @@
       ],
       "local_image": "fliers/e51d1ff0.jpg",
       "status": "notified",
-      "last_updated": "2026-07-05T19:12:12+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-05T19:12:12+09:00"
+      "last_updated": "2026-07-05T19:12:12+09:00",
+      "notified_at": "2026-07-05T19:12:12+09:00",
+      "diff": null
     },
     {
       "id": "e2baf244",

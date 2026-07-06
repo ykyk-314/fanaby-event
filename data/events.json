@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T12:27:38+09:00",
+  "updated_at": "2026-07-06T21:04:10+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -8110,13 +8110,13 @@
       "open_time": "17:15",
       "start_time": "17:30",
       "end_time": "18:30",
-      "members": "[ネタ出演者]アイロンヘッド／kento fukaya／蛙亭／ナイチンゲールダンス／青いデルタ／イワサキ／フジーズ／パパパジャマ／他\n[コーナー出演者]MC：イワサキ／ナイチンゲールダンス／青いデルタ／他",
+      "members": "[ネタ出演者]アイロンヘッド／kento fukaya／蛙亭／ナイチンゲールダンス／大王／青いデルタ／イワサキ／フジーズ／パパパジャマ\n[コーナー出演者]MC：イワサキ／ナイチンゲールダンス／大王／青いデルタ／フジーズ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/16379/43968",
       "online_url": null,
-      "notice": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "notice": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n■変更履歴■\r\n[追加]\r\n大王(7/6)",
       "price": {
         "advance": 1500,
         "door": 1800
@@ -8126,11 +8126,20 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-06T21:04:10+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ出演者]アイロンヘッド／kento fukaya／蛙亭／ナイチンゲールダンス／青いデルタ／イワサキ／フジーズ／パパパジャマ／他\n[コーナー出演者]MC：イワサキ／ナイチンゲールダンス／青いデルタ／他",
+          "after": "[ネタ出演者]アイロンヘッド／kento fukaya／蛙亭／ナイチンゲールダンス／大王／青いデルタ／イワサキ／フジーズ／パパパジャマ\n[コーナー出演者]MC：イワサキ／ナイチンゲールダンス／大王／青いデルタ／フジーズ"
+        },
+        "notice": {
+          "before": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+          "after": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n■変更履歴■\r\n[追加]\r\n大王(7/6)"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "3c5db67e",
@@ -8319,16 +8328,11 @@
         "profile"
       ],
       "local_image": "fliers/3d2605ee.jpg",
-      "status": "updated",
-      "last_updated": "2026-07-06T12:27:38+09:00",
-      "diff": {
-        "members": {
-          "before": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫",
-          "after": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫\n【コーナー出演者】 MC：セルライトスパ／生姜猫／ZAZY／ヘンダーソン"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-06T12:27:38+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e05d94ad",
@@ -8478,16 +8482,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-06T12:27:38+09:00",
-      "diff": {
-        "members": {
-          "before": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫",
-          "after": "佐久間一行／しずる／サルゴリラ／コットン／ビスケットブラザーズ／おかずクラブ／ななまがり／蛙亭／ZAZY／ヘンダーソン／セルライトスパ／生姜猫\n【コーナー出演者】 MC：ななまがり／生姜猫／蛙亭／コットン"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-06T12:27:38+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d7118c69",
@@ -8562,7 +8561,7 @@
       "members": "うただ／ぎょうぶ／軟水／シンクロニシティ",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016922_1_20260706121154531.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -8570,12 +8569,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/55c186f5.jpg",
       "status": "notified",
+      "last_updated": "2026-07-06T21:04:10+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00",
-      "diff": null
+      "notified_at": "2026-07-06T21:04:10+09:00"
     },
     {
       "id": "e4c77586",
@@ -11017,16 +11015,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-06T12:27:38+09:00",
-      "diff": {
-        "members": {
-          "before": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／喜喜かいばしら／パンたべる／かば鴉／外村",
-          "after": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／喜喜かいばしら／パンたべる／かば鴉／ほか村"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-06T12:27:38+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6c124e87",
@@ -12278,6 +12271,60 @@
       "diff": null
     },
     {
+      "id": "c1d389b0",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "沼ツーマン×2",
+      "date": "2026-07-31",
+      "open_time": "18:00",
+      "start_time": "18:15",
+      "end_time": null,
+      "members": "[ネタ]ヘンダーソン／ダイタク／ちょんまげラーメン／ビスケットブラザーズ",
+      "venue": "沼津ラクーンよしもと劇場",
+      "prefecture": "静岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-06T21:04:10+09:00",
+      "last_updated": "2026-07-06T21:04:10+09:00",
+      "notified_at": "2026-07-06T21:04:10+09:00"
+    },
+    {
+      "id": "ed827792",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "お菓子なヘンダーソン",
+      "date": "2026-07-31",
+      "open_time": "19:30",
+      "start_time": "19:45",
+      "end_time": null,
+      "members": "[トーク]ヘンダーソン／ダイタク／ちょんまげラーメン／ビスケットブラザーズ",
+      "venue": "沼津ラクーンよしもと劇場",
+      "prefecture": "静岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-06T21:04:10+09:00",
+      "last_updated": "2026-07-06T21:04:10+09:00",
+      "notified_at": "2026-07-06T21:04:10+09:00"
+    },
+    {
       "id": "68e4b2cd",
       "talents": {
         "5110": "kento fukaya"
@@ -12481,7 +12528,8 @@
       "status": "new",
       "first_seen": "2026-07-06T12:27:38+09:00",
       "last_updated": "2026-07-06T12:27:38+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b03f51f7",
@@ -12569,7 +12617,8 @@
       "status": "new",
       "first_seen": "2026-07-06T12:27:38+09:00",
       "last_updated": "2026-07-06T12:27:38+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "7939c735",
@@ -13384,6 +13433,7 @@
     {
       "id": "e2fec78c",
       "talents": {
+        "11715": "電気ジュース",
         "5997": "ビスケットブラザーズ"
       },
       "title": "バッテリィズ寺家の三重っぱり寄席in桑名",
@@ -13391,7 +13441,7 @@
       "open_time": "17:00",
       "start_time": "18:00",
       "end_time": null,
-      "members": "バッテリィズ、ニッポンの社長、ビスケットブラザーズ、おたまじゃくし中西、ミキ、さや香、カベポスター、エバース、ほか",
+      "members": "バッテリィズ、ニッポンの社長、ビスケットブラザーズ、おたまじゃくし中西、ミキ、さや香、カベポスター、エバース、三遊間、シカノシンプ、電気ジュース",
       "venue": "柿安シティホール（桑名市民会館）　大ホール",
       "prefecture": "三重県",
       "image_url": null,
@@ -13404,10 +13454,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-06T21:04:10+09:00",
       "first_seen": "2026-06-04T10:25:01+09:00",
-      "last_updated": "2026-06-04T10:25:01+09:00",
-      "notified_at": "2026-06-04T10:25:01+09:00",
-      "diff": null
+      "notified_at": "2026-07-06T21:04:10+09:00"
     },
     {
       "id": "66ceece2",
@@ -16044,8 +16093,7 @@
         "door": 4000
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/7476aa12.jpg",
       "status": "notified",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T21:04:10+09:00",
+  "updated_at": "2026-07-07T12:18:01+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -8126,20 +8126,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-06T21:04:10+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]アイロンヘッド／kento fukaya／蛙亭／ナイチンゲールダンス／青いデルタ／イワサキ／フジーズ／パパパジャマ／他\n[コーナー出演者]MC：イワサキ／ナイチンゲールダンス／青いデルタ／他",
-          "after": "[ネタ出演者]アイロンヘッド／kento fukaya／蛙亭／ナイチンゲールダンス／大王／青いデルタ／イワサキ／フジーズ／パパパジャマ\n[コーナー出演者]MC：イワサキ／ナイチンゲールダンス／大王／青いデルタ／フジーズ"
-        },
-        "notice": {
-          "before": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
-          "after": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n■変更履歴■\r\n[追加]\r\n大王(7/6)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-06T21:04:10+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3c5db67e",
@@ -8571,9 +8562,10 @@
       ],
       "local_image": "fliers/55c186f5.jpg",
       "status": "notified",
-      "last_updated": "2026-07-06T21:04:10+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-07-06T21:04:10+09:00"
+      "last_updated": "2026-07-06T21:04:10+09:00",
+      "notified_at": "2026-07-06T21:04:10+09:00",
+      "diff": null
     },
     {
       "id": "e4c77586",
@@ -10691,7 +10683,7 @@
       "open_time": "18:30",
       "start_time": "19:00",
       "end_time": "20:10",
-      "members": "ラフ次元／ダイタク／スクールゾーン／kento fukaya／ゼロカラン／他",
+      "members": "ラフ次元／ダイタク／スクールゾーン／kento fukaya／ゼロカラン／ナユタ／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -10708,10 +10700,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-07T12:18:01+09:00",
       "first_seen": "2026-06-16T18:56:47+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": "2026-07-02T19:39:02+09:00",
-      "diff": null
+      "notified_at": "2026-07-07T12:18:01+09:00"
     },
     {
       "id": "8b676d8c",
@@ -12295,7 +12286,8 @@
       "status": "notified",
       "first_seen": "2026-07-06T21:04:10+09:00",
       "last_updated": "2026-07-06T21:04:10+09:00",
-      "notified_at": "2026-07-06T21:04:10+09:00"
+      "notified_at": "2026-07-06T21:04:10+09:00",
+      "diff": null
     },
     {
       "id": "ed827792",
@@ -12322,7 +12314,8 @@
       "status": "notified",
       "first_seen": "2026-07-06T21:04:10+09:00",
       "last_updated": "2026-07-06T21:04:10+09:00",
-      "notified_at": "2026-07-06T21:04:10+09:00"
+      "notified_at": "2026-07-06T21:04:10+09:00",
+      "diff": null
     },
     {
       "id": "68e4b2cd",
@@ -13454,9 +13447,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-06T21:04:10+09:00",
       "first_seen": "2026-06-04T10:25:01+09:00",
-      "notified_at": "2026-07-06T21:04:10+09:00"
+      "last_updated": "2026-07-06T21:04:10+09:00",
+      "notified_at": "2026-07-06T21:04:10+09:00",
+      "diff": null
     },
     {
       "id": "66ceece2",
@@ -17519,7 +17513,7 @@
       "open_time": "13:30",
       "start_time": "14:00",
       "end_time": null,
-      "members": "[ネタ]ザ・パンチ／ジョイマン／ビスケットブラザーズ／ゆにばーす／他",
+      "members": "[ネタ]ザ・パンチ／ジョイマン／すゑひろがりず／ビスケットブラザーズ／ゆにばーす／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -17531,11 +17525,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-07T12:18:01+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]ザ・パンチ／ジョイマン／ビスケットブラザーズ／ゆにばーす／他",
+          "after": "[ネタ]ザ・パンチ／ジョイマン／すゑひろがりず／ビスケットブラザーズ／ゆにばーす／他"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "cd862c48",
@@ -17579,7 +17578,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "[ネタ]ザ・パンチ／ジョイマン／ビスケットブラザーズ／ゆにばーす／他",
+      "members": "[ネタ]ザ・パンチ／ジョイマン／すゑひろがりず／ビスケットブラザーズ／ゆにばーす／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -17591,11 +17590,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-07T12:18:01+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]ザ・パンチ／ジョイマン／ビスケットブラザーズ／ゆにばーす／他",
+          "after": "[ネタ]ザ・パンチ／ジョイマン／すゑひろがりず／ビスケットブラザーズ／ゆにばーす／他"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "c0929b76",

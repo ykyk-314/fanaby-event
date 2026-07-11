@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T11:33:56+09:00",
+  "updated_at": "2026-07-11T18:28:35+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -8309,8 +8309,7 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": "fliers/3d2605ee.jpg",
       "status": "notified",
@@ -8398,8 +8397,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -8431,8 +8429,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -8463,8 +8460,7 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": null,
       "status": "notified",
@@ -8523,8 +8519,7 @@
         "door": 3000
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": "fliers/b672ed81.jpg",
       "status": "notified",
@@ -9467,7 +9462,7 @@
       "open_time": "11:30",
       "start_time": "12:00",
       "end_time": null,
-      "members": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー／他",
+      "members": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -9479,11 +9474,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-11T18:28:35+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー／他",
+          "after": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-08T19:16:57+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "f715805e",
@@ -9495,7 +9495,7 @@
       "open_time": "13:30",
       "start_time": "14:00",
       "end_time": null,
-      "members": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー／他",
+      "members": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -9507,11 +9507,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-11T18:28:35+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー／他",
+          "after": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-08T19:16:57+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "f509e191",
@@ -9523,7 +9528,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／9番街レトロ／他",
+      "members": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／9番街レトロ",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -9535,11 +9540,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-11T18:28:35+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／9番街レトロ／他",
+          "after": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／9番街レトロ"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "b0cc6341",
@@ -16284,7 +16294,7 @@
       "members": "[企画ライブ]エバース／シンクロニシティ／軟水／インテイク／イチゴ／ゼロカラン",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018627_1_20260710231212382.jpeg",
       "ticket_url": "https://ticket.fany.lol/event/detail/17747/46980",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-8-16-21-15",
       "notice": "お客さんの笑顔をだいいちに考えるライブ\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n一般発売：7/5(日) 10:00\r\n\r\nオンラインチケット発売：7/5(日) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
@@ -16297,12 +16307,11 @@
         "theater:shibuya",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/d62fb848.jpeg",
       "status": "notified",
+      "last_updated": "2026-07-11T18:28:35+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-11T18:28:35+09:00"
     },
     {
       "id": "992a6e04",
@@ -17495,13 +17504,13 @@
       "open_time": "19:00",
       "start_time": "19:15",
       "end_time": "20:15",
-      "members": "[企画ライブ]ミカボ／シンクロニシティ",
+      "members": "[企画ライブ]ミカボ／シンクロニシティ／ゲスト：シシガシラ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17756/46920",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4-8-25-19-15",
-      "notice": "ミカボとシンクロニシティが切磋琢磨していこうというライブが4月から始動しました！\r\n毎回ゲストを招き切磋琢磨させていただきます！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00\r\n\r\n〇配信：7/5（日）10:00",
+      "notice": "ミカボとシンクロニシティが切磋琢磨していこうというライブが4月から始動しました！\r\n毎回ゲストを招き切磋琢磨させていただきます！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00\r\n\r\n〇配信：7/5（日）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nシシガシラ(7/11)",
       "price": {
         "advance": 1500,
         "door": 2000,
@@ -17513,10 +17522,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-11T18:28:35+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-11T18:28:35+09:00"
     },
     {
       "id": "4d474f14",
@@ -19714,7 +19722,8 @@
       "status": "notified",
       "first_seen": "2026-07-11T11:33:56+09:00",
       "last_updated": "2026-07-11T11:33:56+09:00",
-      "notified_at": "2026-07-11T11:33:56+09:00"
+      "notified_at": "2026-07-11T11:33:56+09:00",
+      "diff": null
     },
     {
       "id": "f52baa98",
@@ -19769,7 +19778,8 @@
       "status": "notified",
       "first_seen": "2026-07-11T11:33:56+09:00",
       "last_updated": "2026-07-11T11:33:56+09:00",
-      "notified_at": "2026-07-11T11:33:56+09:00"
+      "notified_at": "2026-07-11T11:33:56+09:00",
+      "diff": null
     },
     {
       "id": "6c4bc76b",

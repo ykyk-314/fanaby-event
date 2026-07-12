@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T11:40:29+09:00",
+  "updated_at": "2026-07-12T18:50:00+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -8670,8 +8670,7 @@
         "door": 3200
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "new",
@@ -8702,8 +8701,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -8762,8 +8760,7 @@
         "door": 6000
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -8794,8 +8791,7 @@
         "door": 3200
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "new",
@@ -8826,8 +8822,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -8858,8 +8853,7 @@
         "door": 6000
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -8890,8 +8884,7 @@
         "door": 3200
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "new",
@@ -9473,16 +9466,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-12T11:40:29+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー",
-          "after": "[ネタ]2丁拳銃／コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-12T11:40:29+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f715805e",
@@ -9506,16 +9494,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-12T11:40:29+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー",
-          "after": "[ネタ]2丁拳銃／コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／九条ジョー"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-12T11:40:29+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f509e191",
@@ -9539,16 +9522,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-12T11:40:29+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／9番街レトロ",
-          "after": "[ネタ]2丁拳銃／コロコロチキチキペッパーズ／ガンバレルーヤ／ケビンス／そいつどいつ／バッテリィズ／たくろう／9番街レトロ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-12T11:40:29+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b0cc6341",
@@ -11115,6 +11093,38 @@
       "diff": null
     },
     {
+      "id": "4573a481",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "大喜利ぞうさん",
+      "date": "2026-07-22",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": "22:00",
+      "members": "[企画ライブ]カゲヤマ／めぞん／オズワルド／ゲスト：カラタチ／シンクロニシティ",
+      "venue": "神保町よしもと漫才劇場",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/16737/44818",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%A4%A7%E5%96%9C%E5%88%A9%E3%81%9E%E3%81%86%E3%81%95%E3%82%93-7-22-21-00",
+      "notice": "全てが自由すぎて思わぬ角度から楽しめる大喜利ライブ!!\r\nカゲヤマ、オズワルド、めぞんがレギュラーで様々な界隈のゲストと楽しく大喜利をして「大喜利ぞうさん」界隈を拡大中!!箱「大喜利ぞうさん」ファン急増中!!\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n　・FANY IDメンバー\r\n　　5/25（月）11:00 ～5/28（木）11:00\r\n\r\n〇一般販売：6/5（金）10:00\r\n\r\n■配信チケット■\r\n配信チケット発売日：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n\r\n■変更履歴■\r\n[追加]\r\nカゲヤマ タバやん。(7/5)\r\nカラタチ・シンクロニシティ(7/12)",
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1300
+      },
+      "sources": [
+        "theater:jimbocho",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-12T18:50:00+09:00",
+      "last_updated": "2026-07-12T18:50:00+09:00",
+      "notified_at": "2026-07-12T18:50:00+09:00"
+    },
+    {
       "id": "044d72d3",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -11393,16 +11403,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-12T11:40:29+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]ジョイマン／守谷日和／しずる／コロコロチキチキペッパーズ／滝音／ケビンス／カベポスター／他",
-          "after": "[ネタ]ジョイマン／守谷日和／しずる／コロコロチキチキペッパーズ／滝音／ケビンス／カベポスター／セカンドロット"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-12T11:40:29+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6186f478",
@@ -11426,16 +11431,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-12T11:40:29+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]ジョイマン／守谷日和／しずる／コロコロチキチキペッパーズ／滝音／ケビンス／カベポスター／他",
-          "after": "[ネタ]ジョイマン／守谷日和／しずる／コロコロチキチキペッパーズ／滝音／ケビンス／カベポスター／セカンドロット"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-12T11:40:29+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ed120e09",
@@ -12669,7 +12669,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "[ネタ]トータルテンボス／ぼる塾／ななまがり／カーネーション／ビスケットブラザーズ／フースーヤ",
+      "members": "[ネタ]トータルテンボス／ななまがり／カーネーション／ビスケットブラザーズ／ぼる塾／フースーヤ",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -12682,11 +12682,11 @@
       ],
       "local_image": null,
       "status": "updated",
-      "last_updated": "2026-07-12T11:40:29+09:00",
+      "last_updated": "2026-07-12T18:50:00+09:00",
       "diff": {
         "members": {
-          "before": "[ネタ]トータルテンボス／ぼる塾／ななまがり／ビスケットブラザーズ／フースーヤ／他",
-          "after": "[ネタ]トータルテンボス／ぼる塾／ななまがり／カーネーション／ビスケットブラザーズ／フースーヤ"
+          "before": "[ネタ]トータルテンボス／ぼる塾／ななまがり／カーネーション／ビスケットブラザーズ／フースーヤ",
+          "after": "[ネタ]トータルテンボス／ななまがり／カーネーション／ビスケットブラザーズ／ぼる塾／フースーヤ"
         }
       },
       "first_seen": "2026-06-26T10:14:27+09:00",
@@ -12743,9 +12743,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-12T11:40:29+09:00",
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "notified_at": "2026-07-12T11:40:29+09:00"
+      "last_updated": "2026-07-12T11:40:29+09:00",
+      "notified_at": "2026-07-12T11:40:29+09:00",
+      "diff": null
     },
     {
       "id": "c8a8d703",
@@ -14959,7 +14960,8 @@
       "status": "notified",
       "first_seen": "2026-07-12T11:40:29+09:00",
       "last_updated": "2026-07-12T11:40:29+09:00",
-      "notified_at": "2026-07-12T11:40:29+09:00"
+      "notified_at": "2026-07-12T11:40:29+09:00",
+      "diff": null
     },
     {
       "id": "bec6d5f5",
@@ -14986,7 +14988,8 @@
       "status": "notified",
       "first_seen": "2026-07-12T11:40:29+09:00",
       "last_updated": "2026-07-12T11:40:29+09:00",
-      "notified_at": "2026-07-12T11:40:29+09:00"
+      "notified_at": "2026-07-12T11:40:29+09:00",
+      "diff": null
     },
     {
       "id": "36039d37",
@@ -15137,6 +15140,33 @@
       "last_updated": "2026-07-02T19:39:02+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "a4ac457b",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "ケビンスの第一稿",
+      "date": "2026-08-12",
+      "open_time": "18:00",
+      "start_time": "18:30",
+      "end_time": null,
+      "members": "ケビンス",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000019187_1_20260711204711621.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/a4ac457b.jpg",
+      "status": "notified",
+      "first_seen": "2026-07-12T18:50:00+09:00",
+      "last_updated": "2026-07-12T18:50:00+09:00",
+      "notified_at": "2026-07-12T18:50:00+09:00"
     },
     {
       "id": "24654405",
@@ -15866,9 +15896,10 @@
       ],
       "local_image": "fliers/0d7c1a0d.jpeg",
       "status": "notified",
-      "last_updated": "2026-07-12T11:40:29+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-12T11:40:29+09:00"
+      "last_updated": "2026-07-12T11:40:29+09:00",
+      "notified_at": "2026-07-12T11:40:29+09:00",
+      "diff": null
     },
     {
       "id": "b2f99e4e",

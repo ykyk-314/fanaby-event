@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T11:41:58+09:00",
+  "updated_at": "2026-07-13T20:09:54+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -9100,8 +9100,7 @@
         "door": 1800
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -9361,7 +9360,7 @@
       "open_time": "17:45",
       "start_time": "18:00",
       "end_time": "19:15",
-      "members": "サルゴリラ／ネルソンズ／ななまがり／アイロンヘッド／シンクロニシティ／軟水／伝書鳩／喫茶ムーン／ソマオ・ミートボール",
+      "members": "サルゴリラ／ネルソンズ／ななまがり／アイロンヘッド／シンクロニシティ／軟水／伝書鳩／喫茶ムーン／ソマオ・ミートボール\n【コーナー出演者】 MC：軟水／喫茶ムーン／伝書鳩",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -9377,11 +9376,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-13T20:09:54+09:00",
+      "diff": {
+        "members": {
+          "before": "サルゴリラ／ネルソンズ／ななまがり／アイロンヘッド／シンクロニシティ／軟水／伝書鳩／喫茶ムーン／ソマオ・ミートボール",
+          "after": "サルゴリラ／ネルソンズ／ななまがり／アイロンヘッド／シンクロニシティ／軟水／伝書鳩／喫茶ムーン／ソマオ・ミートボール\n【コーナー出演者】 MC：軟水／喫茶ムーン／伝書鳩"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "1497e6af",
@@ -10052,7 +10056,7 @@
       "open_time": "14:15",
       "start_time": "14:30",
       "end_time": "15:45",
-      "members": "[ネタ＆コーナーライブ]ゆにばーす／ナイチンゲールダンス／キンボシ／やさしいズ／ケビンス／9番街レトロ／シンクロニシティ／伝書鳩／ゲスト：ちょんまげラーメン／紅しょうが／他",
+      "members": "[ネタ＆コーナーライブ]ダンビラムーチョ／ゆにばーす／ナイチンゲールダンス／キンボシ／やさしいズ／ケビンス／9番街レトロ／シンクロニシティ／伝書鳩／ゲスト：ちょんまげラーメン／紅しょうが",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -10068,11 +10072,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-13T20:09:54+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]ゆにばーす／ナイチンゲールダンス／キンボシ／やさしいズ／ケビンス／9番街レトロ／シンクロニシティ／伝書鳩／ゲスト：ちょんまげラーメン／紅しょうが／他",
+          "after": "[ネタ＆コーナーライブ]ダンビラムーチョ／ゆにばーす／ナイチンゲールダンス／キンボシ／やさしいズ／ケビンス／9番街レトロ／シンクロニシティ／伝書鳩／ゲスト：ちょんまげラーメン／紅しょうが"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "90a453c0",
@@ -10255,9 +10264,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-13T11:41:57+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-07-13T11:41:58+09:00"
+      "last_updated": "2026-07-13T11:41:57+09:00",
+      "notified_at": "2026-07-13T11:41:58+09:00",
+      "diff": null
     },
     {
       "id": "9751910f",
@@ -11855,9 +11865,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-13T11:41:57+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-07-13T11:41:58+09:00"
+      "last_updated": "2026-07-13T11:41:57+09:00",
+      "notified_at": "2026-07-13T11:41:58+09:00",
+      "diff": null
     },
     {
       "id": "d1bbffda",
@@ -12668,7 +12679,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "[ネタ]トータルテンボス／ななまがり／カーネーション／ビスケットブラザーズ／ぼる塾／フースーヤ",
+      "members": "[ネタ]トータルテンボス／ななまがり／カーネーション／ビスケットブラザーズ／EXIT／ぼる塾／フースーヤ",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -12680,11 +12691,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-13T20:09:54+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]トータルテンボス／ななまがり／カーネーション／ビスケットブラザーズ／ぼる塾／フースーヤ",
+          "after": "[ネタ]トータルテンボス／ななまがり／カーネーション／ビスケットブラザーズ／EXIT／ぼる塾／フースーヤ"
+        }
+      },
       "first_seen": "2026-06-26T10:14:27+09:00",
-      "last_updated": "2026-07-12T18:50:00+09:00",
-      "notified_at": "2026-06-26T10:14:27+09:00",
-      "diff": null
+      "notified_at": "2026-06-26T10:14:27+09:00"
     },
     {
       "id": "e762f699",
@@ -14083,7 +14099,7 @@
       "open_time": "11:30",
       "start_time": "12:00",
       "end_time": null,
-      "members": "スーパーマラドーナ／Dr.ハインリッヒ／祇園／ケビンス／9番街レトロ／ぎょうぶ／ぐろう／他／[MC] アイラブ地球",
+      "members": "スーパーマラドーナ／Dr.ハインリッヒ／祇園／ケビンス／9番街レトロ／ぎょうぶ／爛々 萌々／ぐろう／[MC] アイラブ地球",
       "venue": "よしもと道頓堀シアター",
       "prefecture": "大阪府",
       "image_url": null,
@@ -14095,11 +14111,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-13T20:09:54+09:00",
+      "diff": {
+        "members": {
+          "before": "スーパーマラドーナ／Dr.ハインリッヒ／祇園／ケビンス／9番街レトロ／ぎょうぶ／ぐろう／他／[MC] アイラブ地球",
+          "after": "スーパーマラドーナ／Dr.ハインリッヒ／祇園／ケビンス／9番街レトロ／ぎょうぶ／爛々 萌々／ぐろう／[MC] アイラブ地球"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "cdde64c3",
@@ -17338,16 +17359,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-13T11:41:57+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]めぞん／マルセイユ／今井らいぱち／kento fukaya／やさしいズ／ミカボ／マチルダ／マリーマリー／他",
-          "after": "[ネタ＆コーナーライブ]めぞん／マルセイユ／今井らいぱち／kento fukaya／やさしいズ／まちるだ／ミカボ／マリーマリー／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-13T11:41:57+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "94d61e0b",
@@ -18418,9 +18434,10 @@
       ],
       "local_image": "fliers/bd9b7fae.jpg",
       "status": "notified",
-      "last_updated": "2026-07-13T11:41:57+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-07-13T11:41:58+09:00"
+      "last_updated": "2026-07-13T11:41:57+09:00",
+      "notified_at": "2026-07-13T11:41:58+09:00",
+      "diff": null
     },
     {
       "id": "74fefc6a",

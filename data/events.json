@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T18:50:00+09:00",
+  "updated_at": "2026-07-13T11:41:58+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -10242,7 +10242,7 @@
       "open_time": "18:45",
       "start_time": "19:00",
       "end_time": "20:00",
-      "members": "[企画ライブ]ケビンス 仁木／カゲヤマ 益田／9番街レトロ なかむら／ド桜 村田／金魚番長 箕輪／ゼロカラン／野澤輸出／他",
+      "members": "[企画ライブ]ケビンス 仁木／カゲヤマ 益田／9番街レトロ なかむら／ド桜 村田／ナイチンゲールダンス 中野なかるてぃん／金魚番長 箕輪／ゼロカラン／野澤輸出",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -10255,10 +10255,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-13T11:41:57+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "last_updated": "2026-06-26T10:14:27+09:00",
-      "notified_at": "2026-06-26T10:14:27+09:00",
-      "diff": null
+      "notified_at": "2026-07-13T11:41:58+09:00"
     },
     {
       "id": "9751910f",
@@ -11122,7 +11121,8 @@
       "status": "notified",
       "first_seen": "2026-07-12T18:50:00+09:00",
       "last_updated": "2026-07-12T18:50:00+09:00",
-      "notified_at": "2026-07-12T18:50:00+09:00"
+      "notified_at": "2026-07-12T18:50:00+09:00",
+      "diff": null
     },
     {
       "id": "044d72d3",
@@ -11837,7 +11837,7 @@
       "open_time": "21:00",
       "start_time": "21:15",
       "end_time": "22:15",
-      "members": "[企画ライブ]ケビンス／他",
+      "members": "[企画ライブ]ケビンス／カベポスター／ド桜",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -11855,10 +11855,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-13T11:41:57+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "last_updated": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-05-26T23:50:47+09:00",
-      "diff": null
+      "notified_at": "2026-07-13T11:41:58+09:00"
     },
     {
       "id": "d1bbffda",
@@ -12681,16 +12680,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-12T18:50:00+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]トータルテンボス／ぼる塾／ななまがり／カーネーション／ビスケットブラザーズ／フースーヤ",
-          "after": "[ネタ]トータルテンボス／ななまがり／カーネーション／ビスケットブラザーズ／ぼる塾／フースーヤ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-06-26T10:14:27+09:00",
-      "notified_at": "2026-06-26T10:14:27+09:00"
+      "last_updated": "2026-07-12T18:50:00+09:00",
+      "notified_at": "2026-06-26T10:14:27+09:00",
+      "diff": null
     },
     {
       "id": "e762f699",
@@ -15166,7 +15160,8 @@
       "status": "notified",
       "first_seen": "2026-07-12T18:50:00+09:00",
       "last_updated": "2026-07-12T18:50:00+09:00",
-      "notified_at": "2026-07-12T18:50:00+09:00"
+      "notified_at": "2026-07-12T18:50:00+09:00",
+      "diff": null
     },
     {
       "id": "24654405",
@@ -17327,7 +17322,7 @@
       "open_time": "17:00",
       "start_time": "17:15",
       "end_time": "18:25",
-      "members": "[ネタ＆コーナーライブ]めぞん／マルセイユ／今井らいぱち／kento fukaya／やさしいズ／ミカボ／マチルダ／マリーマリー／他",
+      "members": "[ネタ＆コーナーライブ]めぞん／マルセイユ／今井らいぱち／kento fukaya／やさしいズ／まちるだ／ミカボ／マリーマリー／他",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -17343,11 +17338,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-13T11:41:57+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]めぞん／マルセイユ／今井らいぱち／kento fukaya／やさしいズ／ミカボ／マチルダ／マリーマリー／他",
+          "after": "[ネタ＆コーナーライブ]めぞん／マルセイユ／今井らいぱち／kento fukaya／やさしいズ／まちるだ／ミカボ／マリーマリー／他"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "94d61e0b",
@@ -18408,7 +18408,7 @@
       "members": "気になるあの娘／ゲスト：ビスケットブラザーズ",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018565_1_20260711231928775.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -18416,12 +18416,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/bd9b7fae.jpg",
       "status": "notified",
+      "last_updated": "2026-07-13T11:41:57+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "last_updated": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-25T10:11:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-13T11:41:58+09:00"
     },
     {
       "id": "74fefc6a",

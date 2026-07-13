@@ -82,18 +82,35 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
 .section-past summary { font-size: 14px; color: #888; cursor: pointer; padding: 8px 0; margin-bottom: 6px; }
 
 /* イベントカード */
-.event-card { background: #fff; border-radius: 8px; padding: 16px; margin-bottom: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.08); transition: opacity .15s; }
+.event-card { background: #fff; border-radius: 8px; padding: 12px 16px; margin-bottom: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.08); transition: opacity .15s; }
 .event-card.past { opacity: .55; }
 .event-card.hidden { display: none; }
-.card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
 .card-title { font-size: 15px; font-weight: bold; line-height: 1.4; }
 .badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; flex-shrink: 0; }
 .badge-new { background: #27ae60; color: #fff; }
 .badge-updated { background: #2980b9; color: #fff; }
 
-/* カード本体 */
-.card-body { display: flex; gap: 16px; align-items: flex-start; }
-.card-left { flex: 1; min-width: 0; }
+/* カードサマリ（一覧表示・タップで詳細モーダルを開く） */
+.card-summary { display: flex; gap: 12px; align-items: center; cursor: pointer; }
+.card-summary-text { flex: 1; min-width: 0; }
+.summary-meta { display: flex; flex-direction: column; gap: 2px; font-size: 12px; color: #666; }
+.summary-datetime { color: #555; }
+.summary-meta .members-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  color: #888;
+}
+.status-label { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: bold; color: #fff; flex-shrink: 0; }
+
+/* フライヤーサムネイル */
+.flyer-thumb-wrap { flex-shrink: 0; }
+.flyer-thumb { width: 56px; border-radius: 6px; object-fit: cover; display: block; }
+
+/* カード詳細（モーダル内に表示） */
+.card-detail[hidden] { display: none; }
 .card-info { font-size: 13px; }
 .info-row { display: flex; gap: 8px; margin-bottom: 5px; line-height: 1.5; }
 .info-label { color: #888; min-width: 48px; white-space: nowrap; flex-shrink: 0; }
@@ -104,17 +121,29 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
 .btn-online { background: #8e44ad; color: #fff; }
 .btn-gcal   { background: #4285f4; color: #fff; }
 
-/* フライヤー */
-.flyer { flex-shrink: 0; }
-.flyer-img { width: 140px; border-radius: 6px; object-fit: cover; cursor: zoom-in; display: block; transition: opacity .15s; }
-.flyer-img:hover { opacity: .85; }
-
 .empty { color: #aaa; font-size: 14px; text-align: center; padding: 32px; }
 
 /* ライトボックス */
 #lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.82); z-index: 1000; align-items: center; justify-content: center; cursor: zoom-out; }
 #lightbox.open { display: flex; }
 #lightbox img { max-width: 90vw; max-height: 90vh; border-radius: 6px; object-fit: contain; box-shadow: 0 4px 32px rgba(0,0,0,.5); }
+
+/* 公演詳細モーダル */
+.modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 900; align-items: center; justify-content: center; padding: 16px; }
+.modal-overlay.open { display: flex; }
+.modal-panel { position: relative; background: #fff; border-radius: 10px; padding: 20px; max-width: 480px; width: 100%; max-height: 90vh; overflow-y: auto; box-shadow: 0 8px 32px rgba(0,0,0,.3); }
+.modal-close {
+  position: absolute; top: 10px; right: 10px;
+  width: 32px; height: 32px; border: none; border-radius: 50%;
+  background: #f0f0f0; color: #666; font-size: 20px; line-height: 1;
+  cursor: pointer;
+}
+.modal-close:hover { background: #e0e0e0; }
+.modal-header { margin-bottom: 12px; padding-right: 32px; }
+.modal-title { display: block; font-size: 16px; font-weight: bold; line-height: 1.4; }
+.modal-datetime { display: block; margin-top: 4px; font-size: 13px; color: #666; }
+.modal-flyer { display: block; width: 100%; max-width: 240px; margin: 0 auto 14px; border-radius: 6px; cursor: zoom-in; }
+.modal-flyer[hidden] { display: none; }
 
 /* 最上部へ戻るボタン */
 .back-to-top {
@@ -140,8 +169,8 @@ header p { font-size: 12px; color: #aaa; margin-top: 4px; }
 .back-to-top:hover { opacity: .85; }
 
 @media (max-width: 560px) {
-  .card-body { flex-direction: column-reverse; }
-  .flyer-img { width: 100%; max-width: 200px; }
+  .flyer-thumb { width: 44px; }
+  .modal-panel { padding: 16px; max-height: 85vh; }
   .filter-bar { gap: 8px; }
   .filter-bar select { min-width: 0; width: 100%; }
 }

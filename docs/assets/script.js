@@ -51,7 +51,68 @@ function openLightbox(src) {
 function closeLightbox() {
   document.getElementById('lightbox').classList.remove('open');
 }
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
+// ---- 公演詳細モーダル ----
+// カードは常時 .card-summary のみ表示し、.card-detail（会場・料金・受付・お知らせ・
+// 各種ボタン・メモ）はタップ時に #eventModalBody へ move し、閉じたら元のカードへ戻す。
+// move することで ViewingStorage 連携済みの select/textarea/button の状態とリスナーを保持する。
+let openModalCard = null;
+
+function openEventModal(card) {
+  if (openModalCard && openModalCard !== card) closeEventModal();
+  const detail = card.querySelector('.card-detail');
+  if (!detail) return;
+
+  detail.hidden = false;
+  document.getElementById('eventModalBody').appendChild(detail);
+  document.getElementById('eventModalTitle').textContent = card.dataset.title || '';
+
+  const datetimeEl = card.querySelector('.summary-datetime');
+  document.getElementById('eventModalDatetime').textContent = datetimeEl ? datetimeEl.textContent : '';
+
+  const thumb = card.querySelector('.flyer-thumb');
+  const modalFlyer = document.getElementById('eventModalFlyer');
+  if (thumb) {
+    modalFlyer.src = thumb.src;
+    modalFlyer.hidden = false;
+  } else {
+    modalFlyer.hidden = true;
+    modalFlyer.src = '';
+  }
+
+  openModalCard = card;
+  document.getElementById('eventModal').classList.add('open');
+}
+
+function closeEventModal() {
+  const modal = document.getElementById('eventModal');
+  if (!modal.classList.contains('open')) return;
+  modal.classList.remove('open');
+  if (openModalCard) {
+    const detail = document.getElementById('eventModalBody').firstElementChild;
+    if (detail) {
+      detail.hidden = true;
+      openModalCard.appendChild(detail);
+    }
+    openModalCard = null;
+  }
+}
+
+document.addEventListener('click', e => {
+  const summary = e.target.closest('.card-summary');
+  if (!summary) return;
+  const card = summary.closest('.event-card');
+  if (card) openEventModal(card);
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  if (document.getElementById('lightbox').classList.contains('open')) {
+    closeLightbox();
+  } else {
+    closeEventModal();
+  }
+});
 
 // ---- スケジュールフラグメントの読み込み ----
 // build.py が生成する docs/schedule.html（カードのみのHTML断片）を取得し、
@@ -214,8 +275,10 @@ function applyFilters() {
       const target = ((c.dataset.title || '') + ' ' + (c.dataset.members || '')).toLowerCase();
       return keywords.every(kw => target.includes(kw));
     })();
+    // .remind-btn は .card-detail 内にあり、モーダル表示中は c の外（#eventModalBody）へ
+    // move されている場合があるため event-id で document から引く
     const remindOk = !remindOnly
-      || !!c.querySelector('.remind-btn[data-remind="on"]');
+      || !!document.querySelector(`.remind-btn[data-event-id="${c.dataset.eventId}"][data-remind="on"]`);
     const title = c.dataset.title || '';
     const kwExcluded = excludeKeywords.length > 0 && excludeKeywords.some(kw => title.includes(kw));
     const stExcluded = isStandingExcluded(title, c.dataset.venue || '');
@@ -527,14 +590,34 @@ const ViewingStorage = {
   },
 };
 
+function updateStatusLabel(card, status) {
+  // .status-label はサマリ内（常にカード配下）にあるため card から直接引ける
+  const label = card.querySelector('.status-label');
+  if (!label) return;
+  const info = VIEWING_STATUSES[status];
+  if (!info) {
+    label.hidden = true;
+    label.textContent = '';
+    label.style.background = '';
+    return;
+  }
+  label.hidden = false;
+  label.textContent = info.label;
+  label.style.background = info.color;
+}
+
 function applyStatusToCard(card, status) {
   // ホワイトリストにない値はクリア（不正データのDOM反映を防止）
   const safeStatus = VALID_VIEWING_STATUSES.has(status) ? status : '';
   card.dataset.viewingStatus = safeStatus;
-  const wrap = card.querySelector('.viewing-wrap');
-  const sel  = card.querySelector('.viewing-select');
+  // .viewing-wrap/.viewing-select は .card-detail 内にあり、モーダル表示中は
+  // カードの外（#eventModalBody）へ move されているため event-id で document から引く
+  const eventId = card.dataset.eventId;
+  const wrap = document.querySelector(`.viewing-wrap[data-event-id="${eventId}"]`);
+  const sel  = document.querySelector(`.viewing-select[data-event-id="${eventId}"]`);
   if (wrap) wrap.dataset.viewingStatus = safeStatus;
   if (sel)  sel.value = safeStatus;
+  updateStatusLabel(card, safeStatus);
 }
 
 function initStatusUI() {
@@ -603,9 +686,11 @@ function applyExcludedToCard(card, isExcluded) {
   card.dataset.excluded = isExcluded ? 'true' : 'false';
   const showExcluded = document.getElementById('filterShowExcluded')?.checked ?? false;
   card.classList.toggle('hidden', isExcluded && !showExcluded);
-  const oldBtn = card.querySelector('.exclude-btn, .unexclude-btn');
+  // .exclude-btn/.unexclude-btn は .card-detail 内にあり、モーダル表示中は
+  // カードの外（#eventModalBody）へ move されている場合があるため event-id で document から引く
+  const eventId = card.dataset.eventId;
+  const oldBtn = document.querySelector(`.exclude-btn[data-event-id="${eventId}"], .unexclude-btn[data-event-id="${eventId}"]`);
   if (!oldBtn) return;
-  const eventId = oldBtn.dataset.eventId;
   const newBtn = document.createElement('button');
   newBtn.dataset.eventId = eventId;
   if (isExcluded) {

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T20:09:54+09:00",
+  "updated_at": "2026-07-14T11:25:26+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -9368,8 +9368,8 @@
       "online_url": null,
       "notice": "次世代を担うNEXT若手コント師を中心としたコントライブ！\r\nKOCファイナリストや熟練のコント師たちも出演！\r\n\r\n------------------------------------\r\n※コントパス対象公演です。\r\n------------------------------------\r\n\r\n＼コントパス／6,000円（税込）\r\n2026年7月の「六本木コントライブNEXT！」（全17公演）がこのパス1枚で見放題！\r\n\r\n※YOSHIMOTO ROPPONGI THEATER 窓口でもお買い求めいただけます。\r\n------------------------------------\r\n\r\n【ご入場方法】\r\n1.「コントパス」整理番号1番～のお客様\r\n2. 前売券・当日券の整理番号201番～のお客様\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：5/25（月）11:00～5/28（木）11:00\r\n〇一般販売：6/5（金）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
-        "advance": 2300,
-        "door": 2500
+        "advance": 2000,
+        "door": 2300
       },
       "sources": [
         "theater:roppongi",
@@ -9377,11 +9377,17 @@
       ],
       "local_image": null,
       "status": "updated",
-      "last_updated": "2026-07-13T20:09:54+09:00",
+      "last_updated": "2026-07-14T11:25:26+09:00",
       "diff": {
-        "members": {
-          "before": "サルゴリラ／ネルソンズ／ななまがり／アイロンヘッド／シンクロニシティ／軟水／伝書鳩／喫茶ムーン／ソマオ・ミートボール",
-          "after": "サルゴリラ／ネルソンズ／ななまがり／アイロンヘッド／シンクロニシティ／軟水／伝書鳩／喫茶ムーン／ソマオ・ミートボール\n【コーナー出演者】 MC：軟水／喫茶ムーン／伝書鳩"
+        "price": {
+          "before": {
+            "advance": 2300,
+            "door": 2500
+          },
+          "after": {
+            "advance": 2000,
+            "door": 2300
+          }
         }
       },
       "first_seen": "2026-07-02T19:39:02+09:00",
@@ -10072,16 +10078,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-13T20:09:54+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ゆにばーす／ナイチンゲールダンス／キンボシ／やさしいズ／ケビンス／9番街レトロ／シンクロニシティ／伝書鳩／ゲスト：ちょんまげラーメン／紅しょうが／他",
-          "after": "[ネタ＆コーナーライブ]ダンビラムーチョ／ゆにばーす／ナイチンゲールダンス／キンボシ／やさしいズ／ケビンス／9番街レトロ／シンクロニシティ／伝書鳩／ゲスト：ちょんまげラーメン／紅しょうが"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-13T20:09:54+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "90a453c0",
@@ -12000,7 +12001,7 @@
       "members": "コブラマン／ときヲりぴーと／ファンファーレと熱狂／半年記念日／キョンビ／電気ジュース／浪速モダンカダン／バリアシオン／おもしろジャンケン／ゆくえ／シンボリル",
       "venue": "森ノ宮よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016889_1_20260713222103699.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -12008,12 +12009,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/f9c23156.jpg",
       "status": "notified",
+      "last_updated": "2026-07-14T11:25:26+09:00",
       "first_seen": "2026-05-28T11:30:48+09:00",
-      "last_updated": "2026-06-06T10:10:51+09:00",
-      "notified_at": "2026-06-06T10:10:51+09:00",
-      "diff": null
+      "notified_at": "2026-07-14T11:25:26+09:00"
     },
     {
       "id": "68b04592",
@@ -12235,7 +12235,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "どんちっち／半年記念日／マーメイド／ライムギ／空前メテオ／シカノシンプ／清川雄司／天ロクの丘／電気ジュース／浪速モダンカダン／野良レール\n[コーナー出演者]MC：空前メテオ／半年記念日／ライムギ／浪速モダンカダン／電気ジュース",
+      "members": "どんちっち／半年記念日／マーメイド／ライムギ／空前メテオ／シスター／清川雄司／天ロクの丘／電気ジュース／浪速モダンカダン／野良レール\n[コーナー出演者]MC：空前メテオ／半年記念日／ライムギ／浪速モダンカダン／電気ジュース",
       "venue": "森ノ宮よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -12247,11 +12247,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-14T11:25:26+09:00",
+      "diff": {
+        "members": {
+          "before": "どんちっち／半年記念日／マーメイド／ライムギ／空前メテオ／シカノシンプ／清川雄司／天ロクの丘／電気ジュース／浪速モダンカダン／野良レール\n[コーナー出演者]MC：空前メテオ／半年記念日／ライムギ／浪速モダンカダン／電気ジュース",
+          "after": "どんちっち／半年記念日／マーメイド／ライムギ／空前メテオ／シスター／清川雄司／天ロクの丘／電気ジュース／浪速モダンカダン／野良レール\n[コーナー出演者]MC：空前メテオ／半年記念日／ライムギ／浪速モダンカダン／電気ジュース"
+        }
+      },
       "first_seen": "2026-05-28T11:30:48+09:00",
-      "last_updated": "2026-06-21T18:26:32+09:00",
-      "notified_at": "2026-06-21T18:26:33+09:00",
-      "diff": null
+      "notified_at": "2026-06-21T18:26:33+09:00"
     },
     {
       "id": "db30c52e",
@@ -12691,16 +12696,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-13T20:09:54+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]トータルテンボス／ななまがり／カーネーション／ビスケットブラザーズ／ぼる塾／フースーヤ",
-          "after": "[ネタ]トータルテンボス／ななまがり／カーネーション／ビスケットブラザーズ／EXIT／ぼる塾／フースーヤ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-06-26T10:14:27+09:00",
-      "notified_at": "2026-06-26T10:14:27+09:00"
+      "last_updated": "2026-07-13T20:09:54+09:00",
+      "notified_at": "2026-06-26T10:14:27+09:00",
+      "diff": null
     },
     {
       "id": "e762f699",
@@ -14111,16 +14111,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-13T20:09:54+09:00",
-      "diff": {
-        "members": {
-          "before": "スーパーマラドーナ／Dr.ハインリッヒ／祇園／ケビンス／9番街レトロ／ぎょうぶ／ぐろう／他／[MC] アイラブ地球",
-          "after": "スーパーマラドーナ／Dr.ハインリッヒ／祇園／ケビンス／9番街レトロ／ぎょうぶ／爛々 萌々／ぐろう／[MC] アイラブ地球"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-13T20:09:54+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "cdde64c3",
@@ -15465,6 +15460,33 @@
       "diff": null
     },
     {
+      "id": "3e8e68b2",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "ライブ系2",
+      "date": "2026-08-14",
+      "open_time": "17:15",
+      "start_time": "17:30",
+      "end_time": null,
+      "members": "ミケネ系、電気ジュース、べんチョップべん、入学卒業",
+      "venue": "日本橋Pollux Theater",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-14T11:25:26+09:00",
+      "last_updated": "2026-07-14T11:25:26+09:00",
+      "notified_at": "2026-07-14T11:25:26+09:00"
+    },
+    {
       "id": "a9cf1d89",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -15977,6 +15999,33 @@
       "last_updated": "2026-07-02T19:39:02+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "6c79ca95",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "女芸人大祭り～ネタとコーナーで盛り上がる夜～",
+      "date": "2026-08-15",
+      "open_time": "19:45",
+      "start_time": "20:15",
+      "end_time": null,
+      "members": "ハイヒール　リンゴ、天才ピアニスト、西野、電気ジュース、はるかぜに告ぐ",
+      "venue": "YES THEATER",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-14T11:25:26+09:00",
+      "last_updated": "2026-07-14T11:25:26+09:00",
+      "notified_at": "2026-07-14T11:25:26+09:00"
     },
     {
       "id": "fc5cff88",
@@ -16769,6 +16818,33 @@
       "last_updated": "2026-06-24T10:07:20+09:00",
       "notified_at": "2026-06-24T10:07:20+09:00",
       "diff": null
+    },
+    {
+      "id": "2569b798",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "電極愛",
+      "date": "2026-08-20",
+      "open_time": "20:15",
+      "start_time": "20:30",
+      "end_time": null,
+      "members": "電気ジュース、愛凛冴\nゲスト：鬼としみちゃむ",
+      "venue": "日本橋Pollux Theater",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-14T11:25:26+09:00",
+      "last_updated": "2026-07-14T11:25:26+09:00",
+      "notified_at": "2026-07-14T11:25:26+09:00"
     },
     {
       "id": "fcf8d826",

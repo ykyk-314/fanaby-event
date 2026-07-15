@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T18:57:25+09:00",
+  "updated_at": "2026-07-15T11:23:49+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -9666,9 +9666,10 @@
       ],
       "local_image": "fliers/f778aeac.jpg",
       "status": "notified",
-      "last_updated": "2026-07-14T18:57:25+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-07-14T18:57:25+09:00"
+      "last_updated": "2026-07-14T18:57:25+09:00",
+      "notified_at": "2026-07-14T18:57:25+09:00",
+      "diff": null
     },
     {
       "id": "ea394c0a",
@@ -9906,9 +9907,10 @@
       ],
       "local_image": "fliers/b97b1431.jpg",
       "status": "notified",
-      "last_updated": "2026-07-14T18:57:25+09:00",
       "first_seen": "2026-05-31T18:13:01+09:00",
-      "notified_at": "2026-07-14T18:57:25+09:00"
+      "last_updated": "2026-07-14T18:57:25+09:00",
+      "notified_at": "2026-07-14T18:57:25+09:00",
+      "diff": null
     },
     {
       "id": "675b992c",
@@ -10158,9 +10160,10 @@
       ],
       "local_image": "fliers/3b080ff4.jpg",
       "status": "notified",
-      "last_updated": "2026-07-14T18:57:25+09:00",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-07-14T18:57:25+09:00"
+      "last_updated": "2026-07-14T18:57:25+09:00",
+      "notified_at": "2026-07-14T18:57:25+09:00",
+      "diff": null
     },
     {
       "id": "3c51ffcb",
@@ -10240,7 +10243,7 @@
       "members": "[企画ライブ]ケビンス 仁木／カゲヤマ 益田／9番街レトロ なかむら／ド桜 村田／ナイチンゲールダンス 中野なかるてぃん／金魚番長 箕輪／ゼロカラン／野澤輸出",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018677_1_20260714172334428.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -10248,12 +10251,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/7137051f.jpg",
       "status": "notified",
+      "last_updated": "2026-07-15T11:23:49+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "last_updated": "2026-07-13T11:41:57+09:00",
-      "notified_at": "2026-07-13T11:41:58+09:00",
-      "diff": null
+      "notified_at": "2026-07-15T11:23:49+09:00"
     },
     {
       "id": "9751910f",
@@ -10691,13 +10693,13 @@
       "open_time": "18:30",
       "start_time": "19:00",
       "end_time": "20:10",
-      "members": "ラフ次元／ダイタク／スクールゾーン／kento fukaya／ゼロカラン／ナユタ／他",
+      "members": "ラフ次元／ダイタク／スクールゾーン／kento fukaya／からし蓮根／ゼロカラン／ナユタ／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17530/46467",
       "online_url": null,
-      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■変更履歴■\r\n［追加］\r\nゼロカラン（7/2）\r\n\r\n■チケット情報■\r\n\r\n一般発売：6/17(水) 10:00",
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■変更履歴■\r\n［追加］\r\nゼロカラン（7/2）\r\nからし蓮根（7/14）\r\n\r\n■チケット情報■\r\n\r\n一般発売：6/17(水) 10:00",
       "price": {
         "advance": 2500,
         "door": 3000
@@ -10708,10 +10710,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-15T11:23:49+09:00",
       "first_seen": "2026-06-16T18:56:47+09:00",
-      "last_updated": "2026-07-07T12:18:01+09:00",
-      "notified_at": "2026-07-07T12:18:01+09:00",
-      "diff": null
+      "notified_at": "2026-07-15T11:23:49+09:00"
     },
     {
       "id": "8b676d8c",
@@ -13188,6 +13189,33 @@
       "diff": null
     },
     {
+      "id": "d4d7f29d",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "趣～おもしろに向き合う 漫才編～",
+      "date": "2026-08-05",
+      "open_time": "17:15",
+      "start_time": "17:30",
+      "end_time": null,
+      "members": "おもしろジャンケン、電気ジュース、鬼としみちゃむ",
+      "venue": "日本橋Ups",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-15T11:23:49+09:00",
+      "last_updated": "2026-07-15T11:23:49+09:00",
+      "notified_at": "2026-07-15T11:23:49+09:00"
+    },
+    {
       "id": "d46039f9",
       "talents": {
         "5110": "kento fukaya",
@@ -13297,7 +13325,7 @@
       "members": "[企画ライブ]さや香 石井／ロングコートダディ 兎／ビスケットブラザーズ きん",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018644_1_20260714175635561.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -13305,12 +13333,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/8e8f5529.jpg",
       "status": "notified",
+      "last_updated": "2026-07-15T11:23:49+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T18:18:52+09:00",
-      "notified_at": "2026-06-24T18:18:52+09:00",
-      "diff": null
+      "notified_at": "2026-07-15T11:23:49+09:00"
     },
     {
       "id": "e51d1ff0",
@@ -14156,6 +14183,33 @@
       "diff": null
     },
     {
+      "id": "a8e8d463",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "野田クリの野望～クリスタルジム神7 真・筋肉無双　しんやの逆襲～",
+      "date": "2026-08-09",
+      "open_time": "13:00",
+      "start_time": "14:00",
+      "end_time": null,
+      "members": "野田クリスタル、しんや、青木マッチョ、松下遼太郎、リボルバー・ヘッド、ひろちん、ヒロユキMc-Ⅱ、ノリ、ハタノハタ、松本勇馬、井下大活躍、YUTARO",
+      "venue": "日本工学院蒲田キャンパス　片柳記念ホール",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-15T11:23:49+09:00",
+      "last_updated": "2026-07-15T11:23:49+09:00",
+      "notified_at": "2026-07-15T11:23:49+09:00"
+    },
+    {
       "id": "8495189c",
       "talents": {
         "5114": "マユリカ"
@@ -14726,9 +14780,10 @@
       ],
       "local_image": "fliers/0b45718e.jpg",
       "status": "notified",
-      "last_updated": "2026-07-14T18:57:25+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-14T18:57:25+09:00"
+      "last_updated": "2026-07-14T18:57:25+09:00",
+      "notified_at": "2026-07-14T18:57:25+09:00",
+      "diff": null
     },
     {
       "id": "b7ac0729",
@@ -15080,7 +15135,7 @@
       "open_time": "15:15",
       "start_time": "16:00",
       "end_time": null,
-      "members": "今夜も星が綺麗、滝音、ダンビラムーチョ、TCクラクション、ななまがり、ビスケットブラザーズ、他",
+      "members": "カベポスター、今夜も星が綺麗、滝音、ダンビラムーチョ、TCクラクション、ドンデコルテ、ななまがり、ビスケットブラザーズ",
       "venue": "めぐろパーシモンホール　大ホール",
       "prefecture": "東京都",
       "image_url": null,
@@ -15093,10 +15148,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-15T11:23:49+09:00",
       "first_seen": "2026-06-26T18:18:06+09:00",
-      "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00",
-      "diff": null
+      "notified_at": "2026-07-15T11:23:49+09:00"
     },
     {
       "id": "c0a62bb9",
@@ -15169,7 +15223,7 @@
       "open_time": "18:15",
       "start_time": "19:00",
       "end_time": null,
-      "members": "今夜も星が綺麗、滝音、ダンビラムーチョ、TCクラクション、ななまがり、ビスケットブラザーズ、他",
+      "members": "カベポスター、今夜も星が綺麗、滝音、ダンビラムーチョ、TCクラクション、ドンデコルテ、ななまがり、ビスケットブラザーズ",
       "venue": "めぐろパーシモンホール　大ホール",
       "prefecture": "東京都",
       "image_url": null,
@@ -15182,10 +15236,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-15T11:23:49+09:00",
       "first_seen": "2026-06-26T18:18:06+09:00",
-      "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00",
-      "diff": null
+      "notified_at": "2026-07-15T11:23:49+09:00"
     },
     {
       "id": "433cfa1e",
@@ -17806,7 +17859,7 @@
       "open_time": "13:30",
       "start_time": "14:00",
       "end_time": null,
-      "members": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／ビスケットブラザーズ／ゆにばーす／他",
+      "members": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／相席スタート／ビスケットブラザーズ／ゆにばーす",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -17818,11 +17871,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-15T11:23:49+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／ビスケットブラザーズ／ゆにばーす／他",
+          "after": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／相席スタート／ビスケットブラザーズ／ゆにばーす"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-10T11:57:14+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "cd862c48",
@@ -17866,7 +17924,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／ビスケットブラザーズ／ゆにばーす／他",
+      "members": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／相席スタート／ビスケットブラザーズ／ゆにばーす",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -17878,11 +17936,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-15T11:23:49+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／ビスケットブラザーズ／ゆにばーす／他",
+          "after": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／相席スタート／ビスケットブラザーズ／ゆにばーす"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-10T11:57:14+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "c0929b76",
@@ -18232,20 +18295,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-14T18:57:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／他",
-          "after": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／例えば炎／他"
-        },
-        "notice": {
-          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00",
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n例えば炎(7/14)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-14T18:57:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0525e772",
@@ -18329,20 +18383,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-14T18:57:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／他",
-          "after": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／例えば炎／他"
-        },
-        "notice": {
-          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00",
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n例えば炎(7/14)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-14T18:57:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "87cda3ac",
@@ -18426,20 +18471,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-14T18:57:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／他",
-          "after": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／例えば炎／他"
-        },
-        "notice": {
-          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00",
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n例えば炎(7/14)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-14T18:57:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "15f413d6",
@@ -19024,7 +19060,7 @@
       "open_time": "13:15",
       "start_time": "14:00",
       "end_time": null,
-      "members": "今夜も星が綺麗、スタミナパン、セルライトスパ、TCクラクション、ななまがり、ビスケットブラザーズ、見取り図、他",
+      "members": "今夜も星が綺麗、スタミナパン、セルライトスパ、ゼロカラン、TCクラクション、ななまがり、ビスケットブラザーズ、見取り図",
       "venue": "福岡国際会議場　メインホール",
       "prefecture": "福岡県",
       "image_url": null,
@@ -19037,10 +19073,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-15T11:23:49+09:00",
       "first_seen": "2026-06-26T18:18:06+09:00",
-      "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00",
-      "diff": null
+      "notified_at": "2026-07-15T11:23:49+09:00"
     },
     {
       "id": "e510440a",
@@ -19052,7 +19087,7 @@
       "open_time": "16:15",
       "start_time": "17:00",
       "end_time": null,
-      "members": "今夜も星が綺麗、スタミナパン、セルライトスパ、TCクラクション、ななまがり、ビスケットブラザーズ、見取り図、他",
+      "members": "今夜も星が綺麗、スタミナパン、セルライトスパ、ゼロカラン、TCクラクション、ななまがり、ビスケットブラザーズ、見取り図",
       "venue": "福岡国際会議場　メインホール",
       "prefecture": "福岡県",
       "image_url": null,
@@ -19065,10 +19100,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-15T11:23:49+09:00",
       "first_seen": "2026-06-26T18:18:06+09:00",
-      "last_updated": "2026-06-26T18:18:06+09:00",
-      "notified_at": "2026-06-26T18:18:07+09:00",
-      "diff": null
+      "notified_at": "2026-07-15T11:23:49+09:00"
     },
     {
       "id": "e8252c42",
@@ -19268,7 +19302,7 @@
       "open_time": "14:15",
       "start_time": "15:00",
       "end_time": null,
-      "members": "蛙亭、からし蓮根、今夜も星が綺麗、滝音、TCクラクション、ななまがり、ビスケットブラザーズ、他",
+      "members": "蛙亭、からし蓮根、今夜も星が綺麗、スタミナパン、滝音、TCクラクション、ななまがり、ビスケットブラザーズ",
       "venue": "Niterra日本特殊陶業市民会館　ﾋﾞﾚｯｼﾞﾎｰﾙ",
       "prefecture": "愛知県",
       "image_url": null,
@@ -19281,10 +19315,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-15T11:23:49+09:00",
       "first_seen": "2026-06-27T18:04:38+09:00",
-      "last_updated": "2026-06-27T18:04:38+09:00",
-      "notified_at": "2026-06-27T18:04:38+09:00",
-      "diff": null
+      "notified_at": "2026-07-15T11:23:49+09:00"
     },
     {
       "id": "d5f19f0b",
@@ -19324,7 +19357,7 @@
       "open_time": "17:15",
       "start_time": "18:00",
       "end_time": null,
-      "members": "蛙亭、からし蓮根、今夜も星が綺麗、滝音、TCクラクション、ななまがり、ビスケットブラザーズ、他",
+      "members": "蛙亭、からし蓮根、今夜も星が綺麗、スタミナパン、滝音、TCクラクション、ななまがり、ビスケットブラザーズ",
       "venue": "Niterra日本特殊陶業市民会館　ﾋﾞﾚｯｼﾞﾎｰﾙ",
       "prefecture": "愛知県",
       "image_url": null,
@@ -19337,10 +19370,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-15T11:23:49+09:00",
       "first_seen": "2026-06-27T18:04:38+09:00",
-      "last_updated": "2026-06-27T18:04:38+09:00",
-      "notified_at": "2026-06-27T18:04:38+09:00",
-      "diff": null
+      "notified_at": "2026-07-15T11:23:49+09:00"
     },
     {
       "id": "d5cdc568",

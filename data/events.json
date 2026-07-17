@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T19:07:51+09:00",
+  "updated_at": "2026-07-17T11:33:37+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -9723,16 +9723,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-16T19:07:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ヨネダ2000／スロッピ／西村ヒロチョ／ケビンス／田津原理音／素敵じゃないか／太鵬／ゼロカラン／イワサキ／エグい速さ／ドンココ",
-          "after": "[ネタ出演者]ヨネダ2000／スロッピ／西村ヒロチョ／ケビンス／田津原理音／素敵じゃないか／太鵬／ゼロカラン／イワサキ／エグい速さ／ドンココ\n[コーナー出演者]MC：ゼロカラン／太鵬／イワサキ／エグい速さ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-16T19:07:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b93234a6",
@@ -9760,16 +9755,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-16T19:07:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ヨネダ2000／スロッピ／ケビンス／田津原理音／素敵じゃないか／太鵬／インテイク／ゼロカラン／イワサキ／エグい速さ／ドンココ",
-          "after": "[ネタ出演者]ヨネダ2000／スロッピ／ケビンス／田津原理音／素敵じゃないか／太鵬／インテイク／ゼロカラン／イワサキ／エグい速さ／ドンココ\n[コーナー出演者]MC：ゼロカラン／ケビンス／素敵じゃないか／ドンココ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-16T19:07:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f549ab1d",
@@ -9825,16 +9815,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-16T19:07:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ヨネダ2000／たつろう／まんじろう／ケビンス／田津原理音／素敵じゃないか／太鵬／インテイク／ゼロカラン／イワサキ／エグい速さ",
-          "after": "[ネタ出演者]ヨネダ2000／たつろう／まんじろう／ケビンス／田津原理音／素敵じゃないか／太鵬／インテイク／ゼロカラン／イワサキ／エグい速さ\n[コーナー出演者]MC：イワサキ／まんじろう／ヨネダ2000／エグい速さ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-16T19:07:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8e3b6bf4",
@@ -10391,16 +10376,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-16T19:07:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ヨネダ2000／CITY／kento fukaya／くらげ／オダウエダ／ミカボ／9番街レトロ／インテイク／イチゴ／ゲスト：トータルテンボス／サルゴリラ",
-          "after": "[ネタ＆コーナーライブ]ヨネダ2000／CITY／kento fukaya／くらげ／オダウエダ／ミカボ／9番街レトロ／インテイク／イチゴ／ゲスト：トータルテンボス／サルゴリラ\n[ コーナー出演者]MC：ミカボ／kento fukaya／オダウエダ／イチゴ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-16T19:07:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9e692304",
@@ -10456,16 +10436,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-16T19:07:51+09:00",
-      "diff": {
-        "members": {
-          "before": "マユリカ／ジェラードン／ギャロップ／オズワルド／ゆにばーす／エルフ／ダブルヒガシ／メガモッツ／メタルラック／気になるあの娘／パンたべる／メリコンドル／〔前説〕動物男児／＜ゲームコーナー＞",
-          "after": "マユリカ／ジェラードン／ギャロップ／オズワルド／ゆにばーす／エルフ／ダブルヒガシ／cacao／メガモッツ／メタルラック／気になるあの娘／パンたべる／メリコンドル／〔前説〕動物男児／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-16T19:07:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "eb6267c2",
@@ -10521,16 +10496,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-16T19:07:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ヨネダ2000／CITY／kento fukaya／オダウエダ／ミカボ／オフローズ／9番街レトロ／インテイク／イチゴ／ゲスト：トータルテンボス／サルゴリラ",
-          "after": "[ネタ＆コーナーライブ]ヨネダ2000／CITY／kento fukaya／オダウエダ／ミカボ／オフローズ／9番街レトロ／インテイク／イチゴ／ゲスト：トータルテンボス／サルゴリラ\n[ コーナー出演者]MC：9番街レトロ／CITY／ヨネダ2000／イチゴ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-16T19:07:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "220d5eb9",
@@ -10586,16 +10556,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-16T19:07:51+09:00",
-      "diff": {
-        "members": {
-          "before": "マユリカ／ジェラードン／ギャロップ／オズワルド／ゆにばーす／エルフ／ダブルヒガシ／メガモッツ／メタルラック／気になるあの娘／パンたべる／メリコンドル／〔前説〕動物男児／＜ゲームコーナー＞",
-          "after": "マユリカ／ジェラードン／ギャロップ／オズワルド／ゆにばーす／エルフ／ダブルヒガシ／cacao／メガモッツ／メタルラック／気になるあの娘／パンたべる／メリコンドル／〔前説〕動物男児／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-16T19:07:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "42999fa4",
@@ -10623,16 +10588,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-16T19:07:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ヨネダ2000／CITY／kento fukaya／田津原理音／オダウエダ／ミカボ／9番街レトロ／インテイク／イチゴ／ゲスト：トータルテンボス／サルゴリラ",
-          "after": "[ネタ＆コーナーライブ]ヨネダ2000／CITY／kento fukaya／田津原理音／オダウエダ／ミカボ／9番街レトロ／インテイク／イチゴ／ゲスト：トータルテンボス／サルゴリラ\n[ コーナー出演者]MC：kento fukaya／オダウエダ／ミカボ／インテイク"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-16T19:07:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "195ca575",
@@ -10688,16 +10648,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-16T19:07:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ナイチンゲールダンス／めぞん／イチキップリン／アイロンヘッド／シンクロニシティ／軟水／ピュート／ゼロカラン／伝書鳩／ただならぬ刀／シカノシンプ",
-          "after": "[ネタ出演者]ナイチンゲールダンス／めぞん／イチキップリン／アイロンヘッド／シンクロニシティ／軟水／ピュート／ゼロカラン／伝書鳩／ただならぬ刀／シカノシンプ\n[コーナー出演者]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-16T19:07:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0aa340d1",
@@ -10721,16 +10676,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-16T19:07:51+09:00",
-      "diff": {
-        "members": {
-          "before": "マユリカ／ジェラードン／ギャロップ／オズワルド／ゆにばーす／エルフ／ダブルヒガシ／メガモッツ／メタルラック／気になるあの娘／パンたべる／メリコンドル／〔前説〕動物男児／＜ゲームコーナー＞",
-          "after": "マユリカ／ジェラードン／ギャロップ／オズワルド／ゆにばーす／エルフ／ダブルヒガシ／cacao／メガモッツ／メタルラック／気になるあの娘／パンたべる／メリコンドル／〔前説〕動物男児／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-16T19:07:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3e5be91d",
@@ -12153,7 +12103,7 @@
       "members": "ダブルアート／豪快キャプテン／ドーナツ・ピーナツ／ぎょうぶ／ぐろう／ゲスト:ビスケットブラザーズ",
       "venue": "森ノ宮よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016847_1_20260717025729342.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -12161,12 +12111,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/363b7d9e.jpg",
       "status": "notified",
+      "last_updated": "2026-07-17T11:33:37+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00",
-      "diff": null
+      "notified_at": "2026-07-17T11:33:37+09:00"
     },
     {
       "id": "dbeb9133",
@@ -16175,20 +16124,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-16T19:07:51+09:00",
-      "diff": {
-        "members": {
-          "before": "テンダラー／ガクテンソク／ヘンダーソン／セルライトスパ／ビスケットブラザーズ／EXIT／ドンデコルテ／エバース／エルフ／他",
-          "after": "テンダラー／ガクテンソク／ヘンダーソン／セルライトスパ／ビスケットブラザーズ／EXIT／ドンデコルテ／ダンビラムーチョ／エバース／エルフ"
-        },
-        "notice": {
-          "before": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：6/22（月）11:00～6/24（水）11:00\r\n当落発表：6/25（木）18:00\r\n\r\n一般発売日：6/27（土）10:00",
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：6/22（月）11:00～6/24（水）11:00\r\n当落発表：6/25（木）18:00\r\n\r\n一般発売日：6/27（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nダンビラムーチョ（7/16）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-16T19:07:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4bcc8fd7",
@@ -17098,6 +17038,37 @@
       "diff": null
     },
     {
+      "id": "1080e9f9",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "くらげ新ネタライブ「浮遊」",
+      "date": "2026-08-21",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": "22:00",
+      "members": "[企画ライブ]くらげ／カラタチ／キンボシ／蛙亭／オフローズ／シンクロニシティ／タモンズ／おとうふ",
+      "venue": "渋谷よしもと漫才劇場",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17808/46999",
+      "online_url": null,
+      "notice": "くらげが新ネタを披露して仲の良いメンバーとコーナーで楽しむ60分\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n一般発売：7/5(日) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\nオフローズ、シンクロニシティ、タモンズ(7/16)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "price": {
+        "advance": 2000,
+        "door": 2500
+      },
+      "sources": [
+        "theater:shibuya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-17T11:33:37+09:00",
+      "last_updated": "2026-07-17T11:33:37+09:00",
+      "notified_at": "2026-07-17T11:33:37+09:00"
+    },
+    {
       "id": "a4c1e323",
       "talents": {
         "7295": "ケビンス"
@@ -17827,7 +17798,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": "18:00",
-      "members": "[ネタ出演者]kento fukaya／滝音／からし蓮根／軟水／ぺ／エグい速さ／伝書鳩／ド天国／他",
+      "members": "[ネタ出演者]kento fukaya／滝音／からし蓮根／軟水／ぺ／エグい速さ／伝書鳩／ド天国",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -17843,11 +17814,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-17T11:33:37+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ出演者]kento fukaya／滝音／からし蓮根／軟水／ぺ／エグい速さ／伝書鳩／ド天国／他",
+          "after": "[ネタ出演者]kento fukaya／滝音／からし蓮根／軟水／ぺ／エグい速さ／伝書鳩／ド天国"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "f346212d",
@@ -19853,7 +19829,7 @@
       "open_time": "11:15",
       "start_time": "11:30",
       "end_time": null,
-      "members": "もりやすバンバンビガロ／ジャルジャル／アインシュタイン／ビスケットブラザーズ／福岡芸人",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -19865,11 +19841,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-17T11:33:37+09:00",
+      "diff": {
+        "members": {
+          "before": "もりやすバンバンビガロ／ジャルジャル／アインシュタイン／ビスケットブラザーズ／福岡芸人",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人"
+        }
+      },
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-07-10T11:57:14+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "4d5f3337",
@@ -19913,7 +19894,7 @@
       "open_time": "13:25",
       "start_time": "13:40",
       "end_time": null,
-      "members": "もりやすバンバンビガロ／ジャルジャル／アインシュタイン／ビスケットブラザーズ／福岡芸人",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -19925,11 +19906,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-17T11:33:37+09:00",
+      "diff": {
+        "members": {
+          "before": "もりやすバンバンビガロ／ジャルジャル／アインシュタイン／ビスケットブラザーズ／福岡芸人",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人"
+        }
+      },
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-07-10T11:57:14+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "04f95917",
@@ -19973,7 +19959,7 @@
       "open_time": "15:35",
       "start_time": "15:50",
       "end_time": null,
-      "members": "もりやすバンバンビガロ／ジャルジャル／アインシュタイン／ビスケットブラザーズ／福岡芸人",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -19985,11 +19971,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-17T11:33:37+09:00",
+      "diff": {
+        "members": {
+          "before": "もりやすバンバンビガロ／ジャルジャル／アインシュタイン／ビスケットブラザーズ／福岡芸人",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人"
+        }
+      },
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-07-10T11:57:14+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "1bdcbe29",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T11:33:37+09:00",
+  "updated_at": "2026-07-17T18:56:33+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -10692,7 +10692,7 @@
       "open_time": "18:30",
       "start_time": "19:00",
       "end_time": "20:10",
-      "members": "ラフ次元／ダイタク／スクールゾーン／kento fukaya／からし蓮根／ゼロカラン／ナユタ／他",
+      "members": "レギュラー／ラフ次元／ダイタク／スクールゾーン／kento fukaya／からし蓮根／素敵じゃないか／ゼロカラン／ナユタ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -10709,10 +10709,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-17T18:56:32+09:00",
       "first_seen": "2026-06-16T18:56:47+09:00",
-      "last_updated": "2026-07-15T11:23:49+09:00",
-      "notified_at": "2026-07-15T11:23:49+09:00",
-      "diff": null
+      "notified_at": "2026-07-17T18:56:33+09:00"
     },
     {
       "id": "8b676d8c",
@@ -12113,9 +12112,10 @@
       ],
       "local_image": "fliers/363b7d9e.jpg",
       "status": "notified",
-      "last_updated": "2026-07-17T11:33:37+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-07-17T11:33:37+09:00"
+      "last_updated": "2026-07-17T11:33:37+09:00",
+      "notified_at": "2026-07-17T11:33:37+09:00",
+      "diff": null
     },
     {
       "id": "dbeb9133",
@@ -16953,7 +16953,7 @@
       "open_time": "17:00",
       "start_time": "17:15",
       "end_time": "18:25",
-      "members": "[ネタ＆コーナーライブ]蛙亭／ケビンス／生ファラオ／ぶったま／オフローズ／9番街レトロ／インテイク",
+      "members": "[ネタ＆コーナーライブ]蛙亭／ケビンス／生ファラオ／ぶったま／オフローズ／9番街レトロ／インテイク／他",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -16970,11 +16970,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-17T18:56:32+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]蛙亭／ケビンス／生ファラオ／ぶったま／オフローズ／9番街レトロ／インテイク",
+          "after": "[ネタ＆コーナーライブ]蛙亭／ケビンス／生ファラオ／ぶったま／オフローズ／9番街レトロ／インテイク／他"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "fc2edc76",
@@ -17066,7 +17071,8 @@
       "status": "notified",
       "first_seen": "2026-07-17T11:33:37+09:00",
       "last_updated": "2026-07-17T11:33:37+09:00",
-      "notified_at": "2026-07-17T11:33:37+09:00"
+      "notified_at": "2026-07-17T11:33:37+09:00",
+      "diff": null
     },
     {
       "id": "a4c1e323",
@@ -17814,16 +17820,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-17T11:33:37+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]kento fukaya／滝音／からし蓮根／軟水／ぺ／エグい速さ／伝書鳩／ド天国／他",
-          "after": "[ネタ出演者]kento fukaya／滝音／からし蓮根／軟水／ぺ／エグい速さ／伝書鳩／ド天国"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-17T11:33:37+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f346212d",
@@ -17899,7 +17900,7 @@
       "open_time": "13:30",
       "start_time": "14:00",
       "end_time": null,
-      "members": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／相席スタート／ビスケットブラザーズ／ゆにばーす",
+      "members": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／アイロンヘッド／相席スタート／ビスケットブラザーズ／ゆにばーす",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -17911,11 +17912,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-17T18:56:32+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／相席スタート／ビスケットブラザーズ／ゆにばーす",
+          "after": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／アイロンヘッド／相席スタート／ビスケットブラザーズ／ゆにばーす"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-15T11:23:49+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "cd862c48",
@@ -17959,7 +17965,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／相席スタート／ビスケットブラザーズ／ゆにばーす",
+      "members": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／アイロンヘッド／相席スタート／ビスケットブラザーズ／ゆにばーす",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -17971,11 +17977,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-17T18:56:32+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／相席スタート／ビスケットブラザーズ／ゆにばーす",
+          "after": "[ネタ]ザ・パンチ／５ＧＡＰ／ジョイマン／すゑひろがりず／アイロンヘッド／相席スタート／ビスケットブラザーズ／ゆにばーす"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-15T11:23:49+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "c0929b76",
@@ -19668,6 +19679,60 @@
       "diff": null
     },
     {
+      "id": "1b25230d",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "東京グランド花月",
+      "date": "2026-09-15",
+      "open_time": "14:30",
+      "start_time": "15:00",
+      "end_time": null,
+      "members": "博多華丸・大吉、村上ショージ、テンダラー、金属バット、メンバー、マユリカ、他\n\n＜吉本新喜劇＞\n座長：酒井藍\n内場勝則、島田珠代、烏川耕一、千葉公平、のぶよし、もじゃ吉田、吉岡友見、他",
+      "venue": "IMM THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-17T18:56:32+09:00",
+      "last_updated": "2026-07-17T18:56:32+09:00",
+      "notified_at": "2026-07-17T18:56:33+09:00"
+    },
+    {
+      "id": "824076fe",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "東京グランド花月",
+      "date": "2026-09-15",
+      "open_time": "18:00",
+      "start_time": "18:30",
+      "end_time": null,
+      "members": "博多華丸・大吉、村上ショージ、テンダラー、金属バット、メンバー、マユリカ、他\n\n＜吉本新喜劇＞\n座長：酒井藍\n内場勝則、島田珠代、烏川耕一、千葉公平、のぶよし、もじゃ吉田、吉岡友見、他",
+      "venue": "IMM THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-17T18:56:32+09:00",
+      "last_updated": "2026-07-17T18:56:32+09:00",
+      "notified_at": "2026-07-17T18:56:33+09:00"
+    },
+    {
       "id": "7a70d06a",
       "talents": {
         "5110": "kento fukaya"
@@ -19841,16 +19906,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-17T11:33:37+09:00",
-      "diff": {
-        "members": {
-          "before": "もりやすバンバンビガロ／ジャルジャル／アインシュタイン／ビスケットブラザーズ／福岡芸人",
-          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-17T11:33:37+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4d5f3337",
@@ -19906,16 +19966,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-17T11:33:37+09:00",
-      "diff": {
-        "members": {
-          "before": "もりやすバンバンビガロ／ジャルジャル／アインシュタイン／ビスケットブラザーズ／福岡芸人",
-          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-17T11:33:37+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "04f95917",
@@ -19971,16 +20026,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-17T11:33:37+09:00",
-      "diff": {
-        "members": {
-          "before": "もりやすバンバンビガロ／ジャルジャル／アインシュタイン／ビスケットブラザーズ／福岡芸人",
-          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-17T11:33:37+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1bdcbe29",
@@ -20043,6 +20093,33 @@
       "diff": null
     },
     {
+      "id": "64d2b631",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "東京グランド花月",
+      "date": "2026-09-20",
+      "open_time": "09:30",
+      "start_time": "10:00",
+      "end_time": null,
+      "members": "オール阪神・巨人、佐久間一行、ちょんまげラーメン、ビスケットブラザーズ、たくろう、他\n\n＜吉本新喜劇＞\n座長：酒井藍\n内場勝則、島田珠代、烏川耕一、千葉公平、のぶよし、もじゃ吉田、吉岡友見、他",
+      "venue": "IMM THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-17T18:56:32+09:00",
+      "last_updated": "2026-07-17T18:56:32+09:00",
+      "notified_at": "2026-07-17T18:56:33+09:00"
+    },
+    {
       "id": "5fc0c53d",
       "talents": {
         "7295": "ケビンス"
@@ -20099,6 +20176,33 @@
       "diff": null
     },
     {
+      "id": "47055706",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "東京グランド花月",
+      "date": "2026-09-20",
+      "open_time": "13:00",
+      "start_time": "13:30",
+      "end_time": null,
+      "members": "オール阪神・巨人、佐久間一行、ちょんまげラーメン、ビスケットブラザーズ、たくろう、他\n\n＜吉本新喜劇＞\n座長：酒井藍\n内場勝則、島田珠代、烏川耕一、千葉公平、のぶよし、もじゃ吉田、吉岡友見、他",
+      "venue": "IMM THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-17T18:56:32+09:00",
+      "last_updated": "2026-07-17T18:56:32+09:00",
+      "notified_at": "2026-07-17T18:56:33+09:00"
+    },
+    {
       "id": "6e821933",
       "talents": {
         "7295": "ケビンス"
@@ -20153,6 +20257,33 @@
       "last_updated": "2026-07-02T19:39:02+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "4cf6bc15",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "東京グランド花月",
+      "date": "2026-09-20",
+      "open_time": "16:30",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "オール阪神・巨人、佐久間一行、ちょんまげラーメン、ビスケットブラザーズ、たくろう、ドンデコルテ、他\n\n＜吉本新喜劇＞\n座長：酒井藍\n内場勝則、島田珠代、烏川耕一、千葉公平、のぶよし、もじゃ吉田、吉岡友見、他",
+      "venue": "IMM THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-17T18:56:32+09:00",
+      "last_updated": "2026-07-17T18:56:32+09:00",
+      "notified_at": "2026-07-17T18:56:33+09:00"
     },
     {
       "id": "f660b8d1",

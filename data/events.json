@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T11:24:31+09:00",
+  "updated_at": "2026-07-18T18:24:13+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -9750,8 +9750,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -9810,8 +9809,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -9899,8 +9897,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/b97b1431.jpg",
       "status": "notified",
@@ -10079,7 +10076,7 @@
       "open_time": "14:15",
       "start_time": "14:30",
       "end_time": "16:00",
-      "members": "ペナルティ／もう中学生／サルゴリラ／しずる／ビスケットブラザーズ／紅しょうが／男性ブランコ／ジャングルポケット／ネルソンズ／こがけん／ハイキングウォーキング／ななまがり",
+      "members": "ペナルティ／もう中学生／サルゴリラ／しずる／ビスケットブラザーズ／紅しょうが／男性ブランコ／ジャングルポケット／ネルソンズ／こがけん／ハイキングウォーキング／ななまがり\n【コーナー出演者】 MC：ネルソンズ／こがけん／ななまがり／ジャングルポケット",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017494_1_20260610212726607.jpg",
@@ -10095,11 +10092,16 @@
         "profile"
       ],
       "local_image": "fliers/90a453c0.jpg",
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-18T18:24:12+09:00",
+      "diff": {
+        "members": {
+          "before": "ペナルティ／もう中学生／サルゴリラ／しずる／ビスケットブラザーズ／紅しょうが／男性ブランコ／ジャングルポケット／ネルソンズ／こがけん／ハイキングウォーキング／ななまがり",
+          "after": "ペナルティ／もう中学生／サルゴリラ／しずる／ビスケットブラザーズ／紅しょうが／男性ブランコ／ジャングルポケット／ネルソンズ／こがけん／ハイキングウォーキング／ななまがり\n【コーナー出演者】 MC：ネルソンズ／こがけん／ななまがり／ジャングルポケット"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "ceaf2e92",
@@ -10172,7 +10174,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": "18:30",
-      "members": "ペナルティ／もう中学生／サルゴリラ／しずる／ビスケットブラザーズ／紅しょうが／男性ブランコ／ジャングルポケット／ネルソンズ／こがけん／ハイキングウォーキング／ななまがり",
+      "members": "ペナルティ／もう中学生／サルゴリラ／しずる／ビスケットブラザーズ／紅しょうが／男性ブランコ／ジャングルポケット／ネルソンズ／こがけん／ハイキングウォーキング／ななまがり\n【コーナー出演者】 MC：ビスケットブラザーズ／こがけん／ジャングルポケット／ネルソンズ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -10188,11 +10190,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-18T18:24:12+09:00",
+      "diff": {
+        "members": {
+          "before": "ペナルティ／もう中学生／サルゴリラ／しずる／ビスケットブラザーズ／紅しょうが／男性ブランコ／ジャングルポケット／ネルソンズ／こがけん／ハイキングウォーキング／ななまがり",
+          "after": "ペナルティ／もう中学生／サルゴリラ／しずる／ビスケットブラザーズ／紅しょうが／男性ブランコ／ジャングルポケット／ネルソンズ／こがけん／ハイキングウォーキング／ななまがり\n【コーナー出演者】 MC：ビスケットブラザーズ／こがけん／ジャングルポケット／ネルソンズ"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "a27cecec",
@@ -10407,16 +10414,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-18T11:24:31+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ナイチンゲールダンス／めぞん／小森園ひろし／アイロンヘッド／シンクロニシティ／軟水／ピュート／ゼロカラン／伝書鳩／ただならぬ刀／シカノシンプ",
-          "after": "[ネタ出演者]ナイチンゲールダンス／めぞん／小森園ひろし／アイロンヘッド／シンクロニシティ／軟水／ピュート／ゼロカラン／伝書鳩／ただならぬ刀／シカノシンプ\n[コーナー出演者]MC：ナイチンゲールダンス／軟水／ただならぬ刀／シカノシンプ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-18T11:24:31+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8b589268",
@@ -10532,16 +10534,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-18T11:24:31+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ナイチンゲールダンス／めぞん／おしみんまる／アイロンヘッド／シンクロニシティ／軟水／ピュート／ゼロカラン／伝書鳩／ただならぬ刀／シカノシンプ",
-          "after": "[ネタ出演者]ナイチンゲールダンス／めぞん／おしみんまる／アイロンヘッド／シンクロニシティ／軟水／ピュート／ゼロカラン／伝書鳩／ただならぬ刀／シカノシンプ\n[コーナー出演者]MC：ゼロカラン／ピュート／めぞん／伝書鳩"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-18T11:24:31+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e0683c51",
@@ -10657,16 +10654,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-18T11:24:31+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ナイチンゲールダンス／めぞん／イチキップリン／アイロンヘッド／シンクロニシティ／軟水／ピュート／ゼロカラン／伝書鳩／ただならぬ刀／シカノシンプ\n[コーナー出演者]",
-          "after": "[ネタ出演者]ナイチンゲールダンス／めぞん／イチキップリン／アイロンヘッド／シンクロニシティ／軟水／ピュート／ゼロカラン／伝書鳩／ただならぬ刀／シカノシンプ\n[コーナー出演者]MC：めぞん／アイロンヘッド／ゼロカラン／ただならぬ刀"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-18T11:24:31+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0aa340d1",
@@ -10709,7 +10701,7 @@
       "members": "レギュラー／ラフ次元／ダイタク／スクールゾーン／kento fukaya／からし蓮根／素敵じゃないか／ゼロカラン／ナユタ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017654_1_20260718114104227.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/17530/46467",
       "online_url": null,
       "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■変更履歴■\r\n［追加］\r\nゼロカラン（7/2）\r\nからし蓮根（7/14）\r\n\r\n■チケット情報■\r\n\r\n一般発売：6/17(水) 10:00",
@@ -10721,12 +10713,11 @@
         "theater:lumine",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/3e5be91d.jpg",
       "status": "notified",
+      "last_updated": "2026-07-18T18:24:12+09:00",
       "first_seen": "2026-06-16T18:56:47+09:00",
-      "last_updated": "2026-07-17T18:56:32+09:00",
-      "notified_at": "2026-07-17T18:56:33+09:00",
-      "diff": null
+      "notified_at": "2026-07-18T18:24:13+09:00"
     },
     {
       "id": "8b676d8c",
@@ -10930,7 +10921,7 @@
       "open_time": "17:45",
       "start_time": "18:00",
       "end_time": "19:15",
-      "members": "しずる／ジェラードン／ななまがり／ケビンス／滝音／九条ジョー／スクールゾーン／軟水／ゼロカラン／ぺ",
+      "members": "しずる／ジェラードン／ななまがり／ケビンス／滝音／九条ジョー／スクールゾーン／軟水／ゼロカラン／ぺ\n【コーナー出演者】 MC：九条ジョー／軟水／ゼロカラン／ぺ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -10946,11 +10937,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-18T18:24:12+09:00",
+      "diff": {
+        "members": {
+          "before": "しずる／ジェラードン／ななまがり／ケビンス／滝音／九条ジョー／スクールゾーン／軟水／ゼロカラン／ぺ",
+          "after": "しずる／ジェラードン／ななまがり／ケビンス／滝音／九条ジョー／スクールゾーン／軟水／ゼロカラン／ぺ\n【コーナー出演者】 MC：九条ジョー／軟水／ゼロカラン／ぺ"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "77721d3d",
@@ -12711,7 +12707,7 @@
       "members": "ヤメピ／[ゲスト] 例えば炎 田上／電気ジュース",
       "venue": "よしもと道頓堀シアター",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018994_1_20260718104743662.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -12719,12 +12715,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/e762f699.jpg",
       "status": "notified",
+      "last_updated": "2026-07-18T18:24:12+09:00",
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-07-10T11:57:14+09:00",
-      "notified_at": "2026-07-10T11:57:15+09:00",
-      "diff": null
+      "notified_at": "2026-07-18T18:24:13+09:00"
     },
     {
       "id": "54a22316",
@@ -16940,7 +16935,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "シャガール／タイムキーパー／半年記念日／空前メテオ／マーメイド／ライムギ／シカノシンプ／例えば炎／宛先プレーン／電気ジュース／岡田浩太朗",
+      "members": "シャガール／タイムキーパー／半年記念日／空前メテオ／マーメイド／ライムギ／シカノシンプ／例えば炎／宛先プレーン／電気ジュース／岡田浩太朗／エグい速さ",
       "venue": "森ノ宮よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -16952,11 +16947,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-18T18:24:12+09:00",
+      "diff": {
+        "members": {
+          "before": "シャガール／タイムキーパー／半年記念日／空前メテオ／マーメイド／ライムギ／シカノシンプ／例えば炎／宛先プレーン／電気ジュース／岡田浩太朗",
+          "after": "シャガール／タイムキーパー／半年記念日／空前メテオ／マーメイド／ライムギ／シカノシンプ／例えば炎／宛先プレーン／電気ジュース／岡田浩太朗／エグい速さ"
+        }
+      },
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "last_updated": "2026-07-15T19:02:00+09:00",
-      "notified_at": "2026-06-25T10:11:20+09:00",
-      "diff": null
+      "notified_at": "2026-06-25T10:11:20+09:00"
     },
     {
       "id": "fa000164",
@@ -17141,7 +17141,8 @@
       "status": "notified",
       "first_seen": "2026-07-18T11:24:31+09:00",
       "last_updated": "2026-07-18T11:24:31+09:00",
-      "notified_at": "2026-07-18T11:24:31+09:00"
+      "notified_at": "2026-07-18T11:24:31+09:00",
+      "diff": null
     },
     {
       "id": "fedfdb5a",
@@ -17582,9 +17583,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-18T11:24:31+09:00",
       "first_seen": "2026-06-22T19:12:03+09:00",
-      "notified_at": "2026-07-18T11:24:31+09:00"
+      "last_updated": "2026-07-18T11:24:31+09:00",
+      "notified_at": "2026-07-18T11:24:31+09:00",
+      "diff": null
     },
     {
       "id": "07397c17",
@@ -19109,7 +19111,8 @@
       "status": "notified",
       "first_seen": "2026-07-18T11:24:31+09:00",
       "last_updated": "2026-07-18T11:24:31+09:00",
-      "notified_at": "2026-07-18T11:24:31+09:00"
+      "notified_at": "2026-07-18T11:24:31+09:00",
+      "diff": null
     },
     {
       "id": "92933c0c",
@@ -19349,20 +19352,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-18T11:24:31+09:00",
-      "diff": {
-        "members": {
-          "before": "村上ショージ／麒麟／ギャロップ／フルーツポンチ／ニッポンの社長／コロコロチキチキペッパーズ／ビスケットブラザーズ／他",
-          "after": "村上ショージ／麒麟／ギャロップ／フルーツポンチ／ダイタク／ニッポンの社長／コロコロチキチキペッパーズ／ビスケットブラザーズ／他"
-        },
-        "notice": {
-          "before": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00",
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nダイタク（7/17）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-18T11:24:31+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6dd50fb7",
@@ -19390,20 +19384,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-18T11:24:31+09:00",
-      "diff": {
-        "members": {
-          "before": "村上ショージ／麒麟／ギャロップ／フルーツポンチ／ニッポンの社長／コロコロチキチキペッパーズ／ビスケットブラザーズ／他",
-          "after": "村上ショージ／麒麟／ギャロップ／フルーツポンチ／ダイタク／ニッポンの社長／コロコロチキチキペッパーズ／ビスケットブラザーズ／他"
-        },
-        "notice": {
-          "before": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00",
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：6/25（木）11:00～6/28（日）11:00\r\n当落発表：6/29（月）18:00頃\r\n\r\n一般発売日：7/5（日）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nダイタク（7/17）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-18T11:24:31+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a56227a6",
@@ -19415,7 +19400,7 @@
       "open_time": "13:30",
       "start_time": "14:00",
       "end_time": "15:10",
-      "members": "次長課長／パンクブーブー／囲碁将棋／ちょんまげラーメン／マユリカ／さや香／レインボー／他",
+      "members": "次長課長／パンクブーブー／囲碁将棋／ちょんまげラーメン／マユリカ／さや香／レインボー",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -19431,11 +19416,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-18T18:24:12+09:00",
+      "diff": {
+        "members": {
+          "before": "次長課長／パンクブーブー／囲碁将棋／ちょんまげラーメン／マユリカ／さや香／レインボー／他",
+          "after": "次長課長／パンクブーブー／囲碁将棋／ちょんまげラーメン／マユリカ／さや香／レインボー"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "2c362b56",
@@ -19447,7 +19437,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": "17:10",
-      "members": "次長課長／パンクブーブー／囲碁将棋／ちょんまげラーメン／マユリカ／さや香／レインボー／他",
+      "members": "次長課長／パンクブーブー／囲碁将棋／ちょんまげラーメン／マユリカ／さや香／レインボー",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -19463,11 +19453,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-18T18:24:12+09:00",
+      "diff": {
+        "members": {
+          "before": "次長課長／パンクブーブー／囲碁将棋／ちょんまげラーメン／マユリカ／さや香／レインボー／他",
+          "after": "次長課長／パンクブーブー／囲碁将棋／ちょんまげラーメン／マユリカ／さや香／レインボー"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "1dd0077e",
@@ -19774,7 +19769,8 @@
       "status": "notified",
       "first_seen": "2026-07-18T11:24:31+09:00",
       "last_updated": "2026-07-18T11:24:31+09:00",
-      "notified_at": "2026-07-18T11:24:31+09:00"
+      "notified_at": "2026-07-18T11:24:31+09:00",
+      "diff": null
     },
     {
       "id": "1b25230d",
@@ -20779,6 +20775,33 @@
       "last_updated": "2026-06-26T18:18:06+09:00",
       "notified_at": "2026-06-26T18:18:07+09:00",
       "diff": null
+    },
+    {
+      "id": "ea57bb0c",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "それゆけ!大宮セブンPresents「はぐれ者たちの宴vol.2」",
+      "date": "2026-10-29",
+      "open_time": "18:30",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "YOUR SONG IS GOOD\nアイボリース（アタック西本、根建太一、SJ、村上、南條庄助）",
+      "venue": "新代田FEVER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-18T18:24:12+09:00",
+      "last_updated": "2026-07-18T18:24:12+09:00",
+      "notified_at": "2026-07-18T18:24:13+09:00"
     },
     {
       "id": "b8704175",

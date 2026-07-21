@@ -156,6 +156,9 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
         times.append(f"終演 {ev['end_time']}")
     time_str = " | ".join(times)
 
+    # サマリ表示用: 開演優先、無ければ開場時刻のみ
+    summary_time = ev.get("start_time") or ev.get("open_time") or ""
+
     venue_raw      = ev.get("venue") or ""
     prefecture_raw = ev.get("prefecture") or ""
     venue_display  = escape_html(venue_raw)
@@ -181,14 +184,14 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
         f' class="btn btn-gcal" title="Googleカレンダーに追加">&#x1F4C5;</a>'
     ) if gcal_url else ""
 
-    # フライヤー: ローカル画像優先、なければ外部URL
+    # フライヤー: ローカル画像優先、なければ外部URL。サマリにはサムネイルのみ置き、
+    # 拡大表示（モーダル内フライヤー・ライトボックス）は script.js 側でこの src を使い回す
     img_src = ev.get("local_image") or ev.get("image_url") or ""
-    flyer = ""
+    flyer_thumb = ""
     if img_src:
-        flyer = (
-            f'<div class="flyer">'
-            f'<img src="{escape_html(img_src)}" alt="フライヤー" loading="lazy" '
-            f'class="flyer-img" onclick="openLightbox(this.src)">'
+        flyer_thumb = (
+            f'<div class="flyer-thumb-wrap">'
+            f'<img src="{escape_html(img_src)}" alt="フライヤー" loading="lazy" class="flyer-thumb">'
             f'</div>'
         )
 
@@ -241,7 +244,7 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
 
     ev_id = escape_html(ev.get("id", ""))
     status_select = (
-        f'<div class="viewing-wrap" data-viewing-status="">'
+        f'<div class="viewing-wrap" data-event-id="{ev_id}" data-viewing-status="">'
         f'<select class="viewing-select" data-event-id="{ev_id}">'
         f'<option value="">＋ 記録する</option>'
         f'<option value="want">行きたい</option>'
@@ -271,6 +274,31 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
     talents = ev.get("talents") or {}
     talent_ids_str = " ".join(sorted(talents.keys()))
 
+    summary_datetime = date_str + (f" {summary_time}" if summary_time else "")
+    summary_members = (
+        f'<span class="members-text">{members}</span>' if members else ""
+    )
+
+    card_summary = (
+        f'<div class="card-summary">'
+        f'<div class="card-summary-text">'
+        f'<div class="card-header">{badge}<span class="card-title">{title}</span>'
+        f'<span class="status-label" hidden></span></div>'
+        f'<div class="summary-meta">'
+        f'<span class="summary-datetime">{summary_datetime}</span>'
+        f'{summary_members}'
+        f'</div>'
+        f'</div>'
+        f'{flyer_thumb}'
+        f'</div>'
+    )
+    card_detail = (
+        f'<div class="card-detail" hidden>'
+        f'<div class="card-info">{info_rows}</div>'
+        f'{notice_html}{btns_html}{memo_html}'
+        f'</div>'
+    )
+
     return (
         f'<div class="{past_class}" '
         f'data-excluded="false" '
@@ -282,11 +310,8 @@ def render_event_card(ev: dict, tickets: list | None = None) -> str:
         f'data-title="{escape_html(ev.get("title", ""))}" '
         f'data-members="{escape_html(ev.get("members") or "")}" '
         f'data-viewing-status="">'
-        f'<div class="card-header">{badge}<span class="card-title">{title}</span></div>'
-        f'<div class="card-body">'
-        f'<div class="card-left"><div class="card-info">{info_rows}</div>{notice_html}{btns_html}{memo_html}</div>'
-        f'{flyer}'
-        f'</div>'
+        f'{card_summary}'
+        f'{card_detail}'
         f'</div>'
     )
 

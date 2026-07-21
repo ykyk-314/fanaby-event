@@ -70,6 +70,17 @@
   <div id="lightbox" onclick="closeLightbox()">
     <img id="lightboxImg" src="" alt="フライヤー拡大">
   </div>
+  <div id="eventModal" class="modal-overlay" onclick="closeEventModal()">
+    <div class="modal-panel" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeEventModal()" aria-label="閉じる">&times;</button>
+      <div class="modal-header">
+        <span class="modal-title" id="eventModalTitle"></span>
+        <span class="modal-datetime" id="eventModalDatetime"></span>
+      </div>
+      <img id="eventModalFlyer" class="modal-flyer" src="" alt="フライヤー" onclick="openLightbox(this.src)" hidden>
+      <div id="eventModalBody"></div>
+    </div>
+  </div>
   <button id="backToTop" class="back-to-top" title="画面最上部へ戻る" aria-label="画面最上部へ戻る">&#x2191;</button>
   <script src="assets/script.js"></script>
 </body>

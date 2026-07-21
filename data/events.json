@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T11:35:10+09:00",
+  "updated_at": "2026-07-21T15:25:07+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -10814,8 +10814,7 @@
         "door": 40003000
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -10847,8 +10846,7 @@
         "door": 4000
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -11000,16 +10998,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-21T11:35:09+09:00",
-      "diff": {
-        "members": {
-          "before": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／喜喜かいばしら／パンたべる／かば鴉／ほか村",
-          "after": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／中村圭太／喜喜かいばしら／パンたべる／かば鴉／ほか村"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-21T11:35:09+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6c124e87",
@@ -11165,9 +11158,10 @@
       ],
       "local_image": "fliers/044d72d3.jpg",
       "status": "notified",
-      "last_updated": "2026-07-21T11:35:09+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-07-21T11:35:10+09:00"
+      "last_updated": "2026-07-21T11:35:09+09:00",
+      "notified_at": "2026-07-21T11:35:10+09:00",
+      "diff": null
     },
     {
       "id": "58f12735",
@@ -12755,9 +12749,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-21T11:35:09+09:00",
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "notified_at": "2026-07-21T11:35:10+09:00"
+      "last_updated": "2026-07-21T11:35:09+09:00",
+      "notified_at": "2026-07-21T11:35:10+09:00",
+      "diff": null
     },
     {
       "id": "c8a8d703",
@@ -17697,7 +17692,7 @@
       "open_time": "13:30",
       "start_time": "14:00",
       "end_time": null,
-      "members": "[ネタ]トット／ジャングルポケット／マユリカ／ゆにばーす／ケビンス／エバース／他",
+      "members": "[ネタ]トット／ジャングルポケット／マユリカ／ゆにばーす／ケビンス／田津原理音／エバース／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -17709,11 +17704,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-21T15:25:06+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]トット／ジャングルポケット／マユリカ／ゆにばーす／ケビンス／エバース／他",
+          "after": "[ネタ]トット／ジャングルポケット／マユリカ／ゆにばーす／ケビンス／田津原理音／エバース／他"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "b4563b20",
@@ -17726,7 +17726,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "[ネタ]トット／ジャングルポケット／マユリカ／ゆにばーす／ケビンス／エバース／他",
+      "members": "[ネタ]トット／ジャングルポケット／マユリカ／ゆにばーす／ケビンス／田津原理音／エバース／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -17738,11 +17738,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-21T15:25:06+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]トット／ジャングルポケット／マユリカ／ゆにばーす／ケビンス／エバース／他",
+          "after": "[ネタ]トット／ジャングルポケット／マユリカ／ゆにばーす／ケビンス／田津原理音／エバース／他"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "e0ced0f9",

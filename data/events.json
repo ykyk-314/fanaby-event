@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T19:51:15+09:00",
+  "updated_at": "2026-07-21T11:35:10+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -10988,7 +10988,7 @@
       "open_time": "19:45",
       "start_time": "20:00",
       "end_time": null,
-      "members": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／喜喜かいばしら／パンたべる／かば鴉／ほか村",
+      "members": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／中村圭太／喜喜かいばしら／パンたべる／かば鴉／ほか村",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -11000,11 +11000,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-21T11:35:09+09:00",
+      "diff": {
+        "members": {
+          "before": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／喜喜かいばしら／パンたべる／かば鴉／ほか村",
+          "after": "ゲスト：カラタチ／シンクロニシティ／気になるあの娘／ザ・ローリングモンキー／中村圭太／喜喜かいばしら／パンたべる／かば鴉／ほか村"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-06T12:27:38+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "6c124e87",
@@ -11150,7 +11155,7 @@
       "members": "例えば炎／豪快キャプテン／ゲスト:ダブルアート／ビスケットブラザーズ",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000016948_1_20260721005809642.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -11158,12 +11163,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/044d72d3.jpg",
       "status": "notified",
+      "last_updated": "2026-07-21T11:35:09+09:00",
       "first_seen": "2026-05-26T10:09:04+09:00",
-      "last_updated": "2026-05-26T10:09:04+09:00",
-      "notified_at": "2026-05-26T10:09:04+09:00",
-      "diff": null
+      "notified_at": "2026-07-21T11:35:10+09:00"
     },
     {
       "id": "58f12735",
@@ -12577,16 +12581,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "ギャロップ／ガクテンソク／kento fukaya／ネイビーズアフロ／豪快キャプテン／愛凛冴／アイラブ地球／翠星チークダンス／チェリー大作戦／ぎょうぶ／ジョックロック／例えば炎",
-          "after": "ギャロップ／ガクテンソク／kento fukaya／ネイビーズアフロ／豪快キャプテン／愛凛冴／アイラブ地球／翠星チークダンス／チェリー大作戦／ぎょうぶ／ジョックロック／例えば炎／前説：入学卒業"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-06T12:27:38+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b03f51f7",
@@ -12671,16 +12670,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "ギャロップ／ガクテンソク／kento fukaya／ドーナツ・ピーナツ／豪快キャプテン／愛凛冴／アイラブ地球／翠星チークダンス／チェリー大作戦／ぎょうぶ／cacao",
-          "after": "ギャロップ／ガクテンソク／kento fukaya／ドーナツ・ピーナツ／豪快キャプテン／愛凛冴／アイラブ地球／翠星チークダンス／チェリー大作戦／ぎょうぶ／cacao／前説：入学卒業"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-06T12:27:38+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "7939c735",
@@ -12704,16 +12698,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]トータルテンボス／ななまがり／カーネーション／ビスケットブラザーズ／EXIT／ぼる塾／フースーヤ",
-          "after": "[ネタ]トータルテンボス／ななまがり／カーネーション／いぬ／ビスケットブラザーズ／EXIT／ぼる塾／フースーヤ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-06-26T10:14:27+09:00",
-      "notified_at": "2026-06-26T10:14:27+09:00"
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": "2026-06-26T10:14:27+09:00",
+      "diff": null
     },
     {
       "id": "e762f699",
@@ -12753,7 +12742,7 @@
       "open_time": "18:15",
       "start_time": "18:30",
       "end_time": null,
-      "members": "kento fukaya／隣人 中村遊直／ぎょうぶ 為国／空前メテオ 茶屋／ぐろう 家村／生姜猫 カンサイ／[MC] cacao 浦田スターク",
+      "members": "kento fukaya／隣人 中村遊直／豪快キャプテン べーやん／ぎょうぶ 為国／空前メテオ 茶屋／ぐろう 家村／生姜猫 カンサイ／[MC] cacao 浦田スターク",
       "venue": "よしもと道頓堀シアター",
       "prefecture": "大阪府",
       "image_url": null,
@@ -12766,10 +12755,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-21T11:35:09+09:00",
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-07-12T11:40:29+09:00",
-      "notified_at": "2026-07-12T11:40:29+09:00",
-      "diff": null
+      "notified_at": "2026-07-21T11:35:10+09:00"
     },
     {
       "id": "c8a8d703",
@@ -13006,9 +12994,10 @@
       ],
       "local_image": "fliers/67f7a9b5.jpeg",
       "status": "notified",
-      "last_updated": "2026-07-20T19:51:15+09:00",
       "first_seen": "2026-06-30T10:11:29+09:00",
-      "notified_at": "2026-07-20T19:51:15+09:00"
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": "2026-07-20T19:51:15+09:00",
+      "diff": null
     },
     {
       "id": "5c8790a4",
@@ -13670,9 +13659,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-20T19:51:15+09:00",
       "first_seen": "2026-06-23T10:09:01+09:00",
-      "notified_at": "2026-07-20T19:51:15+09:00"
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": "2026-07-20T19:51:15+09:00",
+      "diff": null
     },
     {
       "id": "850cc0ce",
@@ -13757,16 +13747,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "銀シャリ／サルゴリラ／ジェラードン／ヘンダーソン／マユリカ／ドーナツ・ピーナツ／フースーヤ／隣人／ナナ／シャガール／ぐろう",
-          "after": "銀シャリ／サルゴリラ／ジェラードン／ヘンダーソン／マユリカ／ドーナツ・ピーナツ／フースーヤ／隣人／ナナ／シャガール／ぐろう／前説：おもしろジャンケン"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "34a770bf",
@@ -13823,22 +13808,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "price": {
-          "before": {
-            "advance": 3300,
-            "door": 3300
-          },
-          "after": {
-            "advance": 3300,
-            "door": 3600
-          }
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "cddfc935",
@@ -14138,16 +14112,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "守谷日和／トット／ネルソンズ／ニッポンの社長／マユリカ／天才ピアニスト／もも／三遊間／ジョックロック／電気ジュース",
-          "after": "守谷日和／トット／ネルソンズ／ニッポンの社長／マユリカ／天才ピアニスト／もも／三遊間／ジョックロック／電気ジュース／前説：半年記念日"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f251e645",
@@ -14199,16 +14168,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "守谷日和／トット／ヘンダーソン／ネルソンズ／ニッポンの社長／天才ピアニスト／もも／ジョックロック／電気ジュース／満丸",
-          "after": "守谷日和／トット／ヘンダーソン／ネルソンズ／ニッポンの社長／天才ピアニスト／もも／ジョックロック／電気ジュース／満丸／前説：半年記念日"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "502e864d",
@@ -14289,16 +14253,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "守谷日和／トット／ネルソンズ／マユリカ／天才ピアニスト／もも／ジョックロック／例えば炎／満丸",
-          "after": "守谷日和／トット／ネルソンズ／マユリカ／天才ピアニスト／もも／ジョックロック／例えば炎／満丸／前説：半年記念日"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d8929dbe",
@@ -14491,16 +14450,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "ギャロップ／トット／ヘンダーソン／ちょんまげラーメン／ビスケットブラザーズ／ヨネダ2000／黒帯／豪快キャプテン／真輝志／フースーヤ／丸亀じゃんご／三遊間",
-          "after": "ギャロップ／トット／ヘンダーソン／ちょんまげラーメン／ビスケットブラザーズ／ヨネダ2000／黒帯／豪快キャプテン／真輝志／フースーヤ／丸亀じゃんご／三遊間／前説：キョンビ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1618bcfb",
@@ -14608,16 +14562,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "ギャロップ／トット／ヘンダーソン／ちょんまげラーメン／ビスケットブラザーズ／ミキ／黒帯／豪快キャプテン／真輝志／フースーヤ／丸亀じゃんご／三遊間／九ノ段",
-          "after": "ギャロップ／トット／ヘンダーソン／ちょんまげラーメン／ビスケットブラザーズ／ミキ／黒帯／豪快キャプテン／真輝志／フースーヤ／丸亀じゃんご／三遊間／九ノ段／前説：キョンビ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f6c26251",
@@ -14697,16 +14646,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "ギャロップ／トット／ヘンダーソン／ちょんまげラーメン／ビスケットブラザーズ／9番街レトロ／黒帯／豪快キャプテン／真輝志／フースーヤ／九ノ段／生姜猫",
-          "after": "ギャロップ／トット／ヘンダーソン／ちょんまげラーメン／ビスケットブラザーズ／9番街レトロ／黒帯／豪快キャプテン／真輝志／フースーヤ／九ノ段／生姜猫／前説：キョンビ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3219eeeb",
@@ -14954,22 +14898,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "price": {
-          "before": {
-            "advance": 3300,
-            "door": 3300
-          },
-          "after": {
-            "advance": 3300,
-            "door": 3600
-          }
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e52dc30e",
@@ -15092,9 +15025,10 @@
       ],
       "local_image": "fliers/4293a82e.jpeg",
       "status": "notified",
-      "last_updated": "2026-07-20T19:51:15+09:00",
       "first_seen": "2026-07-12T11:40:29+09:00",
-      "notified_at": "2026-07-20T19:51:15+09:00"
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": "2026-07-20T19:51:15+09:00",
+      "diff": null
     },
     {
       "id": "bec6d5f5",
@@ -15119,9 +15053,10 @@
       ],
       "local_image": "fliers/bec6d5f5.jpeg",
       "status": "notified",
-      "last_updated": "2026-07-20T19:51:15+09:00",
       "first_seen": "2026-07-12T11:40:29+09:00",
-      "notified_at": "2026-07-20T19:51:15+09:00"
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": "2026-07-20T19:51:15+09:00",
+      "diff": null
     },
     {
       "id": "36039d37",
@@ -15178,16 +15113,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]西川のりお・上方よしお／もりやすバンバンビガロ／ガクテンソク／コロコロチキチキペッパーズ／ゆにばーす／ケビンス／他",
-          "after": "[ネタ]西川のりお・上方よしお／もりやすバンバンビガロ／ガクテンソク／コロコロチキチキペッパーズ／スクールゾーン／ゆにばーす／ケビンス／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-30T10:11:30+09:00"
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": "2026-06-30T10:11:30+09:00",
+      "diff": null
     },
     {
       "id": "f0d70552",
@@ -15211,16 +15141,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]西川のりお・上方よしお／もりやすバンバンビガロ／ガクテンソク／コロコロチキチキペッパーズ／ゆにばーす／ケビンス／他",
-          "after": "[ネタ]西川のりお・上方よしお／もりやすバンバンビガロ／ガクテンソク／コロコロチキチキペッパーズ／スクールゾーン／ゆにばーす／ケビンス／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-30T10:11:30+09:00"
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": "2026-06-30T10:11:30+09:00",
+      "diff": null
     },
     {
       "id": "bd84b2b0",
@@ -15473,16 +15398,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／華山／イノシカチョウ／タチマチ／爛々 萌々／ぐろう／生姜猫",
-          "after": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／華山／イノシカチョウ／タチマチ／爛々 萌々／ぐろう／生姜猫／前説：アポロ軍曹"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c7b729d7",
@@ -15590,16 +15510,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "members": {
-          "before": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／華山／イノシカチョウ／タチマチ／爛々 萌々／ぐろう／生姜猫",
-          "after": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／華山／イノシカチョウ／タチマチ／爛々 萌々／ぐろう／生姜猫／前説：アポロ軍曹"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3e8e68b2",
@@ -15831,22 +15746,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "diff": {
-        "price": {
-          "before": {
-            "advance": 3300,
-            "door": 3300
-          },
-          "after": {
-            "advance": 3300,
-            "door": 3600
-          }
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a5227dcb",
@@ -17212,9 +17116,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-20T19:51:15+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-07-20T19:51:15+09:00"
+      "last_updated": "2026-07-20T19:51:15+09:00",
+      "notified_at": "2026-07-20T19:51:15+09:00",
+      "diff": null
     },
     {
       "id": "8351014b",

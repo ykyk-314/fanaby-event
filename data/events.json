@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T19:24:42+09:00",
+  "updated_at": "2026-07-22T11:33:54+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -12512,16 +12512,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-21T19:24:42+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ギャロップ／ガクテンソク／kento fukaya／ドーナツ・ピーナツ／天才ピアニスト／華山／隣人／もも／オーサカクレオパトラ／ポチ／丸亀じゃんご／苺ちゃん\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]ギャロップ／ガクテンソク／kento fukaya／豪快キャプテン／ドーナツ・ピーナツ／華山／隣人／もも／オーサカクレオパトラ／ポチ／丸亀じゃんご／苺ちゃん\n[スペシャルアクト]\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-03T19:34:44+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-21T19:24:42+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "93b2420c",
@@ -18077,7 +18072,8 @@
       "status": "notified",
       "first_seen": "2026-07-21T19:24:42+09:00",
       "last_updated": "2026-07-21T19:24:42+09:00",
-      "notified_at": "2026-07-21T19:24:42+09:00"
+      "notified_at": "2026-07-21T19:24:42+09:00",
+      "diff": null
     },
     {
       "id": "a9a0f50b",
@@ -18111,6 +18107,33 @@
       "last_updated": "2026-06-27T10:10:11+09:00",
       "notified_at": "2026-06-27T10:10:11+09:00",
       "diff": null
+    },
+    {
+      "id": "e8fb8870",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "いたら最高",
+      "date": "2026-08-27",
+      "open_time": "20:30",
+      "start_time": "21:15",
+      "end_time": null,
+      "members": "ケビンス仁木、九条ジョー、パンプキンポテトフライ谷、ガクヅケ木田",
+      "venue": "LOFT9 Shibuya",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-22T11:33:54+09:00",
+      "last_updated": "2026-07-22T11:33:54+09:00",
+      "notified_at": "2026-07-22T11:33:54+09:00"
     },
     {
       "id": "1bd896ce",
@@ -20010,7 +20033,7 @@
       "open_time": "11:15",
       "start_time": "11:30",
       "end_time": null,
-      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -20022,11 +20045,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-22T11:33:54+09:00",
+      "diff": {
+        "members": {
+          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-07-17T11:33:37+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "4d5f3337",
@@ -20070,7 +20098,7 @@
       "open_time": "13:25",
       "start_time": "13:40",
       "end_time": null,
-      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -20082,11 +20110,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-22T11:33:54+09:00",
+      "diff": {
+        "members": {
+          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-07-17T11:33:37+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "04f95917",
@@ -20130,7 +20163,7 @@
       "open_time": "15:35",
       "start_time": "15:50",
       "end_time": null,
-      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -20142,11 +20175,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-22T11:33:54+09:00",
+      "diff": {
+        "members": {
+          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-07-17T11:33:37+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "1bdcbe29",
@@ -20455,9 +20493,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-21T19:24:42+09:00",
       "first_seen": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-07-21T19:24:42+09:00"
+      "last_updated": "2026-07-21T19:24:42+09:00",
+      "notified_at": "2026-07-21T19:24:42+09:00",
+      "diff": null
     },
     {
       "id": "7f2c685c",
@@ -20482,9 +20521,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-21T19:24:42+09:00",
       "first_seen": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-07-21T19:24:42+09:00"
+      "last_updated": "2026-07-21T19:24:42+09:00",
+      "notified_at": "2026-07-21T19:24:42+09:00",
+      "diff": null
     },
     {
       "id": "3b671863",
@@ -20637,9 +20677,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-21T19:24:42+09:00",
       "first_seen": "2026-05-29T18:24:21+09:00",
-      "notified_at": "2026-07-21T19:24:42+09:00"
+      "last_updated": "2026-07-21T19:24:42+09:00",
+      "notified_at": "2026-07-21T19:24:42+09:00",
+      "diff": null
     },
     {
       "id": "a6f61db9",

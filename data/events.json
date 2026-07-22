@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T11:33:54+09:00",
+  "updated_at": "2026-07-22T19:24:26+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -11025,8 +11025,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/6c124e87.jpeg",
       "status": "notified",
@@ -11058,8 +11057,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -15005,7 +15003,7 @@
       "open_time": "17:15",
       "start_time": "17:30",
       "end_time": null,
-      "members": "[企画ライブ]さや香 石井／アイロンヘッド 辻井亮平／今井らいぱち／ケビンス 山口コンボイ／そいつどいつ 市川刺身／カーネーション 岡下雅典／MC：アイラブ地球 コウノ・オブ・ザ・イヤー／他",
+      "members": "[企画ライブ]さや香 石井／アイロンヘッド 辻井亮平／今井らいぱち／ケビンス 山口コンボイ／そいつどいつ 市川刺身／カーネーション 岡下雅典／ペナルティ ワッキー／MC：アイラブ地球 コウノ・オブ・ザ・イヤー",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018611_1_20260719162837255.jpeg",
@@ -15018,10 +15016,9 @@
       ],
       "local_image": "fliers/4293a82e.jpeg",
       "status": "notified",
+      "last_updated": "2026-07-22T19:24:26+09:00",
       "first_seen": "2026-07-12T11:40:29+09:00",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "notified_at": "2026-07-20T19:51:15+09:00",
-      "diff": null
+      "notified_at": "2026-07-22T19:24:26+09:00"
     },
     {
       "id": "bec6d5f5",
@@ -15033,7 +15030,7 @@
       "open_time": "18:45",
       "start_time": "19:00",
       "end_time": null,
-      "members": "[企画ライブ]さや香 石井／アイロンヘッド 辻井亮平／今井らいぱち／ケビンス 山口コンボイ／そいつどいつ 市川刺身／カーネーション 岡下雅典／MC：アイラブ地球 コウノ・オブ・ザ・イヤー／他",
+      "members": "[企画ライブ]さや香 石井／アイロンヘッド 辻井亮平／今井らいぱち／ケビンス 山口コンボイ／そいつどいつ 市川刺身／カーネーション 岡下雅典／ペナルティ ワッキー／MC：アイラブ地球 コウノ・オブ・ザ・イヤー",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018619_1_20260719162902268.jpeg",
@@ -15046,10 +15043,9 @@
       ],
       "local_image": "fliers/bec6d5f5.jpeg",
       "status": "notified",
+      "last_updated": "2026-07-22T19:24:26+09:00",
       "first_seen": "2026-07-12T11:40:29+09:00",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "notified_at": "2026-07-20T19:51:15+09:00",
-      "diff": null
+      "notified_at": "2026-07-22T19:24:26+09:00"
     },
     {
       "id": "36039d37",
@@ -16541,7 +16537,7 @@
       "members": "[企画ライブ]kento fukaya／今井らいぱち",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018435_1_20260722153518215.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/17730/46935",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%89%E3%81%84ken-8-16-21-15",
       "notice": "今井らいぱちとkento fukayaによるユニットライブ！\r\n賞レースやSNSでバズらせるぞ！！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00\r\n\r\n〇配信：7/5（日）10:00",
@@ -16554,12 +16550,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/992a6e04.jpg",
       "status": "notified",
+      "last_updated": "2026-07-22T19:24:26+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-22T19:24:26+09:00"
     },
     {
       "id": "b2b8ac1a",
@@ -18133,7 +18128,8 @@
       "status": "notified",
       "first_seen": "2026-07-22T11:33:54+09:00",
       "last_updated": "2026-07-22T11:33:54+09:00",
-      "notified_at": "2026-07-22T11:33:54+09:00"
+      "notified_at": "2026-07-22T11:33:54+09:00",
+      "diff": null
     },
     {
       "id": "1bd896ce",
@@ -20045,16 +20041,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-22T11:33:54+09:00",
-      "diff": {
-        "members": {
-          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
-          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-22T11:33:54+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4d5f3337",
@@ -20110,16 +20101,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-22T11:33:54+09:00",
-      "diff": {
-        "members": {
-          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
-          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-22T11:33:54+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "04f95917",
@@ -20175,16 +20161,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-22T11:33:54+09:00",
-      "diff": {
-        "members": {
-          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人",
-          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-22T11:33:54+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1bdcbe29",

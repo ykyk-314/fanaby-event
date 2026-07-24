@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T19:21:42+09:00",
+  "updated_at": "2026-07-24T11:35:22+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -11767,26 +11767,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "diff": {
-        "price": {
-          "before": {
-            "advance": 4000,
-            "door": 4500
-          },
-          "after": {
-            "advance": 40004000,
-            "door": 4500
-          }
-        },
-        "notice": {
-          "before": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n賞レース王者が多数出演！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：5/25（月）11:00～5/28（木）11:00\r\n当落発表：5/29（金）18:00頃\r\n\r\n一般発売日：6/5（金）10:00",
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n賞レース王者が多数出演！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：5/25（月）11:00～5/28（木）11:00\r\n当落発表：5/29（金）18:00頃\r\n\r\n一般発売日：6/5（金）10:00\r\n\r\nーーーーーーーーーー\r\n★立見券をご購入のお客様★\r\n※劇場内、最後方の立見スペースでのご観劇となります。\r\n※座席はございませんので、チケット券面に記載の位置に立ってご観劇いただきます。\r\n※指定された位置以外でのご観劇は出来ません。\r\n※おひとりさまのスペースは、足元の白線枠内のみとなります。お荷物を含め、白線枠内に収めていただきますようお願いいたします。\r\n※折りたたみ椅子等の持ち込み・使用はできません。\r\nーーーーーーーーーー\r\n"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-05-25T16:19:00+09:00",
-      "notified_at": "2026-06-18T18:41:14+09:00"
+      "last_updated": "2026-07-23T19:21:42+09:00",
+      "notified_at": "2026-06-18T18:41:14+09:00",
+      "diff": null
     },
     {
       "id": "42e6c745",
@@ -12092,7 +12077,7 @@
       "open_time": "17:45",
       "start_time": "18:00",
       "end_time": "19:15",
-      "members": "空気階段／ネルソンズ／ななまがり／カゲヤマ／蛙亭／守谷日和／セルライトスパ／シカゴ実業／シンクロニシティ／照山おうちごはん",
+      "members": "空気階段／ネルソンズ／ななまがり／カゲヤマ／蛙亭／守谷日和／セルライトスパ／シカゴ実業／シンクロニシティ／照山おうちごはん\n【コーナー出演者】 MC：カゲヤマ／セルライトスパ／照山おうちごはん",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -12108,11 +12093,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-24T11:35:22+09:00",
+      "diff": {
+        "members": {
+          "before": "空気階段／ネルソンズ／ななまがり／カゲヤマ／蛙亭／守谷日和／セルライトスパ／シカゴ実業／シンクロニシティ／照山おうちごはん",
+          "after": "空気階段／ネルソンズ／ななまがり／カゲヤマ／蛙亭／守谷日和／セルライトスパ／シカゴ実業／シンクロニシティ／照山おうちごはん\n【コーナー出演者】 MC：カゲヤマ／セルライトスパ／照山おうちごはん"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-05T12:19:43+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "363b7d9e",
@@ -12647,9 +12637,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-23T19:21:42+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-07-23T19:21:42+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "9168375e",
@@ -13013,13 +13004,13 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": "18:00",
-      "members": "ジェラードン／3時のヒロイン／ケビンス",
+      "members": "ジェラードン／3時のヒロイン／ケビンス／MC：九条ジョー",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/18228/47866",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%8D%E3%82%AA%E3%83%B3-%E3%82%B8%E3%82%A7%E3%83%A9%E3%83%BC%E3%83%89%E3%83%B3-3%E6%99%82%E3%81%AE%E3%83%92%E3%83%AD%E3%82%A4%E3%83%B3-%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9-8-2-17-00",
-      "notice": "ジェラードンと3時のヒロインとケビンスの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/29（月）11:00～7/1（水）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n■配信チケット■\r\n〇発売日：7/5（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "notice": "ジェラードンと3時のヒロインとケビンスの3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/29（月）11:00～7/1（水）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n■配信チケット■\r\n〇発売日：7/5（日）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n九条ジョー（7/23）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2500,
         "door": 3000,
@@ -13031,10 +13022,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-24T11:35:22+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "last_updated": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-06-25T10:11:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-24T11:35:22+09:00"
     },
     {
       "id": "61b085e2",
@@ -13890,13 +13880,13 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": "19:00",
-      "members": "[ランキングバトルライブ]いぬ／CITY／スロッピ／西村ヒロチョ／マルセイユ／官兵衛／kento fukaya／ランパンプス／蛙亭／まちるだ／からし蓮根／ケビンス／スクラップス／黄昏の森／エルフ／9番街レトロ／ド桜／ソマオ・ミートボール／ヨネダ2000／他",
+      "members": "[ランキングバトルライブ]いぬ／CITY／スロッピ／西村ヒロチョ／マルセイユ／官兵衛／kento fukaya／ランパンプス／蛙亭／まちるだ／からし蓮根／ケビンス／スクラップス／黄昏の森／エルフ／9番街レトロ／ド桜／ソマオ・ミートボール／ヨネダ2000／ドゥダダ",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17841/47125",
       "online_url": null,
-      "notice": "極メンバー総出演！2か月に1回（偶数月）開催される芸歴9年目以上のネタバトル！\r\n※4月よりグランドバトルEASTの配信はございません\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n一般発売：7/5(日) 10:00\r\n\r\n※未就学児入場不可\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
+      "notice": "極メンバー総出演！2か月に1回（偶数月）開催される芸歴9年目以上のネタバトル！\r\n※4月よりグランドバトルEASTの配信はございません\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n一般発売：7/5(日) 10:00\r\n\r\n※未就学児入場不可\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\nドゥダダ(7/23)",
       "price": {
         "advance": 2300,
         "door": 2800
@@ -13907,10 +13897,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-24T11:35:22+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T18:18:52+09:00",
-      "notified_at": "2026-06-24T18:18:52+09:00",
-      "diff": null
+      "notified_at": "2026-07-24T11:35:22+09:00"
     },
     {
       "id": "e0c04574",
@@ -13954,13 +13943,13 @@
       "open_time": "20:00",
       "start_time": "20:15",
       "end_time": "22:15",
-      "members": "[ランキングバトルライブ]入間国際宣言／くらげ／滝音／そいつどいつ／田津原理音／ぱろぱろ／ラニーノーズ／カベポスター／世間知らズ／ダブルヒガシ／アメリカンBBチキン／ぶったま／ペッパーGuys／オフローズ／スパジーニ／シンクロニシティ／軟水／バリカタ友情飯／サンタモニカ／他",
+      "members": "[ランキングバトルライブ]入間国際宣言／くらげ／滝音／そいつどいつ／田津原理音／ぱろぱろ／ラニーノーズ／カベポスター／世間知らズ／ダブルヒガシ／アメリカンBBチキン／ぶったま／ペッパーGuys／オフローズ／スパジーニ／シンクロニシティ／軟水／バリカタ友情飯／サンタモニカ／佐川ピン芸人／スカイサーキット",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17841/47126",
       "online_url": null,
-      "notice": "極メンバー総出演！2か月に1回（偶数月）開催される芸歴9年目以上のネタバトル！\r\n\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n一般発売：7/5(日) 10:00\r\n\r\n※未就学児入場不可\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
+      "notice": "極メンバー総出演！2か月に1回（偶数月）開催される芸歴9年目以上のネタバトル！\r\n\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n一般発売：7/5(日) 10:00\r\n\r\n※未就学児入場不可\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\n佐川ピン芸人、スカイサーキット(7/23)",
       "price": {
         "advance": 2300,
         "door": 2800
@@ -13971,10 +13960,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-07-24T11:35:22+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": "2026-07-02T19:39:02+09:00",
-      "diff": null
+      "notified_at": "2026-07-24T11:35:22+09:00"
     },
     {
       "id": "ba360f78",
@@ -14230,9 +14218,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-23T19:21:42+09:00",
       "first_seen": "2026-07-15T11:23:49+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-07-23T19:21:42+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "8495189c",
@@ -17467,9 +17456,10 @@
       ],
       "local_image": "fliers/dc5d4a8f.jpeg",
       "status": "notified",
-      "last_updated": "2026-07-23T19:21:42+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-07-23T19:21:42+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "15f52498",
@@ -17916,7 +17906,7 @@
       "members": "[企画ライブ]今井らいぱち／kento fukaya／滝音／シモリュウ／田津原理音／らぶおじさん",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018424_1_20260723204625535.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/17817/47013",
       "online_url": null,
       "notice": "2024年4月に上京したメンバーによるネタとコーナーライブ！\r\n配信なしの75分をぜひ劇場でお楽しみください！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00",
@@ -17928,12 +17918,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/48f94b35.jpg",
       "status": "notified",
+      "last_updated": "2026-07-24T11:35:22+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-07-24T11:35:22+09:00"
     },
     {
       "id": "efe139b7",
@@ -18051,9 +18040,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-23T19:21:42+09:00",
       "first_seen": "2026-06-27T10:10:11+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-07-23T19:21:42+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "7799b9e0",
@@ -18111,9 +18101,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-23T19:21:42+09:00",
       "first_seen": "2026-06-27T10:10:11+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-07-23T19:21:42+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "e8fb8870",
@@ -19109,9 +19100,10 @@
       ],
       "local_image": "fliers/d53ce9a2.jpeg",
       "status": "notified",
-      "last_updated": "2026-07-23T19:21:42+09:00",
       "first_seen": "2026-07-15T19:02:00+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-07-23T19:21:42+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "01f5b1c9",
@@ -19199,7 +19191,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "45445a59",
@@ -19226,7 +19219,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8b7f477e",
@@ -19257,7 +19251,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1358fdf2",
@@ -19288,7 +19283,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "92933c0c",
@@ -19414,7 +19410,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1be949f1",
@@ -19445,7 +19442,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "c0164e65",
@@ -19475,7 +19473,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bec3f455",
@@ -19505,7 +19504,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "397da61d",
@@ -19563,7 +19563,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e510440a",
@@ -19622,7 +19623,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "30cbb500",
@@ -19652,7 +19654,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f159402b",
@@ -19683,7 +19686,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "400059e2",
@@ -19713,7 +19717,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "129e2606",
@@ -19744,7 +19749,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "087af5ad",
@@ -19774,7 +19780,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e8252c42",
@@ -19865,7 +19872,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "9a8f82f9",
@@ -19960,7 +19968,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "a56227a6",
@@ -20054,7 +20063,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c7d94f5b",
@@ -20085,7 +20095,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "1ce98c7f",
@@ -20116,7 +20127,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1dd0077e",
@@ -20286,7 +20298,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b0c8a6e3",
@@ -20316,7 +20329,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "94cc9ce8",
@@ -20346,7 +20360,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ffb7ed3a",
@@ -20376,7 +20391,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "618dec16",
@@ -20462,7 +20478,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9febe144",
@@ -20492,7 +20509,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8308f458",
@@ -20551,7 +20569,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "2b236051",
@@ -20637,7 +20656,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "883593b8",
@@ -20667,7 +20687,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "5dce2634",
@@ -20697,7 +20718,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ac5e9cd8",
@@ -20755,7 +20777,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "09a45add",
@@ -20785,7 +20808,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "aec8c80b",
@@ -20816,7 +20840,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "1b25230d",
@@ -20959,7 +20984,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ec60c5e9",
@@ -21046,7 +21072,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ffde555e",
@@ -21076,7 +21103,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a2565bf3",
@@ -21107,7 +21135,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "26444574",
@@ -21138,7 +21167,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "473e6da6",
@@ -21168,7 +21198,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "eaf46088",
@@ -21466,7 +21497,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "5fc0c53d",
@@ -21524,7 +21556,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f52baa98",
@@ -21638,7 +21671,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6c4bc76b",
@@ -21780,7 +21814,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "33b3a201",
@@ -21810,7 +21845,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "85585a71",
@@ -21840,7 +21876,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "7f2c685c",
@@ -21898,7 +21935,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3b671863",
@@ -21960,7 +21998,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "748fb1f2",
@@ -22022,7 +22061,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "965e0d86",
@@ -22117,7 +22157,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "1a1eda6d",
@@ -22175,7 +22216,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8500936d",
@@ -22205,7 +22247,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d790a85b",
@@ -22217,7 +22260,7 @@
       "open_time": "12:30",
       "start_time": "12:45",
       "end_time": "14:00",
-      "members": "[ネタ＆コーナーライブ]GAG／カベポスター／ゆにばーす／ケビンス／鶴亀／鉄人小町／イワサキ",
+      "members": "[ネタ＆コーナーライブ]GAG／エバース／カベポスター／ゆにばーす／ケビンス／鶴亀／鉄人小町／イワサキ",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -22232,9 +22275,15 @@
         "theater:shibuya"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-24T11:35:22+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]GAG／カベポスター／ゆにばーす／ケビンス／鶴亀／鉄人小町／イワサキ",
+          "after": "[ネタ＆コーナーライブ]GAG／エバース／カベポスター／ゆにばーす／ケビンス／鶴亀／鉄人小町／イワサキ"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
       "notified_at": null
     },
     {
@@ -22265,7 +22314,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "106468b2",
@@ -22277,7 +22327,7 @@
       "open_time": "14:15",
       "start_time": "14:30",
       "end_time": "15:45",
-      "members": "[ネタ＆コーナーライブ]GAG／カベポスター／ゆにばーす／ケビンス／鶴亀／鉄人小町／イワサキ",
+      "members": "[ネタ＆コーナーライブ]GAG／エバース／カベポスター／ゆにばーす／ケビンス／鶴亀／鉄人小町／イワサキ",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -22292,9 +22342,15 @@
         "theater:shibuya"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-24T11:35:22+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]GAG／カベポスター／ゆにばーす／ケビンス／鶴亀／鉄人小町／イワサキ",
+          "after": "[ネタ＆コーナーライブ]GAG／エバース／カベポスター／ゆにばーす／ケビンス／鶴亀／鉄人小町／イワサキ"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
       "notified_at": null
     },
     {
@@ -22325,7 +22381,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b3406a39",
@@ -22356,7 +22413,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "3445ddeb",
@@ -22387,7 +22445,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "7e9416a9",
@@ -22417,7 +22476,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "7b3222cf",
@@ -22444,7 +22504,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f6e8dcb3",
@@ -22471,7 +22532,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c1f6b33c",
@@ -22501,7 +22563,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "59f41682",
@@ -22532,7 +22595,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "53c057e5",
@@ -22563,7 +22627,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "aeee505f",
@@ -22595,7 +22660,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "a6f61db9",
@@ -22722,7 +22788,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "9b93f519",
@@ -22753,7 +22820,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "38ecb693",
@@ -22784,7 +22852,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "9b139e03",
@@ -22867,7 +22936,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "06f6da71",
@@ -22894,7 +22964,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "17430f7e",
@@ -22921,7 +22992,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "ed97f3aa",
@@ -22948,7 +23020,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "fdb4a2fc",
@@ -22975,7 +23048,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "67ed6c88",
@@ -23002,7 +23076,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "00dcd275",
@@ -23029,7 +23104,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "37c38dc6",
@@ -23056,7 +23132,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f0ebad39",
@@ -23083,7 +23160,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "8e9fbd9f",
@@ -23110,7 +23188,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "cc311424",
@@ -23137,7 +23216,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "a7edb026",
@@ -23164,7 +23244,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "2d9e5100",
@@ -23191,7 +23272,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "612cd10b",
@@ -23218,7 +23300,8 @@
       "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "1d41f500",
@@ -23245,7 +23328,8 @@
       "status": "new",
       "first_seen": "2026-07-23T19:21:42+09:00",
       "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ea57bb0c",

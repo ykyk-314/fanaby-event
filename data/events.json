@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T11:33:26+09:00",
+  "updated_at": "2026-07-25T18:46:06+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -11357,7 +11357,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "486b2781",
@@ -11381,14 +11382,14 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1c3e0e10",
@@ -11412,14 +11413,14 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "df75f54d",
@@ -12481,16 +12482,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ギャロップ／ガクテンソク／kento fukaya／ドーナツ・ピーナツ／天才ピアニスト／華山／隣人／もも／オーサカクレオパトラ／ポチ／丸亀じゃんご／苺ちゃん\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]ギャロップ／ガクテンソク／kento fukaya／ドーナツ・ピーナツ／天才ピアニスト／華山／隣人／もも／オーサカクレオパトラ／ポチ／丸亀じゃんご／苺ちゃん\n[スペシャルアクト]〈サッカー芸人〉\n[ゲームコーナー]〈オーサカクレオパトラpresents オーサカわんぱく〉"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-03T19:34:44+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "dfd68342",
@@ -12604,16 +12600,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ギャロップ／ガクテンソク／kento fukaya／豪快キャプテン／ドーナツ・ピーナツ／華山／隣人／もも／オーサカクレオパトラ／ポチ／丸亀じゃんご／苺ちゃん\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]ギャロップ／ガクテンソク／kento fukaya／豪快キャプテン／ドーナツ・ピーナツ／華山／隣人／もも／オーサカクレオパトラ／ポチ／丸亀じゃんご／苺ちゃん\n[スペシャルアクト]〈サッカー芸人〉\n[ゲームコーナー]〈オーサカクレオパトラpresents オーサカわんぱく〉"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-03T19:34:44+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "93b2420c",
@@ -12732,9 +12723,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-25T11:33:25+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "9168375e",
@@ -12833,7 +12825,7 @@
       "members": "kento fukaya／隣人 中村遊直／豪快キャプテン べーやん／ぎょうぶ 為国／空前メテオ 茶屋／ぐろう 家村／生姜猫 カンサイ／[MC] cacao 浦田スターク",
       "venue": "よしもと道頓堀シアター",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018995_1_20260724202934218.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -12841,12 +12833,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/54a22316.jpg",
       "status": "notified",
+      "last_updated": "2026-07-25T18:46:05+09:00",
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-07-21T11:35:09+09:00",
-      "notified_at": "2026-07-21T11:35:10+09:00",
-      "diff": null
+      "notified_at": "2026-07-25T18:46:06+09:00"
     },
     {
       "id": "c8a8d703",
@@ -12887,7 +12878,7 @@
       "open_time": "10:45",
       "start_time": "11:00",
       "end_time": null,
-      "members": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞",
+      "members": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／CITY／バンビーノ／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -12899,11 +12890,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-25T18:46:05+09:00",
+      "diff": {
+        "members": {
+          "before": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞",
+          "after": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／CITY／バンビーノ／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-10T11:57:14+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "f33d842f",
@@ -12976,7 +12972,7 @@
       "open_time": "12:55",
       "start_time": "13:10",
       "end_time": null,
-      "members": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞",
+      "members": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／CITY／バンビーノ／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -12988,11 +12984,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-25T18:46:05+09:00",
+      "diff": {
+        "members": {
+          "before": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞",
+          "after": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／CITY／バンビーノ／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-10T11:57:14+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "4481f93a",
@@ -13037,7 +13038,7 @@
       "open_time": "15:05",
       "start_time": "15:20",
       "end_time": null,
-      "members": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞",
+      "members": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／CITY／バンビーノ／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -13049,11 +13050,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-25T18:46:05+09:00",
+      "diff": {
+        "members": {
+          "before": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞",
+          "after": "マヂカルラブリー／ガクテンソク／ツートライブ／蛙亭／ゆにばーす／CITY／バンビーノ／サカイスト／しゃかりき／むなかったん／パスタとパスタ／パンたべる／山田流世／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-10T11:57:14+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "67f7a9b5",
@@ -13992,9 +13998,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-25T11:33:25+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "e0c04574",
@@ -14055,9 +14062,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-25T11:33:25+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "ba360f78",
@@ -14170,16 +14178,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]トット／ニッポンの社長／ネルソンズ／マユリカ／滝音／ネイビーズアフロ／イノシカチョウ／愛凛冴／オニイチャン／苺ちゃん\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]トット／ニッポンの社長／ネルソンズ／マユリカ／滝音／ネイビーズアフロ／イノシカチョウ／愛凛冴／オニイチャン／苺ちゃん\n[スペシャルアクト]〈サッカー芸人〉\n[ゲームコーナー]〈オーサカクレオパトラpresents オーサカわんぱく〉"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "63d6cbc8",
@@ -14486,16 +14489,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]銀シャリ／トット／ミキ／ヘンダーソン／ちょんまげラーメン／kento fukaya／ジョックロック／濱田祐太郎／アイラブ地球／華山／鬼としみちゃむ／もも／翠星チークダンス\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]銀シャリ／トット／ミキ／ヘンダーソン／ちょんまげラーメン／kento fukaya／ジョックロック／濱田祐太郎／アイラブ地球／華山／鬼としみちゃむ／もも／翠星チークダンス\n[スペシャルアクト]〈ラップ芸人〉／茜250cc 善家\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6cca4c4b",
@@ -14603,16 +14601,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]銀シャリ／トット／ミキ／ヘンダーソン／ちょんまげラーメン／kento fukaya／ジョックロック／濱田祐太郎／アイラブ地球／華山／鬼としみちゃむ／もも／翠星チークダンス\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]銀シャリ／トット／ミキ／ヘンダーソン／ちょんまげラーメン／kento fukaya／ジョックロック／濱田祐太郎／アイラブ地球／華山／鬼としみちゃむ／もも／翠星チークダンス\n[スペシャルアクト]〈ラップ芸人〉／茜250cc 善家\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "48ba4f78",
@@ -14692,16 +14685,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]銀シャリ／トット／ミキ／ヘンダーソン／ちょんまげラーメン／kento fukaya／ジョックロック／濱田祐太郎／アイラブ地球／華山／鬼としみちゃむ／もも／翠星チークダンス\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]銀シャリ／トット／ミキ／ヘンダーソン／ちょんまげラーメン／kento fukaya／ジョックロック／濱田祐太郎／アイラブ地球／華山／鬼としみちゃむ／もも／翠星チークダンス\n[スペシャルアクト]〈ラップ芸人〉／茜250cc 善家\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ab878c97",
@@ -15477,16 +15465,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ライス／トット／しずる／ビスケットブラザーズ／すゑひろがりず／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]ライス／トット／しずる／ビスケットブラザーズ／すゑひろがりず／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]〈けん玉芸人〉\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4e120e40",
@@ -15538,16 +15521,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ライス／トット／しずる／ビスケットブラザーズ／すゑひろがりず／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]ライス／トット／しずる／ビスケットブラザーズ／すゑひろがりず／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]〈けん玉芸人〉\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8b9f622e",
@@ -15627,16 +15605,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ライス／トット／しずる／ビスケットブラザーズ／すゑひろがりず／EXIT／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]ライス／トット／しずる／ビスケットブラザーズ／すゑひろがりず／EXIT／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]〈けん玉芸人〉\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0c592d89",
@@ -17798,9 +17771,10 @@
       ],
       "local_image": "fliers/07397c17.jpeg",
       "status": "notified",
-      "last_updated": "2026-07-25T11:33:25+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "last_updated": "2026-07-25T11:33:25+09:00",
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "a8b68535",
@@ -18251,7 +18225,8 @@
       "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "c0929b76",
@@ -19410,14 +19385,15 @@
     {
       "id": "5ac7fa8b",
       "talents": {
-        "5997": "ビスケットブラザーズ"
+        "5997": "ビスケットブラザーズ",
+        "7295": "ケビンス"
       },
       "title": "幕張平日ネタＳＰ９月公演",
       "date": "2026-09-02",
       "open_time": "13:30",
       "start_time": "14:00",
       "end_time": null,
-      "members": "レイザーラモン／ジョイマン／ななまがり／ヘンダーソン／ビスケットブラザーズ／ヨネダ2000／他",
+      "members": "レイザーラモン／ジョイマン／ななまがり／ヘンダーソン／ビスケットブラザーズ／ケビンス／ヨネダ2000／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -19429,23 +19405,29 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-25T18:46:05+09:00",
+      "diff": {
+        "members": {
+          "before": "レイザーラモン／ジョイマン／ななまがり／ヘンダーソン／ビスケットブラザーズ／ヨネダ2000／他",
+          "after": "レイザーラモン／ジョイマン／ななまがり／ヘンダーソン／ビスケットブラザーズ／ケビンス／ヨネダ2000／他"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "45445a59",
       "talents": {
-        "5997": "ビスケットブラザーズ"
+        "5997": "ビスケットブラザーズ",
+        "7295": "ケビンス"
       },
       "title": "幕張平日ネタＳＰ９月公演",
       "date": "2026-09-02",
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "レイザーラモン／ジョイマン／ななまがり／ヘンダーソン／ビスケットブラザーズ／ヨネダ2000／他",
+      "members": "レイザーラモン／ジョイマン／ななまがり／ヘンダーソン／ビスケットブラザーズ／ケビンス／ヨネダ2000／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -19457,11 +19439,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-25T18:46:05+09:00",
+      "diff": {
+        "members": {
+          "before": "レイザーラモン／ジョイマン／ななまがり／ヘンダーソン／ビスケットブラザーズ／ヨネダ2000／他",
+          "after": "レイザーラモン／ジョイマン／ななまがり／ヘンダーソン／ビスケットブラザーズ／ケビンス／ヨネダ2000／他"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "8b7f477e",
@@ -19525,7 +19512,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1358fdf2",
@@ -19778,7 +19766,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bec3f455",
@@ -19837,7 +19826,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "397da61d",
@@ -19928,7 +19918,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e510440a",
@@ -20333,7 +20324,8 @@
       "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "9f321695",
@@ -20457,7 +20449,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "5a821e1c",
@@ -20556,6 +20549,38 @@
       "last_updated": "2026-07-23T19:21:42+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "4e1672c1",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "すゑひろがりずトークライブ「大宮末話」",
+      "date": "2026-09-10",
+      "open_time": "17:20",
+      "start_time": "17:30",
+      "end_time": "18:30",
+      "members": "すゑひろがりず／ゲスト：ビスケットブラザーズ",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/19185/50258",
+      "online_url": null,
+      "notice": "すゑひろがりずのトークライブ！",
+      "price": {
+        "advance": 1500,
+        "door": 1800,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-25T18:46:05+09:00",
+      "last_updated": "2026-07-25T18:46:05+09:00",
+      "notified_at": "2026-07-25T18:46:06+09:00"
     },
     {
       "id": "1dd0077e",
@@ -20695,7 +20720,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "12dba5ea",
@@ -20815,7 +20841,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "94cc9ce8",
@@ -20964,7 +20991,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "423f4914",
@@ -21055,7 +21083,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "81b80454",
@@ -21084,7 +21113,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8308f458",
@@ -21200,7 +21230,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9b9bb61d",
@@ -21476,7 +21507,8 @@
       "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "1b25230d",
@@ -21739,7 +21771,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2dfd47ab",
@@ -21771,7 +21804,8 @@
       "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "48ceebde",
@@ -21798,7 +21832,8 @@
       "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "ffde555e",
@@ -21955,7 +21990,8 @@
       "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "acd6a4ab",
@@ -21982,7 +22018,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "eaf46088",
@@ -22026,7 +22063,7 @@
       "open_time": "11:15",
       "start_time": "11:30",
       "end_time": null,
-      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／ザ・ローリングモンキー／メリコンドル／アイディアマラソン／＜ゲームコーナー＞",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／ザ・ローリングモンキー／アイディアマラソン／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -22039,11 +22076,11 @@
       ],
       "local_image": null,
       "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
+      "last_updated": "2026-07-25T18:46:05+09:00",
       "diff": {
         "members": {
-          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞",
-          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／ザ・ローリングモンキー／メリコンドル／アイディアマラソン／＜ゲームコーナー＞"
+          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／ザ・ローリングモンキー／メリコンドル／アイディアマラソン／＜ゲームコーナー＞",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／ザ・ローリングモンキー／アイディアマラソン／＜ゲームコーナー＞"
         }
       },
       "first_seen": "2026-07-10T11:57:14+09:00",
@@ -22091,7 +22128,7 @@
       "open_time": "13:25",
       "start_time": "13:40",
       "end_time": null,
-      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／ザ・ローリングモンキー／太宰／メリコンドル／＜ゲームコーナー＞",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／ザ・ローリングモンキー／太宰／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -22104,11 +22141,11 @@
       ],
       "local_image": null,
       "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
+      "last_updated": "2026-07-25T18:46:05+09:00",
       "diff": {
         "members": {
-          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞",
-          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／ザ・ローリングモンキー／太宰／メリコンドル／＜ゲームコーナー＞"
+          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／ザ・ローリングモンキー／太宰／メリコンドル／＜ゲームコーナー＞",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／ザ・ローリングモンキー／太宰／＜ゲームコーナー＞"
         }
       },
       "first_seen": "2026-07-10T11:57:14+09:00",
@@ -22156,7 +22193,7 @@
       "open_time": "15:35",
       "start_time": "15:50",
       "end_time": null,
-      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／太宰／メリコンドル／ラブちゃん／＜ゲームコーナー＞",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／太宰／ラブちゃん／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -22169,11 +22206,11 @@
       ],
       "local_image": null,
       "status": "updated",
-      "last_updated": "2026-07-25T11:33:25+09:00",
+      "last_updated": "2026-07-25T18:46:05+09:00",
       "diff": {
         "members": {
-          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／福岡芸人／＜ゲームコーナー＞",
-          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／太宰／メリコンドル／ラブちゃん／＜ゲームコーナー＞"
+          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／太宰／メリコンドル／ラブちゃん／＜ゲームコーナー＞",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／太宰／ラブちゃん／＜ゲームコーナー＞"
         }
       },
       "first_seen": "2026-07-10T11:57:14+09:00",
@@ -22236,7 +22273,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bff1122d",
@@ -22291,7 +22329,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "64d2b631",
@@ -22378,7 +22417,8 @@
       "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "f2796de4",
@@ -22409,7 +22449,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "5fc0c53d",
@@ -22556,7 +22597,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6e821933",
@@ -22647,7 +22689,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6c4bc76b",
@@ -22761,7 +22804,8 @@
       "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "aa703548",
@@ -22848,7 +22892,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "33b3a201",
@@ -22939,7 +22984,8 @@
       "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "7f2c685c",
@@ -23328,7 +23374,7 @@
       "open_time": "11:45",
       "start_time": "12:00",
       "end_time": "13:30",
-      "members": "佐久間一行／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水",
+      "members": "佐久間一行／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水／他",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -23344,9 +23390,15 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-25T18:46:05+09:00",
+      "diff": {
+        "members": {
+          "before": "佐久間一行／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水",
+          "after": "佐久間一行／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水／他"
+        }
+      },
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "last_updated": "2026-07-25T11:33:25+09:00",
       "notified_at": null
     },
     {
@@ -23423,7 +23475,7 @@
       "open_time": "13:45",
       "start_time": "14:00",
       "end_time": "15:30",
-      "members": "佐久間一行／チョコレートプラネット／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水",
+      "members": "佐久間一行／チョコレートプラネット／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水／他",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -23439,9 +23491,15 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-25T18:46:05+09:00",
+      "diff": {
+        "members": {
+          "before": "佐久間一行／チョコレートプラネット／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水",
+          "after": "佐久間一行／チョコレートプラネット／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水／他"
+        }
+      },
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "last_updated": "2026-07-25T11:33:25+09:00",
       "notified_at": null
     },
     {
@@ -23518,7 +23576,7 @@
       "open_time": "15:45",
       "start_time": "16:00",
       "end_time": "17:30",
-      "members": "佐久間一行／チョコレートプラネット／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水",
+      "members": "佐久間一行／チョコレートプラネット／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水／他",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -23534,9 +23592,15 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-07-25T18:46:05+09:00",
+      "diff": {
+        "members": {
+          "before": "佐久間一行／チョコレートプラネット／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水",
+          "after": "佐久間一行／チョコレートプラネット／ジェラードン／インポッシブル／ビスケットブラザーズ／コロコロチキチキペッパーズ／オフローズ／軟水／他"
+        }
+      },
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "last_updated": "2026-07-25T11:33:25+09:00",
       "notified_at": null
     },
     {
@@ -23666,7 +23730,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2a7b3ee8",
@@ -23693,7 +23758,8 @@
       "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "7b3222cf",
@@ -23841,7 +23907,8 @@
       "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00"
+      "notified_at": "2026-07-25T11:33:26+09:00",
+      "diff": null
     },
     {
       "id": "53c057e5",
@@ -24101,7 +24168,8 @@
       "status": "new",
       "first_seen": "2026-07-25T11:33:25+09:00",
       "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "38ecb693",

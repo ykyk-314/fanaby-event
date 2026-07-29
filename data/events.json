@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T19:33:38+09:00",
+  "updated_at": "2026-07-29T11:32:44+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -12655,16 +12655,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-28T19:33:37+09:00",
-      "diff": {
-        "members": {
-          "before": "ギャロップ／ガクテンソク／kento fukaya／ネイビーズアフロ／豪快キャプテン／愛凛冴／アイラブ地球／翠星チークダンス／チェリー大作戦／ぎょうぶ／ジョックロック／例えば炎／前説：入学卒業",
-          "after": "ギャロップ／ガクテンソク／スーパーマラドーナ／kento fukaya／ネイビーズアフロ／豪快キャプテン／アイラブ地球／真輝志／翠星チークダンス／チェリー大作戦／ぎょうぶ／ジョックロック／例えば炎／前説：入学卒業"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-06T12:27:38+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-28T19:33:37+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b03f51f7",
@@ -12749,16 +12744,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-28T19:33:37+09:00",
-      "diff": {
-        "members": {
-          "before": "ギャロップ／ガクテンソク／kento fukaya／ドーナツ・ピーナツ／豪快キャプテン／愛凛冴／アイラブ地球／翠星チークダンス／チェリー大作戦／ぎょうぶ／cacao／前説：入学卒業",
-          "after": "ギャロップ／ガクテンソク／スーパーマラドーナ／kento fukaya／ドーナツ・ピーナツ／豪快キャプテン／アイラブ地球／真輝志／翠星チークダンス／チェリー大作戦／ぎょうぶ／cacao／イチオク／前説：入学卒業"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-06T12:27:38+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-28T19:33:37+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "7939c735",
@@ -13259,9 +13249,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-28T19:33:37+09:00",
       "first_seen": "2026-06-20T10:14:55+09:00",
-      "notified_at": "2026-07-28T19:33:38+09:00"
+      "last_updated": "2026-07-28T19:33:37+09:00",
+      "notified_at": "2026-07-28T19:33:38+09:00",
+      "diff": null
     },
     {
       "id": "619d42c7",
@@ -13286,9 +13277,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-28T19:33:37+09:00",
       "first_seen": "2026-06-20T10:14:55+09:00",
-      "notified_at": "2026-07-28T19:33:38+09:00"
+      "last_updated": "2026-07-28T19:33:37+09:00",
+      "notified_at": "2026-07-28T19:33:38+09:00",
+      "diff": null
     },
     {
       "id": "d4d7f29d",
@@ -13379,9 +13371,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-28T19:33:37+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-07-28T19:33:38+09:00"
+      "last_updated": "2026-07-28T19:33:37+09:00",
+      "notified_at": "2026-07-28T19:33:38+09:00",
+      "diff": null
     },
     {
       "id": "7fa39140",
@@ -14074,7 +14067,7 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/18348/48108",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%83%8D%E3%82%AA%E3%83%B3-%E3%83%AD%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%BC%E3%83%88%E3%83%80%E3%83%87%E3%82%A3-%E3%83%93%E3%82%B9%E3%82%B1%E3%83%83%E3%83%88%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA-%E3%83%A8%E3%83%8D%E3%83%802000-8-8-20-30",
-      "notice": "■会場チケット■\r\n全席指定\r\n〇先行受付：7/4（土）11:00～7/6（月）11:00\r\n〇一般販売：7/8（水）10:00\r\n\r\n■配信チケット■\r\n〇発売日：7/8（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nイワサキ カズ（7/28）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
+      "notice": "ロングコートダディとビスケットブラザーズとヨネダ2000の3組によるネタとコーナーをお届けする贅沢なスリーマンライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：7/4（土）11:00～7/6（月）11:00\r\n〇一般販売：7/8（水）10:00\r\n\r\n■配信チケット■\r\n〇発売日：7/8（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nイワサキ カズ（7/28）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2800,
         "door": 3300,
@@ -14086,9 +14079,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-28T19:33:37+09:00",
+      "last_updated": "2026-07-29T11:32:44+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-07-28T19:33:38+09:00"
+      "notified_at": "2026-07-29T11:32:44+09:00"
     },
     {
       "id": "3a221a93",
@@ -14213,7 +14206,7 @@
       "open_time": "11:30",
       "start_time": "12:00",
       "end_time": null,
-      "members": "スーパーマラドーナ／Dr.ハインリッヒ／祇園／ケビンス／9番街レトロ／ぎょうぶ／爛々 萌々／ぐろう／[MC] アイラブ地球",
+      "members": "スーパーマラドーナ／Dr.ハインリッヒ／祇園／ラビットラ／ケビンス／9番街レトロ／ぎょうぶ／爛々 萌々／ぐろう／[MC] アイラブ地球",
       "venue": "よしもと道頓堀シアター",
       "prefecture": "大阪府",
       "image_url": null,
@@ -14225,11 +14218,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-07-29T11:32:44+09:00",
+      "diff": {
+        "members": {
+          "before": "スーパーマラドーナ／Dr.ハインリッヒ／祇園／ケビンス／9番街レトロ／ぎょうぶ／爛々 萌々／ぐろう／[MC] アイラブ地球",
+          "after": "スーパーマラドーナ／Dr.ハインリッヒ／祇園／ラビットラ／ケビンス／9番街レトロ／ぎょうぶ／爛々 萌々／ぐろう／[MC] アイラブ地球"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-13T20:09:54+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "cdde64c3",
@@ -15021,6 +15019,33 @@
       "last_updated": "2026-07-02T19:39:02+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "eb317657",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "よしもとボドゲブプレゼンツ！みんなでリアルボードゲーム会",
+      "date": "2026-08-11",
+      "open_time": "13:10",
+      "start_time": "13:30",
+      "end_time": null,
+      "members": "ファンクラブにゃんちー、ワニプールかどちゃん、動物チーム貫太郎、えびすワーカーズわだたかし、しあわせガールズはやしさん、こがちゃん、やまC、高橋憂紀、電気ジュース藤本もふ",
+      "venue": "浪速区民センター　3階第7、8、9会議室",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-07-29T11:32:44+09:00",
+      "last_updated": "2026-07-29T11:32:44+09:00",
+      "notified_at": "2026-07-29T11:32:44+09:00"
     },
     {
       "id": "d464d4e8",
@@ -16543,9 +16568,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-28T19:33:37+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "notified_at": "2026-07-28T19:33:38+09:00"
+      "last_updated": "2026-07-28T19:33:37+09:00",
+      "notified_at": "2026-07-28T19:33:38+09:00",
+      "diff": null
     },
     {
       "id": "7476aa12",
@@ -16820,9 +16846,10 @@
       ],
       "local_image": "fliers/7a80e682.jpg",
       "status": "notified",
-      "last_updated": "2026-07-28T19:33:37+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-07-28T19:33:38+09:00"
+      "last_updated": "2026-07-28T19:33:37+09:00",
+      "notified_at": "2026-07-28T19:33:38+09:00",
+      "diff": null
     },
     {
       "id": "2d93209d",
@@ -17663,9 +17690,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-28T19:33:37+09:00",
       "first_seen": "2026-06-23T18:21:04+09:00",
-      "notified_at": "2026-07-28T19:33:38+09:00"
+      "last_updated": "2026-07-28T19:33:37+09:00",
+      "notified_at": "2026-07-28T19:33:38+09:00",
+      "diff": null
     },
     {
       "id": "aeb55eea",

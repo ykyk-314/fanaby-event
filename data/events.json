@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T19:37:53+09:00",
+  "updated_at": "2026-08-01T11:41:45+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -12531,8 +12531,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -12608,7 +12607,7 @@
       "open_time": "12:20",
       "start_time": "12:40",
       "end_time": null,
-      "members": "[ネタ出演者]ギャロップ／ガクテンソク／タナからイケダ／kento fukaya／祇園／豪快キャプテン／ドーナツ・ピーナツ／華山／隣人／もも／オーサカクレオパトラ／ポチ／丸亀じゃんご／三遊間／例えば炎／苺ちゃん\n[スペシャルアクト]〈サッカー芸人〉／丸亀じゃんご 北村／ファンファーレと熱狂 奥／ごぞうろっぷ ソウタヤマモト／タレンチ コバタ\n[ゲームコーナー]〈オーサカクレオパトラpresents オーサカわんぱく〉／[前説]バリアシオン",
+      "members": "[ネタ出演者]ギャロップ／ガクテンソク／タナからイケダ／kento fukaya／祇園／豪快キャプテン／ドーナツ・ピーナツ／華山／隣人／もも／オーサカクレオパトラ／ポチ／丸亀じゃんご／三遊間／例えば炎／苺ちゃん\n[スペシャルアクト]〈サッカー芸人〉／丸亀じゃんご 北村／ファンファーレと熱狂 奥／ごぞうろっぷ ソウタヤマモト／タレンチ コバタ／カンフーカンフー キムリョンス\n[ゲームコーナー]〈オーサカクレオパトラpresents オーサカわんぱく〉／[前説]バリアシオン",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -12620,11 +12619,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ出演者]ギャロップ／ガクテンソク／タナからイケダ／kento fukaya／祇園／豪快キャプテン／ドーナツ・ピーナツ／華山／隣人／もも／オーサカクレオパトラ／ポチ／丸亀じゃんご／三遊間／例えば炎／苺ちゃん\n[スペシャルアクト]〈サッカー芸人〉／丸亀じゃんご 北村／ファンファーレと熱狂 奥／ごぞうろっぷ ソウタヤマモト／タレンチ コバタ\n[ゲームコーナー]〈オーサカクレオパトラpresents オーサカわんぱく〉／[前説]バリアシオン",
+          "after": "[ネタ出演者]ギャロップ／ガクテンソク／タナからイケダ／kento fukaya／祇園／豪快キャプテン／ドーナツ・ピーナツ／華山／隣人／もも／オーサカクレオパトラ／ポチ／丸亀じゃんご／三遊間／例えば炎／苺ちゃん\n[スペシャルアクト]〈サッカー芸人〉／丸亀じゃんご 北村／ファンファーレと熱狂 奥／ごぞうろっぷ ソウタヤマモト／タレンチ コバタ／カンフーカンフー キムリョンス\n[ゲームコーナー]〈オーサカクレオパトラpresents オーサカわんぱく〉／[前説]バリアシオン"
+        }
+      },
       "first_seen": "2026-07-03T19:34:44+09:00",
-      "last_updated": "2026-07-30T11:15:12+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "93b2420c",
@@ -15219,9 +15223,10 @@
       ],
       "local_image": "fliers/36039d37.jpg",
       "status": "notified",
-      "last_updated": "2026-07-31T19:37:53+09:00",
       "first_seen": "2026-05-18T18:50:49+09:00",
-      "notified_at": "2026-07-31T19:37:53+09:00"
+      "last_updated": "2026-07-31T19:37:53+09:00",
+      "notified_at": "2026-07-31T19:37:53+09:00",
+      "diff": null
     },
     {
       "id": "ca6f01ce",
@@ -15518,7 +15523,7 @@
       "open_time": "11:15",
       "start_time": "11:30",
       "end_time": null,
-      "members": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／＜ゲームコーナー＞",
+      "members": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／〔前説〕ショートケーキ／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -15530,11 +15535,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "members": {
+          "before": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／＜ゲームコーナー＞",
+          "after": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／〔前説〕ショートケーキ／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "739bf74e",
@@ -15602,7 +15612,7 @@
       "open_time": "13:25",
       "start_time": "13:40",
       "end_time": null,
-      "members": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／＜ゲームコーナー＞",
+      "members": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／〔前説〕ショートケーキ／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -15614,11 +15624,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "members": {
+          "before": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／＜ゲームコーナー＞",
+          "after": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／〔前説〕ショートケーキ／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "9919ee30",
@@ -15658,7 +15673,7 @@
       "open_time": "15:35",
       "start_time": "15:50",
       "end_time": null,
-      "members": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／＜ゲームコーナー＞",
+      "members": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／〔前説〕ショートケーキ／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -15670,11 +15685,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "members": {
+          "before": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／＜ゲームコーナー＞",
+          "after": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／〔前説〕ショートケーキ／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "7cd7a15f",
@@ -21448,6 +21468,64 @@
       "diff": null
     },
     {
+      "id": "5ef6413f",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "おおみや夜寄席",
+      "date": "2026-09-13",
+      "open_time": "16:15",
+      "start_time": "16:30",
+      "end_time": "17:30",
+      "members": "GAG／ゆにばーす／九条ジョー／シンクロニシティ／ナユタ／他",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：8/2（日）11:00～8/4（火）11:00\r\n当落発表：8/5（水）18:00頃\r\nオンライン・一般発売：8/6（木）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 1800,
+        "door": 2100,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-01T11:41:44+09:00",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-08-01T11:41:45+09:00"
+    },
+    {
+      "id": "ae548a4b",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "ギャグを科学する60分スーパーギャグサイエンス",
+      "date": "2026-09-13",
+      "open_time": "17:45",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "ピーチ、インポッシブルひるちゃん、やさしいズ佐伯、のぶきよ、しんちゃん、ケビンス山口、ナイチンゲールダンス中野",
+      "venue": "歌舞伎町Sparkle",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-01T11:41:44+09:00",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-08-01T11:41:45+09:00"
+    },
+    {
       "id": "99de8143",
       "talents": {
         "5110": "kento fukaya"
@@ -21595,9 +21673,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-31T19:37:53+09:00",
       "first_seen": "2026-07-17T18:56:32+09:00",
-      "notified_at": "2026-07-31T19:37:53+09:00"
+      "last_updated": "2026-07-31T19:37:53+09:00",
+      "notified_at": "2026-07-31T19:37:53+09:00",
+      "diff": null
     },
     {
       "id": "824076fe",
@@ -21622,9 +21701,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-31T19:37:53+09:00",
       "first_seen": "2026-07-17T18:56:32+09:00",
-      "notified_at": "2026-07-31T19:37:53+09:00"
+      "last_updated": "2026-07-31T19:37:53+09:00",
+      "notified_at": "2026-07-31T19:37:53+09:00",
+      "diff": null
     },
     {
       "id": "7a70d06a",
@@ -22433,9 +22513,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-31T19:37:53+09:00",
       "first_seen": "2026-07-17T18:56:32+09:00",
-      "notified_at": "2026-07-31T19:37:53+09:00"
+      "last_updated": "2026-07-31T19:37:53+09:00",
+      "notified_at": "2026-07-31T19:37:53+09:00",
+      "diff": null
     },
     {
       "id": "70bd011f",
@@ -22640,9 +22721,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-31T19:37:53+09:00",
       "first_seen": "2026-07-17T18:56:32+09:00",
-      "notified_at": "2026-07-31T19:37:53+09:00"
+      "last_updated": "2026-07-31T19:37:53+09:00",
+      "notified_at": "2026-07-31T19:37:53+09:00",
+      "diff": null
     },
     {
       "id": "d4d53b69",
@@ -22819,9 +22901,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-07-31T19:37:53+09:00",
       "first_seen": "2026-07-17T18:56:32+09:00",
-      "notified_at": "2026-07-31T19:37:53+09:00"
+      "last_updated": "2026-07-31T19:37:53+09:00",
+      "notified_at": "2026-07-31T19:37:53+09:00",
+      "diff": null
     },
     {
       "id": "f660b8d1",
@@ -23184,6 +23267,37 @@
       "diff": null
     },
     {
+      "id": "59eda2f4",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "大宮コント交流センター",
+      "date": "2026-09-22",
+      "open_time": "12:15",
+      "start_time": "12:30",
+      "end_time": "13:30",
+      "members": "GAG／ジェラードン／ビスケットブラザーズ",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：8/2（日）11:00～8/4（火）11:00\r\n当落発表：8/5（水）18:00頃\r\nオンライン・一般発売：8/6（木）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-01T11:41:44+09:00",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-08-01T11:41:45+09:00"
+    },
+    {
       "id": "2a9b19e9",
       "talents": {
         "7295": "ケビンス"
@@ -23248,6 +23362,37 @@
       "diff": null
     },
     {
+      "id": "7aed61db",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "音響さん不在のコント寄席～コント中の音は本人の声！？～",
+      "date": "2026-09-22",
+      "open_time": "14:15",
+      "start_time": "14:30",
+      "end_time": "15:30",
+      "members": "GAG／ジェラードン／ビスケットブラザーズ",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：8/2（日）11:00～8/4（火）11:00\r\n当落発表：8/5（水）18:00頃\r\nオンライン・一般発売：8/6（木）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-01T11:41:44+09:00",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-08-01T11:41:45+09:00"
+    },
+    {
       "id": "59441f9c",
       "talents": {
         "7295": "ケビンス"
@@ -23310,6 +23455,37 @@
       "last_updated": "2026-07-01T10:16:52+09:00",
       "notified_at": "2026-07-01T10:16:52+09:00",
       "diff": null
+    },
+    {
+      "id": "f6cf8a51",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "おおみやコントさん～ジェラードン×ビスケットブラザーズ×軟水～",
+      "date": "2026-09-22",
+      "open_time": "16:15",
+      "start_time": "16:30",
+      "end_time": "17:30",
+      "members": "ジェラードン／ビスケットブラザーズ",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：8/2（日）11:00～8/4（火）11:00\r\n当落発表：8/5（水）18:00頃\r\nオンライン・一般発売：8/6（木）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 2000,
+        "door": 2300,
+        "online": 1300
+      },
+      "sources": [
+        "theater:omiya"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-01T11:41:44+09:00",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-08-01T11:41:45+09:00"
     },
     {
       "id": "2c8b4d83",
@@ -23430,16 +23606,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-31T19:37:53+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]インポッシブル／GAG／エバース／カベポスター／ゆにばーす／ケビンス／鶴亀／鉄人小町／イワサキ",
-          "after": "[ネタ＆コーナーライブ]インポッシブル／GAG／エバース／カベポスター／ゆにばーす／ケビンス／CITY／鶴亀／鉄人小町／イワサキ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-31T19:37:53+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8500936d",
@@ -23531,16 +23702,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-31T19:37:53+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]インポッシブル／GAG／エバース／カベポスター／ゆにばーす／ケビンス／鶴亀／鉄人小町／イワサキ",
-          "after": "[ネタ＆コーナーライブ]インポッシブル／GAG／エバース／カベポスター／ゆにばーす／ケビンス／CITY／鶴亀／鉄人小町／イワサキ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-31T19:37:53+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "79cb6bd7",
@@ -23632,16 +23798,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-07-31T19:37:53+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]インポッシブル／GAG／エバース／カベポスター／ゆにばーす／ケビンス／鶴亀／鉄人小町／イワサキ",
-          "after": "[ネタ＆コーナーライブ]インポッシブル／GAG／エバース／カベポスター／ゆにばーす／ケビンス／CITY／鶴亀／鉄人小町／イワサキ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-07-31T19:37:53+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f22734e5",
@@ -24481,140 +24642,260 @@
       "talents": {
         "5997": "ビスケットブラザーズ"
       },
-      "title": "ルミネtheよしもと 平日公演１０月",
+      "title": "ルミネtheよしもと　平日１４時の部",
       "date": "2026-10-08",
       "open_time": "13:30",
       "start_time": "14:00",
-      "end_time": null,
+      "end_time": "15:10",
       "members": "ショウショウ／COWCOW／くまだまさし／ビスケットブラザーズ／滝音／ドンデコルテ／9番街レトロ／ガベジ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/7206/22322",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 2800,
+        "door": 3300
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/7206/22322"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 2800,
+            "door": 3300
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "15:10"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "06f6da71",
       "talents": {
         "5997": "ビスケットブラザーズ"
       },
-      "title": "ルミネtheよしもと 平日公演１０月",
+      "title": "ルミネtheよしもと　平日１６時の部",
       "date": "2026-10-08",
       "open_time": "15:30",
       "start_time": "16:00",
-      "end_time": null,
+      "end_time": "17:10",
       "members": "ショウショウ／COWCOW／くまだまさし／ビスケットブラザーズ／滝音／ドンデコルテ／9番街レトロ／ガベジ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/7206/22323",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 2800,
+        "door": 3300
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/7206/22323"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 2800,
+            "door": 3300
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "17:10"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "17430f7e",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと 土日祝公演１０月",
+      "title": "ルミネtheよしもと　土日祝１１時の部",
       "date": "2026-10-12",
       "open_time": "10:30",
       "start_time": "11:00",
-      "end_time": null,
+      "end_time": "12:45",
       "members": "あべこうじ／５ＧＡＰ／ジェラードン／マユリカ／さや香／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/7208/22367",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 4500,
+        "door": 5000
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/7208/22367"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 4500,
+            "door": 5000
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "12:45"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "ed97f3aa",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと 土日祝公演１０月",
+      "title": "ルミネtheよしもと　土日祝１３時３０分の部",
       "date": "2026-10-12",
       "open_time": "13:00",
       "start_time": "13:30",
-      "end_time": null,
+      "end_time": "15:15",
       "members": "あべこうじ／麒麟／５ＧＡＰ／ジェラードン／マユリカ／さや香／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/7208/22368",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 4500,
+        "door": 5000
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/7208/22368"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 4500,
+            "door": 5000
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "15:15"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "fdb4a2fc",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと 土日祝公演１０月",
+      "title": "ルミネtheよしもと　土日祝１６時の部",
       "date": "2026-10-12",
       "open_time": "15:30",
       "start_time": "16:00",
-      "end_time": null,
+      "end_time": "17:45",
       "members": "あべこうじ／麒麟／５ＧＡＰ／ジェラードン／マユリカ／さや香／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/7208/22369",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 4500,
+        "door": 5000
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/7208/22369"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 4500,
+            "door": 5000
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "17:45"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "0fe6820a",
@@ -24625,303 +24906,547 @@
       "date": "2026-10-15",
       "open_time": "18:40",
       "start_time": "19:00",
-      "end_time": null,
+      "end_time": "20:30",
       "members": "ななまがり／ZAZY／シンクロニシティ／エバース／ツートライブ／ニッポンの社長",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000019408_1_20260731121642710.jpg",
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/19396/50578",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/1(土) 11:00 〜 8/4(火) 11:00\r\n\r\n一般発売：8/6(木) 10:00\r\n\r\n※飲食不可（但し劇場内ペットボトルのお飲み物は可）",
+      "price": {
+        "advance": 3000,
+        "door": 3500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": "fliers/0fe6820a.jpg",
       "status": "notified",
+      "last_updated": "2026-08-01T11:41:44+09:00",
       "first_seen": "2026-07-31T19:37:53+09:00",
-      "last_updated": "2026-07-31T19:37:53+09:00",
-      "notified_at": "2026-07-31T19:37:53+09:00"
+      "notified_at": "2026-08-01T11:41:45+09:00"
     },
     {
       "id": "67ed6c88",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと 平日公演 プラス１０月",
+      "title": "ルミネtheよしもと　平日１４時の部プラス",
       "date": "2026-10-21",
       "open_time": "13:30",
       "start_time": "14:00",
-      "end_time": null,
+      "end_time": "15:10",
       "members": "村上ショージ／しずる／フルーツポンチ／マユリカ／ミキ／蛙亭／ダブルヒガシ／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18910/49683",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/18910/49683"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 3300,
+            "door": 3800
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "15:10"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "00dcd275",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと 平日公演 プラス１０月",
+      "title": "ルミネtheよしもと　平日１６時の部プラス",
       "date": "2026-10-21",
       "open_time": "15:30",
       "start_time": "16:00",
-      "end_time": null,
+      "end_time": "17:10",
       "members": "村上ショージ／しずる／フルーツポンチ／マユリカ／ミキ／蛙亭／ダブルヒガシ／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18910/49684",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/18910/49684"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 3300,
+            "door": 3800
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "17:10"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "37c38dc6",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと 平日よるの部１０月",
+      "title": "ルミネtheよしもと　平日よるの部",
       "date": "2026-10-21",
       "open_time": "17:40",
       "start_time": "18:00",
-      "end_time": null,
+      "end_time": "19:20",
       "members": "兼光タカシ／しずる／フルーツポンチ／マユリカ／ミキ／蛙亭／ダブルヒガシ／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/7210/22400",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 3000,
+        "door": 3500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/7210/22400"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 3000,
+            "door": 3500
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "19:20"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "f0ebad39",
       "talents": {
         "2772": "マヂカルラブリー"
       },
-      "title": "ルミネtheよしもと 平日公演 プラス１０月",
+      "title": "ルミネtheよしもと　平日１４時の部プラス",
       "date": "2026-10-27",
       "open_time": "13:30",
       "start_time": "14:00",
-      "end_time": null,
+      "end_time": "15:10",
       "members": "パンクブーブー／レイザーラモン／５ＧＡＰ／マヂカルラブリー／マルセイユ／ニッポンの社長／たくろう／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18910/49692",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/18910/49692"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 3300,
+            "door": 3800
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "15:10"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "8e9fbd9f",
       "talents": {
         "2772": "マヂカルラブリー"
       },
-      "title": "ルミネtheよしもと 平日公演 プラス１０月",
+      "title": "ルミネtheよしもと　平日１６時の部プラス",
       "date": "2026-10-27",
       "open_time": "15:30",
       "start_time": "16:00",
-      "end_time": null,
+      "end_time": "17:10",
       "members": "パンクブーブー／レイザーラモン／５ＧＡＰ／マヂカルラブリー／マルセイユ／ニッポンの社長／たくろう／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18910/49693",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/18910/49693"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 3300,
+            "door": 3800
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "17:10"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "cc311424",
       "talents": {
         "5997": "ビスケットブラザーズ"
       },
-      "title": "ルミネtheよしもと 平日公演１０月",
+      "title": "ルミネtheよしもと　平日１４時の部",
       "date": "2026-10-28",
       "open_time": "13:30",
       "start_time": "14:00",
-      "end_time": null,
+      "end_time": "15:10",
       "members": "タカアンドトシ／村上ショージ／ザ・パンチ／もりやすバンバンビガロ／ビスケットブラザーズ／男性ブランコ／EXIT／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/7206/22348",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 2800,
+        "door": 3300
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/7206/22348"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 2800,
+            "door": 3300
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "15:10"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "a7edb026",
       "talents": {
         "5997": "ビスケットブラザーズ"
       },
-      "title": "ルミネtheよしもと 平日公演１０月",
+      "title": "ルミネtheよしもと　平日１６時の部",
       "date": "2026-10-28",
       "open_time": "15:30",
       "start_time": "16:00",
-      "end_time": null,
+      "end_time": "17:10",
       "members": "タカアンドトシ／村上ショージ／ザ・パンチ／もりやすバンバンビガロ／ビスケットブラザーズ／男性ブランコ／EXIT／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/7206/22349",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 2800,
+        "door": 3300
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/7206/22349"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 2800,
+            "door": 3300
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "17:10"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "2d9e5100",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと 平日公演 プラス１０月",
+      "title": "ルミネtheよしもと　平日１４時の部プラス",
       "date": "2026-10-29",
       "open_time": "13:30",
       "start_time": "14:00",
-      "end_time": null,
+      "end_time": "15:10",
       "members": "ジャルジャル／COWCOW／あべこうじ／ジョイマン／マユリカ／ぼる塾／エバース／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18910/49694",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/18910/49694"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 3300,
+            "door": 3800
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "15:10"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "612cd10b",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと 平日公演 プラス１０月",
+      "title": "ルミネtheよしもと　平日１６時の部プラス",
       "date": "2026-10-29",
       "open_time": "15:30",
       "start_time": "16:00",
-      "end_time": null,
+      "end_time": "17:10",
       "members": "ジャルジャル／COWCOW／あべこうじ／ジョイマン／マユリカ／ぼる塾／エバース／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/18910/49695",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 3300,
+        "door": 3800
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/18910/49695"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 3300,
+            "door": 3800
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "17:10"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-07-23T19:21:42+09:00"
     },
     {
       "id": "1d41f500",
       "talents": {
         "5114": "マユリカ"
       },
-      "title": "ルミネtheよしもと 平日よるの部１０月",
+      "title": "ルミネtheよしもと　平日よるの部",
       "date": "2026-10-29",
       "open_time": "17:40",
       "start_time": "18:00",
-      "end_time": null,
+      "end_time": "19:20",
       "members": "ジャルジャル／COWCOW／あべこうじ／ジョイマン／マユリカ／ぼる塾／エバース／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/7210/22406",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00",
+      "price": {
+        "advance": 3000,
+        "door": 3500
+      },
       "sources": [
+        "theater:lumine",
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/7210/22406"
+        },
+        "price": {
+          "before": null,
+          "after": {
+            "advance": 3000,
+            "door": 3500
+          }
+        },
+        "end_time": {
+          "before": null,
+          "after": "19:20"
+        },
+        "notice": {
+          "before": null,
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
+        }
+      },
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "ea57bb0c",

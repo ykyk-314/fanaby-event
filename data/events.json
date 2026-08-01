@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T11:41:45+09:00",
+  "updated_at": "2026-08-01T18:58:04+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -12653,8 +12653,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -12714,8 +12713,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -15535,16 +15533,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "members": {
-          "before": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／＜ゲームコーナー＞",
-          "after": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／〔前説〕ショートケーキ／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "739bf74e",
@@ -15624,16 +15617,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "members": {
-          "before": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／＜ゲームコーナー＞",
-          "after": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／〔前説〕ショートケーキ／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9919ee30",
@@ -15685,16 +15673,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "members": {
-          "before": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／＜ゲームコーナー＞",
-          "after": "パンクブーブー／マユリカ／佐久間一行／相席スタート／ななまがり／しゃかりき／メタルラック／中村圭太／喜喜かいばしら／パンたべる／〔前説〕ショートケーキ／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "7cd7a15f",
@@ -21481,7 +21464,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/19449/50652",
       "online_url": null,
       "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：8/2（日）11:00～8/4（火）11:00\r\n当落発表：8/5（水）18:00頃\r\nオンライン・一般発売：8/6（木）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
       "price": {
@@ -21490,13 +21473,14 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-08-01T18:58:03+09:00",
       "first_seen": "2026-08-01T11:41:44+09:00",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "notified_at": "2026-08-01T11:41:45+09:00"
+      "notified_at": "2026-08-01T18:58:04+09:00"
     },
     {
       "id": "ae548a4b",
@@ -21523,7 +21507,8 @@
       "status": "notified",
       "first_seen": "2026-08-01T11:41:44+09:00",
       "last_updated": "2026-08-01T11:41:44+09:00",
-      "notified_at": "2026-08-01T11:41:45+09:00"
+      "notified_at": "2026-08-01T11:41:45+09:00",
+      "diff": null
     },
     {
       "id": "99de8143",
@@ -21929,7 +21914,7 @@
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/19243/50330",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/search?q=%E3%82%BB%E3%83%96%E3%83%B3%E3%83%88%E3%83%BC%E3%82%AF&type=product",
       "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：7/28（火）11:00～7/30（木）11:00\r\n当落発表：7/31（金）18:00頃\r\nオンライン・一般発売：8/1（土）10:00\r\n※都合により出演者が変更になる場合がございます\r\n",
       "price": {
         "advance": 2300,
@@ -22416,7 +22401,7 @@
       "open_time": "17:45",
       "start_time": "18:00",
       "end_time": null,
-      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／喜喜かいばしら／メリコンドル／アイディアマラソン／＜ゲームコーナー＞",
+      "members": "アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／喜喜かいばしら／メリコンドル／アイディアマラソン／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -22428,11 +22413,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-01T18:58:03+09:00",
+      "diff": {
+        "members": {
+          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／喜喜かいばしら／メリコンドル／アイディアマラソン／＜ゲームコーナー＞",
+          "after": "アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／喜喜かいばしら／メリコンドル／アイディアマラソン／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "bff1122d",
@@ -23280,7 +23270,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/19452/50654",
       "online_url": null,
       "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：8/2（日）11:00～8/4（火）11:00\r\n当落発表：8/5（水）18:00頃\r\nオンライン・一般発売：8/6（木）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
       "price": {
@@ -23289,13 +23279,14 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-08-01T18:58:03+09:00",
       "first_seen": "2026-08-01T11:41:44+09:00",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "notified_at": "2026-08-01T11:41:45+09:00"
+      "notified_at": "2026-08-01T18:58:04+09:00"
     },
     {
       "id": "2a9b19e9",
@@ -23375,7 +23366,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/19458/50669",
       "online_url": null,
       "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：8/2（日）11:00～8/4（火）11:00\r\n当落発表：8/5（水）18:00頃\r\nオンライン・一般発売：8/6（木）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
       "price": {
@@ -23384,13 +23375,14 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-08-01T18:58:03+09:00",
       "first_seen": "2026-08-01T11:41:44+09:00",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "notified_at": "2026-08-01T11:41:45+09:00"
+      "notified_at": "2026-08-01T18:58:04+09:00"
     },
     {
       "id": "59441f9c",
@@ -23470,7 +23462,7 @@
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/19459/50671",
       "online_url": null,
       "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：8/2（日）11:00～8/4（火）11:00\r\n当落発表：8/5（水）18:00頃\r\nオンライン・一般発売：8/6（木）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
       "price": {
@@ -23479,13 +23471,14 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya"
+        "theater:omiya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-08-01T18:58:03+09:00",
       "first_seen": "2026-08-01T11:41:44+09:00",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "notified_at": "2026-08-01T11:41:45+09:00"
+      "notified_at": "2026-08-01T18:58:04+09:00"
     },
     {
       "id": "2c8b4d83",
@@ -24470,6 +24463,33 @@
       "diff": null
     },
     {
+      "id": "62909653",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "クリスタルジム大感謝祭～地獄の神7総選挙～",
+      "date": "2026-10-01",
+      "open_time": "18:30",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "マヂカルラブリー 野田クリスタル／パンサー 向井慧／他",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-01T18:58:03+09:00",
+      "last_updated": "2026-08-01T18:58:03+09:00",
+      "notified_at": "2026-08-01T18:58:04+09:00"
+    },
+    {
       "id": "39adb1ea",
       "talents": {
         "2772": "マヂカルラブリー"
@@ -24663,31 +24683,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7206/22322"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "15:10"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "06f6da71",
@@ -24715,31 +24715,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7206/22323"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "17:10"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "17430f7e",
@@ -24767,31 +24747,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7208/22367"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 4500,
-            "door": 5000
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "12:45"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "ed97f3aa",
@@ -24819,31 +24779,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7208/22368"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 4500,
-            "door": 5000
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "15:15"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "fdb4a2fc",
@@ -24871,31 +24811,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7208/22369"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 4500,
-            "door": 5000
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "17:45"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "0fe6820a",
@@ -24924,9 +24844,10 @@
       ],
       "local_image": "fliers/0fe6820a.jpg",
       "status": "notified",
-      "last_updated": "2026-08-01T11:41:44+09:00",
       "first_seen": "2026-07-31T19:37:53+09:00",
-      "notified_at": "2026-08-01T11:41:45+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-08-01T11:41:45+09:00",
+      "diff": null
     },
     {
       "id": "67ed6c88",
@@ -24954,31 +24875,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49683"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "15:10"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "00dcd275",
@@ -25006,31 +24907,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49684"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "17:10"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "37c38dc6",
@@ -25058,31 +24939,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7210/22400"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "19:20"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f0ebad39",
@@ -25110,31 +24971,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49692"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "15:10"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "8e9fbd9f",
@@ -25162,31 +25003,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49693"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "17:10"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "cc311424",
@@ -25214,31 +25035,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7206/22348"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "15:10"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "a7edb026",
@@ -25266,31 +25067,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7206/22349"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "17:10"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "2d9e5100",
@@ -25318,31 +25099,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49694"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "15:10"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "612cd10b",
@@ -25370,31 +25131,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49695"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "17:10"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00"
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": "2026-07-23T19:21:42+09:00",
+      "diff": null
     },
     {
       "id": "1d41f500",
@@ -25422,31 +25163,38 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-01T11:41:44+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7210/22406"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "end_time": {
-          "before": null,
-          "after": "19:20"
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-01T11:41:44+09:00",
+      "notified_at": null,
+      "diff": null
+    },
+    {
+      "id": "f6e1c0bf",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "よしもと IMM THEATER 寄席",
+      "date": "2026-10-29",
+      "open_time": "18:30",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "もりやすバンバンビガロ、バイク川崎バイク、見取り図、ヘンダーソン、ツートライブ、マユリカ、さや香、紅しょうが、大王",
+      "venue": "IMM THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-01T18:58:03+09:00",
+      "last_updated": "2026-08-01T18:58:03+09:00",
+      "notified_at": "2026-08-01T18:58:04+09:00"
     },
     {
       "id": "ea57bb0c",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T11:41:01+09:00",
+  "updated_at": "2026-08-02T18:55:39+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -12970,8 +12970,7 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": null,
       "status": "notified",
@@ -13031,8 +13030,7 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": "fliers/4481f93a.jpg",
       "status": "notified",
@@ -13092,8 +13090,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/67f7a9b5.jpeg",
       "status": "notified",
@@ -13125,8 +13122,7 @@
         "online": 1500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": "fliers/5c8790a4.jpg",
       "status": "notified",
@@ -14190,16 +14186,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-02T11:41:01+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]トット／ニッポンの社長／ネルソンズ／マユリカ／滝音／吉田たち／ネイビーズアフロ／イノシカチョウ／愛凛冴／オニイチャン／苺ちゃん\n[スペシャルアクト]〈サッカー芸人〉／丸亀じゃんご 北村／タイムキーパー まつい／ファンファーレと熱狂 奥／ごぞうろっぷ ソウタヤマモト／タレンチ コバタ\n[ゲームコーナー]〈オーサカクレオパトラpresents オーサカわんぱく〉",
-          "after": "[ネタ出演者]トット／ニッポンの社長／ネルソンズ／マユリカ／滝音／吉田たち／9番街レトロ／ネイビーズアフロ／イノシカチョウ／愛凛冴／オニイチャン／苺ちゃん\n[スペシャルアクト]〈サッカー芸人〉／丸亀じゃんご 北村／タイムキーパー まつい／ファンファーレと熱狂 奥／ごぞうろっぷ ソウタヤマモト／タレンチ コバタ\n[ゲームコーナー]〈オーサカクレオパトラpresents オーサカわんぱく〉"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-02T11:41:01+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "63d6cbc8",
@@ -14896,7 +14887,7 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": "22:15",
-      "members": "[企画ライブ]シカゴ実業／いぬ／kento fukaya／シモリュウ／素敵じゃないか／ロジャー沖縄／他",
+      "members": "[企画ライブ]シカゴ実業／いぬ／kento fukaya／シモリュウ／素敵じゃないか／ロジャー沖縄／木本悠斗／他",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018879_1_20260714180320378.jpg",
@@ -14914,10 +14905,9 @@
       ],
       "local_image": "fliers/0b45718e.jpg",
       "status": "notified",
+      "last_updated": "2026-08-02T18:55:39+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-07-14T18:57:25+09:00",
-      "notified_at": "2026-07-14T18:57:25+09:00",
-      "diff": null
+      "notified_at": "2026-08-02T18:55:39+09:00"
     },
     {
       "id": "b7ac0729",
@@ -15510,16 +15500,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-02T11:41:01+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ライス／トット／しずる／ビスケットブラザーズ／すゑひろがりず／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]〈けん玉芸人〉／イチオク タケヤ／タイムキーパー ひでき／山椒魚 フィジカル北岡\n[ゲームコーナー][前説]おもしろジャンケン",
-          "after": "[ネタ出演者]ライス／トット／しずる／囲碁将棋／祇園／金属バット／ビスケットブラザーズ／すゑひろがりず／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]〈けん玉芸人〉／イチオク タケヤ／タイムキーパー ひでき／山椒魚 フィジカル北岡\n[ゲームコーナー][前説]おもしろジャンケン"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-02T11:41:01+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4e120e40",
@@ -15571,16 +15556,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-02T11:41:01+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ライス／トット／しずる／ビスケットブラザーズ／すゑひろがりず／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]〈けん玉芸人〉／イチオク タケヤ／タイムキーパー ひでき／山椒魚 フィジカル北岡\n[ゲームコーナー][前説]おもしろジャンケン",
-          "after": "[ネタ出演者]ライス／トット／しずる／囲碁将棋／祇園／金属バット／ビスケットブラザーズ／すゑひろがりず／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]〈けん玉芸人〉／イチオク タケヤ／タイムキーパー ひでき／山椒魚 フィジカル北岡\n[ゲームコーナー][前説]おもしろジャンケン"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-02T11:41:01+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8b9f622e",
@@ -15660,16 +15640,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-02T11:41:01+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ライス／トット／しずる／ビスケットブラザーズ／すゑひろがりず／EXIT／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]〈けん玉芸人〉／イチオク タケヤ／タイムキーパー ひでき／山椒魚 フィジカル北岡\n[ゲームコーナー][前説]おもしろジャンケン",
-          "after": "[ネタ出演者]ライス／トット／しずる／囲碁将棋／金属バット／ビスケットブラザーズ／すゑひろがりず／EXIT／黒帯／隣人／-ZX-／もも／ぎょうぶ／シカノシンプ／やまぐちたけし\n[スペシャルアクト]〈けん玉芸人〉／イチオク タケヤ／タイムキーパー ひでき／山椒魚 フィジカル北岡\n[ゲームコーナー][前説]おもしろジャンケン"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-02T11:41:01+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0c592d89",
@@ -15782,6 +15757,37 @@
       "last_updated": "2026-07-04T11:50:07+09:00",
       "notified_at": "2026-07-04T11:50:08+09:00",
       "diff": null
+    },
+    {
+      "id": "cb6e60e4",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "オールウェイズ！漫才劇場の日 2日目",
+      "date": "2026-08-14",
+      "open_time": "18:45",
+      "start_time": "19:00",
+      "end_time": "20:30",
+      "members": "[企画ライブ]いぬ／カラタチ／からし蓮根／オダウエダ／シンクロニシティ／喫茶ムーン／ぺ／フジーズ／セカンドロット／とりせん／ただならぬ刀／他",
+      "venue": "神保町よしもと漫才劇場",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/19443/50645",
+      "online_url": null,
+      "notice": "この夏も開催されるオールマンゲキの裏で、“いつもの”神保町よしもと漫才劇場の公演を開催！\r\nこっちの“オールマンゲキ”は、ネタとコーナーの90分でお楽しみください！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/4（火）11:00 ～ 8/6（木）11:00\r\n　・FANY IDメンバー\r\n　　8/4（火）11:00 ～ 8/6（木）11:00\r\n\r\n〇一般販売：8/8（土）10:00\r\n\r\n〇配信：8/8（土）10:00",
+      "price": {
+        "advance": 2500,
+        "door": 3000,
+        "online": 1500
+      },
+      "sources": [
+        "theater:jimbocho"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-02T18:55:39+09:00",
+      "last_updated": "2026-08-02T18:55:39+09:00",
+      "notified_at": "2026-08-02T18:55:39+09:00"
     },
     {
       "id": "ddb24632",
@@ -18044,9 +18050,10 @@
       ],
       "local_image": "fliers/db8c9623.jpg",
       "status": "notified",
-      "last_updated": "2026-08-02T11:41:01+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-08-02T11:41:01+09:00"
+      "last_updated": "2026-08-02T11:41:01+09:00",
+      "notified_at": "2026-08-02T11:41:01+09:00",
+      "diff": null
     },
     {
       "id": "4d474f14",
@@ -19566,6 +19573,33 @@
       "diff": null
     },
     {
+      "id": "7c912af4",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "中村フーの解禁解放",
+      "date": "2026-09-02",
+      "open_time": "20:00",
+      "start_time": "20:15",
+      "end_time": null,
+      "members": "ヘンダーソン／レイザーラモン／ななまがり／ケビンス",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000019832_1_20260802141432256.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/7c912af4.jpg",
+      "status": "notified",
+      "first_seen": "2026-08-02T18:55:39+09:00",
+      "last_updated": "2026-08-02T18:55:39+09:00",
+      "notified_at": "2026-08-02T18:55:39+09:00"
+    },
+    {
       "id": "1358fdf2",
       "talents": {
         "10708": "シンクロニシティ"
@@ -20528,7 +20562,8 @@
       "status": "notified",
       "first_seen": "2026-08-02T11:41:01+09:00",
       "last_updated": "2026-08-02T11:41:01+09:00",
-      "notified_at": "2026-08-02T11:41:01+09:00"
+      "notified_at": "2026-08-02T11:41:01+09:00",
+      "diff": null
     },
     {
       "id": "5a821e1c",
@@ -23326,9 +23361,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-08-02T11:41:01+09:00",
       "first_seen": "2026-08-01T11:41:44+09:00",
-      "notified_at": "2026-08-02T11:41:01+09:00"
+      "last_updated": "2026-08-02T11:41:01+09:00",
+      "notified_at": "2026-08-02T11:41:01+09:00",
+      "diff": null
     },
     {
       "id": "2a9b19e9",
@@ -23422,9 +23458,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-08-02T11:41:01+09:00",
       "first_seen": "2026-08-01T11:41:44+09:00",
-      "notified_at": "2026-08-02T11:41:01+09:00"
+      "last_updated": "2026-08-02T11:41:01+09:00",
+      "notified_at": "2026-08-02T11:41:01+09:00",
+      "diff": null
     },
     {
       "id": "59441f9c",
@@ -23518,9 +23555,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-08-02T11:41:01+09:00",
       "first_seen": "2026-08-01T11:41:44+09:00",
-      "notified_at": "2026-08-02T11:41:01+09:00"
+      "last_updated": "2026-08-02T11:41:01+09:00",
+      "notified_at": "2026-08-02T11:41:01+09:00",
+      "diff": null
     },
     {
       "id": "2c8b4d83",
@@ -24174,7 +24212,8 @@
       "status": "notified",
       "first_seen": "2026-08-02T11:41:01+09:00",
       "last_updated": "2026-08-02T11:41:01+09:00",
-      "notified_at": "2026-08-02T11:41:01+09:00"
+      "notified_at": "2026-08-02T11:41:01+09:00",
+      "diff": null
     },
     {
       "id": "59f41682",

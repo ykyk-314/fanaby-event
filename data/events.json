@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T19:37:48+09:00",
+  "updated_at": "2026-08-05T11:25:54+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -13702,16 +13702,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-04T19:37:48+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]シカゴ実業／ワラバランス／ケビンス／田津原理音／オダウエダ／世間知らズ／アメリカンBBチキン／おミュータンツ／ブラゴーリ／バリカタ友情飯／他\n[ コーナー出演者]MC：ケビンス／田津原理音／世間知らズ／ブラゴーリ／バリカタ友情飯",
-          "after": "[ネタ＆コーナーライブ]シカゴ実業／ワラバランス／ケビンス／田津原理音／オダウエダ／世間知らズ／アメリカンBBチキン／おミュータンツ／ブラゴーリ／バリカタ友情飯\n[ コーナー出演者]MC：ケビンス／田津原理音／世間知らズ／ブラゴーリ／バリカタ友情飯"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-03T11:42:16+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-04T19:37:48+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e2fec78c",
@@ -14313,16 +14308,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-04T19:37:48+09:00",
-      "diff": {
-        "members": {
-          "before": "守谷日和／トット／ヘンダーソン／ネルソンズ／ニッポンの社長／天才ピアニスト／もも／ジョックロック／電気ジュース／満丸／前説：半年記念日",
-          "after": "守谷日和／トット／ヘンダーソン／ネルソンズ／ニッポンの社長／モンスターエンジン／天才ピアニスト／もも／ジョックロック／電気ジュース／満丸／前説：半年記念日"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-04T19:37:48+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "502e864d",
@@ -14952,9 +14942,10 @@
       ],
       "local_image": "fliers/0b45718e.jpg",
       "status": "notified",
-      "last_updated": "2026-08-04T19:37:48+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-08-04T19:37:48+09:00"
+      "last_updated": "2026-08-04T19:37:48+09:00",
+      "notified_at": "2026-08-04T19:37:48+09:00",
+      "diff": null
     },
     {
       "id": "b7ac0729",
@@ -15968,7 +15959,7 @@
       "open_time": "10:30",
       "start_time": "11:00",
       "end_time": null,
-      "members": "矢野・兵動／テンダラー／マヂカルラブリー／トット／他\n[新喜劇]辻本茂雄／安尾信乃助／高井俊彦／平山昌雄／瀧見信行／松本慎一郎／清水啓之／レイチェル／玉置洋行／永田良輔／多和田上人／生瀬行人／たかおみゆき／小林ゆう",
+      "members": "矢野・兵動／テンダラー／マヂカルラブリー／トット／ネルソンズ／フースーヤ\n[新喜劇]辻本茂雄／安尾信乃助／高井俊彦／平山昌雄／瀧見信行／松本慎一郎／清水啓之／レイチェル／玉置洋行／永田良輔／多和田上人／生瀬行人／たかおみゆき／小林ゆう",
       "venue": "COOL JAPAN PARK OSAKA TTホール",
       "prefecture": "大阪府",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017630_1_20260601131900755.jpg",
@@ -15981,10 +15972,9 @@
       ],
       "local_image": "fliers/6857ebbe.jpg",
       "status": "notified",
+      "last_updated": "2026-08-05T11:25:53+09:00",
       "first_seen": "2026-06-01T19:01:33+09:00",
-      "last_updated": "2026-07-09T11:54:44+09:00",
-      "notified_at": "2026-07-09T11:54:45+09:00",
-      "diff": null
+      "notified_at": "2026-08-05T11:25:54+09:00"
     },
     {
       "id": "c4ec520b",
@@ -16088,7 +16078,7 @@
       "open_time": "13:30",
       "start_time": "14:00",
       "end_time": null,
-      "members": "矢野・兵動／テンダラー／マヂカルラブリー／トット／他\n[新喜劇]辻本茂雄／安尾信乃助／高井俊彦／平山昌雄／瀧見信行／松本慎一郎／清水啓之／レイチェル／玉置洋行／永田良輔／多和田上人／生瀬行人／たかおみゆき／小林ゆう",
+      "members": "矢野・兵動／テンダラー／マヂカルラブリー／トット／ドンデコルテ／天才ピアニスト\n[新喜劇]辻本茂雄／安尾信乃助／高井俊彦／平山昌雄／瀧見信行／松本慎一郎／清水啓之／レイチェル／玉置洋行／永田良輔／多和田上人／生瀬行人／たかおみゆき／小林ゆう",
       "venue": "COOL JAPAN PARK OSAKA TTホール",
       "prefecture": "大阪府",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017634_1_20260601131914680.jpg",
@@ -16101,10 +16091,9 @@
       ],
       "local_image": "fliers/fafa5dad.jpg",
       "status": "notified",
+      "last_updated": "2026-08-05T11:25:53+09:00",
       "first_seen": "2026-06-01T19:01:33+09:00",
-      "last_updated": "2026-07-09T11:54:44+09:00",
-      "notified_at": "2026-07-09T11:54:45+09:00",
-      "diff": null
+      "notified_at": "2026-08-05T11:25:54+09:00"
     },
     {
       "id": "8052de06",
@@ -17004,7 +16993,8 @@
       "status": "new",
       "first_seen": "2026-08-04T19:37:48+09:00",
       "last_updated": "2026-08-04T19:37:48+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1b2db697",
@@ -17031,7 +17021,8 @@
       "status": "new",
       "first_seen": "2026-08-04T19:37:48+09:00",
       "last_updated": "2026-08-04T19:37:48+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "cf498435",
@@ -17875,7 +17866,8 @@
       "status": "notified",
       "first_seen": "2026-08-04T19:37:48+09:00",
       "last_updated": "2026-08-04T19:37:48+09:00",
-      "notified_at": "2026-08-04T19:37:48+09:00"
+      "notified_at": "2026-08-04T19:37:48+09:00",
+      "diff": null
     },
     {
       "id": "aeb55eea",
@@ -19383,9 +19375,10 @@
       ],
       "local_image": "fliers/17990486.jpeg",
       "status": "notified",
-      "last_updated": "2026-08-04T19:37:48+09:00",
       "first_seen": "2026-08-03T11:42:16+09:00",
-      "notified_at": "2026-08-04T19:37:48+09:00"
+      "last_updated": "2026-08-04T19:37:48+09:00",
+      "notified_at": "2026-08-04T19:37:48+09:00",
+      "diff": null
     },
     {
       "id": "688e76e7",
@@ -19787,7 +19780,8 @@
       "status": "new",
       "first_seen": "2026-08-04T19:37:48+09:00",
       "last_updated": "2026-08-04T19:37:48+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "7c912af4",
@@ -20279,16 +20273,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-04T19:37:48+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]レギュラー／エバース／ダンビラムーチョ／滝音／ケビンス／例えば炎／今井らいぱち／シンクロニシティ／太鵬／兄弟",
-          "after": "[ネタ＆コーナーライブ]レギュラー／ビスケットブラザーズ／エバース／ダンビラムーチョ／滝音／ケビンス／例えば炎／今井らいぱち／シンクロニシティ／太鵬／兄弟"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-04T19:37:48+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "30cbb500",
@@ -20350,16 +20339,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-04T19:37:48+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]レギュラー／エバース／ダンビラムーチョ／滝音／ケビンス／例えば炎／今井らいぱち／シンクロニシティ／太鵬／兄弟",
-          "after": "[ネタ＆コーナーライブ]レギュラー／ビスケットブラザーズ／エバース／ダンビラムーチョ／滝音／ケビンス／例えば炎／今井らいぱち／シンクロニシティ／太鵬／兄弟"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-04T19:37:48+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "400059e2",
@@ -20421,16 +20405,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-04T19:37:48+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]レギュラー／エバース／ダンビラムーチョ／滝音／ケビンス／例えば炎／今井らいぱち／シンクロニシティ／太鵬／兄弟",
-          "after": "[ネタ＆コーナーライブ]レギュラー／ビスケットブラザーズ／エバース／ダンビラムーチョ／滝音／ケビンス／例えば炎／今井らいぱち／シンクロニシティ／太鵬／兄弟"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-04T19:37:48+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "087af5ad",
@@ -24428,7 +24407,8 @@
       "status": "notified",
       "first_seen": "2026-08-04T19:37:48+09:00",
       "last_updated": "2026-08-04T19:37:48+09:00",
-      "notified_at": "2026-08-04T19:37:48+09:00"
+      "notified_at": "2026-08-04T19:37:48+09:00",
+      "diff": null
     },
     {
       "id": "7b3222cf",

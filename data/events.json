@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T17:40:40+09:00",
+  "updated_at": "2026-08-10T10:42:39+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -14800,13 +14800,13 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": "18:30",
-      "members": "[ネタ＆コーナーライブ]シカゴ実業／デニス／くらげ／からし蓮根／九条ジョー／ケビンス／ブラゴーリ／オフローズ／シンクロニシティ／他",
+      "members": "[ネタ＆コーナーライブ]シカゴ実業／デニス／くらげ／からし蓮根／九条ジョー／ケビンス／ブラゴーリ／オフローズ／シンクロニシティ\n[ コーナー出演者]前半コーナーMC:からし蓮根／シカゴ実業／ブラゴーリ／オフローズ／シンクロニシティ／後半コーナーMC:ケビンス／デニス／くらげ／九条ジョー",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17837/47116",
       "online_url": null,
-      "notice": "芸歴9年目以上の極メンバーが出演するネタとコーナーの90分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n一般発売：7/5(日) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
+      "notice": "芸歴9年目以上の極メンバーが出演するネタとコーナーの90分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n一般発売：7/5(日) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n[追加]\r\n素敵じゃないか(8/9)",
       "price": {
         "advance": 2000,
         "door": 2300
@@ -14816,11 +14816,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-10T10:42:39+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]シカゴ実業／デニス／くらげ／からし蓮根／九条ジョー／ケビンス／ブラゴーリ／オフローズ／シンクロニシティ／他",
+          "after": "[ネタ＆コーナーライブ]シカゴ実業／デニス／くらげ／からし蓮根／九条ジョー／ケビンス／ブラゴーリ／オフローズ／シンクロニシティ\n[ コーナー出演者]前半コーナーMC:からし蓮根／シカゴ実業／ブラゴーリ／オフローズ／シンクロニシティ／後半コーナーMC:ケビンス／デニス／くらげ／九条ジョー"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "fb85e8c5",
@@ -15636,7 +15641,7 @@
       "open_time": "13:15",
       "start_time": "13:30",
       "end_time": null,
-      "members": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／華山／イノシカチョウ／タチマチ／爛々 萌々／ぐろう／生姜猫／前説：アポロ軍曹",
+      "members": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／華山／イノシカチョウ／翠星チークダンス／タチマチ／爛々 萌々／ぐろう／生姜猫／前説：アポロ軍曹",
       "venue": "森ノ宮よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -15648,11 +15653,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-10T10:42:39+09:00",
+      "diff": {
+        "members": {
+          "before": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／華山／イノシカチョウ／タチマチ／爛々 萌々／ぐろう／生姜猫／前説：アポロ軍曹",
+          "after": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／華山／イノシカチョウ／翠星チークダンス／タチマチ／爛々 萌々／ぐろう／生姜猫／前説：アポロ軍曹"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "c7b729d7",
@@ -15776,7 +15786,7 @@
       "open_time": "15:45",
       "start_time": "16:00",
       "end_time": null,
-      "members": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／華山／イノシカチョウ／タチマチ／爛々 萌々／ぐろう／生姜猫／前説：アポロ軍曹",
+      "members": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／カベポスター／天才ピアニスト／華山／イノシカチョウ／タチマチ／爛々 萌々／ぐろう／生姜猫／前説：アポロ軍曹",
       "venue": "森ノ宮よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -15788,11 +15798,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-10T10:42:39+09:00",
+      "diff": {
+        "members": {
+          "before": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／華山／イノシカチョウ／タチマチ／爛々 萌々／ぐろう／生姜猫／前説：アポロ軍曹",
+          "after": "しずる／ライス／トット／すゑひろがりず／ビスケットブラザーズ／カベポスター／天才ピアニスト／華山／イノシカチョウ／タチマチ／爛々 萌々／ぐろう／生姜猫／前説：アポロ軍曹"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-20T19:51:15+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "3e8e68b2",
@@ -15835,7 +15850,7 @@
       "members": "翠星チークダンス／黒帯／タイムキーパー／満丸／ゲスト:囲碁将棋／ビスケットブラザーズ",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018119_1_20260809221357302.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -15843,12 +15858,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/a9cf1d89.jpg",
       "status": "notified",
+      "last_updated": "2026-08-10T10:42:39+09:00",
       "first_seen": "2026-07-04T11:50:07+09:00",
-      "last_updated": "2026-07-04T11:50:07+09:00",
-      "notified_at": "2026-07-04T11:50:08+09:00",
-      "diff": null
+      "notified_at": "2026-08-10T10:42:39+09:00"
     },
     {
       "id": "cb6e60e4",
@@ -19795,7 +19809,7 @@
       "members": "ビスケットブラザーズ／ケビンス／ヨネダ2000",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000020072_1_20260810095621346.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -19803,11 +19817,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/02236ec0.jpg",
       "status": "notified",
+      "last_updated": "2026-08-10T10:42:39+09:00",
       "first_seen": "2026-08-09T17:40:40+09:00",
-      "last_updated": "2026-08-09T17:40:40+09:00",
-      "notified_at": "2026-08-09T17:40:40+09:00"
+      "notified_at": "2026-08-10T10:42:39+09:00"
     },
     {
       "id": "5ac7fa8b",
@@ -23019,16 +23033,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-09T17:40:40+09:00",
-      "diff": {
-        "members": {
-          "before": "アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／喜喜かいばしら／メリコンドル／アイディアマラソン／＜ゲームコーナー＞",
-          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／喜喜かいばしら／メリコンドル／アイディアマラソン／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-09T17:40:40+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bff1122d",
@@ -24169,7 +24178,7 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/18828/49555",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%A4%E3%83%83%E3%83%84%E3%82%A2%E3%83%B2%E3%83%B2%E3%83%B2%E3%83%BC%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89-9-22-19-00",
-      "notice": "一年に一度、神保町に現れる夢の國、ヲヲヲーワールド！\r\n皆様で素敵なひと時を過ごしましょう☺（ネタと大喜利のライブです♫）\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n〇配信：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]めぞん 吉野おいなり君(7/27)",
+      "notice": "一年に一度、神保町に現れる夢の國、ヲヲヲーワールド！\r\n皆様で素敵なひと時を過ごしましょう☺（ネタと大喜利のライブです♫）\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n〇配信：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nめぞん 吉野おいなり君(7/27)",
       "price": {
         "advance": 1500,
         "door": 2000,
@@ -24181,10 +24190,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-08-10T10:42:39+09:00",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-27T20:19:44+09:00",
-      "notified_at": "2026-07-27T20:19:45+09:00",
-      "diff": null
+      "notified_at": "2026-08-10T10:42:39+09:00"
     },
     {
       "id": "1a1eda6d",
@@ -24562,6 +24570,33 @@
       "last_updated": "2026-07-23T19:21:42+09:00",
       "notified_at": "2026-07-23T19:21:42+09:00",
       "diff": null
+    },
+    {
+      "id": "ea8592dd",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "syudou presents「呵呵大笑」",
+      "date": "2026-09-23",
+      "open_time": "16:00",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "syudou\nゲスト：Dannie May、浪漫派マシュマロ、オズワルド、マヂカルラブリー",
+      "venue": "Kanadevia Hall",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-10T10:42:39+09:00",
+      "last_updated": "2026-08-10T10:42:39+09:00",
+      "notified_at": "2026-08-10T10:42:39+09:00"
     },
     {
       "id": "3445ddeb",
@@ -25566,6 +25601,87 @@
       "last_updated": "2026-08-01T11:41:44+09:00",
       "notified_at": "2026-07-23T19:21:42+09:00",
       "diff": null
+    },
+    {
+      "id": "0bb0f39d",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "福岡よしもとお笑いライブ",
+      "date": "2026-10-11",
+      "open_time": "11:15",
+      "start_time": "11:30",
+      "end_time": null,
+      "members": "ロングコートダディ／マユリカ／もりやすバンバンビガロ／ガクテンソク／吉田たち／他",
+      "venue": "よしもと福岡 大和証券劇場",
+      "prefecture": "福岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-10T10:42:39+09:00",
+      "last_updated": "2026-08-10T10:42:39+09:00",
+      "notified_at": null
+    },
+    {
+      "id": "5b1596e3",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "福岡よしもとお笑いライブ",
+      "date": "2026-10-11",
+      "open_time": "13:25",
+      "start_time": "13:40",
+      "end_time": null,
+      "members": "ロングコートダディ／マユリカ／もりやすバンバンビガロ／ガクテンソク／吉田たち／他",
+      "venue": "よしもと福岡 大和証券劇場",
+      "prefecture": "福岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-10T10:42:39+09:00",
+      "last_updated": "2026-08-10T10:42:39+09:00",
+      "notified_at": null
+    },
+    {
+      "id": "705356f3",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "福岡よしもとお笑いライブ",
+      "date": "2026-10-11",
+      "open_time": "15:35",
+      "start_time": "15:50",
+      "end_time": null,
+      "members": "ロングコートダディ／マユリカ／もりやすバンバンビガロ／ガクテンソク／吉田たち／他",
+      "venue": "よしもと福岡 大和証券劇場",
+      "prefecture": "福岡県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-10T10:42:39+09:00",
+      "last_updated": "2026-08-10T10:42:39+09:00",
+      "notified_at": null
     },
     {
       "id": "17430f7e",

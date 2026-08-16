@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T10:13:12+09:00",
+  "updated_at": "2026-08-16T17:27:29+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -16561,8 +16561,7 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": null,
       "status": "notified",
@@ -16593,8 +16592,7 @@
         "door": 3300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -16625,8 +16623,7 @@
         "door": 5500
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -16657,8 +16654,7 @@
         "door": 3300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -16689,8 +16685,7 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": null,
       "status": "notified",
@@ -16721,8 +16716,7 @@
         "door": 5500
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -16753,8 +16747,7 @@
         "door": 3300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -16786,8 +16779,7 @@
         "online": 1500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": "fliers/ac7b53c8.jpg",
       "status": "notified",
@@ -17490,7 +17482,7 @@
       "members": "レインボー／ネルソンズ／スクールゾーン／シンクロニシティ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018671_1_20260816160025628.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/17822/47017",
       "online_url": null,
       "notice": "ネタ中に本気でご飯を食べるコントライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：6/25（木）11:00～6/28（日）11:00\r\n〇一般販売：7/5（日）10:00\r\n\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -17502,12 +17494,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/fc2edc76.jpg",
       "status": "notified",
+      "last_updated": "2026-08-16T17:27:29+09:00",
       "first_seen": "2026-06-25T10:11:20+09:00",
-      "last_updated": "2026-08-15T10:09:40+09:00",
-      "notified_at": "2026-08-15T10:09:41+09:00",
-      "diff": null
+      "notified_at": "2026-08-16T17:27:29+09:00"
     },
     {
       "id": "89b43bd5",
@@ -17991,7 +17982,7 @@
       "members": "ジェラードン／ビスケットブラザーズ／ネルソンズ／蛙亭／ダンビラムーチョ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000018942_1_20260816160149064.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/18327/48083",
       "online_url": null,
       "notice": "お客様の投票で披露するネタが決まるコントライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：7/4（土）11:00～7/6（月）11:00\r\n〇一般販売：7/8（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nビスケットブラザーズ（6/28）\r\nダンビラムーチョ（6/28）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
@@ -18003,12 +17994,11 @@
         "theater:roppongi",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/15f52498.jpg",
       "status": "notified",
+      "last_updated": "2026-08-16T17:27:29+09:00",
       "first_seen": "2026-06-28T18:13:12+09:00",
-      "last_updated": "2026-06-28T18:13:12+09:00",
-      "notified_at": "2026-06-28T18:13:13+09:00",
-      "diff": null
+      "notified_at": "2026-08-16T17:27:29+09:00"
     },
     {
       "id": "b54d7bbb",
@@ -18352,13 +18342,13 @@
       "open_time": "17:15",
       "start_time": "17:30",
       "end_time": "18:30",
-      "members": "[ネタ出演者]ミカボ／シンクロニシティ／ヨネダ2000／しんや／兄弟／ボブのコーラ／ドンココ／他",
+      "members": "[ネタ出演者]ミカボ／シンクロニシティ／ヨネダ2000／しんや／兄弟／ボブのコーラ／ブリタニカ／ドンココ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17634/46730",
       "online_url": null,
-      "notice": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00",
+      "notice": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nブリタニカ(8/16)\r\n",
       "price": {
         "advance": 1500,
         "door": 1800
@@ -18368,11 +18358,20 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-16T17:27:29+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ出演者]ミカボ／シンクロニシティ／ヨネダ2000／しんや／兄弟／ボブのコーラ／ドンココ／他",
+          "after": "[ネタ出演者]ミカボ／シンクロニシティ／ヨネダ2000／しんや／兄弟／ボブのコーラ／ブリタニカ／ドンココ"
+        },
+        "notice": {
+          "before": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00",
+          "after": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n　・FANY IDメンバー\r\n　　6/25（木）11:00 ～ 6/28（日）11:00\r\n\r\n〇一般販売：7/5（日）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nブリタニカ(8/16)\r\n"
+        }
+      },
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "last_updated": "2026-07-02T19:39:02+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "24e566c3",
@@ -19024,13 +19023,13 @@
       "open_time": "19:00",
       "start_time": "19:15",
       "end_time": "20:15",
-      "members": "[企画ライブ]ケビンス／ゲスト：滝音／他",
+      "members": "[企画ライブ]ケビンス／ゲスト：滝音／シモリュウ",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/17780/46981",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%9B%E3%83%83%E3%83%88%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9-8-28-19-15",
-      "notice": "ケビンスの今1番ホットなネタを“フレッシュ”な状態でみなさんにリリースします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n一般発売：7/5(日) 10:00\r\n\r\nオンラインチケット発売：7/5(日) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
+      "notice": "ケビンスの今1番ホットなネタを“フレッシュ”な状態でみなさんにリリースします！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n一般発売：7/5(日) 10:00\r\n\r\nオンラインチケット発売：7/5(日) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\nシモリュウ(8/16)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,
         "door": 2500,
@@ -19042,10 +19041,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-08-16T17:27:29+09:00",
       "first_seen": "2026-06-24T10:07:20+09:00",
-      "last_updated": "2026-06-24T10:07:20+09:00",
-      "notified_at": "2026-06-24T10:07:20+09:00",
-      "diff": null
+      "notified_at": "2026-08-16T17:27:29+09:00"
     },
     {
       "id": "d4f57a2e",
@@ -19587,7 +19585,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": null,
-      "members": "やさしいズ タイ／やさしいズ 佐伯元輝／ビスケットブラザーズ／男性ブランコ／紅しょうが／たくろう／ダンビラムーチョ／しゃかりき／フースーヤ",
+      "members": "やさしいズ タイ／やさしいズ 佐伯元輝／ビスケットブラザーズ／男性ブランコ／紅しょうが／たくろう／ダンビラムーチョ／しゃかりき／フースーヤ／気になるあの娘",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000017938_1_20260605120102647.jpg",
@@ -19600,10 +19598,9 @@
       ],
       "local_image": "fliers/cf06816a.jpg",
       "status": "notified",
+      "last_updated": "2026-08-16T17:27:29+09:00",
       "first_seen": "2026-06-05T18:21:47+09:00",
-      "last_updated": "2026-06-25T18:17:36+09:00",
-      "notified_at": "2026-06-25T18:17:37+09:00",
-      "diff": null
+      "notified_at": "2026-08-16T17:27:29+09:00"
     },
     {
       "id": "17990486",
@@ -23387,16 +23384,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-16T10:13:12+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]桂文珍／西川のりお・上方よしお／ザ・ぼんち／メッセンジャー／パンクブーブー／マユリカ／蛙亭／EXIT\n[新喜劇]アキ／池乃めだか／未知やすえ／西川忠志",
-          "after": "[漫才・落語]桂文珍／西川のりお・上方よしお／ザ・ぼんち／メッセンジャー／ハイヒール／パンクブーブー／マユリカ／EXIT\n[新喜劇]アキ／池乃めだか／未知やすえ／西川忠志"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-16T10:13:12+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "11e8184f",
@@ -23628,16 +23620,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-16T10:13:12+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]桂文珍／西川のりお・上方よしお／ザ・ぼんち／メッセンジャー／パンクブーブー／マユリカ／蛙亭／EXIT\n[新喜劇]アキ／池乃めだか／未知やすえ／西川忠志",
-          "after": "[漫才・落語]桂文珍／西川のりお・上方よしお／ザ・ぼんち／メッセンジャー／ハイヒール／パンクブーブー／マユリカ／EXIT\n[新喜劇]アキ／池乃めだか／未知やすえ／西川忠志"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-16T10:13:12+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "47055706",
@@ -23813,16 +23800,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-16T10:13:12+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]桂文珍／西川のりお・上方よしお／ザ・ぼんち／パンクブーブー／スーパーマラドーナ／マユリカ／蛙亭／EXIT\n[新喜劇]アキ／池乃めだか／未知やすえ／西川忠志",
-          "after": "[漫才・落語]桂文珍／西川のりお・上方よしお／ザ・ぼんち／ハイヒール／パンクブーブー／スーパーマラドーナ／マユリカ／EXIT\n[新喜劇]アキ／池乃めだか／未知やすえ／西川忠志"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-16T10:13:12+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4cf6bc15",
@@ -23907,16 +23889,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-16T10:13:12+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]桂文珍／西川のりお・上方よしお／ザ・ぼんち／パンクブーブー／ロザン／マユリカ／蛙亭／EXIT\n[新喜劇]アキ／池乃めだか／未知やすえ／西川忠志",
-          "after": "[漫才・落語]桂文珍／西川のりお・上方よしお／ザ・ぼんち／パンクブーブー／ロザン／マユリカ／EXIT／天才ピアニスト\n[新喜劇]アキ／池乃めだか／未知やすえ／西川忠志"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-16T10:13:12+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8b3791a7",
@@ -25325,9 +25302,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-08-16T10:13:12+09:00",
       "first_seen": "2026-08-15T10:09:40+09:00",
-      "notified_at": "2026-08-16T10:13:12+09:00"
+      "last_updated": "2026-08-16T10:13:12+09:00",
+      "notified_at": "2026-08-16T10:13:12+09:00",
+      "diff": null
     },
     {
       "id": "59f41682",

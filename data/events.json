@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T10:11:00+09:00",
+  "updated_at": "2026-08-25T17:40:11+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -18375,8 +18375,7 @@
         "door": 1800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -18504,16 +18503,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-25T10:10:59+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]シカゴ実業／TEAM近藤／カラタチ／キンボシ／そいつどいつ／スーパーサイズ・ミー／シンクロニシティ／インテイク／他\n[ コーナー出演者]コーナーMC：キンボシ／カラタチ／そいつどいつ／シンクロニシティ／他",
-          "after": "[ネタ＆コーナーライブ]シカゴ実業／TEAM近藤／カラタチ／キンボシ／そいつどいつ／スーパーサイズ・ミー／ぶったま／シンクロニシティ／インテイク\n[ コーナー出演者]コーナーMC：キンボシ／カラタチ／そいつどいつ／シンクロニシティ／インテイク"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-25T10:10:59+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0450fb78",
@@ -18997,16 +18991,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-25T10:10:59+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ゆにばーす／蛙亭／滝音／ダブルヒガシ／ウォンバット／ケビンス／ラニーノーズ／ド桜／他\n[ コーナー出演者]コーナーMC：ゆにばーす／蛙亭／滝音／ダブルヒガシ／ド桜",
-          "after": "[ネタ＆コーナーライブ]ゆにばーす／蛙亭／滝音／ダブルヒガシ／ウォンバット／ケビンス／ラニーノーズ／ド桜／ピュート／他\n[ コーナー出演者]コーナーMC：ゆにばーす／蛙亭／滝音／ダブルヒガシ／ド桜"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-25T10:10:59+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "45b188a2",
@@ -19849,6 +19838,37 @@
       "diff": null
     },
     {
+      "id": "c154b324",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "渋谷Kiwami極LIVE",
+      "date": "2026-08-31",
+      "open_time": "17:00",
+      "start_time": "17:15",
+      "end_time": "18:25",
+      "members": "[ネタ＆コーナーライブ]ゆにばーす／蛙亭／ダブルヒガシ／スロッピ／まんじろう／スクラップス／そいつどいつ／9番街レトロ／シンクロニシティ／太鵬／他\n[ コーナー出演者]コーナーMC：ダブルヒガシ／ゆにばーす／そいつどいつ／シンクロニシティ／太鵬",
+      "venue": "渋谷よしもと漫才劇場",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/17647/46810",
+      "online_url": null,
+      "notice": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：6/25(木) 11:00 〜 6/28(日) 11:00\r\n\r\n一般発売：7/5(日) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
+      "price": {
+        "advance": 1500,
+        "door": 1800
+      },
+      "sources": [
+        "theater:shibuya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
+    },
+    {
       "id": "d53ce9a2",
       "talents": {
         "5110": "kento fukaya",
@@ -20243,16 +20263,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-25T10:10:59+09:00",
-      "diff": {
-        "members": {
-          "before": "パンクブーブー／とろサーモン／バイク川崎バイク／金属バット／黒帯／マユリカ／たくろう／他\n[SPコント]『英雄SPユニット』： 英雄／野性爆弾 くっきー！／バッファロー吾郎Ａ",
-          "after": "パンクブーブー／とろサーモン／バイク川崎バイク／金属バット／黒帯／マユリカ／たくろう\n[SPコント]『英雄SPユニット』： 英雄／野性爆弾 くっきー！／バッファロー吾郎Ａ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-25T10:10:59+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4dab0796",
@@ -20280,16 +20295,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-25T10:10:59+09:00",
-      "diff": {
-        "members": {
-          "before": "パンクブーブー／とろサーモン／バイク川崎バイク／チョコレートプラネット／金属バット／黒帯／マユリカ／たくろう／他\n[SPコント]『英雄SPユニット』： 英雄／野性爆弾 くっきー！／バッファロー吾郎Ａ",
-          "after": "パンクブーブー／とろサーモン／バイク川崎バイク／チョコレートプラネット／金属バット／黒帯／マユリカ／たくろう\n[SPコント]『英雄SPユニット』： 英雄／野性爆弾 くっきー！／バッファロー吾郎Ａ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-25T10:10:59+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "dc544a3c",
@@ -20317,16 +20327,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-25T10:10:59+09:00",
-      "diff": {
-        "members": {
-          "before": "パンクブーブー／とろサーモン／バイク川崎バイク／チョコレートプラネット／金属バット／黒帯／マユリカ／たくろう／他\n『英雄SPユニット』： 英雄／野性爆弾 くっきー！／バッファロー吾郎Ａ",
-          "after": "パンクブーブー／とろサーモン／バイク川崎バイク／チョコレートプラネット／金属バット／黒帯／マユリカ／たくろう\n『英雄SPユニット』： 英雄／野性爆弾 くっきー！／バッファロー吾郎Ａ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-25T10:10:59+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "697d5d10",
@@ -22787,7 +22792,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/20267/52454",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E7%AC%91%E3%81%A3%E3%81%A6%E3%81%AA%E3%82%93%E3%81%BC-roppongi%E3%81%A7%E5%A4%A7%E9%98%AA%E3%82%92%E5%91%B3%E3%82%8F%E3%81%86%E5%A4%9C-9-15-19-15",
       "notice": "大阪で切磋琢磨してきたメンバーが、六本木に集結！\r\nコントとコーナーの60分ライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇一般販売：8/25（火）10:00\r\n\r\n■配信チケット■\r\n〇発売日：8/25（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2500,
@@ -23084,7 +23089,7 @@
       "open_time": "17:30",
       "start_time": "18:00",
       "end_time": null,
-      "members": "トット 多田智佑／マルセイユ 津田康平／CITY 小野竜輔／ケビンス 山口コンボイ",
+      "members": "トット 多田智佑／マルセイユ 津田康平／シシガシラ 浜中英昌／CITY 小野竜輔／ケビンス 山口コンボイ",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -23097,10 +23102,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-08-25T17:40:10+09:00",
       "first_seen": "2026-08-23T17:28:17+09:00",
-      "last_updated": "2026-08-23T17:28:17+09:00",
-      "notified_at": "2026-08-23T17:28:17+09:00",
-      "diff": null
+      "notified_at": "2026-08-25T17:40:11+09:00"
     },
     {
       "id": "2dfd47ab",
@@ -23256,9 +23260,10 @@
       ],
       "local_image": "fliers/26444574.jpg",
       "status": "notified",
-      "last_updated": "2026-08-25T10:10:59+09:00",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-08-25T10:11:00+09:00"
+      "last_updated": "2026-08-25T10:10:59+09:00",
+      "notified_at": "2026-08-25T10:11:00+09:00",
+      "diff": null
     },
     {
       "id": "473e6da6",
@@ -23418,7 +23423,7 @@
       "open_time": "11:15",
       "start_time": "11:30",
       "end_time": null,
-      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／ザ・ローリングモンキー／アイディアマラソン／＜ゲームコーナー＞",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／ザ・ローリングモンキー／アイディアマラソン／〔前説〕かば鴉／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -23430,11 +23435,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "diff": {
+        "members": {
+          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／ザ・ローリングモンキー／アイディアマラソン／＜ゲームコーナー＞",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／ザ・ローリングモンキー／アイディアマラソン／〔前説〕かば鴉／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-08-23T10:14:44+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "4d5f3337",
@@ -23478,7 +23488,7 @@
       "open_time": "13:25",
       "start_time": "13:40",
       "end_time": null,
-      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／ザ・ローリングモンキー／太宰／＜ゲームコーナー＞",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／ザ・ローリングモンキー／太宰／〔前説〕かば鴉／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -23490,11 +23500,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "diff": {
+        "members": {
+          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／ザ・ローリングモンキー／太宰／＜ゲームコーナー＞",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／ザ・ローリングモンキー／太宰／〔前説〕かば鴉／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-08-23T10:14:44+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "04f95917",
@@ -23568,7 +23583,7 @@
       "open_time": "15:35",
       "start_time": "15:50",
       "end_time": null,
-      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／太宰／ラブちゃん／＜ゲームコーナー＞",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／太宰／ラブちゃん／〔前説〕かば鴉／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -23580,11 +23595,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "diff": {
+        "members": {
+          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／太宰／ラブちゃん／＜ゲームコーナー＞",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／サカイスト／太宰／ラブちゃん／〔前説〕かば鴉／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-10T11:57:14+09:00",
-      "last_updated": "2026-08-23T10:14:44+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "1bdcbe29",
@@ -23628,7 +23648,7 @@
       "open_time": "17:45",
       "start_time": "18:00",
       "end_time": null,
-      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／喜喜かいばしら／メリコンドル／アイディアマラソン／＜ゲームコーナー＞",
+      "members": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／喜喜かいばしら／メリコンドル／アイディアマラソン／〔前説〕かば鴉／＜ゲームコーナー＞",
       "venue": "よしもと福岡 大和証券劇場",
       "prefecture": "福岡県",
       "image_url": null,
@@ -23640,11 +23660,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "diff": {
+        "members": {
+          "before": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／喜喜かいばしら／メリコンドル／アイディアマラソン／＜ゲームコーナー＞",
+          "after": "ジャルジャル／アインシュタイン／もりやすバンバンビガロ／ビスケットブラザーズ／スカチャン／ですよ。／カゲヤマ／喜喜かいばしら／メリコンドル／アイディアマラソン／〔前説〕かば鴉／＜ゲームコーナー＞"
+        }
+      },
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "last_updated": "2026-08-09T17:40:40+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "bff1122d",
@@ -24133,7 +24158,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/19775/51211",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BB%B2%E8%89%AF%E3%81%97-%E3%83%A9%E3%82%A4%E3%83%96-9-20-18-30",
       "notice": "仲良し！？4組集めました！\r\nネタとコーナーをお届け！波乱が起こりそうな予感、、、。\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：8/15（土）11:00～8/17（月）11:00\r\n〇一般販売：8/19（水）10:00\r\n\r\n■配信チケット■\r\n〇発売日：8/19（水）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 3000,
@@ -24309,7 +24334,7 @@
       "open_time": "11:30",
       "start_time": "12:00",
       "end_time": null,
-      "members": "黒帯／kento fukaya／ぎょうぶ／シカノシンプ／兄弟／あなたとネ／他／[MC] タナからイケダ",
+      "members": "黒帯／kento fukaya／愛凛冴／ぎょうぶ／シカノシンプ／兄弟／あなたとネ／他／[MC] タナからイケダ",
       "venue": "よしもと道頓堀シアター",
       "prefecture": "大阪府",
       "image_url": null,
@@ -24321,11 +24346,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "diff": {
+        "members": {
+          "before": "黒帯／kento fukaya／ぎょうぶ／シカノシンプ／兄弟／あなたとネ／他／[MC] タナからイケダ",
+          "after": "黒帯／kento fukaya／愛凛冴／ぎょうぶ／シカノシンプ／兄弟／あなたとネ／他／[MC] タナからイケダ"
+        }
+      },
       "first_seen": "2026-07-31T11:43:41+09:00",
-      "last_updated": "2026-07-31T11:43:41+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "33b3a201",
@@ -25921,7 +25951,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/20266/52451",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%9C%E3%82%B1%E3%83%9E%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%A4%A7%E8%B3%9E-9-29-19-30",
       "notice": "ボケ×ドラマティックは成立するのかをいろいろなパターンで検証するライブ！\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇一般販売：8/25（火）10:00\r\n\r\n■配信チケット■\r\n〇発売日：8/25（火）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 2000,
@@ -26052,7 +26082,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/19659/50994",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%8F%B0%E6%9C%AC%E3%82%82%E3%82%89%E3%81%A3%E3%81%A6-%E5%8D%B3%E3%82%B3%E3%83%B3%E3%83%88-9-30-19-30",
       "notice": "カゲヤマ益田脚本のドラマ台本を出演者が1分間で覚えて演じる即興コントライブ。\r\n誰かが台詞を間違えたり、飛ばしたりした時点で罰ゲームも…!?\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：8/11（火）11:00～8/13（木）11:00\r\n〇一般販売：8/15（土）10:00\r\n\r\n■配信チケット■\r\n〇発売日：8/15（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 3000,
@@ -26305,6 +26335,33 @@
       "diff": null
     },
     {
+      "id": "90fcc871",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "マンゲキお笑いライブSP",
+      "date": "2026-10-03",
+      "open_time": "09:40",
+      "start_time": "10:00",
+      "end_time": null,
+      "members": "[ネタ出演者]ガクテンソク／マヂカルラブリー／セルライトスパ／コットン／さや香／からし蓮根／アイラブ地球／センリーズ／イノシカチョウ／盆と正月／イチオク／翠星チークダンス／愛凛冴／爛々 萌々\n[スペシャルアクト]\n[ゲームコーナー]",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
+    },
+    {
       "id": "43e5ab1d",
       "talents": {
         "10708": "シンクロニシティ"
@@ -26367,6 +26424,33 @@
       "last_updated": "2026-08-24T10:12:26+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "1bff4374",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "マンゲキお笑いライブSP",
+      "date": "2026-10-03",
+      "open_time": "12:20",
+      "start_time": "12:40",
+      "end_time": null,
+      "members": "[ネタ出演者]ガクテンソク／マヂカルラブリー／セルライトスパ／コットン／さや香／からし蓮根／アイラブ地球／センリーズ／イノシカチョウ／盆と正月／イチオク／翠星チークダンス／愛凛冴／爛々 萌々\n[スペシャルアクト]\n[ゲームコーナー]",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
     },
     {
       "id": "e3e7a8dd",
@@ -26886,14 +26970,15 @@
       "status": "new",
       "first_seen": "2026-08-25T10:10:59+09:00",
       "last_updated": "2026-08-25T10:10:59+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6377c5bc",
       "talents": {
         "5997": "ビスケットブラザーズ"
       },
-      "title": "六本木お笑いコントライブ！平日SP",
+      "title": "六本木お笑いコントライブ！平日SP　※子ども料金、高校生料金あり",
       "date": "2026-10-07",
       "open_time": "19:15",
       "start_time": "19:30",
@@ -26917,14 +27002,15 @@
       "status": "new",
       "first_seen": "2026-08-25T10:10:59+09:00",
       "last_updated": "2026-08-25T10:10:59+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "566101c6",
       "talents": {
         "5997": "ビスケットブラザーズ"
       },
-      "title": "六本木お笑いコントライブ！平日SP",
+      "title": "六本木お笑いコントライブ！平日SP　※子ども料金、高校生料金あり",
       "date": "2026-10-07",
       "open_time": "20:45",
       "start_time": "21:00",
@@ -26948,7 +27034,8 @@
       "status": "new",
       "first_seen": "2026-08-25T10:10:59+09:00",
       "last_updated": "2026-08-25T10:10:59+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2d536d92",
@@ -27164,6 +27251,87 @@
       "diff": null
     },
     {
+      "id": "b9bdb657",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "森ノ宮マンゲキお笑いライブSP",
+      "date": "2026-10-10",
+      "open_time": "13:15",
+      "start_time": "13:30",
+      "end_time": null,
+      "members": "ガクテンソク／ニッポンの社長／シンクロニシティ／ヨネダ2000／田津原理音／タナからイケダ／ネイビーズアフロ／天才ピアニスト／アイラブ地球／イノシカチョウ／三遊間",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
+    },
+    {
+      "id": "6dcdb40b",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "森ノ宮マンゲキお笑いライブSP",
+      "date": "2026-10-10",
+      "open_time": "15:45",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "ガクテンソク／ニッポンの社長／シンクロニシティ／ヨネダ2000／田津原理音／タナからイケダ／ネイビーズアフロ／天才ピアニスト／アイラブ地球／イノシカチョウ／三遊間",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
+    },
+    {
+      "id": "2330fd7c",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "シンクロニシティ×翠星チークダンス",
+      "date": "2026-10-10",
+      "open_time": "18:15",
+      "start_time": "18:30",
+      "end_time": null,
+      "members": "翠星チークダンス／シンクロニシティ",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": "2026-08-25T17:40:11+09:00"
+    },
+    {
       "id": "0bb0f39d",
       "talents": {
         "5114": "マユリカ"
@@ -27274,16 +27442,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-25T10:10:59+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]めぞん／ケビンス／シカゴ実業／キンボシ／まんじろう／スーパーサイズ・ミー／大王／他",
-          "after": "[ネタ＆コーナーライブ]ビスケットブラザーズ／めぞん／ケビンス／シカゴ実業／キンボシ／まんじろう／スーパーサイズ・ミー／大王／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-25T10:10:59+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "17430f7e",
@@ -27344,16 +27507,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-25T10:10:59+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]めぞん／ケビンス／シカゴ実業／キンボシ／まんじろう／スーパーサイズ・ミー／大王／他",
-          "after": "[ネタ＆コーナーライブ]ビスケットブラザーズ／めぞん／ケビンス／シカゴ実業／キンボシ／まんじろう／スーパーサイズ・ミー／大王／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-25T10:10:59+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ed97f3aa",
@@ -27414,16 +27572,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-25T10:10:59+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]めぞん／ケビンス／シカゴ実業／キンボシ／まんじろう／スーパーサイズ・ミー／大王／他",
-          "after": "[ネタ＆コーナーライブ]ビスケットブラザーズ／めぞん／ケビンス／シカゴ実業／キンボシ／まんじろう／スーパーサイズ・ミー／大王／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-25T10:10:59+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "fdb4a2fc",
@@ -27700,6 +27853,37 @@
       "diff": null
     },
     {
+      "id": "470c975d",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "大宮ラクーンよしもと寄席　その壱",
+      "date": "2026-10-17",
+      "open_time": "12:15",
+      "start_time": "12:30",
+      "end_time": "13:30",
+      "members": "佐久間一行／タモンズ／ヘンダーソン／シシガシラ／ビスケットブラザーズ／さや香／他",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/20230/52402",
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n一般発売：9/5（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n",
+      "price": {
+        "advance": 2700,
+        "door": 3200
+      },
+      "sources": [
+        "theater:omiya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
+    },
+    {
       "id": "e09e541d",
       "talents": {
         "10708": "シンクロニシティ"
@@ -27762,6 +27946,37 @@
       "last_updated": "2026-08-24T10:12:26+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "c5ffa269",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "大宮ラクーンよしもと寄席　その弐",
+      "date": "2026-10-17",
+      "open_time": "14:15",
+      "start_time": "14:30",
+      "end_time": "15:30",
+      "members": "佐久間一行／タモンズ／ヘンダーソン／シシガシラ／ビスケットブラザーズ／さや香／他",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/20230/52403",
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n一般発売：9/5（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n",
+      "price": {
+        "advance": 2700,
+        "door": 3200
+      },
+      "sources": [
+        "theater:omiya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
     },
     {
       "id": "8bd8085f",
@@ -27863,6 +28078,37 @@
       "diff": null
     },
     {
+      "id": "d60761ab",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "大宮ラクーンよしもと寄席　その壱【県民割引あり】",
+      "date": "2026-10-18",
+      "open_time": "12:15",
+      "start_time": "12:30",
+      "end_time": "13:30",
+      "members": "タモンズ／カゲヤマ／マユリカ／金魚番長／他",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/20228/52396",
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n一般発売：9/5（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n\r\n【県民割＝埼玉県在住のお客様が対象のお得なチケットです！！】\r\n★県民割のチケットをご購入のお客様は、公演当日の入場時に現住所を証明できるもののご提示をお願いいたします。 チケット1枚につき、お一人様分の証明書をご準備ください。\r\n※公的機関が発行した免許証や健康保険証等の現住所が記載された身分証をお持ちください。\r\n※身分証を確認できない場合や、埼玉県在住以外のお客様で該当のチケットをお持ちの場合は、窓口にて通常料金の差額をお支払いいただきます。予めご了承ください。\r\n",
+      "price": {
+        "advance": 27002200,
+        "door": 32002500
+      },
+      "sources": [
+        "theater:omiya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
+    },
+    {
       "id": "2770ea1b",
       "talents": {
         "5110": "kento fukaya"
@@ -27958,6 +28204,37 @@
       "last_updated": "2026-08-24T10:12:26+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "85c71fd3",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "大宮ラクーンよしもと寄席　その弐【県民割引あり】",
+      "date": "2026-10-18",
+      "open_time": "14:15",
+      "start_time": "14:30",
+      "end_time": "15:30",
+      "members": "タモンズ／カゲヤマ／マユリカ／金魚番長／他",
+      "venue": "大宮ラクーンよしもと劇場",
+      "prefecture": "埼玉県",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/20228/52397",
+      "online_url": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n一般発売：9/5（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n\r\n【県民割＝埼玉県在住のお客様が対象のお得なチケットです！！】\r\n★県民割のチケットをご購入のお客様は、公演当日の入場時に現住所を証明できるもののご提示をお願いいたします。 チケット1枚につき、お一人様分の証明書をご準備ください。\r\n※公的機関が発行した免許証や健康保険証等の現住所が記載された身分証をお持ちください。\r\n※身分証を確認できない場合や、埼玉県在住以外のお客様で該当のチケットをお持ちの場合は、窓口にて通常料金の差額をお支払いいただきます。予めご了承ください。\r\n",
+      "price": {
+        "advance": 27002200,
+        "door": 32002500
+      },
+      "sources": [
+        "theater:omiya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
     },
     {
       "id": "619962a6",
@@ -28362,9 +28639,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-08-25T10:10:59+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-08-25T10:11:00+09:00"
+      "last_updated": "2026-08-25T10:10:59+09:00",
+      "notified_at": "2026-08-25T10:11:00+09:00",
+      "diff": null
     },
     {
       "id": "fef870c0",
@@ -28593,6 +28871,33 @@
       "diff": null
     },
     {
+      "id": "b4e23486",
+      "talents": {
+        "5110": "kento fukaya"
+      },
+      "title": "原始人ライブ",
+      "date": "2026-10-26",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": null,
+      "members": "フースーヤ／アイラブ地球 コウノ・オブ・ザ・イヤー／祇園 木﨑／セルライトスパ ヒーゴー／マイスイートメモリーズ 花谷／kento fukaya",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": "2026-08-25T17:40:11+09:00"
+    },
+    {
       "id": "f0ebad39",
       "talents": {
         "2772": "マヂカルラブリー"
@@ -28685,7 +28990,8 @@
       "status": "new",
       "first_seen": "2026-08-25T10:10:59+09:00",
       "last_updated": "2026-08-25T10:10:59+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e8b5a933",
@@ -28798,7 +29104,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/20446/52696",
       "online_url": null,
       "notice": "コントをしたあとにピン芸人がコーナーで暴れまわります！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：8/30（日）11:00～9/1（火）11:00\r\n〇一般販売：9/5（土）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際に",
       "price": {
@@ -28810,9 +29116,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-08-25T17:40:10+09:00",
       "first_seen": "2026-08-25T10:10:59+09:00",
-      "last_updated": "2026-08-25T10:10:59+09:00",
-      "notified_at": "2026-08-25T10:11:00+09:00"
+      "notified_at": "2026-08-25T17:40:11+09:00"
     },
     {
       "id": "94e173de",
@@ -29177,6 +29483,33 @@
       "diff": null
     },
     {
+      "id": "4855e2e6",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "Kiwami極LIVE",
+      "date": "2026-10-30",
+      "open_time": "16:45",
+      "start_time": "17:00",
+      "end_time": null,
+      "members": "ゲスト:男性ブランコ／ビスケットブラザーズ／　\n武者武者／茜250cc／もも／ドーナツ・ピーナツ／盆と正月／愛凛冴／空前メテオ／苺ちゃん／やまぐちたけし",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
+    },
+    {
       "id": "a72636bf",
       "talents": {
         "5110": "kento fukaya",
@@ -29211,6 +29544,33 @@
       "diff": null
     },
     {
+      "id": "c0ce0e6c",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "隣人のコントライブ",
+      "date": "2026-10-30",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": null,
+      "members": "隣人／スナフキンズ／シカノシンプ／釈迦虎／ゲスト:ダブルアート／マイスイートメモリーズ／ビスケットブラザーズ／しげ",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": "2026-08-25T17:40:11+09:00"
+    },
+    {
       "id": "af209cbd",
       "talents": {
         "5114": "マユリカ"
@@ -29237,6 +29597,33 @@
       "last_updated": "2026-08-24T17:46:03+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "8d428ed9",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "マンゲキお笑いライブSP",
+      "date": "2026-10-31",
+      "open_time": "09:40",
+      "start_time": "10:00",
+      "end_time": null,
+      "members": "[ネタ出演者]モンスターエンジン／マユリカ／フースーヤ／ジョックロック／スナフキンズ／華山／愛凛冴／うただ\n[スペシャルアクト]\n[ゲームコーナー]",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
     },
     {
       "id": "e2fcd6f8",
@@ -29270,6 +29657,33 @@
       "last_updated": "2026-08-24T17:46:03+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "056a96ec",
+      "talents": {
+        "11715": "電気ジュース"
+      },
+      "title": "森ノ宮Kakeru翔LIVE特別編",
+      "date": "2026-10-31",
+      "open_time": "11:30",
+      "start_time": "11:45",
+      "end_time": null,
+      "members": "シカノシンプ／シャガール／ファンファーレと熱狂／オニイチャン／空前メテオ／ライムギ／電気ジュース／釈迦虎／入学卒業／バリアシオン／ゆくえ",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
     },
     {
       "id": "99996e1c",
@@ -29364,6 +29778,33 @@
       "last_updated": "2026-08-24T17:46:03+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "9acdd9b5",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "マンゲキお笑いライブSP",
+      "date": "2026-10-31",
+      "open_time": "15:00",
+      "start_time": "15:20",
+      "end_time": null,
+      "members": "[ネタ出演者]モンスターエンジン／マユリカ／フースーヤ／スナフキンズ／華山／愛凛冴／うただ／空前メテオ\n[スペシャルアクト]\n[ゲームコーナー]",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-08-25T17:40:10+09:00",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "notified_at": null
     },
     {
       "id": "8b969a40",
@@ -29684,7 +30125,7 @@
       "open_time": "10:30",
       "start_time": "11:00",
       "end_time": null,
-      "members": "[漫才・落語]海原やすよ ともこ／トミーズ／テンダラー／桂かい枝／トータルテンボス／ギャロップ／ツートライブ／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]",
+      "members": "[漫才・落語]海原やすよ ともこ／トミーズ／テンダラー／桂かい枝／トータルテンボス／ギャロップ／ツートライブ／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ",
       "venue": "なんばグランド花月",
       "prefecture": "大阪府",
       "image_url": null,
@@ -29696,11 +30137,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "diff": {
+        "members": {
+          "before": "[漫才・落語]海原やすよ ともこ／トミーズ／テンダラー／桂かい枝／トータルテンボス／ギャロップ／ツートライブ／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]",
+          "after": "[漫才・落語]海原やすよ ともこ／トミーズ／テンダラー／桂かい枝／トータルテンボス／ギャロップ／ツートライブ／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ"
+        }
+      },
       "first_seen": "2026-08-24T17:46:03+09:00",
-      "last_updated": "2026-08-24T17:46:03+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "313ce365",
@@ -29712,7 +30158,7 @@
       "open_time": "14:00",
       "start_time": "14:30",
       "end_time": null,
-      "members": "[漫才・落語]海原やすよ ともこ／トミーズ／テンダラー／桂かい枝／トータルテンボス／ギャロップ／ツートライブ／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]",
+      "members": "[漫才・落語]海原やすよ ともこ／トミーズ／テンダラー／桂かい枝／トータルテンボス／ギャロップ／ツートライブ／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ",
       "venue": "なんばグランド花月",
       "prefecture": "大阪府",
       "image_url": null,
@@ -29724,11 +30170,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "diff": {
+        "members": {
+          "before": "[漫才・落語]海原やすよ ともこ／トミーズ／テンダラー／桂かい枝／トータルテンボス／ギャロップ／ツートライブ／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]",
+          "after": "[漫才・落語]海原やすよ ともこ／トミーズ／テンダラー／桂かい枝／トータルテンボス／ギャロップ／ツートライブ／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ"
+        }
+      },
       "first_seen": "2026-08-24T17:46:03+09:00",
-      "last_updated": "2026-08-24T17:46:03+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "e2fee566",
@@ -29740,7 +30191,7 @@
       "open_time": "09:30",
       "start_time": "10:00",
       "end_time": null,
-      "members": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン\n[新喜劇]",
+      "members": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ",
       "venue": "なんばグランド花月",
       "prefecture": "大阪府",
       "image_url": null,
@@ -29752,11 +30203,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "diff": {
+        "members": {
+          "before": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン\n[新喜劇]",
+          "after": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ"
+        }
+      },
       "first_seen": "2026-08-24T17:46:03+09:00",
-      "last_updated": "2026-08-24T17:46:03+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "1746c9cf",
@@ -29796,7 +30252,7 @@
       "open_time": "12:30",
       "start_time": "13:00",
       "end_time": null,
-      "members": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン\n[新喜劇]",
+      "members": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ",
       "venue": "なんばグランド花月",
       "prefecture": "大阪府",
       "image_url": null,
@@ -29808,11 +30264,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-08-25T17:40:10+09:00",
+      "diff": {
+        "members": {
+          "before": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン\n[新喜劇]",
+          "after": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ"
+        }
+      },
       "first_seen": "2026-08-24T17:46:03+09:00",
-      "last_updated": "2026-08-24T17:46:03+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "1969e58a",

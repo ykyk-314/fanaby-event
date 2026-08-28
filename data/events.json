@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T03:51:51+09:00",
+  "updated_at": "2026-08-28T18:42:18+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -18856,8 +18856,7 @@
         "door": 45003500
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -18916,8 +18915,7 @@
         "door": 4500
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -18948,8 +18946,7 @@
         "door": 4500
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -18981,20 +18978,14 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ゆにばーす／蛙亭／滝音／ダブルヒガシ／ウォンバット／ケビンス／田津原理音／ラニーノーズ／ド桜／ピュート\n[ コーナー出演者]コーナーMC：ゆにばーす／蛙亭／滝音／ダブルヒガシ／ド桜",
-          "after": "[ネタ＆コーナーライブ]ゆにばーす／蛙亭／滝音／ダブルヒガシ／ウォンバット／ケビンス／田津原理音／ラニーノーズ／ド桜／ピュート\n[ コーナー出演者]コーナーMC：ゆにばーす／滝音／ダブルヒガシ／ド桜／ピュート"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "45b188a2",
@@ -19149,16 +19140,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／あなたとネ／例えば炎",
-          "after": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／あなたとネ／例えば炎\n[コーナー出演者]MC：兄弟／まんじろう／シンクロニシティ／ザンゾウ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0525e772",
@@ -19242,16 +19228,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／あなたとネ／例えば炎",
-          "after": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／あなたとネ／例えば炎\n[コーナー出演者]MC：大王／やさしいズ／あなたとネ／例えば炎"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "87cda3ac",
@@ -19335,16 +19316,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／あなたとネ／例えば炎",
-          "after": "[ネタ出演者]さや香／今井らいぱち／やさしいズ／まんじろう／ぶったま／シンクロニシティ／大王／兄弟／ザンゾウ／あなたとネ／例えば炎\n[コーナー出演者]MC：兄弟／今井らいぱち／ぶったま／大王"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-02T19:39:02+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "15f413d6",
@@ -20063,16 +20039,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "レイザーラモン／ジョイマン／ななまがり／ヘンダーソン／ビスケットブラザーズ／ケビンス／ヨネダ2000／他",
-          "after": "レイザーラモン／ジョイマン／トット／ななまがり／ヘンダーソン／ビスケットブラザーズ／ケビンス／ヨネダ2000"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "45445a59",
@@ -20097,16 +20068,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "レイザーラモン／ジョイマン／ななまがり／ヘンダーソン／ビスケットブラザーズ／ケビンス／ヨネダ2000／他",
-          "after": "レイザーラモン／ジョイマン／トット／ななまがり／ヘンダーソン／ビスケットブラザーズ／ケビンス／ヨネダ2000"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8b7f477e",
@@ -20195,16 +20161,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "レイザーラモン／ジョイマン／守谷日和／ななまがり／ヘンダーソン／ケビンス／他",
-          "after": "レイザーラモン／ジョイマン／トット／守谷日和／ななまがり／ヘンダーソン／ケビンス／スーパーサイズ・ミー"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-04T19:37:48+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "7c912af4",
@@ -20389,20 +20350,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]やさしいズ／ケビンス／シモリュウ／イチゴ／金魚番長／他",
-          "after": "[ネタ出演者]やさしいズ／ケビンス／シモリュウ／イチゴ／金魚番長／テキセツの街／ぺ／あなたとネ"
-        },
-        "notice": {
-          "before": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00",
-          "after": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nテキセツの街、ぺ、あなたとネ(8/27)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8e39ba38",
@@ -20857,20 +20809,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]めぞん／kento fukaya／シモリュウ／世間知らズ／ミカボ／ゼロカラン／ザンゾウ／空前メテオ／他",
-          "after": "[ネタ出演者]めぞん／kento fukaya／シモリュウ／そいつどいつ／オダウエダ／世間知らズ／ミカボ／ゼロカラン／ザンゾウ／空前メテオ／他"
-        },
-        "notice": {
-          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nめぞん(8/22)",
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nめぞん(8/22)\r\nそいつどいつ、オダウエダ(8/27)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "08778b60",
@@ -20964,20 +20907,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]めぞん／いぬ／kento fukaya／世間知らズ／ミカボ／ゼロカラン／ザンゾウ／空前メテオ／他",
-          "after": "[ネタ出演者]めぞん／いぬ／kento fukaya／そいつどいつ／オダウエダ／世間知らズ／ミカボ／ゼロカラン／ザンゾウ／空前メテオ／他"
-        },
-        "notice": {
-          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nめぞん(8/22)",
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nめぞん(8/22)\r\nそいつどいつ、オダウエダ(8/27)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "129e2606",
@@ -21071,20 +21005,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]めぞん／いぬ／kento fukaya／世間知らズ／ミカボ／ゼロカラン／ザンゾウ／空前メテオ／他",
-          "after": "[ネタ出演者]めぞん／いぬ／kento fukaya／そいつどいつ／オダウエダ／世間知らズ／ミカボ／ゼロカラン／ザンゾウ／空前メテオ／他"
-        },
-        "notice": {
-          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nめぞん(8/22)",
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nめぞん(8/22)\r\nそいつどいつ、オダウエダ(8/27)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e8252c42",
@@ -21849,16 +21774,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／見取り図／ガクテンソク／ビスケットブラザーズ／たくろう／マユリカ／豪快キャプテン／天才ピアニスト／華山／イノシカチョウ／九ノ段／例えば炎／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／見取り図／ガクテンソク／ビスケットブラザーズ／たくろう／マユリカ／豪快キャプテン／天才ピアニスト／華山／ナナ／イノシカチョウ／九ノ段／例えば炎／やまぐちたけし\n[スペシャルアクト]〈ギャグ芸人〉／おもしろジャンケン 嘉津じゃない方／おもしろジャンケン 嘉津／山椒魚 フィジカル北岡\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "12dba5ea",
@@ -22003,16 +21923,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／見取り図／ガクテンソク／ビスケットブラザーズ／たくろう／マユリカ／豪快キャプテン／天才ピアニスト／華山／イノシカチョウ／九ノ段／例えば炎／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／見取り図／ガクテンソク／ビスケットブラザーズ／たくろう／マユリカ／豪快キャプテン／天才ピアニスト／華山／センリーズ／イノシカチョウ／九ノ段／例えば炎／やまぐちたけし\n[スペシャルアクト]〈ギャグ芸人〉／おもしろジャンケン 嘉津じゃない方／おもしろジャンケン 嘉津／山椒魚 フィジカル北岡\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "94cc9ce8",
@@ -22250,16 +22165,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／ガクテンソク／ビスケットブラザーズ／たくろう／さや香／豪快キャプテン／天才ピアニスト／ポチ／丸亀じゃんご／三遊間／オニイチャン／例えば炎／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／ガクテンソク／ビスケットブラザーズ／たくろう／さや香／豪快キャプテン／天才ピアニスト／ジョックロック／ポチ／丸亀じゃんご／三遊間／オニイチャン／例えば炎／やまぐちたけし\n[スペシャルアクト]〈ギャグ芸人〉／おもしろジャンケン 嘉津じゃない方／おもしろジャンケン 嘉津／山椒魚 フィジカル北岡\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "81b80454",
@@ -22458,16 +22368,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／見取り図／ガクテンソク／ビスケットブラザーズ／たくろう／さや香／豪快キャプテン／天才ピアニスト／丸亀じゃんご／三遊間／オニイチャン／例えば炎／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／見取り図／ガクテンソク／ビスケットブラザーズ／たくろう／さや香／豪快キャプテン／天才ピアニスト／丸亀じゃんご／三遊間／オニイチャン／例えば炎／やまぐちたけし\n[スペシャルアクト]〈ギャグ芸人〉／おもしろジャンケン 嘉津じゃない方／おもしろジャンケン 嘉津／山椒魚 フィジカル北岡\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9b9bb61d",
@@ -23315,7 +23220,8 @@
       "status": "new",
       "first_seen": "2026-08-28T03:51:51+09:00",
       "last_updated": "2026-08-28T03:51:51+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a2565bf3",
@@ -23819,16 +23725,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ロザン／トータルテンボス／モンスターエンジン／吉田たち／セルライトスパ／マユリカ／EXIT／あべこうじ／ネイビーズアフロ／天才ピアニスト／センリーズ／鬼としみちゃむ／隣人／マーメイド\n[スペシャルアクト]\n[ゲームコーナー]",
-          "after": "[ネタ出演者]ロザン／トータルテンボス／モンスターエンジン／吉田たち／セルライトスパ／マユリカ／EXIT／あべこうじ／ネイビーズアフロ／天才ピアニスト／センリーズ／鬼としみちゃむ／隣人／マーメイド\n[スペシャルアクト]〈けん玉芸人〉／武者武者 濱坂／イチオク タケヤ／山椒魚 フィジカル北岡／シンボリル 高田\n[ゲームコーナー]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "64d2b631",
@@ -24926,9 +24827,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-08-28T03:51:51+09:00",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-08-28T03:51:51+09:00"
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": "2026-08-28T03:51:51+09:00",
+      "diff": null
     },
     {
       "id": "1a1eda6d",
@@ -25349,7 +25251,7 @@
       "members": "[企画ライブ]とりせん／ケビンス／サンタモニカ／セカンドロット",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000019787_1_20260828152241464.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/18831/49569",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%81%A8%E3%82%8A%E3%81%9B%E3%82%93%E6%96%B0%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96-%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%B3%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-9-23-19-00",
       "notice": "とりせん新ネタ3本！\r\nゲストの方々とネタとコーナーの60分全集中ライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n〇配信：8/5（水）10:00",
@@ -25362,12 +25264,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/3445ddeb.jpg",
       "status": "notified",
+      "last_updated": "2026-08-28T18:42:17+09:00",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-07-23T19:21:42+09:00",
-      "diff": null
+      "notified_at": "2026-08-28T18:42:18+09:00"
     },
     {
       "id": "7e9416a9",
@@ -28411,6 +28312,33 @@
       "diff": null
     },
     {
+      "id": "96f3b798",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "よしもと漫才リーグ チームライブ～滝音チーム編～",
+      "date": "2026-10-19",
+      "open_time": "18:15",
+      "start_time": "18:30",
+      "end_time": null,
+      "members": "滝音／イチゴ／ダイタク 吉本拓／トット／ケビンス／ダンビラムーチョ／ブラゴーリ／世間知らズ／太鵬／フルーツポンチ",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-28T18:42:17+09:00",
+      "last_updated": "2026-08-28T18:42:17+09:00",
+      "notified_at": "2026-08-28T18:42:18+09:00"
+    },
+    {
       "id": "d4c4b5fd",
       "talents": {
         "5110": "kento fukaya"
@@ -28627,16 +28555,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]サルゴリラ／フルーツポンチ／ななまがり／ビスケットブラザーズ／ちょんまげラーメン／オズワルド／他",
-          "after": "[ネタ]サルゴリラ／フルーツポンチ／ななまがり／ビスケットブラザーズ／ちょんまげラーメン／オズワルド／ケビンス／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-23T17:28:17+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ede11a02",
@@ -28661,16 +28584,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-08-28T03:51:51+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]サルゴリラ／フルーツポンチ／ななまがり／ビスケットブラザーズ／ちょんまげラーメン／オズワルド／他",
-          "after": "[ネタ]サルゴリラ／フルーツポンチ／ななまがり／ビスケットブラザーズ／ちょんまげラーメン／オズワルド／ケビンス／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-23T17:28:17+09:00",
-      "notified_at": null
+      "last_updated": "2026-08-28T03:51:51+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bb61d8cf",
@@ -28831,6 +28749,33 @@
       "diff": null
     },
     {
+      "id": "5d1fa890",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "愛媛新聞創刊150周年記念 吉本新喜劇&バラエティ 2026 松山公演",
+      "date": "2026-10-25",
+      "open_time": "11:30",
+      "start_time": "12:00",
+      "end_time": null,
+      "members": "［吉本新喜劇］アキ、安尾信乃助、中條健一、伊賀健二、他\n［バラエティー］大木こだまひびき、村上ショージ、スーパーマラドーナ、ビスケットブラザーズ、他",
+      "venue": "愛媛県県民文化会館 メインホール",
+      "prefecture": "愛媛県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-28T18:42:17+09:00",
+      "last_updated": "2026-08-28T18:42:17+09:00",
+      "notified_at": "2026-08-28T18:42:18+09:00"
+    },
+    {
       "id": "27ad9ce5",
       "talents": {
         "5110": "kento fukaya"
@@ -28925,6 +28870,33 @@
       "last_updated": "2026-08-24T10:12:26+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "19dac899",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "愛媛新聞創刊150周年記念 吉本新喜劇&バラエティ 2026 松山公演",
+      "date": "2026-10-25",
+      "open_time": "15:00",
+      "start_time": "15:30",
+      "end_time": null,
+      "members": "［吉本新喜劇］アキ、安尾信乃助、中條健一、伊賀健二、他\n［バラエティー］大木こだまひびき、村上ショージ、スーパーマラドーナ、ビスケットブラザーズ、他",
+      "venue": "愛媛県県民文化会館 メインホール",
+      "prefecture": "愛媛県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-28T18:42:17+09:00",
+      "last_updated": "2026-08-28T18:42:17+09:00",
+      "notified_at": "2026-08-28T18:42:18+09:00"
     },
     {
       "id": "2087afe4",
@@ -30242,6 +30214,33 @@
       "last_updated": "2026-05-26T23:52:56+09:00",
       "notified_at": "2026-05-26T23:52:56+09:00",
       "diff": null
+    },
+    {
+      "id": "4f464828",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "よしもとお笑いライブin座間2026～秋の夜、笑いでおなかいっぱい～",
+      "date": "2026-11-24",
+      "open_time": "18:15",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "中川家、トータルテンボス、ザ・パンチ、もりやすバンバンビガロ、マヂカルラブリー、囲碁将棋、ななまがり、相席スタート、ダンビラムーチョ",
+      "venue": "ハーモニーホール座間　大ホール",
+      "prefecture": "神奈川県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-08-28T18:42:17+09:00",
+      "last_updated": "2026-08-28T18:42:17+09:00",
+      "notified_at": "2026-08-28T18:42:18+09:00"
     },
     {
       "id": "dc0d8605",

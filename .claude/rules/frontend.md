@@ -10,6 +10,7 @@ paths: docs/**/*
 - `docs/assets/style.css` / `docs/assets/script.js` は静的ファイル。`build.py` は触れない
 - `docs/fliers/` は `merge.py` が管理。手動で削除・追加しない
 - `docs/robots.txt` は全クローラー拒否設定。変更不要
+- `site.webmanifest` / アイコン類（`favicon.svg` / `icon-192.png` / `icon-512.png` / `apple-touch-icon.png`）は `docs/assets/` 配下に置く。CF Access の bypass を `/assets/*` の1エントリに集約するため（詳細は `.claude/rules/cloudflare.md`）。各 HTML の `<link>` は `/assets/xxx` の絶対パスで参照する
 
 ## ファイル構成
 
@@ -26,6 +27,8 @@ paths: docs/**/*
 | `docs/assets/settings.js` | 静的（手動管理） | 芸人管理画面の JS（`FollowStorage`） |
 | `docs/exclude-settings.html` | 静的（手動管理） | 除外設定画面（定常公演の一括/劇場指定除外・除外キーワード） |
 | `docs/assets/exclude-settings.js` | 静的（手動管理） | 除外設定画面の JS（`StandingExcludeStorage` / `ExcludeKeywordStorage`） |
+| `docs/assets/site.webmanifest` | 静的（手動管理） | PWA マニフェスト。CF Access bypass 対象 |
+| `docs/assets/favicon.svg` `docs/assets/icon-192.png` `docs/assets/icon-512.png` `docs/assets/apple-touch-icon.png` | 静的（手動管理） | ファビコン・PWA アイコン。CF Access bypass 対象 |
 | `docs/robots.txt` | 静的 | 全クローラー拒否。変更不要 |
 
 ## フロントエンド設計

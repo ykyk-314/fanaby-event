@@ -37,7 +37,7 @@ Phase 2 / Phase 3 の完了後に残った未実装タスクを整理。
 - LINE Notify は 2025 年 3 月にサービス終了済み → 使用不可
 - LINE Messaging API の無料枠（月 200 通）で代替可能か要調査
 - 無料代替: Web Push（Service Worker + VAPID）への変更も検討対象
-  - PWA 基盤はすでに存在（`site.webmanifest`, `icon-192.png`, `icon-512.png`）
+  - PWA 基盤はすでに存在（`docs/assets/site.webmanifest`, `docs/assets/icon-192.png`, `docs/assets/icon-512.png`）
   - Cloudflare Workers / KV で Push サブスクリプション管理が可能（無料枠内）
 
 

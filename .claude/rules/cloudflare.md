@@ -56,7 +56,14 @@ paths: functions/**/*
 - **bypass パス**（未認証ユーザーがアクセス可能）:
   - `POST /api/register-request`
   - `/register.html`
+  - `/assets/*`（静的アセット全般。`site.webmanifest` / アイコン / `style.css` / 各画面の `.js` を集約。理由は下記「静的アセットの bypass」参照）
 - `/api/excluded-events` の GET は bypass 配下のため、`CF_Authorization` Cookie の存在で CF Access 認証を判定する代替実装
+
+### 静的アセットの bypass（`/assets/*`）
+
+`<link rel="stylesheet">` 等によるサブリソース取得が、CF Access の認証 Cookie 確立前に走ると、CSS/JS の代わりに Access のログイン画面 HTML が返り、スタイルが一切適用されない不具合が発生する（iPhone Safari・PWA で確認済み）。これを避けるため `docs/assets/` 配下（CSS・JS・`site.webmanifest`・アイコン類）はすべて `/assets/*` の1エントリで bypass している。CSS/JS に秘密情報は含まれないため公開して問題ない（API エンドポイント自体は引き続き CF Access 保護下）。
+
+Cloudflare Access は 1 アプリケーションあたり最大 5 つの宛先しか登録できないため、bypass 対象のファイルは可能な限り `docs/assets/` に集約し、ワイルドカード1エントリでまとめること。
 
 ---
 

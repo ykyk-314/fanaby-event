@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T21:37:31+09:00",
+  "updated_at": "2026-09-04T12:03:30+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -21570,7 +21570,7 @@
       "open_time": "18:45",
       "start_time": "19:00",
       "end_time": null,
-      "members": "どんちっち／オーケストラ／キョンビ／電気ジュース／宛先プレーン／ミケネ系／遠足ダイスキタイム／はるかぜに告ぐ／野良レール／ゆくえ\nMC：丸亀じゃんご\n【オーディション2ndステージWEST選抜メンバー】",
+      "members": "どんちっち／オーケストラ／キョンビ／電気ジュース／宛先プレーン／ミケネ系／遠足ダイスキタイム／はるかぜに告ぐ／野良レール／ゆくえ\n【オーディション2ndステージWEST選抜メンバー】／キット／ショテイの位置／カノッサ／白くま／はじめましてはじめ／ピクシー ／FFD700／きんとうん／ヒョウリ／ムジンゾウ／レーザービーム／エイトマイル／銀鬼／大超獣／ニャスポルカ／ロココ／舎梵 ／パルマローザ ／【漫才劇場への道　選抜メンバー】／戎前２丁目／アヒルボート／ドルフィンみさき ／ド球／フルカウント \nMC：丸亀じゃんご",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -21583,10 +21583,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-09-04T12:03:30+09:00",
       "first_seen": "2026-08-13T10:52:55+09:00",
-      "last_updated": "2026-08-21T17:38:56+09:00",
-      "notified_at": "2026-08-21T17:38:56+09:00",
-      "diff": null
+      "notified_at": "2026-09-04T12:03:30+09:00"
     },
     {
       "id": "ca123358",
@@ -22418,6 +22417,34 @@
       "diff": null
     },
     {
+      "id": "d088a841",
+      "talents": {
+        "5114": "マユリカ",
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "マンゲキお笑いライブSP～マンゲキ夏祭り拡大版～",
+      "date": "2026-09-13",
+      "open_time": "09:40",
+      "start_time": "10:00",
+      "end_time": null,
+      "members": "[ネタ出演者]アインシュタイン／ガクテンソク／見取り図／ミキ／ビスケットブラザーズ／マユリカ／バッテリィズ／たくろう／エバース／金魚番長／ネイビーズアフロ／侍スライス／イチオク／ポチ／丸亀じゃんご／チェリー大作戦／うただ／ときヲりぴーと／マーメイド／シカノシンプ",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-09-04T12:03:30+09:00",
+      "last_updated": "2026-09-04T12:03:30+09:00",
+      "notified_at": null
+    },
+    {
       "id": "b753ead5",
       "talents": {
         "7295": "ケビンス"
@@ -22450,6 +22477,34 @@
       "diff": null
     },
     {
+      "id": "092321a3",
+      "talents": {
+        "5114": "マユリカ",
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "森ノ宮マンゲキお笑いライブSP～マンゲキ夏祭り拡大版！～",
+      "date": "2026-09-13",
+      "open_time": "10:45",
+      "start_time": "11:00",
+      "end_time": null,
+      "members": "ギャロップ／トット／見取り図／ビスケットブラザーズ／マユリカ／コットン／ミキ／ダブルヒガシ／たくろう／エバース／イチゴ／ゼロカラン／cacao／空前メテオ／九ノ段／例えば炎／バリアシオン／生姜猫／前説：コブラマン",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000020016_1_20260904015644702.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/092321a3.jpg",
+      "status": "new",
+      "first_seen": "2026-09-04T12:03:30+09:00",
+      "last_updated": "2026-09-04T12:03:30+09:00",
+      "notified_at": null
+    },
+    {
       "id": "883593b8",
       "talents": {
         "7295": "ケビンス"
@@ -22480,6 +22535,62 @@
       "last_updated": "2026-07-23T19:21:42+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "9ee86768",
+      "talents": {
+        "5114": "マユリカ",
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "マンゲキお笑いライブSP～マンゲキ夏祭り拡大版～",
+      "date": "2026-09-13",
+      "open_time": "12:40",
+      "start_time": "13:00",
+      "end_time": null,
+      "members": "[ネタ出演者]アインシュタイン／ガクテンソク／見取り図／ミキ／ビスケットブラザーズ／マユリカ／ダブルヒガシ／バッテリィズ／エバース／金魚番長／もりやすバンバンビガロ／隣人／牛ぺぺ／ナナ／もも／オーサカクレオパトラ／ぎょうぶ／タチマチ／天ロクの丘／あんよの日",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-09-04T12:03:30+09:00",
+      "last_updated": "2026-09-04T12:03:30+09:00",
+      "notified_at": null
+    },
+    {
+      "id": "1eead7bf",
+      "talents": {
+        "5114": "マユリカ",
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "森ノ宮マンゲキお笑いライブSP～マンゲキ夏祭り拡大版！～",
+      "date": "2026-09-13",
+      "open_time": "13:45",
+      "start_time": "14:00",
+      "end_time": null,
+      "members": "ギャロップ／トット／見取り図／ビスケットブラザーズ／マユリカ／コットン／ミキ／ダブルヒガシ／たくろう／エバース／イチゴ／ゼロカラン／cacao／三遊間／ぐろう／ライムギ／満丸／東雲／前説：コブラマン",
+      "venue": "森ノ宮よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000020017_1_20260904015657433.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/1eead7bf.jpg",
+      "status": "new",
+      "first_seen": "2026-09-04T12:03:30+09:00",
+      "last_updated": "2026-09-04T12:03:30+09:00",
+      "notified_at": null
     },
     {
       "id": "5dce2634",
@@ -22712,7 +22823,7 @@
       "members": "フースーヤ／アイラブ地球 コウノ・オブ・ザ・イヤー／祇園 木﨑／ツートライブ／マイスイートメモリーズ 花谷／セルライトスパ ヒーゴー／今井らいぱち／kento fukaya／たくろう きむらバンド",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000019437_1_20260904020853609.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -22720,12 +22831,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/719403db.jpg",
       "status": "notified",
+      "last_updated": "2026-09-04T12:03:30+09:00",
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "last_updated": "2026-07-25T11:33:25+09:00",
-      "notified_at": "2026-07-25T11:33:26+09:00",
-      "diff": null
+      "notified_at": "2026-09-04T12:03:30+09:00"
     },
     {
       "id": "1b25230d",
@@ -24434,6 +24544,33 @@
       "last_updated": "2026-07-23T19:21:42+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "03ff02e0",
+      "talents": {
+        "5997": "ビスケットブラザーズ"
+      },
+      "title": "マンゲキお笑いライブSP",
+      "date": "2026-09-21",
+      "open_time": "15:00",
+      "start_time": "15:20",
+      "end_time": null,
+      "members": "[ネタ出演者]ギャロップ／ツートライブ／囲碁将棋／ビスケットブラザーズ／吉田たち／カベポスター／黒帯／もも／翠星チークダンス／タイムキーパー／三遊間／例えば炎／やまぐちたけし\n[スペシャルアクト]〈ギャグ芸人〉／アイラブ地球 きむきむ／おもしろジャンケン 嘉津じゃない方／おもしろジャンケン 嘉津／山椒魚 フィジカル北岡／あんよの日 やまち\n[ゲームコーナー][前説]おもしろジャンケン",
+      "venue": "よしもと漫才劇場",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-09-04T12:03:30+09:00",
+      "last_updated": "2026-09-04T12:03:30+09:00",
+      "notified_at": null
     },
     {
       "id": "6ed8366c",
@@ -28174,7 +28311,8 @@
       "status": "notified",
       "first_seen": "2026-09-03T21:37:31+09:00",
       "last_updated": "2026-09-03T21:37:31+09:00",
-      "notified_at": "2026-09-03T21:37:31+09:00"
+      "notified_at": "2026-09-03T21:37:31+09:00",
+      "diff": null
     },
     {
       "id": "7b59ea3c",
@@ -29226,7 +29364,7 @@
       "open_time": "14:30",
       "start_time": "15:00",
       "end_time": null,
-      "members": "[ネタ]ザ・パンチ／イチキップリン／ビスケットブラザーズ／マユリカ／他",
+      "members": "[ネタ]ザ・パンチ／イチキップリン／ビスケットブラザーズ／マユリカ／めぞん／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -29238,11 +29376,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-09-04T12:03:30+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]ザ・パンチ／イチキップリン／ビスケットブラザーズ／マユリカ／他",
+          "after": "[ネタ]ザ・パンチ／イチキップリン／ビスケットブラザーズ／マユリカ／めぞん／他"
+        }
+      },
       "first_seen": "2026-08-30T22:34:34+09:00",
-      "last_updated": "2026-09-02T21:34:35+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "fef870c0",
@@ -29288,7 +29431,7 @@
       "open_time": "16:30",
       "start_time": "17:00",
       "end_time": null,
-      "members": "[ネタ]ザ・パンチ／イチキップリン／ビスケットブラザーズ／マユリカ／他",
+      "members": "[ネタ]ザ・パンチ／イチキップリン／ビスケットブラザーズ／マユリカ／めぞん／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -29300,11 +29443,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-09-04T12:03:30+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]ザ・パンチ／イチキップリン／ビスケットブラザーズ／マユリカ／他",
+          "after": "[ネタ]ザ・パンチ／イチキップリン／ビスケットブラザーズ／マユリカ／めぞん／他"
+        }
+      },
       "first_seen": "2026-08-30T22:34:34+09:00",
-      "last_updated": "2026-09-02T21:34:35+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "830fe4c9",
@@ -30742,9 +30890,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-03T21:37:31+09:00",
       "first_seen": "2026-07-03T19:34:44+09:00",
-      "notified_at": "2026-09-03T21:37:31+09:00"
+      "last_updated": "2026-09-03T21:37:31+09:00",
+      "notified_at": "2026-09-03T21:37:31+09:00",
+      "diff": null
     },
     {
       "id": "43e60ecd",

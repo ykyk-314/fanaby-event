@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T12:05:09+09:00",
+  "updated_at": "2026-09-06T20:58:36+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -20779,8 +20779,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -20811,8 +20810,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -20843,8 +20841,7 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": null,
       "status": "notified",
@@ -20877,8 +20874,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -20909,8 +20905,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -20943,8 +20938,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -20975,8 +20969,7 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": "fliers/14ca4e4e.jpg",
       "status": "notified",
@@ -21007,8 +21000,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -21039,8 +21031,7 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": "fliers/e8252c42.jpg",
       "status": "notified",
@@ -21172,6 +21163,7 @@
     {
       "id": "b5b01775",
       "talents": {
+        "5110": "kento fukaya",
         "7295": "ケビンス"
       },
       "title": "渋谷よしもと漫才劇場　寄席SP",
@@ -21179,13 +21171,13 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": "18:15",
-      "members": "[企画ライブ]中田カウス 漫才のDENDO NEXT／ダブルヒガシ／滝音／ケビンス／9番街レトロ／めぞん／軟水／イチゴ／ゼロカラン／大王／ダイタク",
+      "members": "[企画ライブ]中田カウス 漫才のDENDO NEXT／ダブルヒガシ／kento fukaya／滝音／ケビンス／めぞん／9番街レトロ／軟水／イチゴ／ゼロカラン／大王／ダイタク",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/18934/49783",
       "online_url": null,
-      "notice": "渋谷/神保町よしもと漫才劇場所属メンバーのネタと、中田カウス師匠が若手漫才師と貴重なトークを展開する「漫才のDENDO NEXT」をお送りするスペシャルな7５分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：7/25(土) 11:00 〜 7/28(火) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：7/25(土) 11:00 〜 7/28(火) 11:00\r\n\r\n一般発売：8/5(水) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\nケビンス、ダイタク(9/5)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "notice": "渋谷/神保町よしもと漫才劇場所属メンバーのネタと、中田カウス師匠が若手漫才師と貴重なトークを展開する「漫才のDENDO NEXT」をお送りするスペシャルな7５分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：7/25(土) 11:00 〜 7/28(火) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：7/25(土) 11:00 〜 7/28(火) 11:00\r\n\r\n一般発売：8/5(水) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\nケビンス、ダイタク(9/5)\r\nkento fukaya(9/6)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 3000,
         "door": 3300
@@ -21196,10 +21188,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-09-05T20:39:29+09:00",
-      "last_updated": "2026-09-05T20:39:29+09:00",
-      "notified_at": "2026-09-05T20:39:29+09:00",
-      "diff": null
+      "notified_at": "2026-09-06T20:58:36+09:00"
     },
     {
       "id": "cccbf75b",
@@ -22751,13 +22742,13 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": "22:15",
-      "members": "[企画ライブ]今井らいぱち／kento fukaya／滝音／シモリュウ／田津原理音／らぶおじさん",
+      "members": "[企画ライブ]kento fukaya／滝音／シモリュウ／田津原理音／らぶおじさん",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000019819_1_20260819160218268.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/18924/49778",
       "online_url": null,
-      "notice": "2024年4月に上京したメンバーによるネタとコーナーライブ！\r\n配信なしの75分をぜひ劇場でお楽しみください！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n",
+      "notice": "2024年4月に上京したメンバーによるネタとコーナーライブ！\r\n配信なしの75分をぜひ劇場でお楽しみください！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n　・FANY IDメンバー\r\n　　7/25（土）11:00 ～ 7/28（火）11:00\r\n\r\n〇一般販売： 8/5（水）10:00\r\n\r\n\r\n\r\n■変更履歴■\r\n[変更]\r\n都合により、今井らいぱちは休演いたします。(9/6)",
       "price": {
         "advance": 1800,
         "door": 2300
@@ -22768,10 +22759,9 @@
       ],
       "local_image": "fliers/99de8143.jpg",
       "status": "notified",
+      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-08-20T10:09:22+09:00",
-      "notified_at": "2026-08-20T10:09:23+09:00",
-      "diff": null
+      "notified_at": "2026-09-06T20:58:36+09:00"
     },
     {
       "id": "09a45add",
@@ -22815,13 +22805,13 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": "22:00",
-      "members": "[企画ライブ]CITY／滝音／ケビンス／ド桜／大王／シシガシラ／きっと君はくるさ／MC：坂田光",
+      "members": "[企画ライブ]CITY／滝音／ケビンス／ド桜／大王／おしみんまる／シシガシラ／きっと君はくるさ／MC：坂田光",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/18864/49589",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%85%88%E8%BC%A9%E5%BE%8C%E8%BC%A9%E3%82%B3%E3%83%B3%E3%83%93%E5%AF%84%E5%B8%AD-9-14-21-00",
-      "notice": "先輩後輩で組んでいるコンビのネタとコーナーライブ\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：7/25(土) 11:00 〜 7/28(火) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：7/25(土) 11:00 〜 7/28(火) 11:00\r\n\r\n一般発売：8/5(水) 10:00\r\n\r\nオンラインチケット発売：8/5(水) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n\r\n[追加]\r\nド桜、大王、シシガシラ、MC：坂田光(8/12)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
+      "notice": "先輩後輩で組んでいるコンビのネタとコーナーライブ\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：7/25(土) 11:00 〜 7/28(火) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：7/25(土) 11:00 〜 7/28(火) 11:00\r\n\r\n一般発売：8/5(水) 10:00\r\n\r\nオンラインチケット発売：8/5(水) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n\r\n[追加]\r\nド桜、大王、シシガシラ、MC：坂田光(8/12)\r\nおしみんまる(9/6)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,
         "door": 2500,
@@ -22833,10 +22823,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "last_updated": "2026-08-13T10:52:55+09:00",
-      "notified_at": "2026-08-13T10:52:55+09:00",
-      "diff": null
+      "notified_at": "2026-09-06T20:58:36+09:00"
     },
     {
       "id": "719403db",
@@ -23525,16 +23514,11 @@
         "profile"
       ],
       "local_image": "fliers/acd6a4ab.png",
-      "status": "updated",
-      "last_updated": "2026-09-06T12:05:08+09:00",
-      "diff": {
-        "members": {
-          "before": "ゲスト：ケビンス／イチゴ／メタルラック／メリコンドル／パスタとパスタ／ラブちゃん／竕",
-          "after": "ゲスト：ケビンス／イチゴ／メタルラック／しゃかりき／メリコンドル／パスタとパスタ／パゴス／ラブちゃん／竕"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-06T12:05:08+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c4cb68e7",
@@ -25918,16 +25902,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-06T12:05:08+09:00",
-      "diff": {
-        "members": {
-          "before": "あべこうじ／サルゴリラ／ななまがり／相席スタート／ダイタク／カーネーション／ケビンス／他",
-          "after": "あべこうじ／サルゴリラ／カーネーション／ダイタク／相席スタート／ななまがり／ケビンス／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-30T12:48:34+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-06T12:05:08+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f8602877",
@@ -25955,16 +25934,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-06T12:05:08+09:00",
-      "diff": {
-        "members": {
-          "before": "あべこうじ／サルゴリラ／ななまがり／相席スタート／ダイタク／カーネーション／ケビンス／他",
-          "after": "あべこうじ／サルゴリラ／カーネーション／ダイタク／相席スタート／ななまがり／ケビンス／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-30T12:48:34+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-06T12:05:08+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "59f41682",
@@ -26507,6 +26481,7 @@
     {
       "id": "82686cdd",
       "talents": {
+        "5110": "kento fukaya",
         "5997": "ビスケットブラザーズ"
       },
       "title": "決勝進出者だらけの激アツ寄席",
@@ -26514,7 +26489,7 @@
       "open_time": "18:50",
       "start_time": "19:00",
       "end_time": "20:00",
-      "members": "ツートライブ／ビスケットブラザーズ／めぞん／ヨネダ2000／他",
+      "members": "ツートライブ／ビスケットブラザーズ／kento fukaya／めぞん／ヨネダ2000",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
@@ -26532,10 +26507,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-09-02T12:01:54+09:00",
-      "last_updated": "2026-09-05T20:39:29+09:00",
-      "notified_at": "2026-09-05T20:39:29+09:00",
-      "diff": null
+      "notified_at": "2026-09-06T20:58:36+09:00"
     },
     {
       "id": "62909653",
@@ -26596,6 +26570,7 @@
     {
       "id": "1e02581a",
       "talents": {
+        "5110": "kento fukaya",
         "5997": "ビスケットブラザーズ"
       },
       "title": "おおみやなかよし診断～最強のなかよしコンビを決めよう！～",
@@ -26603,7 +26578,7 @@
       "open_time": "20:20",
       "start_time": "20:30",
       "end_time": "21:30",
-      "members": "ツートライブ／ビスケットブラザーズ／めぞん／ヨネダ2000／他",
+      "members": "ツートライブ／ビスケットブラザーズ／kento fukaya／めぞん／ヨネダ2000",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
@@ -26621,10 +26596,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-09-02T12:01:54+09:00",
-      "last_updated": "2026-09-05T20:39:29+09:00",
-      "notified_at": "2026-09-05T20:39:29+09:00",
-      "diff": null
+      "notified_at": "2026-09-06T20:58:36+09:00"
     },
     {
       "id": "2f837597",
@@ -26698,7 +26672,7 @@
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000020832_1_20260828215641521.png",
       "ticket_url": "https://ticket.fany.lol/event/detail/20106/52134",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BF%81-10-2-21-00",
       "notice": "シカゴ実業ポイズン反町企画、大阪時代からの人気公演！ネタとコーナーをお届けします！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\nオンラインチケット発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
         "advance": 2300,
@@ -27432,9 +27406,10 @@
       ],
       "local_image": "fliers/8b230449.jpg",
       "status": "notified",
-      "last_updated": "2026-09-06T12:05:08+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-09-06T12:05:09+09:00"
+      "last_updated": "2026-09-06T12:05:08+09:00",
+      "notified_at": "2026-09-06T12:05:09+09:00",
+      "diff": null
     },
     {
       "id": "453a1d96",
@@ -27451,7 +27426,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/20111/52141",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%81%82%E3%82%8A%E3%81%8C%E5%A4%A7%E6%88%A6-10-5-21-00",
       "notice": "ケビンスによるバトルライブ。\r\nコンボイと仁木、生物としての強さが発揮されるのはどちらか。ついに決定！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/1(火) 11:00 〜 9/4(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/1(火) 11:00 〜 9/4(金) 11:00\r\n\r\n一般発売：9/6(日) 10:00\r\n\r\nオンラインチケット発売：9/6(日) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
         "advance": 2000,
@@ -27788,7 +27763,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/20115/52130",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%89%E6%A1%9C%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%8A%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%96-%E6%A1%9C%E4%BC%9A-10-9-21-00",
       "notice": "ド桜のアツイアツイコーナーライブ！\r\n今回はド桜の大好きなメンバーと盛り上がりたいと思います！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\nオンラインチケット発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\nザンゾウ(8/28)\r\n\r\n※都合により、出演者が変更になる可能性がございます。",
       "price": {
         "advance": 2000,
@@ -27805,6 +27780,33 @@
       "last_updated": "2026-08-29T14:45:59+09:00",
       "notified_at": "2026-08-29T14:45:59+09:00",
       "diff": null
+    },
+    {
+      "id": "7e781b24",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "幕張お気軽寄席！～笑いの秋を満喫してね～",
+      "date": "2026-10-10",
+      "open_time": "10:30",
+      "start_time": "11:00",
+      "end_time": null,
+      "members": "佐久間一行／ライス／たつろう／スロッピ／鶴亀／ZAZY／ケビンス／11月のリサ／ソマオ・ミートボール／マリーマリー／ゼロカラン／青いデルタ／他",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-09-06T20:58:36+09:00",
+      "last_updated": "2026-09-06T20:58:36+09:00",
+      "notified_at": "2026-09-06T20:58:36+09:00"
     },
     {
       "id": "b9bdb657",
@@ -27835,6 +27837,33 @@
       "diff": null
     },
     {
+      "id": "131b1353",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "幕張お気軽寄席！～笑いの秋を満喫してね～",
+      "date": "2026-10-10",
+      "open_time": "13:00",
+      "start_time": "13:30",
+      "end_time": null,
+      "members": "佐久間一行／ライス／たつろう／スロッピ／鶴亀／ZAZY／ケビンス／11月のリサ／ソマオ・ミートボール／マリーマリー／ゼロカラン／青いデルタ／他",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-09-06T20:58:36+09:00",
+      "last_updated": "2026-09-06T20:58:36+09:00",
+      "notified_at": "2026-09-06T20:58:36+09:00"
+    },
+    {
       "id": "6dcdb40b",
       "talents": {
         "10708": "シンクロニシティ"
@@ -27861,6 +27890,33 @@
       "last_updated": "2026-08-25T17:40:10+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "0c31585f",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "幕張お気軽寄席！～笑いの秋を満喫してね～",
+      "date": "2026-10-10",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "佐久間一行／ライス／たつろう／スロッピ／鶴亀／ZAZY／ケビンス／11月のリサ／ソマオ・ミートボール／マリーマリー／ゼロカラン／青いデルタ／他",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-09-06T20:58:36+09:00",
+      "last_updated": "2026-09-06T20:58:36+09:00",
+      "notified_at": "2026-09-06T20:58:36+09:00"
     },
     {
       "id": "2330fd7c",
@@ -28050,7 +28106,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/20120/52167",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/synchronicity-shibuya26101121",
       "notice": "シンクロニシティが初めて開催する60分漫才ライブ！新ネタの60分漫才をお届けします！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/29(土) 20:00 〜 8/31(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/29(土) 20:00 〜 8/31(月) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\nオンラインチケット発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
         "advance": 2500,
@@ -28398,7 +28454,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/20125/52156",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%81%BE%E3%82%93%E3%81%96%E3%81%84-10-13-21-00",
       "notice": "タイトル通り種類の違う沢山の『まんざい』を見て頂くライブです！\r\n是非劇場に、生の漫才を見に来て下さい！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\nオンラインチケット発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
         "advance": 2000,
@@ -29468,7 +29524,7 @@
       "members": "[企画ライブ]11月のリサ／ケビンス 山口／素敵じゃないか 吉野晋右／世間知らズ さおり／ピュート／めぞん 吉野",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000020846_1_20260906161638546.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -29476,12 +29532,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/21634676.jpg",
       "status": "notified",
+      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "last_updated": "2026-08-25T10:10:59+09:00",
-      "notified_at": "2026-08-25T10:11:00+09:00",
-      "diff": null
+      "notified_at": "2026-09-06T20:58:36+09:00"
     },
     {
       "id": "982bfb3c",
@@ -29527,7 +29582,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/20143/52160",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%86%E3%82%8B%E3%81%84%E3%81%9C-%E3%83%9E%E3%82%A6%E3%82%B9-10-24-17-00",
       "notice": "kento fukaya企画！今をときめく出演者によるネタとコーナーの60分ライブ！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\nオンラインチケット発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
         "advance": 2000,
@@ -29590,7 +29645,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/20501/52815",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E7%A5%9E%E5%9B%9E%E3%82%B5%E3%83%9F%E3%83%83%E3%83%88-10-24-21-00",
       "notice": "ケビンス仁木企画の大喜利ライブ！\r\n大喜利の回答で神回を決定！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/1(火) 20:00 〜 9/4(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/1(火) 20:00 〜 9/4(金) 11:00\r\n\r\n一般発売：9/6(日) 10:00\r\n\r\nオンラインチケット発売：9/6(日) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
         "advance": 2000,
@@ -30158,7 +30213,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/20151/52147",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B1%E3%83%93%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%96-%E3%83%90%E3%82%AB%E3%81%A8%E7%85%99-10-28-19-15",
       "notice": "ケビンスのトークライブ！ここでしか聞けないケビンス二人の話が盛りだくさん！ぜひお楽しみください！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\nオンラインチケット発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
         "advance": 2000,
@@ -30191,7 +30246,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/20153/52150",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-10-28-21-00",
       "notice": "お客さんの笑顔をだいいちに考えるライブ\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\nオンラインチケット発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
         "advance": 2000,

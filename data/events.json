@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T20:58:36+09:00",
+  "updated_at": "2026-09-07T12:02:42+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -21188,9 +21188,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-09-05T20:39:29+09:00",
-      "notified_at": "2026-09-06T20:58:36+09:00"
+      "last_updated": "2026-09-06T20:58:36+09:00",
+      "notified_at": "2026-09-06T20:58:36+09:00",
+      "diff": null
     },
     {
       "id": "cccbf75b",
@@ -22759,9 +22760,10 @@
       ],
       "local_image": "fliers/99de8143.jpg",
       "status": "notified",
-      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-09-06T20:58:36+09:00"
+      "last_updated": "2026-09-06T20:58:36+09:00",
+      "notified_at": "2026-09-06T20:58:36+09:00",
+      "diff": null
     },
     {
       "id": "09a45add",
@@ -22823,9 +22825,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-09-06T20:58:36+09:00"
+      "last_updated": "2026-09-06T20:58:36+09:00",
+      "notified_at": "2026-09-06T20:58:36+09:00",
+      "diff": null
     },
     {
       "id": "719403db",
@@ -26507,9 +26510,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-09-02T12:01:54+09:00",
-      "notified_at": "2026-09-06T20:58:36+09:00"
+      "last_updated": "2026-09-06T20:58:36+09:00",
+      "notified_at": "2026-09-06T20:58:36+09:00",
+      "diff": null
     },
     {
       "id": "62909653",
@@ -26596,9 +26600,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-09-02T12:01:54+09:00",
-      "notified_at": "2026-09-06T20:58:36+09:00"
+      "last_updated": "2026-09-06T20:58:36+09:00",
+      "notified_at": "2026-09-06T20:58:36+09:00",
+      "diff": null
     },
     {
       "id": "2f837597",
@@ -27806,7 +27811,8 @@
       "status": "notified",
       "first_seen": "2026-09-06T20:58:36+09:00",
       "last_updated": "2026-09-06T20:58:36+09:00",
-      "notified_at": "2026-09-06T20:58:36+09:00"
+      "notified_at": "2026-09-06T20:58:36+09:00",
+      "diff": null
     },
     {
       "id": "b9bdb657",
@@ -27861,7 +27867,8 @@
       "status": "notified",
       "first_seen": "2026-09-06T20:58:36+09:00",
       "last_updated": "2026-09-06T20:58:36+09:00",
-      "notified_at": "2026-09-06T20:58:36+09:00"
+      "notified_at": "2026-09-06T20:58:36+09:00",
+      "diff": null
     },
     {
       "id": "6dcdb40b",
@@ -27916,7 +27923,8 @@
       "status": "notified",
       "first_seen": "2026-09-06T20:58:36+09:00",
       "last_updated": "2026-09-06T20:58:36+09:00",
-      "notified_at": "2026-09-06T20:58:36+09:00"
+      "notified_at": "2026-09-06T20:58:36+09:00",
+      "diff": null
     },
     {
       "id": "2330fd7c",
@@ -29534,9 +29542,10 @@
       ],
       "local_image": "fliers/21634676.jpg",
       "status": "notified",
-      "last_updated": "2026-09-06T20:58:36+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-09-06T20:58:36+09:00"
+      "last_updated": "2026-09-06T20:58:36+09:00",
+      "notified_at": "2026-09-06T20:58:36+09:00",
+      "diff": null
     },
     {
       "id": "982bfb3c",
@@ -29925,7 +29934,7 @@
       "members": "[企画ライブ]九条ジョー／ユニットゲスト：しげ／観覧ゲスト：ケビンス",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000020687_1_20260907101534260.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/20189/52210",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E4%B9%9D%E6%9D%A1%E3%82%B8%E3%83%A7%E3%83%BC%E3%81%8C%E3%81%93%E3%81%A3%E3%81%9D%E3%82%8A%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E3%83%8D%E3%82%BF%E3%82%92%E8%A9%A6%E3%81%99%E3%83%A9%E3%82%A4%E3%83%96-10-26-19-15",
       "notice": "コンビを解散し、ピンの九条ジョーが様々な方とユニットネタを試すライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n　・FANY IDメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n\r\n〇一般販売：9/5（土）10:00\r\n\r\n〇配信：9/5（土）10:00",
@@ -29938,12 +29947,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/3b00594c.jpg",
       "status": "notified",
+      "last_updated": "2026-09-07T12:02:42+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "last_updated": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-08-24T10:12:27+09:00",
-      "diff": null
+      "notified_at": "2026-09-07T12:02:42+09:00"
     },
     {
       "id": "b4e23486",

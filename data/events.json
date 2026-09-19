@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T21:44:09+09:00",
+  "updated_at": "2026-09-19T12:16:44+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -23697,8 +23697,7 @@
         "door": 5500
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -23731,14 +23730,14 @@
         "door": 2800
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-18T21:44:08+09:00",
       "first_seen": "2026-09-13T12:20:12+09:00",
-      "notified_at": "2026-09-18T21:44:09+09:00"
+      "last_updated": "2026-09-18T21:44:08+09:00",
+      "notified_at": "2026-09-18T21:44:09+09:00",
+      "diff": null
     },
     {
       "id": "af8191bc",
@@ -24597,16 +24596,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-18T21:44:08+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ライス／うるとらブギーズ／ケビンス／ドーナツ・ピーナツ／マルセイユ／まんじろう／からし蓮根／スクラップス／ドンココ",
-          "after": "[ネタ＆コーナーライブ]ライス／うるとらブギーズ／ケビンス／ドーナツ・ピーナツ／マルセイユ／まんじろう／からし蓮根／スクラップス／ドンココ\n[ コーナー出演者]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-18T21:44:08+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1f455852",
@@ -24778,16 +24772,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-18T21:44:08+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ライス／うるとらブギーズ／ケビンス／ドーナツ・ピーナツ／マルセイユ／まんじろう／からし蓮根／スクラップス／ソマオ・ミートボール／ドンココ",
-          "after": "[ネタ＆コーナーライブ]ライス／うるとらブギーズ／ケビンス／ドーナツ・ピーナツ／マルセイユ／まんじろう／からし蓮根／スクラップス／ソマオ・ミートボール／ドンココ／カラタチ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-18T21:44:08+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "03ff02e0",
@@ -24911,7 +24900,7 @@
       "open_time": "17:30",
       "start_time": "18:00",
       "end_time": null,
-      "members": "ギャロップ／囲碁将棋／モンスターエンジン／スマイル／タナからイケダ／ミルクボーイ／吉田たち／ラビットラ／ツートライブ／牛ぺぺ／ビスケットブラザーズ／ネイビーズアフロ／華山",
+      "members": "ギャロップ／囲碁将棋／モンスターエンジン／スマイル／タナからイケダ／ミルクボーイ／吉田たち／ラビットラ／ツートライブ／牛ぺぺ／ビスケットブラザーズ／ネイビーズアフロ／華山／カベポスター",
       "venue": "COOL JAPAN PARK OSAKA TTホール",
       "prefecture": "大阪府",
       "image_url": null,
@@ -24924,9 +24913,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-18T21:44:08+09:00",
+      "last_updated": "2026-09-19T12:16:43+09:00",
       "first_seen": "2026-09-16T12:29:05+09:00",
-      "notified_at": "2026-09-18T21:44:09+09:00"
+      "notified_at": "2026-09-19T12:16:44+09:00"
     },
     {
       "id": "5c0aa1ab",
@@ -25581,9 +25570,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-18T21:44:08+09:00",
       "first_seen": "2026-08-07T17:58:04+09:00",
-      "notified_at": "2026-09-18T21:44:09+09:00"
+      "last_updated": "2026-09-18T21:44:08+09:00",
+      "notified_at": "2026-09-18T21:44:09+09:00",
+      "diff": null
     },
     {
       "id": "eb83a722",
@@ -29496,7 +29486,7 @@
       "open_time": "19:00",
       "start_time": "19:15",
       "end_time": "20:30",
-      "members": "セルライトスパ ヒーゴー／ヒューマン中村／守谷日和／ザ・プラン9 爆ノ介／ロングコートダディ 兎／野澤輸出／マルセイユ 別府貴之／さや香 石井／らぶおじさん／ケビンス 山口コンボイ／ラニーノーズ 洲崎／ダブルヒガシ 東良介／9番街レトロ／ヨネダ2000／他",
+      "members": "セルライトスパ ヒーゴー／ヒューマン中村／守谷日和／ザ・プラン9 爆ノ介／ロングコートダディ 兎／野澤輸出／マルセイユ 別府貴之／さや香 石井／らぶおじさん／ケビンス 山口コンボイ／ラニーノーズ 洲崎／ダブルヒガシ 東良介／9番街レトロ／ヨネダ2000",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000021331_1_20260915134311028.jpg",
@@ -29509,10 +29499,9 @@
       ],
       "local_image": "fliers/0d0057c1.jpg",
       "status": "notified",
+      "last_updated": "2026-09-19T12:16:43+09:00",
       "first_seen": "2026-09-02T21:34:35+09:00",
-      "last_updated": "2026-09-16T12:29:05+09:00",
-      "notified_at": "2026-09-16T12:29:05+09:00",
-      "diff": null
+      "notified_at": "2026-09-19T12:16:44+09:00"
     },
     {
       "id": "9560d9f3",
@@ -31893,6 +31882,36 @@
       "last_updated": "2026-08-25T17:40:10+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "5513fe71",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "ドリームネタ祭り",
+      "date": "2026-10-30",
+      "open_time": "18:40",
+      "start_time": "19:00",
+      "end_time": "20:10",
+      "members": "カラタチ／スクールゾーン／シンクロニシティ／ナユタ／他",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/20990/53849",
+      "online_url": null,
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n一般発売：9/20(日) 12:00",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:lumine"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-09-19T12:16:43+09:00",
+      "last_updated": "2026-09-19T12:16:43+09:00",
+      "notified_at": "2026-09-19T12:16:44+09:00"
     },
     {
       "id": "a72636bf",

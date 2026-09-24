@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T22:22:47+09:00",
+  "updated_at": "2026-09-24T12:18:07+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -26655,9 +26655,10 @@
       ],
       "local_image": "fliers/80889546.jpg",
       "status": "notified",
-      "last_updated": "2026-09-23T22:22:46+09:00",
       "first_seen": "2026-09-22T22:07:21+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "9b93f519",
@@ -27028,20 +27029,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "ロザン／トータルテンボス／NON STYLE／銀シャリ／トット／ネルソンズ／kento fukaya／ゼロカラン／他",
-          "after": "ロザン／トータルテンボス／NON STYLE／銀シャリ／トット／ネルソンズ／kento fukaya／ラニーノーズ／ゼロカラン"
-        },
-        "notice": {
-          "before": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nチャンピオンが多数出演の実力派揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nゼロカラン（9/13）\r\nkento fukaya（9/21）",
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nチャンピオンが多数出演の実力派揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nゼロカラン（9/13）\r\nkento fukaya（9/21）\r\nラニーノーズ（9/23）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-21T23:51:48+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1ddd7f4f",
@@ -27069,20 +27061,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "ロザン／トータルテンボス／NON STYLE／銀シャリ／トット／ネルソンズ／kento fukaya／ゼロカラン／他",
-          "after": "ロザン／トータルテンボス／NON STYLE／銀シャリ／トット／ネルソンズ／kento fukaya／ラニーノーズ／ゼロカラン"
-        },
-        "notice": {
-          "before": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nチャンピオンが多数出演の実力派揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nゼロカラン（9/13）\r\nkento fukaya（9/21）",
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nチャンピオンが多数出演の実力派揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nゼロカラン（9/13）\r\nkento fukaya（9/21）\r\nラニーノーズ（9/23）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-21T23:51:48+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2f837597",
@@ -27649,16 +27632,11 @@
         "profile"
       ],
       "local_image": "fliers/c3920af9.jpg",
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "image_url": {
-          "before": null,
-          "after": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000020736_1_20260923165215368.jpg"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-11T21:37:43+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "5c0fc0ed",
@@ -28275,9 +28253,10 @@
       ],
       "local_image": "fliers/453a1d96.jpg",
       "status": "notified",
-      "last_updated": "2026-09-23T22:22:46+09:00",
       "first_seen": "2026-08-30T22:34:34+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "4da890d8",
@@ -28308,7 +28287,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f5396a96",
@@ -28339,7 +28319,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "af78152e",
@@ -28459,16 +28440,11 @@
         "profile"
       ],
       "local_image": "fliers/6377c5bc.jpg",
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "image_url": {
-          "before": null,
-          "after": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000020739_1_20260923165633541.jpg"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-25T10:10:59+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "566101c6",
@@ -29238,7 +29214,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "b465b32a",
@@ -29397,9 +29374,10 @@
       ],
       "local_image": "fliers/585ee75f.jpg",
       "status": "notified",
-      "last_updated": "2026-09-23T22:22:46+09:00",
       "first_seen": "2026-09-02T21:34:35+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "fdc93262",
@@ -29426,7 +29404,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "3d3f9238",
@@ -30020,20 +29999,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "佐久間一行／タモンズ／ヘンダーソン／シシガシラ／ビスケットブラザーズ／さや香／他",
-          "after": "佐久間一行／タモンズ／ヘンダーソン／シシガシラ／さや香／ビスケットブラザーズ／ラニーノーズ／他"
-        },
-        "notice": {
-          "before": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n一般発売：9/5（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n",
-          "after": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n一般発売：9/5（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n\r\n■追加情報■\r\n追加：ラニーノーズ（9/23）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-25T17:40:10+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e09e541d",
@@ -30153,20 +30123,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "佐久間一行／タモンズ／ヘンダーソン／シシガシラ／ビスケットブラザーズ／さや香／他",
-          "after": "佐久間一行／タモンズ／ヘンダーソン／シシガシラ／さや香／ビスケットブラザーズ／ラニーノーズ／他"
-        },
-        "notice": {
-          "before": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n一般発売：9/5（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n",
-          "after": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n一般発売：9/5（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n\r\n■追加情報■\r\n追加：ラニーノーズ（9/23）\r\n"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-25T17:40:10+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8bd8085f",
@@ -30488,9 +30449,10 @@
       ],
       "local_image": "fliers/c4dcabec.jpg",
       "status": "notified",
-      "last_updated": "2026-09-23T22:22:46+09:00",
       "first_seen": "2026-09-09T21:45:35+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "b0c67cda",
@@ -30976,9 +30938,10 @@
       ],
       "local_image": "fliers/ea43b323.jpg",
       "status": "notified",
-      "last_updated": "2026-09-23T22:22:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "21634676",
@@ -31037,7 +31000,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a12733de",
@@ -31068,7 +31032,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "982bfb3c",
@@ -31695,9 +31660,10 @@
       ],
       "local_image": "fliers/e8b5a933.png",
       "status": "notified",
-      "last_updated": "2026-09-23T22:22:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "cc311424",
@@ -31790,9 +31756,10 @@
       ],
       "local_image": "fliers/697190f6.jpg",
       "status": "notified",
-      "last_updated": "2026-09-23T22:22:46+09:00",
       "first_seen": "2026-08-25T10:10:59+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "94e173de",
@@ -32841,7 +32808,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "fbe0f55a",
@@ -32900,7 +32868,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e7d27a6a",
@@ -32930,7 +32899,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "eb6c223f",
@@ -32961,7 +32931,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "226780d9",
@@ -32988,16 +32959,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ドンデコルテ／ヨネダ2000／スロッピ／ケビンス／ミカボ／他",
-          "after": "[ネタ出演者]ドンデコルテ／ヨネダ2000／スロッピ／ケビンス／ミカボ／ド天国／球技大会／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "563a69cd",
@@ -33024,16 +32990,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ドンデコルテ／ヨネダ2000／スロッピ／ケビンス／ミカボ／他",
-          "after": "[ネタ出演者]ドンデコルテ／ヨネダ2000／スロッピ／ケビンス／ミカボ／ド天国／球技大会／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0f3c478c",
@@ -33060,16 +33021,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ドンデコルテ／ヨネダ2000／ケビンス／赤嶺総理／ミカボ／他",
-          "after": "[ネタ出演者]ドンデコルテ／ヨネダ2000／ケビンス／赤嶺総理／ミカボ／ド天国／球技大会／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "44779f7a",
@@ -33163,7 +33119,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c5208dce",
@@ -33190,16 +33147,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ケビンス／軟水／インテイク／伝書鳩／他",
-          "after": "[ネタ出演者]ケビンス／軟水／インテイク／伝書鳩／とりせん／球技大会／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e73a0277",
@@ -33230,7 +33182,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "325660d8",
@@ -33293,7 +33246,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c691a07e",
@@ -33351,7 +33305,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "90cc66c1",
@@ -33409,7 +33364,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "37528421",
@@ -33495,7 +33451,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2be56174",
@@ -33522,16 +33479,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]マルセイユ／kento fukaya／まんじろう／軟水／あなたとネ／他",
-          "after": "[ネタ出演者]マルセイユ／kento fukaya／まんじろう／軟水／イチゴ／あなたとネ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b8704175",
@@ -33590,7 +33542,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4c3c97d8",
@@ -33617,16 +33570,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]マルセイユ／kento fukaya／まんじろう／アズーロ24／軟水／あなたとネ／他",
-          "after": "[ネタ出演者]マルセイユ／kento fukaya／まんじろう／アズーロ24／軟水／イチゴ／あなたとネ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "5af29f7e",
@@ -33684,7 +33632,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6b7a8214",
@@ -33711,16 +33660,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]マルセイユ／kento fukaya／まんじろう／アズーロ24／軟水／あなたとネ／他",
-          "after": "[ネタ出演者]マルセイユ／kento fukaya／まんじろう／アズーロ24／軟水／イチゴ／あなたとネ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "cc567ae7",
@@ -33780,7 +33724,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "7ae342ed",
@@ -33843,7 +33788,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2e96b1bf",
@@ -33870,16 +33816,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]kento fukaya／9番街レトロ／インテイク／金魚番長／他",
-          "after": "[ネタ出演者]kento fukaya／9番街レトロ／インテイク／金魚番長／パウリスタ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8c01633c",
@@ -33942,7 +33883,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "43e60ecd",
@@ -34033,7 +33975,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "aa1a7968",
@@ -34064,7 +34007,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "e1ed9af1",
@@ -34126,7 +34070,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6b605339",
@@ -34155,16 +34100,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "サルゴリラ／ちょんまげラーメン／セルライトスパ／ZAZY／マユリカ／ぼる塾／他",
-          "after": "サルゴリラ／ダイタク／ちょんまげラーメン／セルライトスパ／ZAZY／マユリカ／ぼる塾／ケビンス"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f5065083",
@@ -34194,7 +34134,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a81d9d7e",
@@ -34224,7 +34165,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "cd008233",
@@ -34253,16 +34195,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "サルゴリラ／ちょんまげラーメン／セルライトスパ／ZAZY／マユリカ／ぼる塾／他",
-          "after": "サルゴリラ／ダイタク／ちょんまげラーメン／セルライトスパ／ZAZY／マユリカ／ぼる塾／ケビンス"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0a6cbff6",
@@ -34293,7 +34230,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "f93d33b6",
@@ -34352,16 +34290,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "囲碁将棋／ガクテンソク／ビスケットブラザーズ／コロコロチキチキペッパーズ／素敵じゃないか／他",
-          "after": "囲碁将棋／ガクテンソク／ビスケットブラザーズ／コロコロチキチキペッパーズ／ダンビラムーチョ／素敵じゃないか／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d1f75644",
@@ -34420,16 +34353,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "囲碁将棋／ガクテンソク／ビスケットブラザーズ／コロコロチキチキペッパーズ／素敵じゃないか／他",
-          "after": "囲碁将棋／ガクテンソク／ビスケットブラザーズ／コロコロチキチキペッパーズ／ダンビラムーチョ／素敵じゃないか／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b3ecfcae",
@@ -34491,7 +34419,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "eb5a1e48",
@@ -34613,7 +34542,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d2c911fd",
@@ -34640,7 +34570,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bc915b1f",
@@ -34695,7 +34626,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "614ce512",
@@ -34722,7 +34654,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a3e34a31",
@@ -34752,7 +34685,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "28192409",
@@ -34847,7 +34781,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2b373cc6",
@@ -34910,7 +34845,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "f14e7e59",
@@ -34940,7 +34876,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2d71437c",
@@ -34970,7 +34907,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0c8f4d58",
@@ -35000,7 +34938,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "02d9b33f",
@@ -35030,7 +34969,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "52d9bf9b",
@@ -35060,7 +35000,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3f58c330",
@@ -35090,7 +35031,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "43162563",
@@ -35149,7 +35091,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "7c19636c",
@@ -35209,16 +35152,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]kento fukaya／シンクロニシティ／私東京／ミケネ系／他",
-          "after": "[ネタ出演者]kento fukaya／シンクロニシティ／私東京／エグい速さ／ミケネ系／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "263018cb",
@@ -35246,16 +35184,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]kento fukaya／シンクロニシティ／私東京／ミケネ系／他",
-          "after": "[ネタ出演者]kento fukaya／シンクロニシティ／私東京／エグい速さ／ミケネ系／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e298820d",
@@ -35283,16 +35216,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]kento fukaya／シンクロニシティ／私東京／ミケネ系／他",
-          "after": "[ネタ出演者]kento fukaya／シンクロニシティ／私東京／エグい速さ／ミケネ系／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ee255ba3",
@@ -35382,7 +35310,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "91e7d261",
@@ -35409,7 +35338,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4f464828",
@@ -35468,7 +35398,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a1fc492a",
@@ -35677,7 +35608,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2defa774",
@@ -35729,16 +35661,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ",
-          "after": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン／EXIT\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T17:46:03+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1746c9cf",
@@ -35794,16 +35721,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ",
-          "after": "[漫才・落語]笑い飯／西川のりお・上方よしお／メッセンジャー／ティーアップ／木村祐一／マヂカルラブリー／コットン／EXIT\n[新喜劇]酒井藍／辻本茂雄／島田珠代／松浦真也／森田まりこ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T17:46:03+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1969e58a",
@@ -35926,16 +35848,11 @@
         "theater:jimbocho"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-23T22:22:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ケビンス／ブラゴーリ／青いデルタ／私東京／他",
-          "after": "[ネタ出演者]ケビンス／ブラゴーリ／青いデルタ／私東京／寿司東京／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-23T22:22:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "27c038d4",
@@ -35966,7 +35883,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6ec15778",
@@ -35993,7 +35911,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "510bc4a9",
@@ -36021,7 +35940,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "1e0b7478",
@@ -36049,7 +35969,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "7b969ba0",
@@ -36076,7 +35997,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "78da5ae4",
@@ -36103,7 +36025,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "b75dc1b9",
@@ -36130,7 +36053,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "ad87c162",
@@ -36157,7 +36081,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "804a198b",
@@ -36184,7 +36109,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "28ad0e3d",
@@ -36239,7 +36165,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "6da3db3f",
@@ -36266,7 +36193,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "73ca09f0",
@@ -36293,7 +36221,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "0ec96ca3",
@@ -36320,7 +36249,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "64221241",
@@ -36347,7 +36277,8 @@
       "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-23T22:22:47+09:00"
+      "notified_at": "2026-09-23T22:22:47+09:00",
+      "diff": null
     },
     {
       "id": "10d24ed2",
@@ -36374,7 +36305,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "168f41ab",
@@ -36401,7 +36333,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9cbe1e13",
@@ -36428,7 +36361,8 @@
       "status": "new",
       "first_seen": "2026-09-23T22:22:46+09:00",
       "last_updated": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "81748e8d",

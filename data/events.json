@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T22:32:35+09:00",
+  "updated_at": "2026-09-28T12:49:46+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -27175,9 +27175,10 @@
       ],
       "local_image": "fliers/669aa828.png",
       "status": "notified",
-      "last_updated": "2026-09-27T22:32:34+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-09-27T22:32:35+09:00"
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": "2026-09-27T22:32:35+09:00",
+      "diff": null
     },
     {
       "id": "59cc7488",
@@ -27289,16 +27290,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-27T22:32:34+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ヘンダーソン／ダブルヒガシ／めぞん／今井らいぱち／オフローズ／シンクロニシティ／インテイク／ゼロカラン／ぎょうぶ／他",
-          "after": "[ネタ＆コーナーライブ]ヘンダーソン／ダブルヒガシ／めぞん／今井らいぱち／素敵じゃないか／オフローズ／シンクロニシティ／ピュート／インテイク／ゼロカラン／ぎょうぶ\n[ コーナー出演者]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1a69f3f2",
@@ -27479,16 +27475,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-27T22:32:34+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ヘンダーソン／ダブルヒガシ／めぞん／今井らいぱち／オフローズ／シンクロニシティ／インテイク／ゼロカラン／ぎょうぶ／他",
-          "after": "[ネタ＆コーナーライブ]ヘンダーソン／ダブルヒガシ／めぞん／今井らいぱち／オフローズ／シンクロニシティ／ピュート／インテイク／ゼロカラン／ぎょうぶ／鉄人小町\n[ コーナー出演者]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "31221acb",
@@ -27632,16 +27623,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-27T22:32:34+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ヘンダーソン／ダブルヒガシ／めぞん／今井らいぱち／オフローズ／シンクロニシティ／インテイク／ゼロカラン／ぎょうぶ／他",
-          "after": "[ネタ＆コーナーライブ]ヘンダーソン／ダブルヒガシ／めぞん／今井らいぱち／ブラゴーリ／オフローズ／シンクロニシティ／ピュート／インテイク／ゼロカラン／ぎょうぶ\n[ コーナー出演者]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c3920af9",
@@ -27941,9 +27927,10 @@
       ],
       "local_image": "fliers/1bb96fe3.jpg",
       "status": "notified",
-      "last_updated": "2026-09-27T22:32:34+09:00",
       "first_seen": "2026-09-17T22:03:57+09:00",
-      "notified_at": "2026-09-27T22:32:35+09:00"
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": "2026-09-27T22:32:35+09:00",
+      "diff": null
     },
     {
       "id": "8d4365e0",
@@ -28005,16 +27992,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-27T22:32:34+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]バイク川崎バイク／蛙亭／ケビンス／カベポスター／マルセイユ／kento fukaya／やさしいズ／ミカボ／金魚番長／他",
-          "after": "[ネタ＆コーナーライブ]バイク川崎バイク／蛙亭／ケビンス／カベポスター／マルセイユ／kento fukaya／やさしいズ／世間知らズ／ミカボ／ド桜／金魚番長\n[ コーナー出演者]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9774f919",
@@ -28043,16 +28025,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-27T22:32:34+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]バイク川崎バイク／蛙亭／ケビンス／カベポスター／マルセイユ／kento fukaya／やさしいズ／ミカボ／金魚番長／他",
-          "after": "[ネタ＆コーナーライブ]バイク川崎バイク／蛙亭／ケビンス／カベポスター／シカゴ実業／マルセイユ／kento fukaya／やさしいズ／世間知らズ／ミカボ／金魚番長\n[ コーナー出演者]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "40980b31",
@@ -28081,16 +28058,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-27T22:32:34+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]バイク川崎バイク／蛙亭／ケビンス／カベポスター／マルセイユ／kento fukaya／やさしいズ／ミカボ／金魚番長／他",
-          "after": "[ネタ＆コーナーライブ]バイク川崎バイク／蛙亭／ケビンス／カベポスター／マルセイユ／kento fukaya／やさしいズ／世間知らズ／ミカボ／ぶったま／金魚番長\n[ コーナー出演者]"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d833d023",
@@ -28764,16 +28736,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-27T22:32:34+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ガクテンソク／見取り図／ニッポンの社長／ビスケットブラザーズ／ヨネダ2000／田津原理音／黒帯／隣人／もも／ぎょうぶ／うただ／東雲／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]ゆくえ",
-          "after": "[ネタ出演者]ガクテンソク／祇園／見取り図／ニッポンの社長／ビスケットブラザーズ／ヨネダ2000／田津原理音／黒帯／隣人／豪快キャプテン／もも／ぎょうぶ／うただ／東雲／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]ゆくえ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-25T22:15:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "7e781b24",
@@ -28909,16 +28876,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-27T22:32:34+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ガクテンソク／見取り図／ニッポンの社長／ビスケットブラザーズ／ヨネダ2000／田津原理音／黒帯／隣人／もも／ぎょうぶ／うただ／マーティー／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]ゆくえ",
-          "after": "[ネタ出演者]ガクテンソク／祇園／見取り図／ニッポンの社長／ビスケットブラザーズ／ヨネダ2000／田津原理音／黒帯／隣人／豪快キャプテン／もも／ぎょうぶ／うただ／マーティー／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]ゆくえ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-25T22:15:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b9bdb657",
@@ -29026,16 +28988,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-27T22:32:34+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ガクテンソク／見取り図／ニッポンの社長／ビスケットブラザーズ／ヨネダ2000／田津原理音／黒帯／隣人／もも／ぎょうぶ／うただ／ライムギ／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]ゆくえ",
-          "after": "[ネタ出演者]ガクテンソク／祇園／見取り図／ニッポンの社長／ビスケットブラザーズ／ヨネダ2000／田津原理音／黒帯／隣人／豪快キャプテン／もも／ぎょうぶ／うただ／ライムギ／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]ゆくえ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-25T22:15:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6dcdb40b",
@@ -29637,9 +29594,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-27T22:32:34+09:00",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-27T22:32:35+09:00"
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": "2026-09-27T22:32:35+09:00",
+      "diff": null
     },
     {
       "id": "3d3f9238",
@@ -29725,9 +29683,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-27T22:32:34+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-09-27T22:32:35+09:00"
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": "2026-09-27T22:32:35+09:00",
+      "diff": null
     },
     {
       "id": "7ae9fbda",
@@ -30014,7 +29973,7 @@
       "members": "[企画ライブ]今井らいぱち／さや香 新山／MC：マルセイユ 津田／ゲスト審査：kento fukaya／くらげ／九条ジョー／田津原理音",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000020683_1_20260928105135158.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/20169/52209",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E4%BB%8A%E4%BA%95%E3%82%89%E3%81%84%E3%81%B1%E3%81%A1-%E3%81%95%E3%82%84%E9%A6%99%E6%96%B0%E5%B1%B1-%E3%83%94%E3%83%B3%E3%83%8D%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96-%E3%82%B7%E3%83%B3-%E3%82%BC%E3%83%AD%E3%83%92%E3%83%A3%E3%82%AF-10-15-19-15",
       "notice": "今井らいぱちとさや香新山がピンネタを行い、ゲスト審査員に「ゼロ」か「ヒャク」かで審査してもらうライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n　・FANY IDメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n\r\n〇一般販売：9/5（土）10:00\r\n\r\n〇配信：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nkento fukaya、くらげ、九条ジョー、田津原理音(9/22)",
@@ -30027,12 +29986,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/f4e014f0.jpg",
       "status": "notified",
+      "last_updated": "2026-09-28T12:49:46+09:00",
       "first_seen": "2026-09-22T22:07:21+09:00",
-      "last_updated": "2026-09-22T22:07:21+09:00",
-      "notified_at": "2026-09-22T22:07:22+09:00",
-      "diff": null
+      "notified_at": "2026-09-28T12:49:46+09:00"
     },
     {
       "id": "0d0057c1",
@@ -30085,9 +30043,10 @@
       ],
       "local_image": "fliers/9560d9f3.jpg",
       "status": "notified",
-      "last_updated": "2026-09-27T22:32:34+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-09-27T22:32:35+09:00"
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": "2026-09-27T22:32:35+09:00",
+      "diff": null
     },
     {
       "id": "78da6065",
@@ -30168,9 +30127,10 @@
       ],
       "local_image": "fliers/4fa7548f.jpg",
       "status": "notified",
-      "last_updated": "2026-09-27T22:32:34+09:00",
       "first_seen": "2026-09-16T22:10:09+09:00",
-      "notified_at": "2026-09-27T22:32:35+09:00"
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": "2026-09-27T22:32:35+09:00",
+      "diff": null
     },
     {
       "id": "9f08fb77",
@@ -31555,9 +31515,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-27T22:32:34+09:00",
       "first_seen": "2026-08-30T22:34:34+09:00",
-      "notified_at": "2026-09-27T22:32:35+09:00"
+      "last_updated": "2026-09-27T22:32:34+09:00",
+      "notified_at": "2026-09-27T22:32:35+09:00",
+      "diff": null
     },
     {
       "id": "02a1fc60",

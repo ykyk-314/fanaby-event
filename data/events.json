@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T01:28:41+09:00",
+  "updated_at": "2026-09-29T13:24:17+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -26741,16 +26741,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-29T01:28:41+09:00",
-      "diff": {
-        "members": {
-          "before": "佐久間一行／しずる／ライス／サルゴリラ／ななまがり／ビスケットブラザーズ／ネルソンズ／カゲヤマ／エグい速さ",
-          "after": "佐久間一行／しずる／ライス／サルゴリラ／ななまがり／ビスケットブラザーズ／ネルソンズ／カゲヤマ／エグい速さ\n【コーナー出演者】 MC：カゲヤマ／ななまがり／エグい速さ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-25T11:33:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "38ecb693",
@@ -27179,9 +27174,10 @@
       ],
       "local_image": "fliers/669aa828.jpg",
       "status": "notified",
-      "last_updated": "2026-09-29T01:28:41+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "59cc7488",
@@ -27325,16 +27321,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-29T01:28:41+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]エルフ／ヨネダ2000／CITY／マルセイユ／kento fukaya／やさしいズ／ミカボ／太鵬／イチゴ／イワサキ／うただ",
-          "after": "[ネタ出演者]エルフ／ヨネダ2000／CITY／マルセイユ／kento fukaya／やさしいズ／ミカボ／太鵬／イチゴ／イワサキ／うただ\n[コーナー出演者]MC：イワサキ／やさしいズ／ヨネダ2000／イチゴ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-21T17:38:56+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1e68ad23",
@@ -27515,16 +27506,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-29T01:28:41+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]エルフ／ヨネダ2000／CITY／マルセイユ／kento fukaya／やさしいズ／ミカボ／太鵬／イチゴ／イワサキ／うただ",
-          "after": "[ネタ出演者]エルフ／ヨネダ2000／CITY／マルセイユ／kento fukaya／やさしいズ／ミカボ／太鵬／イチゴ／イワサキ／うただ\n[コーナー出演者]MC：ミカボ／太鵬／イチゴ／うただ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-21T17:38:56+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a3a43894",
@@ -27733,16 +27719,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-29T01:28:41+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]エルフ／ヨネダ2000／CITY／マルセイユ／kento fukaya／やさしいズ／ミカボ／太鵬／イチゴ／イワサキ／うただ",
-          "after": "[ネタ出演者]エルフ／ヨネダ2000／CITY／マルセイユ／kento fukaya／やさしいズ／ミカボ／太鵬／イチゴ／イワサキ／うただ\n[コーナー出演者]MC：マルセイユ／やさしいズ／エルフ／イワサキ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-21T17:38:56+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "56ef7a78",
@@ -28433,7 +28414,7 @@
       "open_time": "17:40",
       "start_time": "18:00",
       "end_time": "19:20",
-      "members": "レイザーラモン／兼光タカシ／サルゴリラ／スカチャン／今井らいぱち／バッテリィズ／たくろう／シンクロニシティ",
+      "members": "はりけ～んず／レイザーラモン／兼光タカシ／サルゴリラ／スカチャン／今井らいぱち／バッテリィズ／たくろう／シンクロニシティ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000019401_1_20260910185929672.jpg",
@@ -28449,11 +28430,16 @@
         "profile"
       ],
       "local_image": "fliers/91299604.jpg",
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-09-29T13:24:17+09:00",
+      "diff": {
+        "members": {
+          "before": "レイザーラモン／兼光タカシ／サルゴリラ／スカチャン／今井らいぱち／バッテリィズ／たくろう／シンクロニシティ",
+          "after": "はりけ～んず／レイザーラモン／兼光タカシ／サルゴリラ／スカチャン／今井らいぱち／バッテリィズ／たくろう／シンクロニシティ"
+        }
+      },
       "first_seen": "2026-09-11T12:09:42+09:00",
-      "last_updated": "2026-09-11T21:37:43+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "6377c5bc",
@@ -29090,16 +29076,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-29T01:28:41+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]桂文珍／ザ・ぼんち／COWCOW／ガクテンソク／見取り図／ヨネダ2000／ビスケットブラザーズ\n[新喜劇]吉田裕／内場勝則／辻本茂雄／松浦真也／森田まりこ／Mr.オクレ／島田一の介／末成映薫／浅香あき恵／千葉公平／信濃岳夫／諸見里大介／レイチェル／小寺真理／おやどまり／菅野智義／アイリスガワ／沖ひなた",
-          "after": "[漫才・落語]桂文珍／ザ・ぼんち／COWCOW／ガクテンソク／見取り図／ビスケットブラザーズ／ヨネダ2000\n[新喜劇]吉田裕／内場勝則／辻本茂雄／松浦真也／森田まりこ／Mr.オクレ／島田一の介／末成映薫／浅香あき恵／千葉公平／信濃岳夫／諸見里大介／レイチェル／小寺真理／おやどまり／菅野智義／アイリスガワ／沖ひなた"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-25T22:15:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2330fd7c",
@@ -29151,16 +29132,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-29T01:28:41+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]桂文珍／ザ・ぼんち／COWCOW／ガクテンソク／ニッポンの社長／ヨネダ2000／ビスケットブラザーズ\n[新喜劇]吉田裕／内場勝則／辻本茂雄／松浦真也／森田まりこ／Mr.オクレ／島田一の介／末成映薫／浅香あき恵／千葉公平／信濃岳夫／諸見里大介／レイチェル／小寺真理／おやどまり／菅野智義／アイリスガワ／沖ひなた",
-          "after": "[漫才・落語]桂文珍／ザ・ぼんち／COWCOW／ガクテンソク／ニッポンの社長／ビスケットブラザーズ／ヨネダ2000\n[新喜劇]吉田裕／内場勝則／辻本茂雄／松浦真也／森田まりこ／Mr.オクレ／島田一の介／末成映薫／浅香あき恵／千葉公平／信濃岳夫／諸見里大介／レイチェル／小寺真理／おやどまり／菅野智義／アイリスガワ／沖ひなた"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-25T22:15:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0bb0f39d",
@@ -30280,9 +30256,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-29T01:28:41+09:00",
       "first_seen": "2026-09-08T21:38:52+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "83cb78b2",
@@ -31793,9 +31770,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-09-29T01:28:41+09:00",
       "first_seen": "2026-09-27T12:50:23+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "9e061c1d",
@@ -33200,7 +33178,8 @@
       "status": "notified",
       "first_seen": "2026-09-29T01:28:41+09:00",
       "last_updated": "2026-09-29T01:28:41+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "0e704f0a",
@@ -33283,7 +33262,8 @@
       "status": "notified",
       "first_seen": "2026-09-29T01:28:41+09:00",
       "last_updated": "2026-09-29T01:28:41+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "f1be10ef",
@@ -33310,7 +33290,8 @@
       "status": "notified",
       "first_seen": "2026-09-29T01:28:41+09:00",
       "last_updated": "2026-09-29T01:28:41+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "42212253",
@@ -33806,7 +33787,8 @@
         "door": 2500
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -34445,16 +34427,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-29T01:28:41+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]西川きよし／オール阪神・巨人／笑い飯／西川のりお・上方よしお／アキナ／マユリカ\n[新喜劇]吉田裕／内場勝則／未知やすえ／山田花子／池乃めだか",
-          "after": "[漫才・落語]西川きよし／オール阪神・巨人／笑い飯／西川のりお・上方よしお／アキナ／マユリカ／バッテリィズ\n[新喜劇]吉田裕／内場勝則／未知やすえ／山田花子／池乃めだか"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-20T21:52:28+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b14571d3",
@@ -34691,16 +34668,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-09-29T01:28:41+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]西川きよし／オール阪神・巨人／西川のりお・上方よしお／アインシュタイン／アキナ／マユリカ\n[新喜劇]吉田裕／内場勝則／未知やすえ／山田花子／池乃めだか",
-          "after": "[漫才・落語]西川きよし／オール阪神・巨人／西川のりお・上方よしお／アインシュタイン／アキナ／マユリカ／バッテリィズ\n[新喜劇]吉田裕／内場勝則／未知やすえ／山田花子／池乃めだか"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-20T21:52:28+09:00",
-      "notified_at": null
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "dbde751b",
@@ -35015,9 +34987,10 @@
       ],
       "local_image": "fliers/90495798.jpeg",
       "status": "notified",
-      "last_updated": "2026-09-29T01:28:41+09:00",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "last_updated": "2026-09-29T01:28:41+09:00",
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "43e60ecd",
@@ -35164,7 +35137,8 @@
       "status": "notified",
       "first_seen": "2026-09-29T01:28:41+09:00",
       "last_updated": "2026-09-29T01:28:41+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "1c5bdf51",
@@ -35191,7 +35165,8 @@
       "status": "notified",
       "first_seen": "2026-09-29T01:28:41+09:00",
       "last_updated": "2026-09-29T01:28:41+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "70c581ed",
@@ -35218,7 +35193,8 @@
       "status": "notified",
       "first_seen": "2026-09-29T01:28:41+09:00",
       "last_updated": "2026-09-29T01:28:41+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "338ae7b7",
@@ -35245,7 +35221,8 @@
       "status": "notified",
       "first_seen": "2026-09-29T01:28:41+09:00",
       "last_updated": "2026-09-29T01:28:41+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "3def7b44",
@@ -35272,7 +35249,8 @@
       "status": "notified",
       "first_seen": "2026-09-29T01:28:41+09:00",
       "last_updated": "2026-09-29T01:28:41+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "aa1a7968",
@@ -35325,7 +35303,8 @@
         "online": 2000
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -35392,7 +35371,8 @@
       "status": "notified",
       "first_seen": "2026-09-29T01:28:41+09:00",
       "last_updated": "2026-09-29T01:28:41+09:00",
-      "notified_at": "2026-09-29T01:28:41+09:00"
+      "notified_at": "2026-09-29T01:28:41+09:00",
+      "diff": null
     },
     {
       "id": "444d2391",
@@ -36654,7 +36634,8 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
@@ -36749,7 +36730,8 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi"
+        "theater:roppongi",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",

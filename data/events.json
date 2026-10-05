@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T22:42:24+09:00",
+  "updated_at": "2026-10-05T13:13:34+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -29024,16 +29024,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-04T22:42:24+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ガクテンソク／祇園／見取り図／ニッポンの社長／ビスケットブラザーズ／ヨネダ2000／田津原理音／黒帯／隣人／豪快キャプテン／もも／ぎょうぶ／うただ／ライムギ／やまぐちたけし\n[スペシャルアクト]〈ラップ芸人〉／鬼としみちゃむ しみちゃむ／茜250cc 善家／千日前ゴールデンポップス ガーヤマちゃん／真輝志\n[ゲームコーナー][前説]ゆくえ",
-          "after": "[ネタ出演者]ガクテンソク／祇園／見取り図／ニッポンの社長／ビスケットブラザーズ／ヨネダ2000／田津原理音／黒帯／隣人／豪快キャプテン／もも／ぎょうぶ／うただ／三遊間／ライムギ／やまぐちたけし\n[スペシャルアクト]〈ラップ芸人〉／鬼としみちゃむ しみちゃむ／茜250cc 善家／千日前ゴールデンポップス ガーヤマちゃん／真輝志\n[ゲームコーナー][前説]ゆくえ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-25T22:15:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-04T22:42:24+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6dcdb40b",
@@ -29314,16 +29309,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-04T22:42:24+09:00",
-      "diff": {
-        "members": {
-          "before": "ロングコートダディ／ビスケットブラザーズ／マユリカ／気になるあの娘／太宰／喜喜かいばしら／ほか村／やゆよ",
-          "after": "ロングコートダディ／ビスケットブラザーズ／マユリカ／気になるあの娘／むなかったん／太宰／喜喜かいばしら／ほか村／やゆよ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-05T20:39:29+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-04T22:42:24+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "46b2eb96",
@@ -31284,9 +31274,10 @@
       ],
       "local_image": "fliers/bb61d8cf.jpg",
       "status": "notified",
-      "last_updated": "2026-10-04T22:42:24+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-04T22:42:24+09:00"
+      "last_updated": "2026-10-04T22:42:24+09:00",
+      "notified_at": "2026-10-04T22:42:24+09:00",
+      "diff": null
     },
     {
       "id": "a881f3d0",
@@ -32657,6 +32648,33 @@
       "diff": null
     },
     {
+      "id": "1022fdf7",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "漫開",
+      "date": "2026-10-29",
+      "open_time": "19:00",
+      "start_time": "19:30",
+      "end_time": null,
+      "members": "ドーナツ・ピーナツ、ミカボ、ケビンス、ビューティフルトーキョーマンズ、カナメストーン（マセキ芸能社）",
+      "venue": "北沢タウンホール",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-10-05T13:13:33+09:00",
+      "last_updated": "2026-10-05T13:13:33+09:00",
+      "notified_at": "2026-10-05T13:13:34+09:00"
+    },
+    {
       "id": "8d301159",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -33377,7 +33395,7 @@
       "open_time": "19:15",
       "start_time": "19:30",
       "end_time": null,
-      "members": "kento fukaya／マイスイートメモリーズ 花谷／隣人 中村遊直／フースーヤ 谷口／空前メテオ 茶屋／ぐろう 家村／シカノシンプ 北川／生姜猫 カンサイ／他",
+      "members": "kento fukaya／マイスイートメモリーズ 花谷／隣人 中村遊直／フースーヤ 谷口／空前メテオ 茶屋／ぐろう 家村／シカノシンプ 北川／生姜猫 カンサイ／[MC]cacao 浦田スターク",
       "venue": "よしもと道頓堀シアター",
       "prefecture": "大阪府",
       "image_url": null,
@@ -33390,10 +33408,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-10-05T13:13:33+09:00",
       "first_seen": "2026-09-29T01:28:41+09:00",
-      "last_updated": "2026-10-03T22:03:30+09:00",
-      "notified_at": "2026-10-03T22:03:31+09:00",
-      "diff": null
+      "notified_at": "2026-10-05T13:13:34+09:00"
     },
     {
       "id": "f1be10ef",
@@ -35425,7 +35442,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/21513/54839",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%83%8F%E3%83%81%E3%83%A3%E3%83%A1%E3%83%81%E3%83%A3%E3%82%B9%E3%82%AD%E3%82%AB%E3%83%83%E3%83%86%E3%83%9C%E3%82%B1%E3%83%9C%E3%82%B1%E3%82%B3%E3%83%B3%E3%83%88%E3%83%BC%E3%82%BA-11-11-19-30",
       "notice": "MC以外のメンバーがとにかくボケまくるライブです！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：9/30（水）11:00～10/2（金）11:00\r\n〇一般販売：10/5（月）10:00\r\n\r\n■配信チケット■\r\n〇発売日：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nロングコートダディ 堂前（10/3）\r\nアイラブ地球 きむきむ（10/3）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。",
       "price": {
         "advance": 3000,
@@ -35890,9 +35907,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-04T22:42:24+09:00",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-04T22:42:24+09:00"
+      "last_updated": "2026-10-04T22:42:24+09:00",
+      "notified_at": "2026-10-04T22:42:24+09:00",
+      "diff": null
     },
     {
       "id": "f93d33b6",

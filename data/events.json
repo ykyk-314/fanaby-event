@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T02:24:46+09:00",
+  "updated_at": "2026-10-13T14:36:39+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -29829,16 +29829,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-13T02:24:46+09:00",
-      "diff": {
-        "members": {
-          "before": "ファンファーレと熱狂／オニイチャン／空前メテオ／キョンビ／シカノシンプ／例えば炎／電気ジュース／満丸／バリアシオン／ちあき／グゴゴ0.9\n[コーナー出演者]MC：満丸／ファンファーレと熱狂／空前メテオ／電気ジュース／ちあき",
-          "after": "ファンファーレと熱狂／オニイチャン／空前メテオ／キョンビ／シカノシンプ／例えば炎／電気ジュース／満丸／バリアシオン／東雲／ちあき\n[コーナー出演者]MC：満丸／ファンファーレと熱狂／空前メテオ／電気ジュース／ちあき"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-12T20:59:07+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-13T02:24:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c618495a",
@@ -29878,13 +29873,13 @@
       "open_time": "19:00",
       "start_time": "19:15",
       "end_time": "20:15",
-      "members": "[企画ライブ]セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／阿部直也／シシガシラ／オズワルド／ゲスト:ゼロカラン／大王",
+      "members": "[企画ライブ]セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／阿部直也／山田愛実／シシガシラ／オズワルド／ゲスト:ゼロカラン／大王",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000020682_1_20261002174813622.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/20165/52194",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E4%B8%89%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE-10-14-19-15",
-      "notice": "文字通り三分間にすべてを注ぐ漫才師達のネタライブ。\r\n三分にちなんだコーナーも？！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n　・FANY IDメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n\r\n〇一般販売：9/5（土）10:00\r\n\r\n〇配信：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nゼロカラン、大王(9/26)",
+      "notice": "文字通り三分間にすべてを注ぐ漫才師達のネタライブ。\r\n三分にちなんだコーナーも？！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n　・FANY IDメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n\r\n〇一般販売：9/5（土）10:00\r\n\r\n〇配信：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nゼロカラン、大王(9/26)\r\n山田愛美(10/13)",
       "price": {
         "advance": 1500,
         "door": 2000,
@@ -29896,10 +29891,9 @@
       ],
       "local_image": "fliers/7b59ea3c.jpg",
       "status": "notified",
+      "last_updated": "2026-10-13T14:36:39+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "last_updated": "2026-10-02T23:28:06+09:00",
-      "notified_at": "2026-10-02T23:28:06+09:00",
-      "diff": null
+      "notified_at": "2026-10-13T14:36:39+09:00"
     },
     {
       "id": "da492795",
@@ -33405,16 +33399,11 @@
         "profile"
       ],
       "local_image": "fliers/c30bafeb.jpg",
-      "status": "updated",
-      "last_updated": "2026-10-13T02:24:46+09:00",
-      "diff": {
-        "image_url": {
-          "before": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000022239_1_20261009152144941.jpg",
-          "after": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000022239_1_20261012102620387.jpg"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-30T23:38:05+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-13T02:24:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "545ee6c2",
@@ -36575,9 +36564,10 @@
       ],
       "local_image": "fliers/084cf23a.jpg",
       "status": "notified",
-      "last_updated": "2026-10-13T02:24:46+09:00",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-13T02:24:46+09:00"
+      "last_updated": "2026-10-13T02:24:46+09:00",
+      "notified_at": "2026-10-13T02:24:46+09:00",
+      "diff": null
     },
     {
       "id": "eb5a1e48",
@@ -36763,6 +36753,33 @@
       "last_updated": "2026-09-27T12:50:23+09:00",
       "notified_at": "2026-09-27T12:50:23+09:00",
       "diff": null
+    },
+    {
+      "id": "269afe04",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "塚田しりとり～伝説への幕開け～",
+      "date": "2026-11-18",
+      "open_time": "17:30",
+      "start_time": "18:00",
+      "end_time": null,
+      "members": "ブラゴーリ／シシガシラ／ケビンス／9番街レトロ",
+      "venue": "よしもと幕張イオンモール劇場",
+      "prefecture": "千葉県",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000022492_1_20261006212331215.jpg",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/269afe04.jpg",
+      "status": "notified",
+      "first_seen": "2026-10-13T14:36:39+09:00",
+      "last_updated": "2026-10-13T14:36:39+09:00",
+      "notified_at": "2026-10-13T14:36:39+09:00"
     },
     {
       "id": "bc915b1f",
@@ -38396,16 +38413,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-13T02:24:46+09:00",
-      "diff": {
-        "members": {
-          "before": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ／他\n【吉本新喜劇】 吉田裕／他",
-          "after": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-08-24T10:12:27+09:00"
+      "last_updated": "2026-10-13T02:24:46+09:00",
+      "notified_at": "2026-08-24T10:12:27+09:00",
+      "diff": null
     },
     {
       "id": "d19ff996",
@@ -38521,16 +38533,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-13T02:24:46+09:00",
-      "diff": {
-        "members": {
-          "before": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ／他\n【吉本新喜劇】 吉田裕／他",
-          "after": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-08-24T10:12:27+09:00"
+      "last_updated": "2026-10-13T02:24:46+09:00",
+      "notified_at": "2026-08-24T10:12:27+09:00",
+      "diff": null
     },
     {
       "id": "b19039bc",
@@ -38651,16 +38658,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-13T02:24:46+09:00",
-      "diff": {
-        "members": {
-          "before": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ／他\n【吉本新喜劇】 吉田裕／他",
-          "after": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-08-24T10:12:27+09:00"
+      "last_updated": "2026-10-13T02:24:46+09:00",
+      "notified_at": "2026-08-24T10:12:27+09:00",
+      "diff": null
     },
     {
       "id": "c4ed35bb",

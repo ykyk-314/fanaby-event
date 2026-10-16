@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T22:04:46+09:00",
+  "updated_at": "2026-10-16T12:16:23+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -30186,31 +30186,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ギャロップ／ザ・パンチ／エバース／ダブルヒガシ／9番街レトロ／ゆにばーす／からし蓮根／ぱろぱろ／素敵じゃないか／シンクロニシティ／兄弟／例えば炎",
-          "after": "[ネタ＆コーナーライブ]ギャロップ／ザ・パンチ／エバース／ダブルヒガシ／9番街レトロ／ゆにばーす／からし蓮根／ぱろぱろ／素敵じゃないか／シンクロニシティ／兄弟／例えば炎\n[ コーナー出演者]MC：ゆにばーす／からし蓮根／ぱろぱろ／ダブルヒガシ"
-        },
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20214/52370"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\n例えば炎(10/6)\r\n\r\n※都合により、出演者が変更になる可能性がございます。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "470c975d",
@@ -30270,31 +30250,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ギャロップ／ザ・パンチ／エバース／ダブルヒガシ／ゆにばーす／からし蓮根／田津原理音／ぱろぱろ／素敵じゃないか／天才ピアニスト／シンクロニシティ／兄弟",
-          "after": "[ネタ＆コーナーライブ]ギャロップ／ザ・パンチ／エバース／ダブルヒガシ／ゆにばーす／からし蓮根／田津原理音／ぱろぱろ／素敵じゃないか／天才ピアニスト／シンクロニシティ／兄弟\n[ コーナー出演者]MC：素敵じゃないか／エバース／シンクロニシティ／兄弟"
-        },
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20214/52371"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\n天才ピアニスト(10/6)\r\n\r\n※都合により、出演者が変更になる可能性がございます。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ce2fe591",
@@ -30350,31 +30310,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ギャロップ／ザ・パンチ／エバース／9番街レトロ／今井らいぱち／ゆにばーす／からし蓮根／ぱろぱろ／素敵じゃないか／シンクロニシティ／兄弟／例えば炎",
-          "after": "[ネタ＆コーナーライブ]ギャロップ／ザ・パンチ／エバース／9番街レトロ／今井らいぱち／ゆにばーす／からし蓮根／ぱろぱろ／素敵じゃないか／シンクロニシティ／兄弟／例えば炎\n[ コーナー出演者]MC：からし蓮根／9番街レトロ／シンクロニシティ／例えば炎"
-        },
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20214/52372"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\n例えば炎(10/6)\r\n\r\n※都合により、出演者が変更になる可能性がございます。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c5ffa269",
@@ -30437,9 +30377,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "650ad55a",
@@ -30463,16 +30404,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／ガクテンソク／ミキ／ツートライブ／ビスケットブラザーズ／豪快キャプテン／丸亀じゃんご／愛凛冴／三遊間／ジョックロック／例えば炎／シカノシンプ／あんよの日／清川雄司\n[スペシャルアクト]\n[ゲームコーナー][前説]入学卒業",
-          "after": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／ガクテンソク／ミキ／ツートライブ／ビスケットブラザーズ／豪快キャプテン／丸亀じゃんご／愛凛冴／三遊間／ジョックロック／例えば炎／シカノシンプ／あんよの日／清川雄司\n[スペシャルアクト]〈ラップ芸人〉／茜250cc 善家\n[ゲームコーナー][前説]入学卒業"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-26T12:41:19+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "27f0bc19",
@@ -30500,31 +30436,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]たくろう／ダンビラムーチョ／滝音／9番街レトロ／スロッピ／kento fukaya／ラニーノーズ／世間知らズ／マリーマリー／インテイク／伝書鳩",
-          "after": "[ネタ＆コーナーライブ]たくろう／ダンビラムーチョ／滝音／9番街レトロ／スロッピ／kento fukaya／ラニーノーズ／世間知らズ／マリーマリー／インテイク／伝書鳩\n[ コーナー出演者]MC：滝音／ラニーノーズ／9番街レトロ／インテイク"
-        },
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20214/52373"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n【追加】\r\nラニーノーズ、インテイク(10/14)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "61e54b53",
@@ -30553,27 +30469,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20201/52245"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n　・FANY IDメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n\r\n〇一般販売：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nマルセイユ(9/10)\r\nド天国、ドンココ(9/17)\r\nセカンドロット（10/13）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-21T17:38:56+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1e87cb03",
@@ -30657,16 +30557,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／ガクテンソク／ミキ／ツートライブ／ビスケットブラザーズ／豪快キャプテン／丸亀じゃんご／愛凛冴／三遊間／ジョックロック／例えば炎／シカノシンプ／あんよの日／清川雄司\n[スペシャルアクト]\n[ゲームコーナー][前説]入学卒業",
-          "after": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／ガクテンソク／ミキ／ツートライブ／ビスケットブラザーズ／豪快キャプテン／丸亀じゃんご／愛凛冴／三遊間／ジョックロック／例えば炎／シカノシンプ／あんよの日／清川雄司\n[スペシャルアクト]〈ラップ芸人〉／茜250cc 善家\n[ゲームコーナー][前説]入学卒業"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-26T12:41:19+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2770ea1b",
@@ -30694,31 +30589,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]たくろう／ダンビラムーチョ／滝音／9番街レトロ／スロッピ／kento fukaya／ラニーノーズ／世間知らズ／マリーマリー／インテイク／伝書鳩",
-          "after": "[ネタ＆コーナーライブ]たくろう／ダンビラムーチョ／滝音／9番街レトロ／スロッピ／kento fukaya／ラニーノーズ／世間知らズ／マリーマリー／インテイク／伝書鳩\n[ コーナー出演者]MC：ダンビラムーチョ／スロッピ／世間知らズ／伝書鳩"
-        },
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20214/52374"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n【追加】\r\nラニーノーズ、インテイク(10/14)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b954b596",
@@ -30747,27 +30622,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20201/52246"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n　・FANY IDメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n\r\n〇一般販売：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nマルセイユ(9/10)\r\nド天国、ドンココ(9/17)\r\nセカンドロット（10/13）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-21T17:38:56+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a502e6f2",
@@ -30823,31 +30682,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]たくろう／ドンデコルテ／ダンビラムーチョ／滝音／9番街レトロ／スロッピ／kento fukaya／ラニーノーズ／マリーマリー／インテイク／伝書鳩",
-          "after": "[ネタ＆コーナーライブ]たくろう／ドンデコルテ／ダンビラムーチョ／滝音／9番街レトロ／スロッピ／kento fukaya／ラニーノーズ／マリーマリー／インテイク／伝書鳩\n[ コーナー出演者]MC：kento fukaya／ダンビラムーチョ／滝音／マリーマリー"
-        },
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20214/52375"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n【追加】\r\nラニーノーズ、インテイク(10/14)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "85c71fd3",
@@ -30875,16 +30714,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "2丁拳銃／タモンズ／GAG／カゲヤマ／マユリカ／ゆにばーす／ミカボ／金魚番長",
-          "after": "2丁拳銃／タモンズ／GAG／カゲヤマ／マユリカ／ゆにばーす／ミカボ／金魚番長／イチゴ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-25T17:40:10+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "619962a6",
@@ -30913,27 +30747,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20201/52247"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n　・FANY IDメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n\r\n〇一般販売：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nマルセイユ(9/10)\r\nド天国、ドンココ(9/17)\r\nセカンドロット（10/13）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-21T17:38:56+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "664cbb73",
@@ -30957,16 +30775,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／ガクテンソク／ミキ／ツートライブ／ビスケットブラザーズ／豪快キャプテン／丸亀じゃんご／愛凛冴／三遊間／ジョックロック／例えば炎／シカノシンプ／あんよの日／清川雄司\n[スペシャルアクト]\n[ゲームコーナー][前説]入学卒業",
-          "after": "[ネタ出演者]中田カウス漫才のDENDO NEXT／アインシュタイン／ガクテンソク／ミキ／ツートライブ／ビスケットブラザーズ／豪快キャプテン／丸亀じゃんご／愛凛冴／三遊間／ジョックロック／例えば炎／シカノシンプ／あんよの日／清川雄司\n[スペシャルアクト]〈ラップ芸人〉／茜250cc 善家\n[ゲームコーナー][前説]入学卒業"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-26T12:41:19+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8a1a7d6e",
@@ -31023,9 +30836,10 @@
       ],
       "local_image": "fliers/c4dcabec.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-09T21:45:35+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "b0c67cda",
@@ -31053,27 +30867,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/19972/51815"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\n田津原理音(10/13)\r\n\r\n※都合により、出演者が変更になる可能性がございます。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "481e922b",
@@ -31158,9 +30956,10 @@
       ],
       "local_image": "fliers/d4c4b5fd.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "d1f415e2",
@@ -31216,27 +31015,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49683"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n男性ブランコ（8/3）\r\nダイアン（8/24）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "00dcd275",
@@ -31264,27 +31047,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49684"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nダイアン（8/24）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "37c38dc6",
@@ -31312,31 +31079,11 @@
         "profile"
       ],
       "local_image": "fliers/37c38dc6.jpg",
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "image_url": {
-          "before": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000019403_1_20260910190311914.jpg",
-          "after": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000019403_1_20261015164433802.jpg"
-        },
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7210/22400"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n男性ブランコ（8/3）\r\nザ・パンチ（9/11）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f80a7d00",
@@ -31546,9 +31293,10 @@
       ],
       "local_image": "fliers/bb61d8cf.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "a881f3d0",
@@ -31634,9 +31382,10 @@
       ],
       "local_image": "fliers/ea43b323.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "21634676",
@@ -31704,13 +31453,13 @@
       "open_time": "10:30",
       "start_time": "11:00",
       "end_time": "12:45",
-      "members": "中川家／ジャルジャル／村上ショージ／タモンズ／ネルソンズ／ミキ／ケビンス／EXIT／エルフ／他",
+      "members": "中川家／ジャルジャル／村上ショージ／タモンズ／ヘンダーソン／ネルソンズ／ミキ／ケビンス／EXIT／エルフ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/18912/49735",
       "online_url": null,
-      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ／EXIT（8/29）\r\nケビンス（9/23）\r\n\r\n出演を予定していました《シャンプーハット》 は、都合により休演いたします。 \r\n誠に申し訳ございません。\r\n代演は決まり次第お知らせいたします。\r\nあしからずご了承くださいませ。（9/24更新）",
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ／EXIT（8/29）\r\nケビンス（9/23）\r\n\r\n10/24（土）「土日祝１１時・１３時３０分・１６時の部 プレミアム」に出演を予定していました\r\n《シャンプーハット》 は、都合により休演、《ヘンダーソン》が出演いたします。\r\n\r\n誠に申し訳ございません。（10/16更新）",
       "price": {
         "advance": 5500,
         "door": 6000
@@ -31721,22 +31470,15 @@
       ],
       "local_image": null,
       "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
+      "last_updated": "2026-10-16T12:16:23+09:00",
       "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18912/49735"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 5500,
-            "door": 6000
-          }
+        "members": {
+          "before": "中川家／ジャルジャル／村上ショージ／タモンズ／ネルソンズ／ミキ／ケビンス／EXIT／エルフ／他",
+          "after": "中川家／ジャルジャル／村上ショージ／タモンズ／ヘンダーソン／ネルソンズ／ミキ／ケビンス／EXIT／エルフ"
         },
         "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ／EXIT（8/29）\r\nケビンス（9/23）\r\n\r\n出演を予定していました《シャンプーハット》 は、都合により休演いたします。 \r\n誠に申し訳ございません。\r\n代演は決まり次第お知らせいたします。\r\nあしからずご了承くださいませ。（9/24更新）"
+          "before": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ／EXIT（8/29）\r\nケビンス（9/23）\r\n\r\n出演を予定していました《シャンプーハット》 は、都合により休演いたします。 \r\n誠に申し訳ございません。\r\n代演は決まり次第お知らせいたします。\r\nあしからずご了承くださいませ。（9/24更新）",
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ／EXIT（8/29）\r\nケビンス（9/23）\r\n\r\n10/24（土）「土日祝１１時・１３時３０分・１６時の部 プレミアム」に出演を予定していました\r\n《シャンプーハット》 は、都合により休演、《ヘンダーソン》が出演いたします。\r\n\r\n誠に申し訳ございません。（10/16更新）"
         }
       },
       "first_seen": "2026-09-23T22:22:46+09:00",
@@ -31752,13 +31494,13 @@
       "open_time": "13:00",
       "start_time": "13:30",
       "end_time": "15:15",
-      "members": "中川家／ジャルジャル／村上ショージ／タモンズ／ネルソンズ／ミキ／ケビンス／EXIT／エルフ／他",
+      "members": "中川家／ジャルジャル／村上ショージ／タモンズ／ヘンダーソン／ネルソンズ／ミキ／ケビンス／EXIT／エルフ",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/18912/49736",
       "online_url": null,
-      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ／EXIT（8/29）\r\nケビンス（9/23）\r\n\r\n出演を予定していました《シャンプーハット》 は、都合により休演いたします。 \r\n誠に申し訳ございません。\r\n代演は決まり次第お知らせいたします。\r\nあしからずご了承くださいませ。（9/24更新）",
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ／EXIT（8/29）\r\nケビンス（9/23）\r\n\r\n\r\n10/24（土）「土日祝１１時・１３時３０分・１６時の部 プレミアム」に出演を予定していました\r\n《シャンプーハット》 は、都合により休演、《ヘンダーソン》が出演いたします。\r\n\r\n誠に申し訳ございません。（10/16更新）",
       "price": {
         "advance": 5500,
         "door": 6000
@@ -31769,22 +31511,15 @@
       ],
       "local_image": null,
       "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
+      "last_updated": "2026-10-16T12:16:23+09:00",
       "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18912/49736"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 5500,
-            "door": 6000
-          }
+        "members": {
+          "before": "中川家／ジャルジャル／村上ショージ／タモンズ／ネルソンズ／ミキ／ケビンス／EXIT／エルフ／他",
+          "after": "中川家／ジャルジャル／村上ショージ／タモンズ／ヘンダーソン／ネルソンズ／ミキ／ケビンス／EXIT／エルフ"
         },
         "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ／EXIT（8/29）\r\nケビンス（9/23）\r\n\r\n出演を予定していました《シャンプーハット》 は、都合により休演いたします。 \r\n誠に申し訳ございません。\r\n代演は決まり次第お知らせいたします。\r\nあしからずご了承くださいませ。（9/24更新）"
+          "before": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ／EXIT（8/29）\r\nケビンス（9/23）\r\n\r\n出演を予定していました《シャンプーハット》 は、都合により休演いたします。 \r\n誠に申し訳ございません。\r\n代演は決まり次第お知らせいたします。\r\nあしからずご了承くださいませ。（9/24更新）",
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ／EXIT（8/29）\r\nケビンス（9/23）\r\n\r\n\r\n10/24（土）「土日祝１１時・１３時３０分・１６時の部 プレミアム」に出演を予定していました\r\n《シャンプーハット》 は、都合により休演、《ヘンダーソン》が出演いたします。\r\n\r\n誠に申し訳ございません。（10/16更新）"
         }
       },
       "first_seen": "2026-09-23T22:22:46+09:00",
@@ -31875,9 +31610,10 @@
       ],
       "local_image": "fliers/fef870c0.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "896ff6a0",
@@ -31938,9 +31674,10 @@
       ],
       "local_image": "fliers/830fe4c9.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-30T22:34:34+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "02a1fc60",
@@ -31968,27 +31705,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20201/52251"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n　・FANY IDメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n\r\n〇一般販売：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n私東京(9/17)\r\n大王(10/9)\r\n金魚番長、球技大会（10/13）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-21T17:38:56+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "5d1fa890",
@@ -32044,27 +31765,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20201/52252"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n　・FANY IDメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n\r\n〇一般販売：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n私東京(9/17)\r\n大王、球技大会(10/9)\r\n金魚番長（10/13）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-21T17:38:56+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "86ae201c",
@@ -32092,27 +31797,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20214/52381"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "dc239263",
@@ -32140,27 +31829,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20201/52253"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n　・FANY IDメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n\r\n〇一般販売：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n私東京(9/17)\r\n大王、球技大会(10/9)\r\n小虎（10/13）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-21T17:38:56+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "19dac899",
@@ -32218,9 +31891,10 @@
       ],
       "local_image": "fliers/6071b282.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-29T22:38:11+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "74a00ef9",
@@ -32314,27 +31988,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/19949/51766"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n　・FANY IDメンバー\r\n　　8/25（火）11:00 ～ 8/28（金）11:00\r\n\r\n〇一般販売：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n球技大会(10/9)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3b00594c",
@@ -32364,9 +32022,10 @@
       ],
       "local_image": "fliers/3b00594c.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "b4e23486",
@@ -32423,9 +32082,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-29T23:38:02+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "f0ebad39",
@@ -32453,27 +32113,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49692"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nジェラードン（9/10）\r\nダンビラムーチョ（9/17）\r\nコットン（10/14）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "8e9fbd9f",
@@ -32501,27 +32145,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49693"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nジェラードン（9/10）\r\nダンビラムーチョ（9/17）\r\nコットン（10/14）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "05817eb5",
@@ -32550,28 +32178,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/19976/51831"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800,
-            "online": 1300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n「プラス」はオンライン配信もあり！！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\nオンラインチケット発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[変更]\r\nデニスは休演いたします(9/7)\r\n\r\n※都合により、出演者が変更になる可能性がございます。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-10T12:14:19+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ab32d75c",
@@ -32599,27 +32210,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/19983/51907"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2000,
-            "door": 2300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "次世代を担うNEXT若手コント師を中心としたコントライブ！\r\nKOCファイナリストや熟練のコント師たちも出演！\r\n\r\n------------------------------------\r\n※コントパス対象公演です。\r\n------------------------------------\r\n\r\n＼コントパス／6,000円（税込）\r\n2026年10月の「六本木コントライブNEXT！」（全10公演）がこのパス1枚で見放題！\r\n\r\n※YOSHIMOTO ROPPONGI THEATER 窓口でもお買い求めいただけます。\r\n------------------------------------\r\n\r\n【ご入場方法】\r\n1.「コントパス」整理番号1番～のお客様\r\n2. 前売券・当日券の整理番号201番～のお客様\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：8/25（火）11:00～8/28（金）11:00\r\n〇一般販売：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nインポッシブル\r\nGAG\r\n九条ジョー\r\nぺ（9/11）\r\nサルゴリラ（10/1）\r\nやさしいズ（10/2）\r\n田津原理音（10/9）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-25T10:10:59+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e8b5a933",
@@ -32649,9 +32244,10 @@
       ],
       "local_image": "fliers/e8b5a933.png",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "cc311424",
@@ -32679,27 +32275,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7206/22348"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n『FUJIWARA原西×英雄SPユニット』（8/14）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "a7edb026",
@@ -32727,27 +32307,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7206/22349"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n『FUJIWARA原西×英雄SPユニット』（8/14）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "697190f6",
@@ -32776,9 +32340,10 @@
       ],
       "local_image": "fliers/697190f6.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-25T10:10:59+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "94e173de",
@@ -32808,9 +32373,10 @@
       ],
       "local_image": "fliers/94e173de.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "c2f22dc7",
@@ -32840,9 +32406,10 @@
       ],
       "local_image": "fliers/c2f22dc7.png",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "2d9e5100",
@@ -32870,27 +32437,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49694"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\nななまがり（9/10）\r\nゼロカラン（9/13）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "8e9e2f58",
@@ -32946,27 +32497,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/18910/49695"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\nななまがり（9/10）\r\nゼロカラン（9/13）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "94707d21",
@@ -33022,27 +32557,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/19972/51818"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n■変更履歴■\r\n[追加]\r\nドンデコルテ(10/2)\r\n\r\n※都合により、出演者が変更になる可能性がございます。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1d41f500",
@@ -33070,27 +32589,11 @@
         "profile"
       ],
       "local_image": "fliers/1d41f500.jpg",
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7210/22406"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nななまがり・そいつどいつ（9/10）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-23T19:21:42+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d7dc7b59",
@@ -33320,16 +32823,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]海原やすよ ともこ／トミーズ／シャンプーハット／ダイアン／ギャロップ／男性ブランコ／コロコロチキチキペッパーズ／ビスケットブラザーズ／ミキ\n[新喜劇]酒井藍／池乃めだか／内場勝則／山田花子／西川忠志／烏川耕一／清水けんじ／新名徹郎／佐藤太一郎／松浦真也／もじゃ吉田／金原早苗／森田まりこ／多和田上人／服部ひで子／伊丹祐貴／筒井亜由貴／野崎塁／きだななみ",
-          "after": "[漫才・落語]海原やすよ ともこ／トミーズ／ダイアン／ギャロップ／ラフ次元／男性ブランコ／コロコロチキチキペッパーズ／ビスケットブラザーズ／ミキ\n[新喜劇]酒井藍／池乃めだか／内場勝則／山田花子／西川忠志／烏川耕一／清水けんじ／新名徹郎／佐藤太一郎／松浦真也／もじゃ吉田／金原早苗／森田まりこ／多和田上人／服部ひで子／伊丹祐貴／筒井亜由貴／野崎塁／きだななみ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-24T19:15:24+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c3363f1f",
@@ -33353,16 +32851,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]海原やすよ ともこ／トミーズ／シャンプーハット／ダイアン／ギャロップ／男性ブランコ／コロコロチキチキペッパーズ／ビスケットブラザーズ／ミキ\n[新喜劇]酒井藍／池乃めだか／内場勝則／山田花子／西川忠志／烏川耕一／清水けんじ／新名徹郎／佐藤太一郎／松浦真也／もじゃ吉田／金原早苗／森田まりこ／多和田上人／服部ひで子／伊丹祐貴／筒井亜由貴／野崎塁／きだななみ",
-          "after": "[漫才・落語]海原やすよ ともこ／トミーズ／ダイアン／ギャロップ／ラフ次元／男性ブランコ／コロコロチキチキペッパーズ／ビスケットブラザーズ／ミキ\n[新喜劇]酒井藍／池乃めだか／内場勝則／山田花子／西川忠志／烏川耕一／清水けんじ／新名徹郎／佐藤太一郎／松浦真也／もじゃ吉田／金原早苗／森田まりこ／多和田上人／服部ひで子／伊丹祐貴／筒井亜由貴／野崎塁／きだななみ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-07-24T19:15:24+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4855e2e6",
@@ -33420,9 +32913,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-19T12:16:43+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "a72636bf",
@@ -33453,9 +32947,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "c0ce0e6c",
@@ -33568,27 +33063,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20214/52382"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "056a96ec",
@@ -33645,27 +33124,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20214/52383"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3cd6e7ca",
@@ -33721,27 +33184,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7208/22383"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 4500,
-            "door": 5000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nパンクブーブー／インポッシブル／シマッシュレコード／ツートライブ／田津原理音（8/29）\r\nケビンス（9/26）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-26T21:41:02+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "b14fcee9",
@@ -33770,27 +33217,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/20214/52384"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0bd78c10",
@@ -33874,27 +33305,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/7208/22384"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 4500,
-            "door": 5000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n銀シャリ／インポッシブル／シマッシュレコード／田津原理音（8/29）\r\nケビンス（9/26）\r\n9番街レトロ（10/6）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-26T21:41:02+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "8b969a40",
@@ -34258,27 +33673,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/8282/51896"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n\r\n一般発売日：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nとろサーモン／ライス／紅しょうが／エバース（8/29）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "19b0eea9",
@@ -34306,27 +33705,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/8282/25533"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n\r\n一般発売日：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nとろサーモン／ライス／ゆにばーす／紅しょうが（8/29）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "5766ad6e",
@@ -34382,27 +33765,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/8282/25534"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n\r\n一般発売日：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nとろサーモン／ライス／ゆにばーす／紅しょうが（8/29）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "864846b5",
@@ -34458,27 +33825,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21083/54006"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f81f2789",
@@ -34506,27 +33857,11 @@
         "profile"
       ],
       "local_image": "fliers/f81f2789.jpg",
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21451/54713"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n一般発売：9/28(月) 10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-27T12:50:23+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ac56ac4d",
@@ -34585,9 +33920,10 @@
       ],
       "local_image": "fliers/eb6c223f.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "226780d9",
@@ -34615,27 +33951,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54018"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "fabc4509",
@@ -34664,27 +33984,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21100/54081"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "今、勢いのある若手から賞レースで活躍中のコント師たちが集まるコントだらけのネタとコーナーの90分ライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：9/25（金）11:00～9/28（月）11:00\r\n〇一般販売：10/5（月）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n☆【高校生料金のご案内】☆\r\n高校生の方は前売・当日ともに【2,300円】でご観劇いただけます。\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に高校の学生証または年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。\r\n※年度の区切りは4月1日とし、公演日時点で高校に在学中の方が対象となります。\r\n\r\n☆【子ども料金のご案内】☆\r\n中学生以下の方は前売・当日ともに【1,500円】でご観劇いただけます。\r\n(5歳未満または身長110㎝未満のお子様はお席が不要です。)\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "563a69cd",
@@ -34712,27 +34016,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54017"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c09877c8",
@@ -34761,27 +34049,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21100/54089"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "今、勢いのある若手から賞レースで活躍中のコント師たちが集まるコントだらけのネタとコーナーの90分ライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：9/25（金）11:00～9/28（月）11:00\r\n〇一般販売：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nジェラードン（10/3）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n☆【高校生料金のご案内】☆\r\n高校生の方は前売・当日ともに【2,300円】でご観劇いただけます。\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に高校の学生証または年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。\r\n※年度の区切りは4月1日とし、公演日時点で高校に在学中の方が対象となります。\r\n\r\n☆【子ども料金のご案内】☆\r\n中学生以下の方は前売・当日ともに【1,500円】でご観劇いただけます。\r\n(5歳未満または身長110㎝未満のお子様はお席が不要です。)\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0f3c478c",
@@ -34809,27 +34081,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54050"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "44779f7a",
@@ -34859,9 +34115,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "743eedb6",
@@ -34890,9 +34147,10 @@
       ],
       "local_image": "fliers/743eedb6.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "aa2c824a",
@@ -34922,9 +34180,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "b0cbb371",
@@ -34952,27 +34211,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21083/54007"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6597c4fe",
@@ -35062,9 +34305,10 @@
       ],
       "local_image": "fliers/4d7a7893.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-10-10T13:28:27+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "28bccb90",
@@ -35153,27 +34397,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21014/53877"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c52963af",
@@ -35230,28 +34458,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21198/54321"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800,
-            "online": 1300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n「プラス」はオンライン配信もあり！！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\nオンラインチケット発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3fa2d82d",
@@ -35279,27 +34490,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21081/53998"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2000,
-            "door": 2300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "次世代を担うNEXT若手コント師を中心としたコントライブ！\r\nKOCファイナリストや熟練のコント師たちも出演！\r\n\r\n------------------------------------\r\n※コントパス対象公演です。\r\n------------------------------------\r\n\r\n＼コントパス／6,000円（税込）\r\n2026年11月の「六本木コントライブNEXT！」（全10公演）がこのパス1枚で見放題！\r\n\r\n※YOSHIMOTO ROPPONGI THEATER 窓口でもお買い求めいただけます。\r\n------------------------------------\r\n\r\n【ご入場方法】\r\n1.「コントパス」整理番号1番～のお客様\r\n2. 前売券・当日券の整理番号201番～のお客様\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：9/25（金）11:00～9/28（月）11:00\r\n〇一般販売：10/5（月）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bc68ffa4",
@@ -35358,9 +34553,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "691e28ee",
@@ -35416,27 +34612,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54293"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c691a07e",
@@ -35460,16 +34640,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "パタパタママ／ギャロップ／大谷健太／メンバー／ダイタク／ビスケットブラザーズ／タチマチ／メガモッツ／喜喜かいばしら／＜ゲームコーナー＞／他",
-          "after": "パタパタママ／ギャロップ／大谷健太／メンバー／ダイタク／ビスケットブラザーズ／タチマチ／メガモッツ／喜喜かいばしら／メタルラック／＜ゲームコーナー＞／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-10T12:14:19+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b70a6b95",
@@ -35497,27 +34672,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21100/54082"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "今、勢いのある若手から賞レースで活躍中のコント師たちが集まるコントだらけのネタとコーナーの90分ライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：9/25（金）11:00～9/28（月）11:00\r\n〇一般販売：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nライス（10/12）\r\nコットン（10/12）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n☆【高校生料金のご案内】☆\r\n高校生の方は前売・当日ともに【2,300円】でご観劇いただけます。\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に高校の学生証または年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。\r\n※年度の区切りは4月1日とし、公演日時点で高校に在学中の方が対象となります。\r\n\r\n☆【子ども料金のご案内】☆\r\n中学生以下の方は前売・当日ともに【1,500円】でご観劇いただけます。\r\n(5歳未満または身長110㎝未満のお子様はお席が不要です。)\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8cd9a212",
@@ -35545,27 +34704,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54294"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "90cc66c1",
@@ -35589,16 +34732,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "パタパタママ／ギャロップ／大谷健太／メンバー／ダイタク／ビスケットブラザーズ／タチマチ／メガモッツ／喜喜かいばしら／＜ゲームコーナー＞／他",
-          "after": "パタパタママ／ギャロップ／大谷健太／メンバー／ダイタク／ビスケットブラザーズ／タチマチ／メガモッツ／喜喜かいばしら／メタルラック／＜ゲームコーナー＞／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-10T12:14:19+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3f2089f0",
@@ -35626,27 +34764,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54295"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "95ec43d5",
@@ -35674,27 +34796,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21100/54090"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "今、勢いのある若手から賞レースで活躍中のコント師たちが集まるコントだらけのネタとコーナーの90分ライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：9/25（金）11:00～9/28（月）11:00\r\n〇一般販売：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nライス（10/12）\r\nコットン（10/12）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n☆【高校生料金のご案内】☆\r\n高校生の方は前売・当日ともに【2,300円】でご観劇いただけます。\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に高校の学生証または年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。\r\n※年度の区切りは4月1日とし、公演日時点で高校に在学中の方が対象となります。\r\n\r\n☆【子ども料金のご案内】☆\r\n中学生以下の方は前売・当日ともに【1,500円】でご観劇いただけます。\r\n(5歳未満または身長110㎝未満のお子様はお席が不要です。)\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "97bc65dd",
@@ -35746,16 +34852,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "パタパタママ／ギャロップ／大谷健太／メンバー／ダイタク／ビスケットブラザーズ／タチマチ／メガモッツ／パゴス／＜ゲームコーナー＞／他",
-          "after": "パタパタママ／ギャロップ／大谷健太／メンバー／ダイタク／ビスケットブラザーズ／タチマチ／メガモッツ／パゴス／メタルラック／＜ゲームコーナー＞／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-10T12:14:19+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1fe407a6",
@@ -35933,27 +35034,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54296"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2be56174",
@@ -35981,27 +35066,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54022"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b8704175",
@@ -36086,27 +35155,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54297"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4c3c97d8",
@@ -36134,27 +35187,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54021"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nマルセイユ(9/10)\r\nヨネダ2000(9/11)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "5af29f7e",
@@ -36210,27 +35247,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54298"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6b7a8214",
@@ -36258,27 +35279,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54052"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "cc567ae7",
@@ -36337,9 +35342,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "2abf476d",
@@ -36397,9 +35403,10 @@
       ],
       "local_image": "fliers/7ae342ed.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "5269e20b",
@@ -36428,28 +35435,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21198/54322"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800,
-            "online": 1300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n「プラス」はオンライン配信もあり！！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\nオンラインチケット発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2e96b1bf",
@@ -36477,27 +35467,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21014/53878"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8c01633c",
@@ -36526,9 +35500,10 @@
       ],
       "local_image": "fliers/8c01633c.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "90495798",
@@ -36559,9 +35534,10 @@
       ],
       "local_image": "fliers/90495798.jpeg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "43e60ecd",
@@ -36589,27 +35565,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/19979/51853"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n\r\n一般発売日：9/5（土）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "0674d51c",
@@ -36637,27 +35597,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/19979/51854"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n\r\n一般発売日：9/5（土）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "b678c8e6",
@@ -36911,9 +35855,10 @@
       ],
       "local_image": "fliers/3369d975.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "e1ed9af1",
@@ -36943,9 +35888,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "e0354205",
@@ -37085,27 +36031,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54299"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e0cd80e2",
@@ -37222,27 +36152,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54300"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e59d29c0",
@@ -37298,27 +36212,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54301"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "cd008233",
@@ -37470,9 +36368,10 @@
       ],
       "local_image": "fliers/0a6cbff6.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "f93d33b6",
@@ -37500,27 +36399,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54026"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "29197dd6",
@@ -37580,27 +36463,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54025"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "8d78d9b1",
@@ -37660,27 +36527,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54054"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "32a59bcc",
@@ -37720,7 +36571,7 @@
       "open_time": "16:15",
       "start_time": "16:30",
       "end_time": "17:30",
-      "members": "囲碁将棋／ガクテンソク／ダンビラムーチョ／コロコロチキチキペッパーズ／ビスケットブラザーズ／オズワルド／素敵じゃないか／他",
+      "members": "囲碁将棋／ガクテンソク／コロコロチキチキペッパーズ／ビスケットブラザーズ／ダンビラムーチョ／オズワルド／素敵じゃないか／他",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
@@ -37736,11 +36587,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-10-16T12:16:23+09:00",
+      "diff": {
+        "members": {
+          "before": "囲碁将棋／ガクテンソク／ダンビラムーチョ／コロコロチキチキペッパーズ／ビスケットブラザーズ／オズワルド／素敵じゃないか／他",
+          "after": "囲碁将棋／ガクテンソク／コロコロチキチキペッパーズ／ビスケットブラザーズ／ダンビラムーチョ／オズワルド／素敵じゃないか／他"
+        }
+      },
       "first_seen": "2026-10-02T13:12:44+09:00",
-      "last_updated": "2026-10-03T22:03:30+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "05411bc5",
@@ -37798,9 +36654,10 @@
       ],
       "local_image": "fliers/084cf23a.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "eb5a1e48",
@@ -37829,9 +36686,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "4004ee38",
@@ -37859,27 +36717,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/8282/25553"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n\r\n一般発売日：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nゼロカラン（9/11）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "d90d0865",
@@ -37907,27 +36749,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/8282/25554"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n\r\n一般発売日：9/5（土）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nゼロカラン（9/11）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "c2cf85d1",
@@ -38134,9 +36960,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "a849e94a",
@@ -38220,27 +37047,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21083/54010"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "28192409",
@@ -38270,9 +37081,10 @@
       ],
       "local_image": "fliers/28192409.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "393861c7",
@@ -38329,28 +37141,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21198/54327"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800,
-            "online": 1300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n「プラス」はオンライン配信もあり！！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\nオンラインチケット発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2b373cc6",
@@ -38379,9 +37174,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "be045e69",
@@ -38412,9 +37208,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "f14e7e59",
@@ -38442,27 +37239,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54305"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2d71437c",
@@ -38490,27 +37271,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54306"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3c66688e",
@@ -38566,27 +37331,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54307"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ba7f7a17",
@@ -38642,27 +37391,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54308"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "88182ad5",
@@ -38690,27 +37423,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21519/54845"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "今、勢いのある若手から賞レースで活躍中のコント師たちが集まるコントだらけのネタとコーナーの90分ライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：9/30（水）11:00～10/2（金）11:00\r\n〇一般販売：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nしずる（10/9）\r\nジェラードン（10/9）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n☆【高校生料金のご案内】☆\r\n高校生の方は前売・当日ともに【2,300円】でご観劇いただけます。\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に高校の学生証または年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。\r\n※年度の区切りは4月1日とし、公演日時点で高校に在学中の方が対象となります。\r\n\r\n☆【子ども料金のご案内】☆\r\n中学生以下の方は前売・当日ともに【1,500円】でご観劇いただけます。\r\n(5歳未満または身長110㎝未満のお子様はお席が不要です。)\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "52d9bf9b",
@@ -38738,27 +37455,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54309"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3f58c330",
@@ -38786,27 +37487,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21196/54310"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3100
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1d37548d",
@@ -38834,27 +37519,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21519/54846"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "今、勢いのある若手から賞レースで活躍中のコント師たちが集まるコントだらけのネタとコーナーの90分ライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：9/30（水）11:00～10/2（金）11:00\r\n〇一般販売：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nしずる（10/9）\r\nジェラードン（10/9）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n☆【高校生料金のご案内】☆\r\n高校生の方は前売・当日ともに【2,300円】でご観劇いただけます。\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に高校の学生証または年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。\r\n※年度の区切りは4月1日とし、公演日時点で高校に在学中の方が対象となります。\r\n\r\n☆【子ども料金のご案内】☆\r\n中学生以下の方は前売・当日ともに【1,500円】でご観劇いただけます。\r\n(5歳未満または身長110㎝未満のお子様はお席が不要です。)\r\n<対象公演>\r\n「六本木お笑いコントライブ！」\r\n※ご入場時に年齢がわかる身分証明書をご提示いただきます。\r\n※ご提示がない場合や対象外であることが確認された場合は、一般料金との差額を頂戴いたします。"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "43162563",
@@ -38939,9 +37608,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "7c19636c",
@@ -38971,9 +37641,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "9aa4e271",
@@ -39002,27 +37673,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54032"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "86514dae",
@@ -39046,16 +37701,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "GAG／ななまがり／デルマパンゲ／ダイタク／ビスケットブラザーズ／9番街レトロ／ヨネダ2000／愛凛冴／気になるあの娘／太宰／＜ゲームコーナー＞",
-          "after": "GAG／ななまがり／デルマパンゲ／ダイタク／ビスケットブラザーズ／9番街レトロ／ヨネダ2000／愛凛冴／気になるあの娘／太宰／超人パンダ／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "263018cb",
@@ -39084,27 +37734,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54031"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "04369f9f",
@@ -39128,16 +37762,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "GAG／ななまがり／デルマパンゲ／ダイタク／ビスケットブラザーズ／9番街レトロ／ヨネダ2000／愛凛冴／気になるあの娘／太宰／＜ゲームコーナー＞",
-          "after": "GAG／ななまがり／デルマパンゲ／ダイタク／ビスケットブラザーズ／9番街レトロ／ヨネダ2000／愛凛冴／気になるあの娘／太宰／トピア／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e298820d",
@@ -39166,27 +37795,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21084/54057"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2500,
-            "door": 2800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b2539e90",
@@ -39210,16 +37823,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "members": {
-          "before": "GAG／ななまがり／デルマパンゲ／ダイタク／ビスケットブラザーズ／9番街レトロ／ヨネダ2000／愛凛冴／気になるあの娘／太宰／＜ゲームコーナー＞",
-          "after": "GAG／ななまがり／デルマパンゲ／ダイタク／ビスケットブラザーズ／9番街レトロ／ヨネダ2000／愛凛冴／気になるあの娘／太宰／やまんば／＜ゲームコーナー＞"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c70cfa28",
@@ -39304,9 +37912,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "ba1a9048",
@@ -39336,9 +37945,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "b2d8c683",
@@ -39507,28 +38117,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21198/54328"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800,
-            "online": 1300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n「プラス」はオンライン配信もあり！！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\nオンラインチケット発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a1fc492a",
@@ -39556,27 +38149,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21014/53880"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bede3f86",
@@ -39606,9 +38183,10 @@
       ],
       "local_image": "fliers/bede3f86.jpg",
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "c5f1d544",
@@ -39638,9 +38216,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "36b28a52",
@@ -39809,27 +38388,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21083/54013"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2defa774",
@@ -39997,27 +38560,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/19980/51891"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 5500,
-            "door": 6000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nドンデコルテ出演のレア日！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n\r\n一般発売日：9/5（土）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "d19ff996",
@@ -40133,27 +38680,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/19980/51892"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 5500,
-            "door": 6000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nドンデコルテ出演のレア日！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n\r\n一般発売日：9/5（土）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "b19039bc",
@@ -40215,9 +38746,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-15T22:04:46+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T22:04:46+09:00",
+      "diff": null
     },
     {
       "id": "64e3c59e",
@@ -40273,27 +38805,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/19980/51893"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 5500,
-            "door": 6000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nドンデコルテ出演のレア日！\r\n\r\n■チケット情報■\r\nプレミアム会員・ID会員先行：8/25（火）11:00～8/28（金）11:00\r\n当落発表：8/29（土）18:00頃\r\n\r\n一般発売日：9/5（土）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "c4ed35bb",
@@ -40377,27 +38893,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21014/53881"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00\r\n\r\n〇配信：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "27c038d4",
@@ -40426,27 +38926,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21083/54014"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 1500,
-            "door": 1800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "芸歴9年目以上の極メンバーが出演するネタとコーナーの70分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：9/25(金) 11:00 〜 9/28(月) 11:00\r\n\r\n一般発売：10/5(月) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f850cd62",
@@ -40502,27 +38986,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21159/54166"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n2丁拳銃（9/29）\r\nバンビーノ（10/1）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "510bc4a9",
@@ -40551,27 +39019,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21159/54167"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n2丁拳銃（9/29）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "1e0b7478",
@@ -40600,27 +39052,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21159/54168"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3300,
-            "door": 3800
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nテレビでも大活躍中の人気芸人が勢揃い！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n2丁拳銃（9/29）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "7b969ba0",
@@ -40648,27 +39084,11 @@
         "profile"
       ],
       "local_image": "fliers/7b969ba0.jpg",
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/9437/29327"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n2丁拳銃（9/29）\r\nシマッシュレコード／スクールゾーン（10/2）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "78da5ae4",
@@ -40696,27 +39116,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/9435/29291"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "b75dc1b9",
@@ -40744,27 +39148,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/9435/29292"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 2800,
-            "door": 3300
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n若手からベテランまで！バラエティ豊かなメンバーが大集合！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "ad87c162",
@@ -40792,27 +39180,11 @@
         "profile"
       ],
       "local_image": "fliers/ad87c162.jpg",
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/9437/29332"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 3000,
-            "door": 3500
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n蓮華（10/2）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "804a198b",
@@ -40840,27 +39212,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21158/54157"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 5500,
-            "door": 6000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nベテラン多数！見ごたえあるネタの数々をお楽しみに！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nインポッシブル（9/29）\r\nヒューマン中村（10/2）\r\n"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "4717b43c",
@@ -40916,27 +39272,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21158/54158"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 5500,
-            "door": 6000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nベテラン多数！見ごたえあるネタの数々をお楽しみに！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nインポッシブル（9/29）\r\nヒューマン中村（10/2）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "28ad0e3d",
@@ -41048,27 +39388,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/21158/54159"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 5500,
-            "door": 6000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\nベテラン多数！見ごたえあるネタの数々をお楽しみに！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nインポッシブル（9/29）\r\nヒューマン中村（10/2）"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "b5a64ba5",
@@ -41124,27 +39448,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/9436/29318"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 4500,
-            "door": 5000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n味のあるベテラン揃いの公演をお楽しみに！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "0ec96ca3",
@@ -41172,27 +39480,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/9436/29319"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 4500,
-            "door": 5000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n味のあるベテラン揃いの公演をお楽しみに！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "64221241",
@@ -41220,27 +39512,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/9436/29320"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 4500,
-            "door": 5000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n味のあるベテラン揃いの公演をお楽しみに！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "a24e690b",
@@ -41296,27 +39572,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/9441/29348"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 4500,
-            "door": 5000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "168f41ab",
@@ -41344,27 +39604,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/9441/29349"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 4500,
-            "door": 5000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9cbe1e13",
@@ -41392,27 +39636,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "diff": {
-        "ticket_url": {
-          "before": null,
-          "after": "https://ticket.fany.lol/event/detail/9441/29350"
-        },
-        "price": {
-          "before": null,
-          "after": {
-            "advance": 4500,
-            "door": 5000
-          }
-        },
-        "notice": {
-          "before": null,
-          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n実力派芸人が大集合！珠玉のネタをお見逃しなく！\r\n\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：9/25（金）11:00～9/28（月）11:00\r\n当落発表：9/29（火）18:00頃\r\n\r\n一般発売日：10/5（月）10:00"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-15T22:04:46+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d0eba3bf",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T12:07:03+09:00",
+  "updated_at": "2026-10-17T20:59:05+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -30213,8 +30213,7 @@
         "door": 3200
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -30245,8 +30244,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -30305,8 +30303,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -30337,8 +30334,7 @@
         "door": 3200
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -30371,8 +30367,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -33822,13 +33817,13 @@
       "open_time": "17:40",
       "start_time": "18:00",
       "end_time": "19:20",
-      "members": "佐久間一行／ギャロップ／ライス／メンバー／マユリカ／ゆにばーす／エバース／他",
+      "members": "佐久間一行／ギャロップ／ライス／タモンズ／メンバー／マユリカ／ゆにばーす／エバース／他",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000022144_1_20261009124848387.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/21451/54713",
       "online_url": null,
-      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n一般発売：9/28(月) 10:00",
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n一般発売：9/28(月) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ（10/17）",
       "price": {
         "advance": 3000,
         "door": 3500
@@ -33838,11 +33833,20 @@
         "profile"
       ],
       "local_image": "fliers/f81f2789.jpg",
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-10-17T20:59:04+09:00",
+      "diff": {
+        "members": {
+          "before": "佐久間一行／ギャロップ／ライス／メンバー／マユリカ／ゆにばーす／エバース／他",
+          "after": "佐久間一行／ギャロップ／ライス／タモンズ／メンバー／マユリカ／ゆにばーす／エバース／他"
+        },
+        "notice": {
+          "before": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n一般発売：9/28(月) 10:00",
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n一般発売：9/28(月) 10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nタモンズ（10/17）"
+        }
+      },
       "first_seen": "2026-09-27T12:50:23+09:00",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "ac56ac4d",
@@ -35597,7 +35601,7 @@
       "members": "マーティー ホソ／アポロ軍曹 かりむ／タイムキーパー まつい／どんちっち 竹岡航太／ファンファーレと熱狂 奥／オニイチャン こんちゃん／空前メテオ 茶屋／シスター 井坂ひ孫／電気ジュース 福沢葉／九ノ段 児島クソデカおにく／ちあき 金井",
       "venue": "森ノ宮よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000021578_1_20261017171650513.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -35605,12 +35609,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/b678c8e6.jpg",
       "status": "notified",
+      "last_updated": "2026-10-17T20:59:04+09:00",
       "first_seen": "2026-09-25T12:35:25+09:00",
-      "last_updated": "2026-09-25T12:35:25+09:00",
-      "notified_at": "2026-09-25T12:35:26+09:00",
-      "diff": null
+      "notified_at": "2026-10-17T20:59:05+09:00"
     },
     {
       "id": "cecdcb90",

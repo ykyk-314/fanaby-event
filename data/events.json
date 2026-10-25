@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T12:20:28+09:00",
+  "updated_at": "2026-10-25T21:58:01+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -31776,8 +31776,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -31808,8 +31807,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -31840,8 +31838,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -31901,8 +31898,7 @@
         "online": 1500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": "fliers/6071b282.jpg",
       "status": "notified",
@@ -31934,8 +31930,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -31967,8 +31962,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -33190,9 +33184,9 @@
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/7208/22383",
       "online_url": null,
-      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nパンクブーブー／インポッシブル／シマッシュレコード／ツートライブ／田津原理音（8/29）\r\nケビンス（9/26）",
+      "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\nーーーーーーーーーー\r\n■追加販売決定！！■\r\n10/26（月）12:00～\r\n\r\n●座席指定券と立見券を、若干枚数販売いたします。\r\n●チケットは先着順での販売となりますので、予定枚数に達し次第、受付期間内であっても販売を終了いたします。\r\n●完売した場合、当日券の販売はございません。予めご了承ください。\r\n\r\n★立見券をご購入のお客様★\r\n※劇場内、最後方の立見スペースでのご観劇となります。\r\n※座席はございませんので、チケット券面に記載の位置に立ってご観劇いただきます。\r\n※指定された位置以外でのご観劇は出来ません。\r\n※おひとりさまのスペースは、足元の白線枠内のみとなります。お荷物を含め、白線枠内に収めていただきますようお願いいたします。\r\n※折りたたみ椅子等の持ち込み・使用はできません。\r\nーーーーーーーーーー\r\n\r\n■変更履歴■\r\n[追加]\r\nパンクブーブー／インポッシブル／シマッシュレコード／ツートライブ／田津原理音（8/29）\r\nケビンス（9/26）",
       "price": {
-        "advance": 4500,
+        "advance": 45004500,
         "door": 5000
       },
       "sources": [
@@ -33200,11 +33194,26 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-10-25T21:58:01+09:00",
+      "diff": {
+        "price": {
+          "before": {
+            "advance": 4500,
+            "door": 5000
+          },
+          "after": {
+            "advance": 45004500,
+            "door": 5000
+          }
+        },
+        "notice": {
+          "before": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nパンクブーブー／インポッシブル／シマッシュレコード／ツートライブ／田津原理音（8/29）\r\nケビンス（9/26）",
+          "after": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n今話題の注目芸人が多数出演！お見逃しなく！\r\n\r\n■チケット情報■\r\n\r\n＜FANY プレミアム・ID会員先行＞\r\n抽選受付：7/25（土）11:00～7/28（火）11:00\r\n当落発表：7/29（水）18:00頃\r\n\r\n一般発売日：8/5（水）10:00\r\n\r\nーーーーーーーーーー\r\n■追加販売決定！！■\r\n10/26（月）12:00～\r\n\r\n●座席指定券と立見券を、若干枚数販売いたします。\r\n●チケットは先着順での販売となりますので、予定枚数に達し次第、受付期間内であっても販売を終了いたします。\r\n●完売した場合、当日券の販売はございません。予めご了承ください。\r\n\r\n★立見券をご購入のお客様★\r\n※劇場内、最後方の立見スペースでのご観劇となります。\r\n※座席はございませんので、チケット券面に記載の位置に立ってご観劇いただきます。\r\n※指定された位置以外でのご観劇は出来ません。\r\n※おひとりさまのスペースは、足元の白線枠内のみとなります。お荷物を含め、白線枠内に収めていただきますようお願いいたします。\r\n※折りたたみ椅子等の持ち込み・使用はできません。\r\nーーーーーーーーーー\r\n\r\n■変更履歴■\r\n[追加]\r\nパンクブーブー／インポッシブル／シマッシュレコード／ツートライブ／田津原理音（8/29）\r\nケビンス（9/26）"
+        }
+      },
       "first_seen": "2026-09-26T21:41:02+09:00",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00",
-      "diff": null
+      "notified_at": "2026-10-15T12:20:44+09:00"
     },
     {
       "id": "b14fcee9",
@@ -33262,9 +33271,10 @@
       ],
       "local_image": "fliers/0bd78c10.png",
       "status": "notified",
-      "last_updated": "2026-10-25T12:20:28+09:00",
       "first_seen": "2026-10-10T23:14:45+09:00",
-      "notified_at": "2026-10-25T12:20:28+09:00"
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": "2026-10-25T12:20:28+09:00",
+      "diff": null
     },
     {
       "id": "9acdd9b5",
@@ -33288,16 +33298,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-25T12:20:28+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ギャロップ／モンスターエンジン／マユリカ／バッテリィズ／ネイビーズアフロ／ドーナツ・ピーナツ／フースーヤ／スナフキンズ／華山／茜250cc／イチオク／チェリー大作戦／愛凛冴／うただ／空前メテオ／シスター\n[スペシャルアクト]〈ギャグ芸人〉／隣人 橋本市民球場／ネイビーズアフロ はじり／タレンチ コバタ\n[ゲームコーナー]",
-          "after": "[ネタ出演者]ギャロップ／モンスターエンジン／マユリカ／バッテリィズ／ネイビーズアフロ／ドーナツ・ピーナツ／フースーヤ／スナフキンズ／華山／茜250cc／イチオク／チェリー大作戦／愛凛冴／うただ／空前メテオ／シスター\n[スペシャルアクト]〈ギャグ芸人〉／隣人 橋本市民球場／ネイビーズアフロ はじり／タレンチ コバタ\n[ゲームコーナー][前説]ゆくえ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-25T17:40:10+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9a9a6edb",
@@ -33466,9 +33471,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-25T12:20:28+09:00",
       "first_seen": "2026-09-29T01:28:41+09:00",
-      "notified_at": "2026-10-25T12:20:28+09:00"
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": "2026-10-25T12:20:28+09:00",
+      "diff": null
     },
     {
       "id": "0e704f0a",
@@ -34142,7 +34148,8 @@
     {
       "id": "743eedb6",
       "talents": {
-        "5110": "kento fukaya"
+        "5110": "kento fukaya",
+        "5997": "ビスケットブラザーズ"
       },
       "title": "らいken×らぶらいken",
       "date": "2026-11-03",
@@ -34166,9 +34173,10 @@
       ],
       "local_image": "fliers/743eedb6.jpg",
       "status": "notified",
-      "last_updated": "2026-10-25T12:20:28+09:00",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": "2026-10-25T12:20:28+09:00"
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": "2026-10-25T12:20:28+09:00",
+      "diff": null
     },
     {
       "id": "aa2c824a",
@@ -34729,6 +34737,33 @@
       "diff": null
     },
     {
+      "id": "3adcecf3",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "【39周年豪華SP月間】11月本公演",
+      "date": "2026-11-07",
+      "open_time": "12:30",
+      "start_time": "13:00",
+      "end_time": null,
+      "members": "[漫才・落語]西川きよし／オール阪神・巨人／チュートリアル／銀シャリ／ロングコートダディ／マユリカ／紅しょうが\n[新喜劇]吉田裕／池乃めだか／内場勝則／未知やすえ／山田花子／島田一の介／西川忠志／安尾信乃助／烏川耕一／高橋靖子／のぶよし／佐藤太一郎／諸見里大介／金原早苗／多和田上人／伊丹祐貴／咲方響／川本眞優",
+      "venue": "なんばグランド花月",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-10-25T21:58:01+09:00",
+      "last_updated": "2026-10-25T21:58:01+09:00",
+      "notified_at": null
+    },
+    {
       "id": "90cc66c1",
       "talents": {
         "5997": "ビスケットブラザーズ"
@@ -34877,6 +34912,33 @@
       "diff": null
     },
     {
+      "id": "c8278cd3",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "【39周年豪華SP月間】11月本公演",
+      "date": "2026-11-07",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "[漫才・落語]西川きよし／オール阪神・巨人／チュートリアル／銀シャリ／アキナ／ロングコートダディ／マユリカ\n[新喜劇]吉田裕／池乃めだか／内場勝則／未知やすえ／山田花子／島田一の介／西川忠志／安尾信乃助／烏川耕一／高橋靖子／のぶよし／佐藤太一郎／諸見里大介／金原早苗／多和田上人／伊丹祐貴／咲方響／川本眞優",
+      "venue": "なんばグランド花月",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-10-25T21:58:01+09:00",
+      "last_updated": "2026-10-25T21:58:01+09:00",
+      "notified_at": null
+    },
+    {
       "id": "1fe407a6",
       "talents": {
         "7295": "ケビンス"
@@ -34941,6 +35003,33 @@
       "last_updated": "2026-10-10T23:14:45+09:00",
       "notified_at": "2026-10-10T23:14:45+09:00",
       "diff": null
+    },
+    {
+      "id": "03bcafe2",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "【39周年豪華SP月間】11月本公演",
+      "date": "2026-11-07",
+      "open_time": "18:30",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "[漫才・落語]西川きよし／ザ・ぼんち／チュートリアル／テンダラー／アキナ／ロングコートダディ／マユリカ\n[新喜劇]吉田裕／池乃めだか／内場勝則／未知やすえ／山田花子／島田一の介／西川忠志／安尾信乃助／烏川耕一／高橋靖子／のぶよし／佐藤太一郎／諸見里大介／金原早苗／多和田上人／伊丹祐貴／咲方響／川本眞優",
+      "venue": "なんばグランド花月",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-10-25T21:58:01+09:00",
+      "last_updated": "2026-10-25T21:58:01+09:00",
+      "notified_at": null
     },
     {
       "id": "caceb626",
@@ -37729,9 +37818,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-25T12:20:28+09:00",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": "2026-10-25T12:20:28+09:00"
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": "2026-10-25T12:20:28+09:00",
+      "diff": null
     },
     {
       "id": "414da79b",
@@ -37917,7 +38007,8 @@
       "status": "notified",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": "2026-10-25T12:20:28+09:00"
+      "notified_at": "2026-10-25T12:20:28+09:00",
+      "diff": null
     },
     {
       "id": "04369f9f",
@@ -38438,13 +38529,13 @@
       "open_time": "20:45",
       "start_time": "21:00",
       "end_time": "22:00",
-      "members": "[企画ライブ]セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／阿部直也／シシガシラ／オズワルド",
+      "members": "[企画ライブ]セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／阿部直也／シシガシラ／オズワルド／ゲスト：コロコロチキチキペッパーズ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/21065/53930",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE-11-25-21-00",
-      "notice": "文字通り四分間にすべてを注ぐ漫才師達のネタライブ。\r\n四分にちなんだコーナーも？！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00\r\n\r\n〇配信：10/5（月）10:00",
+      "notice": "文字通り四分間にすべてを注ぐ漫才師達のネタライブ。\r\n四分にちなんだコーナーも？！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00\r\n\r\n〇配信：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nコロコロチキチキペッパーズ(10/25)",
       "price": {
         "advance": 1500,
         "door": 2000,
@@ -38456,10 +38547,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-10-25T21:58:01+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "notified_at": "2026-10-15T22:04:46+09:00",
-      "diff": null
+      "notified_at": "2026-10-25T21:58:01+09:00"
     },
     {
       "id": "36b28a52",
@@ -39701,7 +39791,8 @@
       "status": "notified",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": "2026-10-25T12:20:28+09:00"
+      "notified_at": "2026-10-25T12:20:28+09:00",
+      "diff": null
     },
     {
       "id": "949d1f00",
@@ -39728,7 +39819,8 @@
       "status": "new",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "18f36518",
@@ -39787,7 +39879,8 @@
       "status": "new",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ee8172a2",
@@ -39874,7 +39967,8 @@
       "status": "new",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d62fe3b4",
@@ -39989,7 +40083,8 @@
       "status": "new",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "f12d135c",
@@ -40046,9 +40141,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-10-25T12:20:28+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "notified_at": "2026-10-25T12:20:28+09:00"
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": "2026-10-25T12:20:28+09:00",
+      "diff": null
     },
     {
       "id": "78da5ae4",
@@ -40139,7 +40235,8 @@
       "status": "new",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "ad87c162",
@@ -40316,7 +40413,8 @@
       "status": "new",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0eac509c",
@@ -40684,7 +40782,8 @@
       "status": "notified",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": "2026-10-25T12:20:28+09:00"
+      "notified_at": "2026-10-25T12:20:28+09:00",
+      "diff": null
     },
     {
       "id": "e0d4b220",
@@ -40804,7 +40903,8 @@
       "status": "notified",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": "2026-10-25T12:20:28+09:00"
+      "notified_at": "2026-10-25T12:20:28+09:00",
+      "diff": null
     },
     {
       "id": "b5a64ba5",
@@ -40893,16 +40993,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-25T12:20:28+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]しずる／ビスケットブラザーズ／ドンデコルテ／カベポスター／9番街レトロ／めぞん／ケビンス／ソマオ・ミートボール／大王／他",
-          "after": "[ネタ＆コーナーライブ]しずる／ビスケットブラザーズ／ドンデコルテ／ダンビラムーチョ／カベポスター／9番街レトロ／めぞん／ケビンス／ソマオ・ミートボール／大王／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "73ca09f0",
@@ -40995,16 +41090,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-25T12:20:28+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]しずる／ビスケットブラザーズ／ドンデコルテ／カベポスター／9番街レトロ／めぞん／ケビンス／ソマオ・ミートボール／大王／他",
-          "after": "[ネタ＆コーナーライブ]しずる／ビスケットブラザーズ／ドンデコルテ／ダンビラムーチョ／カベポスター／9番街レトロ／めぞん／ケビンス／ソマオ・ミートボール／大王／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0ec96ca3",
@@ -41065,16 +41155,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-25T12:20:28+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]しずる／ビスケットブラザーズ／ドンデコルテ／カベポスター／9番街レトロ／めぞん／ケビンス／ソマオ・ミートボール／大王／他",
-          "after": "[ネタ＆コーナーライブ]しずる／ビスケットブラザーズ／ドンデコルテ／ダンビラムーチョ／カベポスター／9番街レトロ／めぞん／ケビンス／ソマオ・ミートボール／大王／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b40905f8",
@@ -41357,7 +41442,8 @@
       "status": "new",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2046671b",
@@ -41386,16 +41472,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-25T12:20:28+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]蛙亭／キンボシ／kento fukaya／からし蓮根／ドッチモドッチ／ぶったま／シンクロニシティ／他",
-          "after": "[ネタ＆コーナーライブ]ダンビラムーチョ／蛙亭／キンボシ／kento fukaya／からし蓮根／ドッチモドッチ／ぶったま／シンクロニシティ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "5dc97939",
@@ -41643,7 +41724,8 @@
       "status": "notified",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": "2026-10-25T12:20:28+09:00"
+      "notified_at": "2026-10-25T12:20:28+09:00",
+      "diff": null
     },
     {
       "id": "4f5e2b17",
@@ -41670,7 +41752,8 @@
       "status": "notified",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": "2026-10-25T12:20:28+09:00"
+      "notified_at": "2026-10-25T12:20:28+09:00",
+      "diff": null
     },
     {
       "id": "10d24ed2",
@@ -41974,7 +42057,8 @@
       "status": "new",
       "first_seen": "2026-10-25T12:20:28+09:00",
       "last_updated": "2026-10-25T12:20:28+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4116a55e",
@@ -42285,16 +42369,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-25T12:20:28+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]中田カウス／月亭八方／トミーズ／ミルクボーイ／ハイヒール／パンクブーブー／もりやすバンバンビガロ／トット／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]すっちー／末成映薫／島田珠代／西川忠志",
-          "after": "[漫才・落語]中田カウス 漫才のDENDO／月亭八方／トミーズ／ミルクボーイ／ハイヒール／パンクブーブー／もりやすバンバンビガロ／トット／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]すっちー／末成映薫／島田珠代／西川忠志"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-10-24T21:27:30+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "877aa612",
@@ -42318,16 +42397,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-25T12:20:28+09:00",
-      "diff": {
-        "members": {
-          "before": "[漫才・落語]中田カウス／月亭八方／トミーズ／ミルクボーイ／ハイヒール／パンクブーブー／もりやすバンバンビガロ／トット／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]すっちー／末成映薫／島田珠代／西川忠志",
-          "after": "[漫才・落語]中田カウス 漫才のDENDO／月亭八方／トミーズ／ミルクボーイ／ハイヒール／パンクブーブー／もりやすバンバンビガロ／トット／コロコロチキチキペッパーズ／ビスケットブラザーズ\n[新喜劇]すっちー／末成映薫／島田珠代／西川忠志"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-10-24T21:27:30+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-25T12:20:28+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a30caffb",

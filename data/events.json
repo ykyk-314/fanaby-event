@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T23:52:01+09:00",
+  "updated_at": "2026-10-29T13:31:26+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -32433,8 +32433,7 @@
         "door": 3800
       },
       "sources": [
-        "theater:lumine",
-        "profile"
+        "theater:lumine"
       ],
       "local_image": null,
       "status": "notified",
@@ -32975,9 +32974,10 @@
       ],
       "local_image": "fliers/c0ce0e6c.jpg",
       "status": "notified",
-      "last_updated": "2026-10-28T23:52:01+09:00",
       "first_seen": "2026-08-25T17:40:10+09:00",
-      "notified_at": "2026-10-28T23:52:01+09:00"
+      "last_updated": "2026-10-28T23:52:01+09:00",
+      "notified_at": "2026-10-28T23:52:01+09:00",
+      "diff": null
     },
     {
       "id": "af209cbd",
@@ -33062,20 +33062,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-28T23:52:01+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]さや香／ケビンス／CITY／kento fukaya／ミカボ／軟水／ピュート／私東京／牛ぺぺ／他",
-          "after": "[ネタ＆コーナーライブ]さや香／ケビンス／CITY／カラタチ／kento fukaya／ミカボ／生ファラオ／軟水／ピュート／私東京／牛ぺぺ"
-        },
-        "notice": {
-          "before": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n【追加】\r\nカラタチ、生ファラオ(10/28)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-28T23:52:01+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "056a96ec",
@@ -33132,20 +33123,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-28T23:52:01+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]さや香／ケビンス／CITY／kento fukaya／ミカボ／軟水／ピュート／鉄人小町／あなたとネ／牛ぺぺ／他",
-          "after": "[ネタ＆コーナーライブ]さや香／ケビンス／CITY／kento fukaya／ミカボ／ビューティフルトーキョーマンズ／軟水／ピュート／鉄人小町／あなたとネ／牛ぺぺ"
-        },
-        "notice": {
-          "before": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n【追加】\r\nビューティフルトーキョーマンズ、鉄人小町(10/28)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-28T23:52:01+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3cd6e7ca",
@@ -33234,20 +33216,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-10-28T23:52:01+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]さや香／ケビンス／CITY／kento fukaya／ミカボ／軟水／ピュート／鉄人小町／ド天国／牛ぺぺ／他",
-          "after": "[ネタ＆コーナーライブ]さや香／ケビンス／CITY／鶴亀／kento fukaya／ミカボ／軟水／ピュート／鉄人小町／ド天国／牛ぺぺ"
-        },
-        "notice": {
-          "before": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
-          "after": "渋谷/神保町よしもと漫才劇場イチオシの若手芸人から人気芸人まで多数出演！\r\nメディアでお馴染みの芸人も出演し、漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：8/25(火) 11:00 〜 8/28(金) 11:00\r\n\r\n一般発売：9/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n【追加】\r\n鶴亀、鉄人小町(10/28)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": null
+      "last_updated": "2026-10-28T23:52:01+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0bd78c10",
@@ -34429,6 +34402,38 @@
       "last_updated": "2026-10-15T22:04:46+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "653e3efb",
+      "talents": {
+        "7295": "ケビンス"
+      },
+      "title": "THURSDAY NIGHT FEVER",
+      "date": "2026-11-05",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": "22:00",
+      "members": "[企画ライブ]からし蓮根／ケビンス／ド桜／伝書鳩／他",
+      "venue": "渋谷よしもと漫才劇場",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/22656/58186",
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/thursday-night-fever-11-5-21-00",
+      "notice": "ネタとコーナーで最高にアツい夜の60分！\r\n\r\n■チケット情報■\r\n\r\n一般発売：10/29(木) 10:00\r\n\r\nオンラインチケット発売：10/29(木) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
+      "price": {
+        "advance": 2000,
+        "door": 2500,
+        "online": 1300
+      },
+      "sources": [
+        "theater:shibuya",
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-10-29T13:31:25+09:00",
+      "last_updated": "2026-10-29T13:31:25+09:00",
+      "notified_at": "2026-10-29T13:31:26+09:00"
     },
     {
       "id": "c52963af",
@@ -36526,22 +36531,18 @@
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/22658/58188",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "■チケット情報■\r\n\r\n一般発売：10/29(木) 10:00\r\n\r\nオンラインチケット発売：10/29(木) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\nシンクロニシティ西野とインテイク鈴木によるトークライブ。\r\n\r\n陰湿で神経質な夜をお楽しみください。",
-      "price": {
-        "advance": 2000,
-        "door": 2500,
-        "online": 1000
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-10-29T13:31:25+09:00",
       "first_seen": "2026-10-28T23:52:01+09:00",
-      "last_updated": "2026-10-28T23:52:01+09:00",
-      "notified_at": "2026-10-28T23:52:01+09:00"
+      "notified_at": "2026-10-29T13:31:26+09:00"
     },
     {
       "id": "f93d33b6",
@@ -39253,7 +39254,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/22069/56102",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/lumine-26112919",
       "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n＜FC会員先行＞\r\n抽選受付：10/21(水) 11:00 ～10/23(金) 11:00\r\n当落発表：10/24(土) 18:00頃\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：10/25(日) 11:00 ～10/27(火) 11:00\r\n当落発表：10/28(水) 18:00頃\r\n\r\n一般発売：10/29(木) 10:00\r\n\r\nオンラインチケット発売：10/29(木) 10:00",
       "price": {
         "advance": 4500,
@@ -41001,6 +41002,33 @@
       "diff": null
     },
     {
+      "id": "1f54ba3e",
+      "talents": {
+        "8060": "下川はじメロディ"
+      },
+      "title": "深淵ネタバトル",
+      "date": "2026-12-12",
+      "open_time": "20:45",
+      "start_time": "21:00",
+      "end_time": null,
+      "members": "ダブルアート 真べぇ／うみひこ／おたまじゃくし中西／ジャーマンズ／しゅんすけ／なるほどなぁ／のびのびハッピーズ／帝国チーズグラタン／[ゲスト] スナフキンズ",
+      "venue": "よしもと道頓堀シアター",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-10-29T13:31:25+09:00",
+      "last_updated": "2026-10-29T13:31:25+09:00",
+      "notified_at": "2026-10-29T13:31:26+09:00"
+    },
+    {
       "id": "c541fe2f",
       "talents": {
         "5997": "ビスケットブラザーズ",
@@ -41816,6 +41844,33 @@
       "last_updated": "2026-10-25T12:20:28+09:00",
       "notified_at": "2026-10-25T12:20:28+09:00",
       "diff": null
+    },
+    {
+      "id": "49f4761d",
+      "talents": {
+        "5110": "kento fukaya"
+      },
+      "title": "クイズ！Let'sプロフィール！",
+      "date": "2026-12-21",
+      "open_time": "18:45",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "kento fukaya／他",
+      "venue": "よしもと道頓堀シアター",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-10-29T13:31:25+09:00",
+      "last_updated": "2026-10-29T13:31:25+09:00",
+      "notified_at": "2026-10-29T13:31:26+09:00"
     },
     {
       "id": "4f5e2b17",

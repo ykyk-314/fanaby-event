@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T00:58:04+09:00",
+  "updated_at": "2026-11-05T14:16:26+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -34829,16 +34829,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-05T00:58:03+09:00",
-      "diff": {
-        "members": {
-          "before": "パタパタママ／ギャロップ／モンスターエンジン／大谷健太／メンバー／ダイタク／ビスケットブラザーズ／タチマチ／メガモッツ／喜喜かいばしら／メタルラック／＜ゲームコーナー＞／〔前説〕やまんば",
-          "after": "パタパタママ／ギャロップ／モンスターエンジン／大谷健太／ダイタク／ビスケットブラザーズ／センリーズ／タチマチ／メガモッツ／喜喜かいばしら／メタルラック／＜ゲームコーナー＞／〔前説〕やまんば"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-10T12:14:19+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-05T00:58:03+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b70a6b95",
@@ -34954,16 +34949,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-05T00:58:03+09:00",
-      "diff": {
-        "members": {
-          "before": "パタパタママ／ギャロップ／モンスターエンジン／大谷健太／メンバー／ダイタク／ビスケットブラザーズ／タチマチ／メガモッツ／喜喜かいばしら／メタルラック／＜ゲームコーナー＞／〔前説〕やまんば",
-          "after": "パタパタママ／ギャロップ／モンスターエンジン／大谷健太／ダイタク／ビスケットブラザーズ／センリーズ／タチマチ／メガモッツ／喜喜かいばしら／メタルラック／＜ゲームコーナー＞／〔前説〕やまんば"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-10T12:14:19+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-05T00:58:03+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3f2089f0",
@@ -35079,16 +35069,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-05T00:58:03+09:00",
-      "diff": {
-        "members": {
-          "before": "パタパタママ／ギャロップ／モンスターエンジン／大谷健太／メンバー／ダイタク／ビスケットブラザーズ／タチマチ／メガモッツ／パゴス／メタルラック／＜ゲームコーナー＞／〔前説〕やまんば",
-          "after": "パタパタママ／ギャロップ／モンスターエンジン／大谷健太／ダイタク／ビスケットブラザーズ／センリーズ／タチマチ／メガモッツ／パゴス／メタルラック／＜ゲームコーナー＞／〔前説〕やまんば"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-10T12:14:19+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-05T00:58:03+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "783cdf6e",
@@ -35354,16 +35339,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-05T00:58:03+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ロザン／ニッポンの社長／マユリカ／さや香／バッテリィズ／ラニーノーズ／あべこうじ／ドーナツ・ピーナツ／天才ピアニスト／センリーズ／鬼としみちゃむ／もも／茜250cc／チェリー大作戦／シスター\n[スペシャルアクト]〈ギャグ芸人〉／しげ／やまぐちたけし／あんよの日 やまち／おもしろジャンケン 嘉津じゃない方／おもしろジャンケン 嘉津／山椒魚 フィジカル北岡\n[ゲームコーナー][前説]シャガール",
-          "after": "[ネタ出演者]ロザン／ニッポンの社長／マユリカ／さや香／バッテリィズ／ラニーノーズ／あべこうじ／ネイビーズアフロ／ドーナツ・ピーナツ／天才ピアニスト／センリーズ／鬼としみちゃむ／もも／茜250cc／チェリー大作戦／シスター\n[スペシャルアクト]〈ギャグ芸人〉／しげ／やまぐちたけし／あんよの日 やまち／おもしろジャンケン 嘉津じゃない方／おもしろジャンケン 嘉津／山椒魚 フィジカル北岡\n[ゲームコーナー][前説]シャガール"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-25T12:35:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-05T00:58:03+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "e69a0572",
@@ -35481,16 +35461,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-05T00:58:03+09:00",
-      "diff": {
-        "members": {
-          "before": "アキナ／マユリカ／ラニーノーズ／あべこうじ／真輝志／スナフキンズ／華山／隣人／愛凛冴／ときヲりぴーと／ぐろう／例えば炎／前説：シンボリル",
-          "after": "アキナ／マユリカ／ラニーノーズ／あべこうじ／真輝志／スナフキンズ／華山／隣人／愛凛冴／ときヲりぴーと／ぐろう／シカノシンプ／例えば炎／前説：シンボリル"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-25T12:35:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-05T00:58:03+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "3118cbfd",
@@ -35827,16 +35802,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-05T00:58:03+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ダンビラムーチョ／めぞん／やさしいズ／からし蓮根／ケビンス／九条ジョー／赤嶺総理／ド桜／他",
-          "after": "[ネタ＆コーナーライブ]ダンビラムーチョ／めぞん／やさしいズ／からし蓮根／ケビンス／九条ジョー／赤嶺総理／ド桜／他\n[ コーナー出演者]やさしいズ／ダンビラムーチョ／ケビンス／めぞん／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-05T00:58:03+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2e96b1bf",
@@ -39883,7 +39853,7 @@
       "members": "[企画ライブ]CITY 小野竜輔／イワサキ／ヨネダ2000／MC：ケビンス 山口コンボイ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000023298_1_20261105112343150.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -39891,12 +39861,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/149070d5.jpg",
       "status": "notified",
+      "last_updated": "2026-11-05T14:16:25+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "last_updated": "2026-10-24T21:27:30+09:00",
-      "notified_at": "2026-10-24T21:27:31+09:00",
-      "diff": null
+      "notified_at": "2026-11-05T14:16:26+09:00"
     },
     {
       "id": "ac0331e2",
@@ -40079,16 +40048,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-05T00:58:03+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]カラタチ／丸亀じゃんご／フースーヤ／シンクロニシティ／[MC] 爛々 萌々\n[吉本新喜劇]  出演者は決まり次第発表いたします。",
-          "after": "[ネタ]カラタチ／丸亀じゃんご／フースーヤ／シンクロニシティ／[MC] 爛々 萌々\n[吉本新喜劇]  はじめ／高井俊彦／タックルながい。／小林ゆう／入澤弘喜／菅野智義／井上果音"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-01T13:33:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-05T00:58:03+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6032478a",
@@ -40530,9 +40494,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-05T00:58:03+09:00",
       "first_seen": "2026-11-01T23:45:20+09:00",
-      "notified_at": "2026-11-05T00:58:04+09:00"
+      "last_updated": "2026-11-05T00:58:03+09:00",
+      "notified_at": "2026-11-05T00:58:04+09:00",
+      "diff": null
     },
     {
       "id": "995f05b6",
@@ -40562,9 +40527,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-05T00:58:03+09:00",
       "first_seen": "2026-11-01T23:45:20+09:00",
-      "notified_at": "2026-11-05T00:58:04+09:00"
+      "last_updated": "2026-11-05T00:58:03+09:00",
+      "notified_at": "2026-11-05T00:58:04+09:00",
+      "diff": null
     },
     {
       "id": "78da5ae4",
@@ -40877,7 +40843,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/22161/56283",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE-12-9-19-00",
       "notice": "文字通り四分間にすべてを注ぐ漫才師達のネタライブ。\r\n四分にちなんだコーナーも？！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　10/25（日）11:00 ～ 10/28（水）11:00\r\n　・FANY IDメンバー\r\n　　 10/25（日）11:00 ～ 10/28（水）11:00\r\n\r\n〇一般販売： 11/5（木）10:00  \r\n\r\n〇配信： 11/5（木）10:00  ",
       "price": {
         "advance": 1500,
@@ -41715,7 +41681,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/22453/56783",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%81%BC%E3%82%8B%E5%A1%BE%E3%81%AF%E6%96%B0%E3%83%8D%E3%82%BF-%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%AB%E3%81%8E%E3%82%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%9F%E3%81%84%E3%81%8B%E3%82%89%E3%81%8A%E5%8F%8B%E9%81%94%E3%82%82%E5%91%BC%E3%82%93%E3%81%A0%E3%82%88-12-13-17-30",
       "notice": "ぼる塾の新ネタライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：10/25（日）11:00～10/28（水）11:00\r\n〇一般販売：11/5（木）10:00\r\n\r\n■配信チケット■\r\n〇発売日：11/5（木）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます",
       "price": {
         "advance": 2300,
@@ -41865,7 +41831,7 @@
       "open_time": "17:45",
       "start_time": "18:00",
       "end_time": null,
-      "members": "CITY／ド桜／シンクロニシティ／ナイチンゲールダンス 中野なかるてぃん／軟水 ／【ゲスト】インポッシブル",
+      "members": "CITY／ド桜／シンクロニシティ／ナイチンゲールダンス 中野なかるてぃん／軟水／【ゲスト】インポッシブル",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -41878,9 +41844,9 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-05T00:58:03+09:00",
+      "last_updated": "2026-11-05T14:16:25+09:00",
       "first_seen": "2026-11-03T14:28:19+09:00",
-      "notified_at": "2026-11-05T00:58:04+09:00"
+      "notified_at": "2026-11-05T14:16:26+09:00"
     },
     {
       "id": "9c73e77e",
@@ -42051,7 +42017,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/22173/56305",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E3%82%BA%E3%82%BF%E3%82%A4%E3%81%AE-%E5%BA%AD-12-17-21-00",
       "notice": "「超超超、超超超、超超超超超難問王決定戦」\r\n「タインベーダーを攻略するのは俺達だ」\r\n「食べめっこ」\r\n「クイズ『なんで』のあと」\r\n「木琴沿い」\r\nなど全てが生まれた\r\n\r\nやさしいズタイが毎月実験的な新企画を発表するライブ\r\n\r\n企画が産声を上げる、その瞬間に立ち会おう\r\n\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　10/25（日）11:00 ～ 10/28（水）11:00\r\n　・FANY IDメンバー\r\n　　 10/25（日）11:00 ～ 10/28（水）11:00\r\n\r\n〇一般販売： 11/5（木）10:00  \r\n\r\n〇配信： 11/5（木）10:00  ",
       "price": {
         "advance": 1800,
@@ -42212,7 +42178,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/22176/56291",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E6%BC%AB%E6%89%8D%E6%BC%AB%E3%82%B7%E3%83%A7%E3%83%B39%E5%85%861%E5%8D%835%E5%8F%B7%E5%AE%A4-12-19-19-00",
       "notice": "ミカボとシンクロニシティが切磋琢磨していこうというライブが4月から始動しました！\r\n毎回ゲストとともに切磋琢磨させていただきます！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　10/25（日）11:00 ～ 10/28（水）11:00\r\n　・FANY IDメンバー\r\n　　 10/25（日）11:00 ～ 10/28（水）11:00\r\n\r\n〇一般販売： 11/5（木）10:00  \r\n\r\n〇配信： 11/5（木）10:00  ",
       "price": {
         "advance": 1500,
@@ -42733,9 +42699,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-05T00:58:03+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "notified_at": "2026-11-05T00:58:04+09:00"
+      "last_updated": "2026-11-05T00:58:03+09:00",
+      "notified_at": "2026-11-05T00:58:04+09:00",
+      "diff": null
     },
     {
       "id": "a9cfd2da",
@@ -42765,7 +42732,8 @@
       "status": "notified",
       "first_seen": "2026-11-05T00:58:03+09:00",
       "last_updated": "2026-11-05T00:58:03+09:00",
-      "notified_at": "2026-11-05T00:58:04+09:00"
+      "notified_at": "2026-11-05T00:58:04+09:00",
+      "diff": null
     },
     {
       "id": "708763b7",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T14:16:26+09:00",
+  "updated_at": "2026-11-06T01:10:11+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -34516,8 +34516,7 @@
         "door": 1800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -34549,8 +34548,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/653e3efb.jpg",
       "status": "notified",
@@ -34630,7 +34628,7 @@
       "open_time": "17:15",
       "start_time": "17:30",
       "end_time": "18:45",
-      "members": "しずる／大谷健太／カゲヤマ／CITY／ZAZY／ビスケットブラザーズ／ピュート／伝書鳩／ニコミハジメテ",
+      "members": "しずる／大谷健太／カゲヤマ／CITY／ZAZY／ビスケットブラザーズ／ピュート／伝書鳩／ニコミハジメテ\n【コーナー出演者】 MC：ピュート／伝書鳩／ニコミハジメテ",
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
@@ -34646,11 +34644,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-11-06T01:10:11+09:00",
+      "diff": {
+        "members": {
+          "before": "しずる／大谷健太／カゲヤマ／CITY／ZAZY／ビスケットブラザーズ／ピュート／伝書鳩／ニコミハジメテ",
+          "after": "しずる／大谷健太／カゲヤマ／CITY／ZAZY／ビスケットブラザーズ／ピュート／伝書鳩／ニコミハジメテ\n【コーナー出演者】 MC：ピュート／伝書鳩／ニコミハジメテ"
+        }
+      },
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "last_updated": "2026-11-03T02:50:26+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "bc68ffa4",
@@ -39678,6 +39681,33 @@
       "diff": null
     },
     {
+      "id": "5681bc38",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "seat belt NYOWA～今年最後の金的会議～",
+      "date": "2026-11-30",
+      "open_time": "19:00",
+      "start_time": "19:15",
+      "end_time": null,
+      "members": "[企画ライブ]マリーマリー えびちゃん／軟水 つるまる／ワラバランス 盛田／そいつどいつ 松本／世間知らズ 椎木／エバース 町田／ビューティフルトーキョーマンズ 笹本／シンクロニシティ 西野／プリズンクイズチャンネル 竜大",
+      "venue": "渋谷よしもと漫才劇場",
+      "prefecture": "東京都",
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000023427_1_20261101225347021.png",
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": "fliers/5681bc38.png",
+      "status": "notified",
+      "first_seen": "2026-11-06T01:10:11+09:00",
+      "last_updated": "2026-11-06T01:10:11+09:00",
+      "notified_at": "2026-11-06T01:10:11+09:00"
+    },
+    {
       "id": "6ec15778",
       "talents": {
         "5114": "マユリカ"
@@ -39863,9 +39893,10 @@
       ],
       "local_image": "fliers/149070d5.jpg",
       "status": "notified",
-      "last_updated": "2026-11-05T14:16:25+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "notified_at": "2026-11-05T14:16:26+09:00"
+      "last_updated": "2026-11-05T14:16:25+09:00",
+      "notified_at": "2026-11-05T14:16:26+09:00",
+      "diff": null
     },
     {
       "id": "ac0331e2",
@@ -39880,9 +39911,9 @@
       "members": "[企画ライブ]エバース／シンクロニシティ／軟水／インテイク／イチゴ／ゼロカラン",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000023032_1_20261105154205530.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/22235/56484",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0-12-2-21-00",
       "notice": "お客さんの笑顔をだいいちに考えるライブ\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：10/25(日) 11:00 〜 10/28(水) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：10/25(日) 11:00 〜 10/28(水) 11:00\r\n\r\n一般発売：11/5(木) 10:00\r\n\r\nオンラインチケット発売：11/5(木) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
         "advance": 2000,
@@ -39893,12 +39924,11 @@
         "theater:shibuya",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/ac0331e2.jpg",
       "status": "notified",
+      "last_updated": "2026-11-06T01:10:11+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "last_updated": "2026-10-23T22:05:10+09:00",
-      "notified_at": "2026-10-23T22:05:10+09:00",
-      "diff": null
+      "notified_at": "2026-11-06T01:10:11+09:00"
     },
     {
       "id": "385394cd",
@@ -40036,7 +40066,7 @@
       "open_time": "11:30",
       "start_time": "12:00",
       "end_time": null,
-      "members": "[ネタ]カラタチ／丸亀じゃんご／フースーヤ／シンクロニシティ／[MC] 爛々 萌々\n[吉本新喜劇]  はじめ／高井俊彦／タックルながい。／小林ゆう／入澤弘喜／菅野智義／井上果音",
+      "members": "[ネタ]カラタチ／丸亀じゃんご／フースーヤ／シンクロニシティ／[MC] 爛々 萌々／\n[吉本新喜劇]  はじめ／高井俊彦／タックルながい。／小林ゆう／入澤弘喜／菅野智義／井上果音",
       "venue": "よしもと道頓堀シアター",
       "prefecture": "大阪府",
       "image_url": null,
@@ -40048,11 +40078,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-11-06T01:10:11+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ]カラタチ／丸亀じゃんご／フースーヤ／シンクロニシティ／[MC] 爛々 萌々\n[吉本新喜劇]  はじめ／高井俊彦／タックルながい。／小林ゆう／入澤弘喜／菅野智義／井上果音",
+          "after": "[ネタ]カラタチ／丸亀じゃんご／フースーヤ／シンクロニシティ／[MC] 爛々 萌々／\n[吉本新喜劇]  はじめ／高井俊彦／タックルながい。／小林ゆう／入澤弘喜／菅野智義／井上果音"
+        }
+      },
       "first_seen": "2026-11-01T13:33:25+09:00",
-      "last_updated": "2026-11-05T00:58:03+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "6032478a",
@@ -41844,9 +41879,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-05T14:16:25+09:00",
       "first_seen": "2026-11-03T14:28:19+09:00",
-      "notified_at": "2026-11-05T14:16:26+09:00"
+      "last_updated": "2026-11-05T14:16:25+09:00",
+      "notified_at": "2026-11-05T14:16:26+09:00",
+      "diff": null
     },
     {
       "id": "9c73e77e",
@@ -42734,6 +42770,36 @@
       "last_updated": "2026-11-05T00:58:03+09:00",
       "notified_at": "2026-11-05T00:58:04+09:00",
       "diff": null
+    },
+    {
+      "id": "f32df106",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "スクールゾーン単独公演「新ネタゾーン」",
+      "date": "2026-12-28",
+      "open_time": "20:15",
+      "start_time": "20:30",
+      "end_time": "21:30",
+      "members": "スクールゾーン／ゲスト：シンクロニシティ",
+      "venue": "YOSHIMOTO ROPPONGI THEATER",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": "憑依キャラコントでおなじみのスクールゾーンがコントを磨くためのネタライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：11/11（水）11:00～11/13（金）11:00\r\n〇一般販売：11/15（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます",
+      "price": {
+        "advance": 2500,
+        "door": 3000
+      },
+      "sources": [
+        "theater:roppongi"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-11-06T01:10:11+09:00",
+      "last_updated": "2026-11-06T01:10:11+09:00",
+      "notified_at": "2026-11-06T01:10:11+09:00"
     },
     {
       "id": "708763b7",

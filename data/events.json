@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T01:10:11+09:00",
+  "updated_at": "2026-11-06T14:16:15+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -34644,16 +34644,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-06T01:10:11+09:00",
-      "diff": {
-        "members": {
-          "before": "しずる／大谷健太／カゲヤマ／CITY／ZAZY／ビスケットブラザーズ／ピュート／伝書鳩／ニコミハジメテ",
-          "after": "しずる／大谷健太／カゲヤマ／CITY／ZAZY／ビスケットブラザーズ／ピュート／伝書鳩／ニコミハジメテ\n【コーナー出演者】 MC：ピュート／伝書鳩／ニコミハジメテ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-06T01:10:11+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bc68ffa4",
@@ -36332,7 +36327,7 @@
       "members": "ときヲりぴーと／kento fukaya／カベポスター 永見／オーサカクレオパトラ りえちゃん／フースーヤ 谷口／タイムキーパー まつい",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000021531_1_20261105122142114.jpg",
       "ticket_url": null,
       "online_url": null,
       "notice": null,
@@ -36340,12 +36335,11 @@
       "sources": [
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/444d2391.jpg",
       "status": "notified",
+      "last_updated": "2026-11-06T14:16:14+09:00",
       "first_seen": "2026-09-25T12:35:25+09:00",
-      "last_updated": "2026-09-25T12:35:25+09:00",
-      "notified_at": "2026-09-25T12:35:26+09:00",
-      "diff": null
+      "notified_at": "2026-11-06T14:16:15+09:00"
     },
     {
       "id": "15200327",
@@ -38827,7 +38821,7 @@
       "members": "[企画ライブ]セッツァー／カラタチ／くらげ／素敵じゃないか／シンクロニシティ／阿部直也／シシガシラ／オズワルド／ゲスト：コロコロチキチキペッパーズ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000021829_1_20261106111921764.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/21065/53930",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%9B%9B%E5%88%86%E6%BC%AB%E6%89%8D%E7%B5%90%E7%A4%BE-11-25-21-00",
       "notice": "文字通り四分間にすべてを注ぐ漫才師達のネタライブ。\r\n四分にちなんだコーナーも？！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00\r\n\r\n〇配信：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nコロコロチキチキペッパーズ(10/25)",
@@ -38840,12 +38834,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/c5f1d544.jpg",
       "status": "notified",
+      "last_updated": "2026-11-06T14:16:14+09:00",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "last_updated": "2026-10-25T21:58:01+09:00",
-      "notified_at": "2026-10-25T21:58:01+09:00",
-      "diff": null
+      "notified_at": "2026-11-06T14:16:15+09:00"
     },
     {
       "id": "36b28a52",
@@ -39705,7 +39698,8 @@
       "status": "notified",
       "first_seen": "2026-11-06T01:10:11+09:00",
       "last_updated": "2026-11-06T01:10:11+09:00",
-      "notified_at": "2026-11-06T01:10:11+09:00"
+      "notified_at": "2026-11-06T01:10:11+09:00",
+      "diff": null
     },
     {
       "id": "6ec15778",
@@ -39926,9 +39920,10 @@
       ],
       "local_image": "fliers/ac0331e2.jpg",
       "status": "notified",
-      "last_updated": "2026-11-06T01:10:11+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "notified_at": "2026-11-06T01:10:11+09:00"
+      "last_updated": "2026-11-06T01:10:11+09:00",
+      "notified_at": "2026-11-06T01:10:11+09:00",
+      "diff": null
     },
     {
       "id": "385394cd",
@@ -40078,16 +40073,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-06T01:10:11+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]カラタチ／丸亀じゃんご／フースーヤ／シンクロニシティ／[MC] 爛々 萌々\n[吉本新喜劇]  はじめ／高井俊彦／タックルながい。／小林ゆう／入澤弘喜／菅野智義／井上果音",
-          "after": "[ネタ]カラタチ／丸亀じゃんご／フースーヤ／シンクロニシティ／[MC] 爛々 萌々／\n[吉本新喜劇]  はじめ／高井俊彦／タックルながい。／小林ゆう／入澤弘喜／菅野智義／井上果音"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-01T13:33:25+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-06T01:10:11+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6032478a",
@@ -42446,7 +42436,7 @@
       "open_time": "13:30",
       "start_time": "14:00",
       "end_time": null,
-      "members": "バイク川崎バイク／うるとらブギーズ／GAG／ちょんまげラーメン／ツートライブ／ビスケットブラザーズ／バッテリィズ",
+      "members": "バイク川崎バイク／うるとらブギーズ／GAG／ちょんまげラーメン／ツートライブ／ビスケットブラザーズ／バッテリィズ／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -42458,11 +42448,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-06T14:16:14+09:00",
+      "diff": {
+        "members": {
+          "before": "バイク川崎バイク／うるとらブギーズ／GAG／ちょんまげラーメン／ツートライブ／ビスケットブラザーズ／バッテリィズ",
+          "after": "バイク川崎バイク／うるとらブギーズ／GAG／ちょんまげラーメン／ツートライブ／ビスケットブラザーズ／バッテリィズ／他"
+        }
+      },
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "last_updated": "2026-10-23T22:05:10+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "9cbe1e13",
@@ -42506,7 +42501,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "バイク川崎バイク／うるとらブギーズ／GAG／ちょんまげラーメン／ツートライブ／ビスケットブラザーズ／バッテリィズ",
+      "members": "バイク川崎バイク／うるとらブギーズ／GAG／ちょんまげラーメン／ツートライブ／ビスケットブラザーズ／バッテリィズ／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -42518,11 +42513,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-06T14:16:14+09:00",
+      "diff": {
+        "members": {
+          "before": "バイク川崎バイク／うるとらブギーズ／GAG／ちょんまげラーメン／ツートライブ／ビスケットブラザーズ／バッテリィズ",
+          "after": "バイク川崎バイク／うるとらブギーズ／GAG／ちょんまげラーメン／ツートライブ／ビスケットブラザーズ／バッテリィズ／他"
+        }
+      },
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "last_updated": "2026-10-23T22:05:10+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "a0237243",
@@ -42754,7 +42754,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/23005/58797",
       "online_url": null,
       "notice": "メリークリスマス、大森慎介です。\r\n\r\n僕はね、これやらないと年越せないんだ。\r\n\r\n今年は六本木でやることになったんだけど、若い時はここでヤンチャしたもんだ。懐かしいな。\r\n\r\nみんな、見においでよ。\r\n\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：11/11（水）11:00～11/13（金）11:00\r\n〇一般販売：11/15（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます",
       "price": {
@@ -42766,10 +42766,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-06T14:16:14+09:00",
       "first_seen": "2026-11-05T00:58:03+09:00",
-      "last_updated": "2026-11-05T00:58:03+09:00",
-      "notified_at": "2026-11-05T00:58:04+09:00",
-      "diff": null
+      "notified_at": "2026-11-06T14:16:15+09:00"
     },
     {
       "id": "f32df106",
@@ -42785,7 +42784,7 @@
       "venue": "YOSHIMOTO ROPPONGI THEATER",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/23017/58809",
       "online_url": null,
       "notice": "憑依キャラコントでおなじみのスクールゾーンがコントを磨くためのネタライブ！\r\n\r\n■会場チケット■\r\n全席指定\r\n〇先行受付：11/11（水）11:00～11/13（金）11:00\r\n〇一般販売：11/15（日）10:00\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます",
       "price": {
@@ -42797,9 +42796,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-06T14:16:14+09:00",
       "first_seen": "2026-11-06T01:10:11+09:00",
-      "last_updated": "2026-11-06T01:10:11+09:00",
-      "notified_at": "2026-11-06T01:10:11+09:00"
+      "notified_at": "2026-11-06T14:16:15+09:00"
     },
     {
       "id": "708763b7",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T13:56:46+09:00",
+  "updated_at": "2026-11-16T00:22:32+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -36876,8 +36876,7 @@
         "door": 2800
       },
       "sources": [
-        "theater:jimbocho",
-        "profile"
+        "theater:jimbocho"
       ],
       "local_image": null,
       "status": "notified",
@@ -36936,8 +36935,7 @@
         "door": 3200
       },
       "sources": [
-        "theater:omiya",
-        "profile"
+        "theater:omiya"
       ],
       "local_image": null,
       "status": "notified",
@@ -36997,8 +36995,7 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": "fliers/084cf23a.jpg",
       "status": "notified",
@@ -38526,16 +38523,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-15T13:56:45+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]しずる／ツートライブ／ダイタク／kento fukaya／やさしいズ／蛙亭／素敵じゃないか／他",
-          "after": "[ネタ]サルゴリラ／しずる／ツートライブ／ダイタク／kento fukaya／やさしいズ／蛙亭／素敵じゃないか"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-15T13:56:45+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "91e7d261",
@@ -38559,16 +38551,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-15T13:56:45+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]しずる／ツートライブ／ダイタク／kento fukaya／やさしいズ／蛙亭／素敵じゃないか／他",
-          "after": "[ネタ]サルゴリラ／しずる／ツートライブ／ダイタク／kento fukaya／やさしいズ／蛙亭／素敵じゃないか"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-15T13:56:45+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "4e07d18c",
@@ -39164,7 +39151,7 @@
       "open_time": "10:30",
       "start_time": "11:00",
       "end_time": "12:45",
-      "members": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他",
+      "members": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -39180,11 +39167,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-11-16T00:22:32+09:00",
+      "diff": {
+        "members": {
+          "before": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他",
+          "after": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕"
+        }
+      },
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00",
-      "diff": null
+      "notified_at": "2026-10-15T12:20:44+09:00"
     },
     {
       "id": "d19ff996",
@@ -39284,7 +39276,7 @@
       "open_time": "13:00",
       "start_time": "13:30",
       "end_time": "15:15",
-      "members": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他",
+      "members": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -39300,11 +39292,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-11-16T00:22:32+09:00",
+      "diff": {
+        "members": {
+          "before": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他",
+          "after": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕"
+        }
+      },
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00",
-      "diff": null
+      "notified_at": "2026-10-15T12:20:44+09:00"
     },
     {
       "id": "b19039bc",
@@ -39409,7 +39406,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": "17:45",
-      "members": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他",
+      "members": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕",
       "venue": "ルミネtheよしもと",
       "prefecture": "東京都",
       "image_url": null,
@@ -39425,11 +39422,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-11-16T00:22:32+09:00",
+      "diff": {
+        "members": {
+          "before": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他",
+          "after": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕"
+        }
+      },
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "last_updated": "2026-10-15T22:04:46+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00",
-      "diff": null
+      "notified_at": "2026-10-15T12:20:44+09:00"
     },
     {
       "id": "65d06b0f",
@@ -39834,7 +39836,8 @@
       "status": "notified",
       "first_seen": "2026-11-15T13:56:45+09:00",
       "last_updated": "2026-11-15T13:56:45+09:00",
-      "notified_at": "2026-11-15T13:56:46+09:00"
+      "notified_at": "2026-11-15T13:56:46+09:00",
+      "diff": null
     },
     {
       "id": "f3f86e9c",
@@ -41398,7 +41401,7 @@
       "open_time": "16:45",
       "start_time": "17:00",
       "end_time": "19:00",
-      "members": "[ランキングバトルライブ]いぬ／CITY／デニス／カラタチ／kento fukaya／ランパンプス／さや香／滝音／まんじろう／からし蓮根／スクラップス／ぱろぱろ／素敵じゃないか／世間知らズ／ダブルヒガシ／ド桜／アズーロ24／シンクロニシティ／世界クジラ",
+      "members": "[ランキングバトルライブ]いぬ／CITY／デニス／カラタチ／kento fukaya／ランパンプス／さや香／滝音／まんじろう／からし蓮根／スクラップス／ぱろぱろ／素敵じゃないか／世間知らズ／ダブルヒガシ／ド桜／アズーロ24／シンクロニシティ／世界クジラ／コロネケン／そいそ～す",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -41415,10 +41418,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-16T00:22:32+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "last_updated": "2026-10-23T22:05:10+09:00",
-      "notified_at": "2026-10-23T22:05:10+09:00",
-      "diff": null
+      "notified_at": "2026-11-16T00:22:32+09:00"
     },
     {
       "id": "a3ba176b",
@@ -41486,7 +41488,7 @@
       "open_time": "20:00",
       "start_time": "20:15",
       "end_time": "22:15",
-      "members": "[ランキングバトルライブ]スロッピ／TEAM近藤／入間国際宣言／ワラバランス／そいつどいつ／九条ジョー／ケビンス／黄昏の森／ラニーノーズ／オダウエダ／おミュータンツ／ぶったま／ブラゴーリ／ミカボ／軟水／ピュート／マリーマリー／インテイク／ヨネダ2000",
+      "members": "[ランキングバトルライブ]スロッピ／TEAM近藤／入間国際宣言／ワラバランス／そいつどいつ／九条ジョー／ケビンス／黄昏の森／ラニーノーズ／オダウエダ／おミュータンツ／ぶったま／ブラゴーリ／ミカボ／軟水／ピュート／マリーマリー／インテイク／ヨネダ2000／ジェーン",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -41503,10 +41505,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-16T00:22:32+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "last_updated": "2026-10-23T22:05:10+09:00",
-      "notified_at": "2026-10-23T22:05:10+09:00",
-      "diff": null
+      "notified_at": "2026-11-16T00:22:32+09:00"
     },
     {
       "id": "1f54ba3e",

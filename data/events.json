@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T00:22:32+09:00",
+  "updated_at": "2026-11-16T13:53:55+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -37441,7 +37441,7 @@
       "open_time": "17:15",
       "start_time": "17:30",
       "end_time": null,
-      "members": "アシダヒモビッチ、ドライブドライブ、侍スライス、電気ジュース、しゅんすけ、ナナ、うただ、とーんあっぷ、ときヲりぴーと",
+      "members": "アシダヒモビッチ、ドライブドライブ、侍スライス、電気ジュース、しゅんすけ、ナナ、満丸、とーんあっぷ、ときヲりぴーと",
       "venue": "日本橋Pollux Theater",
       "prefecture": "大阪府",
       "image_url": null,
@@ -37454,10 +37454,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-16T13:53:55+09:00",
       "first_seen": "2026-10-24T21:27:30+09:00",
-      "last_updated": "2026-11-12T00:56:04+09:00",
-      "notified_at": "2026-11-12T00:56:04+09:00",
-      "diff": null
+      "notified_at": "2026-11-16T13:53:55+09:00"
     },
     {
       "id": "28192409",
@@ -39167,16 +39166,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-16T00:22:32+09:00",
-      "diff": {
-        "members": {
-          "before": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他",
-          "after": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-11-16T00:22:32+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "d19ff996",
@@ -39292,16 +39286,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-16T00:22:32+09:00",
-      "diff": {
-        "members": {
-          "before": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他",
-          "after": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-11-16T00:22:32+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "b19039bc",
@@ -39422,16 +39411,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-16T00:22:32+09:00",
-      "diff": {
-        "members": {
-          "before": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕／他",
-          "after": "中川家／トット／ジェラードン／金属バット／マユリカ／ドンデコルテ\n【吉本新喜劇】 吉田裕"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-08-24T10:12:26+09:00",
-      "notified_at": "2026-10-15T12:20:44+09:00"
+      "last_updated": "2026-11-16T00:22:32+09:00",
+      "notified_at": "2026-10-15T12:20:44+09:00",
+      "diff": null
     },
     {
       "id": "65d06b0f",
@@ -40513,7 +40497,7 @@
       "members": "[企画ライブ]ケビンス 仁木恭平／kento fukaya／9番街レトロ 京極／ド桜 村田／イチゴ",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000023306_1_20261116112635298.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/22157/56304",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E5%8B%9D%E6%89%8B%E3%81%AB%E6%B1%BA%E3%82%81%E3%82%88%E3%81%86-12-6-20-45",
       "notice": "ケビンス仁木考案ライブ！\r\nAI画像をもとに色々なことを勝手に決めちゃいます！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　10/25（日）11:00 ～ 10/28（水）11:00\r\n　・FANY IDメンバー\r\n　　 10/25（日）11:00 ～ 10/28（水）11:00\r\n\r\n〇一般販売： 11/5（木）10:00  \r\n\r\n〇配信： 11/5（木）10:00  \r\n\r\n■変更履歴■\r\n[追加]\r\nkento fukaya(11/7)",
@@ -40526,12 +40510,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/f12d135c.jpg",
       "status": "notified",
+      "last_updated": "2026-11-16T13:53:55+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "last_updated": "2026-11-07T23:41:15+09:00",
-      "notified_at": "2026-11-07T23:41:15+09:00",
-      "diff": null
+      "notified_at": "2026-11-16T13:53:55+09:00"
     },
     {
       "id": "c4855a94",
@@ -41418,9 +41401,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-16T00:22:32+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "notified_at": "2026-11-16T00:22:32+09:00"
+      "last_updated": "2026-11-16T00:22:32+09:00",
+      "notified_at": "2026-11-16T00:22:32+09:00",
+      "diff": null
     },
     {
       "id": "a3ba176b",
@@ -41505,9 +41489,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-16T00:22:32+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "notified_at": "2026-11-16T00:22:32+09:00"
+      "last_updated": "2026-11-16T00:22:32+09:00",
+      "notified_at": "2026-11-16T00:22:32+09:00",
+      "diff": null
     },
     {
       "id": "1f54ba3e",
@@ -42110,7 +42095,7 @@
       "members": "[企画ライブ]今井らいぱち／kento fukaya／滝音／シモリュウ／田津原理音／らぶおじさん",
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000023294_1_20261116121414175.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/22212/56362",
       "online_url": null,
       "notice": "2024年4月に上京したメンバーによるネタとコーナーライブ！\r\n配信なしの75分をぜひ劇場でお楽しみください！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　10/25（日）11:00 ～ 10/28（水）11:00\r\n　・FANY IDメンバー\r\n　　 10/25（日）11:00 ～ 10/28（水）11:00\r\n\r\n〇一般販売： 11/5（木）10:00  \r\n",
@@ -42122,12 +42107,11 @@
         "theater:jimbocho",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/9c73e77e.jpg",
       "status": "notified",
+      "last_updated": "2026-11-16T13:53:55+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "last_updated": "2026-10-23T22:05:10+09:00",
-      "notified_at": "2026-10-23T22:05:10+09:00",
-      "diff": null
+      "notified_at": "2026-11-16T13:53:55+09:00"
     },
     {
       "id": "a24e690b",

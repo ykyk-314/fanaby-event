@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T00:55:06+09:00",
+  "updated_at": "2026-11-22T14:14:55+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -37862,8 +37862,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -37894,20 +37893,14 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-22T00:55:05+09:00",
-      "diff": {
-        "members": {
-          "before": "サルゴリラ／しずる／守谷日和／うるとらブギーズ／ジェラードン／ロングコートダディ／カゲヤマ／kento fukaya／蛙亭／そいつどいつ／オフローズ",
-          "after": "サルゴリラ／しずる／守谷日和／うるとらブギーズ／ジェラードン／ロングコートダディ／カゲヤマ／kento fukaya／蛙亭／そいつどいつ／オフローズ\n【コーナー出演者】 MC：うるとらブギーズ／カゲヤマ／オフローズ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-22T00:55:05+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "52d9bf9b",
@@ -37931,8 +37924,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -37963,8 +37955,7 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya",
-        "profile"
+        "theater:shibuya"
       ],
       "local_image": null,
       "status": "notified",
@@ -37995,20 +37986,14 @@
         "door": 3500
       },
       "sources": [
-        "theater:roppongi",
-        "profile"
+        "theater:roppongi"
       ],
       "local_image": "fliers/1d37548d.jpg",
-      "status": "updated",
-      "last_updated": "2026-11-22T00:55:05+09:00",
-      "diff": {
-        "members": {
-          "before": "サルゴリラ／しずる／守谷日和／うるとらブギーズ／ジェラードン／ロングコートダディ／カゲヤマ／kento fukaya／蛙亭／そいつどいつ／オフローズ",
-          "after": "サルゴリラ／しずる／守谷日和／うるとらブギーズ／ジェラードン／ロングコートダディ／カゲヤマ／kento fukaya／蛙亭／そいつどいつ／オフローズ\n【コーナー出演者】 MC：kento fukaya／そいつどいつ／オフローズ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-22T00:55:05+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "43162563",
@@ -38158,16 +38143,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-22T00:55:05+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]CITY／kento fukaya／カラタチ／シンクロニシティ／マリーマリー／鉄人小町／私東京／アリハガ／エグい速さ／寿司東京／ミケネ系",
-          "after": "[ネタ出演者]CITY／kento fukaya／カラタチ／シンクロニシティ／マリーマリー／鉄人小町／私東京／アリハガ／エグい速さ／寿司東京／ミケネ系\n[コーナー出演者]MC：カラタチ／マリーマリー／アリハガ／ミケネ系"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-22T00:55:05+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "86514dae",
@@ -38224,16 +38204,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-22T00:55:05+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]CITY／kento fukaya／カラタチ／シンクロニシティ／マリーマリー／鉄人小町／私東京／エグい速さ／伝書鳩／寿司東京／ミケネ系",
-          "after": "[ネタ出演者]CITY／kento fukaya／カラタチ／シンクロニシティ／マリーマリー／鉄人小町／私東京／エグい速さ／伝書鳩／寿司東京／ミケネ系\n[コーナー出演者]MC：伝書鳩／kento fukaya／エグい速さ／寿司東京"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-22T00:55:05+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a0a6c011",
@@ -38318,16 +38293,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-22T00:55:05+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]CITY／kento fukaya／カラタチ／シンクロニシティ／マリーマリー／鉄人小町／喫茶ムーン／ぺ／私東京／エグい速さ／ミケネ系",
-          "after": "[ネタ出演者]CITY／kento fukaya／カラタチ／シンクロニシティ／マリーマリー／鉄人小町／喫茶ムーン／ぺ／私東京／エグい速さ／ミケネ系\n[コーナー出演者]MC：CITY／シンクロニシティ／ぺ／私東京"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-22T00:55:05+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b2539e90",
@@ -38738,16 +38708,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-22T00:55:05+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ケビンス／カベポスター／ミカボ／大王／テキセツの街／伝書鳩／パパパジャマ／あなたとネ",
-          "after": "[ネタ出演者]ケビンス／カベポスター／ミカボ／大王／テキセツの街／伝書鳩／パパパジャマ／あなたとネ\n[コーナー出演者]MC：大王／ミカボ／テキセツの街／伝書鳩／あなたとネ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-22T00:55:05+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bede3f86",
@@ -39087,7 +39052,7 @@
       "open_time": "09:40",
       "start_time": "10:00",
       "end_time": null,
-      "members": "[ネタ出演者]中田カウス漫才のDENDO NEXT／ガクテンソク／トット／すゑひろがりず／見取り図／セルライトスパ／ビスケットブラザーズ／金魚番長／ゼロカラン／豪快キャプテン／武者武者／華山／いつもたいしゃ／例えば炎\n[スペシャルアクト]\n[ゲームコーナー][前説]おもしろジャンケン",
+      "members": "[ネタ出演者]中田カウス漫才のDENDO NEXT／ガクテンソク／トット／すゑひろがりず／見取り図／セルライトスパ／ビスケットブラザーズ／金魚番長／ゼロカラン／豪快キャプテン／武者武者／華山／いつもたいしゃ／空前メテオ／例えば炎\n[スペシャルアクト]\n[ゲームコーナー][前説]おもしろジャンケン",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -39099,11 +39064,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-11-22T14:14:55+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ出演者]中田カウス漫才のDENDO NEXT／ガクテンソク／トット／すゑひろがりず／見取り図／セルライトスパ／ビスケットブラザーズ／金魚番長／ゼロカラン／豪快キャプテン／武者武者／華山／いつもたいしゃ／例えば炎\n[スペシャルアクト]\n[ゲームコーナー][前説]おもしろジャンケン",
+          "after": "[ネタ出演者]中田カウス漫才のDENDO NEXT／ガクテンソク／トット／すゑひろがりず／見取り図／セルライトスパ／ビスケットブラザーズ／金魚番長／ゼロカラン／豪快キャプテン／武者武者／華山／いつもたいしゃ／空前メテオ／例えば炎\n[スペシャルアクト]\n[ゲームコーナー][前説]おもしろジャンケン"
+        }
+      },
       "first_seen": "2026-09-25T12:35:25+09:00",
-      "last_updated": "2026-11-20T14:49:49+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "109e2438",
@@ -39263,7 +39233,7 @@
       "open_time": "12:20",
       "start_time": "12:40",
       "end_time": null,
-      "members": "[ネタ出演者]中田カウス漫才のDENDO NEXT／サルゴリラ／マヂカルラブリー／滝音／ちょんまげラーメン／コットン／紅しょうが／豪快キャプテン／愛凛冴／三遊間／空前メテオ／例えば炎／あんよの日／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]入学卒業",
+      "members": "[ネタ出演者]中田カウス漫才のDENDO NEXT／サルゴリラ／マヂカルラブリー／滝音／ちょんまげラーメン／コットン／紅しょうが／豪快キャプテン／華山／愛凛冴／三遊間／空前メテオ／例えば炎／あんよの日／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]入学卒業",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -39275,11 +39245,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-11-22T14:14:55+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ出演者]中田カウス漫才のDENDO NEXT／サルゴリラ／マヂカルラブリー／滝音／ちょんまげラーメン／コットン／紅しょうが／豪快キャプテン／愛凛冴／三遊間／空前メテオ／例えば炎／あんよの日／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]入学卒業",
+          "after": "[ネタ出演者]中田カウス漫才のDENDO NEXT／サルゴリラ／マヂカルラブリー／滝音／ちょんまげラーメン／コットン／紅しょうが／豪快キャプテン／華山／愛凛冴／三遊間／空前メテオ／例えば炎／あんよの日／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]入学卒業"
+        }
+      },
       "first_seen": "2026-09-25T12:35:25+09:00",
-      "last_updated": "2026-10-24T21:27:30+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "4ca493d0",
@@ -39416,7 +39391,7 @@
       "open_time": "15:00",
       "start_time": "15:20",
       "end_time": null,
-      "members": "[ネタ出演者]中田カウス漫才のDENDO NEXT／サルゴリラ／マヂカルラブリー／滝音／ちょんまげラーメン／コットン／紅しょうが／豪快キャプテン／愛凛冴／三遊間／空前メテオ／例えば炎／あんよの日／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]入学卒業",
+      "members": "[ネタ出演者]中田カウス漫才のDENDO NEXT／サルゴリラ／マヂカルラブリー／滝音／ちょんまげラーメン／コットン／紅しょうが／豪快キャプテン／ジョックロック／愛凛冴／三遊間／空前メテオ／例えば炎／あんよの日／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]入学卒業",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -39428,11 +39403,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "notified",
+      "status": "updated",
+      "last_updated": "2026-11-22T14:14:55+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ出演者]中田カウス漫才のDENDO NEXT／サルゴリラ／マヂカルラブリー／滝音／ちょんまげラーメン／コットン／紅しょうが／豪快キャプテン／愛凛冴／三遊間／空前メテオ／例えば炎／あんよの日／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]入学卒業",
+          "after": "[ネタ出演者]中田カウス漫才のDENDO NEXT／サルゴリラ／マヂカルラブリー／滝音／ちょんまげラーメン／コットン／紅しょうが／豪快キャプテン／ジョックロック／愛凛冴／三遊間／空前メテオ／例えば炎／あんよの日／やまぐちたけし\n[スペシャルアクト]\n[ゲームコーナー][前説]入学卒業"
+        }
+      },
       "first_seen": "2026-09-25T12:35:25+09:00",
-      "last_updated": "2026-10-24T21:27:30+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "d3d4deb4",
@@ -40653,9 +40633,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-22T00:55:05+09:00",
       "first_seen": "2026-10-23T22:05:10+09:00",
-      "notified_at": "2026-11-22T00:55:06+09:00"
+      "last_updated": "2026-11-22T00:55:05+09:00",
+      "notified_at": "2026-11-22T00:55:06+09:00",
+      "diff": null
     },
     {
       "id": "858ce7cf",
@@ -42064,9 +42045,10 @@
       ],
       "local_image": "fliers/c96d9a54.jpg",
       "status": "notified",
-      "last_updated": "2026-11-22T00:55:05+09:00",
       "first_seen": "2026-11-07T13:46:55+09:00",
-      "notified_at": "2026-11-22T00:55:06+09:00"
+      "last_updated": "2026-11-22T00:55:05+09:00",
+      "notified_at": "2026-11-22T00:55:06+09:00",
+      "diff": null
     },
     {
       "id": "4571799f",
@@ -42961,7 +42943,7 @@
       "prefecture": "東京都",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/23194/59437",
-      "online_url": null,
+      "online_url": "https://online-ticket.yoshimoto.co.jp/products/lumine-26122219",
       "notice": "※前売券が完売した際には、当日券がない場合がございます。\r\n\r\n■チケット情報■\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：11/18(水) 11:00 ～ 11/20(金) 11:00\r\n当落発表：11/21(土) 18:00頃\r\n\r\n一般発売：11/22(日) 10:00\r\n\r\nオンラインチケット発売：11/22(日) 10:00\r\n\r\n※未就学児入場不可\r\n※飲食不可（但し劇場内ペットボトルのお飲み物は可）",
       "price": {
         "advance": 2500,
@@ -43380,9 +43362,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-22T00:55:05+09:00",
       "first_seen": "2026-11-17T15:41:36+09:00",
-      "notified_at": "2026-11-22T00:55:06+09:00"
+      "last_updated": "2026-11-22T00:55:05+09:00",
+      "notified_at": "2026-11-22T00:55:06+09:00",
+      "diff": null
     },
     {
       "id": "53b194eb",
@@ -43411,9 +43394,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-22T00:55:05+09:00",
       "first_seen": "2026-11-17T15:41:36+09:00",
-      "notified_at": "2026-11-22T00:55:06+09:00"
+      "last_updated": "2026-11-22T00:55:05+09:00",
+      "notified_at": "2026-11-22T00:55:06+09:00",
+      "diff": null
     },
     {
       "id": "39d9803b",
@@ -43509,9 +43493,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-22T00:55:05+09:00",
       "first_seen": "2026-11-10T15:01:29+09:00",
-      "notified_at": "2026-11-22T00:55:06+09:00"
+      "last_updated": "2026-11-22T00:55:05+09:00",
+      "notified_at": "2026-11-22T00:55:06+09:00",
+      "diff": null
     },
     {
       "id": "7e2bcca4",

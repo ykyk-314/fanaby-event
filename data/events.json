@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T04:52:15+09:00",
+  "updated_at": "2026-11-24T17:32:18+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -39003,16 +39003,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]さや香／マルセイユ／九条ジョー／ケビンス／オダウエダ／軟水／マリーマリー／インテイク\n[ コーナー出演者]MC：九条ジョー／ケビンス／さや香／オダウエダ／他",
-          "after": "[ネタ＆コーナーライブ]さや香／マルセイユ／九条ジョー／ケビンス／オダウエダ／軟水／マリーマリー／インテイク／他\n[ コーナー出演者]MC：九条ジョー／ケビンス／さや香／オダウエダ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T22:22:46+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1944b6aa",
@@ -39124,16 +39119,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ゆにばーす／ドンデコルテ／9番街レトロ／ケビンス／田津原理音／ミカボ／インテイク／兄弟／他",
-          "after": "[ネタ＆コーナーライブ]ゆにばーす／ドンデコルテ／9番街レトロ／ケビンス／田津原理音／ミカボ／バリカタ友情飯／インテイク／兄弟／ドーナツ・ピーナツ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "213a56bd",
@@ -39161,16 +39151,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ゆにばーす／ドンデコルテ／9番街レトロ／ケビンス／田津原理音／ミカボ／インテイク／兄弟／他",
-          "after": "[ネタ＆コーナーライブ]ゆにばーす／ドンデコルテ／9番街レトロ／ケビンス／田津原理音／ミカボ／マリーマリー／インテイク／兄弟／ドーナツ・ピーナツ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "7bdb6074",
@@ -39198,16 +39183,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ゆにばーす／ドンデコルテ／9番街レトロ／ケビンス／田津原理音／ミカボ／インテイク／兄弟／他",
-          "after": "[ネタ＆コーナーライブ]ゆにばーす／ドンデコルテ／9番街レトロ／CITY／ケビンス／田津原理音／ミカボ／インテイク／兄弟／ドーナツ・ピーナツ"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "109e2438",
@@ -41123,16 +41103,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "diff": {
-        "members": {
-          "before": "三遊間／半年記念日／ぐろう／ジョックロック／キョンビ／天ロクの丘／電気ジュース／満丸／あんよの日／生姜猫／シンボリル／ゲスト:ヨネダ2000",
-          "after": "三遊間／半年記念日／ぐろう／ジョックロック／キョンビ／天ロクの丘／電気ジュース／満丸／あんよの日／生姜猫／シンボリル／ゲスト:ヨネダ2000\n[コーナー出演者]MC：生姜猫／ぐろう／半年記念日／電気ジュース／あんよの日"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-10-25T12:20:28+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "033caa96",
@@ -41514,7 +41489,7 @@
       "open_time": "13:45",
       "start_time": "14:00",
       "end_time": null,
-      "members": "超速バギー／武者武者／しゅんすけ／ザ・布団／ネイビーズアフロ／鬼としみちゃむ／華山／スナフキンズ／隣人／イノシカチョウ／ナナ／イチオク／カンフーカンフー／ドーナツ・ピーナツ／丸亀じゃんご／翠星チークダンス／チェリー大作戦／フースーヤ／いつもたいしゃ／タチマチ／爛々 萌々／国道アリス\ncacao／ごぞうろっぷ／三遊間／タイムキーパー／半年記念日／ぐろう／ジョックロック／電気ジュース／ヒョウリ／マーティー／釈迦虎／彼岸花／ミケネ系／あんよの日／生姜猫／ちあき／ゆくえ／苺ちゃん／濱田祐太郎／真輝志",
+      "members": "超速バギー／武者武者／しゅんすけ／ザ・布団／ネイビーズアフロ／鬼としみちゃむ／華山／スナフキンズ／隣人／イノシカチョウ／ナナ／イチオク／カンフーカンフー／ドーナツ・ピーナツ／丸亀じゃんご／翠星チークダンス／チェリー大作戦／フースーヤ／いつもたいしゃ／タチマチ／爛々 萌々／国道アリス\ncacao／ごぞうろっぷ／三遊間／タイムキーパー／半年記念日／もくめ蝶／白くま／ぐろう／ジョックロック／電気ジュース／ヒョウリ／マーティー／釈迦虎／彼岸花／ミケネ系／あんよの日／生姜猫／おどりんぼ／ちあき／ゆくえ／苺ちゃん／濱田祐太郎／真輝志",
       "venue": "よしもと漫才劇場",
       "prefecture": "大阪府",
       "image_url": null,
@@ -41527,10 +41502,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-10-25T12:20:28+09:00",
-      "last_updated": "2026-11-17T02:57:57+09:00",
-      "notified_at": "2026-11-17T02:57:57+09:00",
-      "diff": null
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "e0d4b220",
@@ -42472,16 +42446,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "diff": {
-        "members": {
-          "before": "cacao／タイムキーパー／カノッサ／ぐろう／FFD700／清川雄司／天ロクの丘／電気ジュース／彼岸花／東雲／バリアシオン",
-          "after": "cacao／タイムキーパー／カノッサ／ぐろう／FFD700／清川雄司／天ロクの丘／電気ジュース／彼岸花／東雲／バリアシオン\n[コーナー出演者]MC：天ロクの丘／タイムキーパー／FFD700／カノッサ／バリアシオン"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-10-25T12:20:28+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "2046671b",
@@ -43120,7 +43089,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "a0237243",
@@ -43199,7 +43169,7 @@
       "open_time": "09:30",
       "start_time": "10:00",
       "end_time": null,
-      "members": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ",
+      "members": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ／浅香あき恵／山田花子／烏川耕一／清水けんじ／太田芳伸／谷川友梨／大黒笑けいけい／もじゃ吉田／多和田上人／レイチェル／小寺真理／伊丹祐貴／吉岡友見／横山裕輝",
       "venue": "なんばグランド花月",
       "prefecture": "大阪府",
       "image_url": null,
@@ -43211,11 +43181,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "members": {
+          "before": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ",
+          "after": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ／浅香あき恵／山田花子／烏川耕一／清水けんじ／太田芳伸／谷川友梨／大黒笑けいけい／もじゃ吉田／多和田上人／レイチェル／小寺真理／伊丹祐貴／吉岡友見／横山裕輝"
+        }
+      },
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "last_updated": "2026-09-24T22:14:37+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "606473da",
@@ -43228,7 +43203,7 @@
       "open_time": "12:30",
       "start_time": "13:00",
       "end_time": null,
-      "members": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ",
+      "members": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ／浅香あき恵／山田花子／烏川耕一／清水けんじ／太田芳伸／谷川友梨／大黒笑けいけい／もじゃ吉田／多和田上人／レイチェル／小寺真理／伊丹祐貴／吉岡友見／横山裕輝",
       "venue": "なんばグランド花月",
       "prefecture": "大阪府",
       "image_url": null,
@@ -43240,11 +43215,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "members": {
+          "before": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ",
+          "after": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ／浅香あき恵／山田花子／烏川耕一／清水けんじ／太田芳伸／谷川友梨／大黒笑けいけい／もじゃ吉田／多和田上人／レイチェル／小寺真理／伊丹祐貴／吉岡友見／横山裕輝"
+        }
+      },
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "last_updated": "2026-09-24T22:14:37+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "d87a17b2",
@@ -43286,7 +43266,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ",
+      "members": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ／浅香あき恵／山田花子／烏川耕一／清水けんじ／太田芳伸／谷川友梨／大黒笑けいけい／もじゃ吉田／多和田上人／レイチェル／小寺真理／伊丹祐貴／吉岡友見／横山裕輝",
       "venue": "なんばグランド花月",
       "prefecture": "大阪府",
       "image_url": null,
@@ -43298,11 +43278,16 @@
         "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "members": {
+          "before": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ",
+          "after": "[漫才・落語]海原やすよ ともこ／タカアンドトシ／ザ・ぼんち／テンダラー／ガクテンソク／マユリカ／ビスケットブラザーズ／エバース\n[新喜劇]酒井藍／内場勝則／末成映薫／Mr.オクレ／松浦真也／森田まりこ／浅香あき恵／山田花子／烏川耕一／清水けんじ／太田芳伸／谷川友梨／大黒笑けいけい／もじゃ吉田／多和田上人／レイチェル／小寺真理／伊丹祐貴／吉岡友見／横山裕輝"
+        }
+      },
       "first_seen": "2026-09-24T22:14:37+09:00",
-      "last_updated": "2026-09-24T22:14:37+09:00",
-      "notified_at": null,
-      "diff": null
+      "notified_at": null
     },
     {
       "id": "c54da5d9",
@@ -43392,13 +43377,15 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "94e9d064",
@@ -43410,13 +43397,13 @@
       "open_time": "11:45",
       "start_time": "12:00",
       "end_time": "13:00",
-      "members": "しずる／トット／見取り図／ゆにばーす／紅しょうが／ケビンス／他",
+      "members": "パンクブーブー／しずる／トット／見取り図／ゆにばーす／紅しょうが／ケビンス／他",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/23132/59283",
       "online_url": null,
-      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：11/18（水）11:00～11/20（金）11:00\r\n当落発表：11/21（土）18:00頃\r\n一般発売：11/25（水）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n",
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：11/18（水）11:00～11/20（金）11:00\r\n当落発表：11/21（土）18:00頃\r\n一般発売：11/25（水）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n\r\n■追加情報■\r\n追加：パンクブーブー（11/24）\r\n",
       "price": {
         "advance": 3000,
         "door": 3500
@@ -43427,9 +43414,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "91c7f559",
@@ -43481,13 +43468,15 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6ce9b7c3",
@@ -43531,13 +43520,13 @@
       "open_time": "13:45",
       "start_time": "14:00",
       "end_time": "15:00",
-      "members": "しずる／トット／見取り図／ゆにばーす／紅しょうが／ケビンス／他",
+      "members": "パンクブーブー／しずる／トット／見取り図／ゆにばーす／紅しょうが／ケビンス／他",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
       "ticket_url": "https://ticket.fany.lol/event/detail/23132/59284",
       "online_url": null,
-      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：11/18（水）11:00～11/20（金）11:00\r\n当落発表：11/21（土）18:00頃\r\n一般発売：11/25（水）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n",
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：11/18（水）11:00～11/20（金）11:00\r\n当落発表：11/21（土）18:00頃\r\n一般発売：11/25（水）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n\r\n■追加情報■\r\n追加：パンクブーブー（11/24）",
       "price": {
         "advance": 3000,
         "door": 3500
@@ -43548,9 +43537,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "9974a0d4",
@@ -43574,13 +43563,15 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "03b3267e",
@@ -43653,7 +43644,7 @@
       "open_time": "15:45",
       "start_time": "16:00",
       "end_time": "17:00",
-      "members": "しずる／トット／見取り図／ゆにばーす／紅しょうが／ケビンス／他",
+      "members": "パンクブーブー／しずる／トット／見取り図／ゆにばーす／紅しょうが／ケビンス／他",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
@@ -43670,9 +43661,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "60390555",
@@ -43785,13 +43776,15 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "5564345c",
@@ -43815,13 +43808,15 @@
         "door": 3800
       },
       "sources": [
-        "theater:jimbocho"
+        "theater:jimbocho",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "1dbe4251",
@@ -43877,13 +43872,15 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6416437b",
@@ -43907,13 +43904,15 @@
         "door": 3800
       },
       "sources": [
-        "theater:jimbocho"
+        "theater:jimbocho",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "53b194eb",
@@ -43969,13 +43968,15 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c378c17c",
@@ -43999,13 +44000,15 @@
         "door": 3800
       },
       "sources": [
-        "theater:jimbocho"
+        "theater:jimbocho",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "39d9803b",
@@ -44483,7 +44486,7 @@
       "open_time": "10:45",
       "start_time": "11:00",
       "end_time": "12:15",
-      "members": "[ネタ＆コーナーライブ]CITY／ケビンス／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン",
+      "members": "[ネタ＆コーナーライブ]CITY／ケビンス／そいつどいつ／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -44495,12 +44498,19 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]CITY／ケビンス／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン",
+          "after": "[ネタ＆コーナーライブ]CITY／ケビンス／そいつどいつ／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン"
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -44514,7 +44524,7 @@
       "open_time": "12:30",
       "start_time": "12:45",
       "end_time": "14:00",
-      "members": "[ネタ＆コーナーライブ]CITY／ケビンス／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン",
+      "members": "[ネタ＆コーナーライブ]CITY／ケビンス／そいつどいつ／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -44526,12 +44536,19 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]CITY／ケビンス／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン",
+          "after": "[ネタ＆コーナーライブ]CITY／ケビンス／そいつどいつ／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン"
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -44545,7 +44562,7 @@
       "open_time": "14:15",
       "start_time": "14:30",
       "end_time": "15:45",
-      "members": "[ネタ＆コーナーライブ]CITY／ケビンス／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン",
+      "members": "[ネタ＆コーナーライブ]CITY／ケビンス／そいつどいつ／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -44557,12 +44574,19 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]CITY／ケビンス／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン",
+          "after": "[ネタ＆コーナーライブ]CITY／ケビンス／そいつどいつ／素敵じゃないか／シンクロニシティ／太鵬／インテイク／ゼロカラン"
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -44741,13 +44765,15 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "fcb666c8",
@@ -44763,20 +44789,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23451/59950",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 3300,
-        "door": 3800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23451/59950",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 3300,
+            "door": 3800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -44802,13 +44842,15 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9b7851e3",
@@ -44824,20 +44866,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23451/59951",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 3300,
-        "door": 3800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23451/59951",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 3300,
+            "door": 3800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -44863,13 +44919,15 @@
         "door": 3600
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d8a041ba",
@@ -44885,20 +44943,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23451/59952",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 3300,
-        "door": 3800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23451/59952",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 3300,
+            "door": 3800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -44924,13 +44996,15 @@
         "online": 1500
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "c7108439",
@@ -44970,54 +45044,62 @@
       "talents": {
         "7295": "ケビンス"
       },
-      "title": "大宮よしもと新春寄席",
+      "title": "大宮よしもと新春寄席　その壱",
       "date": "2027-01-02",
       "open_time": "11:45",
       "start_time": "12:00",
       "end_time": "13:00",
-      "members": "ぼる塾／ケビンス／他",
+      "members": "ぼる塾／ニッポンの社長／めぞん／ケビンス／他",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/23599/60288",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：11/25（水）11:00～11/28（土）11:00\r\n当落発表：11/29（日）18:00頃\r\n一般発売：12/5（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n",
+      "price": {
+        "advance": 2700,
+        "door": 3200
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-24T04:52:14+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "d5825279",
       "talents": {
         "7295": "ケビンス"
       },
-      "title": "大宮よしもと新春寄席",
+      "title": "大宮よしもと新春寄席　その弐",
       "date": "2027-01-02",
       "open_time": "13:45",
       "start_time": "14:00",
       "end_time": "15:00",
-      "members": "ぼる塾／ケビンス／他",
+      "members": "ぼる塾／ニッポンの社長／めぞん／ケビンス／他",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/23599/60289",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：11/25（水）11:00～11/28（土）11:00\r\n当落発表：11/29（日）18:00頃\r\n一般発売：12/5（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n",
+      "price": {
+        "advance": 2700,
+        "door": 3200
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-24T04:52:14+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "58216257",
@@ -45057,27 +45139,31 @@
       "talents": {
         "7295": "ケビンス"
       },
-      "title": "大宮よしもと新春寄席",
+      "title": "大宮よしもと新春寄席　その参",
       "date": "2027-01-02",
       "open_time": "15:45",
       "start_time": "16:00",
       "end_time": "17:00",
-      "members": "ぼる塾／ケビンス／他",
+      "members": "ぼる塾／ニッポンの社長／めぞん／ケビンス／他",
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/23599/60290",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\nプレミアム会員・ID会員先行：11/25（水）11:00～11/28（土）11:00\r\n当落発表：11/29（日）18:00頃\r\n一般発売：12/5（土）10:00\r\n※都合により出演者が変更になる場合がございます。\r\n\r\n★学生割引有\r\n高校・専門・大学生 2000円／中学生以下 1800円\r\n※ご入場時に必ず学生証をご提示ください。\r\n\r\n☆グループ割(窓口割引)\r\n当日3名以上でご観覧のお客様(大人料金)は、前売り料金で\r\nご観覧できます！当日券ご購入のお客様が対象です。\r\n。\r\n",
+      "price": {
+        "advance": 2700,
+        "door": 3200
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-24T04:52:14+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "eff162cb",
@@ -45126,18 +45212,23 @@
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/23629/60424",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：11/22（日）11:00～11/24（火）11:00\r\n当落発表：11/25（水）18:00頃\r\nオンライン・一般発売：11/26（木）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n",
+      "price": {
+        "advance": 2500,
+        "door": 2800,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-24T04:52:14+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "21d334b4",
@@ -45162,13 +45253,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "8fbf11b0",
@@ -45184,52 +45277,18 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23292/59835",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "あなたとネの新ネタライブにゲストの方をお招きさせていただきます！\r\nライブ自体は60分で終わってしまいますが思い出は永遠ですね！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00\r\n\r\n〇配信： 12/5 (土) 10:00",
-      "price": {
-        "advance": 1500,
-        "door": 2000,
-        "online": 1300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
-    },
-    {
-      "id": "4bdde9ac",
-      "talents": {
-        "10708": "シンクロニシティ"
-      },
-      "title": "神保町マンゲキお笑いライブ お正月SP",
-      "date": "2027-01-03",
-      "open_time": "10:45",
-      "start_time": "11:00",
-      "end_time": "12:15",
-      "members": "[ネタ出演者]ゆにばーす／カラタチ／田津原理音／9番街レトロ／シンクロニシティ／兄弟／テキセツの街／ド天国／他",
-      "venue": "神保町よしもと漫才劇場",
-      "prefecture": "東京都",
-      "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23451/59956",
-      "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 3300,
-        "door": 3800
-      },
-      "sources": [
-        "theater:jimbocho"
-      ],
-      "local_image": null,
-      "status": "new",
-      "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "a16e9b43",
@@ -45262,6 +45321,50 @@
       "last_updated": "2026-11-21T14:45:04+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "4bdde9ac",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "神保町マンゲキお笑いライブ お正月SP",
+      "date": "2027-01-03",
+      "open_time": "10:45",
+      "start_time": "11:00",
+      "end_time": "12:15",
+      "members": "[ネタ出演者]ゆにばーす／カラタチ／田津原理音／9番街レトロ／シンクロニシティ／兄弟／テキセツの街／ド天国／他",
+      "venue": "神保町よしもと漫才劇場",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23451/59956",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 3300,
+            "door": 3800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
+      "first_seen": "2026-11-24T04:52:14+09:00",
+      "notified_at": null
     },
     {
       "id": "b73c8f0d",
@@ -45305,20 +45408,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23451/59957",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 3300,
-        "door": 3800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23451/59957",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 3300,
+            "door": 3800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -45395,20 +45512,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23451/59958",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 3300,
-        "door": 3800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23451/59958",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 3300,
+            "door": 3800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -45485,7 +45616,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23583/60221",
+      "ticket_url": "https://ticket.fany.lol/event/detail/23730/60762",
       "online_url": null,
       "notice": "渋谷/神保町よしもと漫才劇場所属メンバーのネタと、中田カウス師匠が若手漫才師と貴重なトークを展開する「漫才のDENDO NEXT」をお送りするスペシャルな7５分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：11/25(水) 11:00 〜 11/28(土) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：11/25(水) 11:00 〜 11/28(土) 11:00\r\n\r\n一般発売：12/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
@@ -45497,9 +45628,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "80fe47cd",
@@ -45515,20 +45646,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23451/59959",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 3300,
-        "door": 3800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23451/59959",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 3300,
+            "door": 3800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -45545,7 +45690,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23583/60225",
+      "ticket_url": "https://ticket.fany.lol/event/detail/23730/60763",
       "online_url": null,
       "notice": "渋谷/神保町よしもと漫才劇場所属メンバーのネタと、中田カウス師匠が若手漫才師と貴重なトークを展開する「漫才のDENDO NEXT」をお送りするスペシャルな7５分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：11/25(水) 11:00 〜 11/28(土) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：11/25(水) 11:00 〜 11/28(土) 11:00\r\n\r\n一般発売：12/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
@@ -45557,9 +45702,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "82164399",
@@ -45575,20 +45720,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23451/59960",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 3300,
-        "door": 3800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23451/59960",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 3300,
+            "door": 3800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -45605,7 +45764,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23583/60229",
+      "ticket_url": "https://ticket.fany.lol/event/detail/23730/60764",
       "online_url": null,
       "notice": "渋谷/神保町よしもと漫才劇場所属メンバーのネタと、中田カウス師匠が若手漫才師と貴重なトークを展開する「漫才のDENDO NEXT」をお送りするスペシャルな7５分！\r\n\r\n■チケット情報■\r\n全席指定\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：11/25(水) 11:00 〜 11/28(土) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：11/25(水) 11:00 〜 11/28(土) 11:00\r\n\r\n一般発売：12/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
@@ -45617,9 +45776,9 @@
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "353be555",
@@ -45635,20 +45794,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23451/59961",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 3300,
-        "door": 3800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23451/59961",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 3300,
+            "door": 3800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n新年も神保町よしもと漫才劇場をよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -45674,13 +45847,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "bcf6a819",
@@ -45706,13 +45881,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "abcec987",
@@ -45792,7 +45969,7 @@
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/23259/59563",
       "online_url": null,
       "notice": "芸歴9年目以上の極メンバーが出演するネタとコーナーの90分！\r\n「プラス」はオンライン配信もあり！！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：12/1(火) 11:00 〜 12/3(木) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：12/1(火) 11:00 〜 12/3(木) 11:00\r\n\r\n一般発売：12/8(火) 10:00\r\n\r\nオンラインチケット発売：12/8(火) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
       "price": {
@@ -45804,9 +45981,15 @@
         "theater:shibuya"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": null,
+          "after": "https://ticket.fany.lol/event/detail/23259/59563"
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -45823,20 +46006,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23479/60002",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "芸歴8年目以下の翔メンバーに、極メンバーもプラスした翔LIVEのスペシャル版！\r\n新春拡大版90分スペシャルです！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 2000,
-        "door": 2300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23479/60002",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 2000,
+            "door": 2300
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "芸歴8年目以下の翔メンバーに、極メンバーもプラスした翔LIVEのスペシャル版！\r\n新春拡大版90分スペシャルです！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -45863,13 +46060,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "c761a6b7",
@@ -45901,7 +46100,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "9ce7bd17",
@@ -45917,22 +46117,18 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23248/59511",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "文字通り四分間にすべてを注ぐ漫才師達のネタライブ。\r\n四分にちなんだコーナーも？！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00\r\n\r\n〇配信： 12/5 (土) 10:00",
-      "price": {
-        "advance": 1500,
-        "door": 2000,
-        "online": 1300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "01d2ee1c",
@@ -46021,13 +46217,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "99ee26c7",
@@ -46043,22 +46241,18 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23304/59869",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "「超超超、超超超、超超超超超難問王決定戦」\r\n「タインベーダーを攻略するのは俺達だ」\r\n「食べめっこ」\r\n「クイズ『なんで』のあと」\r\n「木琴沿い」\r\nなど全てが生まれた\r\n\r\nやさしいズタイが毎月実験的な新企画を発表するライブ\r\n\r\n企画が産声を上げる、その瞬間に立ち会おう\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00\r\n\r\n〇配信： 12/5 (土) 10:00",
-      "price": {
-        "advance": 1800,
-        "door": 2300,
-        "online": 1300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "95acd032",
@@ -46127,7 +46321,7 @@
       "open_time": "10:45",
       "start_time": "11:00",
       "end_time": "12:15",
-      "members": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／田津原理音／ミカボ／伝書鳩",
+      "members": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -46139,12 +46333,19 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／田津原理音／ミカボ／伝書鳩",
+          "after": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩"
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -46157,7 +46358,7 @@
       "open_time": "12:30",
       "start_time": "12:45",
       "end_time": "14:00",
-      "members": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／田津原理音／ミカボ／伝書鳩",
+      "members": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -46169,12 +46370,19 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／田津原理音／ミカボ／伝書鳩",
+          "after": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩"
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -46215,7 +46423,7 @@
       "open_time": "14:15",
       "start_time": "14:30",
       "end_time": "15:45",
-      "members": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／田津原理音／ミカボ／伝書鳩",
+      "members": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -46227,12 +46435,19 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／田津原理音／ミカボ／伝書鳩",
+          "after": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩"
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -46277,22 +46492,18 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23309/59848",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "ミカボとシンクロニシティが切磋琢磨していこうというライブが4月から始動しました！毎回ゲストとともに切磋琢磨させていただきます！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00\r\n\r\n〇配信： 12/5 (土) 10:00",
-      "price": {
-        "advance": 1500,
-        "door": 2000,
-        "online": 1300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "e9003097",
@@ -46431,22 +46642,18 @@
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23331/59801",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "さや香石井、ロングコートダディ兎、ビスケットブラザーズきんのトークライブ！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：11/25(水) 11:00 〜 11/28(土) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：11/25(水) 11:00 〜 11/28(土) 11:00\r\n\r\n一般発売：12/5(土) 10:00\r\n\r\nオンラインチケット発売：12/5(土) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）",
-      "price": {
-        "advance": 2000,
-        "door": 2500,
-        "online": 1300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:shibuya"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "07eba3e7",
@@ -46514,7 +46721,7 @@
       "open_time": "17:00",
       "start_time": "17:15",
       "end_time": "18:25",
-      "members": "[ネタ＆コーナーライブ]ゆにばーす／めぞん／kento fukaya／鶴亀／ランパンプス／ラニーノーズ／アメリカンBBチキン／ペッパーGuys",
+      "members": "[ネタ＆コーナーライブ]ゆにばーす／めぞん／kento fukaya／鶴亀／ランパンプス／そいつどいつ／ラニーノーズ／アメリカンBBチキン／ペッパーGuys",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -46529,9 +46736,15 @@
         "theater:shibuya"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]ゆにばーす／めぞん／kento fukaya／鶴亀／ランパンプス／ラニーノーズ／アメリカンBBチキン／ペッパーGuys",
+          "after": "[ネタ＆コーナーライブ]ゆにばーす／めぞん／kento fukaya／鶴亀／ランパンプス／そいつどいつ／ラニーノーズ／アメリカンBBチキン／ペッパーGuys"
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -46557,9 +46770,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "first_seen": "2026-10-31T13:12:56+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "25007847",
@@ -46590,7 +46804,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "9e12b108",
@@ -46606,20 +46821,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23452/59971",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 2500,
-        "door": 2800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23452/59971",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 2500,
+            "door": 2800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -46636,20 +46865,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23452/59972",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 2500,
-        "door": 2800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23452/59972",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 2500,
+            "door": 2800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -46694,20 +46937,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23452/59973",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 2500,
-        "door": 2800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23452/59973",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 2500,
+            "door": 2800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -46754,22 +47011,18 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23328/59871",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "今井らいぱちとkento fukayaによるユニットライブ！\r\n賞レースやSNSでバズらせるぞ！！\r\n今年もらいkenをよろしくお願いいたします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00\r\n\r\n〇配信： 12/5 (土) 10:00",
-      "price": {
-        "advance": 1800,
-        "door": 2300,
-        "online": 1300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "8e99f0c4",
@@ -46785,22 +47038,18 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23329/59873",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "DOG FOOD PARTYの、クラブにようこそ。\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00\r\n\r\n〇配信： 12/5 (土) 10:00",
-      "price": {
-        "advance": 1800,
-        "door": 2300,
-        "online": 1300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "bad801cb",
@@ -46816,20 +47065,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23452/59974",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 2500,
-        "door": 2800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23452/59974",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 2500,
+            "door": 2800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -46874,20 +47137,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23452/59975",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 2500,
-        "door": 2800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23452/59975",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 2500,
+            "door": 2800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -46904,20 +47181,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23452/59976",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 2500,
-        "door": 2800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23452/59976",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 2500,
+            "door": 2800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "東京マンゲキイチオシの若手芸人から人気芸人まで多数出演！\r\n漫才、コント、ピン芸、ゲームコーナーなどバラエティに富んだお笑いをお楽しみ頂ける、大満足間違いなしの75分お笑いライブ！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -47066,16 +47357,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]ダイタク／マユリカ／ミキ／他",
-          "after": "[ネタ]ダイタク／マユリカ／ミキ／ダブルヒガシ／カベポスター／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "b20df85f",
@@ -47131,16 +47417,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]ダイタク／マユリカ／ミキ／他",
-          "after": "[ネタ]ダイタク／マユリカ／ミキ／ダブルヒガシ／カベポスター／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d91f1a3d",
@@ -47170,7 +47451,8 @@
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "31a6edce",
@@ -47186,18 +47468,23 @@
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/23630/60425",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：11/25（水）11:00～11/28（土）11:00\r\n当落発表：11/29（日）18:00頃\r\nオンライン・一般発売：12/5（土）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n",
+      "price": {
+        "advance": 2300,
+        "door": 2600,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-24T04:52:14+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "e8c3e1d0",
@@ -47214,21 +47501,18 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23536/60025",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "大型ショッピングモールに呼ばれたことを想定したネタライブです！\r\nご家族連れや偉い大人に配慮しつつ一番イベントを盛り上げられるのは誰か！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00\r\n",
-      "price": {
-        "advance": 1500,
-        "door": 2000
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "5d3386f7",
@@ -47244,18 +47528,23 @@
       "venue": "大宮ラクーンよしもと劇場",
       "prefecture": "埼玉県",
       "image_url": null,
-      "ticket_url": null,
+      "ticket_url": "https://ticket.fany.lol/event/detail/23631/60426",
       "online_url": null,
-      "notice": null,
-      "price": null,
+      "notice": "前売券が完売した際には、当日券がない場合がございます。\r\n\r\n【チケット情報】\r\n先行期間：11/25（水）11:00～11/28（土）11:00\r\n当落発表：11/29（日）18:00頃\r\nオンライン・一般発売：12/5（土）10:00\r\n※都合により出演者が変更になる場合がございます\r\n\r\n★学生割引有（当日窓口のみ）\r\n　高校生以下は学生証提示で1000円！\r\n　当日券を窓口で購入されるお客様が対象となります。\r\n\r\n",
+      "price": {
+        "advance": 2300,
+        "door": 2600,
+        "online": 1300
+      },
       "sources": [
+        "theater:omiya",
         "profile"
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-24T04:52:14+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "3181ae35",
@@ -47271,20 +47560,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23515/60009",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 1500,
-        "door": 1800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23515/60009",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 1500,
+            "door": 1800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -47301,21 +47604,18 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23537/60026",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "2024年4月に上京したメンバーによるネタとコーナーライブ！\r\n配信なしの75分をぜひ劇場でお楽しみください！\r\n今年も『大阪銀座』をよろしくお願いします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00\r\n",
-      "price": {
-        "advance": 1800,
-        "door": 2300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "f05498ae",
@@ -47346,7 +47646,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "eb39016b",
@@ -47377,7 +47678,8 @@
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "a806f980",
@@ -47434,13 +47736,15 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "774e77b5",
@@ -47492,13 +47796,15 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "352586cf",
@@ -47550,13 +47856,15 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c17b9d96",
@@ -47609,13 +47917,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "29741b9c",
@@ -47631,20 +47941,34 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23515/60010",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
-      "price": {
-        "advance": 1500,
-        "door": 1800
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "ticket_url": {
+          "before": "https://ticket.fany.lol/event/detail/23515/60010",
+          "after": null
+        },
+        "price": {
+          "before": {
+            "advance": 1500,
+            "door": 1800
+          },
+          "after": null
+        },
+        "notice": {
+          "before": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00",
+          "after": null
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -47753,7 +48077,7 @@
       "open_time": "17:00",
       "start_time": "17:15",
       "end_time": "18:25",
-      "members": "[ネタ＆コーナーライブ]CITY／鶴亀／まちるだ／ケビンス／ラニーノーズ／ミカボ／軟水／cacao／三遊間",
+      "members": "[ネタ＆コーナーライブ]CITY／鶴亀／まちるだ／ケビンス／そいつどいつ／ラニーノーズ／ミカボ／軟水／cacao／三遊間",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
@@ -47768,9 +48092,15 @@
         "theater:shibuya"
       ],
       "local_image": null,
-      "status": "new",
+      "status": "updated",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "diff": {
+        "members": {
+          "before": "[ネタ＆コーナーライブ]CITY／鶴亀／まちるだ／ケビンス／ラニーノーズ／ミカボ／軟水／cacao／三遊間",
+          "after": "[ネタ＆コーナーライブ]CITY／鶴亀／まちるだ／ケビンス／そいつどいつ／ラニーノーズ／ミカボ／軟水／cacao／三遊間"
+        }
+      },
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
       "notified_at": null
     },
     {
@@ -47783,7 +48113,7 @@
       "open_time": "13:30",
       "start_time": "14:00",
       "end_time": null,
-      "members": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／kento fukaya／他",
+      "members": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／今井らいぱち／kento fukaya／カベポスター／ダブルヒガシ／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -47796,11 +48126,11 @@
       ],
       "local_image": null,
       "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "diff": {
         "members": {
-          "before": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／kento fukaya",
-          "after": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／kento fukaya／他"
+          "before": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／kento fukaya／他",
+          "after": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／今井らいぱち／kento fukaya／カベポスター／ダブルヒガシ／他"
         }
       },
       "first_seen": "2026-11-23T14:54:07+09:00",
@@ -47816,7 +48146,7 @@
       "open_time": "15:30",
       "start_time": "16:00",
       "end_time": null,
-      "members": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／kento fukaya／他",
+      "members": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／今井らいぱち／kento fukaya／カベポスター／ダブルヒガシ／他",
       "venue": "よしもと幕張イオンモール劇場",
       "prefecture": "千葉県",
       "image_url": null,
@@ -47829,11 +48159,11 @@
       ],
       "local_image": null,
       "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "diff": {
         "members": {
-          "before": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／kento fukaya",
-          "after": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／kento fukaya／他"
+          "before": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／kento fukaya／他",
+          "after": "[ネタ]ザ・パンチ／ダイタク／コロコロチキチキペッパーズ／今井らいぱち／kento fukaya／カベポスター／ダブルヒガシ／他"
         }
       },
       "first_seen": "2026-11-23T14:54:07+09:00",
@@ -47926,13 +48256,15 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "64c3f3fd",
@@ -47957,13 +48289,15 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0e9f9cd9",
@@ -47988,13 +48322,15 @@
         "door": 3100
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "new",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "22433a96",
@@ -48020,13 +48356,15 @@
         "online": 1300
       },
       "sources": [
-        "theater:shibuya"
+        "theater:shibuya",
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "5ddea357",
@@ -48050,16 +48388,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]あべこうじ／ハイキングウォーキング／バイク川崎バイク／シシガシラ／バンビーノ／カーネーション／マユリカ",
-          "after": "[ネタ]あべこうじ／ハイキングウォーキング／バイク川崎バイク／シシガシラ／バンビーノ／カーネーション／マユリカ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "10757298",
@@ -48111,16 +48444,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]あべこうじ／ハイキングウォーキング／バイク川崎バイク／シシガシラ／バンビーノ／カーネーション／マユリカ",
-          "after": "[ネタ]あべこうじ／ハイキングウォーキング／バイク川崎バイク／シシガシラ／バンビーノ／カーネーション／マユリカ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "bf0f54a1",
@@ -48144,16 +48472,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ]あべこうじ／ハイキングウォーキング／バイク川崎バイク／シシガシラ／バンビーノ／カーネーション／マユリカ",
-          "after": "[ネタ]あべこうじ／ハイキングウォーキング／バイク川崎バイク／シシガシラ／バンビーノ／カーネーション／マユリカ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-23T14:54:07+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-24T04:52:14+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "83e8c3ee",
@@ -48197,22 +48520,18 @@
       "venue": "神保町よしもと漫才劇場",
       "prefecture": "東京都",
       "image_url": null,
-      "ticket_url": "https://ticket.fany.lol/event/detail/23426/59866",
+      "ticket_url": null,
       "online_url": null,
-      "notice": "新年1発目！\r\n世間知らズのネタとコーナーのライブ！！\r\n世間知らズ新ネタ2本、ゲストネタ1本ずつ\r\nそしてコーナーの60分をお届けします！\r\n今年もよろしくお願いします！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n　・FANY IDメンバー\r\n　　11/25 (水) 11:00 ～ 11/28 (土) 11:00\r\n\r\n〇一般販売： 12/5 (土) 10:00\r\n\r\n〇配信： 12/5 (土) 10:00",
-      "price": {
-        "advance": 1500,
-        "door": 2000,
-        "online": 1300
-      },
+      "notice": null,
+      "price": null,
       "sources": [
-        "theater:jimbocho"
+        "profile"
       ],
       "local_image": null,
       "status": "notified",
+      "last_updated": "2026-11-24T17:32:18+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T17:32:18+09:00"
     },
     {
       "id": "6376ae45",
@@ -48239,7 +48558,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "e7b9652a",
@@ -48266,7 +48586,116 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
+    },
+    {
+      "id": "87871b8b",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "２月本公演",
+      "date": "2027-02-06",
+      "open_time": "09:30",
+      "start_time": "10:00",
+      "end_time": null,
+      "members": "[漫才・落語]メッセンジャー／村上ショージ／テンダラー／アインシュタイン／ガクテンソク／マヂカルラブリー／ミキ\n[新喜劇]アキ／川畑泰史／未知やすえ／山田花子",
+      "venue": "なんばグランド花月",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-11-24T17:32:18+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "notified_at": null
+    },
+    {
+      "id": "c5e38d74",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "２月本公演",
+      "date": "2027-02-06",
+      "open_time": "12:30",
+      "start_time": "13:00",
+      "end_time": null,
+      "members": "[漫才・落語]海原やすよ ともこ／メッセンジャー／村上ショージ／テンダラー／アインシュタイン／マヂカルラブリー／ミキ\n[新喜劇]アキ／川畑泰史／未知やすえ／山田花子",
+      "venue": "なんばグランド花月",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-11-24T17:32:18+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "notified_at": null
+    },
+    {
+      "id": "4ed4df13",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "２月本公演",
+      "date": "2027-02-06",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "[漫才・落語]海原やすよ ともこ／村上ショージ／テンダラー／アインシュタイン／ガクテンソク／マヂカルラブリー／ミキ\n[新喜劇]アキ／川畑泰史／未知やすえ／山田花子",
+      "venue": "なんばグランド花月",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-11-24T17:32:18+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "notified_at": null
+    },
+    {
+      "id": "df7865ba",
+      "talents": {
+        "2772": "マヂカルラブリー"
+      },
+      "title": "２月本公演",
+      "date": "2027-02-06",
+      "open_time": "18:30",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "[漫才・落語]村上ショージ／ザ・ぼんち／テンダラー／アインシュタイン／ガクテンソク／マヂカルラブリー／ミキ\n[新喜劇]アキ／川畑泰史／未知やすえ／山田花子",
+      "venue": "なんばグランド花月",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-11-24T17:32:18+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "notified_at": null
     },
     {
       "id": "78d33be5",
@@ -48379,7 +48808,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "f7e6ba27",
@@ -48406,7 +48836,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "1b18362d",
@@ -48433,7 +48864,116 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
+    },
+    {
+      "id": "59b26493",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "２月本公演",
+      "date": "2027-02-20",
+      "open_time": "09:30",
+      "start_time": "10:00",
+      "end_time": null,
+      "members": "[漫才・落語]桂文珍／笑い飯／ガクテンソク／見取り図／マユリカ\n[新喜劇]酒井藍／末成映薫／未知やすえ／松浦真也／森田まりこ",
+      "venue": "なんばグランド花月",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-11-24T17:32:18+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "notified_at": null
+    },
+    {
+      "id": "64f0d6c0",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "２月本公演",
+      "date": "2027-02-20",
+      "open_time": "12:30",
+      "start_time": "13:00",
+      "end_time": null,
+      "members": "[漫才・落語]桂文珍／海原やすよ ともこ／見取り図／マユリカ\n[新喜劇]酒井藍／末成映薫／未知やすえ／松浦真也／森田まりこ",
+      "venue": "なんばグランド花月",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-11-24T17:32:18+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "notified_at": null
+    },
+    {
+      "id": "132a519e",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "２月本公演",
+      "date": "2027-02-20",
+      "open_time": "15:30",
+      "start_time": "16:00",
+      "end_time": null,
+      "members": "[漫才・落語]桂文珍／海原やすよ ともこ／ガクテンソク／見取り図／マユリカ\n[新喜劇]酒井藍／末成映薫／未知やすえ／松浦真也／森田まりこ",
+      "venue": "なんばグランド花月",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-11-24T17:32:18+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "notified_at": null
+    },
+    {
+      "id": "1308d9c8",
+      "talents": {
+        "5114": "マユリカ"
+      },
+      "title": "２月本公演",
+      "date": "2027-02-20",
+      "open_time": "18:30",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "[漫才・落語]桂文珍／笑い飯／アキナ／ガクテンソク／マユリカ\n[新喜劇]酒井藍／末成映薫／未知やすえ／松浦真也／森田まりこ",
+      "venue": "なんばグランド花月",
+      "prefecture": "大阪府",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "new",
+      "first_seen": "2026-11-24T17:32:18+09:00",
+      "last_updated": "2026-11-24T17:32:18+09:00",
+      "notified_at": null
     },
     {
       "id": "e668e7f1",
@@ -48460,7 +49000,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "21cd68d7",
@@ -48487,7 +49028,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "f2238549",
@@ -48514,7 +49056,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "dc712b14",
@@ -48541,7 +49084,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "a4322ade",
@@ -48568,7 +49112,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "08736462",
@@ -48595,7 +49140,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "6b093389",
@@ -48622,7 +49168,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "7098895d",
@@ -48649,7 +49196,8 @@
       "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
       "last_updated": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-24T04:52:15+09:00"
+      "notified_at": "2026-11-24T04:52:15+09:00",
+      "diff": null
     },
     {
       "id": "d4e9f4bc",

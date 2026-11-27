@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T03:08:22+09:00",
+  "updated_at": "2026-11-27T15:52:05+09:00",
   "events": [
     {
       "id": "b9a2335e",
@@ -39752,20 +39752,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ出演者]ケビンス／ブラゴーリ／青いデルタ／私東京／寿司東京／他",
-          "after": "[ネタ出演者]ケビンス／ブラゴーリ／ゼロカラン／大王／青いデルタ／私東京／寿司東京／ミナミナミ"
-        },
-        "notice": {
-          "before": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00\r\n\r\n〇配信：10/5（月）10:00",
-          "after": "芸歴8年目以下の翔メンバーに、\r\n極メンバーもプラスした翔LIVEのスペシャル版！\r\n\r\n■チケット■\r\n全席指定\r\n〇先行販売：\r\n　・FANY IDプレミアムメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n　・FANY IDメンバー\r\n　　 9/25（金）11:00 ～ 9/28（月）11:00\r\n\r\n〇一般販売：10/5（月）10:00\r\n\r\n〇配信：10/5（月）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\nゼロカラン、大王、ミナミナミ(11/26)"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-09-23T12:28:31+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "27c038d4",
@@ -43243,20 +43234,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "ライス／ネルソンズ／やさしいズ／小森園ひろし／ビスケットブラザーズ／コロコロチキチキペッパーズ／世間知らズ／セカンドロット／他",
-          "after": "ライス／ネルソンズ／やさしいズ／小森園ひろし／ビスケットブラザーズ／コロコロチキチキペッパーズ／世間知らズ／サンタモニカ／セカンドロット"
-        },
-        "notice": {
-          "before": "次世代を担うNEXT若手コント師を中心としたコントライブ！\r\nKOCファイナリストや熟練のコント師たちも出演！\r\n\r\n------------------------------------\r\n※コントパス対象公演です。\r\n------------------------------------\r\n\r\n＼コントパス／6,000円（税込）\r\n2026年12月の「六本木コントライブNEXT！」（全10公演）がこのパス1枚で見放題！\r\n\r\n※YOSHIMOTO ROPPONGI THEATER 窓口でもお買い求めいただけます。\r\n------------------------------------\r\n\r\n【ご入場方法】\r\n1.「コントパス」整理番号1番～のお客様\r\n2. 前売券・当日券の整理番号201番～のお客様\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：10/25（日）11:00～10/28（水）11:00\r\n〇一般販売：11/5（木）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n小森園ひろし（11/8）\r\nやさしいズ（11/8）\r\n世間知らズ（11/8）\r\nセカンドロット（11/8）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます",
-          "after": "次世代を担うNEXT若手コント師を中心としたコントライブ！\r\nKOCファイナリストや熟練のコント師たちも出演！\r\n\r\n------------------------------------\r\n※コントパス対象公演です。\r\n------------------------------------\r\n\r\n＼コントパス／6,000円（税込）\r\n2026年12月の「六本木コントライブNEXT！」（全10公演）がこのパス1枚で見放題！\r\n\r\n※YOSHIMOTO ROPPONGI THEATER 窓口でもお買い求めいただけます。\r\n------------------------------------\r\n\r\n【ご入場方法】\r\n1.「コントパス」整理番号1番～のお客様\r\n2. 前売券・当日券の整理番号201番～のお客様\r\n\r\n■会場チケット■\r\n整理番号付き自由席\r\n〇先行受付：10/25（日）11:00～10/28（水）11:00\r\n〇一般販売：11/5（木）10:00\r\n\r\n■変更履歴■\r\n[追加]\r\n小森園ひろし（11/8）\r\nやさしいズ（11/8）\r\n世間知らズ（11/8）\r\nセカンドロット（11/8）\r\nサンタモニカ（11/26）\r\n\r\n※都合により、出演者が変更になる可能性がございます。\r\n※前売券が完売した際には、当日券がない場合がございます"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-10-24T21:27:30+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "144b7508",
@@ -43500,16 +43482,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]たくろう／9番街レトロ／kento fukaya／やさしいズ／くらげ／世間知らズ／伝書鳩",
-          "after": "[ネタ＆コーナーライブ]ロングコートダディ／たくろう／エルフ／9番街レトロ／kento fukaya／やさしいズ／くらげ／世間知らズ／伝書鳩"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "94e9d064",
@@ -43597,16 +43574,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]たくろう／9番街レトロ／kento fukaya／やさしいズ／くらげ／世間知らズ／伝書鳩",
-          "after": "[ネタ＆コーナーライブ]ロングコートダディ／たくろう／エルフ／9番街レトロ／kento fukaya／やさしいズ／くらげ／世間知らズ／伝書鳩"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "6ce9b7c3",
@@ -43698,16 +43670,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]たくろう／9番街レトロ／kento fukaya／やさしいズ／くらげ／世間知らズ／伝書鳩",
-          "after": "[ネタ＆コーナーライブ]ロングコートダディ／たくろう／エルフ／9番街レトロ／kento fukaya／やさしいズ／くらげ／世間知らズ／伝書鳩"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "03b3267e",
@@ -44710,7 +44677,7 @@
       "members": "[企画ライブ]kento fukaya／男性ブランコ／ケビンス／金魚番長",
       "venue": "渋谷よしもと漫才劇場",
       "prefecture": "東京都",
-      "image_url": null,
+      "image_url": "https://feed-cdn.yoshimoto.co.jp/img/poster/perm/00000000000000023773_1_20261127140044658.jpg",
       "ticket_url": "https://ticket.fany.lol/event/detail/22972/58731",
       "online_url": "https://online-ticket.yoshimoto.co.jp/products/%E3%82%86%E3%82%8B%E3%81%84%E3%81%9C-%E3%83%9E%E3%82%A6%E3%82%B9-12-29-19-00",
       "notice": "kento fukaya企画！今をときめく出演者によるネタとコーナーの60分ライブ！\r\n\r\n■チケット情報■\r\n\r\n＜プレミアム会員先行＞\r\n抽選受付：11/14(土) 11:00 〜 11/17(火) 11:00\r\n\r\n＜FANY ID会員先行＞\r\n抽選受付：11/14(土) 11:00 〜 11/17(火) 11:00\r\n\r\n一般発売：11/19(木) 10:00\r\n\r\nオンラインチケット発売：11/19(木) 10:00\r\n\r\n※劇場内での飲食不可（ペットボトル等ふたができるお飲み物は可）\r\n\r\n【追加】\r\n男性ブランコ、ケビンス、金魚番長(11/25)",
@@ -44723,12 +44690,11 @@
         "theater:shibuya",
         "profile"
       ],
-      "local_image": null,
+      "local_image": "fliers/36e8a867.jpg",
       "status": "notified",
+      "last_updated": "2026-11-27T15:52:04+09:00",
       "first_seen": "2026-11-11T01:06:42+09:00",
-      "last_updated": "2026-11-26T03:26:32+09:00",
-      "notified_at": "2026-11-26T03:26:33+09:00",
-      "diff": null
+      "notified_at": "2026-11-27T15:52:05+09:00"
     },
     {
       "id": "708763b7",
@@ -45037,16 +45003,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ちょんまげラーメン／ゆにばーす／カベポスター／ケビンス／シモリュウ／オダウエダ／ミカボ／シンクロニシティ",
-          "after": "[ネタ＆コーナーライブ]ちょんまげラーメン／ゆにばーす／カベポスター／ケビンス／シモリュウ／オダウエダ／ミカボ／シンクロニシティ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "fcb666c8",
@@ -45107,16 +45068,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ちょんまげラーメン／ゆにばーす／カベポスター／ケビンス／シモリュウ／オダウエダ／ミカボ／シンクロニシティ",
-          "after": "[ネタ＆コーナーライブ]ちょんまげラーメン／ゆにばーす／カベポスター／ケビンス／シモリュウ／オダウエダ／ミカボ／シンクロニシティ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9b7851e3",
@@ -45177,16 +45133,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ちょんまげラーメン／ゆにばーす／カベポスター／ケビンス／シモリュウ／オダウエダ／ミカボ／シンクロニシティ",
-          "after": "[ネタ＆コーナーライブ]ちょんまげラーメン／ゆにばーす／カベポスター／ケビンス／シモリュウ／オダウエダ／ミカボ／シンクロニシティ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d8a041ba",
@@ -46787,16 +46738,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩",
-          "after": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／マルセイユ／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "46d04916",
@@ -46852,16 +46798,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩",
-          "after": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／マルセイユ／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "d472f999",
@@ -46917,16 +46858,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩",
-          "after": "[ネタ＆コーナーライブ]バイク川崎バイク／ライス／ゆにばーす／マルセイユ／からし蓮根／ケビンス／そいつどいつ／田津原理音／ミカボ／伝書鳩／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "141cbee4",
@@ -47226,9 +47162,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-27T03:08:22+09:00",
       "first_seen": "2026-11-25T16:06:57+09:00",
-      "notified_at": "2026-11-27T03:08:22+09:00"
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": "2026-11-27T03:08:22+09:00",
+      "diff": null
     },
     {
       "id": "9d5f5ad2",
@@ -47395,16 +47332,11 @@
         "theater:shibuya"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ゆにばーす／めぞん／kento fukaya／鶴亀／ランパンプス／そいつどいつ／ラニーノーズ／アメリカンBBチキン／ペッパーGuys",
-          "after": "[ネタ＆コーナーライブ]ゆにばーす／めぞん／kento fukaya／鶴亀／ランパンプス／そいつどいつ／ラニーノーズ／アメリカンBBチキン／ペッパーGuys／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "cd0bee89",
@@ -47552,9 +47484,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-27T03:08:22+09:00",
       "first_seen": "2026-11-25T16:06:57+09:00",
-      "notified_at": "2026-11-27T03:08:22+09:00"
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": "2026-11-27T03:08:22+09:00",
+      "diff": null
     },
     {
       "id": "9e12b108",
@@ -48278,16 +48211,11 @@
         "theater:shibuya"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ゆにばーす／カベポスター／ダブルヒガシ／CITY／kento fukaya／オダウエダ／素敵じゃないか／アメリカンBBチキン／生ファラオ",
-          "after": "[ネタ＆コーナーライブ]ゆにばーす／カベポスター／ダブルヒガシ／CITY／マルセイユ／kento fukaya／オダウエダ／素敵じゃないか／アメリカンBBチキン／生ファラオ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "31a6edce",
@@ -48479,9 +48407,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-27T03:08:22+09:00",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": "2026-11-27T03:08:22+09:00"
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": "2026-11-27T03:08:22+09:00",
+      "diff": null
     },
     {
       "id": "eb39016b",
@@ -48509,16 +48438,11 @@
         "theater:shibuya"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]セッツァー／入間国際宣言／九条ジョー／ケビンス／黄昏の森／素敵じゃないか／ブラゴーリ／太鵬",
-          "after": "[ネタ＆コーナーライブ]エルフ／セッツァー／入間国際宣言／九条ジョー／ケビンス／黄昏の森／素敵じゃないか／ブラゴーリ／太鵬／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "943626da",
@@ -48546,16 +48470,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ビスケットブラザーズ／さや香／ドンデコルテ／今井らいぱち／やさしいズ／からし蓮根／ブラゴーリ／インテイク／鉄人小町／ボブのコーラ",
-          "after": "[ネタ＆コーナーライブ]ビスケットブラザーズ／さや香／ドンデコルテ／今井らいぱち／やさしいズ／からし蓮根／ブラゴーリ／インテイク／鉄人小町／ボブのコーラ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-25T16:06:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "05ada2a7",
@@ -48615,16 +48534,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ビスケットブラザーズ／さや香／ドンデコルテ／今井らいぱち／やさしいズ／からし蓮根／ブラゴーリ／インテイク／鉄人小町／ボブのコーラ",
-          "after": "[ネタ＆コーナーライブ]ビスケットブラザーズ／さや香／ドンデコルテ／今井らいぱち／やさしいズ／からし蓮根／ブラゴーリ／インテイク／鉄人小町／ボブのコーラ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-25T16:06:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "0c65d069",
@@ -48652,16 +48566,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ビスケットブラザーズ／さや香／ドンデコルテ／今井らいぱち／やさしいズ／からし蓮根／ブラゴーリ／インテイク／鉄人小町／ボブのコーラ",
-          "after": "[ネタ＆コーナーライブ]ビスケットブラザーズ／さや香／ドンデコルテ／今井らいぱち／やさしいズ／からし蓮根／ブラゴーリ／インテイク／鉄人小町／ボブのコーラ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-25T16:06:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "c6e6bab1",
@@ -48786,16 +48695,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ヘンダーソン／ダンビラムーチョ／滝音／9番街レトロ／やさしいズ／九条ジョー／アメリカンBBチキン／シンクロニシティ／太鵬／兄弟",
-          "after": "[ネタ＆コーナーライブ]ヘンダーソン／ダンビラムーチョ／滝音／9番街レトロ／やさしいズ／九条ジョー／アメリカンBBチキン／シンクロニシティ／太鵬／兄弟／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "774e77b5",
@@ -48883,16 +48787,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ヘンダーソン／ダンビラムーチョ／滝音／9番街レトロ／やさしいズ／九条ジョー／アメリカンBBチキン／シンクロニシティ／太鵬／兄弟",
-          "after": "[ネタ＆コーナーライブ]ヘンダーソン／ダンビラムーチョ／滝音／9番街レトロ／やさしいズ／九条ジョー／アメリカンBBチキン／シンクロニシティ／太鵬／兄弟／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "352586cf",
@@ -48948,16 +48847,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ヘンダーソン／ダンビラムーチョ／滝音／9番街レトロ／やさしいズ／九条ジョー／アメリカンBBチキン／シンクロニシティ／太鵬／兄弟",
-          "after": "[ネタ＆コーナーライブ]ヘンダーソン／ダンビラムーチョ／滝音／9番街レトロ／やさしいズ／九条ジョー／アメリカンBBチキン／シンクロニシティ／太鵬／兄弟／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-24T04:52:14+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "19f7881e",
@@ -49326,9 +49220,10 @@
       ],
       "local_image": null,
       "status": "notified",
-      "last_updated": "2026-11-27T03:08:22+09:00",
       "first_seen": "2026-11-25T16:06:57+09:00",
-      "notified_at": "2026-11-27T03:08:22+09:00"
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": "2026-11-27T03:08:22+09:00",
+      "diff": null
     },
     {
       "id": "51149f05",
@@ -49833,16 +49728,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ななまがり／ビスケットブラザーズ／ゆにばーす／いぬ／カラタチ／シモリュウ／そいつどいつ／マリーマリー／イチゴ",
-          "after": "[ネタ＆コーナーライブ]ななまがり／ビスケットブラザーズ／ゆにばーす／いぬ／カラタチ／シモリュウ／そいつどいつ／マリーマリー／イチゴ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-25T16:06:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "5ddea357",
@@ -49898,16 +49788,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ななまがり／ビスケットブラザーズ／ゆにばーす／いぬ／カラタチ／シモリュウ／そいつどいつ／イチゴ",
-          "after": "[ネタ＆コーナーライブ]ななまがり／ビスケットブラザーズ／ゆにばーす／いぬ／カラタチ／シモリュウ／そいつどいつ／イチゴ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-25T16:06:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "10757298",
@@ -49991,16 +49876,11 @@
         "profile"
       ],
       "local_image": null,
-      "status": "updated",
-      "last_updated": "2026-11-27T03:08:22+09:00",
-      "diff": {
-        "members": {
-          "before": "[ネタ＆コーナーライブ]ななまがり／ビスケットブラザーズ／ゆにばーす／いぬ／カラタチ／シモリュウ／そいつどいつ／イチゴ",
-          "after": "[ネタ＆コーナーライブ]ななまがり／ビスケットブラザーズ／ゆにばーす／いぬ／カラタチ／シモリュウ／そいつどいつ／イチゴ／他"
-        }
-      },
+      "status": "notified",
       "first_seen": "2026-11-25T16:06:57+09:00",
-      "notified_at": null
+      "last_updated": "2026-11-27T03:08:22+09:00",
+      "notified_at": null,
+      "diff": null
     },
     {
       "id": "9ec0c93a",
@@ -50688,6 +50568,33 @@
       "last_updated": "2026-11-25T16:06:57+09:00",
       "notified_at": null,
       "diff": null
+    },
+    {
+      "id": "fa44b4e2",
+      "talents": {
+        "10708": "シンクロニシティ"
+      },
+      "title": "道楽邂逅～February～",
+      "date": "2027-02-22",
+      "open_time": "18:30",
+      "start_time": "19:00",
+      "end_time": null,
+      "members": "ZAZY／ななまがり／エバース／シンクロニシティ",
+      "venue": "ルミネtheよしもと",
+      "prefecture": "東京都",
+      "image_url": null,
+      "ticket_url": null,
+      "online_url": null,
+      "notice": null,
+      "price": null,
+      "sources": [
+        "profile"
+      ],
+      "local_image": null,
+      "status": "notified",
+      "first_seen": "2026-11-27T15:52:04+09:00",
+      "last_updated": "2026-11-27T15:52:04+09:00",
+      "notified_at": "2026-11-27T15:52:05+09:00"
     },
     {
       "id": "e668e7f1",
